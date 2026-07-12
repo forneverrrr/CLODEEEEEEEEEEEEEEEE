@@ -1,0 +1,4 @@
+inbox/*
+!inbox/.gitkeep
+reports/*
+!reports/.gitkeep

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BoligCheck — Tornhøjparken 9, 9220 Aalborg Øst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0F1E30; --cream:#E8DED1; --rust:#C4533F; --ice:#B0C9DA; --gold:#D4975A;
+    --paper:#FBF8F3; --ink:#1B2A3A; --muted:#5C6B79; --line:#DED3C4;
+    --rust-soft:#F3DDD7; --gold-soft:#F1E2CC; --ice-soft:#E4EEF4; --grey-soft:#E7E9EC;
+    --display:"Fraunces",Georgia,"Times New Roman",serif;
+    --body:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.62;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px;}
+  h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.18;color:var(--navy);margin:0;letter-spacing:-.01em;}
+  p{margin:.6em 0;}
+  a{color:var(--rust);}
+  .small{font-size:13.5px;}
+  .muted{color:var(--muted);}
+  .mono{font-family:var(--mono);}
+  strong{font-weight:600;color:var(--navy);}
+
+  /* ---- Cover ---- */
+  .cover{background:var(--navy);color:var(--cream);padding:48px 0 40px;}
+  .cover .wrap{position:relative;}
+  .brandrow{display:flex;align-items:center;gap:13px;margin-bottom:30px;}
+  .lh{width:30px;height:42px;flex:none;}
+  .brandname{font-family:var(--display);font-size:21px;letter-spacing:.02em;}
+  .brandname b{font-weight:800;color:#fff;} .brandname span{font-weight:300;color:var(--ice);}
+  .tag{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-left:auto;}
+  .cover h1{color:#fff;font-size:34px;font-weight:600;max-width:18ch;}
+  .cover .addr{font-size:18px;color:var(--ice);margin-top:6px;}
+  .factgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(176,201,218,.22);border:1px solid rgba(176,201,218,.22);margin-top:30px;border-radius:8px;overflow:hidden;}
+  .factgrid div{background:var(--navy);padding:13px 14px;}
+  .factgrid .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);}
+  .factgrid .v{font-size:16px;color:#fff;margin-top:3px;font-weight:500;}
+  .disclaim{margin-top:24px;font-size:12.5px;color:var(--ice);border-left:2px solid var(--gold);padding:4px 0 4px 13px;max-width:74ch;}
+
+  /* ---- Sections ---- */
+  section{padding:34px 0;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--rust);display:inline-block;}
+  h2.sec{font-size:25px;margin-bottom:6px;}
+  .lead{font-size:16.5px;color:var(--ink);}
+
+  /* ---- Evidence tags ---- */
+  .src{font-family:var(--mono);font-size:10.5px;padding:1px 6px;border-radius:4px;white-space:nowrap;vertical-align:1.5px;font-weight:500;line-height:1.7;}
+  .src.doc{background:#E2E8EF;color:#274057;}
+  .src.web{background:var(--ice-soft);color:#2C5B72;}
+  .src.calc{background:var(--gold-soft);color:#8A5A22;}
+  .src.assume{background:transparent;border:1px solid var(--rust);color:var(--rust);}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12.5px;color:var(--muted);align-items:center;margin-top:8px;}
+
+  /* ---- Verdict ---- */
+  .verdict{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;margin-top:4px;box-shadow:0 1px 0 rgba(15,30,48,.04);}
+  .vhead{display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+  .vbadge{font-family:var(--display);font-weight:600;font-size:21px;padding:8px 18px;border-radius:10px;background:var(--gold-soft);color:#7a4d18;border:1px solid var(--gold);}
+  .vbadge.caution{background:var(--gold-soft);color:#80531c;border-color:var(--gold);}
+  .vreason{font-size:16px;flex:1;min-width:240px;}
+  .vrow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px;}
+  .vcell{background:#fff;border:1px solid var(--line);border-radius:10px;padding:13px 14px;}
+  .vcell .k{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+  .vcell .v{font-size:17px;font-weight:600;color:var(--navy);margin-top:3px;font-family:var(--display);}
+  .vcell .v small{font-family:var(--body);font-weight:500;font-size:12.5px;color:var(--muted);display:block;margin-top:2px;}
+  .cols2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px;}
+  .clist{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;}
+  .clist h4{font-size:14px;font-family:var(--mono);font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px;}
+  .clist.good h4{color:#2f6e4a;} .clist.risk h4{color:var(--rust);}
+  .clist ol,.clist ul{margin:0;padding-left:18px;} .clist li{margin:5px 0;font-size:14.5px;}
+  .nextbox{margin-top:16px;background:var(--navy);color:var(--cream);border-radius:10px;padding:15px 18px;font-size:14.5px;}
+  .nextbox b{color:#fff;}
+
+  /* ---- Hidden signals (signature) ---- */
+  .signals{background:var(--navy);border-bottom:none;position:relative;overflow:hidden;}
+  .signals::before{content:"";position:absolute;top:-40%;left:18%;width:64%;height:200%;
+    background:radial-gradient(closest-side,rgba(212,151,90,.30),rgba(212,151,90,.06) 60%,transparent 72%);
+    transform:rotate(-8deg);pointer-events:none;}
+  .signals .eyebrow{color:var(--gold);} .signals .eyebrow::before{background:var(--gold);}
+  .signals h2.sec{color:#fff;} .signals .lead{color:var(--ice);}
+  .sgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px;position:relative;}
+  .scard{background:rgba(251,248,243,.97);border-radius:12px;padding:15px 16px;border-left:4px solid var(--gold);}
+  .scard.crit{border-left-color:var(--rust);}
+  .scard .stitle{font-family:var(--display);font-weight:600;font-size:16.5px;color:var(--navy);display:flex;align-items:center;gap:8px;}
+  .pin{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 7px;border-radius:20px;letter-spacing:.04em;}
+  .pin.r{background:var(--rust);color:#fff;} .pin.w{background:var(--gold);color:#3a2406;}
+  .scard p{font-size:13.8px;margin:7px 0 0;color:#33414f;}
+
+  /* ---- Scorecard ---- */
+  table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14.5px;}
+  th,td{text-align:left;padding:10px 11px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+  .bar{height:7px;border-radius:6px;background:var(--grey-soft);overflow:hidden;min-width:84px;}
+  .bar i{display:block;height:100%;background:var(--gold);border-radius:6px;}
+  .scorenum{font-family:var(--display);font-weight:600;color:var(--navy);}
+  .overall{display:flex;align-items:baseline;gap:12px;margin-top:18px;padding:16px 18px;background:var(--paper);border:1px solid var(--line);border-radius:12px;}
+  .overall .big{font-family:var(--display);font-size:40px;font-weight:600;color:var(--navy);line-height:1;}
+  .risk{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:20px;}
+  .risk.med{background:var(--gold-soft);color:#80531c;}
+
+  /* ---- Price delta visual ---- */
+  .delta{margin:18px 0 6px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;}
+  .scale{position:relative;height:54px;margin:30px 8px 8px;}
+  .track{position:absolute;top:24px;left:0;right:0;height:8px;border-radius:6px;background:linear-gradient(90deg,#cfe0d4,#f0e2cc 55%,var(--rust-soft));}
+  .mk{position:absolute;top:14px;transform:translateX(-50%);text-align:center;}
+  .mk .dot{width:14px;height:14px;border-radius:50%;background:var(--navy);margin:0 auto;border:3px solid #fff;box-shadow:0 0 0 1px var(--navy);}
+  .mk.ask .dot{background:var(--rust);box-shadow:0 0 0 1px var(--rust);}
+  .mk .lab{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:7px;white-space:nowrap;}
+  .mk .val{font-size:12.5px;font-weight:600;color:var(--navy);margin-top:1px;}
+  .rangeband{position:absolute;top:22px;height:12px;background:rgba(47,110,74,.18);border-left:2px dashed #2f6e4a;border-right:2px dashed #2f6e4a;border-radius:3px;}
+
+  /* ---- Damage tables ---- */
+  .sev{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:20px;white-space:nowrap;}
+  .sev.rod{background:var(--rust);color:#fff;} .sev.gul{background:var(--gold);color:#3a2406;}
+  .sev.graa{background:#C9CED3;color:#3a4651;} .sev.q{background:var(--ice);color:#234} 
+  .tally{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 4px;}
+  .tpill{font-family:var(--mono);font-size:12px;padding:6px 12px;border-radius:8px;font-weight:600;}
+  .tpill.r{background:var(--rust-soft);color:var(--rust);} .tpill.g{background:var(--gold-soft);color:#80531c;}
+  .tpill.x{background:var(--grey-soft);color:#46535f;} .tpill.i{background:var(--ice-soft);color:#2C5B72;}
+
+  .callout{background:var(--rust-soft);border-left:4px solid var(--rust);border-radius:0 10px 10px 0;padding:13px 16px;margin:16px 0;font-size:14.5px;}
+  .callout.ice{background:var(--ice-soft);border-left-color:#3E7C9A;}
+  .callout b{color:var(--navy);}
+  .qlist li{margin:8px 0;}
+  .check li{margin:7px 0;}
+
+  /* ---- Operator appendix ---- */
+  .opwrap{background:#11202F;color:#cdd8e2;}
+  .opwrap .wrap{padding-top:34px;padding-bottom:40px;}
+  .opwrap h2{color:#fff;} .opwrap h3{color:var(--gold);font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin:20px 0 6px;}
+  .opwrap .eyebrow{color:var(--gold);} .opwrap .eyebrow::before{background:var(--gold);}
+  .opwrap table th{color:#8fa6b8;border-color:#26384a;}
+  .opwrap table td{border-color:#26384a;color:#cdd8e2;}
+  .opbanner{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#11202F;background:var(--gold);display:inline-block;padding:5px 12px;border-radius:6px;font-weight:600;}
+  .opwrap a{color:var(--ice);}
+
+  footer{background:var(--navy);color:var(--ice);font-size:12.5px;padding:22px 0;}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;}
+
+  @media(max-width:680px){
+    .factgrid{grid-template-columns:1fr 1fr;} .vrow{grid-template-columns:1fr;}
+    .cols2{grid-template-columns:1fr;} .sgrid{grid-template-columns:1fr;}
+    .cover h1{font-size:27px;} h2.sec{font-size:22px;}
+  }
+  @media print{
+    body{background:#fff;font-size:12px;}
+    .cover,.signals,.opwrap,footer{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    section{page-break-inside:auto;} .scard,.vcell,.clist,.delta,.verdict{page-break-inside:avoid;}
+    .signals::before{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<header class="cover">
+  <div class="wrap">
+    <div class="brandrow">
+      <svg class="lh" viewBox="0 0 30 42" aria-hidden="true">
+        <rect x="9" y="16" width="12" height="22" fill="var(--cream)"/>
+        <path d="M9 16 h12 v3 h-12z M9 12 l3 4 h6 l3-4 z" fill="var(--cream)"/>
+        <path d="M11 8 h8 l-2 4 h-4z" fill="var(--rust)"/>
+        <rect x="12.5" y="3" width="5" height="6" rx="1" fill="var(--ice)"/>
+        <path d="M2 30 L13 22 L13 26 L4 33 Z" fill="var(--gold)" opacity=".85"/>
+        <circle cx="15" cy="6" r="1.5" fill="var(--gold)"/>
+      </svg>
+      <div class="brandname"><b>Nord</b><span>Indsigt</span></div>
+      <div class="tag">BoligCheck · Property Intelligence</div>
+    </div>
+
+    <h1>The full read on a 1976 family villa — before you bid.</h1>
+    <div class="addr">Tornhøjparken 9 · 9220 Aalborg Øst · Detached villa (enfamiliehus)</div>
+
+    <div class="factgrid">
+      <div><div class="k">Asking price</div><div class="v">2,295,000 kr</div></div>
+      <div><div class="k">Living area</div><div class="v">180 m²</div></div>
+      <div><div class="k">Plot</div><div class="v">902 m²</div></div>
+      <div><div class="k">Built</div><div class="v">1976</div></div>
+      <div><div class="k">Energy label</div><div class="v">C</div></div>
+      <div><div class="k">Heating</div><div class="v">District (fjernvarme)</div></div>
+      <div><div class="k">Price / m²</div><div class="v">12,800 kr</div></div>
+      <div><div class="k">Report date</div><div class="v">18 Jun 2026</div></div>
+    </div>
+
+    <p class="disclaim">This is an <b style="color:#fff">informational, AI-assisted preliminary analysis</b> for a buyer who may not read Danish documents confidently. It is <b style="color:#fff">not</b> an official valuation (offentlig vurdering), legal or financial advice, or a building inspection, and it never replaces your own lawyer, bank, surveyor or an authorised electrician. Every factual claim is tagged with its source; uncertain items are labelled as such.</p>
+  </div>
+</header>
+
+<!-- ============ VERDICT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">The verdict — first page, stands alone</div>
+    <h2 class="sec">A solid-bones house, priced at the top of its market</h2>
+
+    <div class="verdict">
+      <div class="vhead">
+        <span class="vbadge caution">Caution — positive with conditions</span>
+        <span class="vreason">A genuinely spacious 180 m² family home with good bones and a full document set — but it sits at the upper end of recent local prices while carrying an asbestos roof on the clock, several moisture and electrical-safety items, and a slow local market. Worth pursuing <b>after</b> you verify two things and price in the repairs.</span>
+      </div>
+
+      <div class="vrow">
+        <div class="vcell"><div class="k">Overall risk</div><div class="v">Medium</div></div>
+        <div class="vcell"><div class="k">Indicative fair-price range</div><div class="v">2.00–2.30M kr<small>Confidence: Medium · asking is at the top</small></div></div>
+        <div class="vcell"><div class="k">Keep looking / proceed?</div><div class="v">With conditions<small>Negotiate + verify, don't walk away</small></div></div>
+      </div>
+
+      <div class="cols2">
+        <div class="clist good">
+          <h4>Top 3 strengths</h4>
+          <ol>
+            <li><b>Real space, simple to run.</b> 180 m² over 1½ floors on a 902 m² plot, with low-maintenance district heating <span class="src doc">salgsopstilling p.1</span>.</li>
+            <li><b>Full, transparent paperwork.</b> Condition + electrical + energy reports all present — you're buying with eyes open <span class="src doc">Mode A</span>.</li>
+            <li><b>Area on an upward curve.</b> A quiet owner-occupied pocket beside a district under major, funded regeneration <span class="src web">Realdania, 2025</span>.</li>
+          </ol>
+        </div>
+        <div class="clist risk">
+          <h4>Top 3 concerns</h4>
+          <ol>
+            <li><b>Electrical safety.</b> The RCD (HFI/HPFI) does not trip, plus fire-risk wiring items <span class="src doc">elrapport p.6–8</span>.</li>
+            <li><b>Asbestos roof + moisture cluster.</b> Eternit-asbestos roof, plus roof-ventilation and damp signals <span class="src doc">tilstandsrapport p.8,14</span>.</li>
+            <li><b>Slow, perception-sensitive market.</b> Median time-on-market for 9220 villas ≈ 231 days <span class="src web">DinGeo, Jun 2026</span>.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="nextbox">
+        <b>Before you bid, check these three first:</b> &nbsp;1) Get an <b>authorised electrician</b> on the non-tripping RCD and consumer board. &nbsp;2) Get a <b>roofer / byggesagkyndig</b> on roof ventilation, the ridge (rygning) and remaining eternit life. &nbsp;3) Bring your <b>own advokat / køberrådgiver</b> and binding repair quotes to set your number.
+      </div>
+      <p class="small muted" style="margin-top:12px"><b>What would change this verdict →</b> A price move toward the lower-middle of the comp range plus a clean electrical re-inspection would shift this from <i>Caution</i> to <i>Positive</i>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HIDDEN SIGNALS (signature) ============ -->
+<section class="signals">
+  <div class="wrap">
+    <div class="eyebrow">What the listing doesn't put up front</div>
+    <h2 class="sec">Six signals we'd want a buyer to see first</h2>
+    <p class="lead">The advert leads with “quiet,” “well-kept,” and “trygge stisystemer.” All fair. Here is what an honest Danish-reading friend would flag before the romance.</p>
+
+    <div class="sgrid">
+      <div class="scard crit">
+        <div class="stitle">Asbestos roof, on the clock <span class="pin r">roof</span></div>
+        <p>Roof is corrugated eternit <b>containing asbestos</b>, confirmed in BBR and the condition report. Statistical service life runs to ~2056, so it isn't urgent — but eventual replacement is a special-handling cost, and ~14 plates were already changed after the Feb-2026 storm <span class="src doc">tilstandsrapport p.5–8</span> <span class="src doc">sælgeropl. p.19</span>.</p>
+      </div>
+      <div class="scard crit">
+        <div class="stitle">A safety device that doesn't fire <span class="pin r">electrical</span></div>
+        <p>The RCD (HFI/HPFI earth-leakage breaker) <b>does not cut out</b>, its test button is defective, and the board can take oversized fuses — all in the fire/shock category <span class="src doc">elrapport p.6, faults #1–3</span>. This is cheap to misjudge and serious to ignore. Authorised electrician, before anything else.</p>
+      </div>
+      <div class="scard">
+        <div class="stitle">A neighbourhood with a past — and a plan <span class="pin w">area</span></div>
+        <p>The adjacent Tornhøj social-housing area spent years on the state “ghettoliste” (now <i>udsatte boligområder</i>), and is mid-way through a large funded transformation, <i>Kickstart Tornhøj</i> <span class="src web">Realdania, 2025</span> <span class="src web">lex.dk</span>. Material for resale and perception — the villa itself sits in a private pocket beside it, not inside the listed blocks.</p>
+      </div>
+      <div class="scard">
+        <div class="stitle">The market here is slow <span class="pin w">liquidity</span></div>
+        <p>Median time-on-market for villas in 9220 is roughly <b>231 days</b> <span class="src web">DinGeo, 4 Jun 2026</span>. This home is only at day 30 <span class="src web">Boligsiden</span> — fresh, but in a buyer's market. That's leverage for you and a caution for resale.</p>
+      </div>
+      <div class="scard">
+        <div class="stitle">A storm left fingerprints <span class="pin w">moisture</span></div>
+        <p>February 2026's storm shows up across the file: damp traces in the first-floor living room, insufficient roof ventilation, and a ridge sealed with moisture-absorbing mineral wool (the wrong material) <span class="src doc">tilstandsrapport p.14–15, faults #15,16,23</span>. A cluster worth one specialist visit.</p>
+      </div>
+      <div class="scard">
+        <div class="stitle">Something has been living in the roof <span class="pin w">pests</span></div>
+        <p>Both skunk (eaves) spaces show insulation <b>damaged by a marten / husmår</b> <span class="src doc">tilstandsrapport p.14, fault #14</span>. That means reduced insulation and a route an animal has used — ask how and whether it's been closed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCORECARD ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Scorecard</div>
+    <h2 class="sec">How it scores, and why</h2>
+    <p class="muted small">0–100, weighted. Each line carries its own reason. A high document score reflects how much is knowable here — not how good the house is.</p>
+    <table>
+      <thead><tr><th>Category</th><th>Weight</th><th style="width:120px">Score</th><th>One-line reason</th></tr></thead>
+      <tbody>
+        <tr><td>Price</td><td>25%</td><td><div class="bar"><i style="width:60%"></i></div><span class="scorenum">60</span></td><td>At the upper end of recent comps; below public valuation but condition argues for less.</td></tr>
+        <tr><td>Condition</td><td>20%</td><td><div class="bar"><i style="width:50%"></i></div><span class="scorenum">50</span></td><td>8 red + ~9 yellow findings, mostly moisture / wet-zone / electrical; no structural alarm.</td></tr>
+        <tr><td>Neighbourhood</td><td>20%</td><td><div class="bar"><i style="width:55%"></i></div><span class="scorenum">55</span></td><td>Improving regeneration area, decent amenities; schools below national average.</td></tr>
+        <tr><td>Liquidity</td><td>15%</td><td><div class="bar"><i style="width:40%"></i></div><span class="scorenum">40</span></td><td>Median ~231 days on market locally — a clear buyer's market.</td></tr>
+        <tr><td>Renovation risk</td><td>10%</td><td><div class="bar"><i style="width:50%"></i></div><span class="scorenum">50</span></td><td>Several small-to-moderate items now, plus a long-term asbestos-roof reserve.</td></tr>
+        <tr><td>Documents</td><td>10%</td><td><div class="bar"><i style="width:85%"></i></div><span class="scorenum">85</span></td><td>Complete Mode-A package: condition, electrical, energy, seller disclosures.</td></tr>
+      </tbody>
+    </table>
+    <div class="overall">
+      <span class="big">55</span>
+      <div><div class="mono small muted">Weighted overall · /100</div>
+      <span class="risk med">Risk: Medium</span>
+      <span class="small muted" style="margin-left:8px">Two items to clear before bidding: the electrical RCD, and price-vs-condition in a slow market.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 1. ABOUT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">1 · About the object</div>
+    <h2 class="sec">What you're actually buying</h2>
+    <p>A detached single-family house (<b>fritliggende enfamiliehus</b>, BBR use code 120) from 1976, 180 m² over 1½ floors (≈70 m² in the upper floor), on a generous 902 m² plot <span class="src doc">tilstandsrapport p.9</span> <span class="src web">Boligsiden BBR</span>. Yellow brick, hule mure (cavity walls), with light timber-clad gable sections on the upper floor; concrete terrændæk floor; district heating <span class="src doc">tilstandsrapport p.28</span>.</p>
+    <p>On the plot: the house (litra A), a 1979 carport with attached store (litra B, 32 m²), a small skur (litra C), and a self-built workshop the seller calls “Hoppirum.” Note two <b>BBR mismatches</b>: the carport's placement is not correctly registered, and the skur is not in BBR at all <span class="src doc">tilstandsrapport p.10</span>. Layout is open kitchen/alrum/stue downstairs with a covered south terrace; upstairs a living room, two rooms and a bathroom open onto a south-facing balcony <span class="src doc">salgsopstilling p.3</span>.</p>
+    <p>The seller has owned it ~26 years (since ~1999/2000) <span class="src doc">sælgeropl. p.18</span>, which matches the last recorded sale: 1,088,484 kr in June 1999 <span class="src web">Boligsiden history</span>. Appliances are mostly from 2016 (a couple from 2018/2023) <span class="src doc">salgsopstilling p.2</span>. Mandatory membership of the local owners' association, <b>Ejerlauget Tornhøjparken</b>, at 1,200 kr/yr, with a 1976 servitut (association statutes) on the title <span class="src doc">salgsopstilling p.2,5</span>.</p>
+  </div>
+</section>
+
+<!-- ============ 2. PRICE & MARKET ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">2 · Price &amp; market</div>
+    <h2 class="sec">Is 2,295,000 kr a fair number?</h2>
+    <p>Asking is <b>2,295,000 kr</b>, about <b>12,800 kr/m²</b> on the weighted area <span class="src doc">salgsopstilling p.1</span> <span class="src web">Boligsiden</span>. That's below the preliminary 2024 public valuation of 2,547,000 kr <span class="src web">Boligsiden / Vurderingsstyrelsen 2024</span> — but a public valuation is <b>not</b> market value, the 2024 figures are preliminary, and “below valuation” is a reason to investigate, not an automatic bargain.</p>
+
+    <p>The honest test is recent <b>free-market sales</b> of similar villas in 9220 (all 2026):</p>
+    <table>
+      <thead><tr><th>Sold comp (free sale)</th><th>Date</th><th>Size</th><th>Price</th><th>kr/m²</th></tr></thead>
+      <tbody>
+        <tr><td><b>Rebildparken 100</b> — closest by size</td><td>19 Mar</td><td>~180 m²</td><td>2,550,000</td><td>14,167</td></tr>
+        <tr><td>Råbjergvej 5</td><td>22 Mar</td><td>~154 m²</td><td>2,275,000</td><td>14,773</td></tr>
+        <tr><td>Ølandvej 22</td><td>13 Mar</td><td>~150 m²</td><td>2,040,000</td><td>13,600</td></tr>
+        <tr><td>Ringkøbingvej 14</td><td>11 Apr</td><td>~171 m²</td><td>1,900,000</td><td>11,111</td></tr>
+        <tr><td>Allerupvej 27</td><td>26 Mar</td><td>~187 m²</td><td>1,900,000</td><td>10,160</td></tr>
+        <tr><td class="muted">Tornhøjparken 102 — <i>family sale, excluded</i></td><td class="muted">24 Mar</td><td class="muted">~166 m²</td><td class="muted">1,185,000</td><td class="muted">7,139</td></tr>
+      </tbody>
+    </table>
+    <p class="small muted" style="margin-top:4px">Source for all rows: <span class="src web">Boligsiden / Boliga sold lists, retrieved Jun 2026</span>. The family sale on the same street is excluded from market pricing (intra-family transfers run well below market).</p>
+
+    <div class="delta">
+      <p style="margin:0 0 4px"><b>Where the asking price sits</b> — for ~150–190 m² houses, free-market sales spanned ~1.90M to 2.55M kr. The asking price lands near the top.</p>
+      <div class="scale">
+        <div class="track"></div>
+        <div class="rangeband" style="left:33%;right:13%"></div>
+        <div class="mk" style="left:6%"><div class="dot"></div><div class="lab">low comp</div><div class="val">1.90M</div></div>
+        <div class="mk" style="left:33%"><div class="dot"></div><div class="lab">our est. fair range</div><div class="val">2.00M</div></div>
+        <div class="mk ask" style="left:73%"><div class="dot"></div><div class="lab">asking</div><div class="val">2.295M</div></div>
+        <div class="mk" style="left:87%"><div class="dot"></div><div class="lab">top comp (180 m²)</div><div class="val">2.55M</div></div>
+      </div>
+    </div>
+
+    <p>Read it like this: a same-size 180 m² house (Rebildparken 100) did fetch 2.55M — so the asking isn't outlandish. But two large houses (Allerupvej ~187 m², Ringkøbingvej ~171 m²) sold at 1.90M, and a bigger, cheaper-per-m² alternative is on the market right now (Rebildparken 10: 198 m² at 2,195,000) <span class="src web">Boliga</span>. Net: <b>indicative fair range ≈ 2.00–2.30M kr, confidence Medium</b> <span class="src calc">comps, n=5</span>. The asking is defensible at the top only if the condition items are genuinely minor — which is exactly what your specialist checks should pressure-test.</p>
+  </div>
+</section>
+
+<!-- ============ 3. CONDITION ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">3 · Condition — building report (tilstandsrapport)</div>
+    <h2 class="sec">30 findings, read for what they cost you</h2>
+    <p>The surveyor logged 30 items. The bare count matters less than the pattern: most reds here are <b>moisture, wet-zone and ventilation</b> items, not foundation or structural failure. The condition report is also explicit that this is sold as a “gult/rødt hus” — yellow/red house <span class="src doc">salgsopstilling p.3</span>.</p>
+    <div class="tally">
+      <span class="tpill r">🔴 8 critical (RØD)</span>
+      <span class="tpill g">🟡 ~9 serious (GUL)</span>
+      <span class="tpill x">⚪ ~13 minor (GRÅ)</span>
+    </div>
+
+    <p style="margin-top:14px"><b>The red findings that carry real money / safety:</b></p>
+    <table>
+      <thead><tr><th style="width:70px">Severity</th><th>Finding (and why it matters)</th><th style="width:90px">Source</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sev rod">RØD #15</span></td><td><b>Insufficient roof ventilation</b> — insulation pushed to the roof surface, ridge stuffed with mineral wool, blocking airflow → risk of moisture build-up in the roof structure. The most important cluster to assess.</td><td><span class="src doc">p.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #16</span></td><td><b>Ridge (rygning) sealed with mineral wool</b> — wrong, moisture-absorbing material in contact with timber → rot risk over time.</td><td><span class="src doc">p.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #12</span></td><td><b>Defective weld seams in bathroom vinyl floor</b> (1st-floor, a wet-loaded zone with an overflow-less bathtub) → water can reach the structure below.</td><td><span class="src doc">p.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #26</span></td><td><b>Cracked corner joint in the shower niche</b> → water penetration risk to the construction behind.</td><td><span class="src doc">p.16</span></td></tr>
+        <tr><td><span class="sev rod">RØD #13</span></td><td><b>Loose joint between damper valve and exhaust duct</b> → condensation risk in the ceiling/loft.</td><td><span class="src doc">p.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #8</span></td><td><b>Failed sealant (fugeslip) around several windows/doors</b> → moisture into the surrounding construction. Cheap to fix, costly to ignore.</td><td><span class="src doc">p.13</span></td></tr>
+        <tr><td><span class="sev rod">RØD #2</span></td><td><b>Balcony railing fails current safety guidance</b> — horizontal balusters a child can climb. A safety fix, not a structural one.</td><td><span class="src doc">p.12</span></td></tr>
+        <tr><td><span class="sev rod">RØD #29</span></td><td><b>Missing sealant around carport window</b> → moisture into construction.</td><td><span class="src doc">p.16</span></td></tr>
+      </tbody>
+    </table>
+
+    <p class="small" style="margin-top:14px"><b>Notable yellows:</b> degraded vindskede/roof-edge timber (#5,#6), cracked/spalled roof plates on both surfaces (#7), decay at the west window section and balcony/utility doors (#9,#10), marten-damaged eaves insulation (#14), damp “runs” in the upstairs living room from the Feb-2026 storm (#23), carport door decay and elevated moisture in carport roof plates (#28,#30) <span class="src doc">tilstandsrapport p.12–17</span>.</p>
+
+    <div class="callout">
+      <b>The seller's own disclosures cross-check cleanly — with follow-ups.</b> The seller confirms: a repaired <b>under-floor heating pipe leak</b> in the downstairs shower (fixed via insurance, new floor/tiles laid by a firm) <span class="src doc">sælgeropl. p.21,22</span>; roof work after the storm (~14 plates + 4 ridge plates, cleaned and painted by a firm) <span class="src doc">sælgeropl. p.19</span>; a new timber ceiling in the 1st-floor bathroom <span class="src doc">sælgeropl. p.21</span>. Get the insurance case papers and the roofer's invoice/warranty for all of these.
+    </div>
+
+    <div class="callout">
+      <b>Asbestos roof — context, not panic.</b> Pre-1986 corrugated eternit contains asbestos; it is safe while left intact, but any future work needs an authorised firm and special disposal. Statistical life runs to ~2056 <span class="src doc">tilstandsrapport p.8</span>, so treat full replacement as a <b>long-term reserve</b>, not an immediate bill — see Renovation. Do not pressure-wash or disturb it.
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3b. ELECTRICAL ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">3b · Electrical report (elinstallationsrapport)</div>
+    <h2 class="sec">The one finding we'd act on this week</h2>
+    <p>14 faults, all by definition illegal; what matters is the fire/shock subset. One stands out.</p>
+    <div class="tally">
+      <span class="tpill r">🔥 2 fire-risk</span>
+      <span class="tpill g">⚡ 5 shock-risk</span>
+      <span class="tpill x">⛔ 7 illegal (other)</span>
+    </div>
+    <table style="margin-top:14px">
+      <thead><tr><th style="width:90px">Type</th><th>Fault</th><th style="width:70px">Source</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sev gul">⚡ shock #3</span></td><td><b>The RCD (HFI/HPFI) does not cut out.</b> This is your primary protection against electric shock — a non-functioning one is the single most important fault in the file.</td><td><span class="src doc">p.6</span></td></tr>
+        <tr><td><span class="sev gul">⚡ shock #2</span></td><td>RCD test button is defective.</td><td><span class="src doc">p.6</span></td></tr>
+        <tr><td><span class="sev rod">🔥 fire #1</span></td><td>Board allows oversized fuses to be fitted (missing base screw / pasring).</td><td><span class="src doc">p.6</span></td></tr>
+        <tr><td><span class="sev rod">🔥 fire #14</span></td><td>Illegal flexible cable used as fixed wiring in the carport (multiple places).</td><td><span class="src doc">p.8</span></td></tr>
+        <tr><td><span class="sev gul">⚡ shock #5</span></td><td>Missing effective protective conductor at a bathroom socket/connection point.</td><td><span class="src doc">p.6</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <b>Recommendation:</b> have an <b>authorised electrician (autoriseret elinstallatør)</b> inspect and quote — the consumer-board / RCD work is the cost driver; several other faults (labelling, clamps, cover plates) are quick. Ask for this before bidding, or make repair a condition. The seller's own disclosure says they know of no electrical problems <span class="src doc">elrapport p.4</span> — which is exactly why an independent check matters.
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 & 5. NEIGHBOURHOOD ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">4 · Neighbourhood, schools &amp; liquidity</div>
+    <h2 class="sec">The honest version of “quiet and central”</h2>
+    <p>The listing's “quiet,” “surrounded by safe paths,” and “close to schools, daycare and shops” is broadly true — and incomplete. Aalborg Øst sits ~5–6 km east of the city centre; the commute is realistically <b>car, bus or bike</b> (no nearby train station) — verify your own route on rejseplanen.dk before assuming times <span class="src doc">salgsopstilling p.3</span> <span class="src assume">assumption — confirm commute</span>.</p>
+
+    <p><b>Schools nearby</b> (state, with public wellbeing/grade indicators) <span class="src web">Boligsiden / Styrelsen for IT og Læring</span>:</p>
+    <table>
+      <thead><tr><th>School</th><th>Distance</th><th>Wellbeing (/6)</th><th>Grade avg (/12)</th></tr></thead>
+      <tbody>
+        <tr><td>Bundgaardsskolen</td><td>932 m</td><td>3.6</td><td>6.5</td></tr>
+        <tr><td>Mellervangskolen</td><td>2.3 km</td><td>3.6</td><td>6.3</td></tr>
+        <tr><td>Filstedvejens Skole</td><td>2.5 km</td><td>3.6</td><td>6.6</td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">Grade averages here sit somewhat below the typical national level (~7/12). Not decisive, but worth knowing if school choice drives your decision; many Aalborg families also use schools further out.</p>
+
+    <p style="margin-top:14px"><b>Area trajectory — the part that affects resale.</b> The large <i>almene</i> (social-housing) part of Tornhøj was, for years, on the state's former “ghettoliste,” now the <i>list of vulnerable housing areas (udsatte boligområder / parallelsamfund)</i> <span class="src web">lex.dk</span> <span class="src web">Realdania, 2025</span>. Since ~2010 it has been the subject of a major, funded regeneration (<i>Kickstart Tornhøj</i>: ~1,000 flats renovated, a new district centre, health/quarter house, a new bridge) and is widely described as moving “from a vulnerable area to a modern district in development” <span class="src web">Realdania, 2025</span>. <b>Two honest takeaways:</b> the villa itself is in a private owner-occupied pocket, not inside the listed blocks; and the area's reputation and the slow local market are real factors for resale and perception.</p>
+
+    <p><b>Liquidity.</b> Median time-on-market for villas in 9220 is roughly <b>231 days</b> as of June 2026 <span class="src web">DinGeo</span> — a clear buyer's market. This listing is at day 30 <span class="src web">Boligsiden</span>, so it's early. That gives you negotiating room, and is a reminder that selling again could take time.</p>
+
+    <div class="callout ice">
+      <b>Geodata — reassuring, and sourced.</b> Radon risk: <b>very low</b> <span class="src web">Boligsiden</span> (the build year predates radon barriers, but the local level is low). Flooding: no expected impact from groundwater, sea-level, rainfall or watercourses <span class="src web">Boligsiden / klimatilpasning.dk</span>. Soil: the plot is in byzone and therefore “lightly contaminated” by area classification — a standard designation for Danish urban zones, not a mapped pollution site <span class="src doc">salgsopstilling p.3</span>. Confirm all three for the exact address on DinGeo before signing.
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. ENERGY ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">6 · Energy</div>
+    <h2 class="sec">Label C, cheap to heat, easy wins available</h2>
+    <p>Energy label <b>C</b>, on district heating — the low-hassle, lower-cost heat source (no oil tank, no pellets, no pump to babysit) <span class="src doc">energimærke p.1</span>. A useful reality check: the <b>seller's actual heating cost was 19,289 kr</b> for 2024/25 <span class="src doc">salgsopstilling p.3</span>, lower than the energy report's calculated 26,900 kr — because calculated figures assume standard behaviour, not this household's <span class="src doc">energimærke p.6</span>.</p>
+    <p>The roof space is under-insulated (loft only ~100–150 mm; standard today is 350–400 mm) <span class="src doc">energimærke p.10</span>. The two “profitable” upgrades the consultant lists:</p>
+    <table>
+      <thead><tr><th>Upgrade</th><th>Annual saving</th><th>Investment</th></tr></thead>
+      <tbody>
+        <tr><td>Loft insulation (top-up to ~350–400 mm)</td><td>~300 kr</td><td>~10,000 kr</td></tr>
+        <tr><td>Solar panels (~30 m²)</td><td>~2,700 kr</td><td>~52,000 kr</td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">With all suggested measures, the label could reach <b>B</b> <span class="src doc">energimærke p.5</span>. The loft top-up is the obvious one — modest cost, and it dovetails with addressing the roof-ventilation finding above. Tip: if the roof is ever opened for the eventual asbestos replacement, that's the moment to do skråvæg/skunk insulation cheaply.</p>
+  </div>
+</section>
+
+<!-- ============ 7. TOTAL COST ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">7 · Total cost of buying</div>
+    <h2 class="sec">The real cash, one-time and monthly</h2>
+    <div class="cols2">
+      <div class="clist">
+        <h4 style="color:var(--navy)">One-time, at purchase</h4>
+        <ul style="list-style:none;padding-left:0">
+          <li>Purchase price — <b>2,295,000 kr</b></li>
+          <li>½ owner-change insurance premium — 10,749 kr</li>
+          <li>Deed registration (tinglysning, skøde) — 15,650 kr</li>
+          <li style="border-top:1px solid var(--line);margin-top:6px;padding-top:6px"><b>Listed cash need — 2,321,399 kr</b> <span class="src doc">salgsopstilling p.4</span></li>
+          <li class="small muted" style="margin-top:8px"><i>Not yet included, budget for these:</i> your own advokat/køberrådgiver (~6–12k), bank/realkredit set-up, mortgage registration if you borrow (1.25% + 1,825 kr of the loan, 2026), and moving.</li>
+        </ul>
+      </div>
+      <div class="clist">
+        <h4 style="color:var(--navy)">Monthly &amp; yearly running</h4>
+        <ul style="list-style:none;padding-left:0">
+          <li>Owner cost (ejerudgift) — <b>2,374 kr/md</b> <span class="src doc">p.1</span></li>
+          <li class="small muted" style="margin-top:6px">Year-1 ejerudgift 28,485 kr, made up of:</li>
+          <li class="small">· Property-value tax 10,392 · land tax 6,092</li>
+          <li class="small">· House insurance 6,914 · refuse 3,588</li>
+          <li class="small">· Owners' assoc. 1,200 · rat control 300</li>
+          <li style="border-top:1px solid var(--line);margin-top:6px;padding-top:6px" class="small muted"><i>On top:</i> your mortgage payment, plus consumption — heating ~19,289 kr/yr <span class="src doc">p.3</span>, electricity and water.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:10px"><b>ejerudgift</b> = the owner's standing costs (taxes, insurance, fees) — it does <i>not</i> include your loan or your utility bills. Statutory registration rates should be confirmed before signing.</p>
+  </div>
+</section>
+
+<!-- ============ 8. RENOVATION ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">8 · Renovation reserve</div>
+    <h2 class="sec">What to budget — flagged items only</h2>
+    <p>Indicative ranges to pressure-test the price; <b>always get binding quotes</b>. Nothing here is structural or urgent except the electrical safety work.</p>
+    <table>
+      <thead><tr><th>Item</th><th>Timing</th><th>Indicative range</th></tr></thead>
+      <tbody>
+        <tr><td><b>Electrical safety</b> — RCD/board + bathroom protective conductor + carport wiring</td><td>Now</td><td>Get quote; board/RCD work is the driver <span class="src assume">quote needed</span></td></tr>
+        <tr><td><b>Roof ventilation + ridge correction</b> (#15/#16) — assess &amp; remediate</td><td>Soon</td><td>Specialist assessment first; moderate if caught early <span class="src assume">quote needed</span></td></tr>
+        <tr><td><b>Wet-zone seals</b> — bathroom vinyl welds + shower joint (#12/#26)</td><td>Soon</td><td>Re-seal modest; full reno if water has tracked <span class="src assume">quote needed</span></td></tr>
+        <tr><td>Window/door sealant + degraded joinery (#8,#9,#10,#28)</td><td>Medium</td><td>Variable — caulking is cheap, replacing units isn't</td></tr>
+        <tr><td>Balcony railing safety fix (#2)</td><td>Soon</td><td>Modest</td></tr>
+        <tr><td><b>Asbestos roof replacement</b> — full, incl. removal + disposal</td><td><b>Long-term (~2050s)</b></td><td>~1,000–2,000 kr/m² <span class="src web">DK 2026 guides</span> → roughly <b>150–300k kr</b> for an est. ~150–180 m² roof <span class="src calc">est.</span></td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">The asbestos-roof figure is a <b>future reserve in today's money</b>, not a bill you face on day one — life runs to ~2056. Treat it as the reason to keep a renovation buffer and to negotiate at the lower end of the price range, rather than as a deal-breaker.</p>
+  </div>
+</section>
+
+<!-- ============ 9. NEGOTIATION ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">9 · Negotiation angle</div>
+    <h2 class="sec">Your factual leverage (analysis, not a promise)</h2>
+    <p>A bid in the <b>2.00–2.20M</b> zone is well-supported by the evidence, and the structure of this market favours a patient buyer. Use facts, not pressure:</p>
+    <div class="clist" style="margin-top:8px">
+      <ul>
+        <li><b>The market is slow.</b> ~231-day median time-on-market locally — sellers know re-listing is costly <span class="src web">DinGeo</span>.</li>
+        <li><b>Two same-size-class houses sold at 1.90M</b> (Allerupvej, Ringkøbingvej), and a larger home is on the market cheaper per m² (Rebildparken 10) <span class="src web">Boliga</span>.</li>
+        <li><b>Priced repairs:</b> the electrical RCD work, the roof-ventilation/ridge cluster, and wet-zone seals are concrete, document-backed line items to bring to the table <span class="src doc">tilstand/elrapport</span>.</li>
+        <li><b>The asbestos-roof reserve</b> is a legitimate long-term cost the price should reflect.</li>
+      </ul>
+    </div>
+    <p class="small muted">A discount is never guaranteed, and an over-aggressive bid can simply end the conversation. Anchor on the comp range and your specialists' quotes, and let the slow market do the rest.</p>
+  </div>
+</section>
+
+<!-- ============ 10. QUESTIONS ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">10 · Questions for the agent / seller</div>
+    <h2 class="sec">Ten questions tailored to this house</h2>
+    <ol class="qlist">
+      <li>Why selling now, after 26 years — and have there been any price reductions or how many viewings so far?</li>
+      <li>The <b>February 2026 storm</b>: exactly what happened at the ridge (the seller mentions drifting snow / “fygesne”), what was repaired (the ~14 plates), by which firm — can we see the invoice and any warranty?</li>
+      <li>The repaired <b>under-floor-heating leak</b> in the downstairs shower: can we get the insurance case file and confirmation the new floor/tiles are fully signed off?</li>
+      <li>Has the <b>RCD (HFI/HPFI)</b> ever been serviced? Any electrician reports? (It currently does not trip.)</li>
+      <li><b>Asbestos roof</b>: any documentation on remaining life or plans; and papers for the 14 replaced plates.</li>
+      <li>The self-built <b>carport / workshop (“Hoppirum”)</b>: built when, with permits? Will the seller correct the <b>BBR mismatches</b> (carport placement; skur not registered) before handover?</li>
+      <li>The <b>marten / pest</b> damage in the eaves — how did the animal get in, and has the entry been closed?</li>
+      <li><b>Ejerlauget Tornhøjparken</b>: latest accounts, what the 1,200 kr/yr covers, any planned works or assessments, and a copy of the 1976 statutes/servitut and any use restrictions.</li>
+      <li>Any known issues the reports might have missed — neighbour disputes, drainage, the carport roof moisture (#30)?</li>
+      <li>The <b>owner-change insurance (ejerskifteforsikring)</b> offer — can we see it now to compare? (Note it won't cover the defects already listed in the reports.)</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 11. CHECKLIST ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">11 · Before-decision checklist</div>
+    <h2 class="sec">Don't sign until each of these is ticked</h2>
+    <div class="cols2">
+      <div class="clist"><ul class="check">
+        <li>☐ Your <b>own advokat / køberrådgiver</b> engaged before signing</li>
+        <li>☐ Financing / realkredit confirmed in writing</li>
+        <li>☐ <b>Authorised electrician</b> inspection (the RCD)</li>
+        <li>☐ Roofer / byggesagkyndig on roof ventilation + ridge + eternit life</li>
+      </ul></div>
+      <div class="clist"><ul class="check">
+        <li>☐ Binding contractor quotes for the flagged repairs</li>
+        <li>☐ <b>ejerskifteforsikring</b> offers compared (won't cover listed defects)</li>
+        <li>☐ Renovation reserve budgeted, incl. future asbestos roof</li>
+        <li>☐ Servitut + association docs read; commute checked on rejseplanen; address checked on DinGeo</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12. LIMITATIONS ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">12 · Limitations &amp; confidence</div>
+    <h2 class="sec">What this report can and can't tell you</h2>
+    <p>This is a preliminary, document-based analysis. It does not include a physical inspection, and it cannot diagnose hidden conditions — moisture behind surfaces, the true state of the roof structure, or the electrical board's internals all need a person on site. <b>Price confidence is Medium</b> (five recent free-market comps, but a wide spread and mixed micro-locations). Condition is assessed from a full Mode-A document set, but the reports themselves are visual/spot-check surveys with their own stated reservations. Where data was missing, we said so rather than guessing — we did not invent any comps, valuations, costs, or dates.</p>
+    <div class="legend">
+      <span><span class="src doc">doc</span> property document</span>
+      <span><span class="src web">web</span> public source</span>
+      <span><span class="src calc">calc</span> our calculation</span>
+      <span><span class="src assume">assumption</span> reasoned, uncertain</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13. PROVENANCE ============ -->
+<section style="border-bottom:none">
+  <div class="wrap">
+    <div class="eyebrow">13 · Data provenance</div>
+    <h2 class="sec">Where every number came from</h2>
+    <div class="cols2">
+      <div class="clist"><h4 style="color:var(--navy)">Documents used</h4><ul class="small">
+        <li>Tilstandsrapport H-26-04335-0096 (08.05.2026)</li>
+        <li>Elinstallationsrapport E-1449631 (08.05.2026)</li>
+        <li>Energimærke 311900248 (09.05.2026)</li>
+        <li>Salgsopstilling, Nybolig (09.06.2026)</li>
+        <li>Sælgeroplysninger (within the reports)</li>
+      </ul></div>
+      <div class="clist"><h4 style="color:var(--navy)">Web sources (retrieved Jun 2026)</h4><ul class="small">
+        <li>Boligsiden — listing, BBR, price history, 2024 valuation, schools, radon/flood</li>
+        <li>Boliga / Boligsiden — sold comps in 9220</li>
+        <li>DinGeo — 9220 market stats (liggetid)</li>
+        <li>Realdania, lex.dk — Tornhøj regeneration / area history</li>
+        <li>DK roofing guides (2026) — asbestos-roof cost</li>
+      </ul></div>
+    </div>
+    <p class="small muted"><b>Unknowns flagged for the buyer:</b> exact roof area; binding repair costs; association finances; commute times; the seller's repair documentation; address-level DinGeo confirmation.</p>
+  </div>
+</section>
+
+<!-- ============ OPERATOR APPENDIX ============ -->
+<div class="opwrap">
+  <div class="wrap">
+    <span class="opbanner">Operator appendix · internal — do not send to client</span>
+    <div class="eyebrow" style="margin-top:18px">Build context</div>
+    <h2 style="font-size:23px">Operator notes</h2>
+
+    <h3>Detection &amp; mode</h3>
+    <p class="small">Type = <b>VILLA / enfamiliehus</b> (BBR 120, own matrikel 11s Nr. Tranders, BFE 5548783, ejerudgift, full huseftersyn set). Mode = <b>A (full package)</b>: salgsopstilling + tilstandsrapport + elrapport + energimærke + sælgeroplysninger all present. No missing core docs. OUTPUT_LANGUAGE = English (expat product).</p>
+
+    <h3>Seller-disclosure vs expert-finding cross-check</h3>
+    <p class="small">Seller says <i>no</i> roof leaks but discloses post-storm plate replacement + Feb-2026 drifting-snow ingress; surveyor logs damp runs (#23), ventilation/ridge faults (#15/16). Seller says <i>no</i> electrical problems; elrapport finds non-tripping RCD (#3) + fire items. Seller discloses repaired UFH leak (insurance) downstairs shower + new 1st-floor bathroom ceiling; surveyor flags wet-zone vinyl welds (#12) and shower-niche joint (#26). BBR mismatches: carport placement, skur unregistered, "Hoppirum" workshop selvbyg year unknown. Pursue documentation on all.</p>
+
+    <h3>Comps (raw, retrieved Jun 2026, Boligsiden/Boliga)</h3>
+    <table><thead><tr><th>Address</th><th>Date</th><th>Price</th><th>kr/m²</th><th>Type</th></tr></thead><tbody>
+      <tr><td>Rebildparken 100</td><td>2026-03-19</td><td>2,550,000</td><td>14,167</td><td>Fri handel (best size match ~180m²)</td></tr>
+      <tr><td>Råbjergvej 5</td><td>2026-03-22</td><td>2,275,000</td><td>14,773</td><td>Fri handel</td></tr>
+      <tr><td>Ølandvej 22</td><td>2026-03-13</td><td>2,040,000</td><td>13,600</td><td>Fri handel</td></tr>
+      <tr><td>Ringkøbingvej 14</td><td>2026-04-11</td><td>1,900,000</td><td>11,111</td><td>Fri handel</td></tr>
+      <tr><td>Allerupvej 27</td><td>2026-03-26</td><td>1,900,000</td><td>10,160</td><td>Fri handel</td></tr>
+      <tr><td>Tornhøjparken 102</td><td>2026-03-24</td><td>1,185,000</td><td>7,139</td><td>Familie handel — EXCLUDE</td></tr>
+      <tr><td>Rebildparken 10 (asking)</td><td>active</td><td>2,195,000</td><td>11,085</td><td>198 m², relisted ~276d total</td></tr>
+    </tbody></table>
+    <p class="small">Public valuation: 2024 foreløbig ejendomsværdi 2,547,000 (salgsopstilling cites 2022: 2,640,000). Days-on-market: 30 (subject) vs ~231 median (9220 villas, DinGeo). Last actual sale: 1999-06, 1,088,484 kr.</p>
+
+    <h3>Source conflicts / weak claims to verify manually</h3>
+    <ul class="small">
+      <li>Roof area not in docs → asbestos-roof reserve is an estimate (used ~150–180 m²); refine before quoting hard numbers.</li>
+      <li>Energimærke calculated heat (26,900) vs actual (19,289) — presented as behaviour difference, not error.</li>
+      <li>Commute / transport not verified at address level — flagged as assumption; check rejseplanen.</li>
+      <li>Comp sizes back-calculated from price ÷ kr/m² (Boligsiden rounding) — treat as ±.</li>
+      <li>Area "ghettoliste" status: historical/almene-area context, sourced (Realdania/lex.dk); subject villa is owner-occupied pocket, not a listed block — keep framing factual, non-discriminatory.</li>
+    </ul>
+
+    <h3>Legal/compliance self-gate</h3>
+    <p class="small">✓ No forbidden certainty words · ✓ disclaimer on cover · ✓ every fact tagged, unknowns marked · ✓ no fabricated comps/costs/dates · ✓ price confidence = Medium consistent with n=5 · ✓ public valuation not treated as market value · ✓ ejerudgift explained on first use · ✓ registration fees separated · ✓ asbestos/structural framed cautiously, specialist required · ✓ era-typical risks labelled as context · ✓ no third-party PII compiled (seller name present in source docs; omit from any shared client copy if requested).</p>
+
+    <h3>Remove before sending</h3>
+    <p class="small">This entire appendix block. Optionally redact seller name from provenance if the client copy should be PII-clean.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>NordIndsigt · BoligCheck — <b style="color:#fff">See What Others Miss</b></span>
+    <span class="mono" style="color:var(--gold)">Preliminary · informational · not valuation or legal advice</span>
+  </div>
+</footer>
+
+</body>
+</html>

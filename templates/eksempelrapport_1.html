@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BoligCheck — Eksempelrapport (sløret)</title>
+<meta name="description" content="Se en rigtig BoligCheck-rapport: vurdering, scorecard, skjulte udgifter og forhandlingskort for en dansk villa. Udvalgte tal er sløret som i en rigtig eksempelvisning.">
+<link rel="canonical" href="https://nordindsigt.dk/eksempelrapport.html">
+<meta property="og:title" content="BoligCheck — eksempelrapport">
+<meta property="og:description" content="Se hvordan en rigtig BoligCheck property-analyse ser ud, før du bestiller din egen.">
+<meta property="og:image" content="https://nordindsigt.dk/og-image.png">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0F1E30; --cream:#E8DED1; --rust:#C4533F; --ice:#B0C9DA; --gold:#D4975A;
+    --paper:#FBF8F3; --ink:#1B2A3A; --muted:#5C6B79; --line:#DED3C4;
+    --rust-soft:#F3DDD7; --gold-soft:#F1E2CC; --ice-soft:#E4EEF4; --grey-soft:#E7E9EC;
+    --green:#2F6E4A; --green-soft:#DDEBE1;
+    --display:'Fraunces',Georgia,serif; --body:'Inter',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.62;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 26px;}
+  h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.18;color:var(--navy);margin:0;letter-spacing:-.01em;}
+  p{margin:0 0 13px;}
+  strong,b{font-weight:600;color:var(--navy);}
+  a{color:var(--rust);}
+  .small{font-size:13px;} .muted{color:var(--muted);}
+
+  /* ---------- COVER ---------- */
+  .cover{background:var(--navy);color:var(--cream);padding:46px 0 38px;}
+  .brandrow{display:flex;align-items:center;gap:12px;}
+  .brandname{font-family:var(--display);font-size:21px;}
+  .brandname b{font-weight:700;color:#fff;} .brandname span{font-weight:300;color:var(--ice);}
+  .beam{width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 50% 40%, var(--gold), #8a5a22);box-shadow:0 0 18px 2px rgba(212,151,90,.55);}
+  .tag{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-left:auto;}
+  .cover h1{color:#fff;font-size:33px;margin-top:24px;font-weight:700;}
+  .cover .addr{font-size:17px;color:var(--ice);margin-top:6px;}
+  .slogan{font-family:var(--display);font-style:italic;color:var(--gold);font-size:18px;margin-top:18px;}
+  .factgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(176,201,218,.18);margin-top:26px;border:1px solid rgba(176,201,218,.18);}
+  .factgrid div{background:var(--navy);padding:12px 13px;}
+  .factgrid .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);}
+  .factgrid .v{font-size:15px;color:#fff;margin-top:3px;font-weight:600;}
+  .disclaim{margin-top:22px;font-size:12px;color:var(--ice);border-left:2px solid var(--gold);padding:5px 0 5px 13px;max-width:80ch;line-height:1.5;}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:32px 0;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--rust);display:flex;align-items:center;gap:10px;margin-bottom:9px;}
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--rust);display:inline-block;}
+  h2.sec{font-size:24px;margin-bottom:5px;}
+  .lead{font-size:16px;color:var(--ink);}
+
+  /* source pills */
+  .src{font-family:var(--mono);font-size:9.5px;padding:1px 6px;border-radius:4px;white-space:nowrap;vertical-align:1.5px;font-weight:500;}
+  .src.doc{background:#E2E8EF;color:#274057;}
+  .src.web{background:var(--ice-soft);color:#2C5B72;}
+  .src.calc{background:var(--gold-soft);color:#8A5A22;}
+  .src.assume{background:transparent;border:1px solid var(--rust);color:var(--rust);}
+  .src.photo{background:var(--rust-soft);color:#9a3c2c;}
+
+  /* severity chips (with legend) */
+  .sev{font-family:var(--mono);font-size:9.5px;font-weight:600;padding:2px 7px;border-radius:5px;white-space:nowrap;color:#fff;}
+  .sev.rod{background:var(--rust);} .sev.gul{background:var(--gold);color:#3a2406;} .sev.gra{background:#8A97A3;}
+  .legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px;font-size:12px;color:var(--muted);align-items:center;}
+
+  /* tables */
+  table{width:100%;border-collapse:collapse;margin:6px 0 4px;font-size:14px;}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--paper);}
+
+  /* callouts + plus/minus framing */
+  .callout{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:14px 16px;margin:14px 0;font-size:14.5px;}
+  .callout.minus{border-left-color:var(--rust);background:#FCF3F1;}
+  .callout.plus{border-left-color:var(--green);background:#F1F7F2;}
+
+  .pm{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0;}
+  @media(max-width:640px){.pm{grid-template-columns:1fr;}}
+  .pmcol{border-radius:12px;padding:15px 16px;border:1px solid var(--line);}
+  .pmcol.good{background:var(--green-soft);border-color:#bcd6c4;}
+  .pmcol.bad{background:var(--rust-soft);border-color:#e6c3ba;}
+  .pmcol h4{font-size:15px;margin-bottom:8px;display:flex;align-items:center;gap:7px;}
+  .pmcol.good h4{color:var(--green);} .pmcol.bad h4{color:#9a3c2c;}
+  .pmcol ul{margin:0;padding-left:0;list-style:none;}
+  .pmcol li{padding:5px 0 5px 22px;position:relative;font-size:14px;border-top:1px solid rgba(0,0,0,.06);}
+  .pmcol li:first-child{border-top:none;}
+  .pmcol.good li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:700;}
+  .pmcol.bad li::before{content:"✕";position:absolute;left:0;color:var(--rust);font-weight:700;}
+
+  /* comparison: mægler vs vi fandt */
+  .cmp{margin:16px 0;border:1px solid var(--line);border-radius:13px;overflow:hidden;}
+  .cmp-head{display:grid;grid-template-columns:1fr 1fr;}
+  .cmp-head div{padding:11px 16px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;}
+  .cmp-head .h-claim{background:var(--green-soft);color:var(--green);}
+  .cmp-head .h-find{background:var(--rust-soft);color:#9a3c2c;}
+  .cmp-row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);}
+  @media(max-width:640px){.cmp-head,.cmp-row{grid-template-columns:1fr;} .cmp-claim{border-bottom:1px solid var(--line);}}
+  .cmp-claim,.cmp-find{padding:12px 16px;font-size:14px;}
+  .cmp-claim{background:#F4F8F5;color:#2c4636;}
+  .cmp-find{background:#FCF4F2;color:#3a2420;border-left:1px solid var(--line);}
+  .cmp-claim b{color:var(--green);} .cmp-find b{color:var(--rust);}
+
+  /* hidden signals (dark) */
+  .signals{background:var(--navy);border-bottom:none;}
+  .signals .eyebrow{color:var(--gold);} .signals .eyebrow::before{background:var(--gold);}
+  .signals h2.sec,.signals h3{color:#fff;} .signals .lead{color:var(--ice);}
+  .scard{background:rgba(251,248,243,.97);border-radius:12px;padding:14px 16px;border-left:4px solid var(--gold);margin-top:12px;}
+  .scard.crit{border-left-color:var(--rust);}
+  .scard .stitle{font-family:var(--display);font-weight:600;font-size:16px;color:var(--navy);display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .pin{font-family:var(--mono);font-size:9.5px;font-weight:600;padding:2px 7px;border-radius:5px;color:#fff;}
+  .pin.r{background:var(--rust);} .pin.w{background:var(--gold);color:#3a2406;}
+
+  /* verdict */
+  .verdict{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:4px;}
+  .vtop{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px;}
+  .vbadge{font-family:var(--display);font-weight:600;font-size:19px;padding:8px 18px;border-radius:10px;background:var(--gold-soft);color:#7a4d18;border:1px solid var(--gold);}
+  .vcells{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:6px;}
+  @media(max-width:640px){.vcells{grid-template-columns:1fr;}}
+  .vcell{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;}
+  .vcell .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .vcell .v{font-size:16px;font-weight:600;color:var(--navy);margin-top:3px;font-family:var(--display);}
+  .nextbox{margin-top:16px;background:var(--navy);color:var(--cream);border-radius:10px;padding:14px 17px;font-size:14.5px;}
+  .nextbox b{color:#fff;}
+
+  /* price scale */
+  .scale{position:relative;height:50px;margin:18px 0 8px;}
+  .scale .track{position:absolute;top:22px;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--green) 0%,var(--gold) 55%,var(--rust) 100%);border-radius:6px;}
+  .scale .mark{position:absolute;top:8px;transform:translateX(-50%);text-align:center;}
+  .scale .mark i{display:block;width:2px;height:20px;background:var(--navy);margin:0 auto;}
+  .scale .mark span{font-family:var(--mono);font-size:10px;color:var(--navy);white-space:nowrap;}
+  .scale .ask{top:30px;}
+  .scale .ask i{background:var(--rust);height:22px;}
+  .scale .ask span{color:var(--rust);font-weight:600;}
+
+  /* iceberg cost stages */
+  .stages{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0;}
+  @media(max-width:760px){.stages{grid-template-columns:1fr 1fr;}}
+  .stage{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 13px;}
+  .stage .when{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);}
+  .stage ul{margin:7px 0 0;padding-left:16px;font-size:13px;}
+  .stage li{margin-bottom:5px;}
+
+  .clist{background:#fff;border:1px solid var(--line);border-radius:10px;padding:13px 16px;}
+  .clist h4{font-size:14px;margin-bottom:7px;}
+  .clist ul{margin:0;padding-left:18px;} .clist li{margin-bottom:5px;font-size:14px;}
+
+  /* footer */
+  .foot{background:var(--navy);color:var(--ice);padding:30px 0;border:none;}
+  .foot .brandname{font-size:17px;}
+  .foot a{color:var(--gold);}
+  .opbox{background:#231a16;border:1px dashed var(--gold);border-radius:10px;padding:16px 18px;}
+  .opbox .eyebrow{color:var(--gold);} .opbox .eyebrow::before{background:var(--gold);}
+  .demobar{display:block;background:var(--rust);color:#fff;text-align:center;padding:9px 16px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;}
+  .cta{display:block;}
+  .ctabox{background:var(--navy);color:var(--cream);border-radius:14px;padding:26px;text-align:center;}
+  .ctabox h3{color:#fff;font-size:22px;margin-bottom:8px;}
+  .ctabtn{display:inline-block;margin-top:14px;background:var(--gold);color:#3a2406;font-weight:700;text-decoration:none;padding:12px 26px;border-radius:10px;font-family:var(--body);}
+  .lockbadge{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#7a4d18;background:var(--gold-soft);border:1px solid var(--gold);border-radius:20px;padding:4px 11px;margin-top:8px;}
+  .kf-teaser{display:block;font-family:var(--display);font-style:italic;font-size:14.5px;color:var(--navy);margin:8px 0 9px;}
+  .d{filter:blur(5.5px);-webkit-filter:blur(5.5px);user-select:none;pointer-events:none;}
+  .kf-body{filter:blur(6.5px);-webkit-filter:blur(6.5px);user-select:none;pointer-events:none;}
+</style>
+</head>
+<body>
+<div class="demobar">Eksempelrapport · 6 nøglefund er låst · udvalgte tal og kvarter er sløret · <a href="https://nordindsigt.dk" style="color:inherit;text-decoration:underline">← nordindsigt.dk</a></div>
+
+<!-- ============ COVER ============ -->
+<header class="cover">
+  <div class="wrap">
+    <div class="brandrow">
+      <span class="beam"></span>
+      <span class="brandname"><b>Nord</b><span>Indsigt</span></span>
+      <span class="tag">BoligCheck · Ejendomsanalyse</span>
+    </div>
+    <h1>180 m² villa — det, salgsopstillingen ikke fortæller</h1>
+    <div class="addr"><span class="d">Algade 14, Korsbæk</span> · villa · opført 1976</div>
+    <div class="slogan">»Se hvad andre overser«</div>
+
+    <div class="factgrid">
+      <div><div class="k">Udbudspris</div><div class="v">2.295.000 kr.</div></div>
+      <div><div class="k">Pris pr. m²</div><div class="v">~12.750 kr.</div></div>
+      <div><div class="k">Bolig / grund</div><div class="v">180 / 902 m²</div></div>
+      <div><div class="k">Energimærke</div><div class="v">C · fjernvarme</div></div>
+      <div><div class="k">Ejerudgift/md.</div><div class="v">2.374 kr. *</div></div>
+      <div><div class="k">Kritiske skader</div><div class="v" style="color:#E8A48E">8 røde</div></div>
+      <div><div class="k">El-rapport</div><div class="v" style="color:#E8A48E">RCD svigter</div></div>
+      <div><div class="k">Tag</div><div class="v">Eternit m. asbest</div></div>
+    </div>
+
+    <p class="disclaim">Dette er en <b style="color:#fff">informativ forhåndsanalyse</b>, bygget på dine dokumenter, for en køber, der ikke nødvendigvis læser danske bygningsdokumenter flydende. Det er <b style="color:#fff">ikke</b> en offentlig vurdering, ikke juridisk eller finansiel rådgivning og ikke en byggeteknisk gennemgang; det erstatter ikke din advokat, bank, ingeniør eller autoriserede elinstallatør. Hver oplysning har en kilde; usikre steder er markeret. <b style="color:#fff">*</b> Ejerudgift dækker ikke varme, el, vand eller vedligehold — se »Den reelle månedlige udgift«.</p>
+  </div>
+</header>
+
+<!-- ============ VERDICT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Vores vurdering</div>
+    <h2 class="sec">Et godt hus til den rigtige køber — men prisen skal afspejle tilstanden</h2>
+    <div class="verdict">
+      <div class="vtop">
+        <span class="vbadge">Køb muligt — forhandl på tilstand</span>
+        <span class="small muted">Prissikkerhed: <b>middel</b> (9 frie handler, heraf 1 på samme gade)</span>
+      </div>
+      <p style="margin-bottom:6px">Boligen er reelt 180 m² i 1,5 plan på en stor grund med billig fjernvarme — men den bærer en <b>klynge af fugt- og sikkerhedsskader</b> og en <b>kritisk el-fejl</b>, som salgsopstillingens »velholdt« og »håndværkertilbud« nedtoner. Udbudsprisen matcher næsten præcis, hvad <b>selve gaden</b> handler til — så der er ikke en skjult gevinst i »under vurderingen«. Forhandlingen skal hentes på de dokumenterede fejl, ikke på en fejlprissætning.</p>
+      <div class="vcells">
+        <div class="vcell"><div class="k">Fair pris-interval</div><div class="v">2,10–2,35 mio. kr.</div></div>
+        <div class="vcell"><div class="k">Udbudspris</div><div class="v">2,295 mio. kr.</div></div>
+        <div class="vcell"><div class="k">Reel drift/md.</div><div class="v">~6.500–7.500 kr.</div></div>
+      </div>
+      <div class="nextbox"><b>Næste skridt:</b> få en <b>autoriseret elinstallatør</b> og en <b>byggesagkyndig</b> til at se på el-tavlen (RCD) og tag-/fugtklyngen <i>før</i> budgivning — og forhandl reparationerne ind i handlen. De to gennemgange koster langt mindre, end den første røde skade kan koste.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MÆGLER vs VI FANDT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Salgsopstilling vs. virkelighed</div>
+    <h2 class="sec">»Mægleren siger« — og det vi fandt</h2>
+    <p class="lead">Salgsopstillingen er sælgers historie. Her er den samme bolig holdt op mod de tre tekniske rapporter og fotos. Grøn = sådan sælges den. Rød = sådan er den.</p>
+
+    <div class="cmp">
+      <div class="cmp-head"><div class="h-claim">Mægleren siger</div><div class="h-find">Vi fandt</div></div>
+
+      <div class="cmp-row">
+        <div class="cmp-claim">»Ældre, <b>velholdt</b> bolig«</div>
+        <div class="cmp-find"><b>8 kritiske (røde) skader</b> + 9 alvorlige (gule) i tilstandsrapporten — domineret af en fugtklynge i tagkonstruktionen <span class="src doc">tilstandsrapport</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">»Spændende <b>håndværkertilbud</b>«</div>
+        <div class="cmp-find">Reelt: ~<span class="d">●●●.●●●–●●●.●●● kr.</span> kosmetik/funktion <i>oveni</i> den røde klynge og el-fejlen <span class="src assume">skøn</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">»God førstesal med <b>altan</b>«</div>
+        <div class="cmp-find">Altanens <b>rækværk lever ikke op til sikkerhedskrav</b> (vandrette balustre, børn kan kravle) + nedbrudt bjælkeende under altanen <span class="src doc">RØD #2, GUL #6</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">»<b>Sydvendt</b>, solrigt udemiljø«</div>
+        <div class="cmp-find">Altanen vender mod <b>nabohuset</b> (privatliv); fugt-løbere i stuen på 1. sal efter stormen feb. 2026 <span class="src doc">GUL #23</span> <span class="src photo">foto</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">Ejerudgift »<b>2.374 kr./md.</b>«</div>
+        <div class="cmp-find">Reel månedlig drift <b>~6.500–7.500 kr.</b> — næsten <b>3×</b> — før afdrag på lån <span class="src calc">beregning</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">Pris <b>under</b> offentlig vurdering (virker billigt)</div>
+        <div class="cmp-find">Gaden har en prisdynamik, vi gennemgår i et låst nøglefund nedenfor; offentlig vurdering er skattegrundlag, <b>ikke</b> markedspris <span class="src web">frie handler</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">Intet om elektrikken</div>
+        <div class="cmp-find"><b>Fejlstrømsafbryderen (RCD/HPFI) kobler ikke ud</b> — husets vigtigste beskyttelse mod elektrisk stød svigter <span class="src doc">el-rapport</span></div>
+      </div>
+      <div class="cmp-row">
+        <div class="cmp-claim">Intet om taget</div>
+        <div class="cmp-find"><b>Eternittag med asbest</b> (statistisk levetid til ~2056), aktuelle revner/afskalninger på begge tagflader <span class="src doc">tilstandsrapport</span></div>
+      </div>
+    </div>
+    <p class="small muted">Forkortelser: <b>RCD/HPFI</b> = fejlstrømsafbryder (sikrer mod stød). <b>RØD/GUL/GRÅ</b> = tilstandsrapportens alvorsgrad (kritisk / alvorlig / mindre).</p>
+  </div>
+</section>
+
+<!-- ============ HIDDEN SIGNALS ============ -->
+<section class="signals">
+  <div class="wrap">
+    <div class="eyebrow">Skjulte signaler</div>
+    <h2 class="sec">Tre ting, der afgør handlen</h2>
+    <p class="lead">Det, der ikke står i annoncen — men bør stå i dit bud.</p>
+
+    <div class="scard crit">
+      <div class="stitle"><span class="pin r">El</span> Fejlstrømsafbryderen kobler ikke ud</div>
+      <p style="margin:6px 0 0">Blandt 14 el-fejl er denne den vigtigste: <b>RCD'en (HPFI) udløser ikke</b> ved fejl — den beskyttelse, der skal afbryde strømmen, før et stød bliver farligt. Sælger oplyser intet kendskab til el-problemer, hvilket netop er grunden til en uafhængig kontrol. <span class="src doc">el-rapport</span></p>
+    </div>
+    <div class="scard crit">
+      <div class="stitle"><span class="pin r">Tag</span> Fugtklynge i tagkonstruktionen</div>
+      <p style="margin:6px 0 0">Flere røde skader hænger sammen: <b>utilstrækkelig ventilation</b>, rygning tætnet med <b>fugtsugende mineraluld</b> i kontakt med træværk, og fugt-løbere efter stormen feb. 2026. Hver for sig små — sammen den klynge, en byggesagkyndig skal prissætte først. <span class="src doc">RØD #15/#16, GUL #23</span></p>
+    </div>
+    <div class="scard">
+      <div class="stitle"><span class="pin w">Pris</span> Gaden sætter prisen — ikke kvarteret</div>
+      <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+      <p class="kf-teaser">En sammenligning, mægleren ikke har lavet for jer.</p>
+      <p class="kf-body" style="margin:6px 0 0">▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓, ▓▓▓ ▓▓▓▓▓ [denne gade] ▓▓▓▓▓▓▓ ▓▓▓▓▓▓ — ▓▓▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓. ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓, ▓▓ »▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓« ▓▓ ▓▓▓▓▓ ▓▓▓▓▓. ▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓. ▓▓▓▓ ▓▓▓▓▓▓▓</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORDELE / ULEMPER ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Det korte overblik</div>
+    <h2 class="sec">Fordele og ulemper, ærligt</h2>
+    <div class="pm">
+      <div class="pmcol good">
+        <h4>Fordele</h4>
+        <ul>
+          <li>Reelt <b>180 m²</b> i 1,5 plan på en <b>stor grund (902 m²)</b> — meget plads for pengene</li>
+          <li><b>Fjernvarme</b>: billigste, mest driftssikre varmekilde — ingen olietank, ingen pille­fyr</li>
+          <li>Sælgers <b>faktiske varmeforbrug lavt</b> (<span class="d">●●.●●● kr./år</span>) — under det beregnede</li>
+          <li>Udbudspris <b>under offentlig vurdering</b> og på linje med gade-niveau</li>
+          <li>Centralt i byen, med stisystemer til skole, institutioner og indkøb</li>
+        </ul>
+      </div>
+      <div class="pmcol bad">
+        <h4>Ulemper / risici</h4>
+        <ul>
+          <li><b>8 røde + 9 gule</b> skader — fugt- og sikkerhedsklynge</li>
+          <li><b>El: RCD kobler ikke ud</b> — udbedres før indflytning</li>
+          <li><b>Asbest-eternittag</b> — langsigtet udskiftningsreserve</li>
+          <li>Reel drift <b>~3×</b> den annoncerede ejerudgift</li>
+          <li>Gennemgribende <b>kosmetisk renovering</b> (gulve, lofter, bad, køkken) forude</li>
+          <li>Beliggenhed trækker pris og fremtidig likviditet</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TILSTAND ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Tilstand · tilstandsrapport</div>
+    <h2 class="sec">De røde skader — og hvad de hænger sammen om</h2>
+    <div class="legend">
+      <span class="sev rod">RØD</span> kritisk (kort sigt) ·
+      <span class="sev gul">GUL</span> alvorlig (længere sigt) ·
+      <span class="sev gra">GRÅ</span> mindre alvorlig
+    </div>
+    <p>Otte skader er røde. De fleste handler om <b>fugt</b> i tag og vådrum — den dyreste type at lade ligge, fordi den udvikler sig skjult.</p>
+    <table>
+      <thead><tr><th style="width:78px">Grad</th><th>Skade</th><th style="width:62px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sev rod">RØD #15</span></td><td><b>Utilstrækkelig tagventilation</b> — isolering ført helt ud mod tagflade, rygning stoppet med mineraluld → risiko for fugtophobning. Hovedklyngen.</td><td><span class="src doc">s.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #16</span></td><td><b>Rygning tætnet med fugtsugende mineraluld</b> i kontakt med træværk → opfugtning/nedbrydning af træ.</td><td><span class="src doc">s.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #12</span></td><td><b>Defekte svejsesamlinger i vinylgulv</b> på 1. sals bad (vandbelastet, badekar uden overløb) → vand til underliggende konstruktion.</td><td><span class="src doc">s.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #13</span></td><td><b>Utæt overgang klapventil/aftræksrør</b> → risiko for kondensskader i loftkonstruktion.</td><td><span class="src doc">s.14</span></td></tr>
+        <tr><td><span class="sev rod">RØD #26</span></td><td><b>Revnet hjørnefuge i brusenichen</b> → vand til bagvedliggende konstruktion. (Samme bad som fotoets gamle flisevæg.)</td><td><span class="src doc">s.16</span></td></tr>
+        <tr><td><span class="sev rod">RØD #8</span></td><td><b>Fugeslip ved flere døre/vinduer</b> → fugt i konstruktionen. Billigt at udbedre, dyrt at ignorere.</td><td><span class="src doc">s.13</span></td></tr>
+        <tr><td><span class="sev rod">RØD #2</span></td><td><b>Altanens rækværk opfylder ikke sikkerhedskrav</b> — vandrette balustre, børn kan kravle. Personskaderisiko.</td><td><span class="src doc">s.12</span></td></tr>
+        <tr><td><span class="sev rod">RØD #29</span></td><td><b>Manglende fuger om carport-vindue</b> → fugtindtrængning.</td><td><span class="src doc">s.16</span></td></tr>
+      </tbody>
+    </table>
+    <p class="small" style="margin-top:12px"><b>Markante gule:</b> nedbrydning af vindskede/tagender (#5,#6), revner og afskalninger i tagplader på begge flader (#7), nedbrudt vestlig vinduessektion + altan-/bryggersdør (#9,#10), husmår-skadet isolering i skunkene (#14), fugt-løbere i stuen på 1. sal efter storm (#23), nedbrudt carport-dør + forhøjet fugt i dens tagplader (#28,#30). <span class="src doc">tilstandsrapport s.12–17</span></p>
+
+    <div class="callout">
+      <b>Sælgers oplysninger stemmer med ingeniøren — men med spørgsmål.</b> Sælger bekræfter en <b>repareret rørbrud i gulvvarmen</b> i brusekabinen (via forsikring, nyt flisegulv lagt af firma), tagarbejde efter stormen (~14 plader + 4 rygningsplader, rens og maling af firma) og et nyt træloft i 1. sals bad. Bed om forsikringssag og kvittering/garanti på alle tre. <span class="src doc">sælgeroplysninger</span></div>
+
+    <div class="callout">
+      <b>Asbest-taget — kontekst, ikke panik.</b> Eternit fra før 1986 indeholder asbest; det er ufarligt, så længe det er intakt, men <b>alt fremtidigt arbejde kræver autoriseret firma</b> og særlig bortskaffelse. Statistisk levetid til ~2056 <span class="src doc">tilstandsrapport s.8</span> — betragt fuld udskiftning som en <b>langsigtet reserve</b>, ikke en regning nu. Spul ikke med højtryk, og forstyr ikke pladerne.</div>
+  </div>
+</section>
+
+<!-- ============ EL ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">El · elinstallationsrapport</div>
+    <h2 class="sec">Den ene fejl, jeg ville lukke denne uge</h2>
+    <p>14 fejl, alle pr. definition ulovlige; det vigtige er undergruppen »brand/stød«. Én skiller sig ud.</p>
+    <table>
+      <thead><tr><th style="width:96px">Type</th><th>Fejl</th><th style="width:60px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sev rod">⚡ stød #3</span></td><td><b>RCD (HPFI) kobler ikke ud.</b> Husets primære beskyttelse mod elektrisk stød — den vigtigste fejl i sagen.</td><td><span class="src doc">s.6</span></td></tr>
+        <tr><td><span class="sev rod">🔥 brand #1</span></td><td>Eltavlen tillader for store sikringer (manglende bundskrue/pasring).</td><td><span class="src doc">s.6</span></td></tr>
+        <tr><td><span class="sev rod">🔥 brand #14</span></td><td>Ulovlig bøjelig ledning som fast installation i carport (flere steder).</td><td><span class="src doc">s.8</span></td></tr>
+        <tr><td><span class="sev gul">⚡ stød #2</span></td><td>Testknap defekt på RCD.</td><td><span class="src doc">s.6</span></td></tr>
+        <tr><td><span class="sev gul">⚡ stød #5</span></td><td>Manglende virksom beskyttelsesleder ved et tilslutningssted i badet.</td><td><span class="src doc">s.6</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout minus"><b>Anbefaling:</b> lad en <b>autoriseret elinstallatør</b> efterse og prissætte — tavle/RCD er hovedposten, flere fejl (mærkning, klemmer, dåselåg) er hurtige. Gør det <i>før</i> bud, eller skriv udbedringen ind som betingelse. Sælger oplyser intet kendskab til el-problemer <span class="src doc">el-rapport s.4</span> — derfor den uafhængige kontrol.</div>
+  </div>
+</section>
+
+<!-- ============ VISUELT EFTERSYN ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Visuelt eftersyn · fotos</div>
+    <h2 class="sec">Det, fotos viser — og hvad det koster</h2>
+    <p>Tilstandsrapporten ser <b>ikke</b> på kosmetik, slid og »smag« (det er undtaget ved lov). Men netop det sætter dit første budget efter købet. Mægleren kalder boligen <i>»håndværkertilbud«</i> — fotos bekræfter hvorfor.</p>
+    <table>
+      <thead><tr><th>Det fotos viser</th><th style="width:120px">Kategori</th><th style="width:140px">Størrelsesorden</th><th style="width:60px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><b>Trælofter (panel)</b> i hele stueplan — lakeret fyr fra 70'erne</td><td>Kosmetik</td><td>behold, eller ~10–25k/rum</td><td><span class="src photo">foto</span></td></tr>
+        <tr><td><b>Tæppegulv</b> i stue + hele 1. sal — ældre</td><td>Hygiejne / udskift</td><td>~20–50k (stue) + ~15–35k (1. sal)</td><td><span class="src photo">foto</span></td></tr>
+        <tr><td><b>Meget gammelt bad i stueplan</b> — brune 70'er-fliser. Samme vådzone som RØD-fugen.</td><td>Funktion → sikkerhed</td><td>fuld renovering <b>80–180k</b></td><td><span class="src photo">foto</span> <span class="src doc">RØD #26</span></td></tr>
+        <tr><td><b>Skråt træloft</b> i 1. sals stue — sidder over tag-/fugtklyngen</td><td>Kosmetik / konstruktion</td><td>~15–40k — men fugt først</td><td><span class="src photo">foto</span> <span class="src doc">RØD #15/16</span></td></tr>
+        <tr><td><b>Altanens træ + rækværk + bjælkeende</b> nedenunder</td><td>Sikkerhed + vedligehold</td><td>se RØD #2 / GUL #6</td><td><span class="src photo">foto</span> <span class="src doc">tilstand</span></td></tr>
+        <tr><td><b>Trappe-rækværk + gamle radiatorer + indvendige døre</b></td><td>Sikkerhed / kosmetik</td><td>~8–20k (rækværk) + løbende</td><td><span class="src photo">foto</span></td></tr>
+        <tr><td><b>Køkken</b> — hvide rammelåger, rent men ældre stil</td><td>Funktion / fremtid</td><td>nyt køkken 50–150k (valgfrit)</td><td><span class="src photo">foto</span></td></tr>
+      </tbody>
+    </table>
+    <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+    <p class="kf-teaser">To gæt, man let tager fejl af ved en fremvisning — vi krydschecker dem med dokumenterne.</p>
+    <div class="callout kf-body"><b>To ærlige rettelser til »øjemålet«:</b> ▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓ (▓▓ ▓▓▓ ▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ — ▓▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓) ▓▓▓▓▓▓▓▓▓.; ▓▓ ▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓, ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓ — ▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓ (▓▓▓ #6), ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓.</div>
+  </div>
+</section>
+
+<!-- ============ PRIS & MARKED ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Pris &amp; marked</div>
+    <h2 class="sec">Hvad gaden faktisk handler til</h2>
+    <p>Udbudspris <b>2.295.000 kr.</b> (~12.750 kr./m²) <span class="src doc">salgsopstilling</span>. Det er under offentlig vurdering 2022 (ejendomsværdi <span class="d">●.●●●.●●● kr.</span>) <span class="src doc">salgsopstilling s.7</span> — men offentlig vurdering er <b>skattegrundlag, ikke markedspris</b>.</p>
+    <p>Det afgørende: <b>samme gade</b> handlede et hus <span class="d">[dato] til ~●●.●●● kr./m²</span> — næsten præcis udbudsprisen <span class="src web">frie handler i postnr.</span>. Distriktets median ligger <span class="d">højere (~●●.●●● kr./m²)</span>, men gaden trades lavere pga. nærhed til et udsat boligområde. Konklusion: udbudsprisen er <b>ikke</b> for høj mod gaden — gevinsten skal hentes på tilstanden.</p>
+
+    <div class="scale">
+      <div class="track"></div>
+      <div class="mark" style="left:6%"><i></i><span>2,10 mio.</span></div>
+      <div class="mark" style="left:50%"><i></i><span>fair: 2,10–2,35</span></div>
+      <div class="mark ask" style="left:74%"><i></i><span>udbud 2,295</span></div>
+      <div class="mark d" style="left:96%"><i></i><span>●,●● off. vurd.</span></div>
+    </div>
+
+    <div class="callout"><b>Værdiudvikling — med forbehold.</b> Sidste reelle salg var <span class="d">[år] til ●.●●●.●●● kr.</span> <span class="src doc">offentlige registre</span>. En vækstrate herfra til udbudsprisen giver groft <b><span class="d">~●,● % om året</span></b> — under markedet. <b>Vigtigt forbehold:</b> det regnes fra <i>udbudspris</i> 2026 mod en reel handel — og udbudspris ≠ salgspris. Tag tallet som størrelsesorden, ikke afkast.</div>
+  </div>
+</section>
+
+<!-- ============ DEN REELLE MÅNEDLIGE UDGIFT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Den reelle månedlige udgift</div>
+    <h2 class="sec">»2.374 kr./md.« er toppen af isbjerget</h2>
+    <p class="lead">Ejerudgiften er ikke det, du betaler for at bo her. Den dækker skat, forsikring og renovation — ikke varme, el, vand eller vedligehold.</p>
+    <table>
+      <thead><tr><th>Post</th><th style="width:150px">Beløb</th><th style="width:70px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td>Ejerudgift (skat, forsikring, renovation, grundejerforening)</td><td>2.374 kr./md.</td><td><span class="src doc">s.4</span></td></tr>
+        <tr><td>Varme (fjernvarme, sælgers faktiske)</td><td>~<span class="d">●.●●●</span> kr./md.</td><td><span class="src doc">s.3</span></td></tr>
+        <tr><td>El + vand</td><td>~<span class="d">●.●●●–●.●●●</span> kr./md.</td><td><span class="src calc">beregning</span></td></tr>
+        <tr><td>Vedligeholdsreserve (1976-hus, 8 røde)</td><td>~<span class="d">●.●●●–●.●●●</span> kr./md.</td><td><span class="src assume">skøn</span></td></tr>
+        <tr><td><b>Reel drift i alt</b></td><td><b>~6.500–7.500 kr./md.</b></td><td><span class="src calc">≈</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout minus"><b>Ærligt regnestykke.</b> Annonce: <b>2.374 kr./md.</b> Reelt at eje huset (uden afdrag på lån): <b>~6.500–7.500 kr./md.</b> — næsten <b>3×</b>. Plus lån oveni. Og særskilt: <span class="d">~●●.●●●–●●●.●●● kr.</span> engangs i 1. år på de markerede reparationer + en tag-reserve på <span class="d">~●●●.●●●–●●●.●●● kr.</span> mod 2050'erne. <b>Det er »det andre overser«.</b></div>
+  </div>
+</section>
+
+<!-- ============ RENOVERINGSRESERVE ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Renoveringsreserve over tid</div>
+    <h2 class="sec">Hvad, hvornår, og cirka hvor meget</h2>
+    <div class="stages">
+      <div class="stage"><div class="when">Nu (år 1)</div><ul>
+        <li>El: RCD/tavle + bad-leder + carport-ledning <span class="d">~●–●●k</span></li>
+        <li>Tagventilation + rygning (#15/#16) <span class="d">~●●–●●k</span></li>
+        <li>Vådzone-fuger (#12/#26) <span class="d">~●–●●k</span></li>
+      </ul></div>
+      <div class="stage"><div class="when">1–3 år</div><ul>
+        <li>Nedslidte vinduer/døre (#9,#10,#28) <span class="d">~●●–●●k</span></li>
+        <li>Loftisolering (energimærke) ~10k</li>
+        <li>Kosmetik: gulve, lofter, maling</li>
+      </ul></div>
+      <div class="stage"><div class="when">5–15 år</div><ul>
+        <li>Bad-renovering <span class="d">~●●–●●●k</span></li>
+        <li>Køkken (valgfrit) <span class="d">~●●–●●●k</span></li>
+        <li>Hvidevarer (2016) udskiftes <span class="d">~●●–●●k</span></li>
+      </ul></div>
+      <div class="stage"><div class="when">20–30 år</div><ul>
+        <li>Asbest-eternittag, fuld udskiftning <span class="d">~●●●–●●●k</span></li>
+        <li>Kun autoriseret firma + bortskaffelse</li>
+      </ul></div>
+    </div>
+    <p class="small muted">Alle beløb er <b>skøn / størrelsesordener</b>, ikke håndværkertilbud. Indhent altid faste tilbud. Stålvarmerør støbt i terrændækket: det røroprettede gulvvarme-brud er ikke en engangshændelse, men et alderstegn — næste brud betyder opbrydning af beton.</p>
+  </div>
+</section>
+
+<!-- ============ FORHANDLING ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Forhandling</div>
+    <h2 class="sec">Hvor pengene ligger på bordet</h2>
+    <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+    <p class="kf-teaser">Vi har rangeret jeres forhandlingskort efter, hvilket der virker først.</p>
+    <div class="callout plus kf-body"><b>Dine stærkeste kort:</b>(▓▓) ▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓ — ▓▓▓▓▓▓▓▓▓, ▓▓▓▓▓▓▓▓▓, ▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓, ▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓; (▓▓) ▓▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓ — ▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓; (▓▓) »▓▓▓▓▓▓▓▓▓« = ▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓▓; (▓▓) ▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓▓, ▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓ »▓▓▓▓▓▓▓▓▓« ▓▓ ▓▓▓▓▓▓ ▓▓▓.</div>
+    <p>Konkret: indhent <b>to korte fagvurderinger</b> (el + byggeteknik) før budgivning, og forhandl udbedringen ind — enten som prisreduktion eller som betingelse i købsaftalen. Det er den ærlige vej til en pris i <b>2,10–2,35 mio.</b>-intervallet frem for udbudsprisen.</p>
+  </div>
+</section>
+
+<!-- ============ GEO & KLIMA ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Geo &amp; klima</div>
+    <h2 class="sec">Grund, radon og forurening</h2>
+    <table>
+      <thead><tr><th style="width:160px">Forhold</th><th>Hvad vi fandt</th><th style="width:64px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><b>Radon</b></td><td>Kommunen ligger i radonklasse 1 (niveau <span class="d">●,● – ●,● %</span>) — landets laveste klasse. Huset er fra <b>1976</b>, dvs. <b>uden lovpligtig radonspærre</b> (krav først fra 1998). Ikke akut, men værd at måle hvis I planlægger at bo i kælder/stueetage permanent.</td><td><span class="src doc">tilstandsrapport s.7</span></td></tr>
+        <tr><td><b>Jordforurening</b></td><td>Ejendommen er <b>områdeklassificeret som »lettere forurenet«</b> — en automatisk klassificering for al byzone-jord, ikke en konkret forureningssag på denne grund. Det betyder typisk særlige regler for bortskaffelse af overskudsjord, hvis I graver/bygger om.</td><td><span class="src doc">salgsopstilling s.3</span></td></tr>
+        <tr><td><b>Skybrud / lavpunkt (bluespot)</b></td><td><i>Ikke opslået adresse-præcist i denne udgave</i> — kræver et kort-opslag i kommunens klimaatlas/DinGeo. Indgår i den fulde leverance.</td><td><span class="src assume">mangler — bør slås op</span></td></tr>
+        <tr><td><b>Grundvandsspejl</b></td><td><i>Ikke opslået adresse-præcist</i> — samme bemærkning som ovenfor.</td><td><span class="src assume">mangler — bør slås op</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout"><b>Sådan læser man »lettere forurenet«.</b> Det er ikke et alarmsignal i sig selv — det gælder stort set al bebygget byzone i Danmark. Det bliver først relevant, hvis I skal aflevere jord til godkendt modtageanlæg ved en tilbygning, eller hvis I dyrker grøntsager direkte i jorden uden at have testet den.</div>
+  </div>
+</section>
+
+<!-- ============ SKOLE & KVARTER ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Skole &amp; kvarter</div>
+    <h2 class="sec">Hvad »tæt på det hele« reelt betyder her</h2>
+    <p>Mæglerens beskrivelse nævner stisystemer til skole, daginstitutioner og indkøb, samt grønne gåture i <span class="d">[lokal park]</span> med petanquebane, træningspavilloner og bålplads — og at centrum nås med bil, bus eller cykel <span class="src doc">salgsopstilling s.1</span>.</p>
+    <div class="callout"><b>Det mæglerens tekst <i>ikke</i> siger:</b> der er <b>ingen jernbanestation</b> i gåafstand — al transport til centrum går via bil, bus eller cykel. Tjek jeres egen daglige rute på rejseplanen.dk, før I lægger tid ind i budgettet. <span class="src assume">vurdering ud fra beskrivelse</span></div>
+    <div class="callout minus"><b>Det vi endnu ikke har slået op:</b> konkrete skolers <b>trivselstal</b> og karaktergennemsnit, skoledistrikt for netop denne adresse, og kvarterets udviklingsplaner (er der nye lokalplaner i pipeline der ændrer området?). Dette kræver et adresse-specifikt opslag og indgår i den fulde leverance — sælges ikke som gæt her.</div>
+  </div>
+</section>
+
+<!-- ============ HVERDAGSDATA ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Hverdagsdata</div>
+    <h2 class="sec">Sol, vand, støj og forbindelse</h2>
+    <table>
+      <thead><tr><th style="width:160px">Forhold</th><th>Hvad vi fandt</th><th style="width:64px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><b>Sol / orientering</b></td><td>Altan på 1. sal er <b>sydvendt</b>; terrassen i stueplan er overdækket og vender samme solrige retning, og »følger solen mod vest« om eftermiddagen. Gode aften-soltimer; ingen præcis måling pr. måned foreligger.</td><td><span class="src doc">salgsopstilling s.1</span></td></tr>
+        <tr><td><b>Drikkevand</b></td><td>Ejendommen er tilsluttet <b>alment (offentligt) vandforsyningsanlæg</b> — ikke privat boring. Det betyder løbende, lovpligtig kvalitetskontrol af vandet, i modsætning til en privat brønd.</td><td><span class="src doc">salgsopstilling s.3</span></td></tr>
+        <tr><td><b>Rotter</b></td><td>Sælger oplyser <b>intet kendskab</b> til rotter på ejendommen.</td><td><span class="src doc">sælgeropl. s.22</span></td></tr>
+        <tr><td><b>Vej-/togstøj</b></td><td><i>Ikke opslået</i> — miljøportal.dk's støjkort kan give et adresse-præcist billede.</td><td><span class="src assume">mangler</span></td></tr>
+        <tr><td><b>Mobil &amp; bredbånd</b></td><td><i>Ikke opslået</i> — tjek mobildaekning.dk og udbyderes dækningskort for adressen.</td><td><span class="src assume">mangler</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ SERVITUTTER & LOKALPLAN ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Servitutter &amp; lokalplan</div>
+    <h2 class="sec">Hvad I binder jer til ved underskrift</h2>
+    <table>
+      <thead><tr><th style="width:160px">Forhold</th><th>Hvad vi fandt</th><th style="width:64px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><b>Tinglyst servitut</b></td><td>Dokument fra <span class="d">[dato]</span> om bebyggelse og benyttelse, samt vedtægter for »<span class="d">[ejerlaug-navn]</span>« — fuld tekst findes på ejendommens blad i tingbogen, ikke i salgsopstillingen selv.</td><td><span class="src doc">salgsopstilling s.7</span></td></tr>
+        <tr><td><b>Ejerlaug / pligt</b></td><td><b>Pligtigt medlemskab</b> af ejerlauget. Ingen sikkerhedsstillelse til eller fra foreningen. Kontingent <span class="d">~●.●●● kr./år</span> indgår allerede i ejerudgiften ovenfor.</td><td><span class="src doc">salgsopstilling s.10, s.4</span></td></tr>
+        <tr><td><b>Fremtidig grundskyld</b></td><td>Salgsopstillingen flager selv, at den igangværende <b>ejendomsskattereform</b> kan ændre, hvad ejerlauget — og dermed hvert medlem — betaler i grundskyld af fælles arealer. Ingen, der kan citeres for et konkret beløb endnu.</td><td><span class="src doc">salgsopstilling s.6</span></td></tr>
+        <tr><td><b>Lokalplan</b></td><td><i>Ikke opslået</i> — kommunens plansystem.dk kan vise byggeret, max. bebyggelsesprocent og evt. fremtidige ændringer for grunden.</td><td><span class="src assume">mangler</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ FORSIKRING — HULLERNE ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Forsikring — hullerne</div>
+    <h2 class="sec">Det, en ejerskifteforsikring ikke redder jer fra</h2>
+    <p class="lead">De fleste købere tror forsikringen dækker »alt, der går galt«. Den gør ikke — og netop her, hvor vi allerede har fundet 8 røde skader, er forskellen vigtig.</p>
+    <div class="pm">
+      <div class="pmcol good"><h4>Hvad sælger opnår</h4>
+        <ul>
+          <li>Fritages for det normale <b>10-årige sælgeransvar</b>, når gyldig tilstandsrapport + el-rapport + forsikringstilbud er fremlagt før underskrift</li>
+          <li>Betaler kun <b>halvdelen</b> af forsikringspræmien</li>
+        </ul>
+      </div>
+      <div class="pmcol bad"><h4>Hvad forsikringen IKKE dækker</h4>
+        <ul>
+          <li>Skader, der allerede <b>er nævnt i rapporterne</b> — herunder netop de 8 røde og 9 gule skader i denne sag</li>
+          <li>Forhold, der er <b>gjort utilgængelige</b> under eftersynet (f.eks. skuret, der ikke blev besigtiget)</li>
+          <li>Almindeligt slid og forhold, der er normale for husets alder</li>
+        </ul>
+      </div>
+    </div>
+    <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+    <p class="kf-teaser">De fleste købere overser denne sætning i tilstandsrapporten.</p>
+    <div class="callout minus kf-body"><b>Konsekvens for jer som købere:</b>▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓▓, ▓▓▓▓▓▓▓ ▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ — ▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓▓, ▓▓ ▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓. ▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓, ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓. ▓▓▓▓▓▓ ▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓, ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓▓ (▓▓▓▓▓. ▓▓▓▓▓▓▓▓▓ ▓▓▓▓) ▓▓▓▓▓ ▓▓▓, ▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓▓▓. ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓</div>
+  </div>
+</section>
+
+<!-- ============ LIKVIDITET & EXIT ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Likviditet &amp; exit</div>
+    <h2 class="sec">Hvad det koster at komme ud igen</h2>
+    <table>
+      <thead><tr><th style="width:200px">Post</th><th>Beløb / vurdering</th><th style="width:64px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td>Tinglysningsafgift ved køb (skøde)</td><td><span class="d">●●.●●● kr.</span></td><td><span class="src doc">s.4</span></td></tr>
+        <tr><td>Halvdel af ejerskifteforsikringspræmie</td><td><span class="d">●●.●●● kr.</span></td><td><span class="src doc">s.4</span></td></tr>
+        <tr><td>Mæglersalær ved et evt. fremtidigt videresalg</td><td>typisk <span class="d">1–3 %</span> af salgsprisen</td><td><span class="src assume">generel norm, ikke sagsspecifik</span></td></tr>
+        <tr><td>Parcelhusreglen</td><td>Bor I selv i huset, er en eventuel fortjeneste ved videresalg som udgangspunkt <b>skattefri</b></td><td><span class="src web">gængs dansk skatteret</span></td></tr>
+      </tbody>
+    </table>
+    <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+    <p class="kf-teaser">Et mønster i prisdataene afgør, hvor nemt huset bliver at sælge igen om nogle år.</p>
+    <div class="callout kf-body"><b>Køberpulje fremover.</b>▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓. ▓▓ (▓▓ »▓▓▓▓ &amp; ▓▓▓▓▓▓«), ▓▓▓▓▓▓▓▓▓ ▓▓▓. ▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓. ▓▓▓ ▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓ ▓▓ ▓▓ ▓▓▓ — ▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓, ▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓. ▓▓▓▓▓▓▓ ▓▓▓, ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓ ▓▓ ▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓. ▓▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓▓</div>
+  </div>
+</section>
+
+<!-- ============ ENERGI-KØREPLAN ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Energi-køreplan til B</div>
+    <h2 class="sec">Hele vejen fra C til B — tiltag for tiltag</h2>
+    <p>Energimærket lister otte forbedringer. To er <b>rentable</b> isoleret set; de resterende seks bliver rentable, hvis de udføres samtidig med en renovering I alligevel skal lave (f.eks. tagvask/asbest-arbejde).</p>
+    <table>
+      <thead><tr><th>Tiltag</th><th style="width:110px">Årlig besparelse</th><th style="width:110px">Investering</th></tr></thead>
+      <tbody>
+        <tr><td>Efterisolering af loftrum <i>(rentabel nu)</i></td><td>300 kr.</td><td>10.000 kr.</td></tr>
+        <tr><td>Montage af solceller <i>(rentabel nu)</i></td><td>2.700 kr.</td><td>52.000 kr.</td></tr>
+        <tr><td>Indvendig isolering af skråvægge</td><td>1.700 kr.</td><td>— <span class="src assume">afhænger af renovering</span></td></tr>
+        <tr><td>Efterisolering af skunkrum</td><td>1.000 kr.</td><td>—</td></tr>
+        <tr><td>Isolering af gavlydervægge</td><td>600 kr.</td><td>—</td></tr>
+        <tr><td>Udskiftning af vinduer (termoruder → energiruder A)</td><td>1.000 kr.</td><td>—</td></tr>
+        <tr><td>Udskiftning af ovenlysvindue</td><td>200 kr.</td><td>—</td></tr>
+        <tr><td>Udskiftning af bryggersdør (uisoleret i dag)</td><td>200 kr.</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="callout plus"><b>Hvis alle otte gennemføres:</b> samlet besparelse <span class="d">~●.●●● kr./år</span>, og energimærket går fra <b>C</b> til <b>B</b>. Gennemføres kun de to »rentable« tiltag, forbliver mærket på <b>C</b> — selv de rentable tiltag alene flytter ikke skalaen. <span class="src doc">energimærke s.5, s.10–14</span></div>
+    <p class="small muted">Smart timing: skal taget alligevel åbnes for asbest-udskiftning om en menneskealder, er det det oplagte tidspunkt at efterisolere skråvægge og skunkrum billigt i samme arbejdsgang.</p>
+  </div>
+</section>
+
+<!-- ============ SELVBYG & LOVLIGGØRELSE ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Selvbyg &amp; lovliggørelse</div>
+    <h2 class="sec">Carport, skur og værksted — hvad BBR ikke ved</h2>
+    <table>
+      <thead><tr><th style="width:140px">Bygning</th><th>Status</th><th style="width:64px">Kilde</th></tr></thead>
+      <tbody>
+        <tr><td><b>Carport</b></td><td>Placeringen er <b>ikke korrekt registreret i BBR</b>.</td><td><span class="src doc">tilstandsrapport s.10</span></td></tr>
+        <tr><td><b>Skur</b></td><td><b>Ikke registreret i BBR overhovedet.</b> Arealet er kun vejledende, ikke opmålt.</td><td><span class="src doc">tilstandsrapport s.10</span></td></tr>
+        <tr><td><b>Værksted »Hoppirum«</b></td><td>Sælger oplyser selv: opført <b>delvist som selvbyg</b>, årstal ukendt.</td><td><span class="src doc">sælgeropl. s.18</span></td></tr>
+      </tbody>
+    </table>
+    <span class="lockbadge">🔒 Nøglefund — kun i den fulde rapport</span>
+    <p class="kf-teaser">En sammenligning mellem sælgers egne ord og det officielle register, der kan koste jer en byggesag.</p>
+    <div class="callout minus kf-body"><b>Hvorfor det betyder noget.</b>▓▓▓▓▓▓▓▓▓, ▓▓▓ ▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓▓, ▓▓▓ ▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ — ▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓ ▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓, ▓▓▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓, ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓. ▓▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓, ▓▓▓▓▓▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓ ▓▓▓ ▓▓ ▓▓▓▓▓▓▓▓, ▓▓▓ ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓. ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓ — ▓▓▓▓▓▓▓▓ ▓▓▓▓▓ ▓▓▓▓▓▓▓</div>
+    <p>Anbefaling: bed sælger om en eventuel byggetilladelse for værkstedet, og planlæg selv en BBR-anmeldelse af skuret kort efter overtagelsen for at undgå at overtage et uafklaret forhold.</p>
+  </div>
+</section>
+
+<!-- ============ SPØRGSMÅL + TJEKLISTE ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Inden du byder</div>
+    <h2 class="sec">Spørgsmål til mægleren &amp; din tjekliste</h2>
+    <div class="pm">
+      <div class="clist"><h4>Spørg mægler/sælger om</h4>
+        <ul>
+          <li>Forsikringssag + kvittering på det reparerede gulvvarme-brud i brusekabinen</li>
+          <li>Kvittering/garanti på tagarbejdet efter stormen (plader + rygning)</li>
+          <li>BBR: carportens placering, det uregistrerede skur og »Hoppirum«-værkstedet (delvist selvbyg)</li>
+          <li>Er ejerskifteforsikring tilbudt — og hvad undtager den (de røde skader er ikke dækket)?</li>
+        </ul>
+      </div>
+      <div class="clist"><h4>Få fagfolk til</h4>
+        <ul>
+          <li>Autoriseret elinstallatør: tavle + RCD + bad-leder</li>
+          <li>Byggesagkyndig: tag-/fugtklyngen + altanens bjælkeende</li>
+          <li>Evt. fugtmåling i 1. sals stue/skråvægge</li>
+          <li>Tjek vinduers hjørner for kondens/skimmel ved fremvisning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORBEHOLD + KILDER ============ -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Forbehold &amp; kilder</div>
+    <h2 class="sec">Sådan er denne analyse lavet</h2>
+    <p class="small">Analysen bygger på <b>salgsopstilling, tilstandsrapport, elinstallationsrapport, energimærke og sælgeroplysninger</b> <span class="src doc">dokumenter</span> samt offentlige kilder for marked og geo-risiko <span class="src web">frie handler, registre</span>. Omkostninger er <b>skøn</b>, ikke tilbud. Offentlig vurdering ≠ markedspris. Vækstrate er regnet fra udbudspris (ikke handelspris) og bærer forbehold. Hver påstand er kildemærket; ukendte felter er markeret »ikke nok data«. Dette erstatter ikke advokat, bank, ingeniør eller autoriseret elinstallatør.</p>
+  </div>
+</section>
+
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <div class="wrap">
+    <div class="ctabox">
+      <h3>Vil du se de fulde tal for din bolig?</h3>
+      <p style="color:var(--ice);max-width:60ch;margin:0 auto">Dette er en sløret prøve af en ægte BoligCheck. I din egen rapport er hvert nøglefund og hvert sløret tal skarpt og adresse-præcist — bygget på dine egne dokumenter.</p>
+      <a class="ctabtn" href="https://nordindsigt.dk/#order">Bestil din BoligCheck</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOT ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="brandrow"><span class="beam"></span><span class="brandname"><b>Nord</b><span>Indsigt</span></span></div>
+    <p class="small" style="margin-top:12px">BoligCheck — ejendomsanalyse for købere. <i>»Se hvad andre overser«</i><br>
+    Informativ analyse — ikke offentlig vurdering, juridisk/finansiel rådgivning eller byggeteknisk gennemgang. · <a href="https://nordindsigt.dk">nordindsigt.dk</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
