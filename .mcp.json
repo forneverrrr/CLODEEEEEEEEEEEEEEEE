@@ -5,7 +5,9 @@
       "args": [
         "-y", "@playwright/mcp@latest",
         "--proxy-server=http://127.0.0.1:33769",
-        "--ignore-https-errors"
+        "--ignore-https-errors",
+        "--browser=chromium",
+        "--executable-path=/opt/pw-browsers/chromium/chrome-linux/chrome"
       ],
       "env": {
         "NODE_EXTRA_CA_CERTS": "/root/.ccr/ca-bundle.crt"
