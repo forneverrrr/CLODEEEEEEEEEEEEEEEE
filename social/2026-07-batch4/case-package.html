@@ -1,0 +1,475 @@
+<title>NordIndsigt — Kasse-pakke: «To huse, samme pris»</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --disp: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono: ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#131C26; --card:#1B2530; --ink:#EAE3D6; --ink2:#B7BFC9; --muted:#8993A0;
+    --line:#2E3A47; --rust:#E07A63; --rust-deep:#C4533F; --gold:#D9A45C;
+    --mono-bg:#101A22; --mono-ink:#D8DEE6; --tag-bg:#2A2214; --tag-ink:#D9A45C;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131C26; --card:#1B2530; --ink:#EAE3D6; --ink2:#B7BFC9; --muted:#8993A0;
+  --line:#2E3A47; --rust:#E07A63; --rust-deep:#C4533F; --gold:#D9A45C;
+  --mono-bg:#101A22; --mono-ink:#D8DEE6; --tag-bg:#2A2214; --tag-ink:#D9A45C;
+}
+:root[data-theme="light"]{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:780px;margin:0 auto;padding:0 22px 100px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--paper) 88%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 0}
+.top-inner{max-width:780px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.top .brand{font-family:var(--disp);font-weight:600;font-size:17px;color:var(--ink);white-space:nowrap}
+.top .brand b{color:var(--rust);font-weight:600}
+.top nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:12.5px;color:var(--ink2);text-decoration:none;padding:6px 10px;border-radius:100px;white-space:nowrap;transition:background .15s,color .15s}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:52px 0 30px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:14px}
+h1{font-family:var(--disp);font-size:clamp(30px,5.6vw,42px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 16px;text-wrap:balance}
+.lead{font-size:16.5px;color:var(--ink2);max-width:600px;margin:0 0 6px}
+.meta-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+
+section{margin:40px 0}
+h2.h{font-family:var(--disp);font-size:23px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0 0 6px;scroll-margin-top:70px}
+.h-sub{font-size:14px;color:var(--muted);margin-bottom:20px;max-width:560px}
+
+.audit{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px}
+.audit table{width:100%;border-collapse:collapse;font-size:13.5px}
+.audit th{text-align:left;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);padding:0 8px 10px 0;border-bottom:1px solid var(--line)}
+.audit td{padding:10px 8px 10px 0;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+.audit td.f{color:var(--ink);font-weight:600;width:32%}
+.audit tr:last-child td{border-bottom:none}
+.chip{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:100px}
+.chip.new{background:#DDEAD9;color:#2B6B3C}
+.chip.used{background:var(--tag-bg);color:var(--tag-ink)}
+@media (prefers-color-scheme: dark){.chip.new{background:#1E3324;color:#7FCB93}}
+:root[data-theme="dark"] .chip.new{background:#1E3324;color:#7FCB93}
+:root[data-theme="light"] .chip.new{background:#DDEAD9;color:#2B6B3C}
+
+.post{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 26px 22px;margin-bottom:22px;scroll-margin-top:70px}
+.post-head{display:flex;align-items:baseline;gap:12px;margin-bottom:4px;flex-wrap:wrap}
+.post-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.post-title{font-family:var(--disp);font-size:19px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.post-type{margin-left:auto;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);padding:3px 9px;border-radius:100px;white-space:nowrap}
+.post-hook{font-size:13px;color:var(--muted);margin:6px 0 16px;font-style:italic}
+
+.blockhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.blocklabel{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.copy-btn{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--line);color:var(--ink2);padding:4px 10px;border-radius:100px;cursor:pointer;transition:background .15s,color .15s}
+.copy-btn:hover{background:var(--tag-bg);color:var(--ink)}
+.copy-btn:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.copy-btn.copied{color:#2B6B3C;border-color:#2B6B3C}
+:root[data-theme="dark"] .copy-btn.copied, @media (prefers-color-scheme:dark){.copy-btn.copied{color:#7FCB93;border-color:#7FCB93}}
+
+.capblock{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:14.5px;color:var(--ink);white-space:pre-wrap;margin-bottom:16px;user-select:text}
+.promptblock{background:var(--mono-bg);border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-family:var(--mono);font-size:12.5px;color:var(--mono-ink);white-space:pre-wrap;line-height:1.55;margin-bottom:16px;user-select:text;overflow-x:auto}
+.tags{font-family:var(--mono);font-size:12px;color:var(--gold);margin-top:2px}
+
+.reel-stage{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 26px;margin-bottom:20px}
+.reel-stage h3{font-family:var(--disp);font-size:17px;margin:0 0 4px;color:var(--ink)}
+.reel-stage .sub{font-size:13px;color:var(--muted);margin-bottom:16px}
+.kf{border-top:1px solid var(--line);padding-top:16px;margin-top:16px}
+.kf:first-of-type{border-top:none;padding-top:0;margin-top:0}
+.kf-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.kf-badge{font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;background:var(--rust);padding:2px 9px;border-radius:100px}
+.kf-title{font-weight:600;font-size:14.5px;color:var(--ink)}
+
+.timeline{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+.timeline th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+.timeline td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.timeline td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
+.timeline tr:last-child td{border-bottom:none}
+
+.note{background:var(--tag-bg);border-radius:12px;padding:14px 18px;font-size:13px;color:var(--ink2);margin-top:16px}
+.note b{color:var(--ink)}
+
+footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand">Nord<b>Indsigt</b> · Case-pakke</div>
+    <nav>
+      <a href="#audit">Audit</a>
+      <a href="#post-1">1</a><a href="#post-2">2</a><a href="#post-3">3</a><a href="#post-4">4</a>
+      <a href="#post-5">5</a><a href="#post-6">6</a><a href="#post-7">7</a><a href="#post-8">8</a>
+      <a href="#post-9">9</a><a href="#post-10">10</a><a href="#post-11">11</a><a href="#post-12">12</a>
+      <a href="#reel">Reel</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Кейс «To huse, samme pris» · полный пакет</div>
+  <h1>12 постов + один продакшен-рил, готовые к копированию</h1>
+  <p class="lead">Всё из трёх присланных отчётов (comparison + два BoligCheck-разбора) выжато и разложено по постам. Тексты — финальные, на датском, вставляй как есть. Промпты — полные, реалистичный/полуфото-стиль, без плоского вектора старой карусели.</p>
+  <div class="meta-row"><span><b>Постов:</b> 12</span><span><b>Тон:</b> манипуляция 3-4/10 · страх 5/10 · юр.строгость 9/10</span><span><b>Анонимизация:</b> без адресов и опознаваемых деталей</span></div>
+</header>
+
+<section id="audit">
+<h2 class="h">Аудит: что выжато из отчётов</h2>
+<p class="h-sub">Сравнили заново все три файла (сравнение + оба полных BoligCheck-отчёта) построчно. Ниже — каждая находка и куда она пошла. В прошлый раз (batch4) было закрыто 4 из них — сейчас закрыто всё, кроме пары нишевых юридических деталей, которые не тянут на отдельный пост (см. внизу).</p>
+<div class="audit">
+<table>
+<tr><th>Находка из отчёта</th><th>Дом</th><th>Куда пошла</th></tr>
+<tr><td class="f">Энергометка на весь блок, не на юнит</td><td>A</td><td>Пост 3 <span class="chip used">был в batch4</span></td></tr>
+<tr><td class="f">Нет tilstandsrapport/elrapport на момент объявления</td><td>A</td><td>Пост 4 <span class="chip used">был в batch4</span></td></tr>
+<tr><td class="f">Vurdering выше/ниже цены в обе стороны</td><td>A + B</td><td>Пост 5 <span class="chip used">был в batch4</span></td></tr>
+<tr><td class="f">Bevaringsværdig — ограничение на фасад</td><td>B</td><td>Пост 6 <span class="chip used">был в batch4</span></td></tr>
+<tr><td class="f">Название улицы намекает на скрытый риск (парковка вместо «луга»; исторический ров → риск подтопления у соседей)</td><td>A + B</td><td>Пост 2 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Интерьерные фото похожи на маркетинг 2021 года, не текущее состояние после 5 лет аренды</td><td>A</td><td>Пост 7 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Продавец в анкете говорит «нет skunke», отчёты — «не осмотрено»</td><td>B</td><td>Пост 8 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Обязательное членство в grundejerforening + необъявленный будущий взнос на опорные стены</td><td>A</td><td>Пост 9 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Реально измеренная (не расчётная) стоимость отопления — честный сигнал</td><td>B</td><td>Пост 10 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">10-летняя byggeskadeforsikring истекает через ~5 лет</td><td>A</td><td>Пост 11 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Сводный чек-лист по всем находкам</td><td>A + B</td><td>Пост 12 <span class="chip new">новое</span></td></tr>
+<tr><td class="f">Сервитут tilbagekøbsret 1982 г., неясные условия</td><td>A</td><td>Не в постах — слишком нишевый юридический момент, без общей пользы для читателя без похожего сервитута в собственном случае</td></tr>
+<tr><td class="f">Методология comps (сопоставимые продажи той же улицы) и уровень доверия к оценке цены</td><td>A</td><td>Не в постах — это внутренняя методика анализа, не образовательный крючок; можно превратить в отдельный «как мы проверяем справедливость цены» пост позже, если захочешь</td></tr>
+<tr><td class="f">Радон, класс 2 по коммуне</td><td>B</td><td>Не в постах — общий фоновый показатель региона, не специфика этого дома, слабый крючок</td></tr>
+</table>
+</div>
+<div class="note"><b>Итог:</b> из 14 самостоятельных находок 11 превращены в посты (реально всё, что несёт самостоятельную образовательную ценность), 3 сознательно оставлены за бортом — детали ниже в таблице.</div>
+</section>
+
+<section id="posts">
+<h2 class="h">Посты 1–12</h2>
+<p class="h-sub">Каждый — готовый текст (копируй как есть) + полный промпт Nano Banana Pro/2 (реализм, без текста/лого в кадре, каждый факт анонимизирован до «в одном из наших разборов»).</p>
+
+<div class="post" id="post-1">
+<div class="post-head"><span class="post-num">01</span><span class="post-title">Открывашка кейса</span><span class="post-type">Обложка / карусель</span></div>
+<p class="post-hook">Главный кадр серии — сохранить как референс для консистентности остальных.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-1">Копировать</button></div>
+<div class="capblock" id="cap-1">To huse. Næsten samme pris. Vidt forskellig risiko.
+
+Vi har set på begge i en af vores BoligCheck-analyser. Samme budget, samme by — men den ene er en ukendt størrelse, og den anden koster en tydelig præmie for at være kendt.
+
+Hvad ville du vælge: lavere pris og ventetid på rapporter, eller højere pris og et fuldt dokumentsæt i hånden med det samme?
+
+Vi har samlet, hvad der reelt adskiller de to boliger — link i bio.</div>
+<div class="tags">#boligkøb #boligkøber #boligtjek #tilstandsrapport #boligmarkedet #dkbolig</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-1">Копировать</button></div>
+<div class="promptblock" id="prm-1">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light with matching long shadows, seamless vertical seam down the exact center of the frame, no visible house numbers, street signs, or people, no text, no logo, editorial real-estate photography, shot on a 50mm lens, shallow depth of field on the foreground pavement.
+
+Consistency note: save this as the campaign's reference/anchor image. Reuse it as the reference-image input for posts 2, 6 and 7 below, and for the reel keyframes, to keep light direction, palette and lens character identical across the whole series.</div>
+</div>
+
+<div class="post" id="post-2">
+<div class="post-head"><span class="post-num">02</span><span class="post-title">Gadenavne lyver ikke — men de forsimpler</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Новая находка: объединяет обе улицы в одну историю — «луг» с видом на парковку и «ров» с реальным риском подтопления у соседей.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-2">Копировать</button></div>
+<div class="capblock" id="cap-2">Gadenavne fortæller ofte en historie — bare ikke altid den, du forventer.
+
+I en af vores analyser hed den ene bolig noget, der lød som en fredelig eng. Udsigten fra den franske altan? En parkeringsplads.
+
+Den anden lå på en gade opkaldt efter byens gamle voldgrav. Og ganske rigtigt — naboadresser på samme gade har registreret risiko for oversvømmelse ved skybrud.
+
+Et gadenavn er ikke en teknisk rapport. Men det er heller ikke tilfældigt. Næste gang du falder for en adresse — slå navnets historie op, ikke kun billederne.</div>
+<div class="tags">#boligkøb #boligtjek #boligkøber #skjultefejl #boligmarkedet</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-2">Копировать</button></div>
+<div class="promptblock" id="prm-2">Reference-image input: use the post-1 anchor image. Keep identical warm color grade and lens character.
+
+Photorealistic diptych in one frame: left side shows a French balcony railing looking out onto a softly blurred parking lot at dusk; right side shows a narrow cobblestone street with a thin sheen of rainwater reflecting warm streetlight, suggesting a historic drainage channel beneath the street. Symmetrical framing, muted warm-to-cool color grade transitioning from left to right, no readable street signs, no text, no people, no logo, quiet observational documentary-photography style.</div>
+</div>
+
+<div class="post" id="post-3">
+<div class="post-head"><span class="post-num">03</span><span class="post-title">Energimærket gjaldt hele blokken</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Уже была в batch4 — здесь полный финальный текст без сокращений.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-3">Копировать</button></div>
+<div class="capblock" id="cap-3">Et flot tal på forsiden af energimærket. Ét problem: det gjaldt ikke kun boligen, du overvejer at byde på.
+
+I en af vores analyser var energimærket udstedt for en hel blok boliger samlet — ikke den enkelte bolig. Det fremhævede tal for varmeudgift dækkede alle enhederne tilsammen.
+
+Vi regnede den reelle andel om for netop den bolig, vores kunde kiggede på. Tallet var markant anderledes end det, der stod med store bogstaver på forsiden.
+
+Tjek altid: er energimærket udstedt for DIN bolig — eller for hele bygningen?</div>
+<div class="tags">#energimærke #boligkøb #boligtjek #boligkøber #dkbolig</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-3">Копировать</button></div>
+<div class="promptblock" id="prm-3">Photorealistic close-up of a hand holding a generic Danish energy performance certificate (a printed document with color bands from green to red, no readable text or numbers), held up with a row of identical attached townhouses softly blurred in the background under warm afternoon light, shallow depth of field, calm investigative mood, no logo, no readable text anywhere in frame.</div>
+</div>
+
+<div class="post" id="post-4">
+<div class="post-head"><span class="post-num">04</span><span class="post-title">Boligen er til salg. Rapporten er det ikke.</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Финальный текст (была в batch4 сокращённо).</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-4">Копировать</button></div>
+<div class="capblock" id="cap-4">Boligen er sat til salg. Tilstandsrapporten er det ikke.
+
+Det er helt lovligt — rapporten skal foreligge, før købsaftalen underskrives, ikke nødvendigvis før annoncen går live. Men det betyder, at du på beslutningstidspunktet reelt overvejer et bud uden at kende den tekniske stand.
+
+I en af vores analyser var både tilstandsrapport og elinstallationsrapport endnu ikke klar, da boligen blev annonceret. Ikke et rødt flag i sig selv — men en god grund til at bede om forlænget accept-frist, til rapporterne er i hånden.</div>
+<div class="tags">#tilstandsrapport #elinstallationsrapport #boligkøb #boligtjek #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-4">Копировать</button></div>
+<div class="promptblock" id="prm-4">Close-up photorealistic shot of a hand holding a pen, hovering just above the signature line of a paper contract on a wooden desk, warm afternoon window light, shallow depth of field, a thin stack of documents with a visible gap where a top folder would sit softly blurred in the background, calm and deliberate mood, no visible text, no logo.</div>
+</div>
+
+<div class="post" id="post-5">
+<div class="post-head"><span class="post-num">05</span><span class="post-title">Vurderingen peger i hver sin retning</span><span class="post-type">Data-пост</span></div>
+<p class="post-hook">Финальный текст.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-5">Копировать</button></div>
+<div class="capblock" id="cap-5">Samme by. Samme uge. Én bolig prissat under den offentlige vurdering. Én bolig prissat 27% over.
+
+Begge tal kommer fra vores egne analyser — samme kilde, samme metode, stik modsatte konklusioner.
+
+Den offentlige vurdering er ikke en facitliste — den er under den igangværende boligskattereform ofte foreløbig og kan blive korrigeret i begge retninger. Men den er ét af de spørgsmål, du bør stille højt, før du byder — ikke et tal, du bare kan stole blindt på i nogen retning.</div>
+<div class="tags">#offentligvurdering #boligkøb #boligmarkedet #boligtjek #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-5">Копировать</button></div>
+<div class="promptblock" id="prm-5">Photorealistic simple brass balance scale on a wooden table, shot from a low angle, one side holding a small stack of coins, the other holding a small folded document tied with string, the scale caught mid-tilt in soft disequilibrium, warm directional studio lighting, shallow depth of field, minimal and clean composition, no text, no logo.</div>
+</div>
+
+<div class="post" id="post-6">
+<div class="post-head"><span class="post-num">06</span><span class="post-title">Bevaringsværdig — den skjulte begrænsning</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Финальный текст.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-6">Копировать</button></div>
+<div class="capblock" id="cap-6">Et smukt, gennemrenoveret gammelt hus midt i byen. Det, salgsopstillingen ikke fremhæver: bygningen er registreret som bevaringsværdig.
+
+Det betyder typisk, at ændringer af facade, vinduer og tag skal godkendes af kommunen — også dér, hvor en almindelig boligejer bare ville handle selv.
+
+I en af vores analyser havde sælgeren selv nævnt, at facadens puds ikke var i bedste stand. En fremtidig udgift, der nu er underlagt en godkendelsesproces, du bør kende til, før du byder — ikke efter.</div>
+<div class="tags">#bevaringsværdighed #boligkøb #boligtjek #gamlehuse #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-6">Копировать</button></div>
+<div class="promptblock" id="prm-6">Reference-image input: use the post-1 anchor image for matching light and grade.
+
+Photorealistic close-up of a weathered historic Danish townhouse facade with slightly cracked ochre plaster and hand-restored dark timber window frames, warm late-afternoon side light raking across the texture, a narrow cobblestone street barely visible at the bottom edge of frame, shallow depth of field, calm and authentic architectural-photography mood, no visible address numbers or plaques, no people, no text, no logo.</div>
+</div>
+
+<div class="post" id="post-7">
+<div class="post-head"><span class="post-num">07</span><span class="post-title">Billederne viser ikke det, du får</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Новая находка — самый «человеческий», нетехнический крючок из всей пачки.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-7">Копировать</button></div>
+<div class="capblock" id="cap-7">Alle billederne i annoncen viser et hus, der ser ud, som om det lige er bygget. Problemet: huset har været udlejet i 5 år.
+
+I en af vores analyser stod det sort på hvidt i salgsopstillingen, at boligen havde været lejet ud — men samtlige interiørbilleder viste helt tomme, pletfrie rum uden et eneste tegn på fem års beboelse. Højst sandsynligt genbrugte marketingfotos fra opførelsesåret.
+
+Det betyder ikke, at noget er galt. Det betyder, at du endnu ikke har set, hvordan boligen faktisk ser ud lige nu. Bed altid om friske billeder eller en fysisk fremvisning — især når en bolig har været udlejet.</div>
+<div class="tags">#boligkøb #boligtjek #boligannonce #boligkøber #dkbolig</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-7">Копировать</button></div>
+<div class="promptblock" id="prm-7">Photorealistic still life: a glossy printed real-estate photograph of a pristine, empty, brand-new living room lies on top of a slightly worn, lived-in wooden coffee table with a faint ring stain and a folded blanket beside it, warm indoor lamp light, shallow depth of field emphasizing the contrast in texture between the flawless photo and the lived-in surface beneath it, quiet and slightly wistful mood, no readable text, no logo, no people.</div>
+</div>
+
+<div class="post" id="post-8">
+<div class="post-head"><span class="post-num">08</span><span class="post-title">Sælgeren svarede «nej». Rapporten sagde noget andet.</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Новая находка — расхождение продавца с отчётами (skunke).</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-8">Копировать</button></div>
+<div class="capblock" id="cap-8">Sælgeren svarede "nej". Rapporten sagde noget andet.
+
+I en af vores analyser svarede sælgeren i spørgeskemaet, at boligen ikke havde skunkrum. Både tilstandsrapporten og elinstallationsrapporten skrev uafhængigt af hinanden, at netop disse rum "ikke var tilgængelige" for besigtigelse.
+
+Enten findes rummene, og sælgeren tæller dem bare ikke med som selvstændige rum — eller også er der en unøjagtighed i besvarelsen. Under alle omstændigheder: et hjørne af boligen, som ingen fagperson faktisk har set med egne øjne.
+
+Sælgeroplysningsskemaet er ikke en facitliste alene — sammenhold det altid med rapporterne, linje for linje.</div>
+<div class="tags">#sælgeroplysninger #tilstandsrapport #boligkøb #boligtjek #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-8">Копировать</button></div>
+<div class="promptblock" id="prm-8">Photorealistic interior shot looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light falling across the steps from an unseen window, faint dust particles visible in the light beam, quiet and slightly mysterious mood, shallow depth of field, no text, no logo, no people.</div>
+</div>
+
+<div class="post" id="post-9">
+<div class="post-head"><span class="post-num">09</span><span class="post-title">Grundejerforeningens tavse fremtidsregning</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Новая находка — обязательное членство + необъявленный будущий взнос.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-9">Копировать</button></div>
+<div class="capblock" id="cap-9">Ejerudgiften ser overskuelig ud. Det, den ikke viser: en kommende regning, som endnu ikke har et beløb.
+
+I en af vores analyser var boligejeren automatisk medlem af en grundejerforening med et erklæret fremtidigt ansvar for renovering af foreningens støttemure — uden at der forelå noget konkret budget for, hvornår eller hvor meget.
+
+Et obligatorisk medlemskab betyder, at du ikke kan fravælge dig ud af den regning, når den kommer. Bed altid om foreningens seneste regnskab og referater fra generalforsamlinger, før du byder — ikke bare ejerudgiften i annoncen.</div>
+<div class="tags">#ejerudgift #grundejerforening #boligkøb #boligtjek #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-9">Копировать</button></div>
+<div class="promptblock" id="prm-9">Photorealistic close-up of an aging concrete retaining wall with a fine hairline crack, moss growing gently at its base, warm late-afternoon side light emphasizing the texture, shallow depth of field, calm but quietly foreboding mood, no text, no logo, no people.</div>
+</div>
+
+<div class="post" id="post-10">
+<div class="post-head"><span class="post-num">10</span><span class="post-title">Ikke alt er et rødt flag</span><span class="post-type">Позитивный / green-пост</span></div>
+<p class="post-hook">Новая находка — честный, измеренный показатель отопления. Баланс тональности серии.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-10">Копировать</button></div>
+<div class="capblock" id="cap-10">Ikke alt i vores analyser er røde flag. Nogle gange er det bare... ærligt.
+
+I en af vores analyser stod der i salgsopstillingen: den faktiske, målte årlige varmeudgift for præcis denne bolig — ikke en beregnet gennemsnitspris for et helt kvarter eller en hel bygning.
+
+Det lyder som en detalje. Det er det ikke. Det er præcis den slags gennemsigtighed, vi leder efter — og roser, når vi finder den. Ikke alle sælgere gør sig den umage.</div>
+<div class="tags">#boligkøb #boligtjek #gennemsigtighed #boligmarkedet #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-10">Копировать</button></div>
+<div class="promptblock" id="prm-10">Photorealistic flat-lay of two utility bill documents side by side on a wooden desk, the left one crisp, clearly printed and neatly organized, the right one deliberately soft-focus and ambiguous, warm morning window light, soft shadows, calm and reassuring mood on the left side of the frame, no readable text, no logo.</div>
+</div>
+
+<div class="post" id="post-11">
+<div class="post-head"><span class="post-num">11</span><span class="post-title">Byggegarantien har en udløbsdato</span><span class="post-type">Одиночный пост</span></div>
+<p class="post-hook">Новая находка — 10-летняя гарантия истекает через ~5 лет.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-11">Копировать</button></div>
+<div class="capblock" id="cap-11">Et nybygget hus har et sikkerhedsnet. Det sikkerhedsnet har en udløbsdato.
+
+I en af vores analyser var boligen dækket af en lovpligtig 10-årig byggeskadeforsikring mod skjulte konstruktionsfejl. Godt nyt: den løber stadig i flere år endnu. Mindre godt nyt, hvis man ikke tjekker det: dækningen forsvinder helt efter de 10 år — uanset hvem der ejer huset på det tidspunkt.
+
+Tjek altid, hvor langt inde i den periode en "ny" bolig egentlig er — ikke kun at forsikringen findes.</div>
+<div class="tags">#byggeskadeforsikring #nybyggeri #boligkøb #boligtjek #boligkøber</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-11">Копировать</button></div>
+<div class="promptblock" id="prm-11">Photorealistic close-up of a simple brass hourglass resting on an architectural blueprint, sand roughly two-thirds through its fall, warm raking side light, shallow depth of field, a small architectural model of a house softly blurred in the background, calm and measured mood, no text, no logo, no people.</div>
+</div>
+
+<div class="post" id="post-12">
+<div class="post-head"><span class="post-num">12</span><span class="post-title">Chek-liste: samme budget, to risikoprofiler</span><span class="post-type">Сохраняемый / чек-лист</span></div>
+<p class="post-hook">Закрывающий пост серии — сводит все находки в один сохраняемый чек-лист.</p>
+<div class="blockhead"><span class="blocklabel">Текст поста</span><button class="copy-btn" data-copy="cap-12">Копировать</button></div>
+<div class="capblock" id="cap-12">Samme budget. To vidt forskellige risikoprofiler. Gem denne, før du byder på dit næste hus:
+
+✅ Er tilstandsrapport og elinstallationsrapport klar — eller stadig undervejs?
+✅ Gælder energimærkets varmeudgift boligen alene, eller en hel bygning/blok?
+✅ Er du obligatorisk medlem af en grundejerforening — og hvad siger det seneste regnskab?
+✅ Stemmer sælgerens svar overens med det, rapporterne rent faktisk skriver?
+✅ Er boligen registreret som bevaringsværdig — og hvad betyder det for fremtidige ændringer?
+✅ Hvor tæt på udløb er en eventuel byggeskadeforsikring?
+
+Vi tjekker alt dette for dig i en BoligCheck — link i bio.</div>
+<div class="tags">#boligtjek #boligkøb #boligkøber #tjekliste #boligmarkedet</div>
+<div class="blockhead" style="margin-top:16px"><span class="blocklabel">Nano Banana Pro / 2 промпт</span><button class="copy-btn" data-copy="prm-12">Копировать</button></div>
+<div class="promptblock" id="prm-12">Overhead photorealistic flat-lay of a wooden desk with a handwritten-style checklist notepad (blank lines, no readable text), a pen, a small stack of folded documents, a house-shaped keychain, and a cup of coffee, warm natural window light, soft shadows, organized and calm mood, no readable text, no logo.</div>
+</div>
+
+</section>
+
+<section id="reel">
+<h2 class="h">Рил: «To huse, samme pris» — полный продакшен-план</h2>
+<p class="h-sub">Двухэтапный пайплайн: сначала статичные кадры в Nano Banana Pro/2 (с consistency-lock на референс из поста 1), потом каждый кадр оживляется в Veo 3.1 или в другом image-to-video инструменте (Omni Flash/аналог) — камера/движение задаётся текстом, звук и субтитры добавляются отдельно в монтаже. Формат: вертикаль 9:16, ~26 секунд, склейка в CapCut/Premiere.</p>
+
+<div class="reel-stage">
+<h3>Этап 1 — Кадры (Nano Banana Pro/2)</h3>
+<p class="sub">Генерировать по порядку: KF-A первым (это и есть референс поста 1), затем каждый следующий кадр — с KF-A как reference-image, чтобы свет/цвет/объектив совпадали по всей серии.</p>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-A</span><span class="kf-title">Опорный кадр — разделённый дом (= промпт поста 1)</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-a">Копировать</button></div>
+<div class="promptblock" id="kf-a">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light with matching long shadows, seamless vertical seam down the exact center of the frame, no visible house numbers, street signs, or people, no text, no logo, editorial real-estate photography, 50mm lens look, shallow depth of field on the foreground pavement.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-B</span><span class="kf-title">Деталь нового дома</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-b">Копировать</button></div>
+<div class="promptblock" id="kf-b">Reference-image input: KF-A. Keep identical color grade, light direction and lens character as the reference; do not alter the architectural style shown on the left half.
+
+Photorealistic medium shot of the modern rækkehus front door, red brick texture and a large black-framed window, same warm late-afternoon light as the reference image, no people, no text, no logo.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-C</span><span class="kf-title">Деталь исторического дома</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-c">Копировать</button></div>
+<div class="promptblock" id="kf-c">Reference-image input: KF-A. Keep identical color grade, light direction and lens character as the reference; do not alter the architectural style shown on the right half.
+
+Photorealistic medium shot of the historic townhouse's restored dark timber window frame and ochre plaster wall, same warm late-afternoon light as the reference image, cobblestone barely visible at the bottom edge, no people, no text, no logo.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-D</span><span class="kf-title">Документы / ручка (= промпт поста 4)</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-d">Копировать</button></div>
+<div class="promptblock" id="kf-d">Close-up photorealistic shot of a hand holding a pen, hovering just above the signature line of a paper contract on a wooden desk, warm afternoon window light, shallow depth of field, a thin stack of documents with a visible gap where a top folder would sit softly blurred in the background, calm and deliberate mood, no visible text, no logo.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-E</span><span class="kf-title">Весы (= промпт поста 5)</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-e">Копировать</button></div>
+<div class="promptblock" id="kf-e">Photorealistic simple brass balance scale on a wooden table, shot from a low angle, one side holding a small stack of coins, the other holding a small folded document tied with string, the scale caught mid-tilt in soft disequilibrium, warm directional studio lighting, shallow depth of field, minimal and clean composition, no text, no logo.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">KF-F</span><span class="kf-title">Финальный брендовый кадр</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт</span><button class="copy-btn" data-copy="kf-f">Копировать</button></div>
+<div class="promptblock" id="kf-f">Minimalist photorealistic still life: a set of house keys and a small wooden house model resting on a plain wooden table, a single bright shaft of warm sunlight crossing the frame diagonally, most of the frame left empty and calm, shallow depth of field, quiet and personal mood, no text, no logo.</div>
+</div>
+</div>
+
+<div class="reel-stage">
+<h3>Этап 2 — Анимация (Veo 3.1 / Omni Flash или аналог image-to-video)</h3>
+<p class="sub">Каждый промпт ниже — только движение камеры/объекта, без текста и без реплик (диктора/субтитры не генерируем моделью — накладываем отдельно в монтаже). Если инструмент поддерживает first-frame conditioning — подавай соответствующий KF как стартовый кадр. Большинство подобных моделей ограничивают клип 4-8 секундами за одну генерацию — план ниже уже учитывает это.</p>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:00–0:04</span><span class="kf-title">KF-A → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-a">Копировать</button></div>
+<div class="promptblock" id="an-a">Slow horizontal parallax dolly move from left to right across the seam of the split house image, revealing both halves gradually, subtle depth separation between foreground pavement and background facades, no camera shake, cinematic and calm pacing, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:04–0:08</span><span class="kf-title">KF-B → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-b">Копировать</button></div>
+<div class="promptblock" id="an-b">Gentle push-in on the modern facade detail, very slight handheld sway for a documentary feel, warm light stays constant, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:08–0:12</span><span class="kf-title">KF-C → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-c">Копировать</button></div>
+<div class="promptblock" id="an-c">Gentle push-in on the historic facade detail, same slight handheld sway and pacing as the previous shot for visual continuity, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:12–0:16</span><span class="kf-title">KF-D → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-d">Копировать</button></div>
+<div class="promptblock" id="an-d">The hand holding the pen trembles very slightly, then the focus racks from the blurred document stack in the background to the pen tip in sharp focus, slow and deliberate timing, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:16–0:20</span><span class="kf-title">KF-E → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-e">Копировать</button></div>
+<div class="promptblock" id="an-e">The balance scale tips slowly from one side toward the other in a single smooth arc, coins and document tray swaying gently, slow-motion feel, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+
+<div class="kf">
+<div class="kf-head"><span class="kf-badge">0:20–0:26</span><span class="kf-title">KF-F → анимация</span></div>
+<div class="blockhead"><span class="blocklabel">Промпт движения</span><button class="copy-btn" data-copy="an-f">Копировать</button></div>
+<div class="promptblock" id="an-f">Static, almost still frame with the warm shaft of light slowly sweeping across the table over the full duration, dust motes gently drifting, quiet and settled mood, silent ambient scene, no on-screen text, no dialogue, no generated captions.</div>
+</div>
+</div>
+
+<div class="reel-stage">
+<h3>Этап 3 — Монтаж: тайминг и субтитры</h3>
+<p class="sub">Субтитры накладываются в CapCut/Premiere поверх готовых анимированных клипов — не генерируются видео-моделью. Экспорт: 1080×1920, звук — только эмбиент/инструментал без вокала (лицензионно чисто), без текста в самой генерации.</p>
+<table class="timeline">
+<tr><th>Тайм-код</th><th>Кадр</th><th>Субтитр (наложить в монтаже)</th></tr>
+<tr><td class="tc">0:00–0:04</td><td>KF-A</td><td>«To huse. Næsten samme pris.»</td></tr>
+<tr><td class="tc">0:04–0:08</td><td>KF-B</td><td>«Denne er billigere pr. m².»</td></tr>
+<tr><td class="tc">0:08–0:12</td><td>KF-C</td><td>«Denne har alle rapporterne klar.»</td></tr>
+<tr><td class="tc">0:12–0:16</td><td>KF-D</td><td>«Den ene mangler stadig sin rapport.»</td></tr>
+<tr><td class="tc">0:16–0:20</td><td>KF-E</td><td>«Vurderingen peger i hver sin retning.»</td></tr>
+<tr><td class="tc">0:20–0:23</td><td>KF-F</td><td>«Samme budget. To forskellige risici.»</td></tr>
+<tr><td class="tc">0:23–0:26</td><td>KF-F (продолжение)</td><td>«Fuld sammenligning: link i bio.»</td></tr>
+</table>
+<div class="note"><b>После рендера:</b> перед загрузкой — скриншот вместо оригинального экспорта или очистка метаданных через exiftool (то же правило C2PA/AI-метки Meta, что и для стилла).</div>
+</div>
+</section>
+
+<footer>NordIndsigt · Case-пакет подготовлен 21.07.2026 · Только для внутреннего использования при подготовке публикаций</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var target = document.getElementById(btn.getAttribute('data-copy'));
+    if(!target) return;
+    var text = target.innerText;
+    function done(){
+      var prev = btn.textContent;
+      btn.textContent = 'Скопировано ✓';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = prev; btn.classList.remove('copied'); }, 1600);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var prev = btn.textContent;
+        btn.textContent = 'Выделите вручную';
+        setTimeout(function(){ btn.textContent = prev; }, 1600);
+      });
+    }
+  });
+});
+</script>
