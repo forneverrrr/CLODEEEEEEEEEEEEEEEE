@@ -48,6 +48,7 @@ h1{font-family:var(--disp);font-size:clamp(28px,5.4vw,40px);font-weight:600;lett
 .meta-row b{color:var(--ink2)}
 .decision{background:var(--tag-bg);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:24px;font-size:14px;color:var(--ink2)}
 .decision b{color:var(--ink)}
+.cancelled{background:none;border:1px dashed var(--line);border-radius:16px;padding:16px 22px;margin-top:14px;font-size:13.5px;color:var(--muted)}
 
 section{margin:44px 0}
 h2.h{font-family:var(--disp);font-size:23px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0 0 6px;scroll-margin-top:70px}
@@ -92,22 +93,6 @@ h2.h{font-family:var(--disp);font-size:23px;font-weight:600;letter-spacing:-.01e
 .overlay-text b{font-style:normal;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--rust-deep);display:block;margin-bottom:3px;font-weight:700}
 .promptblock{background:var(--mono-bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-family:var(--mono);font-size:12px;color:var(--mono-ink);white-space:pre-wrap;line-height:1.5;margin-bottom:0;user-select:text;overflow-x:auto}
 
-.reel-stage{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 26px;margin-bottom:20px}
-.reel-stage h3{font-family:var(--disp);font-size:17px;margin:0 0 4px;color:var(--ink)}
-.reel-stage .sub{font-size:13px;color:var(--muted);margin-bottom:16px}
-.kf{border-top:1px solid var(--line);padding-top:16px;margin-top:16px}
-.kf:first-of-type{border-top:none;padding-top:0;margin-top:0}
-.kf-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
-.kf-badge{font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;background:var(--rust);padding:2px 9px;border-radius:100px}
-.kf-title{font-weight:600;font-size:14.5px;color:var(--ink)}
-.kf-dur{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:auto}
-
-.timeline{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
-.timeline th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
-.timeline td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
-.timeline td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
-.timeline tr:last-child td{border-bottom:none}
-
 .note{background:var(--tag-bg);border-radius:12px;padding:14px 18px;font-size:13px;color:var(--ink2);margin-top:16px}
 .note b{color:var(--ink)}
 .hashset{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:20px}
@@ -119,13 +104,12 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
 
 <div class="top">
   <div class="top-inner">
-    <div class="brand">Nord<b>Indsigt</b> · Case-pakke v2</div>
+    <div class="brand">Nord<b>Indsigt</b> · Case-pakke v3</div>
     <nav>
-      <a href="#decision">Реализм и текст</a>
+      <a href="#decision">Формула</a>
       <a href="#audit">Audit</a>
       <a href="#post-1">1</a><a href="#post-2">2</a><a href="#post-3">3</a><a href="#post-4">4</a>
       <a href="#post-5">5</a><a href="#post-6">6</a><a href="#post-7">7</a><a href="#post-8">8</a>
-      <a href="#reel">Reel</a>
     </nav>
   </div>
 </div>
@@ -133,19 +117,21 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="wrap">
 
 <header class="hero">
-  <div class="eyebrow">Кейс «To huse, samme pris» · v2 — карусели, IG+FB, текст на карточках</div>
-  <h1>8 постов-каруселей (28 карточек) + рил на 4 клипа</h1>
-  <p class="lead">Переделано по образцу серии Vorup: у каждого поста — короткий IG-тизер, полная FB-подпись, карусель из 3-5 карточек, хэштеги, UTM. У каждой карточки — точный текст, который должен быть на ней, и отдельный самодостаточный промпт.</p>
-  <div class="meta-row"><span><b>Постов:</b> 8</span><span><b>Карточек:</b> 28</span><span><b>Тон:</b> манипуляция 3-4/10 · страх 5/10 · юр.строгость 9/10</span><span><b>Кампания:</b> testcase-huse-v1</span></div>
+  <div class="eyebrow">Кейс «To huse, samme pris» · v3 — финальная формула на все 28 карточек</div>
+  <h1>Все промпты обновлены под подтверждённую рабочую формулу</h1>
+  <p class="lead">Только статика — Flow-анимация отменена, ресурс не тратим. Каждая карточка теперь: описание сцены с достаточным контекстом (не абстрактное макро) + один и тот же редундантный typography-блок с negative-списком, который держит градиентную подложку и не съезжает в белый прямоугольник.</p>
+  <div class="meta-row"><span><b>Постов:</b> 8</span><span><b>Карточек:</b> 28</span><span><b>Кампания:</b> testcase-huse-v1</span></div>
 
   <div class="decision" id="decision">
-  <b>Важное решение, которое я принял и объясняю здесь:</b> текст на карточках НЕ запекается генератором — так же, как договорились для реалистичного стиля (batch1/batch2): фотореалистичные модели ломают датские буквы (æ ø å) заметно чаще, чем плоский Pomelli-пайплайн старой серии, который был построен именно под verbatim-текст. Поэтому у каждой карточки ниже — два отдельных блока: <b>«Текст на карточке»</b> (что должно быть написано, дословно, на датском — накладываешь вручную в Canva/CapCut) и <b>«Промпт»</b> (только визуал, без текста, без лого). Если хочешь всё же попробовать запечь текст прямо в Nano Banana Pro (модель заметно лучше держит текст, чем предыдущие поколения) — допиши в конец любого промпта строку «Render the exact headline text below directly on the image, verbatim, no other text» и вставь текст из соседнего блока. Я не делаю это по умолчанию, потому что один брак на 28 карточках означает ручную перегенерацию.
+  <b>Подтверждённая формула (применена ко всем 28 карточкам):</b> сцена описана так, чтобы всегда были видны узнаваемые границы объекта (дверь+рама+кусок стены, а не текстура кирпича крупным планом) — это убирает риск "чрезмерного макро". Текст — всегда один и тот же типографский блок: bold geometric sans-serif, тёплый кремовый (#F3ECDD), мягкий градиент-скрим от прозрачного к 70% navy только у самого низа кадра, плюс явный negative-список (никаких белых прямоугольников/чат-подложек). Для карточек, которые используют анкер поста 1 как reference-image (1.2, 1.3, 6.1) — reference используется ТОЛЬКО для света/цвета/объектива, отдельно прописан запрет копировать композицию/ракурс анкера.
+  <br><br>Даже с этой формулой рассчитывай на 2-3 генерации на карточку и отбор лучшей — вариативность модели, не брак промпта.
   </div>
+  <div class="cancelled"><b>Отменено:</b> анимация в Google Flow (Veo/Omni) — раздел с кейфреймами и таймингом рила убран из этой версии документа. Работаем только со статичными карточками.</div>
 </header>
 
 <section id="audit">
 <h2 class="h">Аудит: что выжато из трёх отчётов</h2>
-<p class="h-sub">Все 14 находок из сравнения и обоих BoligCheck-отчётов — куда каждая пошла в этой версии.</p>
+<p class="h-sub">Без изменений с прошлой версии — куда пошла каждая находка.</p>
 <div class="audit">
 <table>
 <tr><th>Находка</th><th>Дом</th><th>Пост / карточка</th></tr>
@@ -153,27 +139,23 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <tr><td class="f">Нет tilstandsrapport/elrapport на момент объявления</td><td>A</td><td>Пост 3</td></tr>
 <tr><td class="f">Vurdering выше/ниже цены в обе стороны</td><td>A + B</td><td>Пост 1, карточка 4</td></tr>
 <tr><td class="f">Bevaringsværdig — ограничение на фасад</td><td>B</td><td>Пост 6</td></tr>
-<tr><td class="f">Название улицы намекает на скрытый риск</td><td>A + B</td><td>Пост 1, FB-подпись (без отдельной карточки — недостаточно самостоятельного визуала без риска деанонимизации через конкретное название)</td></tr>
+<tr><td class="f">Название улицы намекает на скрытый риск</td><td>A + B</td><td>Пост 1, FB-подпись (без отдельной карточки)</td></tr>
 <tr><td class="f">Фото похожи на маркетинг застройщика, не текущее состояние после аренды</td><td>A</td><td>Пост 5</td></tr>
 <tr><td class="f">Продавец «нет skunke» vs отчёты «не осмотрено»</td><td>B</td><td>Пост 7, карточки 1-2</td></tr>
 <tr><td class="f">Обязательное членство в grundejerforening + необъявленный взнос на стены</td><td>A</td><td>Пост 2, карточки 1-2</td></tr>
-<tr><td class="f">Реально измеренная (честная) стоимость отопления</td><td>B</td><td>Пост 7, карточка 4 (зелёный противовес)</td></tr>
+<tr><td class="f">Реально измеренная (честная) стоимость отопления</td><td>B</td><td>Пост 7, карточка 4</td></tr>
 <tr><td class="f">10-летняя byggeskadeforsikring истекает через ~5 лет</td><td>A</td><td>Пост 2, карточка 3</td></tr>
 <tr><td class="f">Сводный чек-лист</td><td>A + B</td><td>Пост 8</td></tr>
-<tr><td class="f">Сервитут tilbagekøbsret 1982 г.</td><td>A</td><td>Не в постах — слишком нишевый юридический момент</td></tr>
-<tr><td class="f">Методология comps / уверенность в оценке цены</td><td>A</td><td>Не в постах — внутренняя методика, не образовательный крючок</td></tr>
-<tr><td class="f">Радон, класс 2 по коммуне</td><td>B</td><td>Не в постах — фоновый региональный показатель</td></tr>
 </table>
 </div>
 </section>
 
 <section id="posts">
-<h2 class="h">Посты 1–8</h2>
-<p class="h-sub">Схема как в серии Vorup: IG = тизер (хук в первых ~125 знаках) + «полный разбор на Facebook» + disclaimer. FB = полная подпись, начинается с раскрытия «Jeg arbejder på NordIndsigt...», заканчивается тем же disclaimer.</p>
+<h2 class="h">Посты 1–8 — все карточки на финальной формуле</h2>
 
 <!-- POST 1 -->
 <div class="postcard" id="post-1">
-  <div class="post-band"><span class="post-num">01</span><span class="post-title">To huse, næsten samme pris</span><span class="post-meta">carousel · 5 карточек · data/сравнение</span></div>
+  <div class="post-band"><span class="post-num">01</span><span class="post-title">To huse, næsten samme pris</span><span class="post-meta">carousel · 5 карточек</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-1">Копировать</button></div>
@@ -204,39 +186,54 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
   <div class="cardsgrid">
 
     <div class="card">
-      <div class="card-head"><span class="card-badge">1.1</span><span class="card-title">Обложка</span></div>
+      <div class="card-head"><span class="card-badge">1.1</span><span class="card-title">Обложка — анкер серии</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>To huse. Næsten samme pris. Vidt forskellig risiko.</div>
-      <div class="promptblock">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light with matching long shadows, seamless vertical seam down the exact center of the frame, no visible house numbers, street signs, or people, no text, no logo, editorial real-estate photography, 50mm lens look, shallow depth of field on the foreground pavement.
+      <div class="promptblock">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light with matching long shadows, seamless vertical seam down the exact center of the frame, no visible house numbers, street signs, or people, no logo, editorial real-estate photography, 50mm lens look, shallow depth of field on the foreground pavement.
 
-Consistency note: save this as the campaign's reference/anchor image. Reuse it as reference-image input for cards 1.2, 1.3, post 6, and all reel keyframes.</div>
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"To huse. Næsten samme pris. Vidt forskellig risiko."
+
+Consistency note: save this as the campaign's reference/anchor image. Reuse it as reference-image input for cards 1.2, 1.3 and 6.1 — but for those cards match ONLY color grade, light direction and lens character, never composition or camera distance.</div>
     </div>
 
     <div class="card">
-      <div class="card-head"><span class="card-badge">1.2</span><span class="card-title">Дешевле за м²</span></div>
+      <div class="card-head"><span class="card-badge">1.2</span><span class="card-title">Деталь нового дома (medium close-up)</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Den ene: billigere pr. kvadratmeter.</div>
-      <div class="promptblock">Reference-image input: card 1.1. Keep identical color grade, light direction and lens character; do not alter the architectural style on the left half.
+      <div class="promptblock">Reference-image input: 1.1 — use it ONLY to match color grade, light direction/temperature, and lens character. Do NOT reuse the same camera angle or full-facade composition as the reference.
 
-Photorealistic medium shot of the modern rækkehus front door and red brick texture, large black-framed window catching warm afternoon light, no people, no text, no logo.</div>
+Photorealistic medium close-up, camera a few steps back from the wall: the modern rækkehus's black front door with its handle, the black-framed window beside it, and a visible strip of red brick wall around both — enough context to read as "a house entrance", not an abstract texture pattern. Warm afternoon light raking across the brick, shallow depth of field, no people, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Den ene: billigere pr. kvadratmeter."</div>
     </div>
 
     <div class="card">
-      <div class="card-head"><span class="card-badge">1.3</span><span class="card-title">Полное досье готово</span></div>
+      <div class="card-head"><span class="card-badge">1.3</span><span class="card-title">Деталь старого дома (medium close-up)</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Den anden: alle rapporterne klar.</div>
-      <div class="promptblock">Reference-image input: card 1.1. Keep identical color grade, light direction and lens character; do not alter the architectural style on the right half.
+      <div class="promptblock">Reference-image input: 1.1 — use it ONLY to match color grade, light direction/temperature, and lens character. Do NOT reuse the same camera angle or full-facade composition as the reference.
 
-Photorealistic medium shot of the historic townhouse's restored dark timber window frame and ochre plaster wall, cobblestone street barely visible at the bottom edge, same warm afternoon light, no people, no text, no logo.</div>
+Photorealistic medium close-up, camera a few steps back from the wall: the historic townhouse's restored dark timber window with its full frame, and a visible surrounding area of cracked ochre plaster wall — enough context to read as "a window on an old house", not an abstract texture pattern. Warm afternoon side light raking across the surface, shallow depth of field, no people, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Den anden: alle rapporterne klar."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">1.4</span><span class="card-title">Vurdering в обе стороны</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Vurderingen pegede i hver sin retning for de to boliger.</div>
-      <div class="promptblock">Photorealistic simple brass balance scale on a wooden table, shot from a low angle, one side holding a small stack of coins, the other holding a small folded document tied with string, the scale caught mid-tilt in soft disequilibrium, warm directional studio lighting, shallow depth of field, minimal and clean composition, no text, no logo.</div>
+      <div class="promptblock">Photorealistic simple brass balance scale on a wooden table, shot from a low angle, one side holding a small stack of coins, the other holding a small folded document tied with string, the scale caught mid-tilt in soft disequilibrium, warm directional studio lighting, shallow depth of field, minimal and clean composition, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Vurderingen pegede i hver sin retning for de to boliger."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">1.5</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Samme kvadratmeter betyder ikke samme handel. Se dokumenterne, ikke kun billederne.</div>
-      <div class="promptblock">Photorealistic close-up of a magnifying glass resting above a folded paper document on a wooden desk, warm late-afternoon side light, shallow depth of field, calm and precise mood, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a magnifying glass resting above a folded paper document on a wooden desk, a soft blurred hint of a window and daylight visible behind — enough context to read as "a desk", not an abstract object shot. Warm late-afternoon side light, shallow depth of field, calm and precise mood, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Samme kvadratmeter betyder ikke samme handel. Se dokumenterne, ikke kun billederne."</div>
     </div>
 
   </div>
@@ -245,7 +242,7 @@ Photorealistic medium shot of the historic townhouse's restored dark timber wind
 
 <!-- POST 2 -->
 <div class="postcard" id="post-2">
-  <div class="post-band"><span class="post-num">02</span><span class="post-title">Regningen, der endnu ikke har et beløb</span><span class="post-meta">carousel · 4 карточки · red flag</span></div>
+  <div class="post-band"><span class="post-num">02</span><span class="post-title">Regningen, der endnu ikke har et beløb</span><span class="post-meta">carousel · 4 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-2">Копировать</button></div>
@@ -276,25 +273,37 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">2.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Ejerudgiften ser overskuelig ud. Det, den ikke viser: en kommende regning.</div>
-      <div class="promptblock">Photorealistic close-up of an aging concrete retaining wall with a fine hairline crack, moss growing gently at its base, warm late-afternoon side light emphasizing the texture, shallow depth of field, calm but quietly foreboding mood, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of an aging concrete retaining wall with a fine hairline crack, moss growing gently at its base, a blurred hint of a garden and townhouse foundation visible behind it — enough context to read as "a retaining wall in a garden", not an abstract texture patch. Warm late-afternoon side light, shallow depth of field, calm but quietly foreboding mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Ejerudgiften ser overskuelig ud. Det, den ikke viser: en kommende regning."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">2.2</span><span class="card-title">Обязательное членство</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Obligatorisk medlemskab. Ingen mulighed for at sige nej til regningen.</div>
-      <div class="promptblock">Photorealistic close-up of a row of identical attached townhouse mailboxes mounted on a shared brick wall, warm afternoon light, shallow depth of field, calm and orderly mood, no readable names or numbers, no text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a row of identical attached townhouse mailboxes mounted on a shared brick wall, a visible strip of brick facade and doorway trim around them for context, warm afternoon light, shallow depth of field, calm and orderly mood, no readable names or numbers, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Obligatorisk medlemskab. Ingen mulighed for at sige nej til regningen."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">2.3</span><span class="card-title">Гарантия истекает</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Et nybygget hus har et sikkerhedsnet. Det har en udløbsdato.</div>
-      <div class="promptblock">Photorealistic close-up of a simple brass hourglass resting on an architectural blueprint, sand roughly two-thirds through its fall, warm raking side light, shallow depth of field, a small architectural model of a house softly blurred in the background, calm and measured mood, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of a simple brass hourglass resting on an architectural blueprint on a desk, sand roughly two-thirds through its fall, a small architectural model of a house softly blurred in the background for context, warm raking side light, shallow depth of field, calm and measured mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Et nybygget hus har et sikkerhedsnet. Det har en udløbsdato."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">2.4</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Bed om regnskab, budget og udløbsdato — før du byder.</div>
-      <div class="promptblock">Photorealistic flat-lay of a wooden desk with a folded annual report document, a pen, and a cup of coffee, warm morning window light, soft shadows, calm and organized mood, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic flat-lay of a wooden desk with a folded annual report document, a pen, and a cup of coffee, warm morning window light, soft shadows, calm and organized mood, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Bed om regnskab, budget og udløbsdato — før du byder."</div>
     </div>
 
   </div>
@@ -303,7 +312,7 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <!-- POST 3 -->
 <div class="postcard" id="post-3">
-  <div class="post-band"><span class="post-num">03</span><span class="post-title">Ingen rapporter endnu</span><span class="post-meta">carousel · 3 карточки · blind spot</span></div>
+  <div class="post-band"><span class="post-num">03</span><span class="post-title">Ingen rapporter endnu</span><span class="post-meta">carousel · 3 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-3">Копировать</button></div>
@@ -332,19 +341,28 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">3.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Boligen er til salg. Rapporten er det ikke.</div>
-      <div class="promptblock">Close-up photorealistic shot of a hand holding a pen, hovering just above the signature line of a paper contract on a wooden desk, warm afternoon window light, shallow depth of field, a thin stack of documents with a visible gap where a top folder would sit softly blurred in the background, calm and deliberate mood, no visible text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a hand holding a pen, hovering just above the signature line of a paper contract on a wooden desk, warm afternoon window light, shallow depth of field, a thin stack of documents with a visible gap where a top folder would sit softly blurred in the background, calm and deliberate mood, no logo, no people beyond the hand.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Boligen er til salg. Rapporten er det ikke."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">3.2</span><span class="card-title">Что это значит</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Lovligt. Men du byder uden at kende den tekniske stand.</div>
-      <div class="promptblock">Photorealistic close-up of a stack of paper documents on a desk with one visible gap in the middle where a folder is missing, warm side light emphasizing the empty space, shallow depth of field, quiet investigative mood, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a stack of paper documents on a wooden desk with one visible gap in the middle where a folder is missing, a blurred desk lamp and window light visible behind for context, warm side light emphasizing the empty space, shallow depth of field, quiet investigative mood, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Lovligt. Men du byder uden at kende den tekniske stand."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">3.3</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Bed om forlænget frist, til rapporterne er i hånden.</div>
-      <div class="promptblock">Photorealistic close-up of a hand holding a phone to make a call, blurred desk with documents in the background, warm indoor lamp light, calm and proactive mood, no readable text on screen, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a hand holding a phone to make a call, a blurred desk with documents and a window visible behind for context, warm indoor lamp light, calm and proactive mood, no readable text on screen, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Bed om forlænget frist, til rapporterne er i hånden."</div>
     </div>
 
   </div>
@@ -353,7 +371,7 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <!-- POST 4 -->
 <div class="postcard" id="post-4">
-  <div class="post-band"><span class="post-num">04</span><span class="post-title">Energimærket gjaldt ikke kun din bolig</span><span class="post-meta">carousel · 3 карточки · blind spot</span></div>
+  <div class="post-band"><span class="post-num">04</span><span class="post-title">Energimærket gjaldt ikke kun din bolig</span><span class="post-meta">carousel · 3 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-4">Копировать</button></div>
@@ -382,19 +400,28 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">4.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Et flot bogstav på energimærket.</div>
-      <div class="promptblock">Photorealistic close-up of a hand holding a generic Danish energy performance certificate (a printed document with color bands from green to red, no readable text or numbers), soft warm afternoon light, shallow depth of field, calm investigative mood, no logo, no readable text anywhere in frame.</div>
+      <div class="promptblock">Photorealistic medium close-up of a hand holding a generic Danish energy performance certificate (a printed document with color bands from green to red, no readable text or numbers), a blurred hallway or entrance visible behind for context, soft warm afternoon light, shallow depth of field, calm investigative mood, no logo, no readable text anywhere in frame.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Et flot bogstav på energimærket."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">4.2</span><span class="card-title">Весь блок, не юнит</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Mærket gjaldt hele bygningen — ikke den lejlighed, du overvejer.</div>
-      <div class="promptblock">Photorealistic wide shot of a row of identical attached townhouses under warm afternoon light, one window subtly highlighted by natural sunlight among the rest, shallow depth of field, calm documentary mood, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic wide shot of a row of identical attached townhouses under warm afternoon light, one window subtly catching natural sunlight among the rest, shallow depth of field on the foreground, calm documentary mood, no text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Mærket gjaldt hele bygningen — ikke den lejlighed, du overvejer."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">4.3</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Spørg altid: gælder mærket præcis din bolig?</div>
-      <div class="promptblock">Photorealistic close-up of a document held up against soft window light, a small clean seal visible in the corner, calm concluding mood, shallow depth of field, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a document held up against soft window light, a small clean seal visible in the corner, a blurred hint of a room behind for context, calm concluding mood, shallow depth of field, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Spørg altid: gælder mærket præcis din bolig?"</div>
     </div>
 
   </div>
@@ -403,7 +430,7 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <!-- POST 5 -->
 <div class="postcard" id="post-5">
-  <div class="post-band"><span class="post-num">05</span><span class="post-title">Billederne er ikke det, du får</span><span class="post-meta">carousel · 3 карточки · blind spot</span></div>
+  <div class="post-band"><span class="post-num">05</span><span class="post-title">Billederne er ikke det, du får</span><span class="post-meta">carousel · 3 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-5">Копировать</button></div>
@@ -432,19 +459,28 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">5.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Alle billederne ser ud, som om huset lige er bygget.</div>
-      <div class="promptblock">Photorealistic still life: a glossy printed real-estate photograph of a pristine, empty, brand-new living room lies on top of a slightly worn, lived-in wooden coffee table with a faint ring stain and a folded blanket beside it, warm indoor lamp light, shallow depth of field emphasizing the contrast between the flawless photo and the lived-in surface beneath it, no readable text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic still life, medium shot: a glossy printed real-estate photograph of a pristine, empty, brand-new living room lies on top of a slightly worn, lived-in wooden coffee table with a faint ring stain and a folded blanket beside it, a soft blurred living room visible behind for context, warm indoor lamp light, shallow depth of field emphasizing the contrast between the flawless photo and the lived-in surface beneath it, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Alle billederne ser ud, som om huset lige er bygget."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">5.2</span><span class="card-title">5 лет аренды, 0 следов</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Huset har været udlejet i 5 år. Billederne viser det ikke.</div>
-      <div class="promptblock">Photorealistic close-up of a worn wooden floor with faint scuff marks and a single stray sock left in the corner, warm late-afternoon light through a window, shallow depth of field, quiet and slightly wistful mood, no readable text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of a worn wooden floor with faint scuff marks and a single stray sock left in the corner, a blurred window and room edge visible for context, warm late-afternoon light through a window, shallow depth of field, quiet and slightly wistful mood, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Huset har været udlejet i 5 år. Billederne viser det ikke."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">5.3</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Bed altid om friske billeder — eller en fysisk fremvisning.</div>
-      <div class="promptblock">Photorealistic close-up of a hand holding a smartphone displaying a blurred, generic photo gallery, soft indoor lighting, shallow depth of field, calm and proactive mood, no readable text on screen, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of a hand holding a smartphone displaying a blurred, generic photo gallery, a softly blurred living room visible behind for context, soft indoor lighting, shallow depth of field, calm and proactive mood, no readable text on screen, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Bed altid om friske billeder — eller en fysisk fremvisning."</div>
     </div>
 
   </div>
@@ -453,7 +489,7 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <!-- POST 6 -->
 <div class="postcard" id="post-6">
-  <div class="post-band"><span class="post-num">06</span><span class="post-title">Bevaringsværdig — den skjulte begrænsning</span><span class="post-meta">carousel · 3 карточки · blind spot</span></div>
+  <div class="post-band"><span class="post-num">06</span><span class="post-title">Bevaringsværdig — den skjulte begrænsning</span><span class="post-meta">carousel · 3 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-6">Копировать</button></div>
@@ -480,23 +516,32 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
   <div class="cardsgrid">
 
     <div class="card">
-      <div class="card-head"><span class="card-badge">6.1</span><span class="card-title">Открывашка</span></div>
+      <div class="card-head"><span class="card-badge">6.1</span><span class="card-title">Открывашка (medium close-up)</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Et smukt, gammelt hus. Bag facaden: en bevaringsværdig status.</div>
-      <div class="promptblock">Reference-image input: post 1, card 1.1 (use for matching light and grade).
+      <div class="promptblock">Reference-image input: post 1, card 1.1 — use it ONLY to match color grade, light direction/temperature, and lens character. Do NOT reuse the same camera angle or composition as the reference.
 
-Photorealistic close-up of a weathered historic Danish townhouse facade with slightly cracked ochre plaster and hand-restored dark timber window frames, warm late-afternoon side light raking across the texture, a narrow cobblestone street barely visible at the bottom edge of frame, no visible address numbers or plaques, no people, no text, no logo.</div>
+Photorealistic medium close-up, camera a few steps back from the wall: the historic townhouse's full window with restored dark timber frame, and a wide visible area of cracked ochre plaster wall around it, a narrow cobblestone street visible at the bottom edge for context — enough to read as "a house facade", not an abstract texture patch. Warm late-afternoon side light raking across the texture, shallow depth of field, no visible address numbers or plaques, no people, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Et smukt, gammelt hus. Bag facaden: en bevaringsværdig status."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">6.2</span><span class="card-title">Ограничение</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Ændringer af facade og tag skal godkendes af kommunen.</div>
-      <div class="promptblock">Photorealistic close-up of a hand-painted historic wooden window frame with visible restoration brushwork, warm side light, shallow depth of field, calm and authentic architectural mood, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of a hand-painted historic wooden window frame with visible restoration brushwork, a wider view of the surrounding plaster wall visible for context, warm side light, shallow depth of field, calm and authentic architectural mood, no text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Ændringer af facade og tag skal godkendes af kommunen."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">6.3</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Spørg, hvad status betyder for netop din bolig.</div>
-      <div class="promptblock">Photorealistic close-up of a folded document resting on an old stone windowsill, soft warm light, shallow depth of field, calm and quiet mood, no readable text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of a folded document resting on an old stone windowsill, a blurred hint of the street and old facade visible behind for context, soft warm light, shallow depth of field, calm and quiet mood, no readable text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Spørg, hvad status betyder for netop din bolig."</div>
     </div>
 
   </div>
@@ -505,7 +550,7 @@ Photorealistic close-up of a weathered historic Danish townhouse facade with sli
 
 <!-- POST 7 -->
 <div class="postcard" id="post-7">
-  <div class="post-band"><span class="post-num">07</span><span class="post-title">Sælgeren svarede «nej». Rapporten sagde noget andet.</span><span class="post-meta">carousel · 4 карточки · red flag + green</span></div>
+  <div class="post-band"><span class="post-num">07</span><span class="post-title">Sælgeren svarede «nej». Rapporten sagde noget andet.</span><span class="post-meta">carousel · 4 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-7">Копировать</button></div>
@@ -536,25 +581,37 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">7.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Sælgeren svarede "nej". Rapporten sagde noget andet.</div>
-      <div class="promptblock">Photorealistic interior shot looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light falling across the steps from an unseen window, faint dust particles visible in the light beam, quiet and slightly mysterious mood, shallow depth of field, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic interior shot looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light falling across the steps from an unseen window, faint dust particles visible in the light beam, quiet and slightly mysterious mood, shallow depth of field, no text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Sælgeren svarede "nej". Rapporten sagde noget andet."</div>
     </div>
 
     <div class="card">
-      <div class="card-head"><span class="card-badge">7.2</span><span class="card-title">Что это значит</span></div>
+      <div class="card-head"><span class="card-badge">7.2</span><span class="card-title">Что это значит (medium close-up)</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Et hjørne af boligen, ingen fagperson har set.</div>
-      <div class="promptblock">Photorealistic close-up of a small closed wooden hatch door under a sloped attic ceiling, warm dim light, shallow depth of field, quiet and slightly mysterious mood, no text, no logo, no people.</div>
+      <div class="promptblock">Photorealistic medium close-up of a small closed wooden hatch door under a sloped attic ceiling, a wider view of the surrounding sloped wall and beam visible for context, warm dim light, shallow depth of field, quiet and slightly mysterious mood, no text, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Et hjørne af boligen, ingen fagperson har set."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">7.3</span><span class="card-title">Зелёный противовес</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Ikke alt er et rødt flag. Nogle gange er det bare ærligt.</div>
-      <div class="promptblock">Photorealistic flat-lay of two utility bill documents side by side on a wooden desk, the left one crisp, clearly printed and neatly organized, the right one deliberately soft-focus and ambiguous, warm morning window light, soft shadows, calm and reassuring mood on the left side of the frame, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic flat-lay of two utility bill documents side by side on a wooden desk, the left one crisp, clearly printed and neatly organized, the right one deliberately soft-focus and ambiguous, warm morning window light, soft shadows, calm and reassuring mood on the left side of the frame, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Ikke alt er et rødt flag. Nogle gange er det bare ærligt."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">7.4</span><span class="card-title">Закрывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>Sammenhold sælgerens svar med rapporterne, linje for linje.</div>
-      <div class="promptblock">Photorealistic close-up of two documents laid side by side on a desk, one hand pointing between them as if comparing, warm side light, shallow depth of field, calm investigative mood, no readable text, no logo.</div>
+      <div class="promptblock">Photorealistic medium close-up of two documents laid side by side on a desk, one hand pointing between them as if comparing, a blurred office or study visible behind for context, warm side light, shallow depth of field, calm investigative mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Sammenhold sælgerens svar med rapporterne, linje for linje."</div>
     </div>
 
   </div>
@@ -563,7 +620,7 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <!-- POST 8 -->
 <div class="postcard" id="post-8">
-  <div class="post-band"><span class="post-num">08</span><span class="post-title">6 spørgsmål før du byder</span><span class="post-meta">carousel · 3 карточки · сохраняемый чек-лист</span></div>
+  <div class="post-band"><span class="post-num">08</span><span class="post-title">6 spørgsmål før du byder</span><span class="post-meta">carousel · 3 карточки</span></div>
   <div class="post-body">
 
   <div class="blockhead"><span class="blocklabel ig">IG — тизер</span><button class="copy-btn" data-copy="ig-8">Копировать</button></div>
@@ -599,19 +656,28 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
     <div class="card">
       <div class="card-head"><span class="card-badge">8.1</span><span class="card-title">Открывашка</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>6 spørgsmål, der kan spare dig for dyre fejl. Gem denne.</div>
-      <div class="promptblock">Minimalist photorealistic still life: a set of house keys and a small wooden house model resting on a plain wooden table, a single bright shaft of warm sunlight crossing the frame diagonally, most of the frame left empty and calm, shallow depth of field, quiet and personal mood, no text, no logo.</div>
+      <div class="promptblock">Photorealistic still life, medium shot: a set of house keys and a small wooden house model resting on a plain wooden table, a single bright shaft of warm sunlight crossing the frame diagonally, a softly blurred room edge visible behind for context, shallow depth of field, quiet and personal mood, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"6 spørgsmål, der kan spare dig for dyre fejl. Gem denne."</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">8.2</span><span class="card-title">Вопросы 1-3</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>1. Er rapporterne klar? 2. Gælder energimærket kun din bolig? 3. Obligatorisk grundejerforening?</div>
-      <div class="promptblock">Overhead photorealistic flat-lay of three small stacked paper documents arranged neatly on a wooden desk, warm natural window light, soft shadows, organized and calm mood, no readable text, no logo.</div>
+      <div class="promptblock">Overhead photorealistic flat-lay of three small stacked paper documents arranged neatly on a wooden desk, warm natural window light, soft shadows, organized and calm mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge, sized to comfortably fit three lines of text. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"1. Er rapporterne klar? 2. Gælder energimærket kun din bolig? 3. Obligatorisk grundejerforening?"</div>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="card-badge">8.3</span><span class="card-title">Вопросы 4-6</span></div>
       <div class="overlay-text"><b>Текст на карточке</b>4. Stemmer sælgerens svar? 5. Bevaringsværdig? 6. Hvornår udløber byggegarantien?</div>
-      <div class="promptblock">Overhead photorealistic flat-lay of a wooden desk with a handwritten-style checklist notepad (blank lines, no readable text), a pen, a small stack of folded documents, and a cup of coffee, warm natural window light, soft shadows, organized and calm mood, no readable text, no logo.</div>
+      <div class="promptblock">Overhead photorealistic flat-lay of a wooden desk with a handwritten-style checklist notepad (blank lines, no readable text), a pen, a small stack of folded documents, and a cup of coffee, warm natural window light, soft shadows, organized and calm mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge, sized to comfortably fit three lines of text. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"4. Stemmer sælgerens svar? 5. Bevaringsværdig? 6. Hvornår udløber byggegarantien?"</div>
     </div>
 
   </div>
@@ -622,84 +688,13 @@ Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret.
 
 <section id="hashtags-note">
 <h2 class="h">Базовый набор хэштегов</h2>
-<p class="h-sub">Тот же принцип, что в серии Vorup: одинаковый базовый блок во всех 8 постах + 2 уникальных под тему. Уже вставлены в каждый пост выше — здесь просто сводка.</p>
 <div class="hashset">
 <code>#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek</code>
-<div class="note">7 базовых + 2 уникальных = 9 на пост. Для FB хэштеги менее важны — можно оставить только базовый блок или убрать совсем.</div>
+<div class="note">7 базовых + 2 уникальных = 9 на пост. Уже вставлены в каждый пост выше.</div>
 </div>
 </section>
 
-<section id="reel">
-<h2 class="h">Рил: «To huse, samme pris» — 4 клипа, без озвучки</h2>
-<p class="h-sub">Без диктора — только эмбиент/музыка. Каждый клип генерируется отдельно, до 8-10 секунд (лимит генерации), итог — рил ~28-30 секунд. Субтитры накладываются в монтаже, не генератором — та же логика, что и с текстом на карточках.</p>
-
-<div class="reel-stage">
-<h3>Этап 1 — Кадры (Nano Banana Pro/2)</h3>
-<p class="sub">KF-A генерируется первым (= карточка 1.1), остальные — с KF-A как reference-image.</p>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">KF-A</span><span class="kf-title">Опорный кадр — разделённый дом</span></div>
-<div class="promptblock">= промпт карточки 1.1 (см. Пост 1 выше)</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">KF-D</span><span class="kf-title">Документы / ручка</span></div>
-<div class="promptblock">= промпт карточки 3.1 (см. Пост 3 выше)</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">KF-E</span><span class="kf-title">Весы</span></div>
-<div class="promptblock">= промпт карточки 1.4 (см. Пост 1 выше)</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">KF-F</span><span class="kf-title">Финальный брендовый кадр</span></div>
-<div class="promptblock">= промпт карточки 8.1 (см. Пост 8 выше)</div>
-</div>
-</div>
-
-<div class="reel-stage">
-<h3>Этап 2 — Анимация (Veo 3.1 / Omni Flash / аналог image-to-video)</h3>
-<p class="sub">Каждый клип — до 8-10 секунд за одну генерацию, только движение камеры/объекта. Без реплик, без сгенерированных субтитров — только тихая эмбиент-сцена или инструментальная музыка поверх в монтаже.</p>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">Клип 1</span><span class="kf-title">KF-A → анимация</span><span class="kf-dur">0:00–0:08</span></div>
-<div class="promptblock">Slow horizontal parallax dolly move from left to right across the seam of the split house image, revealing both halves gradually, subtle depth separation between foreground pavement and background facades, no camera shake, cinematic and calm pacing, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">Клип 2</span><span class="kf-title">KF-D → анимация</span><span class="kf-dur">0:08–0:16</span></div>
-<div class="promptblock">The hand holding the pen trembles very slightly, then the focus racks from the blurred document stack in the background to the pen tip in sharp focus, slow and deliberate timing, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">Клип 3</span><span class="kf-title">KF-E → анимация</span><span class="kf-dur">0:16–0:23</span></div>
-<div class="promptblock">The balance scale tips slowly from one side toward the other in a single smooth arc, coins and document tray swaying gently, slow-motion feel, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
-</div>
-
-<div class="kf">
-<div class="kf-head"><span class="kf-badge">Клип 4</span><span class="kf-title">KF-F → анимация</span><span class="kf-dur">0:23–0:30</span></div>
-<div class="promptblock">Static, almost still frame with a warm shaft of light slowly sweeping across the table over the full duration, dust motes gently drifting, quiet and settled mood, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
-</div>
-</div>
-
-<div class="reel-stage">
-<h3>Этап 3 — Монтаж: тайминг субтитров и музыка</h3>
-<table class="timeline">
-<tr><th>Тайм-код</th><th>Клип</th><th>Субтитр (наложить в монтаже)</th></tr>
-<tr><td class="tc">0:00–0:04</td><td>Клип 1</td><td>«To huse. Næsten samme pris.»</td></tr>
-<tr><td class="tc">0:04–0:08</td><td>Клип 1 (продолжение)</td><td>«Vidt forskellig risiko.»</td></tr>
-<tr><td class="tc">0:08–0:12</td><td>Клип 2</td><td>«Den ene mangler stadig sin rapport.»</td></tr>
-<tr><td class="tc">0:12–0:16</td><td>Клип 2 (продолжение)</td><td>«Den anden har alt klar.»</td></tr>
-<tr><td class="tc">0:16–0:23</td><td>Клип 3</td><td>«Vurderingen peger i hver sin retning.»</td></tr>
-<tr><td class="tc">0:23–0:26</td><td>Клип 4</td><td>«Samme budget. To forskellige risici.»</td></tr>
-<tr><td class="tc">0:26–0:30</td><td>Клип 4 (продолжение)</td><td>«Fuld sammenligning: link i bio.»</td></tr>
-</table>
-<div class="note"><b>Звук:</b> только лицензионно чистый инструментал/эмбиент, без вокала — озвучки нет и не планируется. <b>После рендера:</b> скриншот/повторное сохранение или exiftool перед загрузкой (то же правило AI-метки Meta, что и для стиллов).</div>
-</div>
-</section>
-
-<footer>NordIndsigt · Case-пакет v2 подготовлен 21.07.2026 · Только для внутреннего использования</footer>
+<footer>NordIndsigt · Case-пакет v3 (без анимации) подготовлен 21.07.2026 · Только для внутреннего использования</footer>
 </div>
 
 <script>
