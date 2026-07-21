@@ -95,6 +95,17 @@ h2.h{font-family:var(--disp);font-size:23px;font-weight:600;letter-spacing:-.01e
 
 .note{background:var(--tag-bg);border-radius:12px;padding:14px 18px;font-size:13px;color:var(--ink2);margin-top:16px}
 .note b{color:var(--ink)}
+.reel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:0;margin-bottom:26px;scroll-margin-top:70px;overflow:hidden}
+.reel .post-band{padding:20px 26px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.reel .post-body{padding:22px 26px 26px}
+.reel-why{font-size:13.5px;color:var(--muted);margin-bottom:18px;font-style:italic}
+.stage{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--rust-deep);margin:18px 0 10px}
+.stage:first-of-type{margin-top:0}
+.timeline{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+.timeline th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+.timeline td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.timeline td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
+.timeline tr:last-child td{border-bottom:none}
 .hashset{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:20px}
 .hashset code{font-family:var(--mono);font-size:13px;color:var(--gold)}
 
@@ -110,6 +121,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
       <a href="#audit">Audit</a>
       <a href="#post-1">1</a><a href="#post-2">2</a><a href="#post-3">3</a><a href="#post-4">4</a>
       <a href="#post-5">5</a><a href="#post-6">6</a><a href="#post-7">7</a><a href="#post-8">8</a>
+      <a href="#reels">Reels</a>
     </nav>
   </div>
 </div>
@@ -126,7 +138,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
   <b>Подтверждённая формула (применена ко всем 28 карточкам):</b> сцена описана так, чтобы всегда были видны узнаваемые границы объекта (дверь+рама+кусок стены, а не текстура кирпича крупным планом) — это убирает риск "чрезмерного макро". Текст — всегда один и тот же типографский блок: bold geometric sans-serif, тёплый кремовый (#F3ECDD), мягкий градиент-скрим от прозрачного к 70% navy только у самого низа кадра, плюс явный negative-список (никаких белых прямоугольников/чат-подложек). Для карточек, которые используют анкер поста 1 как reference-image (1.2, 1.3, 6.1) — reference используется ТОЛЬКО для света/цвета/объектива, отдельно прописан запрет копировать композицию/ракурс анкера.
   <br><br>Даже с этой формулой рассчитывай на 2-3 генерации на карточку и отбор лучшей — вариативность модели, не брак промпта.
   </div>
-  <div class="cancelled"><b>Отменено:</b> анимация в Google Flow (Veo/Omni) — раздел с кейфреймами и таймингом рила убран из этой версии документа. Работаем только со статичными карточками.</div>
+  <div class="cancelled"><b>Уточнение:</b> отменяем только Pomelli (старый плоский verbatim-текстовый пайплайн) — он больше не используется вообще. Рилсы через Nano Banana остаются в плане: см. раздел «Reels» внизу — 3 ролика по топовым темам, один цельный клип на ~15 секунд каждый (не нарезка из коротких кусков).</div>
 </header>
 
 <section id="audit">
@@ -684,6 +696,77 @@ Typography treatment: render the exact text below, verbatim, no other words. Bol
   </div>
 </div>
 
+</section>
+
+<section id="reels">
+<h2 class="h">Reels — топ-3 темы, Nano Banana + анимация</h2>
+<p class="h-sub">Один цельный клип ~15 секунд на тему (не нарезка коротких кусков). Этап 1 — стилл в Nano Banana Pro/2 (формула та же, что и в карточках, но без текста — субтитры идут отдельным слоем поверх видео при монтаже). Этап 2 — анимация этого стилла в Veo 3.1 / Flow / аналог image-to-video: только движение камеры, без реплик, без сгенерированных субтитров, звук — эмбиент/музыка отдельно.</p>
+
+<div class="reel" id="reel-1">
+  <div class="post-band"><span class="post-num">Reel 1</span><span class="post-title">To huse, samme pris</span><span class="post-meta">~15 сек · флагманское сравнение</span></div>
+  <div class="post-body">
+  <p class="reel-why">Почему топ: уже есть готовый визуальный набор (анкер + две детали + весы), история цепляет с первого кадра — «два дома, один бюджет, разный риск».</p>
+
+  <div class="stage">Этап 1 — стилл (Nano Banana Pro/2, без текста)</div>
+  <div class="promptblock">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light with matching long shadows, seamless vertical seam down the exact center of the frame, no visible house numbers, street signs, or people, no logo, no text, editorial real-estate photography, 50mm lens look, shallow depth of field on the foreground pavement.</div>
+
+  <div class="stage">Этап 2 — анимация (~15 сек, Veo 3.1 / Flow)</div>
+  <div class="promptblock">Slow horizontal parallax dolly move from left to right across the seam of the split house image over the full 15 seconds, revealing both halves gradually with a very subtle continued push-in toward the end, subtle depth separation between foreground pavement and background facades, no camera shake, cinematic and calm pacing, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
+
+  <div class="stage">Субтитры (наложить в монтаже, не генератором)</div>
+  <table class="timeline">
+  <tr><th>Тайм-код</th><th>Субтитр</th></tr>
+  <tr><td class="tc">0:00–0:04</td><td>«To huse. Næsten samme pris.»</td></tr>
+  <tr><td class="tc">0:04–0:08</td><td>«Vidt forskellig risiko.»</td></tr>
+  <tr><td class="tc">0:08–0:12</td><td>«Den ene billigere. Den anden med alt klar.»</td></tr>
+  <tr><td class="tc">0:12–0:15</td><td>«Fuld sammenligning: link i bio.»</td></tr>
+  </table>
+  </div>
+</div>
+
+<div class="reel" id="reel-2">
+  <div class="post-band"><span class="post-num">Reel 2</span><span class="post-title">Billederne er ikke det, du får</span><span class="post-meta">~15 сек · самый человечный крючок</span></div>
+  <div class="post-body">
+  <p class="reel-why">Почему топ: нетехническая, эмоциональная находка — «фото 2021 года, дом сдавался 5 лет» — работает без всякого объяснения экономики, останавливает скролл сам по себе.</p>
+
+  <div class="stage">Этап 1 — стилл (Nano Banana Pro/2, без текста)</div>
+  <div class="promptblock">Photorealistic still life, medium shot: a glossy printed real-estate photograph of a pristine, empty, brand-new living room lies on top of a slightly worn, lived-in wooden coffee table with a faint ring stain and a folded blanket beside it, a soft blurred living room visible behind for context, warm indoor lamp light, shallow depth of field emphasizing the contrast between the flawless photo and the lived-in surface beneath it, no readable text, no logo, no people.</div>
+
+  <div class="stage">Этап 2 — анимация (~15 сек, Veo 3.1 / Flow)</div>
+  <div class="promptblock">Slow rack focus over the full 15 seconds: begins sharp on the glossy printed photo of the empty new living room, then very slowly shifts focus to the worn, lived-in table surface beneath it, revealing the texture and the ring stain, ending with both slightly soft and the room behind gently in focus, subtle ambient dust motes drifting in the lamp light, no camera shake, quiet and slightly wistful pacing, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
+
+  <div class="stage">Субтитры (наложить в монтаже, не генератором)</div>
+  <table class="timeline">
+  <tr><th>Тайм-код</th><th>Субтитр</th></tr>
+  <tr><td class="tc">0:00–0:05</td><td>«Alle billederne ser ud, som om huset lige er bygget.»</td></tr>
+  <tr><td class="tc">0:05–0:10</td><td>«Huset har været udlejet i 5 år.»</td></tr>
+  <tr><td class="tc">0:10–0:15</td><td>«Bed altid om friske billeder. Link i bio.»</td></tr>
+  </table>
+  </div>
+</div>
+
+<div class="reel" id="reel-3">
+  <div class="post-band"><span class="post-num">Reel 3</span><span class="post-title">Sælgeren svarede «nej»</span><span class="post-meta">~15 сек · интрига/тайна</span></div>
+  <div class="post-body">
+  <p class="reel-why">Почему топ: единственный визуальный сюжет с настоящим саспенсом (тёмная лестница, закрытый люк) — хорошо работает как cliffhanger-открывашка, ведущая на карусель/сайт за разгадкой.</p>
+
+  <div class="stage">Этап 1 — стилл (Nano Banana Pro/2, без текста)</div>
+  <div class="promptblock">Photorealistic interior shot looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light falling across the steps from an unseen window, faint dust particles visible in the light beam, quiet and slightly mysterious mood, shallow depth of field, no text, no logo, no people.</div>
+
+  <div class="stage">Этап 2 — анимация (~15 сек, Veo 3.1 / Flow)</div>
+  <div class="promptblock">Slow, steady push-in up the staircase toward the closed hatch door over the full 15 seconds, the warm shaft of light subtly shifting and intensifying as the camera approaches, dust particles drifting gently through the beam, the camera settles just before reaching the door without opening it, quiet and suspenseful pacing, no camera shake, silent ambient scene, no on-screen text, no dialogue, no generated captions, no voiceover.</div>
+
+  <div class="stage">Субтитры (наложить в монтаже, не генератором)</div>
+  <table class="timeline">
+  <tr><th>Тайм-код</th><th>Субтитр</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>«Sælgeren svarede "nej" i spørgeskemaet.»</td></tr>
+  <tr><td class="tc">0:06–0:11</td><td>«To uafhængige rapporter sagde noget andet.»</td></tr>
+  <tr><td class="tc">0:11–0:15</td><td>«Hvad der er derinde: link i bio.»</td></tr>
+  </table>
+  </div>
+</div>
+
+<div class="note"><b>После рендера:</b> скриншот/повторное сохранение или exiftool перед загрузкой — то же правило AI-метки Meta, что и для стиллов. <b>Практика:</b> рассчитывай на 2-3 генерации анимации на ролик и отбор лучшей — та же вариативность модели, что и со стиллами.</div>
 </section>
 
 <section id="hashtags-note">
