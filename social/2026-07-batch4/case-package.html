@@ -107,6 +107,19 @@ h2.h{font-family:var(--disp);font-size:23px;font-weight:600;letter-spacing:-.01e
 .timeline td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
 .timeline tr:last-child td{border-bottom:none}
 .hashset{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:20px}
+.stepflow{display:flex;flex-direction:column;gap:0}
+.step{display:flex;gap:18px;padding:18px 0;border-bottom:1px solid var(--line);position:relative}
+.step:last-child{border-bottom:none}
+.step-num{flex:none;width:34px;height:34px;border-radius:100px;background:var(--rust);color:#fff;font-family:var(--mono);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.step-num.opt{background:var(--muted)}
+.step-body{flex:1}
+.step-tool{font-family:var(--disp);font-size:16.5px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.step-tool .when{font-family:var(--mono);font-size:10.5px;font-weight:400;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-left:8px}
+.step-desc{font-size:14px;color:var(--ink2);margin-bottom:6px}
+.step-ex{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:13px;color:var(--ink2)}
+.step-ex b{color:var(--ink);font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:3px}
+.branch{background:var(--tag-bg);border-radius:12px;padding:14px 18px;margin:16px 0;font-size:13.5px;color:var(--ink2)}
+.branch b{color:var(--ink)}
 .hashset code{font-family:var(--mono);font-size:13px;color:var(--gold)}
 
 footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
@@ -121,7 +134,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
       <a href="#audit">Audit</a>
       <a href="#post-1">1</a><a href="#post-2">2</a><a href="#post-3">3</a><a href="#post-4">4</a>
       <a href="#post-5">5</a><a href="#post-6">6</a><a href="#post-7">7</a><a href="#post-8">8</a>
-      <a href="#reels">Reels</a>
+      <a href="#reels">Reels</a><a href="#workflow">Порядок инструментов</a>
     </nav>
   </div>
 </div>
@@ -140,6 +153,189 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font-fa
   </div>
   <div class="cancelled"><b>Уточнение:</b> отменяем только Pomelli (старый плоский verbatim-текстовый пайплайн) — он больше не используется вообще. Рилсы через Nano Banana остаются в плане: см. раздел «Reels» внизу — 3 ролика по топовым темам, один цельный клип на ~15 секунд каждый (не нарезка из коротких кусков).</div>
 </header>
+
+<section id="workflow">
+<h2 class="h">Порядок инструментов Flow — от и до</h2>
+<p class="h-sub">9 инструментов, которые ты добавил в избранное. Ниже — точный порядок, что вводить в каждый и что забирать на выход. Разобрано на примере поста 1 («To huse, samme pris») — но порядок одинаковый для любого нового поста.</p>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 0 — один раз на всю кампанию, не на каждый пост</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-body">
+<div class="step-tool">Style Writer <span class="when">один раз</span></div>
+<div class="step-desc">Загружаешь moodboard из 5-6 картинок: 2-3 примера датской архитектуры (новый + старый дом), один документ/чертёж, одно фото интерьера с мягким естественным светом, один скриншот текущей типографики сайта (Geist). Жмёшь генерировать.</div>
+<div class="step-ex"><b>Забираешь</b>Текстовый style-prompt на выходе. Копируешь его целиком в заметку с названием <code>NORDINDSIGT MASTER STYLE</code> — это твой эталонный кусок текста на всю кампанию вперёд.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 1 — черновик композиции (на каждый НОВЫЙ пост/сцену)</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-body">
+<div class="step-tool">Grid Architect <span class="when">на каждый пост</span></div>
+<div class="step-desc">В промпт вставляешь: <code>NORDINDSIGT MASTER STYLE</code> (из шага 1) + краткое описание сцены (например: «split-frame comparison, modern Danish rækkehus vs historic townhouse, warm afternoon light»). Просишь сетку 9-12 вариантов композиции.</div>
+<div class="step-ex"><b>Забираешь</b>Смотришь сетку, выбираешь 1 композицию, ближе всего похожую на нужную (для поста 1 — это разделённый кадр, как в промпте карточки 1.1 выше). Извлекаешь именно её как отдельное изображение.</div>
+</div>
+</div>
+
+<div class="branch"><b>Если ни один вариант в сетке не устроил</b> — не пересобирай сетку заново, а зайди в Whisk: подай туда 2-3 картинки-настроения (НЕ реальные фото домов из объявлений — только чужие референсы архитектуры/атмосферы или наши уже готовые синтетические стиллы), получи альтернативное направление, и уже по нему заново сформулируй сцену для Grid Architect.</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 2 — это и есть анкер (карточка 1.1)</span></div>
+<div class="post-body">
+<div class="stepflow">
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-body">
+<div class="step-tool">Извлечённое изображение из шага 2 = анкер серии</div>
+<div class="step-desc">Ничего не генерируешь заново — просто сохраняешь этот файл как «карточка 1.1» и используешь его как входной файл в следующих двух шагах.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 3 — вариации из анкера (карточки 1.2, 1.3, 6.1)</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-body">
+<div class="step-tool">Shot Explorer <span class="when">на каждую вариацию ракурса</span></div>
+<div class="step-desc">Загружаешь анкер (карточка 1.1) как входное изображение. Просишь: «medium close-up on the left house's door and window» → получаешь карточку 1.2. Отдельно: «medium close-up on the right house's window and wall» → карточка 1.3. Это делает ту работу, которую раньше мы пытались сделать текстовым промптом («do NOT reuse the same angle») — здесь инструмент сам меняет ракурс, держа свет/стиль как в анкере.</div>
+<div class="step-ex"><b>Забираешь</b>2-3 разных ракурса одной сцены. Если получишь странную несуществующую деталь здания — не публикуй как есть, это иллюстрация, не документ.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 4 — точечная чистка (по необходимости, любая карточка)</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">5</div>
+<div class="step-body">
+<div class="step-tool">Mask Magic <span class="when">только если есть проблема</span></div>
+<div class="step-desc">Открываешь готовую карточку, выделяешь ТОЛЬКО проблемную область (случайно сгенерированный номер дома, уличный знак, лишний человек/машина, нечитаемый "фейковый текст" на документе) и просишь заменить/убрать именно её.</div>
+<div class="step-ex"><b>Забираешь</b>Ту же карточку, с исправленным одним элементом — не перегенерируешь всю сцену заново.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 5 — финальный формат под площадку</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">6</div>
+<div class="step-body">
+<div class="step-tool">Image Editor <span class="when">на каждую финальную карточку</span></div>
+<div class="step-desc">Приводишь карточку к нужному формату: 4:5 для ленты, 9:16 для сторис. Если нужно — расширяешь свободное поле под будущий текст.</div>
+<div class="step-ex"><b>Забираешь</b>Готовый файл без текста, в правильном формате. <b>Датский текст длиннее короткого хука сюда НЕ добавляем</b> — весь текст с карточек этого документа (см. блоки «Текст на карточке») переносим вручную в Canva/Figma поверх этого чистого файла. Короткий 3-5-словный hook можно попробовать добавить прямо здесь, но не полагайся на это как на финальный шаг.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 6 — только для CTA/продуктовых слайдов (не для всех постов)</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">7</div>
+<div class="step-body">
+<div class="step-tool">Mockup <span class="when">только для CTA-слайда</span></div>
+<div class="step-desc">Берёшь анонимизированный реальный фрагмент отчёта BoligCheck (или заранее подготовленный демо-макет — НЕ выдуманный документ) и компонуешь его в среду: планшет на столе, рядом с ключами, экран ноутбука.</div>
+<div class="step-ex"><b>Забираешь</b>CTA-кадр вида «Få overblik, før du byder» — используешь только в закрывающих/продуктовых слайдах, не в постах с находками.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="postcard">
+<div class="post-band"><span class="post-title">Этап 7 — только для рилов (видео)</span></div>
+<div class="post-body">
+<div class="stepflow">
+
+<div class="step">
+<div class="step-num">8</div>
+<div class="step-body">
+<div class="step-tool">Анимация стилла <span class="when">Veo/Flow video</span></div>
+<div class="step-desc">Берёшь чистый стилл БЕЗ текста (после Image Editor, до любого текста) и анимируешь его промптом движения камеры (см. раздел Reels выше — «Этап 2» у каждого из 3 роликов). Никакого текста в этом промпте не просим — только движение.</div>
+</div>
+</div>
+
+<div class="step">
+<div class="step-num">9</div>
+<div class="step-body">
+<div class="step-tool">Type Overlays <span class="when">на готовое видео</span></div>
+<div class="step-desc">Загружаешь готовый анимированный клип (без текста) и добавляешь короткие анимированные фразы по таймингу из таблицы субтитров каждого рила. Это делает то, что мы раньше пытались сделать градиент-скримом в самой генерации — здесь надёжнее, потому что это отдельный текстовый слой, а не часть diffusion-картинки.</div>
+</div>
+</div>
+
+<div class="branch"><b>Если рил — один непрерывный клип (наш текущий план, ~15 сек):</b> на этом всё, экспортируй. <b>Если вместо этого собираешь рил из нескольких коротких кусков</b> (фасад → документ → деталь → CTA) — тогда после Type Overlays подключаются ещё два шага ниже.</div>
+
+<div class="step">
+<div class="step-num opt">10</div>
+<div class="step-body">
+<div class="step-tool">Stringout Creator <span class="when">только для монтажного рила из кусков</span></div>
+<div class="step-desc">Склеиваешь несколько отдельно анимированных клипов подряд в один ролик.</div>
+</div>
+</div>
+
+<div class="step">
+<div class="step-num opt">11</div>
+<div class="step-body">
+<div class="step-tool">Transition Machine <span class="when">только 1-2 раза на ролик</span></div>
+<div class="step-desc">Добавляешь плавный переход в 1-2 самых важных местах склейки (например, «новый дом → старый дом»). Не на каждый стык — иначе будет читаться как демо нейросети, а не как бренд-контент.</div>
+</div>
+</div>
+
+<div class="step">
+<div class="step-num">12</div>
+<div class="step-body">
+<div class="step-tool">Video Resizer <span class="when">финальный шаг всегда</span></div>
+<div class="step-desc">Проверяешь/приводишь готовое видео к 9:16 перед экспортом.</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="note"><b>После любого экспорта, фото или видео:</b> скриншот/пересохранение или exiftool перед загрузкой в Meta — это правило не меняется ни на каком этапе.</div>
+</section>
 
 <section id="audit">
 <h2 class="h">Аудит: что выжато из трёх отчётов</h2>
