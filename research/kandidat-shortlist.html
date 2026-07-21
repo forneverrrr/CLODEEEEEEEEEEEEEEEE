@@ -1,0 +1,145 @@
+<title>NordIndsigt — Кандидаты для тестовых разборов (веб-поиск)</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --v2:#2B6B3C; --v1:#8A5A22;
+  --disp: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono: ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--v2:#7FCB93;--v1:#D9A45C;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--v2:#7FCB93;--v1:#D9A45C;}
+:root[data-theme="light"]{--paper:#FAF7F1;--card:#FFFFFF;--ink:#18222E;--ink2:#4F5C6B;--muted:#7C8895;--line:#E4DBC9;--rust:#C4533F;--rust-deep:#9E4030;--gold:#C0863F;--mono-bg:#F1ECE0;--mono-ink:#2B3542;--tag-bg:#EFE6D6;--tag-ink:#8A5A22;--v2:#2B6B3C;--v1:#8A5A22;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:840px;margin:0 auto;padding:40px 22px 100px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:14px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 16px;text-wrap:balance}
+.lead{font-size:16px;color:var(--ink2);max-width:640px;margin:0 0 20px}
+.honest{background:var(--tag-bg);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin:22px 0;font-size:14px;color:var(--ink2)}
+.honest b{color:var(--ink)}
+h2.h{font-family:var(--disp);font-size:22px;font-weight:600;color:var(--ink);margin:38px 0 6px}
+.h-sub{font-size:14px;color:var(--muted);margin-bottom:18px}
+.cand{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:14px}
+.cand-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.cand-num{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--rust-deep);flex:none}
+.cand-addr{font-family:var(--disp);font-size:17px;font-weight:600;color:var(--ink)}
+.cand-type{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.cand-sig{font-size:14px;color:var(--ink2);margin-bottom:10px}
+.cand-sig b{color:var(--ink)}
+.cand-foot{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-family:var(--mono);font-size:11px}
+.chip{border-radius:100px;padding:3px 9px}
+.chip.v2{background:color-mix(in srgb,var(--v2) 16%,transparent);color:var(--v2)}
+.chip.v1{background:color-mix(in srgb,var(--v1) 18%,transparent);color:var(--v1)}
+.chip.angle{background:var(--tag-bg);color:var(--tag-ink)}
+.cand-src{color:var(--muted)}
+.cand-src a{color:var(--muted)}
+.recipe{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.recipe ol{margin:0;padding-left:20px}
+.recipe li{font-size:14px;color:var(--ink2);margin-bottom:12px}
+.recipe a{color:var(--rust-deep);word-break:break-all}
+.recipe code{font-family:var(--mono);font-size:12.5px;background:var(--mono-bg);padding:1px 5px;border-radius:5px}
+.docs{background:var(--tag-bg);border-radius:12px;padding:14px 18px;font-size:13.5px;color:var(--ink2);margin-top:18px}
+.docs b{color:var(--ink)}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+</style>
+
+<div class="wrap">
+<div class="eyebrow">Кандидаты для тестовых разборов · веб-поиск 21.07.2026</div>
+<h1>11 объектов с реальным сигналом + рецепт добора остальных</h1>
+<p class="lead">Прошёлся по датским порталам через веб-поиск по разным углам (масляные баки, tvangsauktion, andelsbolig, редкие типы владения, наследие, расхождение цен). Ниже — объекты, которые всплыли с конкретной зацепкой, каждый с источником и уровнем проверки.</p>
+
+<div class="honest">
+<b>Честно про инструмент:</b> живой браузер (Playwright) в этой сессии не поднялся — MCP-сервер запущен на старом конфиге, я поправил путь к Chromium (<code>chromium-1194</code>), но подхватится только в новой сессии. Поэтому «пролистать» сотни объявлений визуально не мог — работал через веб-поиск по конкретным зацепкам. Отдельные URL объявлений часто отдают 404 (истекли) или блокируются (403) — это нормально для этих порталов. Поэтому <b>детали ниже — из сниппетов поиска, их нужно подтвердить, открыв само объявление и вытянув PDF</b> (salgsopstilling / tilstandsrapport / energimærke) — это и есть твой следующий шаг, из которого мы делаем отчёт. Список честный: не добивал его выдуманными адресами до 15 — вместо этого дал рецепт, как добрать остальные за минуты.
+</div>
+
+<h2 class="h">Кандидаты (по силе сигнала)</h2>
+<p class="h-sub">🟢 два+ признака / сильный уникальный сигнал · 🟡 один признак из сниппета, нужна проверка</p>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">01</span><span class="cand-addr">Nørholmvej 3, 7361 Ejstrupholm</span><span class="cand-type">Villa</span></div>
+  <div class="cand-sig"><b>Закопанный масляный бак 1968 года, 10.000 л, заглушённый.</b> Идеально ложится на нашу новую статью про скрытые долгосрочные расходы — большой старый бак, риск коррозии и возможного обязательного демонтажа.</div>
+  <div class="cand-foot"><span class="chip v2">🟢 сильный сигнал</span><span class="chip angle">olietank</span><span class="cand-src">EDC Nr. Snede · edc.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">02</span><span class="cand-addr">Thorsvej 39, 9700 Brønderslev</span><span class="cand-type">Villa</span></div>
+  <div class="cand-sig"><b>Закопанный заглушённый масляный бак.</b> Второй объект с тем же паттерном — можно дать в паре с №1 как «одна и та же скрытая деталь в двух домах».</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">olietank</span><span class="cand-src">EDC Lykke & Hardahl · edc.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">03</span><span class="cand-addr">Ørumvej 39, 8721 Daugård</span><span class="cand-type">Villa</span></div>
+  <div class="cand-sig"><b>Pillefyr/oliefyr + надземный масляный бак 2008 года.</b> Смешанное отопление + бак — хороший кейс под тему «реальная стоимость отопления» и износ котла.</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">отопление + бак</span><span class="cand-src">Nybolig Hedensted · nybolig.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">04</span><span class="cand-addr">Orte Vejsmark 24, 5560 Aarup</span><span class="cand-type">Villa · 229 м² / 2.275 м²</span></div>
+  <div class="cand-sig"><b>Tvangsauktion 08.04.2026.</b> Принудительный аукцион — покупка «как есть», без ejerskifteforsikring, обычно один осмотр. Целый новый угол контента: «что значит купить с молотка».</div>
+  <div class="cand-foot"><span class="chip v2">🟢 сильный сигнал</span><span class="chip angle">tvangsauktion</span><span class="cand-src">Boliga · boliga.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">05</span><span class="cand-addr">Enghavevej 16, 8600 Silkeborg</span><span class="cand-type">Villa · 88 м²</span></div>
+  <div class="cand-sig"><b>Tvangsauktion 14.08.2026.</b> Второй аукционный объект — компактный, другой город. Пара к №4 для сравнения «маленький vs большой на аукционе».</div>
+  <div class="cand-foot"><span class="chip v2">🟢 сильный сигнал</span><span class="chip angle">tvangsauktion</span><span class="cand-src">Boliga · boliga.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">06</span><span class="cand-addr">Fredensgade 25, 5560 Aarup</span><span class="cand-type">Villa · 1911</span></div>
+  <div class="cand-sig"><b>Историческая вилла мастера-строителя 1911 года, «period details».</b> Кандидат под тему bevaringsværdig / ограничения на фасад (наш кейс Gravene продолжается).</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">наследие/старый дом</span><span class="cand-src">home.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">07</span><span class="cand-addr">Sønderbro 18, st. th, 9000 Aalborg</span><span class="cand-type">Andelsbolig</span></div>
+  <div class="cand-sig"><b>Andelsbolig в Ольборге.</b> Прямо под нашу новую статью про andelsbolig — вытянуть nøgleoplysningsskema + regnskab, показать fælleslån/boligafgift на живом примере.</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">andelsbolig</span><span class="cand-src">EDC · edc.dk</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">08</span><span class="cand-addr">Sixtusvej 22, 1., 2300 København S</span><span class="cand-type">Villalejlighed</span></div>
+  <div class="cand-sig"><b>Редкий гибридный тип владения «villalejlighed».</b> По методологии скилла — тот случай, где нельзя путать с обычной ejerlejlighed/andelsbolig без проверки конкретного документа. Хороший образовательный кейс про типы владения.</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">редкий тип</span><span class="cand-src">пред. проход · boliga/boligsiden</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">09</span><span class="cand-addr">Alskovvej 1, 7470 Karup J</span><span class="cand-type">Villa · 131 м²</span></div>
+  <div class="cand-sig"><b>Расхождение цены между порталами</b> (nybolig vs boliga/boligsiden) + продажа за ~45 дней при среднем по городу ~180 дней. Само расхождение цен — готовая находка про «одна и та же квартира, разные цифры на разных сайтах».</div>
+  <div class="cand-foot"><span class="chip v2">🟢 два источника</span><span class="chip angle">расхождение цен</span><span class="cand-src">пред. проход · nybolig/boliga</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">10</span><span class="cand-addr">C.A. Thyregods Vej 56, 8230 Åbyhøj</span><span class="cand-type">Villa · 100/70 м²</span></div>
+  <div class="cand-sig"><b>Очень высокая цена (~7 млн) за компактную 2-комнатную площадь.</b> Либо премиальный уникальный объект, либо не сходится м²/тип — стоит проверить, чем оправдана цена.</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">цена/м²</span><span class="cand-src">пред. проход</span></div>
+</div>
+
+<div class="cand">
+  <div class="cand-top"><span class="cand-num">11</span><span class="cand-addr">Otte Ruds Gade 36, 4.tv, 8200 Aarhus N</span><span class="cand-type">Ejerlejlighed · 61 м²</span></div>
+  <div class="cand-sig"><b>Высокая цена/м² для студенческого района (Trøjborg).</b> Проверить, чем оправдана — свежий ремонт, вид, или переоценка.</div>
+  <div class="cand-foot"><span class="chip v1">🟡 проверить</span><span class="chip angle">цена/м²</span><span class="cand-src">пред. проход</span></div>
+</div>
+
+<h2 class="h">Рецепт: как добрать до 15+ за минуты</h2>
+<p class="h-sub">Живые фильтры-страницы порталов, которые сами дают поток «интересных» объектов — открой, отсортируй, забери адреса.</p>
+<div class="recipe">
+<ol>
+<li><b>Все свежие снижения цены за 24 часа</b> — сильные снижения = мотивированный продавец, часто = интересный документ. <a href="https://www.boliga.dk/nye-prisfald">boliga.dk/nye-prisfald</a></li>
+<li><b>Все tvangsauktioner</b> (принудительные аукционы) — целый угол «купить как есть, без страховки». <a href="https://www.boliga.dk/tvangsauktioner">boliga.dk/tvangsauktioner</a> · <a href="https://www.boligsiden.dk/tvangsauktioner">boligsiden.dk/tvangsauktioner</a> · <a href="https://www.itvang.dk/">itvang.dk</a></li>
+<li><b>Долгий liggetid</b> (стоит на рынке 300+ дней) — сортируй по времени экспозиции, длинный срок = «почему не покупают?». <a href="https://www.boliga.dk/resultat/villaer-til-salg">boliga.dk/resultat/villaer-til-salg</a> → сортировка по liggetid</li>
+<li><b>Andelsbolig-листинги</b> — под нашу новую тему: <a href="https://www.boliga.dk/boliger/andelsboliger">boliga.dk/boliger/andelsboliger</a> — ищи низкую цену + высокую boligafgift</li>
+<li><b>Все новые объявления за 24 часа</b> — свежак, пока не разобран: <a href="https://www.boliga.dk/nye-boliger">boliga.dk/nye-boliger</a></li>
+<li><b>Поиск по ключам в описании</b> (в WebSearch/на портале): <code>"olietank" "afblændet"</code>, <code>"privat vandforsyning"</code>, <code>"under udarbejdelse"</code> (отчёты ещё не готовы), <code>"bevaringsværdig"</code>, <code>"separatkloakering"</code> — это прямые триггеры наших контент-углов.</li>
+</ol>
+</div>
+
+<div class="docs"><b>Следующий шаг по каждому кандидату:</b> открой объявление → скачай PDF (salgsopstilling + tilstandsrapport + elinstallationsrapport + energimærke + для andel — nøgleoplysningsskema/regnskab) → пришли мне, прогоняю через <code>nordindsigt-boligcheck</code> → анонимизированный разбор → карусель/рил/статья Viden. Приоритет на разбор: №1 (бак), №4-5 (аукционы), №7 (andel), №9 (расхождение цен) — они дают самые новые углы, которых ещё нет в контенте.</div>
+
+<footer>NordIndsigt · Кандидаты из веб-поиска · 21.07.2026 · Детали требуют подтверждения по PDF объявления</footer>
+</div>
