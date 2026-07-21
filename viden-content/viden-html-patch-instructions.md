@@ -38,6 +38,26 @@ Article + FAQPage JSON-LD, canonical/OG-теги). EN-версии пока не
 </a>
 ```
 
+### Добавить ещё два новых `.item` (batch 5 — andelsbolig + skjulte udgifter):
+
+```html
+<a class="item" href="/viden-andelsbolig.html">
+  <div class="tag">Andelsbolig</div>
+  <h2>Andelsbolig: den lave pris fortæller ikke, hvad du kommer til at betale</h2>
+  <p>Andelsværdi er ikke en ejerboligs pris. Boligafgiften og foreningens fælleslån afgør din reelle månedlige udgift — samme pris kan skjule tre helt forskellige økonomier.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+
+<a class="item" href="/viden-skjulte-udgifter.html">
+  <div class="tag">Økonomi</div>
+  <h2>De skjulte langtidsudgifter — det annoncen ikke fremhæver</h2>
+  <p>Olietank, servitutter med økonomiske forpligtelser, privat vand, separatkloakering og BBR-efterslæb — fem regninger, der først kommer år efter overtagelsen.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
 ### Opdater "På vej"-boksen (fjern de to punkter, der nu er udgivet):
 
 Erstat:
