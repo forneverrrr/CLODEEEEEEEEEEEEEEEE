@@ -1,0 +1,629 @@
+<title>NordIndsigt — Reels-bibliotek: 15 рилсов (мультиклип)</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --new:#2B6B3C; --old:#3B5A85;
+  --disp: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono: ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#131C26; --card:#1B2530; --ink:#EAE3D6; --ink2:#B7BFC9; --muted:#8993A0;
+    --line:#2E3A47; --rust:#E07A63; --rust-deep:#C4533F; --gold:#D9A45C;
+    --mono-bg:#101A22; --mono-ink:#D8DEE6; --tag-bg:#2A2214; --tag-ink:#D9A45C;
+    --new:#7FCB93; --old:#8FB4E0;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131C26; --card:#1B2530; --ink:#EAE3D6; --ink2:#B7BFC9; --muted:#8993A0;
+  --line:#2E3A47; --rust:#E07A63; --rust-deep:#C4533F; --gold:#D9A45C;
+  --mono-bg:#101A22; --mono-ink:#D8DEE6; --tag-bg:#2A2214; --tag-ink:#D9A45C;
+  --new:#7FCB93; --old:#8FB4E0;
+}
+:root[data-theme="light"]{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --new:#2B6B3C; --old:#3B5A85;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:820px;margin:0 auto;padding:0 22px 100px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--paper) 88%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 0}
+.top-inner{max-width:820px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.top .brand{font-family:var(--disp);font-weight:600;font-size:17px;color:var(--ink);white-space:nowrap}
+.top .brand b{color:var(--rust);font-weight:600}
+.top nav{display:flex;gap:3px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:12.5px;color:var(--ink2);text-decoration:none;padding:6px 9px;border-radius:100px;white-space:nowrap;transition:background .15s,color .15s}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:50px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:14px}
+h1{font-family:var(--disp);font-size:clamp(28px,5.4vw,40px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 16px;text-wrap:balance}
+.lead{font-size:16.5px;color:var(--ink2);max-width:640px;margin:0 0 6px}
+.meta-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+.howto{background:var(--tag-bg);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:24px;font-size:14px;color:var(--ink2)}
+.howto b{color:var(--ink)}
+.howto code{font-family:var(--mono);font-size:12.5px;color:var(--rust-deep)}
+
+section{margin:40px 0}
+h2.h{font-family:var(--disp);font-size:22px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0 0 16px}
+
+.reel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:0;margin-bottom:24px;scroll-margin-top:70px;overflow:hidden}
+.reel-band{padding:18px 24px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.reel-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.reel-title{font-family:var(--disp);font-size:18px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.reel-src{margin-left:auto;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.04em;padding:3px 9px;border-radius:100px}
+.reel-src.new{background:color-mix(in srgb,var(--new) 16%,transparent);color:var(--new)}
+.reel-src.old{background:color-mix(in srgb,var(--old) 16%,transparent);color:var(--old)}
+.reel-body{padding:20px 24px 24px}
+.reel-why{font-size:13px;color:var(--muted);margin-bottom:16px;font-style:italic}
+.reel-len{font-family:var(--mono);font-size:11px;color:var(--gold);margin-bottom:16px}
+
+.clip{border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:14px;background:var(--paper)}
+.clip-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.clip-badge{font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;background:var(--rust);padding:2px 10px;border-radius:100px;flex:none}
+.clip-title{font-size:13.5px;color:var(--ink);font-weight:600}
+.clip-dur{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.lbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:10px 0 5px}
+.lbl:first-child{margin-top:0}
+.promptblock{background:var(--mono-bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-family:var(--mono);font-size:12px;color:var(--mono-ink);white-space:pre-wrap;line-height:1.5;user-select:text;overflow-x:auto}
+.subs{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+.subs th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+.subs td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.subs td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
+.subs tr:last-child td{border-bottom:none}
+.subhead{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--rust-deep);margin:16px 0 6px}
+
+.note{background:var(--tag-bg);border-radius:12px;padding:14px 18px;font-size:13px;color:var(--ink2);margin-top:16px}
+.note b{color:var(--ink)}
+footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand">Nord<b>Indsigt</b> · Reels-bibliotek</div>
+    <nav>
+      <a href="#r1">1</a><a href="#r2">2</a><a href="#r3">3</a><a href="#r4">4</a><a href="#r5">5</a>
+      <a href="#r6">6</a><a href="#r7">7</a><a href="#r8">8</a><a href="#r9">9</a><a href="#r10">10</a>
+      <a href="#r11">11</a><a href="#r12">12</a><a href="#r13">13</a><a href="#r14">14</a><a href="#r15">15</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">15 рилсов · мультиклип · хватит на 2+ недели</div>
+  <h1>Reels-библиотека под Nano Banana + Veo</h1>
+  <p class="lead">15 готовых концептов рилов из 6 тестовых разборов (2 дома первой пачки + 4 новых: andelsbolig ×3, villa Fredericia, villa Kolding, Herlev). Каждый — 2-3 клипа, потому что Google Flow / Veo даёт ~8 секунд на одну генерацию: два клипа ≈ 15-16 сек, три ≈ 22-24 сек. Стиллы генеришь без текста, анимируешь, склеиваешь (Stringout Creator), субтитры кладёшь сверху (Type Overlays / CapCut).</p>
+  <div class="meta-row"><span><b>Рилов:</b> 15</span><span><b>Клип:</b> ~8 сек (лимит Veo)</span><span><b>Рил:</b> 2-3 клипа = 15-24 сек</span><span><b>Тон:</b> манип. 3-4/10 · страх 5/10</span></div>
+
+  <div class="howto">
+  <b>Пайплайн на каждый рил (одинаковый):</b> 1) генеришь стиллы БЕЗ текста в Nano Banana Pro/2 по промптам ниже (2-3 штуки на рил, первый = анкер, остальные с ним как reference-image для единого света/стиля); 2) анимируешь каждый стилл отдельным клипом ~8 сек по промпту движения; 3) склеиваешь клипы в Stringout Creator; 4) накладываешь субтитры по таблице через Type Overlays или CapCut — <b>текст никогда не генерим внутри видео</b>; 5) Video Resizer → 9:16; 6) скриншот/exiftool перед загрузкой (AI-метка Meta). Звук — только эмбиент/инструментал, озвучки нет.
+  <br><br>Все кейсы анонимизированы: без адресов, точные суммы округлены, цифры-примеры иллюстративны. Каждый рил ведёт на карусель/сайт, где полный разбор.
+  </div>
+</header>
+
+<!-- R1 -->
+<div class="reel" id="r1">
+  <div class="reel-band"><span class="reel-num">Reel 01</span><span class="reel-title">To huse, samme pris</span><span class="reel-src old">1-я пачка</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Флагман. Два дома одной цены, разный риск — цепляет с первого кадра.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Разделённый кадр — анкер</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл (Nano Banana, без текста)</div>
+    <div class="promptblock">Photorealistic split-frame: left half a bright modern Danish rækkehus facade (2021 new build, red brick, black-framed windows), right half a restored historic townhouse facade (1800s, ochre plaster, cobblestone), same warm late-afternoon golden light, seamless center seam, no house numbers, no people, no text, no logo, editorial real-estate photography, 50mm.</div>
+    <div class="lbl">Анимация (Veo, ~8 сек)</div>
+    <div class="promptblock">Slow horizontal parallax dolly left to right across the seam, revealing both halves, subtle depth between foreground pavement and facades, no camera shake, calm cinematic pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Весы</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic brass balance scale on a wooden table, low angle, coins on one side, a folded document tied with string on the other, caught mid-tilt in soft disequilibrium, warm directional light, shallow depth of field, no text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">The scale tips slowly from one side toward the other in a single smooth arc, coins and document tray swaying gently, slow-motion feel, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры (Type Overlays / CapCut)</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:05</td><td>To huse. Næsten samme pris.</td></tr>
+  <tr><td class="tc">0:05–0:10</td><td>Vidt forskellig risiko.</td></tr>
+  <tr><td class="tc">0:10–0:16</td><td>Fuld sammenligning: link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R2 -->
+<div class="reel" id="r2">
+  <div class="reel-band"><span class="reel-num">Reel 02</span><span class="reel-title">Billederne er ikke det, du får</span><span class="reel-src old">1-я пачка</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Самый человечный крючок — фото застройщика вместо реального состояния после 5 лет аренды.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Глянцевое фото на потёртом столе</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic still life: a glossy printed real-estate photo of a pristine empty new living room lies on a worn, lived-in wooden coffee table with a faint ring stain and a folded blanket, soft blurred room behind, warm lamp light, shallow depth of field, contrast between flawless photo and lived-in surface, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow rack focus: starts sharp on the glossy photo, then slowly shifts focus to the worn table surface and ring stain beneath, dust motes drifting in lamp light, quiet wistful pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Потёртый пол, забытый носок</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a worn wooden floor with faint scuff marks and a single stray sock in the corner, blurred window and room edge for context, warm late-afternoon light, shallow depth of field, quiet wistful mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Very slow push-in toward the stray sock as the warm window light slowly shifts, quiet and still pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:05</td><td>Alle billederne ser ud, som om huset lige er bygget.</td></tr>
+  <tr><td class="tc">0:05–0:11</td><td>Huset har været udlejet i 5 år.</td></tr>
+  <tr><td class="tc">0:11–0:16</td><td>Bed altid om friske billeder. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R3 -->
+<div class="reel" id="r3">
+  <div class="reel-band"><span class="reel-num">Reel 03</span><span class="reel-title">Sælgeren svarede «nej»</span><span class="reel-src old">1-я пачка</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Единственный сюжет с настоящим саспенсом — тёмная лестница, закрытый люк. Cliffhanger-открывашка.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Лестница на чердак</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic interior looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light across the steps from an unseen window, faint dust in the beam, quiet mysterious mood, shallow depth of field, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow steady push-in up the staircase toward the closed hatch, the warm shaft of light subtly intensifying, dust drifting through the beam, camera settles just before the door without opening it, suspenseful pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Два документа рядом</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of two documents laid side by side on a desk, one hand about to point between them as if comparing, blurred study behind, warm side light, shallow depth of field, calm investigative mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">The hand moves slowly to point between the two documents, focus racks gently from one to the other, calm deliberate pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Sælgeren svarede "nej" i spørgeskemaet.</td></tr>
+  <tr><td class="tc">0:06–0:11</td><td>To uafhængige rapporter sagde noget andet.</td></tr>
+  <tr><td class="tc">0:11–0:16</td><td>Sammenhold altid svar og rapport. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R4 -->
+<div class="reel" id="r4">
+  <div class="reel-band"><span class="reel-num">Reel 04</span><span class="reel-title">Andelsbolig: lav pris ≠ billig</span><span class="reel-src new">Новое · andel</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Ядро новой темы andelsbolig — цена ≠ реальная стоимость. Тема, которую массово гуглят, у нас её не было.</p>
+  <div class="reel-len">3 клипа · ~24 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Ценник крупно — анкер</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a small paper price tag tied with string resting on a wooden table beside a modern Danish apartment building keychain, soft warm window light, shallow depth of field, calm mood, no readable numbers, no text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in on the price tag as it gently rotates on its string, warm light shifting softly, calm pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Календарь платежей</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic overhead of a wall calendar and a small stack of identical envelopes fanned out on a desk, suggesting recurring monthly payments, warm morning light, soft shadows, shallow depth of field, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow overhead push-in as the fanned envelopes are gently revealed one by one by shifting light, calm rhythmic pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 3</span><span class="clip-title">Открытая папка регнскаба</span><span class="clip-dur">0:16–0:24</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of an open ring binder of financial documents on a desk beside a cup of coffee, warm side light, shallow depth of field, calm and thorough mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">A hand slowly turns a page in the binder, focus holding on the paper, calm deliberate pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr>
+  <tr><td class="tc">0:06–0:13</td><td>Den rigtige udgift er boligafgiften — hver måned.</td></tr>
+  <tr><td class="tc">0:13–0:19</td><td>Og den afhænger af foreningens fælleslån.</td></tr>
+  <tr><td class="tc">0:19–0:24</td><td>Læs regnskabet, ikke kun prisen. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R5 -->
+<div class="reel" id="r5">
+  <div class="reel-band"><span class="reel-num">Reel 05</span><span class="reel-title">Samme pris, tre virkeligheder</span><span class="reel-src new">Новое · andel</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Три andelsbolig одной цены — три разных ежемесячных мира. Наглядный «сравнительный» формат.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Три одинаковых ключа</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic overhead of three identical apartment keys laid in a row on a wooden surface, each with a small blank paper tag, warm even light, soft shadows, shallow depth of field, minimal composition, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow overhead lateral pan across the three keys, warm light gliding over each in turn, calm even pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Три стопки разной высоты</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic flat-lay of three neat stacks of paper documents of clearly different heights on a wooden desk, warm natural light, soft shadows, one stack tall, one medium, one short, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in across the three stacks emphasizing the height difference as light rakes over them, calm pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:05</td><td>Tre andelsboliger. Næsten samme pris.</td></tr>
+  <tr><td class="tc">0:05–0:11</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr>
+  <tr><td class="tc">0:11–0:16</td><td>Forskellen ses i regnskabet. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R6 -->
+<div class="reel" id="r6">
+  <div class="reel-band"><span class="reel-num">Reel 06</span><span class="reel-title">Den tomme olietank i haven</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Очень конкретный скрытый риск — заглушённый бак под землёй. Гуглабельно, редко на слуху у покупателей.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Люк бака в траве</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of an old rusted metal tank cap/lid set into a grassy garden lawn, partly overgrown, soft overcast daylight, shallow depth of field, quiet and slightly ominous mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Very slow push-in toward the rusted tank cap as a breeze moves the grass gently around it, quiet foreboding pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Дом на заднем плане</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic wide shot of a calm older Danish villa garden at dusk, the tank cap small in the foreground grass, the house softly lit behind, warm evening light, shallow depth of field, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow tilt up from the tank cap in the grass to the softly lit house behind, warm evening light steady, calm pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Selv en tom tank kan korrodere med tiden.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Spørg om status og dato. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R7 -->
+<div class="reel" id="r7">
+  <div class="reel-band"><span class="reel-num">Reel 07</span><span class="reel-title">Et servitut fra 1930</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">«Økonomiske forpligtelser, se akt» — паттерн в двух домах (1926 + 1930). Скрытая юридическая деталь.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Старый акт под лупой</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic macro close-up of a magnifying glass held over an old yellowed paper document with an official stamp, warm raking side light emphasizing paper texture, shallow depth of field, no readable text, no logo, calm precise mood.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">The magnifying glass moves slowly across the old document, the stamp drifting into and out of magnified focus, calm investigative pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Стопка исторических бумаг</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a small stack of aged legal documents tied with faded ribbon on a dark wooden desk, warm low light, shallow depth of field, archival mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the ribboned stack as warm light slowly brightens across it, calm archival pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>De færreste får den akt læst.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Bed altid om det fulde dokument. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R8 -->
+<div class="reel" id="r8">
+  <div class="reel-band"><span class="reel-num">Reel 08</span><span class="reel-title">Privat vand — ikke kommunens</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Частное водоснабжение = своё ответственность и расходы. Специфика сельских домов, редко обдумывается.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Кран, капля</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic macro close-up of an older kitchen tap with a single water drop about to fall, soft daylight from a window, shallow depth of field, calm domestic mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">The water drop slowly swells and falls once in gentle slow motion, ripples briefly, calm quiet pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Насос/скважина в хозблоке</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a private water pump and pipes in a dim rural utility room, warm single light source, shallow depth of field, mechanical but calm mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the pump as the single warm light flickers very slightly, calm mechanical mood, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Spørg om anlæggets alder. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R9 -->
+<div class="reel" id="r9">
+  <div class="reel-band"><span class="reel-num">Reel 09</span><span class="reel-title">«??» i dokumentet</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Небрежная salgsopstilling (поле страховки «??», год из старого шаблона) — сам документ как red flag.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Пустое поле в форме</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a printed form on a desk with one field left conspicuously blank, a pen resting beside it, warm side light, shallow depth of field, quiet mood drawing the eye to the empty field, no readable text elsewhere, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the blank field on the form, the pen still beside it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Рука листает небрежные страницы</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a hand flipping through a slightly messy printed property document on a desk, warm daylight, shallow depth of field, calm but scrutinizing mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">The hand slowly flips one page, pauses, focus holds on the paper, calm scrutinizing pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Et sjusket dokument er i sig selv et signal.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Tjek tallene direkte. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R10 -->
+<div class="reel" id="r10">
+  <div class="reel-band"><span class="reel-num">Reel 10</span><span class="reel-title">60% over vurderingen</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Крупнейший разрыв цены и оценки в серии — с нюансом «ремонт завершён после даты vurdering». Data-хук.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Две бумаги с разными цифрами</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic overhead of two official-looking documents side by side on a desk, one clearly newer and crisp, one older and slightly faded, warm daylight, shallow depth of field, calm analytical mood, no readable numbers, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow overhead push-in between the two documents, light shifting from the older to the newer one, calm analytical pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Свежеотремонтированный интерьер</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium shot of a freshly renovated bright Danish living room interior, clean new surfaces, warm afternoon light through large windows, shallow depth of field, calm mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow gentle pan across the renovated interior as warm light moves over the new surfaces, calm pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Prisen lå markant over den offentlige vurdering.</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Bed om en frisk vurdering. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R11 -->
+<div class="reel" id="r11">
+  <div class="reel-band"><span class="reel-num">Reel 11</span><span class="reel-title">«Ca. 8-10.000 om året» — på hvis ord?</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Расход на отопление «со слов продавца», а не по счётчику. Разница между заявленным и измеренным.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Пеллетный котёл в хозблоке</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of an older pellet boiler in a dim utility outbuilding, warm glow from a small opening, shallow depth of field, mechanical calm mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the boiler as the warm glow from the opening pulses very gently, calm mechanical pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Пустая рука vs счёт</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of an open empty hand on one side and a single utility invoice lying on a desk on the other, warm side light, shallow depth of field, calm questioning mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Focus racks slowly from the open empty hand to the invoice on the desk, calm questioning pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Sælgers ord — ikke en aflæst måler.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Bed om de faktiske regninger. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R12 -->
+<div class="reel" id="r12">
+  <div class="reel-band"><span class="reel-num">Reel 12</span><span class="reel-title">Renoveret 2024 — men ikke i BBR</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">«Nyrenoveret» в рекламе, но в BBR ремонт не зарегистрирован. Паттерн в двух домах.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Новый фасад</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium shot of a freshly renovated Danish house facade, clean new render and windows, warm afternoon light, shallow depth of field, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow gentle pan across the fresh facade as warm light glides over it, calm pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Официальный реестр на экране</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a laptop on a desk showing a generic blurred official register table (no readable text), a hand resting near the trackpad, warm indoor light, shallow depth of field, calm administrative mood, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the laptop screen as a cursor moves slowly down the blurred register rows, calm administrative pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Annoncen: "totalrenoveret i 2024".</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>BBR: "år for renovering — ikke angivet".</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Sammenhold altid de to. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R13 -->
+<div class="reel" id="r13">
+  <div class="reel-band"><span class="reel-num">Reel 13</span><span class="reel-title">Nul røde. Nul gule. Findes det?</span><span class="reel-src new">Новое · green</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Зелёный баланс серии — реально чистый профиль (0 находок eltjek, 0 RØD/GUL). Строит доверие: мы не только пугаем.</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Чистый отчёт, галочки</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a neat inspection report on a desk with a series of small clean checkmarks down the margin, warm bright morning light, shallow depth of field, calm reassuring mood, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in down the margin of checkmarks as bright morning light warms the paper, calm reassuring pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Светлый ухоженный дом</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic wide shot of a tidy well-kept Danish family house in soft bright daylight, calm and solid, shallow depth of field on the foreground, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow gentle push-in toward the calm house as bright daylight holds steady, reassuring pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Det findes — vi roser det, når vi ser det.</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Ikke alt er et rødt flag. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R14 -->
+<div class="reel" id="r14">
+  <div class="reel-band"><span class="reel-num">Reel 14</span><span class="reel-title">Regningen, mægleren kalder «uvedkommende»</span><span class="reel-src new">Новое · villa</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Сепарация канализации — будущая обязанность владельца, которую мэглер прямо называет «вне ответственности».</p>
+  <div class="reel-len">2 клипа · ~16 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Дренаж/люк на улице</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic medium close-up of a street drain grate and a nearby sewer manhole cover on wet pavement after rain, soft overcast light, shallow depth of field, quiet urban mood, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow push-in toward the drain as a thin trickle of rainwater runs into it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Дом и небо перед дождём</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic wide shot of an older Danish house under a heavy grey pre-rain sky, calm but tense atmosphere, soft diffuse light, shallow depth of field, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow tilt up from the house to the heavy grey sky as clouds drift, calm tense pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr>
+  <tr><td class="tc">0:06–0:12</td><td>Mægleren kalder regningen "uvedkommende".</td></tr>
+  <tr><td class="tc">0:12–0:16</td><td>Men den lander hos dig. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<!-- R15 -->
+<div class="reel" id="r15">
+  <div class="reel-band"><span class="reel-num">Reel 15</span><span class="reel-title">Isbjerget af skjulte udgifter</span><span class="reel-src new">Новое · обобщение</span></div>
+  <div class="reel-body">
+  <p class="reel-why">Обобщающий рил-«айсберг» — связывает все скрытые расходы. Хорош как флагманский пост и как тизер статьи на сайте.</p>
+  <div class="reel-len">3 клипа · ~24 сек</div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 1</span><span class="clip-title">Красивое фото дома — анкер</span><span class="clip-dur">0:00–0:08</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic warm inviting shot of a Danish house exterior at golden hour, looking like a perfect listing photo, shallow depth of field, no text, no logo, no people.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow gentle push-in on the beautiful house in golden light, calm inviting pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 2</span><span class="clip-title">Стол с разными документами</span><span class="clip-dur">0:08–0:16</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Photorealistic overhead of a wooden desk covered with many different property documents, an old servitut, an ejendomsdatarapport, a BBR printout, spread out, warm side light, shallow depth of field, no readable text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Slow overhead pull-back revealing more and more documents around the edges of the frame, calm accumulating pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="clip">
+    <div class="clip-head"><span class="clip-badge">Клип 3</span><span class="clip-title">Спокойный финальный кадр</span><span class="clip-dur">0:16–0:24</span></div>
+    <div class="lbl">Стилл</div>
+    <div class="promptblock">Minimalist photorealistic still life: house keys and a small wooden house model on a plain table, a single warm shaft of sunlight crossing the frame, most of the frame calm and empty, shallow depth of field, no text, no logo.</div>
+    <div class="lbl">Анимация</div>
+    <div class="promptblock">Static almost-still frame with the warm shaft of light slowly sweeping across the table, dust motes drifting, quiet settled pacing, silent ambient, no text, no dialogue, no captions.</div>
+  </div>
+
+  <div class="subhead">Субтитры</div>
+  <table class="subs">
+  <tr><th>Тайм</th><th>Текст</th></tr>
+  <tr><td class="tc">0:00–0:06</td><td>De fleste overraskelser er ikke selve prisen.</td></tr>
+  <tr><td class="tc">0:06–0:13</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr>
+  <tr><td class="tc">0:13–0:19</td><td>De koster først ÅR efter overtagelsen.</td></tr>
+  <tr><td class="tc">0:19–0:24</td><td>Vi finder dem, før du byder. Link i bio.</td></tr>
+  </table>
+  </div>
+</div>
+
+<div class="note"><b>Календарь:</b> 15 рилов при 3 публикациях в неделю = 5 недель контента. Чередование: не ставить два «страшных» подряд — зелёный Reel 13 и флагман Reel 1 разбивают серию красных находок. Рилы 4-5 (andelsbolig) — отдельная мини-серия, можно пустить блоком, когда захочешь качнуть именно эту тему. <b>После рендера каждого:</b> скриншот/exiftool перед загрузкой.</div>
+
+<footer>NordIndsigt · Reels-библиотека · подготовлено 21.07.2026 · Только для внутреннего использования</footer>
+</div>
