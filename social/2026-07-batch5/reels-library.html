@@ -111,68 +111,98 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 </header>
 
 <div class="big-sec" id="fix">
-<h2 class="sec">Что поправлено и как теперь работает текст</h2>
-<p class="sec-intro">Два разных подхода к тексту в одном рилу — не путать их местами.</p>
+<h2 class="sec">Как теперь работает текст и анимация концовок</h2>
+<p class="sec-intro">Два разных подхода к тексту в одном рилу — не путать их местами. Плюс: концовки больше не световые эффекты — это мини-сцены с реальным действием.</p>
 <div class="track">
   <div class="track-col">
     <h4>Клипы 1-2 — текст НЕ печём</h4>
-    <p>Стилл генерим без текста. Анимацию генерим без текста. Субтитр для этих клипов накладывается уже на готовое видео при монтаже — красиво <b>анимированным появлением</b> (не статичная плашка): слово за словом, лёгкий fade-in/slide-up. Делается в Type Overlays или CapCut. Текст меняется от рила к рилу — печь его в генерации нет смысла, слишком много попыток на 15 рилов.</p>
+    <p>Стилл генерим без текста. Анимацию генерим без текста. Субтитр для этих клипов накладывается уже на готовое видео при монтаже — красиво <b>анимированным появлением</b> (не статичная плашка): слово за словом, лёгкий fade-in/slide-up. Делается в Type Overlays или CapCut. Текст меняется от рила к рилу — печь его в генерации нет смысла.</p>
   </div>
   <div class="track-col">
-    <h4>Клип 3 (концовка) — NORDINDSIGT печём</h4>
-    <p>Это единственный клип, где пробуем испечь текст прямо в генерации Flow — потому что слово «NORDINDSIGT» одно и то же во всех 15 рилах, без датских диакритик, и мы генерим его один раз на 5 вариантов, а не 15 раз. Можно позволить себе 3-4 попытки за вариант ради качества. Финальная строка каждого рила («Link i bio» и т.п.) сюда НЕ печётся — накладывается отдельно поверх готового клипа при монтаже, потому что она меняется от рила к рилу.</p>
+    <h4>Клип 3 (концовка) — текст печём в СТИЛЛЕ, не в видео</h4>
+    <p>«NORDINDSIGT» + мельче «Link i bio» впечатываются в статичную картинку (Nano Banana Pro — модель хорошо держит короткий текст). Veo 3 получает эту картинку как стартовый кадр и просто <b>анимирует сцену вокруг уже готового текста</b>, сохраняя его неизменным — не пытается «родить» буквы из света с нуля, как раньше. Раз «Link i bio» одинаков во всех 15 рилах, впечатываем его в саму концовку — отдельно накладывать на каждый рил больше не нужно, меняется только первая строка субтитра (клипы 1-2).</p>
   </div>
 </div>
-<div class="callout"><b>Если NORDINDSIGT в генерации всё же ломается/плывёт</b> (диакритик там нет, но короткие слова тоже иногда не держатся) — резервный план: генерируешь клип совсем без текста, а сам вордмарк добавляешь один раз в Canva/After Effects как готовую анимацию (появление букв/свечение) и переиспользуешь как оверлей-слой поверх всех 5 фоновых клипов. Тогда «печём» — это первая попытка, а не единственный путь.</div>
+<div class="callout"><b>Почему так надёжнее:</b> скиллы video/image прямо предупреждают — видео-модели плохо рендерят читаемый текст «с нуля», а модели изображений (Nano Banana Pro) с коротким текстом справляются заметно лучше. Поэтому текст печём один раз в image-модели, а видео-модели остаётся только анимировать сцену, сохраняя готовый графический слой стабильным.</div>
 </div>
 
 <div class="big-sec" id="outro">
-<h2 class="sec">5 брендовых концовок</h2>
-<p class="sec-intro">Максимально разная грамматика кадра — не 5 вариаций одного и того же. У каждой — отдельный способ появления NORDINDSIGT, привязанный к сюжету кадра.</p>
+<h2 class="sec">5 брендовых концовок — мини-сцены с действием</h2>
+<p class="sec-intro">Не световые эффекты, а настоящее действие в кадре — пять разных мини-историй, каждая логично завершает сделку/проверку по-своему.</p>
 
 <div class="outro" id="outro-a">
-<div class="outro-h"><span class="outro-badge">Концовка A</span><span class="outro-title">Ключи в луче света</span></div>
-<div class="outro-why">Предметный натюрморт, самый тёплый и личный тон. Наш уже устоявшийся фирменный кадр.</div>
-<div class="lbl">Стилл (без текста)</div>
-<div class="prompt">Minimalist photorealistic still life: a set of house keys and a small wooden house model resting on a plain wooden table, a single bright shaft of warm sunlight crossing the frame diagonally, most of the frame calm and empty, shallow depth of field, quiet personal mood, no text, no logo.</div>
-<div class="lbl brand">Анимация с NORDINDSIGT (пробуем испечь)</div>
-<div class="prompt brand">Static almost-still frame with the warm shaft of light slowly sweeping across the table, dust motes drifting gently. As the light beam settles in its final position, the word "NORDINDSIGT" softly materializes as if embossed within the light itself — bold modern geometric sans-serif lettering (like Söhne/Geist), warm cream color, gently brightening into sharp focus over the last 2 seconds, floating just above the table, no other text, no logo, no subtitle, no CTA line. Silent ambient, no dialogue, no captions besides the wordmark itself.</div>
+<div class="outro-h"><span class="outro-badge">Концовка A</span><span class="outro-title">Передача — подпись, потом ключи</span></div>
+<div class="outro-why">Самая тёплая и личная. Законченная мини-история: подписал → передал → получил ключи взамен.</div>
+<div class="lbl">Стилл (текст печём здесь)</div>
+<div class="prompt">Photorealistic close-up over a wooden desk shot from a slight overhead angle: on the left, a hand has just finished signing a paper contract, pen still resting on the signature line; on the right, a second hand is reaching across the table toward the contract, with a set of house keys already resting on the table near that hand, about to be placed down. Warm late-afternoon window light, shallow depth of field, calm and quietly emotional mood, no visible faces, only hands and the desk, no logo.
+
+Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"NORDINDSIGT"
+"Link i bio"</div>
+<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the "NORDINDSIGT" / "Link i bio" wordmark exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the signing hand lifts the pen away from the paper in one smooth motion; the second hand slides the signed contract gently across the table toward itself; as the contract arrives, that same hand sets the house keys down onto the table in its place, releasing them softly — a calm, deliberate handover, like the quiet final moment of a deal being closed. Warm window light holds steady, shallow depth of field, no camera shake, gentle continuous motion throughout, not static. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-b">
-<div class="outro-h"><span class="outro-badge">Концовка B</span><span class="outro-title">Свечение печати на документе</span></div>
-<div class="outro-why">Макро на документ — ощущение «проверено/подтверждено». Хорошо после красных/тревожных клипов.</div>
-<div class="lbl">Стилл (без текста)</div>
-<div class="prompt">Photorealistic macro close-up of a folded official-looking document on a dark wooden desk, a small warm gold seal-shaped glow in one corner, the rest of the desk in soft shadow like a single spotlight, shallow depth of field, calm authoritative mood, no readable text, no logo.</div>
-<div class="lbl brand">Анимация с NORDINDSIGT</div>
-<div class="prompt brand">The warm glow around the seal slowly intensifies as if light is rising from below. In the final 2-3 seconds, the glow resolves and radiates outward into the word "NORDINDSIGT" — bold modern geometric sans-serif, warm gold-to-cream gradient, appearing to emanate directly from the seal's light, sharp and legible by the final frame, floating above the document, no other text, no logo, no subtitle, no CTA line. Silent ambient, no dialogue, no captions besides the wordmark.</div>
+<div class="outro-h"><span class="outro-badge">Концовка B</span><span class="outro-title">Отчёт закрывается и передаётся</span></div>
+<div class="outro-why">Ощущение «дело проверено и закрыто». Хорошо после красных/тревожных клипов — снимает напряжение действием, не просто светом.</div>
+<div class="lbl">Стилл (текст печём здесь)</div>
+<div class="prompt">Photorealistic close-up over a wooden desk: a hand is placing the final page into a neat stack of inspection documents and closing a simple folder cover over them; a second hand rests nearby, about to receive the closed folder as it's slid across the desk. Warm desk-lamp light, shallow depth of field, calm and conclusive mood, no visible faces, only hands and the desk, no logo.
+
+Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"NORDINDSIGT"
+"Link i bio"</div>
+<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the first hand closes the folder cover fully over the documents with a soft deliberate motion, then slides the closed folder a short distance across the desk toward the second hand, which gently receives it and rests on top — a calm, conclusive handover, like a reviewed case being handed over complete. Warm lamp light holds steady, shallow depth of field, gentle continuous motion throughout, not static. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-c">
-<div class="outro-h"><span class="outro-badge">Концовка C</span><span class="outro-title">Дверь приоткрывается</span></div>
-<div class="outro-why">Единственная с «динамикой открытия» — надежда/разрешение. Хороша после эмоциональных клипов.</div>
-<div class="lbl">Стилл (без текста)</div>
-<div class="prompt">Photorealistic close-up of a classic Danish front door, warm late-afternoon light, the door slightly ajar with a soft warm glow visible through the gap, calm and slightly inviting mood, shallow depth of field, no people, no text, no logo.</div>
-<div class="lbl brand">Анимация с NORDINDSIGT</div>
-<div class="prompt brand">Slow steady push-in toward the door as it opens a few centimeters further, warm glow from inside growing. In the last 2-3 seconds, the light spilling through the gap gently resolves into the word "NORDINDSIGT" floating just above the doorway — bold modern geometric sans-serif, warm cream color, softly sharpening into focus, no other text, no logo, no subtitle, no CTA line. Silent ambient, no dialogue, no captions besides the wordmark.</div>
+<div class="outro-h"><span class="outro-badge">Концовка C</span><span class="outro-title">Ключ вешается на крючок у входа</span></div>
+<div class="outro-why">Единственная архитектурная/дверная — момент «заселения», надежда/разрешение. Хороша после эмоциональных клипов.</div>
+<div class="lbl">Стилл (текст печём здесь)</div>
+<div class="prompt">Photorealistic close-up of a classic Danish front door from just inside the entrance hall: a hand has just turned a key in the lock and is now lifting it out, reaching toward a small wall hook beside the door frame where it's about to be hung, warm late-afternoon light spilling in through the open doorway behind, calm and settling mood, no visible face, only the hand and the doorway, no logo.
+
+Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"NORDINDSIGT"
+"Link i bio"</div>
+<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand finishes pulling the key from the lock, carries it the short distance to the wall hook, and hangs it there with a small settling motion; the warm light from the doorway behind holds steady throughout. Calm, resolving pacing — like the quiet first moment of truly being home. Shallow depth of field, no camera shake, gentle continuous motion. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-d">
-<div class="outro-h"><span class="outro-badge">Концовка D</span><span class="outro-title">Отъезд от лупы к всей картине</span></div>
-<div class="outro-why">Единственная с обратным движением камеры (pull-back) — «мы смотрим в детали → показываем всю картину».</div>
-<div class="lbl">Стилл (без текста)</div>
-<div class="prompt">Photorealistic close-up of a magnifying glass resting on an architectural blueprint on a desk, a small wooden house model just visible at the edge of frame, warm side light, shallow depth of field, calm precise mood, no text, no logo.</div>
-<div class="lbl brand">Анимация с NORDINDSIGT</div>
-<div class="prompt brand">Slow pull-back / zoom-out revealing the full desk with house model, blueprint and magnifying glass together. In the final 2-3 seconds, once the wide view settles, the word "NORDINDSIGT" softly condenses into view above the desk, as if forming out of the ambient light — bold modern geometric sans-serif, warm cream color, sharp by the last frame, no other text, no logo, no subtitle, no CTA line. Silent ambient, no dialogue, no captions besides the wordmark.</div>
+<div class="outro-h"><span class="outro-badge">Концовка D</span><span class="outro-title">От лупы — к подписи</span></div>
+<div class="outro-why">Единственная, что буквально показывает переход «мы проверили» → «теперь можно подписывать». Логичный мостик между инспекцией и решением.</div>
+<div class="lbl">Стилл (текст печём здесь)</div>
+<div class="prompt">Photorealistic close-up of a desk: a hand is setting down a magnifying glass beside an architectural blueprint, having just finished inspecting it, while the same or a second hand picks up a pen nearby, about to begin signing a document laid next to the blueprint. Warm side light, shallow depth of field, calm and confident mood, no visible faces, only hands and the desk, no logo.
+
+Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"NORDINDSIGT"
+"Link i bio"</div>
+<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand sets the magnifying glass down fully on the desk, then reaches to pick up the pen, uncaps or readies it, and lowers it toward the document's signature line, stopping just before making contact — a confident, resolved transition from inspection to decision. Warm side light holds steady, shallow depth of field, gentle continuous motion, no camera shake. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-e">
-<div class="outro-h"><span class="outro-badge">Концовка E</span><span class="outro-title">Датский городок в сумерках</span></div>
-<div class="outro-why">Единственная широкая/пейзажная — кинематографичный, атмосферный финал для флагманских/итоговых рилов.</div>
-<div class="lbl">Стилл (без текста)</div>
-<div class="prompt">Photorealistic wide shot of a small Danish town rooftop skyline at dusk, muted warm and navy tones, a single window glowing warm gold among the darker rooftops, calm and watchful mood, no text, no logo, no people.</div>
-<div class="lbl brand">Анимация с NORDINDSIGT</div>
-<div class="prompt brand">Slow lateral drift across the rooftop skyline at dusk, the one glowing window holding steady. In the final 2-3 seconds, the window's warm light gently extends and resolves into the word "NORDINDSIGT" floating above the rooftops — bold modern geometric sans-serif, warm gold-cream color, sharpening into focus, no other text, no logo, no subtitle, no CTA line. Silent ambient, no dialogue, no captions besides the wordmark.</div>
+<div class="outro-h"><span class="outro-badge">Концовка E</span><span class="outro-title">Свет зажигается в окне</span></div>
+<div class="outro-why">Единственная широкая/пейзажная — кинематографичный финал для флагманских/итоговых рилов, но с настоящим событием (свет включается), а не просто дрейфом камеры.</div>
+<div class="lbl">Стилл (текст печём здесь)</div>
+<div class="prompt">Photorealistic wide shot of a small Danish town rooftop skyline at dusk, muted warm and navy tones, most windows dark, one window on a modest house just beginning to glow with the first warm light of evening, calm and settling mood, no text, no logo, no people.
+
+Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"NORDINDSIGT"
+"Link i bio"</div>
+<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the one window's light gradually brightens from a dim glow to a full warm light as dusk deepens around it, as if someone has just settled in for the evening; a very slow lateral drift of the camera accompanies the light change, the rest of the skyline staying calm and dark. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 </div>
 
@@ -215,7 +245,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Городок в сумерках</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>стилл+анимацию концовки E из раздела выше без изменений.</div></div>
 </div>
-<div class="subhd">Субтитры (по клипам)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>To huse. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Vidt forskellig risiko.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Fuld sammenligning: link i bio.</td></tr></table>
+<div class="subhd">Субтитры (по клипам)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>To huse. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Vidt forskellig risiko.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Fuld sammenligning.</td></tr></table>
 </div></div>
 
 <div class="item" id="r2"><div class="item-band"><span class="item-num">Рил 02</span><span class="item-title">Billederne er ikke det, du får</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -230,7 +260,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Дверь приоткрывается</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку C.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Alle billederne ser ud, som om huset lige er bygget.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Huset har været udlejet i 5 år.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om friske billeder. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Alle billederne ser ud, som om huset lige er bygget.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Huset har været udlejet i 5 år.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om friske billeder.</td></tr></table>
 </div></div>
 
 <div class="item" id="r3"><div class="item-band"><span class="item-num">Рил 03</span><span class="item-title">Sælgeren svarede «nej»</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -245,7 +275,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Печать на документе</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку B.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Sælgeren svarede "nej" i spørgeskemaet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>To uafhængige rapporter sagde noget andet.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid svar og rapport. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Sælgeren svarede "nej" i spørgeskemaet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>To uafhængige rapporter sagde noget andet.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid svar og rapport.</td></tr></table>
 </div></div>
 
 <div class="item" id="r4"><div class="item-band"><span class="item-num">Рил 04</span><span class="item-title">Andelsbolig: lav pris ≠ billig</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -260,7 +290,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Den rigtige udgift er boligafgiften — og fælleslånet bag den.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Læs regnskabet, ikke kun prisen. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Den rigtige udgift er boligafgiften — og fælleslånet bag den.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Læs regnskabet, ikke kun prisen.</td></tr></table>
 </div></div>
 
 <div class="item" id="r5"><div class="item-band"><span class="item-num">Рил 05</span><span class="item-title">Samme pris, tre virkeligheder</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -275,7 +305,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Tre andelsboliger. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Forskellen ses i regnskabet. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Tre andelsboliger. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Forskellen ses i regnskabet.</td></tr></table>
 </div></div>
 
 <div class="item" id="r6"><div class="item-band"><span class="item-num">Рил 06</span><span class="item-title">Den tomme olietank i haven</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -290,7 +320,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Печать на документе</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку B.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Selv en tom tank kan korrodere med tiden.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om status og dato. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Selv en tom tank kan korrodere med tiden.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om status og dato.</td></tr></table>
 </div></div>
 
 <div class="item" id="r7"><div class="item-band"><span class="item-num">Рил 07</span><span class="item-title">Et servitut fra 1930</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -305,7 +335,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D (тематически рифмуется — та же лупа).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>De færreste får den akt læst.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om det fulde dokument. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>De færreste får den akt læst.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om det fulde dokument.</td></tr></table>
 </div></div>
 
 <div class="item" id="r8"><div class="item-band"><span class="item-num">Рил 08</span><span class="item-title">Privat vand — ikke kommunens</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -320,7 +350,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om anlæggets alder. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om anlæggets alder.</td></tr></table>
 </div></div>
 
 <div class="item" id="r9"><div class="item-band"><span class="item-num">Рил 09</span><span class="item-title">«??» i dokumentet</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -335,7 +365,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Печать на документе</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку B (контраст: небрежный документ → мы делаем аккуратно).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Et sjusket dokument er i sig selv et signal.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Tjek tallene direkte. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Et sjusket dokument er i sig selv et signal.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Tjek tallene direkte.</td></tr></table>
 </div></div>
 
 <div class="item" id="r10"><div class="item-band"><span class="item-num">Рил 10</span><span class="item-title">60% over vurderingen</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -350,7 +380,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Городок в сумерках</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку E.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen lå markant over den offentlige vurdering.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om en frisk vurdering. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen lå markant over den offentlige vurdering.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om en frisk vurdering.</td></tr></table>
 </div></div>
 
 <div class="item" id="r11"><div class="item-band"><span class="item-num">Рил 11</span><span class="item-title">«Ca. 8-10.000 om året» — på hvis ord?</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -365,7 +395,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Дверь приоткрывается</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку C.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Sælgers ord — ikke en aflæst måler.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om de faktiske regninger. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Sælgers ord — ikke en aflæst måler.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om de faktiske regninger.</td></tr></table>
 </div></div>
 
 <div class="item" id="r12"><div class="item-band"><span class="item-num">Рил 12</span><span class="item-title">Renoveret 2024 — men ikke i BBR</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -380,7 +410,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Annoncen: "totalrenoveret i 2024".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>BBR: "år for renovering — ikke angivet".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid de to. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Annoncen: "totalrenoveret i 2024".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>BBR: "år for renovering — ikke angivet".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid de to.</td></tr></table>
 </div></div>
 
 <div class="item" id="r13"><div class="item-band"><span class="item-num">Рил 13</span><span class="item-title">Nul røde. Nul gule. Findes det?</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -395,7 +425,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A (самая тёплая — подходит зелёному настроению).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Det findes — vi roser det, når vi ser det.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Ikke alt er et rødt flag. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Det findes — vi roser det, når vi ser det.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Ikke alt er et rødt flag.</td></tr></table>
 </div></div>
 
 <div class="item" id="r14"><div class="item-band"><span class="item-num">Рил 14</span><span class="item-title">Regningen, mægleren kalder «uvedkommende»</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -410,7 +440,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Дверь приоткрывается</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку C.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Mægleren kalder regningen "uvedkommende".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Men den lander hos dig. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Mægleren kalder regningen "uvedkommende".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Men den lander hos dig.</td></tr></table>
 </div></div>
 
 <div class="item" id="r15"><div class="item-band"><span class="item-num">Рил 15</span><span class="item-title">Isbjerget af skjulte udgifter</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
@@ -425,7 +455,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Городок в сумерках</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку E — самая масштабная, под финал серии.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>De fleste overraskelser er ikke selve prisen.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Vi finder dem, før du byder. Link i bio.</td></tr></table>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>De fleste overraskelser er ikke selve prisen.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Vi finder dem, før du byder.</td></tr></table>
 </div></div>
 
 </div>
