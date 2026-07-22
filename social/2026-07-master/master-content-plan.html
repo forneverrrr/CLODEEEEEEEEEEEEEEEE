@@ -1,0 +1,815 @@
+<title>NordIndsigt — Мастер-план контента (посты + рилы + календарь)</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --ig:#8A5A6B; --fb:#3B5A85; --new:#2B6B3C; --old:#3B5A85;
+  --red:#B5462E; --green:#2B6B3C; --neutral:#7C8895; --data:#8A6A12;
+  --disp: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono: ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--ig:#D79FB2;--fb:#8FB4E0;--new:#7FCB93;--old:#8FB4E0;--red:#E88A72;--green:#7FCB93;--data:#D9A45C;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--ig:#D79FB2;--fb:#8FB4E0;--new:#7FCB93;--old:#8FB4E0;--red:#E88A72;--green:#7FCB93;--data:#D9A45C;}
+:root[data-theme="light"]{--paper:#FAF7F1;--card:#FFFFFF;--ink:#18222E;--ink2:#4F5C6B;--muted:#7C8895;--line:#E4DBC9;--rust:#C4533F;--rust-deep:#9E4030;--gold:#C0863F;--mono-bg:#F1ECE0;--mono-ink:#2B3542;--tag-bg:#EFE6D6;--tag-ink:#8A5A22;--ig:#8A5A6B;--fb:#3B5A85;--new:#2B6B3C;--old:#3B5A85;--red:#B5462E;--green:#2B6B3C;--data:#8A6A12;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px 120px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px 0}
+.top-inner{max-width:860px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.top .brand{font-family:var(--disp);font-weight:600;font-size:16px;color:var(--ink);white-space:nowrap}
+.top .brand b{color:var(--rust)}
+.top nav{display:flex;gap:3px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:12px;color:var(--ink2);text-decoration:none;padding:6px 10px;border-radius:100px;white-space:nowrap;transition:background .15s}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:46px 0 20px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:14px}
+h1{font-family:var(--disp);font-size:clamp(28px,5.2vw,40px);font-weight:600;letter-spacing:-.01em;line-height:1.08;margin:0 0 16px;text-wrap:balance}
+.lead{font-size:16.5px;color:var(--ink2);max-width:660px;margin:0 0 6px}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+
+.big-sec{margin:52px 0 0;padding-top:8px}
+.sec-eyebrow{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--rust-deep);margin-bottom:8px}
+h2.sec{font-family:var(--disp);font-size:26px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0 0 8px;scroll-margin-top:64px}
+.sec-intro{font-size:14.5px;color:var(--ink2);max-width:660px;margin-bottom:22px}
+
+.callout{background:var(--tag-bg);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin:20px 0;font-size:14px;color:var(--ink2)}
+.callout b{color:var(--ink)}
+.callout code{font-family:var(--mono);font-size:12.5px;color:var(--rust-deep)}
+
+/* calendar */
+.cal{display:flex;flex-direction:column;gap:2px}
+.cal-wk{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:16px 0 6px;padding-left:2px}
+.cal-row{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:6px}
+.cal-when{font-family:var(--mono);font-size:12px;color:var(--ink);font-weight:600;line-height:1.35}
+.cal-when span{display:block;color:var(--muted);font-weight:400;font-size:11px}
+.cal-what{font-size:14px;color:var(--ink2)}
+.cal-what b{color:var(--ink)}
+.cal-tag{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;padding:2px 8px;border-radius:100px;margin-right:6px;vertical-align:middle}
+.t-post{background:color-mix(in srgb,var(--fb) 16%,transparent);color:var(--fb)}
+.t-reel{background:color-mix(in srgb,var(--rust) 16%,transparent);color:var(--rust)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+.d-red{background:var(--red)}.d-green{background:var(--green)}.d-neutral{background:var(--neutral)}.d-data{background:var(--data)}
+.cal-note{font-size:12px;color:var(--muted);margin-top:3px}
+
+/* workflow steps */
+.step{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.step:last-child{border-bottom:none}
+.step-n{flex:none;width:30px;height:30px;border-radius:100px;background:var(--rust);color:#fff;font-family:var(--mono);font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
+.step-n.opt{background:var(--muted)}
+.step-b .tool{font-family:var(--disp);font-size:16px;font-weight:600;color:var(--ink);margin-bottom:3px}
+.step-b .tool .w{font-family:var(--mono);font-size:10px;font-weight:400;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-left:8px}
+.step-b p{font-size:14px;color:var(--ink2);margin:0}
+
+/* posts + reels */
+.item{background:var(--card);border:1px solid var(--line);border-radius:18px;margin-bottom:22px;overflow:hidden;scroll-margin-top:64px}
+.item-band{padding:16px 22px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.item-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.item-title{font-family:var(--disp);font-size:18px;font-weight:600;color:var(--ink)}
+.item-meta{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--muted)}
+.item-body{padding:18px 22px 22px}
+.expl{background:var(--tag-bg);border-radius:12px;padding:12px 16px;font-size:13.5px;color:var(--ink2);margin-bottom:16px}
+.expl b{color:var(--ink);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:4px}
+.lbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:12px 0 5px}
+.lbl.ig{color:var(--ig)}.lbl.fb{color:var(--fb)}
+.cap{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px;color:var(--ink);white-space:pre-wrap;user-select:text}
+.cap.ig{border-left:3px solid var(--ig)}.cap.fb{border-left:3px solid var(--fb)}
+.tags{font-family:var(--mono);font-size:11.5px;color:var(--gold);margin:8px 0 4px}
+.utm{font-family:var(--mono);font-size:10.5px;color:var(--muted);background:var(--mono-bg);border-radius:8px;padding:7px 11px;margin-top:8px;word-break:break-all}
+.cards{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--paper)}
+.card-h{display:flex;align-items:center;gap:9px;margin-bottom:9px;flex-wrap:wrap}
+.card-b{font-family:var(--mono);font-size:10.5px;font-weight:700;color:#fff;background:var(--rust);padding:2px 9px;border-radius:100px;flex:none}
+.card-t{font-size:13px;color:var(--muted)}
+.card-dur{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.otext{background:var(--tag-bg);border-radius:9px;padding:9px 13px;font-size:13.5px;color:var(--ink);margin-bottom:9px;font-style:italic}
+.otext b{font-style:normal;font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--rust-deep);display:block;margin-bottom:3px;font-weight:700}
+.prompt{background:var(--mono-bg);border:1px solid var(--line);border-radius:9px;padding:11px 13px;font-family:var(--mono);font-size:11.5px;color:var(--mono-ink);white-space:pre-wrap;line-height:1.5;user-select:text;overflow-x:auto}
+.subs{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+.subs th{text-align:left;font-family:var(--mono);font-size:9.5px;text-transform:uppercase;color:var(--muted);padding:0 10px 7px 0;border-bottom:1px solid var(--line)}
+.subs td{padding:7px 10px 7px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.subs td.tc{font-family:var(--mono);color:var(--rust-deep);white-space:nowrap;font-weight:600}
+.subs tr:last-child td{border-bottom:none}
+.subhd{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--rust-deep);margin:14px 0 5px}
+
+.idea{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:12px}
+.idea h3{font-family:var(--disp);font-size:16px;margin:0 0 5px;color:var(--ink)}
+.idea p{font-size:13.5px;color:var(--ink2);margin:0}
+.idea .k{font-family:var(--mono);font-size:11px;color:var(--gold);margin-top:6px}
+
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+@media(max-width:600px){.cal-row{grid-template-columns:1fr}}
+</style>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand">Nord<b>Indsigt</b> · Мастер-план</div>
+    <nav>
+      <a href="#kak">Как читать</a>
+      <a href="#plan">Календарь</a>
+      <a href="#tools">Инструменты</a>
+      <a href="#posts">Посты 1-8</a>
+      <a href="#reels">Рилы 1-15</a>
+      <a href="#next">Дальше</a>
+      <a href="#poisk">Что искать</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Единый файл · посты + рилы + календарь · старт 26.07.2026</div>
+  <h1>Мастер-план контента NordIndsigt</h1>
+  <p class="lead">Всё в одном: 8 постов-каруселей + 15 рилов из 6 тестовых разборов, расписанные по датам и времени, с пояснениями что должно получиться, какими инструментами и в каком порядке. Внизу — идеи для следующих нарезок и что искать в чате-поиске домов.</p>
+  <div class="meta-row"><span><b>Контента:</b> 8 постов + 15 рилов</span><span><b>Хватает:</b> ~8 недель (до ~17 сентября)</span><span><b>Ритм:</b> вт/чт 19:00, вс 11:00</span></div>
+</header>
+
+<!-- ================= КАК ЧИТАТЬ ================= -->
+<div class="big-sec" id="kak">
+<div class="sec-eyebrow">Раздел 0</div>
+<h2 class="sec">Как читать этот файл</h2>
+<p class="sec-intro">Один файл заменяет два прошлых (case-package + reels-library) плюс добавляет календарь и пояснения. Порядок работы — сверху вниз.</p>
+<div class="callout">
+<b>Логика документа:</b><br>
+1. <b>Календарь</b> (раздел 1) — что и когда публиковать. Это твоя рабочая шпаргалка: смотришь дату → видишь, какой пост/рил идёт → прыгаешь к нему по номеру.<br>
+2. <b>Инструменты</b> (раздел 2) — каким набором Flow-инструментов и в каком порядке делать картинки и видео. Одинаково для любого поста/рила.<br>
+3. <b>Посты 1-8</b> (раздел 3) — карусели. У каждого: текст для IG, текст для FB, карточки (у каждой карточки — датский текст, который кладёшь поверх, промпт для картинки, и пояснение на русском что должно получиться).<br>
+4. <b>Рилы 1-15</b> (раздел 4) — видео. У каждого: пояснение зачем, стилл-промпты (без текста), промпты анимации, тайминг субтитров.<br>
+5. <b>Дальше</b> (раздел 5) — идеи для следующих партий контента.<br>
+6. <b>Что искать</b> (раздел 6) — короткое ТЗ для чата-поиска домов: какие объекты нам нужны, чтобы закрыть недостающие углы.
+</div>
+<div class="callout">
+<b>Главное правило по всему контенту (не меняется):</b> текст на картинках и в видео <b>НЕ генерим внутри Nano Banana / Veo</b> — генератор ломает датские буквы. Картинки/видео делаем чистыми (без текста), а датский текст кладём отдельным слоем сверху (Canva / CapCut / Type Overlays). Все кейсы <b>анонимизированы</b>: без адресов, суммы округлены, цифры-примеры иллюстративны. Перед загрузкой в Meta — скриншот или прогон через exiftool (снимаем AI-метку). Публикация — всегда вручную, без автопостинга.
+</div>
+</div>
+
+<!-- ================= КАЛЕНДАРЬ ================= -->
+<div class="big-sec" id="plan">
+<div class="sec-eyebrow">Раздел 1</div>
+<h2 class="sec">Контент-план по датам</h2>
+<p class="sec-intro">Твои старые посты идут по четверг 23.07 включительно. Новая серия стартует с воскресенья 26.07 флагманским постом «To huse» (заготовка 01 уже готова). Дальше ритм вт/чт/вс. Чередование выстроено так, чтобы не шли два «тревожных» подряд, а зелёные и нейтральные разбивали красные.</p>
+<div class="callout" style="margin-top:0">
+<b>Логика чередования:</b> <span class="dot d-data"></span>data/нейтральный старт → <span class="dot d-red"></span>красный (находка/деньги) всегда закрывается следующим <span class="dot d-green"></span>зелёным или нейтральным. Флагман (пост 1) — на старте, финальный чек-лист (пост 8) и «айсберг» (рил 15) — в конце как сильное завершение. Рилы, тематически совпадающие с постами (рил 1↔пост 1, рил 2↔пост 5, рил 3↔пост 7), разнесены во времени — сначала намёк, потом полный разбор.
+<br><br>Легенда точек: <span class="dot d-data"></span>data · <span class="dot d-neutral"></span>нейтральный/blind spot · <span class="dot d-red"></span>красный/находка · <span class="dot d-green"></span>зелёный/позитив
+</div>
+
+<div class="cal">
+
+<div class="cal-wk">Старт — воскресенье</div>
+<div class="cal-row"><div class="cal-when">Вс 26.07<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-data"></span><b>Пост 1 — To huse, samme pris.</b> Флагман серии. Заготовка 01 уже готова — запускаешь первой.</div></div>
+
+<div class="cal-wk">Неделя 1</div>
+<div class="cal-row"><div class="cal-when">Вт 28.07<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-red"></span><b>Рил 6 — Olietank i haven.</b> Сильный конкретный сигнал, новый угол.</div></div>
+<div class="cal-row"><div class="cal-when">Чт 30.07<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-neutral"></span><b>Пост 3 — Ingen rapporter endnu.</b> Blind spot.</div></div>
+<div class="cal-row"><div class="cal-when">Вс 02.08<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 4 — Andelsbolig: lav pris ≠ billig.</b> Открывает новую тему.</div></div>
+
+<div class="cal-wk">Неделя 2</div>
+<div class="cal-row"><div class="cal-when">Вт 04.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 2 — Billederne er ikke det, du får.</b> Человечный крючок.</div></div>
+<div class="cal-row"><div class="cal-when">Чт 06.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-red"></span><b>Пост 2 — Regningen uden beløb.</b> Красный: скрытая будущая регнинг.</div></div>
+<div class="cal-row"><div class="cal-when">Вс 09.08<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-green"></span><b>Рил 13 — Nul røde. Findes det?</b> Зелёный — сразу после красного поста, восстанавливает баланс доверия.</div></div>
+
+<div class="cal-wk">Неделя 3</div>
+<div class="cal-row"><div class="cal-when">Вт 11.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 7 — Servitut fra 1930.</b></div></div>
+<div class="cal-row"><div class="cal-when">Чт 13.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-neutral"></span><b>Пост 4 — Energimærket gjaldt ikke kun din bolig.</b> Blind spot.</div></div>
+<div class="cal-row"><div class="cal-when">Вс 16.08<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 5 — Samme pris, tre virkeligheder.</b> Andelsbolig-мини-серия.</div></div>
+
+<div class="cal-wk">Неделя 4</div>
+<div class="cal-row"><div class="cal-when">Вт 18.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-data"></span><b>Рил 10 — 60% over vurderingen.</b> Data-хук.</div></div>
+<div class="cal-row"><div class="cal-when">Чт 20.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-neutral"></span><b>Пост 5 — Billederne er ikke det, du får.</b> Полный разбор (рил 2 был намёком).</div></div>
+<div class="cal-row"><div class="cal-when">Вс 23.08<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 8 — Privat vand.</b></div></div>
+
+<div class="cal-wk">Неделя 5</div>
+<div class="cal-row"><div class="cal-when">Вт 25.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-red"></span><b>Рил 9 — «??» i dokumentet.</b></div></div>
+<div class="cal-row"><div class="cal-when">Чт 27.08<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-neutral"></span><b>Пост 6 — Bevaringsværdig.</b> Blind spot (нейтральный после красного рила).</div></div>
+<div class="cal-row"><div class="cal-when">Вс 30.08<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 3 — Sælgeren svarede nej.</b> Саспенс (намёк перед постом 7).</div></div>
+
+<div class="cal-wk">Неделя 6</div>
+<div class="cal-row"><div class="cal-when">Вт 01.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-red"></span><b>Рил 11 — «Ca. 8-10.000» — på hvis ord?</b></div></div>
+<div class="cal-row"><div class="cal-when">Чт 03.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-red"></span><span class="dot d-green"></span><b>Пост 7 — Sælgeren svarede nej + ærligt.</b> Красный+зелёный в одном (полный разбор, рил 3 был намёком).</div></div>
+<div class="cal-row"><div class="cal-when">Вс 06.09<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Рил 12 — Renoveret 2024 — ikke i BBR.</b></div></div>
+
+<div class="cal-wk">Неделя 7</div>
+<div class="cal-row"><div class="cal-when">Вт 08.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-red"></span><b>Рил 14 — Separatkloakering.</b></div></div>
+<div class="cal-row"><div class="cal-when">Чт 10.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-post">пост</span><span class="dot d-green"></span><b>Пост 8 — 6 spørgsmål (чек-лист).</b> Сохраняемый финал серии постов.</div></div>
+<div class="cal-row"><div class="cal-when">Вс 13.09<span>11:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-data"></span><b>Рил 1 — To huse.</b> Флагманская тема снова, теперь как рил.</div></div>
+
+<div class="cal-wk">Неделя 8</div>
+<div class="cal-row"><div class="cal-when">Вт 15.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-data"></span><b>Рил 15 — Isbjerget af skjulte udgifter.</b> Обобщающий финал, тизер статьи на сайте.</div></div>
+<div class="cal-row"><div class="cal-when">Чт 17.09<span>19:00</span></div><div class="cal-what"><span class="cal-tag t-reel">рил</span><span class="dot d-neutral"></span><b>Свободный слот / бустер.</b> Перепост лучшего по метрикам ИЛИ первый пост из следующей партии (если доки уже собраны).</div></div>
+
+</div>
+
+<div class="callout"><b>Итого:</b> контента хватает с 26.07 по 17.09 — <b>около 8 недель</b> при 3 публикациях в неделю. Свободный слот 17.09 — точка стыка со следующей партией: к этому моменту нужно, чтобы чат-поиска домов уже нашёл новые объекты, а основной чат прогнал их через <code>nordindsigt-boligcheck</code> (см. раздел 6). Параллельно на сайт заливаются 5 готовых статей Viden (bydel, elrapport, case-to-huse, andelsbolig, skjulte-udgifter) — они не привязаны к календарю соцсетей, но каждый рил/пост может ссылаться на соответствующую статью в «link i bio».</div>
+</div>
+
+<!-- ================= ИНСТРУМЕНТЫ ================= -->
+<div class="big-sec" id="tools">
+<div class="sec-eyebrow">Раздел 2</div>
+<h2 class="sec">Инструменты и порядок работы</h2>
+<p class="sec-intro">Одинаковый конвейер для картинок (посты) и для видео (рилы). Инструменты — из твоего набора избранного в Google Flow. Порядок строго сверху вниз.</p>
+
+<div class="callout" style="margin-top:0"><b>Этап 0 — один раз на всю кампанию.</b> Style Writer: грузишь moodboard (палитра navy/cream/rust/gold, 2-3 примера датской архитектуры новый+старый, документ/чертёж, интерьер с мягким светом, скриншот шрифта Geist) → получаешь текстовый style-prompt → сохраняешь как <code>NORDINDSIGT MASTER STYLE</code>. Дальше вставляешь этот кусок в начало каждого промпта — это держит все картинки в одном стиле.</div>
+
+<div style="background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 22px;margin-bottom:18px">
+<div class="step"><div class="step-n">1</div><div class="step-b"><div class="tool">Grid Architect <span class="w">на каждый новый пост</span></div><p>MASTER STYLE + краткое описание сцены → сетка 9-12 вариантов композиции → выбираешь и извлекаешь один лучший. Это черновой этап на дешёвой модели (Nano Banana 2 Lite), тут выбираешь композицию, а не финал.</p></div></div>
+<div class="step"><div class="step-n">2</div><div class="step-b"><div class="tool">Извлечённый вариант = анкер</div><p>Первая карточка поста (обычно обложка) становится reference-image для остальных карточек — держит единый свет и стиль.</p></div></div>
+<div class="step"><div class="step-n">3</div><div class="step-b"><div class="tool">Shot Explorer <span class="w">вариации ракурса</span></div><p>Грузишь анкер, просишь другой ракурс/приближение («medium close-up on the door») → получаешь карточки-детали, не переписывая промпт вручную. Инструмент сам меняет ракурс, держа свет анкера.</p></div></div>
+<div class="step"><div class="step-n">4</div><div class="step-b"><div class="tool">Mask Magic <span class="w">по необходимости</span></div><p>Точечно убрать случайный номер дома / уличный знак / лишнего человека / нечитаемый фейковый текст на документе — не перегенерируя всю сцену. Это же наша страховка анонимизации.</p></div></div>
+<div class="step"><div class="step-n">5</div><div class="step-b"><div class="tool">Image Editor <span class="w">финальный формат</span></div><p>Приводишь к 4:5 (лента) или 9:16 (сторис/рил). Расширяешь поле снизу под будущий текст. <b>Длинный датский текст сюда НЕ вставляем.</b></p></div></div>
+<div class="step"><div class="step-n">6</div><div class="step-b"><div class="tool">Canva / Figma <span class="w">текст поверх</span></div><p>Кладёшь датский текст карточки (из блоков «Текст на карточке» ниже) поверх чистой картинки. Шрифт Geist, кремовый цвет, мягкая тёмная подложка снизу — без белого прямоугольника.</p></div></div>
+<div class="step"><div class="step-n">7</div><div class="step-b"><div class="tool">Mockup <span class="w">только CTA-слайды</span></div><p>Для продуктовых/финальных слайдов: анонимизированный фрагмент реального отчёта на планшете/столе. Не выдуманный документ.</p></div></div>
+</div>
+
+<div class="callout"><b>Для рилов — те же шаги 1-5, потом видео-ветка:</b><br>
+<b>8.</b> Анимация: берёшь чистый стилл (без текста) и анимируешь в Veo/Flow промптом движения камеры (~8 сек — это лимит одной генерации). Никакого текста в промпте.<br>
+<b>9.</b> Stringout Creator: склеиваешь 2-3 клипа в один рил (15-24 сек).<br>
+<b>10.</b> Transition Machine: 1-2 плавных перехода на стыках (не на каждом — иначе выглядит как демо нейросети).<br>
+<b>11.</b> Type Overlays: кладёшь субтитры по таймингу из таблицы каждого рила. Текст — отдельным слоем, не в генерации.<br>
+<b>12.</b> Video Resizer: финально приводишь к 9:16.<br>
+<b>Whisk</b> — вспомогательный, на самом раннем этапе, если Grid Architect не дал нужного направления: подаёшь 2-3 референса настроения (только не реальные фото домов из объявлений — риск деанонимизации), получаешь альтернативу.</div>
+</div>
+
+<!-- ================= ПОСТЫ ================= -->
+<div class="big-sec" id="posts">
+<div class="sec-eyebrow">Раздел 3</div>
+<h2 class="sec">Посты 1-8 — карусели</h2>
+<p class="sec-intro">Серия по кейсу «два дома, одна цена» (дом А новостройка + дом Б исторический). У каждого поста: текст для IG (тизер), текст для FB (полный), карточки. У каждой карточки — датский текст поверх, промпт картинки (реализм, без текста) и пояснение что должно получиться.</p>
+
+<!-- POST 1 -->
+<div class="item" id="p1">
+<div class="item-band"><span class="item-num">Пост 01</span><span class="item-title">To huse, næsten samme pris</span><span class="item-meta">5 карточек · data · Вс 26.07</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Карусель-сравнение: обложка с двумя домами (новый кирпичный + старый охристый), затем деталь каждого, затем весы (цена vs оценка) и закрывашка с лупой. Настроение спокойное, экспертное. Это флагман — с него стартует вся серия, заготовка 01 уже готова.</div>
+
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">To huse. Næsten samme pris. Men de er ikke det samme køb. 👇
+
+Den ene er billigere pr. kvadratmeter. Den anden har alle rapporterne klar. Hvilken en ville du vælge?
+
+Fuld sammenligning ligger på vores Facebook-side. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser sammenlignede vi to boliger i samme by med næsten samme pris — under 10% fra hinanden. Den ene var et nybygget rækkehus, billigere pr. kvadratmeter. Den anden var et gennemrenoveret ældre byhus, med en tydelig præmie på prisen.
+
+Den offentlige vurdering pegede i hver sin retning for de to boliger: for den ene lå vurderingen over prisen, for den anden lå den markant under. Ingen af delene er en facitliste alene — men begge dele er spørgsmål værd at stille, før man byder.
+
+Samme kvadratmeter betyder ikke samme handel. Se dokumenterne, ikke kun billederne.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligsammenligning #offentligvurdering</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p1-comparison</div>
+
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">1.1</span><span class="card-t">Обложка — анкер серии</span></div>
+<div class="otext"><b>Текст на карточке</b>To huse. Næsten samme pris. Vidt forskellig risiko.</div>
+<div class="prompt">Photorealistic split-frame composition, camera at eye level: on the left half, a bright modern Danish rækkehus facade (2021-style new build, red brick and large black-framed windows, clean landscaping), on the right half, a charming restored historic Danish townhouse facade (late 1800s half-timbered accents, warm ochre plaster, cobblestone street underfoot), both lit by the same warm late-afternoon golden light, seamless vertical seam down the center, no house numbers, no people, no text, no logo, editorial real-estate photography, 50mm. [Сохрани как reference для 1.2, 1.3]</div></div>
+
+<div class="card"><div class="card-h"><span class="card-b">1.2</span><span class="card-t">Деталь нового дома</span></div>
+<div class="otext"><b>Текст на карточке</b>Den ene: billigere pr. kvadratmeter.</div>
+<div class="prompt">Reference-image: 1.1 — match only color grade, light and lens. Do NOT reuse the same angle. Photorealistic medium close-up: the modern rækkehus's black front door with handle, black-framed window beside it, a strip of red brick around both — reads as "a house entrance", not abstract texture. Warm afternoon light, shallow depth of field, no people, no text, no logo.</div></div>
+
+<div class="card"><div class="card-h"><span class="card-b">1.3</span><span class="card-t">Деталь старого дома</span></div>
+<div class="otext"><b>Текст на карточке</b>Den anden: alle rapporterne klar.</div>
+<div class="prompt">Reference-image: 1.1 — match only color grade, light and lens. Do NOT reuse the same angle. Photorealistic medium close-up: the historic townhouse's restored dark timber window with full frame and surrounding cracked ochre plaster — reads as "a window on an old house". Warm afternoon side light, shallow depth of field, no people, no text, no logo.</div></div>
+
+<div class="card"><div class="card-h"><span class="card-b">1.4</span><span class="card-t">Vurdering в обе стороны</span></div>
+<div class="otext"><b>Текст на карточке</b>Vurderingen pegede i hver sin retning for de to boliger.</div>
+<div class="prompt">Photorealistic brass balance scale on a wooden table, low angle, coins on one side, a folded document tied with string on the other, caught mid-tilt in soft disequilibrium, warm directional light, shallow depth of field, minimal, no text, no logo.</div></div>
+
+<div class="card"><div class="card-h"><span class="card-b">1.5</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Samme kvadratmeter betyder ikke samme handel. Se dokumenterne, ikke kun billederne.</div>
+<div class="prompt">Photorealistic medium close-up of a magnifying glass resting above a folded paper document on a wooden desk, soft blurred window and daylight behind, warm late-afternoon side light, shallow depth of field, calm precise mood, no logo.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 2 -->
+<div class="item" id="p2">
+<div class="item-band"><span class="item-num">Пост 02</span><span class="item-title">Regningen, der endnu ikke har et beløb</span><span class="item-meta">4 карточки · red · Чт 06.08</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Красный пост: скрытая будущая регнинг (обязательный grundejerforening + необъявленный взнос на опорные стены) и истекающая через ~5 лет строительная гарантия. Кадры: трещина в подпорной стене, ряд почтовых ящиков, песочные часы на чертеже, стол с отчётом. Настроение — спокойно-тревожное, без паники.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Ejerudgiften ser overskuelig ud. Det, den ikke viser: en kommende regning uden beløb endnu. 👇
+
+Og et nybygget hus har et sikkerhedsnet med en udløbsdato, de fleste købere aldrig tjekker.
+
+Hele forklaringen ligger på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser var boligejeren automatisk medlem af en grundejerforening med et erklæret fremtidigt ansvar for renovering af foreningens støttemure — uden at der forelå noget konkret budget for, hvornår eller hvor meget. Et obligatorisk medlemskab betyder, at du ikke kan fravælge dig ud af den regning, når den kommer.
+
+Samme bolig var dækket af en lovpligtig 10-årig byggeskadeforsikring mod skjulte konstruktionsfejl — godt nyt, den løber stadig i flere år endnu. Mindre godt nyt, hvis man ikke tjekker det: dækningen forsvinder helt efter de 10 år, uanset hvem der ejer huset på det tidspunkt.
+
+Bed altid om foreningens seneste regnskab og referater fra generalforsamlinger, og tjek, hvor langt inde i byggeskadeforsikringens periode en "ny" bolig egentlig er — før du byder, ikke bagefter.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #ejerforening #boligøkonomi</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=group&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p2-fremtidsregning</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">2.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Ejerudgiften ser overskuelig ud. Det, den ikke viser: en kommende regning.</div>
+<div class="prompt">Photorealistic medium close-up of an aging concrete retaining wall with a fine hairline crack, moss at its base, a blurred garden and townhouse foundation behind — reads as "a retaining wall in a garden". Warm late-afternoon side light, shallow depth of field, calm but quietly foreboding, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">2.2</span><span class="card-t">Обязательное членство</span></div>
+<div class="otext"><b>Текст на карточке</b>Obligatorisk medlemskab. Ingen mulighed for at sige nej til regningen.</div>
+<div class="prompt">Photorealistic medium close-up of a row of identical attached townhouse mailboxes on a shared brick wall, a strip of facade and doorway trim around them, warm afternoon light, shallow depth of field, calm orderly, no readable names, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">2.3</span><span class="card-t">Гарантия истекает</span></div>
+<div class="otext"><b>Текст на карточке</b>Et nybygget hus har et sikkerhedsnet. Det har en udløbsdato.</div>
+<div class="prompt">Photorealistic medium close-up of a brass hourglass on an architectural blueprint, sand two-thirds through, a small house model blurred behind, warm raking side light, shallow depth of field, calm measured mood, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">2.4</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Bed om regnskab, budget og udløbsdato — før du byder.</div>
+<div class="prompt">Photorealistic flat-lay of a wooden desk with a folded annual report, a pen and a cup of coffee, warm morning window light, soft shadows, calm organized, no readable text, no logo, no people.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 3 -->
+<div class="item" id="p3">
+<div class="item-band"><span class="item-num">Пост 03</span><span class="item-title">Ingen rapporter endnu</span><span class="item-meta">3 карточки · blind spot · Чт 30.07</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Blind spot: объявление активно, а tilstandsrapport/elrapport ещё нет — законно, но решение принимается вслепую. Кадры: рука с ручкой над контрактом, стопка бумаг с пробелом, звонок мэглеру. Спокойно, без обвинений.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Boligen er sat til salg. Tilstandsrapporten er det ikke. 👇
+
+Helt lovligt — men det betyder, at du kan overveje et bud uden at kende den tekniske stand.
+
+Hvad du gør ved det, står på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser var både tilstandsrapport og elinstallationsrapport endnu ikke klar, da boligen blev annonceret. Det er helt lovligt — rapporterne skal foreligge, før købsaftalen underskrives, ikke nødvendigvis før annoncen går live.
+
+Men det betyder, at du på beslutningstidspunktet reelt overvejer et bud uden nogen uafhængig bekræftelse på boligens tekniske stand. Ikke et rødt flag i sig selv — men en god grund til at bede om forlænget accept-frist, til rapporterne er i hånden.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #elinstallation #byggesagkyndig</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p3-ingen-rapport</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">3.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Boligen er til salg. Rapporten er det ikke.</div>
+<div class="prompt">Photorealistic medium close-up of a hand holding a pen hovering just above the signature line of a paper contract on a wooden desk, warm afternoon window light, shallow depth of field, a thin stack of documents with a visible gap where a top folder would sit blurred behind, calm deliberate mood, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">3.2</span><span class="card-t">Что это значит</span></div>
+<div class="otext"><b>Текст на карточке</b>Lovligt. Men du byder uden at kende den tekniske stand.</div>
+<div class="prompt">Photorealistic medium close-up of a stack of paper documents on a desk with one visible gap in the middle where a folder is missing, blurred desk lamp and window behind, warm side light on the empty space, shallow depth of field, quiet investigative mood, no readable text, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">3.3</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Bed om forlænget frist, til rapporterne er i hånden.</div>
+<div class="prompt">Photorealistic medium close-up of a hand holding a phone to make a call, blurred desk with documents and a window behind, warm indoor lamp light, calm proactive mood, no readable text on screen, no logo.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 4 -->
+<div class="item" id="p4">
+<div class="item-band"><span class="item-num">Пост 04</span><span class="item-title">Energimærket gjaldt ikke kun din bolig</span><span class="item-meta">3 карточки · blind spot · Чт 13.08</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Blind spot: энергометка выдана на весь блок, не на конкретный юнит — цифра на обложке относится ко всем квартирам. Кадры: рука с сертификатом (цветные полосы, без читаемого текста), ряд одинаковых домов с одним подсвеченным окном, документ с печатью. Спокойно-разъяснительно.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Et flot bogstav på energimærket. Ét problem: det gjaldt ikke kun boligen, du overvejer. 👇
+
+Vi regnede den reelle andel om. Tallet var markant anderledes.
+
+Hele forklaringen på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser var energimærket udstedt for en hel blok boliger samlet — ikke den enkelte bolig. Det fremhævede tal for varmeudgift dækkede alle enhederne tilsammen. Vi regnede den reelle andel om for netop den bolig, vores testanalyse kiggede på — tallet var markant anderledes end det, der stod med store bogstaver på forsiden.
+
+Et gyldigt energimærke er lovpligtigt, når en bolig sælges. Spørg altid: er mærket udstedt for DIN bolig — eller for hele bygningen?
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #energimærke #energimærkning</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p4-energimaerke</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">4.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Et flot bogstav på energimærket.</div>
+<div class="prompt">Photorealistic medium close-up of a hand holding a generic Danish energy performance certificate (printed document with color bands green to red, no readable text or numbers), a blurred hallway/entrance behind, soft warm afternoon light, shallow depth of field, calm investigative mood, no logo, no readable text.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">4.2</span><span class="card-t">Весь блок, не юнит</span></div>
+<div class="otext"><b>Текст на карточке</b>Mærket gjaldt hele bygningen — ikke den lejlighed, du overvejer.</div>
+<div class="prompt">Photorealistic wide shot of a row of identical attached townhouses under warm afternoon light, one window subtly catching natural sunlight among the rest, shallow depth of field on the foreground, calm documentary mood, no text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">4.3</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Spørg altid: gælder mærket præcis din bolig?</div>
+<div class="prompt">Photorealistic medium close-up of a document held up against soft window light, a small clean seal in the corner, a blurred room behind, calm concluding mood, shallow depth of field, no readable text, no logo, no people.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 5 -->
+<div class="item" id="p5">
+<div class="item-band"><span class="item-num">Пост 05</span><span class="item-title">Billederne er ikke det, du får</span><span class="item-meta">3 карточки · blind spot · Чт 20.08</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Самый человечный пост: фото в объявлении похожи на маркетинг застройщика, хотя дом 5 лет сдавался. Кадры: глянцевое фото на потёртом столе, потёртый пол с забытым носком, телефон с галереей. Настроение тёплое, чуть меланхоличное. Рил 2 (04.08) уже был тизером этой темы.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Alle billederne viser et hus, der ser ud, som om det lige er bygget. 👇
+
+Huset har været udlejet i 5 år. Ikke ét billede viser det.
+
+Historien på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser stod det sort på hvidt i salgsopstillingen, at boligen havde været lejet ud i flere år — men samtlige interiørbilleder viste helt tomme, pletfrie rum uden et eneste tegn på beboelse. Højst sandsynligt genbrugte marketingfotos fra opførelsesåret.
+
+Det betyder ikke, at noget er galt. Det betyder, at du endnu ikke har set, hvordan boligen faktisk ser ud lige nu. Bed altid om friske billeder eller en fysisk fremvisning — især når en bolig har været udlejet.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligannonce #boligsøgning</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=group&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p5-gamle-billeder</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">5.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Alle billederne ser ud, som om huset lige er bygget.</div>
+<div class="prompt">Photorealistic still life, medium shot: a glossy printed real-estate photo of a pristine empty new living room lies on a worn lived-in wooden coffee table with a faint ring stain and a folded blanket, soft blurred living room behind, warm indoor lamp light, shallow depth of field, contrast between flawless photo and lived-in surface, no readable text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">5.2</span><span class="card-t">5 лет аренды, 0 следов</span></div>
+<div class="otext"><b>Текст на карточке</b>Huset har været udlejet i 5 år. Billederne viser det ikke.</div>
+<div class="prompt">Photorealistic medium close-up of a worn wooden floor with faint scuff marks and a single stray sock in the corner, blurred window and room edge behind, warm late-afternoon light, shallow depth of field, quiet wistful mood, no readable text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">5.3</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Bed altid om friske billeder — eller en fysisk fremvisning.</div>
+<div class="prompt">Photorealistic medium close-up of a hand holding a smartphone displaying a blurred generic photo gallery, a blurred living room behind, soft indoor lighting, shallow depth of field, calm proactive mood, no readable text on screen, no logo.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 6 -->
+<div class="item" id="p6">
+<div class="item-band"><span class="item-num">Пост 06</span><span class="item-title">Bevaringsværdig — den skjulte begrænsning</span><span class="item-meta">3 карточки · blind spot · Чт 27.08</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Blind spot: красивый старый дом с охранным статусом — изменения фасада надо согласовывать с коммуной. Кадры: выветренный охристый фасад с трещинами штукатурки, отреставрированная деревянная рама, документ на каменном подоконнике. Тёплое, аутентичное.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Et smukt, gennemrenoveret gammelt hus. Det, salgsopstillingen ikke fremhæver: bygningen er bevaringsværdig. 👇
+
+Det betyder typisk godkendelse fra kommunen, før du ændrer facaden.
+
+Fuld forklaring på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser var boligen registreret som bevaringsværdig. Det betyder typisk, at ændringer af facade, vinduer og tag skal godkendes af kommunen — også dér, hvor en almindelig boligejer bare ville handle selv.
+
+Sælgeren havde selv nævnt, at facadens puds ikke var i bedste stand. En fremtidig udgift, der nu er underlagt en godkendelsesproces, du bør kende til, før du byder — ikke efter.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #bevaringsværdighed #gamlehuse</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p6-bevaringsvaerdig</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">6.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Et smukt, gammelt hus. Bag facaden: en bevaringsværdig status.</div>
+<div class="prompt">Reference-image: post 1 card 1.1 for matching light/grade. Photorealistic medium close-up: the historic townhouse's full window with restored dark timber frame and a wide area of cracked ochre plaster around it, a narrow cobblestone street at the bottom edge — reads as "a house facade". Warm late-afternoon side light, shallow depth of field, no visible address numbers, no people, no text, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">6.2</span><span class="card-t">Ограничение</span></div>
+<div class="otext"><b>Текст на карточке</b>Ændringer af facade og tag skal godkendes af kommunen.</div>
+<div class="prompt">Photorealistic medium close-up of a hand-painted historic wooden window frame with visible restoration brushwork, a wider view of the surrounding plaster wall, warm side light, shallow depth of field, calm authentic architectural mood, no text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">6.3</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Spørg, hvad status betyder for netop din bolig.</div>
+<div class="prompt">Photorealistic medium close-up of a folded document resting on an old stone windowsill, a blurred hint of the street and old facade behind, soft warm light, shallow depth of field, calm quiet mood, no readable text, no logo, no people.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 7 -->
+<div class="item" id="p7">
+<div class="item-band"><span class="item-num">Пост 07</span><span class="item-title">Sælgeren svarede «nej». Rapporten sagde noget andet.</span><span class="item-meta">4 карточки · red+green · Чт 03.09</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Красный+зелёный в одном: продавец сказал «нет skunke», отчёты — «не осмотрено» (красный); но в другом доме честно указана измеренная стоимость отопления (зелёный противовес). Кадры: тёмная лестница на чердак, закрытый люк, честный счёт, сравнение документов. Рил 3 (30.08) был тизером-саспенсом.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">Sælgeren svarede "nej" i spørgeskemaet. To uafhængige rapporter sagde noget andet. 👇
+
+Og nogle gange er et tal i vores analyser bare... ærligt. Det roser vi også.
+
+Begge historier på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+I en af vores testanalyser svarede sælgeren i spørgeskemaet, at boligen ikke havde skunkrum. Både tilstandsrapporten og elinstallationsrapporten skrev uafhængigt af hinanden, at netop disse rum "ikke var tilgængelige" for besigtigelse. Enten findes rummene, og sælgeren tæller dem bare ikke med — eller også er der en unøjagtighed i besvarelsen. Under alle omstændigheder: et hjørne af boligen, ingen fagperson faktisk har set.
+
+Ikke alt i vores analyser er røde flag. I samme by fandt vi en anden bolig, hvor salgsopstillingen angav den faktiske, målte årlige varmeudgift for præcis den bolig — ikke et skøn for et helt kvarter. Det er præcis den slags gennemsigtighed, vi leder efter og roser, når vi finder den.
+
+Sælgeroplysningsskemaet er ikke en facitliste alene — sammenhold det altid med rapporterne, linje for linje.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #sælgeroplysninger #gennemsigtighed</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p7-saelgeroplysninger</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">7.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Sælgeren svarede "nej". Rapporten sagde noget andet.</div>
+<div class="prompt">Photorealistic interior looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light across the steps from an unseen window, faint dust in the beam, quiet mysterious mood, shallow depth of field, no text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">7.2</span><span class="card-t">Что это значит</span></div>
+<div class="otext"><b>Текст на карточке</b>Et hjørne af boligen, ingen fagperson har set.</div>
+<div class="prompt">Photorealistic medium close-up of a small closed wooden hatch door under a sloped attic ceiling, a wider view of the surrounding sloped wall and beam, warm dim light, shallow depth of field, quiet mysterious mood, no text, no logo, no people.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">7.3</span><span class="card-t">Зелёный противовес</span></div>
+<div class="otext"><b>Текст на карточке</b>Ikke alt er et rødt flag. Nogle gange er det bare ærligt.</div>
+<div class="prompt">Photorealistic flat-lay of two utility bill documents side by side on a wooden desk, the left one crisp clearly printed and organized, the right one soft-focus and ambiguous, warm morning window light, soft shadows, calm reassuring mood on the left side, no readable text, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">7.4</span><span class="card-t">Закрывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>Sammenhold sælgerens svar med rapporterne, linje for linje.</div>
+<div class="prompt">Photorealistic medium close-up of two documents laid side by side on a desk, one hand pointing between them as if comparing, a blurred study behind, warm side light, shallow depth of field, calm investigative mood, no readable text, no logo.</div></div>
+</div>
+</div>
+</div>
+
+<!-- POST 8 -->
+<div class="item" id="p8">
+<div class="item-band"><span class="item-num">Пост 08</span><span class="item-title">6 spørgsmål før du byder</span><span class="item-meta">3 карточки · чек-лист/save · Чт 10.09</span></div>
+<div class="item-body">
+<div class="expl"><b>Что должно получиться</b>Сохраняемый финал серии: 6 вопросов, собранных из всех разборов. Кадры: ключи и модель дома в луче света, стопка документов, чек-лист-блокнот. Спокойный, «сохрани и возьми на просмотр» тон. Карточки 8.2/8.3 несут по 3 вопроса — подложку под текст делай выше обычного.</div>
+<div class="lbl ig">IG — тизер</div>
+<div class="cap ig">6 spørgsmål fra to af vores testanalyser, der kan spare dig for dyre overraskelser. 👇
+
+De fleste købere stiller ingen af dem. Gem opslaget til din næste fremvisning.
+
+Uddybning på Facebook. Link i bio.
+
+Anonymiseret testanalyse. Ikke en kundecase.</div>
+<div class="lbl fb">FB — полная подпись</div>
+<div class="cap fb">Jeg arbejder på NordIndsigt, som laver uafhængige boligrapporter for boligkøbere.
+
+Efter to testanalyser af boliger i samme prisleje samlede vi de spørgsmål, der gjorde den største forskel — de samme spørgsmål, som i begge sager afslørede noget, salgsopstillingen ikke selv fortalte. Her er alle seks:
+
+1. Er tilstandsrapport og elinstallationsrapport klar — eller stadig undervejs?
+2. Gælder energimærkets varmeudgift boligen alene, eller en hel bygning/blok?
+3. Er du obligatorisk medlem af en grundejerforening, og hvad siger det seneste regnskab?
+4. Stemmer sælgerens svar overens med det, rapporterne rent faktisk skriver?
+5. Er boligen registreret som bevaringsværdig, og hvad betyder det for fremtidige ændringer?
+6. Hvor tæt på udløb er en eventuel byggeskadeforsikring?
+
+Ingen af spørgsmålene kræver særlig viden. De kræver kun, at du stiller dem, inden du byder — ikke bagefter, når svaret ikke længere kan ændre noget.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.</div>
+<div class="tags">#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligkøbertips #boligcheckliste</div>
+<div class="utm">utm_source=facebook&amp;utm_medium=organic&amp;utm_campaign=testcase-huse-v1&amp;utm_content=p8-checkliste</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">8.1</span><span class="card-t">Открывашка</span></div>
+<div class="otext"><b>Текст на карточке</b>6 spørgsmål, der kan spare dig for dyre fejl. Gem denne.</div>
+<div class="prompt">Minimalist photorealistic still life: a set of house keys and a small wooden house model on a plain wooden table, a single bright shaft of warm sunlight crossing the frame, most of the frame calm and empty, shallow depth of field, quiet personal mood, no text, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">8.2</span><span class="card-t">Вопросы 1-3</span></div>
+<div class="otext"><b>Текст на карточке</b>1. Er rapporterne klar? 2. Gælder energimærket kun din bolig? 3. Obligatorisk grundejerforening?</div>
+<div class="prompt">Overhead photorealistic flat-lay of three small stacked paper documents arranged neatly on a wooden desk, warm natural window light, soft shadows, organized calm mood, no readable text, no logo.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">8.3</span><span class="card-t">Вопросы 4-6</span></div>
+<div class="otext"><b>Текст на карточке</b>4. Stemmer sælgerens svar? 5. Bevaringsværdig? 6. Hvornår udløber byggegarantien?</div>
+<div class="prompt">Overhead photorealistic flat-lay of a wooden desk with a handwritten-style checklist notepad (blank lines, no readable text), a pen, a small stack of folded documents and a cup of coffee, warm natural window light, soft shadows, organized calm mood, no readable text, no logo.</div></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- ================= РИЛЫ ================= -->
+<div class="big-sec" id="reels">
+<div class="sec-eyebrow">Раздел 4</div>
+<h2 class="sec">Рилы 1-15 — видео</h2>
+<p class="sec-intro">Мультиклип: ~8 сек на клип (лимит Veo), 2-3 клипа = 15-24 сек. Стиллы генеришь без текста, анимируешь, склеиваешь, субтитры кладёшь сверху. У каждого рила — пояснение зачем он сильный, стилл-промпты, промпты анимации, тайминг субтитров.</p>
+
+<!-- Здесь рилы 1-15. Для краткости — тот же формат, что в reels-library. -->
+
+<div class="item" id="r1"><div class="item-band"><span class="item-num">Рил 01</span><span class="item-title">To huse, samme pris</span><span class="item-meta">2 клипа · ~16 сек · Вс 13.09</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Флагман. Два дома одной цены, разный риск — цепляет с первого кадра. Даёт повторно поднять тему поста 1 уже в видеоформате ближе к концу серии.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Разделённый кадр — анкер</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic split-frame: left half a bright modern Danish rækkehus facade (2021 new build, red brick, black-framed windows), right half a restored historic townhouse facade (1800s, ochre plaster, cobblestone), same warm late-afternoon light, seamless center seam, no house numbers, no people, no text, no logo, editorial real-estate photography, 50mm.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow horizontal parallax dolly left to right across the seam, revealing both halves, subtle depth between foreground pavement and facades, no camera shake, calm cinematic pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Весы</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic brass balance scale on a wooden table, low angle, coins on one side, a folded document tied with string on the other, caught mid-tilt, warm directional light, shallow depth of field, no text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">The scale tips slowly from one side toward the other in a single smooth arc, coins and tray swaying gently, slow-motion feel, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:05</td><td>To huse. Næsten samme pris.</td></tr><tr><td class="tc">0:05–0:10</td><td>Vidt forskellig risiko.</td></tr><tr><td class="tc">0:10–0:16</td><td>Fuld sammenligning: link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r2"><div class="item-band"><span class="item-num">Рил 02</span><span class="item-title">Billederne er ikke det, du får</span><span class="item-meta">2 клипа · ~16 сек · Вт 04.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Самый человечный крючок — фото застройщика вместо реального состояния после 5 лет аренды. Работает как намёк перед постом 5.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Глянцевое фото на потёртом столе</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic still life: a glossy printed real-estate photo of a pristine empty new living room lies on a worn lived-in wooden coffee table with a faint ring stain and a folded blanket, soft blurred room behind, warm lamp light, shallow depth of field, contrast between flawless photo and lived-in surface, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow rack focus: starts sharp on the glossy photo, then slowly shifts focus to the worn table surface and ring stain beneath, dust motes drifting, quiet wistful pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Потёртый пол, забытый носок</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a worn wooden floor with faint scuff marks and a single stray sock in the corner, blurred window and room edge, warm late-afternoon light, shallow depth of field, quiet wistful mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Very slow push-in toward the stray sock as the warm window light slowly shifts, quiet still pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:05</td><td>Alle billederne ser ud, som om huset lige er bygget.</td></tr><tr><td class="tc">0:05–0:11</td><td>Huset har været udlejet i 5 år.</td></tr><tr><td class="tc">0:11–0:16</td><td>Bed altid om friske billeder. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r3"><div class="item-band"><span class="item-num">Рил 03</span><span class="item-title">Sælgeren svarede «nej»</span><span class="item-meta">2 клипа · ~16 сек · Вс 30.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Единственный сюжет с настоящим саспенсом — тёмная лестница, закрытый люк. Cliffhanger-намёк перед постом 7.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Лестница на чердак</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic interior looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light across the steps from an unseen window, faint dust in the beam, quiet mysterious mood, shallow depth of field, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow steady push-in up the staircase toward the closed hatch, the warm shaft of light subtly intensifying, dust drifting through the beam, camera settles just before the door without opening it, suspenseful pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Два документа рядом</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of two documents laid side by side on a desk, one hand about to point between them as if comparing, blurred study behind, warm side light, shallow depth of field, calm investigative mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">The hand moves slowly to point between the two documents, focus racks gently from one to the other, calm deliberate pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Sælgeren svarede "nej" i spørgeskemaet.</td></tr><tr><td class="tc">0:06–0:11</td><td>To uafhængige rapporter sagde noget andet.</td></tr><tr><td class="tc">0:11–0:16</td><td>Sammenhold altid svar og rapport. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r4"><div class="item-band"><span class="item-num">Рил 04</span><span class="item-title">Andelsbolig: lav pris ≠ billig</span><span class="item-meta">3 клипа · ~24 сек · Вс 02.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Ядро новой темы andelsbolig — цена ≠ реальная стоимость. Тему массово гуглят, у нас её не было. Ведёт на статью viden-andelsbolig.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Ценник крупно — анкер</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a small paper price tag tied with string resting on a wooden table beside a modern Danish apartment building keychain, soft warm window light, shallow depth of field, calm mood, no readable numbers, no text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in on the price tag as it gently rotates on its string, warm light shifting softly, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Календарь платежей</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of a wall calendar and a small stack of identical envelopes fanned out on a desk, suggesting recurring monthly payments, warm morning light, soft shadows, shallow depth of field, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow overhead push-in as the fanned envelopes are gently revealed one by one by shifting light, calm rhythmic pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 3</span><span class="card-t">Открытая папка регнскаба</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an open ring binder of financial documents on a desk beside a cup of coffee, warm side light, shallow depth of field, calm thorough mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">A hand slowly turns a page in the binder, focus holding on the paper, calm deliberate pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr><tr><td class="tc">0:06–0:13</td><td>Den rigtige udgift er boligafgiften — hver måned.</td></tr><tr><td class="tc">0:13–0:19</td><td>Og den afhænger af foreningens fælleslån.</td></tr><tr><td class="tc">0:19–0:24</td><td>Læs regnskabet, ikke kun prisen. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r5"><div class="item-band"><span class="item-num">Рил 05</span><span class="item-title">Samme pris, tre virkeligheder</span><span class="item-meta">2 клипа · ~16 сек · Вс 16.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Три andelsbolig одной цены — три разных ежемесячных мира. Наглядное сравнение, продолжение andelsbolig-темы.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Три одинаковых ключа</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of three identical apartment keys laid in a row on a wooden surface, each with a small blank paper tag, warm even light, soft shadows, shallow depth of field, minimal, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow overhead lateral pan across the three keys, warm light gliding over each in turn, calm even pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Три стопки разной высоты</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic flat-lay of three neat stacks of paper documents of clearly different heights on a wooden desk, warm natural light, soft shadows, one tall, one medium, one short, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in across the three stacks emphasizing the height difference as light rakes over them, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:05</td><td>Tre andelsboliger. Næsten samme pris.</td></tr><tr><td class="tc">0:05–0:11</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr><tr><td class="tc">0:11–0:16</td><td>Forskellen ses i regnskabet. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r6"><div class="item-band"><span class="item-num">Рил 06</span><span class="item-title">Den tomme olietank i haven</span><span class="item-meta">2 клипа · ~16 сек · Вт 28.07</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Очень конкретный скрытый риск — заглушённый бак под землёй. Гуглабельно, редко на слуху. Ведёт на статью viden-skjulte-udgifter.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Люк бака в траве</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an old rusted metal tank cap/lid set into a grassy garden lawn, partly overgrown, soft overcast daylight, shallow depth of field, quiet ominous mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Very slow push-in toward the rusted tank cap as a breeze moves the grass gently around it, quiet foreboding pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Дом на заднем плане</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of a calm older Danish villa garden at dusk, the tank cap small in the foreground grass, the house softly lit behind, warm evening light, shallow depth of field, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow tilt up from the tank cap in the grass to the softly lit house behind, warm evening light steady, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr><tr><td class="tc">0:06–0:12</td><td>Selv en tom tank kan korrodere med tiden.</td></tr><tr><td class="tc">0:12–0:16</td><td>Spørg om status og dato. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r7"><div class="item-band"><span class="item-num">Рил 07</span><span class="item-title">Et servitut fra 1930</span><span class="item-meta">2 клипа · ~16 сек · Вт 11.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>«Økonomiske forpligtelser, se akt» — паттерн в двух домах (1926 + 1930). Скрытая юридическая деталь, редко проверяется.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Старый акт под лупой</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic macro close-up of a magnifying glass held over an old yellowed paper document with an official stamp, warm raking side light emphasizing paper texture, shallow depth of field, no readable text, no logo, calm precise mood.</div>
+<div class="lbl">Анимация</div><div class="prompt">The magnifying glass moves slowly across the old document, the stamp drifting into and out of magnified focus, calm investigative pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Стопка исторических бумаг</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a small stack of aged legal documents tied with faded ribbon on a dark wooden desk, warm low light, shallow depth of field, archival mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the ribboned stack as warm light slowly brightens across it, calm archival pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr><tr><td class="tc">0:06–0:12</td><td>De færreste får den akt læst.</td></tr><tr><td class="tc">0:12–0:16</td><td>Bed altid om det fulde dokument. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r8"><div class="item-band"><span class="item-num">Рил 08</span><span class="item-title">Privat vand — ikke kommunens</span><span class="item-meta">2 клипа · ~16 сек · Вс 23.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Частное водоснабжение = своё ответственность и расходы. Специфика сельских домов, редко обдумывается покупателем.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Кран, капля</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic macro close-up of an older kitchen tap with a single water drop about to fall, soft daylight from a window, shallow depth of field, calm domestic mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">The water drop slowly swells and falls once in gentle slow motion, ripples briefly, calm quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Насос/скважина в хозблоке</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a private water pump and pipes in a dim rural utility room, warm single light source, shallow depth of field, mechanical but calm mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the pump as the single warm light flickers very slightly, calm mechanical mood, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr><tr><td class="tc">0:06–0:12</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr><tr><td class="tc">0:12–0:16</td><td>Spørg om anlæggets alder. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r9"><div class="item-band"><span class="item-num">Рил 09</span><span class="item-title">«??» i dokumentet</span><span class="item-meta">2 клипа · ~16 сек · Вт 25.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Небрежная salgsopstilling (поле страховки «??», год из старого шаблона) — сам документ как red flag. Учит смотреть на качество оформления.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Пустое поле в форме</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a printed form on a desk with one field left conspicuously blank, a pen resting beside it, warm side light, shallow depth of field, quiet mood drawing the eye to the empty field, no readable text elsewhere, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the blank field on the form, the pen still beside it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Рука листает небрежные страницы</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a hand flipping through a slightly messy printed property document on a desk, warm daylight, shallow depth of field, calm but scrutinizing mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">The hand slowly flips one page, pauses, focus holds on the paper, calm scrutinizing pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr><tr><td class="tc">0:06–0:12</td><td>Et sjusket dokument er i sig selv et signal.</td></tr><tr><td class="tc">0:12–0:16</td><td>Tjek tallene direkte. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r10"><div class="item-band"><span class="item-num">Рил 10</span><span class="item-title">60% over vurderingen</span><span class="item-meta">2 клипа · ~16 сек · Вт 18.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Крупнейший разрыв цены и оценки, с нюансом «ремонт завершён после даты vurdering». Data-хук, учит не полагаться на устаревшую оценку.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Две бумаги с разными цифрами</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of two official-looking documents side by side on a desk, one clearly newer and crisp, one older and slightly faded, warm daylight, shallow depth of field, calm analytical mood, no readable numbers, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow overhead push-in between the two documents, light shifting from the older to the newer one, calm analytical pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Свежеотремонтированный интерьер</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium shot of a freshly renovated bright Danish living room interior, clean new surfaces, warm afternoon light through large windows, shallow depth of field, calm mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow gentle pan across the renovated interior as warm light moves over the new surfaces, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Prisen lå markant over den offentlige vurdering.</td></tr><tr><td class="tc">0:06–0:12</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr><tr><td class="tc">0:12–0:16</td><td>Bed om en frisk vurdering. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r11"><div class="item-band"><span class="item-num">Рил 11</span><span class="item-title">«Ca. 8-10.000 om året» — på hvis ord?</span><span class="item-meta">2 клипа · ~16 сек · Вт 01.09</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Расход на отопление «со слов продавца», а не по счётчику. Разница заявленного и измеренного.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Пеллетный котёл в хозблоке</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an older pellet boiler in a dim utility outbuilding, warm glow from a small opening, shallow depth of field, mechanical calm mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the boiler as the warm glow from the opening pulses very gently, calm mechanical pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Пустая рука vs счёт</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an open empty hand on one side and a single utility invoice lying on a desk on the other, warm side light, shallow depth of field, calm questioning mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Focus racks slowly from the open empty hand to the invoice on the desk, calm questioning pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr><tr><td class="tc">0:06–0:12</td><td>Sælgers ord — ikke en aflæst måler.</td></tr><tr><td class="tc">0:12–0:16</td><td>Bed om de faktiske regninger. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r12"><div class="item-band"><span class="item-num">Рил 12</span><span class="item-title">Renoveret 2024 — men ikke i BBR</span><span class="item-meta">2 клипа · ~16 сек · Вс 06.09</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>«Nyrenoveret» в рекламе, но в BBR ремонт не зарегистрирован. Паттерн в двух домах.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Новый фасад</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium shot of a freshly renovated Danish house facade, clean new render and windows, warm afternoon light, shallow depth of field, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow gentle pan across the fresh facade as warm light glides over it, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Официальный реестр на экране</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a laptop on a desk showing a generic blurred official register table (no readable text), a hand resting near the trackpad, warm indoor light, shallow depth of field, calm administrative mood, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the laptop screen as a cursor moves slowly down the blurred register rows, calm administrative pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Annoncen: "totalrenoveret i 2024".</td></tr><tr><td class="tc">0:06–0:12</td><td>BBR: "år for renovering — ikke angivet".</td></tr><tr><td class="tc">0:12–0:16</td><td>Sammenhold altid de to. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r13"><div class="item-band"><span class="item-num">Рил 13</span><span class="item-title">Nul røde. Nul gule. Findes det?</span><span class="item-meta">2 клипа · ~16 сек · Вс 09.08</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Зелёный баланс серии — реально чистый профиль (0 находок). Строит доверие: мы не только пугаем. Специально стоит после красного поста 2.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Чистый отчёт, галочки</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a neat inspection report on a desk with a series of small clean checkmarks down the margin, warm bright morning light, shallow depth of field, calm reassuring mood, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in down the margin of checkmarks as bright morning light warms the paper, calm reassuring pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Светлый ухоженный дом</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of a tidy well-kept Danish family house in soft bright daylight, calm and solid, shallow depth of field on the foreground, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow gentle push-in toward the calm house as bright daylight holds steady, reassuring pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr><tr><td class="tc">0:06–0:12</td><td>Det findes — vi roser det, når vi ser det.</td></tr><tr><td class="tc">0:12–0:16</td><td>Ikke alt er et rødt flag. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r14"><div class="item-band"><span class="item-num">Рил 14</span><span class="item-title">Regningen, mægleren kalder «uvedkommende»</span><span class="item-meta">2 клипа · ~16 сек · Вт 08.09</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Сепарация канализации — будущая обязанность владельца, которую мэглер прямо называет «вне ответственности».</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Дренаж/люк на улице</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a street drain grate and a nearby sewer manhole cover on wet pavement after rain, soft overcast light, shallow depth of field, quiet urban mood, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the drain as a thin trickle of rainwater runs into it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Дом и небо перед дождём</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of an older Danish house under a heavy grey pre-rain sky, calm but tense atmosphere, soft diffuse light, shallow depth of field, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow tilt up from the house to the heavy grey sky as clouds drift, calm tense pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr><tr><td class="tc">0:06–0:12</td><td>Mægleren kalder regningen "uvedkommende".</td></tr><tr><td class="tc">0:12–0:16</td><td>Men den lander hos dig. Link i bio.</td></tr></table>
+</div></div>
+
+<div class="item" id="r15"><div class="item-band"><span class="item-num">Рил 15</span><span class="item-title">Isbjerget af skjulte udgifter</span><span class="item-meta">3 клипа · ~24 сек · Вт 15.09</span></div><div class="item-body">
+<div class="expl"><b>Зачем сильный</b>Обобщающий рил-«айсберг» — связывает все скрытые расходы. Флагманский финал серии и тизер статьи viden-skjulte-udgifter.</div>
+<div class="cards">
+<div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Красивое фото дома — анкер</span><span class="card-dur">0:00–0:08</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic warm inviting shot of a Danish house exterior at golden hour, looking like a perfect listing photo, shallow depth of field, no text, no logo, no people.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow gentle push-in on the beautiful house in golden light, calm inviting pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Стол с разными документами</span><span class="card-dur">0:08–0:16</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of a wooden desk covered with many different property documents spread out, warm side light, shallow depth of field, no readable text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Slow overhead pull-back revealing more and more documents around the edges of the frame, calm accumulating pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="card"><div class="card-h"><span class="card-b">Клип 3</span><span class="card-t">Спокойный финальный кадр</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл</div><div class="prompt">Minimalist photorealistic still life: house keys and a small wooden house model on a plain table, a single warm shaft of sunlight crossing the frame, most of the frame calm and empty, shallow depth of field, no text, no logo.</div>
+<div class="lbl">Анимация</div><div class="prompt">Static almost-still frame with the warm shaft of light slowly sweeping across the table, dust motes drifting, quiet settled pacing, silent ambient, no text, no dialogue, no captions.</div></div></div>
+<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Текст</th></tr><tr><td class="tc">0:00–0:06</td><td>De fleste overraskelser er ikke selve prisen.</td></tr><tr><td class="tc">0:06–0:13</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr><tr><td class="tc">0:13–0:19</td><td>De koster først ÅR efter overtagelsen.</td></tr><tr><td class="tc">0:19–0:24</td><td>Vi finder dem, før du byder. Link i bio.</td></tr></table>
+</div></div>
+
+</div>
+
+<!-- ================= ДАЛЬШЕ ================= -->
+<div class="big-sec" id="next">
+<div class="sec-eyebrow">Раздел 5</div>
+<h2 class="sec">Идеи для следующих нарезок</h2>
+<p class="sec-intro">Углы, которых ещё НЕТ в контенте — под них специально ищем новые дома (см. раздел 6). Когда придут доки, из каждого делаем пост + рил тем же конвейером.</p>
+
+<div class="idea"><h3>Tvangsauktion — «купить дом с молотка»</h3><p>Целый неразобранный угол: покупка на принудительном аукционе = как есть, без ejerskifteforsikring, обычно один осмотр. Уже нашли 2 кандидата (Orte Vejsmark, Enghavevej). Сильная тема — мало кто понимает механику.</p><div class="k">нужен: дом на tvangsauktion с доступным salgsopstilling</div></div>
+
+<div class="idea"><h3>Асбест — живой кейс к существующей статье</h3><p>На сайте уже есть статья про асбестовые крыши, но нет живого кейса. Эстернит до конца 80-х, запрет мойки под давлением, «trænger til maling» = шестизначная сумма.</p><div class="k">нужен: villa/rækkehus с eternittag до ~1988</div></div>
+
+<div class="idea"><h3>Радон выше нормы</h3><p>Отдельная история — коммуна класса 2-3 по радону, что это значит и что делать. Ещё не разобрана как самостоятельный угол.</p><div class="k">нужен: дом в коммуне с высоким классом радона</div></div>
+
+<div class="idea"><h3>Расхождение цены между порталами</h3><p>«Одна и та же квартира, разные цифры на разных сайтах» (кандидат Alskovvej). Наглядно про то, что цифрам из объявления нельзя верить слепо.</p><div class="k">нужен: объект с разной ценой на nybolig vs boliga/boligsiden</div></div>
+
+<div class="idea"><h3>Редкий тип владения — villalejlighed</h3><p>Гибридный тип (кандидат Sixtusvej), который нельзя путать с обычной ejerlejlighed/andelsbolig. Образовательный угол про типы собственности.</p><div class="k">нужен: villalejlighed или другой нестандартный тип</div></div>
+
+<div class="idea"><h3>Гео-баланс: Копенгаген / Зеландия</h3><p>Сейчас сильный перекос на Ютландию/Фюн. Нужны кейсы со Зеландии, чтобы контент не читался как «местная реклама одного региона» и работал для столичных FB-групп.</p><div class="k">нужен: любой из углов выше, но объект на Зеландии</div></div>
+
+<div class="idea"><h3>Долгий liggetid — «почему не покупают?»</h3><p>Объект стоит на рынке 300+ дней. Что скрыто, если никто не берёт по этой цене — сильный детективный крючок.</p><div class="k">нужен: объект с очень длинным сроком экспозиции</div></div>
+</div>
+
+<!-- ================= ЧТО ИСКАТЬ ================= -->
+<div class="big-sec" id="poisk">
+<div class="sec-eyebrow">Раздел 6</div>
+<h2 class="sec">Что искать в чате-поиске домов</h2>
+<p class="sec-intro">Короткое ТЗ для отдельного чата (полный бриф — в репозитории <code>research/brief-poisk-kandidatov.md</code>). Цель — найти дома, которые закроют углы из раздела 5, не дублируя уже разобранное.</p>
+
+<div class="callout" style="margin-top:0">
+<b>Приоритет поиска (что реально нужно новым партиям):</b>
+<br><br>
+1. <b>Tvangsauktion</b> с доступным описанием — <code>boliga.dk/tvangsauktioner</code>, <code>itvang.dk</code><br>
+2. <b>Асбестовая крыша</b> (eternittag до 1988) — поиск <code>"eternit"</code>, <code>"asbest"</code> + villa<br>
+3. <b>Зеландия / Копенгаген</b> — любой сильный угол, но гео-баланс (сейчас перекос на Ютландию)<br>
+4. <b>Andelsbolig</b> с явным контрастом цена/boligafgift — <code>boliga.dk/boliger/andelsboliger</code><br>
+5. <b>Долгий liggetid</b> (300+ дней) — сортировка по сроку экспозиции<br>
+6. <b>Расхождение цены</b> между порталами на один адрес
+<br><br>
+<b>НЕ дублировать</b> (уже разобрано): fælleslån, энергометка на блок, нет отчётов, цена vs vurdering, bevaringsværdig, старые фото, skunke, grundejerforening, byggeskadeforsikring, andelsbolig-база, масляный бак, сервитут, частная вода, separatkloakering, BBR-отставание, «??» в документе, чистый профиль. Новые находки этих углов брать только если исход ДРУГОЙ (например fælleslån выгодный, а не проблема).
+<br><br>
+<b>Что нужно от каждого кандидата:</b> адрес → скачать PDF (salgsopstilling минимум, в идеале + tilstandsrapport + elrapport + energimærke, для andel — nøgleoplysningsskema/regnskab) → прислать в основной чат → прогон через <code>nordindsigt-boligcheck</code> → анонимизация → пост + рил + статья Viden.
+</div>
+</div>
+
+<footer>NordIndsigt · Мастер-план контента · 22.07.2026 · Один файл вместо двух · Только для внутреннего использования</footer>
+</div>
