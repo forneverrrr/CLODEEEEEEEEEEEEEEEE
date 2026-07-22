@@ -1,4 +1,4 @@
-<title>NordIndsigt — Reels v2: 15 рилов + 5 брендовых концовок</title>
+<title>NordIndsigt — Reels v3: 15 рилов + 5 брендовых концовок</title>
 <style>
 :root{
   --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
@@ -91,7 +91,7 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 
 <div class="top">
   <div class="top-inner">
-    <div class="brand">Nord<b>Indsigt</b> · Reels v2</div>
+    <div class="brand">Nord<b>Indsigt</b> · Reels v3</div>
     <nav>
       <a href="#fix">Что поправлено</a><a href="#outro">5 концовок</a><a href="#matrix">Кто куда</a>
       <a href="#r1">1</a><a href="#r2">2</a><a href="#r3">3</a><a href="#r4">4</a><a href="#r5">5</a>
@@ -111,19 +111,19 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 </header>
 
 <div class="big-sec" id="fix">
-<h2 class="sec">Как теперь работает текст и анимация концовок</h2>
-<p class="sec-intro">Два разных подхода к тексту в одном рилу — не путать их местами. Плюс: концовки больше не световые эффекты — это мини-сцены с реальным действием.</p>
+<h2 class="sec">Обновление: текст печём везде, анимация — реальное действие, не только камера</h2>
+<p class="sec-intro">Тест в Flow подтвердил (скрин от 22.07): впечатанный текст держится чисто. Это меняет подход к <b>Рилам 04-15</b> — их стиллы и анимации переделаны ниже. Рилы 01-03 оставлены как есть по прямой просьбе — у них текст всё ещё накладывается при монтаже, не путай два стандарта.</p>
 <div class="track">
   <div class="track-col">
-    <h4>Клипы 1-2 — текст НЕ печём</h4>
-    <p>Стилл генерим без текста. Анимацию генерим без текста. Субтитр для этих клипов накладывается уже на готовое видео при монтаже — красиво <b>анимированным появлением</b> (не статичная плашка): слово за словом, лёгкий fade-in/slide-up. Делается в Type Overlays или CapCut. Текст меняется от рила к рилу — печь его в генерации нет смысла.</p>
+    <h4>Рилы 01-03 (legacy) — текст накладывается при монтаже</h4>
+    <p>Старый стандарт: стилл и анимация клипов 1-2 без текста, субтитр добавляется поверх готового видео при монтаже (Type Overlays/CapCut). Не трогаем — оставлено как есть по просьбе.</p>
   </div>
   <div class="track-col">
-    <h4>Клип 3 (концовка) — текст печём в СТИЛЛЕ, не в видео</h4>
-    <p>«NORDINDSIGT» + мельче «Link i bio» впечатываются в статичную картинку (Nano Banana Pro — модель хорошо держит короткий текст). Veo 3 получает эту картинку как стартовый кадр и просто <b>анимирует сцену вокруг уже готового текста</b>, сохраняя его неизменным — не пытается «родить» буквы из света с нуля, как раньше. Раз «Link i bio» одинаков во всех 15 рилах, впечатываем его в саму концовку — отдельно накладывать на каждый рил больше не нужно, меняется только первая строка субтитра (клипы 1-2).</p>
+    <h4>Рилы 04-15 (новый стандарт) — текст печём в КАЖДОМ стилле</h4>
+    <p>Каждый клип 1 и клип 2 теперь получает свою датскую строку, впечатанную прямо в промпт стилла той же typography-treatment формулой, что и в концовках (gradient scrim снизу, тёплый кремовый bold geometric sans, negative-список против белой плашки). Veo получает готовую картинку с текстом как стартовый кадр и анимирует <b>только сцену вокруг него</b>, текст не трогает. Отдельного оверлея на монтаже для этих рилов больше не нужно — субтитр-таблица ниже теперь дублирует то, что уже впечатано, как бэкап-референс для монтажёра.</p>
   </div>
 </div>
-<div class="callout"><b>Почему так надёжнее:</b> скиллы video/image прямо предупреждают — видео-модели плохо рендерят читаемый текст «с нуля», а модели изображений (Nano Banana Pro) с коротким текстом справляются заметно лучше. Поэтому текст печём один раз в image-модели, а видео-модели остаётся только анимировать сцену, сохраняя готовый графический слой стабильным.</div>
+<div class="callout"><b>И главное — анимация:</b> раньше почти все клипы двигали только камеру (push-in/pull-back/pan/drift) над статичной сценой — плоско, Veo 3.1 умеет больше. Начиная с Рила 04 каждая анимация теперь описывает <b>реальное действие объекта или света в кадре</b> (рука что-то делает, предмет двигается, вода капает, свет включается) — камера может дополнительно двигаться поверх этого, но никогда не является единственным источником движения. Это тот же принцип, что уже работал в 5 брендовых концовках — теперь применён ко всем клипам 1-2 рилов 04-15.</div>
 </div>
 
 <div class="big-sec" id="outro">
@@ -134,75 +134,75 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-fa
 <div class="outro-h"><span class="outro-badge">Концовка A</span><span class="outro-title">Передача — подпись, потом ключи</span></div>
 <div class="outro-why">Самая тёплая и личная. Законченная мини-история: подписал → передал → получил ключи взамен.</div>
 <div class="lbl">Стилл (текст печём здесь)</div>
-<div class="prompt">Photorealistic close-up over a wooden desk shot from a slight overhead angle: on the left, a hand has just finished signing a paper contract, pen still resting on the signature line; on the right, a second hand is reaching across the table toward the contract, with a set of house keys already resting on the table near that hand, about to be placed down. Warm late-afternoon window light, shallow depth of field, calm and quietly emotional mood, no visible faces, only hands and the desk, no logo.
+<div class="prompt">Photorealistic close-up over a dark oak desk shot from a slight overhead three-quarter angle: on the left, a hand has just finished signing a paper contract, the fountain pen still resting on the signature line with a faint fresh ink sheen visible; on the right, a second hand is reaching across the table toward the contract, with a set of two brass house keys on a small leather fob already resting on the table near that hand, about to be placed down. A folded cream linen napkin and a half-empty water glass sit softly out of focus in the back corner, hinting at a real closing-day meeting, not a studio set. Warm late-afternoon window light rakes low across the desk from the left, casting long soft shadows from the hands and pen, faint dust motes suspended in the light shaft, shallow depth of field, calm and quietly emotional mood, no visible faces, only hands and the desk, no logo.
 
 Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
 "NORDINDSIGT"
 "Link i bio"</div>
-<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="lbl brand">Анимация (действие + лёгкое движение камеры поверх него)</div>
 <div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the "NORDINDSIGT" / "Link i bio" wordmark exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
 
-Scene action over 8 seconds: the signing hand lifts the pen away from the paper in one smooth motion; the second hand slides the signed contract gently across the table toward itself; as the contract arrives, that same hand sets the house keys down onto the table in its place, releasing them softly — a calm, deliberate handover, like the quiet final moment of a deal being closed. Warm window light holds steady, shallow depth of field, no camera shake, gentle continuous motion throughout, not static. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
+Scene action over 8 seconds: the signing hand lifts the pen away from the paper in one smooth unhurried motion and sets it down parallel to the contract; the second hand slides the signed contract gently across the desk toward itself, the paper making a soft audible-feeling drag against the wood grain; as the contract arrives, that same hand releases it and picks up the keys, setting them down in the contract's place with a small definite motion, the brass catching the window light as it moves. Dust motes continue drifting through the light shaft throughout. Layered on top of the action: a very slow, barely perceptible rack focus that sharpens gently from the pen to the keys as they change hands, plus a whisper-slight parallax drift as if the camera breathes almost imperceptibly closer. Warm window light holds steady, shallow depth of field, no camera shake, gentle continuous motion throughout, not static — a calm, deliberate handover, like the quiet final moment of a deal being closed. Silent ambient with a suggested faint room tone, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-b">
 <div class="outro-h"><span class="outro-badge">Концовка B</span><span class="outro-title">Отчёт закрывается и передаётся</span></div>
 <div class="outro-why">Ощущение «дело проверено и закрыто». Хорошо после красных/тревожных клипов — снимает напряжение действием, не просто светом.</div>
 <div class="lbl">Стилл (текст печём здесь)</div>
-<div class="prompt">Photorealistic close-up over a wooden desk: a hand is placing the final page into a neat stack of inspection documents and closing a simple folder cover over them; a second hand rests nearby, about to receive the closed folder as it's slid across the desk. Warm desk-lamp light, shallow depth of field, calm and conclusive mood, no visible faces, only hands and the desk, no logo.
+<div class="prompt">Photorealistic close-up over a dark wooden desk lit by a single warm brass desk lamp just outside the frame: a hand is placing the final page into a neat stack of inspection documents, the paper edges slightly fanned before being squared; a plain kraft-colored folder cover lies open beside the stack, ready to close over it; a second hand rests nearby on the desk edge, fingers relaxed, about to receive the closed folder. A pair of reading glasses and a cold cup of coffee sit softly out of focus at the frame's edge, suggesting the end of a long careful review. Warm directional lamp light pools across the desk, soft shadow falling from the stack, shallow depth of field, calm and conclusive mood, no visible faces, only hands and the desk, no logo.
 
 Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
 "NORDINDSIGT"
 "Link i bio"</div>
-<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="lbl brand">Анимация (действие + лёгкое движение камеры поверх него)</div>
 <div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
 
-Scene action over 8 seconds: the first hand closes the folder cover fully over the documents with a soft deliberate motion, then slides the closed folder a short distance across the desk toward the second hand, which gently receives it and rests on top — a calm, conclusive handover, like a reviewed case being handed over complete. Warm lamp light holds steady, shallow depth of field, gentle continuous motion throughout, not static. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
+Scene action over 8 seconds: the first hand squares the fanned pages with one small tapping motion against the desk, then folds the kraft cover fully closed over the stack with a soft deliberate press, smoothing it flat; the hand then slides the closed folder a short distance across the desk toward the second hand, which gently receives it, fingers curling over the top edge and drawing it to rest. The lamplight holds its warm pool steady throughout, a faint shift in shadow direction as the folder moves through the light. Layered on top of the action: a slow, subtle push-in that tightens gently on the folder as it closes, with a whisper-light rack focus shifting from the reading glasses in the background to the folder in the foreground — a calm, conclusive handover, like a reviewed case being handed over complete. Silent ambient with a suggested faint paper-rustle, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-c">
 <div class="outro-h"><span class="outro-badge">Концовка C</span><span class="outro-title">Ключ вешается на крючок у входа</span></div>
 <div class="outro-why">Единственная архитектурная/дверная — момент «заселения», надежда/разрешение. Хороша после эмоциональных клипов.</div>
 <div class="lbl">Стилл (текст печём здесь)</div>
-<div class="prompt">Photorealistic close-up of a classic Danish front door from just inside the entrance hall: a hand has just turned a key in the lock and is now lifting it out, reaching toward a small wall hook beside the door frame where it's about to be hung, warm late-afternoon light spilling in through the open doorway behind, calm and settling mood, no visible face, only the hand and the doorway, no logo.
+<div class="prompt">Photorealistic close-up of a classic Danish front door entrance hall, shot from just inside looking back toward the open doorway: a hand has just turned an old brass key in the lock and is now lifting it free, reaching toward a small weathered wooden wall hook beside the door frame, a row of faint coat-hook shadows and a woven doormat visible at the bottom edge, warm late-afternoon light spilling in low and golden through the open doorway behind, catching dust in the air, calm and settling mood, no visible face, only the hand and the doorway, no logo.
 
 Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
 "NORDINDSIGT"
 "Link i bio"</div>
-<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="lbl brand">Анимация (действие + лёгкое движение камеры поверх него)</div>
 <div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
 
-Scene action over 8 seconds: the hand finishes pulling the key from the lock, carries it the short distance to the wall hook, and hangs it there with a small settling motion; the warm light from the doorway behind holds steady throughout. Calm, resolving pacing — like the quiet first moment of truly being home. Shallow depth of field, no camera shake, gentle continuous motion. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
+Scene action over 8 seconds: the hand finishes pulling the key free from the lock with a small satisfying twist, carries it the short distance through the golden light to the wall hook, and hangs it there with a definite settling motion, the key swinging very slightly before it stills; the warm light from the doorway behind brightens by a hair as if the sun dips just below a cloud outside, dust continuing to drift through the beam. Layered on top of the action: a slow, gentle push-in that draws just slightly closer as the key settles on the hook, with a whisper-soft parallax between the near door frame and the sunlit doorway beyond. Calm, resolving pacing — like the quiet first moment of truly being home. Shallow depth of field, no camera shake, gentle continuous motion. Silent ambient with a suggested faint outdoor birdsong, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-d">
 <div class="outro-h"><span class="outro-badge">Концовка D</span><span class="outro-title">От лупы — к подписи</span></div>
 <div class="outro-why">Единственная, что буквально показывает переход «мы проверили» → «теперь можно подписывать». Логичный мостик между инспекцией и решением.</div>
 <div class="lbl">Стилл (текст печём здесь)</div>
-<div class="prompt">Photorealistic close-up of a desk: a hand is setting down a magnifying glass beside an architectural blueprint, having just finished inspecting it, while the same or a second hand picks up a pen nearby, about to begin signing a document laid next to the blueprint. Warm side light, shallow depth of field, calm and confident mood, no visible faces, only hands and the desk, no logo.
+<div class="prompt">Photorealistic close-up of a drafting desk: a hand holding a brass-handled magnifying glass is lowering it toward the desk surface, having just finished tracing a line across an architectural blueprint spread flat beside a bound inspection document, small annotation tabs visible along the document's edge; the same hand's fingers are already loosening around the magnifying glass handle as it nears the desk, while a fountain pen with a dark cap lies uncapped and ready on the open document's signature page. Warm low side light rakes across the blueprint's fine lines and the document's paper grain, shallow depth of field, calm and confident mood, no visible faces, only the hand and the desk, no logo.
 
 Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
 "NORDINDSIGT"
 "Link i bio"</div>
-<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="lbl brand">Анимация (действие + лёгкое движение камеры поверх него)</div>
 <div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
 
-Scene action over 8 seconds: the hand sets the magnifying glass down fully on the desk, then reaches to pick up the pen, uncaps or readies it, and lowers it toward the document's signature line, stopping just before making contact — a confident, resolved transition from inspection to decision. Warm side light holds steady, shallow depth of field, gentle continuous motion, no camera shake. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
+Scene action over 8 seconds: the hand sets the magnifying glass down fully on the desk beside the blueprint with a soft definite motion, then crosses to pick up the pen, turning it once between the fingers to ready it, and lowers it toward the document's signature line, stopping a hair's breadth before making contact — a confident, resolved transition from inspection to decision. Warm side light holds steady, faint shadow travelling with the hand's movement across the blueprint's lines. Layered on top of the action: a slow rack focus shifting from the blueprint's fine detail to the pen tip as it approaches the signature line, with a subtle accompanying push-in. Shallow depth of field, gentle continuous motion, no camera shake. Silent ambient with a suggested faint pen-cap click, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 
 <div class="outro" id="outro-e">
 <div class="outro-h"><span class="outro-badge">Концовка E</span><span class="outro-title">Свет зажигается в окне</span></div>
 <div class="outro-why">Единственная широкая/пейзажная — кинематографичный финал для флагманских/итоговых рилов, но с настоящим событием (свет включается), а не просто дрейфом камеры.</div>
 <div class="lbl">Стилл (текст печём здесь)</div>
-<div class="prompt">Photorealistic wide shot of a small Danish town rooftop skyline at dusk, muted warm and navy tones, most windows dark, one window on a modest house just beginning to glow with the first warm light of evening, calm and settling mood, no text, no logo, no people.
+<div class="prompt">Photorealistic wide shot of a small Danish town rooftop skyline at dusk, red-tiled and black-slate roofs layered against a deepening navy sky, a thin band of warm amber still clinging to the horizon, most windows dark, one small window on a modest terracotta-brick house in the middle distance just beginning to glow with the first warm light of evening, a chimney trailing a faint wisp of smoke nearby, muted warm and navy tones throughout, calm and settling mood, no logo, no people.
 
 Typography treatment: render the exact two-line text below, verbatim, no other words. Line 1 large and bold, line 2 smaller directly beneath it — both bold modern geometric sans-serif (like Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge — no rectangular box, no hard edges, no white background panel. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
 "NORDINDSIGT"
 "Link i bio"</div>
-<div class="lbl brand">Анимация (действие, не эффект)</div>
+<div class="lbl brand">Анимация (действие + лёгкое движение камеры поверх него)</div>
 <div class="prompt brand">Starting frame: use the exact reference image above as the first frame, including the wordmark exactly as shown — keep it perfectly stable and legible for the entire duration, do not distort or regenerate it.
 
-Scene action over 8 seconds: the one window's light gradually brightens from a dim glow to a full warm light as dusk deepens around it, as if someone has just settled in for the evening; a very slow lateral drift of the camera accompanies the light change, the rest of the skyline staying calm and dark. Silent ambient, no dialogue, no additional text beyond the wordmark already in frame.</div>
+Scene action over 8 seconds: the one window's light gradually brightens from a dim glow to a full warm light as dusk deepens around it, as if someone has just settled in for the evening; the thin band of amber on the horizon fades slowly toward navy, the chimney's wisp of smoke drifting and dispersing gently in the still evening air. Layered on top of the light change: a very slow lateral drift of the camera across the skyline, with the faintest parallax between the nearer rooftops and the glowing window beyond, the rest of the skyline staying calm and dark. Silent ambient with a suggested distant faint evening quiet, no dialogue, no additional text beyond the wordmark already in frame.</div>
 </div>
 </div>
 
@@ -278,189 +278,309 @@ Scene action over 8 seconds: the one window's light gradually brightens from a d
 <div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Sælgeren svarede "nej" i spørgeskemaet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>To uafhængige rapporter sagde noget andet.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid svar og rapport.</td></tr></table>
 </div></div>
 
-<div class="item" id="r4"><div class="item-band"><span class="item-num">Рил 04</span><span class="item-title">Andelsbolig: lav pris ≠ billig</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
-<div class="why">Ядро новой темы andelsbolig. Ведёт на статью viden-andelsbolig.</div>
+<div class="item" id="r4"><div class="item-band"><span class="item-num">Рил 04</span><span class="item-title">Andelsbolig: lav pris ≠ billig</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
+<div class="why">Ядро новой темы andelsbolig. Ведёт на статью viden-andelsbolig. Первый рил нового стандарта — текст в стилле, реальное действие в анимации.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Ценник крупно</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a small paper price tag tied with string resting on a wooden table beside a modern Danish apartment building keychain, soft warm window light, shallow depth of field, calm mood, no readable numbers, no text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in on the price tag as it gently rotates on its string, warm light shifting softly, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a small paper price tag tied with string, resting on a wooden table beside a modern Danish apartment building keychain and a single house-shaped miniature charm, soft warm window light from the left, shallow depth of field, calm mood, no readable numbers on the tag itself, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Prisen på en andelsbolig er ikke en ejerboligs pris."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: a hand enters from the right and gently lifts the price tag by its string, letting it swing and settle while turning slightly to catch the light differently on its blank face; the keychain beside it sways faintly from the movement of the table. Warm window light holds steady, shallow depth of field, calm unhurried pacing, small additional slow push-in layered on top of the hand's motion. Silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Календарь платежей</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of a wall calendar and a small stack of identical envelopes fanned out on a desk, suggesting recurring monthly payments, warm morning light, soft shadows, shallow depth of field, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow overhead push-in as the fanned envelopes are gently revealed one by one by shifting light, calm rhythmic pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic overhead of a wall calendar mounted above a desk and a small stack of identical envelopes fanned out below it, suggesting recurring monthly payments, warm morning light from a side window, soft shadows, shallow depth of field, no readable text on calendar or envelopes, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Den rigtige udgift er boligafgiften — og fælleslånet bag den."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: a hand reaches in from below and slowly slides one more identical envelope into the fanned stack, nudging the others slightly apart to make room, then withdraws; morning light shifts subtly across the calendar as if a cloud passed outside. Slow overhead drift accompanies the hand's motion. Calm rhythmic pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Передача: подпись, потом ключи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Den rigtige udgift er boligafgiften — og fælleslånet bag den.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Læs regnskabet, ikke kun prisen.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen på en andelsbolig er ikke en ejerboligs pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Den rigtige udgift er boligafgiften — og fælleslånet bag den.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Læs regnskabet, ikke kun prisen.</td></tr></table>
 </div></div>
 
-<div class="item" id="r5"><div class="item-band"><span class="item-num">Рил 05</span><span class="item-title">Samme pris, tre virkeligheder</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r5"><div class="item-band"><span class="item-num">Рил 05</span><span class="item-title">Samme pris, tre virkeligheder</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Три andelsbolig одной цены — три разных ежемесячных мира.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Три одинаковых ключа</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of three identical apartment keys laid in a row on a wooden surface, each with a small blank paper tag, warm even light, soft shadows, shallow depth of field, minimal, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow overhead lateral pan across the three keys, warm light gliding over each in turn, calm even pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic overhead of three identical apartment keys laid in a row on a wooden surface, each with a small blank paper tag, warm even light, soft shadows, shallow depth of field, minimal, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Tre andelsboliger. Næsten samme pris."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: a hand enters and slowly turns the middle key over on the surface, revealing its blank tag was face-down, then sets it back parallel to the others; the two outer keys stay motionless, light glints briefly off the metal as it turns. Very slow overhead lateral drift accompanies the motion. Calm even pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Три стопки разной высоты</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic flat-lay of three neat stacks of paper documents of clearly different heights on a wooden desk, warm natural light, soft shadows, one tall, one medium, one short, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in across the three stacks emphasizing the height difference as light rakes over them, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic flat-lay of three neat stacks of paper documents of clearly different heights on a wooden desk, warm natural light, soft shadows, one tall, one medium, one short, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Én bærer en tung skjult gæld. Én er sund."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: a hand places one more sheet on top of the tallest stack, causing it to visibly grow and tilt very slightly under the added weight while the other two stacks stay untouched; natural window light rakes gently across all three as the hand withdraws. Slow push-in layered on top. Calm pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — От лупы к подписи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Tre andelsboliger. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Forskellen ses i regnskabet.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Tre andelsboliger. Næsten samme pris.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Én bærer en tung skjult gæld. Én er sund.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Forskellen ses i regnskabet.</td></tr></table>
 </div></div>
 
-<div class="item" id="r6"><div class="item-band"><span class="item-num">Рил 06</span><span class="item-title">Den tomme olietank i haven</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r6"><div class="item-band"><span class="item-num">Рил 06</span><span class="item-title">Den tomme olietank i haven</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Очень конкретный скрытый риск. Ведёт на статью viden-skjulte-udgifter.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Люк бака в траве</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an old rusted metal tank cap/lid set into a grassy garden lawn, partly overgrown, soft overcast daylight, shallow depth of field, quiet ominous mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Very slow push-in toward the rusted tank cap as a breeze moves the grass gently around it, quiet foreboding pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of an old rusted metal tank cap/lid set into a grassy garden lawn, partly overgrown, soft overcast daylight, shallow depth of field, quiet ominous mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"En tømt olietank i haven. Lukket af — men ikke fjernet."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: a hand reaches in and brushes overgrown grass aside from the tank cap, revealing more of the rusted rim underneath, then withdraws; a breeze moves the surrounding grass continuously. Slow push-in layered on top of the hand's motion. Quiet foreboding pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Дом на заднем плане</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of a calm older Danish villa garden at dusk, the tank cap small in the foreground grass, the house softly lit behind, warm evening light, shallow depth of field, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow tilt up from the tank cap in the grass to the softly lit house behind, warm evening light steady, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Печать на документе</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic wide shot of a calm older Danish villa garden at dusk, the tank cap small in the foreground grass, the house behind with one ground-floor window still dark, warm fading evening light, shallow depth of field, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Selv en tom tank kan korrodere med tiden."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the dark ground-floor window of the house slowly begins to glow with warm interior light as dusk deepens, as if someone switched on a lamp inside; the tank cap in the foreground stays in shadow and untouched. Slow tilt up from the cap to the house accompanies the light change. Calm pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Отчёт закрывается и передаётся</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку B.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Selv en tom tank kan korrodere med tiden.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om status og dato.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>En tømt olietank i haven. Lukket af — men ikke fjernet.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Selv en tom tank kan korrodere med tiden.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om status og dato.</td></tr></table>
 </div></div>
 
-<div class="item" id="r7"><div class="item-band"><span class="item-num">Рил 07</span><span class="item-title">Et servitut fra 1930</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r7"><div class="item-band"><span class="item-num">Рил 07</span><span class="item-title">Et servitut fra 1930</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">«Økonomiske forpligtelser, se akt» — паттерн в двух домах.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Старый акт под лупой</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic macro close-up of a magnifying glass held over an old yellowed paper document with an official stamp, warm raking side light emphasizing paper texture, shallow depth of field, no readable text, no logo, calm precise mood.</div>
-<div class="lbl">Анимация</div><div class="prompt">The magnifying glass moves slowly across the old document, the stamp drifting into and out of magnified focus, calm investigative pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic macro close-up of a magnifying glass held just above an old yellowed paper document with an official stamp, a hand's fingers visible holding the handle, warm raking side light emphasizing paper texture, shallow depth of field, no readable text, no logo, calm precise mood.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Indeholder økonomiske forpligtelser, se akt."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slowly moves the magnifying glass sideways across the document, the old stamp swelling into sharp magnified focus as the glass passes directly over it, then shrinking back as the glass continues past. Calm investigative pacing, a slight accompanying push-in, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Стопка исторических бумаг</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a small stack of aged legal documents tied with faded ribbon on a dark wooden desk, warm low light, shallow depth of field, archival mood, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the ribboned stack as warm light slowly brightens across it, calm archival pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a small stack of aged legal documents tied with a faded ribbon on a dark wooden desk, a hand resting on the bow of the ribbon as if about to untie it, warm low light, shallow depth of field, archival mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"De færreste får den akt læst."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slowly pulls one loop of the ribbon loose, loosening the bow just enough that the top pages fan open slightly on their own from released tension, then the hand pauses, resting beside the stack. Warm low light holds steady, slow push-in layered on top. Calm archival pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — От лупы к подписи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D (тематически рифмуется — та же лупа).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>De færreste får den akt læst.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om det fulde dokument.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Indeholder økonomiske forpligtelser, se akt."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>De færreste får den akt læst.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed altid om det fulde dokument.</td></tr></table>
 </div></div>
 
-<div class="item" id="r8"><div class="item-band"><span class="item-num">Рил 08</span><span class="item-title">Privat vand — ikke kommunens</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r8"><div class="item-band"><span class="item-num">Рил 08</span><span class="item-title">Privat vand — ikke kommunens</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Частное водоснабжение = своё ответственность и расходы.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Кран, капля</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic macro close-up of an older kitchen tap with a single water drop about to fall, soft daylight from a window, shallow depth of field, calm domestic mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">The water drop slowly swells and falls once in gentle slow motion, ripples briefly, calm quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic macro close-up of an older kitchen tap with a single water drop about to fall, soft daylight from a window, shallow depth of field, calm domestic mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Privat vandforsyning — ikke kommunens vand."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the water drop slowly swells at the tap's mouth, stretches, and falls, striking the basin below with a small splash and expanding ripple; a second drop begins forming immediately after. Daylight holds steady, very slight push-in layered on top. Calm quiet pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Насос/скважина в хозблоке</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a private water pump and pipes in a dim rural utility room, warm single light source, shallow depth of field, mechanical but calm mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the pump as the single warm light flickers very slightly, calm mechanical mood, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a private water pump and pipes in a dim rural utility room, a hand resting on a small pressure gauge or valve beside the pump, warm single light source, shallow depth of field, mechanical but calm mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Eget ansvar for pumpe, test og fremtidige reparationer."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slowly turns the small valve or gauge dial a quarter turn, a faint mechanical hum vibration implied by a subtle tremor in the pipe, the single light source flickers very slightly as if drawing power. Slow push-in accompanies the hand's motion. Calm mechanical mood, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Передача: подпись, потом ключи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om anlæggets alder.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Privat vandforsyning — ikke kommunens vand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Eget ansvar for pumpe, test og fremtidige reparationer.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Spørg om anlæggets alder.</td></tr></table>
 </div></div>
 
-<div class="item" id="r9"><div class="item-band"><span class="item-num">Рил 09</span><span class="item-title">«??» i dokumentet</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r9"><div class="item-band"><span class="item-num">Рил 09</span><span class="item-title">«??» i dokumentet</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Небрежная salgsopstilling — сам документ как red flag.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Пустое поле в форме</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a printed form on a desk with one field left conspicuously blank, a pen resting beside it, warm side light, shallow depth of field, quiet mood drawing the eye to the empty field, no readable text elsewhere, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the blank field on the form, the pen still beside it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a printed form on a desk with one field left conspicuously blank, a pen resting beside it, warm side light, shallow depth of field, quiet mood drawing the eye to the empty field, no readable text elsewhere, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Feltet "forsikring hos" var udfyldt med "??"."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the pen is slowly picked up by a hand entering frame, hovers over the blank field as if about to write, taps down once lightly without leaving a mark, then is set back down beside the field. Quiet pacing, small accompanying push-in, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Рука листает небрежные страницы</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a hand flipping through a slightly messy printed property document on a desk, warm daylight, shallow depth of field, calm but scrutinizing mood, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">The hand slowly flips one page, pauses, focus holds on the paper, calm scrutinizing pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Печать на документе</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a hand flipping through a slightly messy printed property document on a desk, warm daylight, shallow depth of field, calm but scrutinizing mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Et sjusket dokument er i sig selv et signal."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slowly flips one page over, it settles unevenly and slightly crooked against the stack below, the hand pauses holding the corner as if noticing the sloppiness, then releases it. Calm scrutinizing pacing, focus holds steady on the paper, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка B — Отчёт закрывается и передаётся</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку B (контраст: небрежный документ → мы делаем аккуратно).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Et sjusket dokument er i sig selv et signal.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Tjek tallene direkte.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Feltet "forsikring hos" var udfyldt med "??".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Et sjusket dokument er i sig selv et signal.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Tjek tallene direkte.</td></tr></table>
 </div></div>
 
-<div class="item" id="r10"><div class="item-band"><span class="item-num">Рил 10</span><span class="item-title">60% over vurderingen</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r10"><div class="item-band"><span class="item-num">Рил 10</span><span class="item-title">60% over vurderingen</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Крупнейший разрыв цены и оценки — с нюансом «ремонт завершён после даты vurdering».</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Две бумаги с разными цифрами</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of two official-looking documents side by side on a desk, one clearly newer and crisp, one older and slightly faded, warm daylight, shallow depth of field, calm analytical mood, no readable numbers, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow overhead push-in between the two documents, light shifting from the older to the newer one, calm analytical pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic overhead of two official-looking documents side by side on a desk, one clearly newer and crisp, one older and slightly faded, a hand resting near the edge of the newer one, warm daylight, shallow depth of field, calm analytical mood, no readable numbers, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Prisen lå markant over den offentlige vurdering."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slowly slides the newer, crisper document a few centimeters to overlap the corner of the older, faded one, as if placing them for direct comparison, then withdraws; daylight holds steady. Slight accompanying push-in. Calm analytical pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Свежеотремонтированный интерьер</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium shot of a freshly renovated bright Danish living room interior, clean new surfaces, warm afternoon light through large windows, shallow depth of field, calm mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow gentle pan across the renovated interior as warm light moves over the new surfaces, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Городок в сумерках</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium shot of a freshly renovated bright Danish living room interior, clean new surfaces, warm afternoon light through large windows, dust motes visible in a sunbeam, shallow depth of field, calm mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Fordi renoveringen blev færdig EFTER vurderingsdatoen."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the sunbeam through the window slowly shifts angle and warms in tone as if time is passing quickly, dust motes drifting visibly through the light, the shadow cast by the window frame creeping slowly across the new floor. Slow gentle pan layered on top. Calm pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Свет зажигается в окне</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку E.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen lå markant over den offentlige vurdering.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om en frisk vurdering.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Prisen lå markant over den offentlige vurdering.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Fordi renoveringen blev færdig EFTER vurderingsdatoen.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om en frisk vurdering.</td></tr></table>
 </div></div>
 
-<div class="item" id="r11"><div class="item-band"><span class="item-num">Рил 11</span><span class="item-title">«Ca. 8-10.000 om året» — på hvis ord?</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r11"><div class="item-band"><span class="item-num">Рил 11</span><span class="item-title">«Ca. 8-10.000 om året» — på hvis ord?</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Расход на отопление «со слов продавца», а не по счётчику.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Пеллетный котёл в хозблоке</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an older pellet boiler in a dim utility outbuilding, warm glow from a small opening, shallow depth of field, mechanical calm mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the boiler as the warm glow from the opening pulses very gently, calm mechanical pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of an older pellet boiler in a dim utility outbuilding, a small viewing window glowing from the flame inside, shallow depth of field, mechanical calm mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Ca. 8-10.000 kr om året på piller."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the flame visible through the small viewing window flares up briefly as unseen pellets drop into the burner, then settles back to a steady glow; a faint mechanical auger sound is implied by a subtle rhythmic vibration in the metal casing. Slow push-in accompanies the flame's motion. Calm mechanical pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Пустая рука vs счёт</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of an open empty hand on one side and a single utility invoice lying on a desk on the other, warm side light, shallow depth of field, calm questioning mood, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Focus racks slowly from the open empty hand to the invoice on the desk, calm questioning pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Дверь приоткрывается</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of an open empty hand on one side and a single utility invoice lying on a desk on the other, warm side light, shallow depth of field, calm questioning mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Sælgers ord — ikke en aflæst måler."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the open hand slowly closes into a loose fist, as if closing around nothing, while the invoice on the desk is gently nudged an inch closer by a slight draft or unseen second hand, its edge lifting and settling once. Focus racks slowly between the two. Calm questioning pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Ключ вешается на крючок</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку C.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Sælgers ord — ikke en aflæst måler.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om de faktiske regninger.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>"Ca. 8-10.000 kr om året på piller."</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Sælgers ord — ikke en aflæst måler.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Bed om de faktiske regninger.</td></tr></table>
 </div></div>
 
-<div class="item" id="r12"><div class="item-band"><span class="item-num">Рил 12</span><span class="item-title">Renoveret 2024 — men ikke i BBR</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r12"><div class="item-band"><span class="item-num">Рил 12</span><span class="item-title">Renoveret 2024 — men ikke i BBR</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">«Nyrenoveret» в рекламе, но в BBR ремонт не зарегистрирован.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Новый фасад</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium shot of a freshly renovated Danish house facade, clean new render and windows, warm afternoon light, shallow depth of field, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow gentle pan across the fresh facade as warm light glides over it, calm pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium shot of a freshly renovated Danish house facade, clean new render and windows, warm afternoon light, a tree branch with leaves visible at the frame edge, shallow depth of field, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Annoncen: "totalrenoveret i 2024"."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the tree branch at the frame edge sways in a light breeze, its reflection shifting faintly in the new window glass; a brief soft glint of sunlight passes across the clean render as clouds move overhead. Slow gentle pan layered on top. Calm pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Официальный реестр на экране</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a laptop on a desk showing a generic blurred official register table (no readable text), a hand resting near the trackpad, warm indoor light, shallow depth of field, calm administrative mood, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the laptop screen as a cursor moves slowly down the blurred register rows, calm administrative pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — Отъезд от лупы</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a laptop on a desk showing a generic blurred official register table (no readable text), a hand resting on the trackpad, warm indoor light, shallow depth of field, calm administrative mood, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"BBR: "år for renovering — ikke angivet"."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand's finger moves on the trackpad, the blurred rows on screen scroll slowly downward as if searching, then stop and hold on one row that stays blank where a date would be. Slow push-in toward the screen accompanies the scroll. Calm administrative pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка D — От лупы к подписи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку D.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Annoncen: "totalrenoveret i 2024".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>BBR: "år for renovering — ikke angivet".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid de to.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Annoncen: "totalrenoveret i 2024".</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>BBR: "år for renovering — ikke angivet".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Sammenhold altid de to.</td></tr></table>
 </div></div>
 
-<div class="item" id="r13"><div class="item-band"><span class="item-num">Рил 13</span><span class="item-title">Nul røde. Nul gule. Findes det?</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r13"><div class="item-band"><span class="item-num">Рил 13</span><span class="item-title">Nul røde. Nul gule. Findes det?</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Зелёный баланс серии — реально чистый профиль. Строит доверие.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Чистый отчёт, галочки</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a neat inspection report on a desk with a series of small clean checkmarks down the margin, warm bright morning light, shallow depth of field, calm reassuring mood, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in down the margin of checkmarks as bright morning light warms the paper, calm reassuring pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a neat inspection report on a desk with a series of small clean checkmarks down the margin, a hand's fingertip resting beside the topmost checkmark, warm bright morning light, shallow depth of field, calm reassuring mood, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Nul røde. Nul gule fund. Ren elrapport."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the fingertip slowly traces down the margin, pausing briefly beside each checkmark in turn as if confirming it, bright morning light warming the paper steadily. Small accompanying push-in follows the finger's path. Calm reassuring pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Светлый ухоженный дом</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of a tidy well-kept Danish family house in soft bright daylight, calm and solid, shallow depth of field on the foreground, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow gentle push-in toward the calm house as bright daylight holds steady, reassuring pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Ключи в луче света</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic wide shot of a tidy well-kept Danish family house in soft bright daylight, a lace curtain visible in an open window, calm and solid, shallow depth of field on the foreground, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Det findes — vi roser det, når vi ser det."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the lace curtain in the open window stirs and lifts gently in a light breeze, settling back down once, bright daylight holding steady across the facade. Slow gentle push-in layered on top. Reassuring pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка A — Передача: подпись, потом ключи</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку A (самая тёплая — подходит зелёному настроению).</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Det findes — vi roser det, når vi ser det.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Ikke alt er et rødt flag.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Nul røde. Nul gule fund. Ren elrapport.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Det findes — vi roser det, når vi ser det.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Ikke alt er et rødt flag.</td></tr></table>
 </div></div>
 
-<div class="item" id="r14"><div class="item-band"><span class="item-num">Рил 14</span><span class="item-title">Regningen, mægleren kalder «uvedkommende»</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r14"><div class="item-band"><span class="item-num">Рил 14</span><span class="item-title">Regningen, mægleren kalder «uvedkommende»</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Сепарация канализации — будущая обязанность владельца.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Дренаж/люк на улице</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic medium close-up of a street drain grate and a nearby sewer manhole cover on wet pavement after rain, soft overcast light, shallow depth of field, quiet urban mood, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow push-in toward the drain as a thin trickle of rainwater runs into it, quiet pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic medium close-up of a street drain grate and a nearby sewer manhole cover on wet pavement, the first drops of rain just beginning to fall, soft overcast light, shallow depth of field, quiet urban mood, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Kommunen kan kræve separat regn- og spildevand."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: rain intensifies from a few scattered drops to a steady light shower, individual drops visibly striking the wet pavement and rippling, a thin stream of water begins running into the drain grate. Slow push-in accompanies the rain's build-up. Quiet pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Дом и небо перед дождём</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic wide shot of an older Danish house under a heavy grey pre-rain sky, calm but tense atmosphere, soft diffuse light, shallow depth of field, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow tilt up from the house to the heavy grey sky as clouds drift, calm tense pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Дверь приоткрывается</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic wide shot of an older Danish house under a heavy grey pre-rain sky, a tree in the foreground with leaves just beginning to move, calm but tense atmosphere, soft diffuse light, shallow depth of field, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Mægleren kalder regningen "uvedkommende"."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the wind picks up visibly, the foreground tree's leaves and branches swaying more with each passing second, heavy grey clouds drifting faster overhead as the pressure builds toward rain. Slow tilt up from tree to sky accompanies the movement. Calm tense pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка C — Ключ вешается на крючок</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку C.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Mægleren kalder regningen "uvedkommende".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Men den lander hos dig.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>Kommunen kan kræve separat regn- og spildevand.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Mægleren kalder regningen "uvedkommende".</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Men den lander hos dig.</td></tr></table>
 </div></div>
 
-<div class="item" id="r15"><div class="item-band"><span class="item-num">Рил 15</span><span class="item-title">Isbjerget af skjulte udgifter</span><span class="item-meta">3 клипа · ~24 сек</span></div><div class="item-body">
+<div class="item" id="r15"><div class="item-band"><span class="item-num">Рил 15</span><span class="item-title">Isbjerget af skjulte udgifter</span><span class="item-meta">3 клипа · ~24 сек · текст впечатан</span></div><div class="item-body">
 <div class="why">Обобщающий финал серии, тизер статьи viden-skjulte-udgifter.</div>
 <div class="cards">
 <div class="card"><div class="card-h"><span class="card-b">Клип 1</span><span class="card-t">Красивое фото дома</span><span class="card-dur">0:00–0:08</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic warm inviting shot of a Danish house exterior at golden hour, looking like a perfect listing photo, shallow depth of field, no text, no logo, no people.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow gentle push-in on the beautiful house in golden light, calm inviting pacing, silent ambient, no text, no dialogue, no captions.</div></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic warm inviting shot of a Danish house exterior at golden hour, looking like a perfect listing photo, a single leaf drifting in the foreground air, shallow depth of field, no logo, no people.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"De fleste overraskelser er ikke selve prisen."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the leaf drifts slowly downward and sideways across the foreground in a light breeze, golden hour light glinting off it as it falls, the house behind stays warm and steady. Slow gentle push-in layered on top of the leaf's fall. Calm inviting pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
 <div class="card"><div class="card-h"><span class="card-b">Клип 2</span><span class="card-t">Стол с разными документами</span><span class="card-dur">0:08–0:16</span></div>
-<div class="lbl">Стилл</div><div class="prompt">Photorealistic overhead of a wooden desk covered with many different property documents spread out, warm side light, shallow depth of field, no readable text, no logo.</div>
-<div class="lbl">Анимация</div><div class="prompt">Slow overhead pull-back revealing more and more documents around the edges of the frame, calm accumulating pacing, silent ambient, no text, no dialogue, no captions.</div></div>
-<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Городок в сумерках</span><span class="card-dur">0:16–0:24</span></div>
+<div class="lbl">Стилл (текст печём здесь)</div><div class="prompt">Photorealistic overhead of a wooden desk covered with many different property documents spread out, a hand entering the frame edge placing one more sheet down, warm side light, shallow depth of field, no readable text, no logo.
+
+Typography treatment: render the exact text below, verbatim, no other words. Bold modern geometric sans-serif (similar to Söhne or Geist), tight letter-spacing, warm cream color (#F3ECDD), set inside the bottom fifth of the frame over a soft dark gradient scrim fading smoothly from fully transparent to 70% navy (#0F1E30) only at the very bottom edge. NEGATIVE — do not render: a solid white rectangle, a plain color caption card, a chat-bubble or sticker-style subtitle, any hard-edged box around the text.
+"Olietank. Servitut. Privat vand. Separatkloak."</div>
+<div class="lbl">Анимация (реальное действие, не только камера)</div><div class="prompt">Starting frame: use the exact reference image above as the first frame, including the caption exactly as shown — keep it perfectly stable and legible in the same position for the entire duration, do not distort or regenerate it.
+
+Scene action over 8 seconds: the hand slides one more document into place among the spread papers, nudging two others slightly apart to fit it, then withdraws out of frame; warm side light holds steady across the growing spread. Slow overhead pull-back reveals slightly more of the desk as the hand withdraws. Calm accumulating pacing, silent ambient, no dialogue, no additional text beyond the caption already in frame.</div></div>
+<div class="card"><div class="card-h"><span class="card-b out">Клип 3</span><span class="card-t">Концовка E — Свет зажигается в окне</span><span class="card-dur">0:16–0:24</span></div>
 <div class="reuse"><b>Переиспользуй</b>концовку E — самая масштабная, под финал серии.</div></div>
 </div>
-<div class="subhd">Субтитры</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>De fleste overraskelser er ikke selve prisen.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Vi finder dem, før du byder.</td></tr></table>
+<div class="subhd">Субтитры (бэкап-референс — текст уже впечатан в стилл)</div><table class="subs"><tr><th>Тайм</th><th>Клип</th><th>Текст</th></tr><tr><td class="tc">0:00–0:08</td><td>1</td><td>De fleste overraskelser er ikke selve prisen.</td></tr><tr><td class="tc">0:08–0:16</td><td>2</td><td>Olietank. Servitut. Privat vand. Separatkloak.</td></tr><tr><td class="tc hl">0:16–0:24</td><td>3 (концовка)</td><td>Vi finder dem, før du byder.</td></tr></table>
 </div></div>
 
 </div>
 
 <div class="callout"><b>Итого:</b> генерируешь 5 концовок (10 картинок: стилл+анимация × 5) ОДИН РАЗ, дальше только меняешь клип 3 в каждом из 15 рилов на нужный вариант по таблице выше плюс накладываешь свою финальную строку. Это резко меньше работы, чем 15 уникальных концовок — и даёт узнаваемость: зритель, увидев концовку 2-3 раза, начинает ассоциировать её с брендом ещё до текста.</div>
 
-<footer>NordIndsigt · Reels v2 · 22.07.2026 · Заменяет предыдущую версию reels-library.html</footer>
+<footer>NordIndsigt · Reels v3 · 22.07.2026 · Рилы 04-15 переделаны: текст впечатан в стилл, анимация — реальное действие + 5 концовок углублены</footer>
 </div>
