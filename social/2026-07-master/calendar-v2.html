@@ -1,0 +1,420 @@
+<title>NordIndsigt — Календарь v2 (30 постов/рилов) + подписи FB</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --green:#3D7A4F; --red:#B4483A; --neutral:#8A7B4E; --loc:#5A6B7A;
+  --disp: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono: ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--red:#E0776A;--neutral:#C9B876;--loc:#8FA6B8;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--red:#E0776A;--neutral:#C9B876;--loc:#8FA6B8;}
+:root[data-theme="light"]{--paper:#FAF7F1;--card:#FFFFFF;--ink:#18222E;--ink2:#4F5C6B;--muted:#7C8895;--line:#E4DBC9;--rust:#C4533F;--rust-deep:#9E4030;--gold:#C0863F;--mono-bg:#F1ECE0;--mono-ink:#2B3542;--tag-bg:#EFE6D6;--tag-ink:#8A5A22;--green:#3D7A4F;--red:#B4483A;--neutral:#8A7B4E;--loc:#5A6B7A;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:840px;margin:0 auto;padding:0 22px 110px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px 0}
+.top-inner{max-width:840px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.top .brand{font-family:var(--disp);font-weight:600;font-size:16px;color:var(--ink);white-space:nowrap}
+.top .brand b{color:var(--rust)}
+.top nav{display:flex;gap:3px;overflow-x:auto;scrollbar-width:none}
+.top nav a{font-size:11.5px;color:var(--ink2);text-decoration:none;padding:5px 9px;border-radius:100px;white-space:nowrap}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:46px 0 20px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:14px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 16px;text-wrap:balance}
+.lead{font-size:16px;color:var(--ink2);max-width:660px;margin:0 0 6px}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+.callout{background:var(--tag-bg);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin:20px 0;font-size:14px;color:var(--ink2)}
+.callout b{color:var(--ink)}
+
+.big-sec{margin:46px 0}
+h2.sec{font-family:var(--disp);font-size:24px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0 0 8px;scroll-margin-top:64px}
+.sec-intro{font-size:14px;color:var(--ink2);max-width:660px;margin-bottom:20px}
+
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin-bottom:14px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.dot.red{background:var(--red)}
+.dot.green{background:var(--green)}
+.dot.neutral{background:var(--neutral)}
+
+.cal{width:100%;border-collapse:collapse;font-size:13.5px}
+.cal th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+.cal td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.cal td.date{font-family:var(--mono);color:var(--ink);white-space:nowrap;font-weight:600}
+.cal td.type{font-family:var(--mono);font-size:10.5px;font-weight:700;white-space:nowrap}
+.cal td.type.post{color:var(--fb,#3B5A85)}
+.cal td.type.reel{color:#8A5A6B}
+.cal td.title{color:var(--ink)}
+.cal tr.wk-start td{border-top:2px solid var(--gold)}
+
+.postcard{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:0;margin-bottom:22px;scroll-margin-top:70px;overflow:hidden}
+.post-band{padding:18px 24px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.post-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.post-title{font-family:var(--disp);font-size:17.5px;font-weight:600;color:var(--ink)}
+.post-meta{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.post-body{padding:18px 24px 22px}
+.blockhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.blocklabel{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.copy-btn{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--line);color:var(--ink2);padding:4px 10px;border-radius:100px;cursor:pointer;transition:background .15s,color .15s}
+.copy-btn:hover{background:var(--tag-bg);color:var(--ink)}
+.copy-btn.copied{color:#2B6B3C;border-color:#2B6B3C}
+:root[data-theme="dark"] .copy-btn.copied{color:#7FCB93;border-color:#7FCB93}
+.capblock{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:14.5px;color:var(--ink);white-space:pre-wrap;margin-bottom:10px;user-select:text;border-left:3px solid var(--gold)}
+.locline{font-size:12.5px;color:var(--loc);font-style:italic;padding:2px 2px 0}
+.locline b{font-style:normal;font-family:var(--mono);text-transform:uppercase;font-size:9.5px;letter-spacing:.04em;color:var(--loc);margin-right:6px}
+
+footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+</style>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand">Nord<b>Indsigt</b> · Календарь v2</div>
+    <nav><a href="#cal">Календарь</a><a href="#captions">Подписи FB</a></nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">30 единиц контента · 5 слотов в неделю · 6 недель</div>
+  <h1>Обновлённый календарь: 15 постов + 15 рилов</h1>
+  <p class="lead">С учётом 7 новых постов (case-package-2) добавлены пятница и суббота — теперь 5 слотов в неделю вместо 3: вс 11:00, вт 19:00, чт 19:00, пт 19:00, сб 11:00. Календарь на 6 недель, 26.07–05.09.2026. Тематически: каждая новая тема (andelsbolig, olietank, servitut, privat vand/kloak, vurdering/BBR, sjusk/varme) идёт как «рил-тизер → полный пост», старый кейс «To huse» ведёт открытие и закрытие серии.</p>
+  <div class="meta-row"><span><b>Постов:</b> 15</span><span><b>Рилов:</b> 15</span><span><b>Период:</b> 26.07–05.09.2026</span></div>
+</header>
+
+<div class="big-sec" id="cal">
+<h2 class="sec">Календарь публикаций</h2>
+<p class="sec-intro">Цвет точки = тон поста/рила: 🔴 красный (находка/риск), 🟢 зелёный (баланс/чистый профиль), 🟡 нейтральный (data/blind-spot/чек-лист).</p>
+<div class="legend"><span><i class="dot red"></i>красный</span><span><i class="dot green"></i>зелёный</span><span><i class="dot neutral"></i>нейтральный</span></div>
+<table class="cal">
+<tr><th>Дата</th><th>Время</th><th>Тип</th><th>Что</th><th>Тон</th></tr>
+<tr class="wk-start"><td class="date">Вс 26.07</td><td>11:00</td><td class="type post">Пост 1</td><td class="title">To huse, næsten samme pris</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Вт 28.07</td><td>19:00</td><td class="type reel">Рил 01</td><td class="title">To huse, samme pris</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Чт 30.07</td><td>19:00</td><td class="type post">Пост 2</td><td class="title">Ingen rapporter endnu</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Пт 31.07</td><td>19:00</td><td class="type reel">Рил 04</td><td class="title">Andelsbolig: lav pris ≠ billig (тизер)</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Сб 01.08</td><td>11:00</td><td class="type post">Пост 3</td><td class="title">Energimærket gjaldt ikke kun din bolig</td><td><i class="dot neutral"></i></td></tr>
+<tr class="wk-start"><td class="date">Вс 02.08</td><td>11:00</td><td class="type reel">Рил 06</td><td class="title">Den tomme olietank (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Вт 04.08</td><td>19:00</td><td class="type post">Пост 4</td><td class="title">Den tomme olietank i haven</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Чт 06.08</td><td>19:00</td><td class="type reel">Рил 02</td><td class="title">Billederne er ikke det, du får (тизер)</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Пт 07.08</td><td>19:00</td><td class="type post">Пост 5</td><td class="title">Billederne er ikke det, du får</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Сб 08.08</td><td>11:00</td><td class="type reel">Рил 05</td><td class="title">Samme pris, tre virkeligheder</td><td><i class="dot neutral"></i></td></tr>
+<tr class="wk-start"><td class="date">Вс 09.08</td><td>11:00</td><td class="type post">Пост 6</td><td class="title">Tre andelsboliger, næsten samme pris</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Вт 11.08</td><td>19:00</td><td class="type post">Пост 7</td><td class="title">Regningen, der endnu ikke har et beløb</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Чт 13.08</td><td>19:00</td><td class="type reel">Рил 07</td><td class="title">Et servitut fra 1930 (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Пт 14.08</td><td>19:00</td><td class="type post">Пост 8</td><td class="title">Et servitut fra dengang</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Сб 15.08</td><td>11:00</td><td class="type post">Пост 9</td><td class="title">Bevaringsværdig</td><td><i class="dot neutral"></i></td></tr>
+<tr class="wk-start"><td class="date">Вс 16.08</td><td>11:00</td><td class="type reel">Рил 08</td><td class="title">Privat vand (тизер)</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Вт 18.08</td><td>19:00</td><td class="type reel">Рил 14</td><td class="title">Separatkloakering (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Чт 20.08</td><td>19:00</td><td class="type post">Пост 10</td><td class="title">Privat vand, kommunal regning</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Пт 21.08</td><td>19:00</td><td class="type reel">Рил 03</td><td class="title">Sælgeren svarede «nej» (тизер)</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Сб 22.08</td><td>11:00</td><td class="type post">Пост 11</td><td class="title">Sælgeren svarede «nej»</td><td><i class="dot red"></i></td></tr>
+<tr class="wk-start"><td class="date">Вс 23.08</td><td>11:00</td><td class="type reel">Рил 13</td><td class="title">Nul røde. Nul gule (тизер)</td><td><i class="dot green"></i></td></tr>
+<tr><td class="date">Вт 25.08</td><td>19:00</td><td class="type post">Пост 12</td><td class="title">Nul røde. Nul gule. Findes det?</td><td><i class="dot green"></i></td></tr>
+<tr><td class="date">Чт 27.08</td><td>19:00</td><td class="type reel">Рил 10</td><td class="title">60% over vurderingen (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Пт 28.08</td><td>19:00</td><td class="type reel">Рил 12</td><td class="title">Renoveret, ikke BBR (тизер)</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Сб 29.08</td><td>11:00</td><td class="type post">Пост 13</td><td class="title">Prisen, vurderingen og BBR er ikke enige</td><td><i class="dot red"></i></td></tr>
+<tr class="wk-start"><td class="date">Вс 30.08</td><td>11:00</td><td class="type reel">Рил 09</td><td class="title">«??» i dokumentet (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Вт 01.09</td><td>19:00</td><td class="type reel">Рил 11</td><td class="title">Ca. 8-10.000 (тизер)</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Чт 03.09</td><td>19:00</td><td class="type post">Пост 14</td><td class="title">Sjuskede papirer, sælgers egne tal</td><td><i class="dot red"></i></td></tr>
+<tr><td class="date">Пт 04.09</td><td>19:00</td><td class="type post">Пост 15</td><td class="title">6 spørgsmål før du byder</td><td><i class="dot neutral"></i></td></tr>
+<tr><td class="date">Сб 05.09</td><td>11:00</td><td class="type reel">Рил 15</td><td class="title">Isbjerget af skjulte udgifter (финал)</td><td><i class="dot neutral"></i></td></tr>
+</table>
+<div class="callout"><b>Логика:</b> каждая новая тема из andelsbolig/villa-отчётов идёт рил(ы)-тизер(ы) → затем полный пост через 1-3 слота — как это уже работало для «Billederne»/«Sælgeren nej» в старом плане. Красные темы не стоят двумя постами подряд (между ними всегда нейтральный/зелёный слот), кроме случаев тизер+пост одной темы (это ожидаемо и ок). Пятница/суббота — новые слоты, без резкого выпадения из ритма (сб 11:00 — «утро выходного», пт 19:00 — «вечер перед выходными»).</div>
+</div>
+
+<div class="big-sec" id="captions">
+<h2 class="sec">Подписи FB — в порядке публикации, готовые к копированию</h2>
+<p class="sec-intro">Только текст поста + хэштеги в одном блоке — жми «Копировать», без вступления «Jeg arbejder på NordIndsigt...» и без длинных тире (заменены на точки/запятые). Строка с идеей геолокации — отдельно ниже блока, в копирование НЕ попадает.</p>
+
+<div class="postcard" id="cap-1">
+<div class="post-band"><span class="post-num">Пост 1 · Вс 26.07</span><span class="post-title">To huse, næsten samme pris</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c1">Копировать</button></div>
+<div class="capblock" id="c1">I en af vores testanalyser sammenlignede vi to boliger i samme by med næsten samme pris, under 10% fra hinanden. Den ene var et nybygget rækkehus, billigere pr. kvadratmeter. Den anden var et gennemrenoveret ældre byhus, med en tydelig præmie på prisen.
+
+Den offentlige vurdering pegede i hver sin retning for de to boliger: for den ene lå vurderingen over prisen, for den anden lå den markant under. Ingen af delene er en facitliste alene, men begge dele er spørgsmål værd at stille, før man byder.
+
+Samme kvadratmeter betyder ikke samme handel. Se dokumenterne, ikke kun billederne.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligsammenligning #offentligvurdering</div>
+<div class="locline"><b>Гео-идея</b>Odense, Kolding eller Vejle — mellemstor dansk by, ikke hovedstadsområdet.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-2">
+<div class="post-band"><span class="post-num">Пост 2 · Чт 30.07</span><span class="post-title">Ingen rapporter endnu</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c2">Копировать</button></div>
+<div class="capblock" id="c2">I en af vores testanalyser var både tilstandsrapport og elinstallationsrapport endnu ikke klar, da boligen blev annonceret. Det er helt lovligt, rapporterne skal foreligge, før købsaftalen underskrives, ikke nødvendigvis før annoncen går live.
+
+Men det betyder, at du på beslutningstidspunktet reelt overvejer et bud uden nogen uafhængig bekræftelse på boligens tekniske stand. Ikke et rødt flag i sig selv, men en god grund til at bede om forlænget accept-frist, til rapporterne er i hånden.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #elinstallation #byggesagkyndig</div>
+<div class="locline"><b>Гео-идея</b>Uden synlig adresse — generisk "dansk by" er fint her.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-3">
+<div class="post-band"><span class="post-num">Пост 3 · Сб 01.08</span><span class="post-title">Energimærket gjaldt ikke kun din bolig</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c3">Копировать</button></div>
+<div class="capblock" id="c3">I en af vores testanalyser var energimærket udstedt for en hel blok boliger samlet, ikke den enkelte bolig. Det fremhævede tal for varmeudgift dækkede alle enhederne tilsammen.
+
+Vi regnede den reelle andel om for netop den bolig, vores testanalyse kiggede på, tallet var markant anderledes end det, der stod med store bogstaver på forsiden.
+
+Et gyldigt energimærke er lovpligtigt, når en bolig sælges. Spørg altid: er mærket udstedt for DIN bolig, eller for hele bygningen?
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #energimærke #energimærkning</div>
+<div class="locline"><b>Гео-идея</b>Billedserie af en rækkehusblok — ingen specifik by nødvendig.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-4">
+<div class="post-band"><span class="post-num">Пост 4 · Вт 04.08</span><span class="post-title">Den tomme olietank i haven</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c4">Копировать</button></div>
+<div class="capblock" id="c4">I en af vores testanalyser fandt vi en afblændet olietank i haven, lukket af, men ikke fjernet fra grunden. Det er et mønster, vi ser jævnligt i ældre danske huse, der engang blev opvarmet med olie.
+
+En lukket tank lyder ufarligt. Men selv en tom tank kan korrodere med tiden, og fjernelse eller sanering er en regning, der før eller siden lander hos ejeren, ikke nødvendigvis den, der solgte huset videre.
+
+Spørg altid om status og dato for lukningen, før du byder. Det er en af de udgifter, en salgsopstilling sjældent fremhæver af sig selv.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #olietank #skjulteudgifter</div>
+<div class="locline"><b>Гео-идея</b>Villa i landzone, fx Jylland eller Fyn — passer bedst tematisk.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-5">
+<div class="post-band"><span class="post-num">Пост 5 · Пт 07.08</span><span class="post-title">Billederne er ikke det, du får</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c5">Копировать</button></div>
+<div class="capblock" id="c5">I en af vores testanalyser stod det sort på hvidt i salgsopstillingen, at boligen havde været lejet ud i flere år, men samtlige interiørbilleder viste helt tomme, pletfrie rum uden et eneste tegn på beboelse. Højst sandsynligt genbrugte marketingfotos fra opførelsesåret.
+
+Det betyder ikke, at noget er galt. Det betyder, at du endnu ikke har set, hvordan boligen faktisk ser ud lige nu. Bed altid om friske billeder eller en fysisk fremvisning, især når en bolig har været udlejet.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligannonce #boligsøgning</div>
+<div class="locline"><b>Гео-идея</b>Generisk — antyd evt. et udlejningsområde uden konkret by.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-6">
+<div class="post-band"><span class="post-num">Пост 6 · Вс 09.08</span><span class="post-title">Tre andelsboliger, næsten samme pris</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c6">Копировать</button></div>
+<div class="capblock" id="c6">I en af vores testanalyser sammenlignede vi tre andelsboliger til næsten samme pris. På papiret så de ens ud, samme kvadratmeter, samme prisniveau.
+
+Men prisen på en andelsbolig er ikke det samme som en ejerboligs pris. Den rigtige udgift er boligafgiften, og fælleslånet, foreningen allerede har optaget, bag den. Da vi så på regnskaberne, viste det sig: én af de tre foreninger bar en markant tungere gæld end de to andre. Samme pris i annoncen. Vidt forskellig økonomisk virkelighed bag den.
+
+Andelsbolig er ikke automatisk billigere eller dyrere end en ejerbolig, men den kræver, at man læser regnskabet, ikke kun prisskiltet.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #andelsbolig #boligafgift</div>
+<div class="locline"><b>Гео-идея</b>Storby med mange andelsboliger, fx København eller Aarhus.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-7">
+<div class="post-band"><span class="post-num">Пост 7 · Вт 11.08</span><span class="post-title">Regningen, der endnu ikke har et beløb</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c7">Копировать</button></div>
+<div class="capblock" id="c7">I en af vores testanalyser var boligejeren automatisk medlem af en grundejerforening med et erklæret fremtidigt ansvar for renovering af foreningens støttemure, uden at der forelå noget konkret budget for, hvornår eller hvor meget. Et obligatorisk medlemskab betyder, at du ikke kan fravælge dig ud af den regning, når den kommer.
+
+Samme bolig var dækket af en lovpligtig 10-årig byggeskadeforsikring mod skjulte konstruktionsfejl. Godt nyt: den løber stadig i flere år endnu. Mindre godt nyt, hvis man ikke tjekker det: dækningen forsvinder helt efter de 10 år, uanset hvem der ejer huset på det tidspunkt.
+
+Bed altid om foreningens seneste regnskab og referater fra generalforsamlinger, og tjek, hvor langt inde i byggeskadeforsikringens periode en "ny" bolig egentlig er, før du byder, ikke bagefter.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #ejerforening #boligøkonomi</div>
+<div class="locline"><b>Гео-идея</b>Nybygget rækkehuskvarter, gerne med generisk grundejerforening-skilt i baggrunden.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-8">
+<div class="post-band"><span class="post-num">Пост 8 · Пт 14.08</span><span class="post-title">Et servitut fra dengang</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c8">Копировать</button></div>
+<div class="capblock" id="c8">På grunde fra første halvdel af 1900-tallet ser vi jævnligt et tinglyst servitut med teksten "indeholder økonomiske forpligtelser, se akt." I en af vores testanalyser stod netop den sætning i ejendomsdatarapporten.
+
+Det kan være betalingsforpligtelser til vej, forsyning eller kloak, og det henviser til en akt fra dengang, de færreste køberne nogensinde får læst, fordi den ikke ligger fremme sammen med de øvrige salgspapirer.
+
+En sætning på én linje kan gemme på en forpligtelse, der følger med grunden i mange år frem. Bed altid om det fulde dokument, akten henviser til, ikke kun servituttens overskrift.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #servitut #ejendomsdata</div>
+<div class="locline"><b>Гео-идея</b>Ældre villa, byggeår 1920-30'erne, gerne uden for hovedstadsområdet.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-9">
+<div class="post-band"><span class="post-num">Пост 9 · Сб 15.08</span><span class="post-title">Bevaringsværdig</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c9">Копировать</button></div>
+<div class="capblock" id="c9">I en af vores testanalyser var boligen registreret som bevaringsværdig. Det betyder typisk, at ændringer af facade, vinduer og tag skal godkendes af kommunen, også dér, hvor en almindelig boligejer bare ville handle selv.
+
+Sælgeren havde selv nævnt, at facadens puds ikke var i bedste stand. En fremtidig udgift, der nu er underlagt en godkendelsesproces, du bør kende til, før du byder, ikke efter.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #bevaringsværdighed #gamlehuse</div>
+<div class="locline"><b>Гео-идея</b>Historisk bykerne, fx Ribe, Fredericia eller Nyborg.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-10">
+<div class="post-band"><span class="post-num">Пост 10 · Чт 20.08</span><span class="post-title">Privat vand, kommunal regning</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c10">Копировать</button></div>
+<div class="capblock" id="c10">To fund fra den samme testanalyse, der begge handler om fremtidige udgifter, en salgsopstilling ikke fremhæver.
+
+Det ene: privat vandforsyning fra egen boring, ikke det kommunale vandværk. Det betyder eget ansvar for pumpe, periodisk test af vandkvaliteten og potentielle fremtidige udgifter til reparation eller ny boring.
+
+Det andet: kommunen kan kræve separat regn- og spildevand på et tidspunkt i fremtiden. Mægleren kaldte den kommende regning "uvedkommende" i sælgeroplysningerne, men den lander hos den, der ejer huset, den dag kravet kommer, ikke hos den nuværende sælger.
+
+Ingen af delene er en grund til automatisk at gå videre. Begge dele er grund til at spørge, før man byder.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #privatvand #separatkloakering</div>
+<div class="locline"><b>Гео-идея</b>Landejendom, gerne med egen brønd/boring synlig i motivet.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-11">
+<div class="post-band"><span class="post-num">Пост 11 · Сб 22.08</span><span class="post-title">Sælgeren svarede «nej»</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c11">Копировать</button></div>
+<div class="capblock" id="c11">I en af vores testanalyser svarede sælgeren i spørgeskemaet, at boligen ikke havde skunkrum. Både tilstandsrapporten og elinstallationsrapporten skrev uafhængigt af hinanden, at netop disse rum "ikke var tilgængelige" for besigtigelse. Enten findes rummene, og sælgeren tæller dem bare ikke med, eller også er der en unøjagtighed i besvarelsen. Under alle omstændigheder: et hjørne af boligen, ingen fagperson faktisk har set.
+
+Ikke alt i vores analyser er røde flag. I samme by fandt vi en anden bolig, hvor salgsopstillingen angav den faktiske, målte årlige varmeudgift for præcis den bolig, ikke et skøn for et helt kvarter. Det er præcis den slags gennemsigtighed, vi leder efter og roser, når vi finder den.
+
+Sælgeroplysningsskemaet er ikke en facitliste alene, sammenhold det altid med rapporterne, linje for linje.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #sælgeroplysninger #gennemsigtighed</div>
+<div class="locline"><b>Гео-идея</b>Generisk, evt. antyd loft/skunkrum uden konkret adresse.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-12">
+<div class="post-band"><span class="post-num">Пост 12 · Вт 25.08</span><span class="post-title">Nul røde. Nul gule. Findes det?</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c12">Копировать</button></div>
+<div class="capblock" id="c12">Det meste af vores indhold handler om fund: skjulte udgifter, uklare servitutter, papirer der ikke stemmer overens. Men det er ikke hele billedet, og det ville være uærligt kun at vise den side.
+
+I en af vores testanalyser var elinstallationsrapporten ren: nul røde og nul gule fund. Ikke fordi vi ikke ledte grundigt, men fordi installationen faktisk var i orden.
+
+Det findes. Ikke alt er et rødt flag, og en grundig gennemgang skal også kunne sige "denne del er fin" lige så klart, som den siger "her skal du spørge mere". Det er hele pointen med en uafhængig analyse.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #elinstallation #boligtillid</div>
+<div class="locline"><b>Гео-идея</b>Lys, velholdt murstensvilla, gerne forstadsområde.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-13">
+<div class="post-band"><span class="post-num">Пост 13 · Сб 29.08</span><span class="post-title">Prisen, vurderingen og BBR er ikke enige</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c13">Копировать</button></div>
+<div class="capblock" id="c13">I en af vores testanalyser lå prisen markant over den offentlige vurdering. Det lyder umiddelbart som et rødt flag, men forklaringen viste sig at være enkel: renoveringen var blevet færdig EFTER vurderingsdatoen, så vurderingen simpelthen ikke afspejlede boligens nuværende stand.
+
+Samtidig stod der i annoncen "totalrenoveret i 2024", mens BBR under "år for renovering" bare stod med "ikke angivet". To officielle kilder om samme bolig, der ikke stemmer overens.
+
+Ingen af delene betyder nødvendigvis noget er galt. Men begge dele betyder, at man skal bede om en frisk vurdering og sammenholde annoncens påstande med BBR, før man lægger vægt på nogen af tallene alene.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #offentligvurdering #BBR</div>
+<div class="locline"><b>Гео-идея</b>Nyrenoveret hus, gerne kontrast facade / dokument med BBR-skærm.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-14">
+<div class="post-band"><span class="post-num">Пост 14 · Чт 03.09</span><span class="post-title">Sjuskede papirer, sælgers egne tal</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c14">Копировать</button></div>
+<div class="capblock" id="c14">To detaljer fra den samme salgsopstilling, der begge handler om, hvor meget man kan stole på tallene i papirerne alene.
+
+Den første: feltet "forsikring hos" var udfyldt med "??", ikke tomt, men bogstaveligt to spørgsmålstegn. Et sjusket dokument er i sig selv et signal om, at resten heller ikke nødvendigvis er tjekket grundigt.
+
+Den anden: den årlige udgift til opvarmning var angivet som "ca. 8-10.000 kr om året på piller", sælgers ord, ikke en aflæst måler eller en faktisk regning. Det er et estimat, ikke et tal, man bør regne videre på uden selv at bede om dokumentation.
+
+Ingen af delene er en grund til at gå videre med det samme. Begge dele er grund til at bede om de faktiske tal, før man regner videre.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #sælgeroplysninger #varmeregning</div>
+<div class="locline"><b>Гео-идея</b>Hus med synligt pillefyr/brændeovn i baggrunden, ellers generisk.</div>
+</div>
+</div>
+
+<div class="postcard" id="cap-15">
+<div class="post-band"><span class="post-num">Пост 15 · Пт 04.09</span><span class="post-title">6 spørgsmål før du byder</span></div>
+<div class="post-body">
+<div class="blockhead"><span class="blocklabel">FB caption</span><button class="copy-btn" data-copy="c15">Копировать</button></div>
+<div class="capblock" id="c15">Efter to testanalyser af boliger i samme prisleje samlede vi de spørgsmål, der gjorde den største forskel, de samme spørgsmål, som i begge sager afslørede noget, salgsopstillingen ikke selv fortalte. Her er alle seks:
+
+1. Er tilstandsrapport og elinstallationsrapport klar, eller stadig undervejs?
+2. Gælder energimærkets varmeudgift boligen alene, eller en hel bygning/blok?
+3. Er du obligatorisk medlem af en grundejerforening, og hvad siger det seneste regnskab?
+4. Stemmer sælgerens svar overens med det, rapporterne rent faktisk skriver?
+5. Er boligen registreret som bevaringsværdig, og hvad betyder det for fremtidige ændringer?
+6. Hvor tæt på udløb er en eventuel byggeskadeforsikring?
+
+Ingen af spørgsmålene kræver særlig viden. De kræver kun, at du stiller dem, inden du byder, ikke bagefter, når svaret ikke længere kan ændre noget.
+
+Anonymiseret testanalyse. Identificerende oplysninger og enkelte tal er ændret. Ikke en kundecase.
+
+#boligkøb #tilstandsrapport #boliginspektion #boligmarked #uafhængigrådgivning #NordIndsigt #boligtjek #boligkøbertips #boligcheckliste</div>
+<div class="locline"><b>Гео-идея</b>Save-post — nøgler + husmodel er nok, ingen bolig nødvendig.</div>
+</div>
+</div>
+
+</div>
+
+<footer>NordIndsigt · Календарь v2 · 24.07.2026 · Заменяет календарь из master-content-plan.html (там ещё старая 2-клиповая версия)</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var target = document.getElementById(btn.getAttribute('data-copy'));
+    if(!target) return;
+    var text = target.innerText;
+    function done(){
+      var prev = btn.textContent;
+      btn.textContent = 'Скопировано ✓';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = prev; btn.classList.remove('copied'); }, 1600);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var prev = btn.textContent;
+        btn.textContent = 'Выделите вручную';
+        setTimeout(function(){ btn.textContent = prev; }, 1600);
+      });
+    }
+  });
+});
+</script>
