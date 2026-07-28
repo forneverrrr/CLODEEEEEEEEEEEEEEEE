@@ -1,11 +1,10 @@
 {
   "mcpServers": {
     "playwright": {
-      "command": "npx",
+      "command": "sh",
       "args": [
-        "-y", "@playwright/mcp@latest",
-        "--proxy-server=http://127.0.0.1:33769",
-        "--ignore-https-errors"
+        "-c",
+        "exec npx -y @playwright/mcp@latest --proxy-server=\"$HTTPS_PROXY\" --ignore-https-errors"
       ],
       "env": {
         "NODE_EXTRA_CA_CERTS": "/root/.ccr/ca-bundle.crt"
