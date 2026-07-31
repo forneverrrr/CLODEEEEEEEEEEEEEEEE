@@ -213,6 +213,32 @@ hreflang da + x-default). JSON-LD провалидирован.
 </a>
 ```
 
+### B3b. Восьмая новая страница — Boligsøgning (31.07)
+
+- `viden-soege-selv-eller-hjaelp.html` → `/viden-soege-selv-eller-hjaelp.html`
+
+Закрывает пробел: самый дорогой продукт линейки (2.999 kr) не имел ни одного
+материала. Статья не продаёт в лоб — она честно говорит, что большинство может
+искать само, и называет четыре ситуации, где это перестаёт работать.
+CTA двойной: Boligsøgning 2.999 kr либо Sammenlign 3 за 599 kr, если кандидаты
+уже найдены.
+
+```html
+<a class="item" href="/viden-soege-selv-eller-hjaelp.html">
+  <div class="tag">Søgning</div>
+  <h2>Hvornår giver det ikke længere mening at søge selv?</h2>
+  <p>At søge selv er gratis i kroner og dyrt i timer. Fire situationer, hvor regnestykket vender.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
+⚠️ В статье намеренно **не** названо, сколько объектов смотрит покупатель перед
+покупкой: официальной датской статистики по этому нет, и в тексте это сказано
+прямо. Не подставляй туда число из головы.
+
+---
+
 ### B4. Переводы — 21 страница (31.07)
 
 Все 7 новых статей переведены на EN / UK / AR. Схема URL как у существующих

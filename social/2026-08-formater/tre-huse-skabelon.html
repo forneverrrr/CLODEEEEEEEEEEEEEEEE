@@ -1,0 +1,130 @@
+<title>NordIndsigt — шаблон формата «Tre huse, ét svar»</title>
+<style>
+:root{
+  --paper:#FAF7F1;--card:#fff;--ink:#18222E;--ink2:#4F5C6B;--muted:#7C8895;
+  --line:#E4DBC9;--rust:#C4533F;--rust-deep:#9E4030;--gold:#C0863F;
+  --green:#2B6B3C;--red:#B5462E;--tag-bg:#EFE6D6;--tag-ink:#8A5A22;
+  --disp:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--tag-bg:#2A3340;--tag-ink:#D9A45C}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:34px 22px 110px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;line-height:1.1;margin:0 0 12px}
+h2{font-family:var(--disp);font-size:23px;font-weight:600;margin:38px 0 12px}
+h3{font-size:16px;margin:22px 0 8px}
+p{color:var(--ink2);margin:0 0 12px}
+.lead{font-size:17px;margin-bottom:26px}
+.tag{display:inline-block;background:var(--tag-bg);color:var(--tag-ink);font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:100px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:14px 0}
+.card h3{margin-top:0}
+.fill{background:var(--tag-bg);color:var(--tag-ink);font-family:var(--mono);font-size:12.5px;padding:2px 7px;border-radius:6px}
+.cap{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px;white-space:pre-wrap;user-select:text;font-family:var(--body);color:var(--ink)}
+.prompt{background:#111a24;color:#dfe6ee;border-radius:10px;padding:14px 16px;font-family:var(--mono);font-size:12.5px;white-space:pre-wrap;overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:var(--tag-bg);color:var(--tag-ink);font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em}
+.warn{background:#B5462E;color:#fff;border-radius:14px;padding:16px 20px;margin:20px 0}
+.warn b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;font-weight:600}
+ul{margin:0 0 12px 20px;color:var(--ink2)}li{margin-bottom:6px}
+.mono{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<div class="tag">Формат · заполняется за час</div>
+<h1>Tre huse, ét svar</h1>
+<p class="lead">Формат, который конкурент не может повторить по арифметике: у него три объекта стоили бы <b>5.400–25.500 kr</b>. У нас 599 kr. Это не пост о том, что мы дешевле — это единственная возможная демонстрация продукта, которого на рынке нет.</p>
+
+<div class="warn">
+<b>Жёсткое правило</b>
+Формат публикуется <b>только на реальной тройке из одного заказа Sammenlign 3</b>. Собирать «демо-тройку» из трёх разных разборов и выдавать её за сравнение — нельзя. Это ровно тот случай, когда материал выглядит убедительно и является выдумкой. Пока реальной тройки нет — шаблон лежит и ждёт.
+</div>
+
+<h2>Что нужно на входе</h2>
+<table>
+<tr><th>Данные</th><th>Откуда</th></tr>
+<tr><td>3 объекта, схожие по цене и типу</td><td>Один заказ Sammenlign 3</td></tr>
+<tr><td>По 2–4 находки на объект с суммой в kr</td><td>Отчёты</td></tr>
+<tr><td>Итоговая рекомендация и <b>почему</b></td><td>Отчёт-сводка</td></tr>
+<tr><td>Регион (для цен на работы)</td><td>Объекты. CPH дороже Ютландии на 15–25 %</td></tr>
+</table>
+
+<div class="warn">
+<b>Анонимизация — не обсуждается</b>
+Ни улиц, ни номеров домов, ни узнаваемых фасадов, ни фото из объявлений. Объекты называем <span class="fill">Bolig A / B / C</span>, город — только на уровне региона: «в пригороде Орхуса». Суммы округляем.
+</div>
+
+<h2>Структура: 6 карточек</h2>
+
+<div class="card">
+<h3>Карточка 1 — Хук</h3>
+<p><b>Текст на картинке:</b> <span class="fill">Tre boliger. Næsten samme pris. Én af dem var 180.000 kr. dyrere.</span></p>
+<p class="mono">Число берётся из реальной разницы. Если разница маленькая — меняем хук на «Én af dem havde vi frarådet», не выдумываем цифру.</p>
+<div class="prompt">Overhead photograph, camera 70cm above a matte near-black oak table. Three
+identical small unpainted birch house models stand in a row, evenly spaced,
+sharp roof edges. Hard directional key light from frame left; the leftmost and
+middle models are lit warmly, the third stands in deep shadow.
+Photorealistic, editorial, 4:5. Palette: near-black navy #0F1E30, warm cream
+#E8DED1, one rust-red #C4533F accent.
+No text in the image itself, no logos, no house numbers, no street signs.</div>
+</div>
+
+<div class="card">
+<h3>Карточки 2–4 — по одному объекту</h3>
+<p>Одинаковая вёрстка на всех трёх, иначе сравнение не читается.</p>
+<ul>
+<li><b>Заголовок:</b> <span class="fill">Bolig A · [тип] · [год] · ca. [цена] kr</span></li>
+<li><b>2–4 находки:</b> формулировка + <b>сумма</b>. Без суммы находка не идёт в карточку.</li>
+<li><b>Строка низом:</b> <span class="fill">Fund i alt: ca. [сумма] kr</span></li>
+</ul>
+<p class="mono">Не пиши «плохое состояние». Пиши «eltavle fra 1978 — ca. 25.000 kr». Оценка без цифры — это мнение, цифра — это аргумент.</p>
+</div>
+
+<div class="card">
+<h3>Карточка 5 — Сведение</h3>
+<p>Три колонки, один взгляд. Только цифры, никакого текста-оценки.</p>
+<table>
+<tr><th></th><th>Bolig A</th><th>Bolig B</th><th>Bolig C</th></tr>
+<tr><td>Udbudspris</td><td class="fill">…</td><td class="fill">…</td><td class="fill">…</td></tr>
+<tr><td>Fund i alt</td><td class="fill">…</td><td class="fill">…</td><td class="fill">…</td></tr>
+<tr><td><b>Reel pris</b></td><td class="fill">…</td><td class="fill">…</td><td class="fill">…</td></tr>
+</table>
+<p class="mono">«Reel pris» = цена + находки. Это и есть весь продукт в одной строке.</p>
+</div>
+
+<div class="card">
+<h3>Карточка 6 — Ответ и CTA</h3>
+<p><b>Текст на картинке:</b> <span class="fill">Vi anbefalede [B]. Ikke fordi den var billigst.</span></p>
+<p>Обязательно одно предложение <b>почему</b> — иначе это не рекомендация, а выбор наугад. И одна причина, по которой отвергли самый дешёвый вариант: это доказывает, что мы считаем не по ценнику.</p>
+</div>
+
+<h2>Подпись под пост</h2>
+<div class="cap">Tre boliger. Næsten samme udbudspris. Samme område.
+
+Vi læste dokumenterne bag alle tre: tilstandsrapport, elinstallationsrapport, energimærke, BBR og servitutter.
+
+Bolig A: [находка] — ca. [X] kr.
+Bolig B: [находка] — ca. [X] kr.
+Bolig C: [находка] — ca. [X] kr.
+
+Den billigste var ikke den billigste. Forskellen mellem udbudspris og reel pris var [X] kr.
+
+Vi anbefalede [B], fordi [одна причина].
+
+At få tre boliger gennemgået koster 599 kr. hos os. Cirka 200 kr. pr. bolig, mens du stadig kan vælge.
+
+#boligkøb #sammenlign3 #boligcheck #tilstandsrapport #boligkøberdanmark</div>
+<p class="mono">Геолокация отдельной строкой, не в копируемом блоке: <b>København / Aarhus / Odense / Aalborg / Esbjerg</b> — по кругу.</p>
+
+<h2>Что делает формат неповторимым</h2>
+<ul>
+<li>Køberrådgiver тарифицируется <b>за объект</b> — 1.795–8.495 kr. Три объекта у конкурента это 5.400–25.500 kr, и такого контента у него физически нет.</li>
+<li>Мы единственные можем показать <b>отказ</b>: наш доход не зависит от того, состоится ли сделка.</li>
+<li>Аргумент «reel pris» вводит наш собственный термин вместо чужого «tryghed».</li>
+</ul>
+
+<h2>Готовность</h2>
+<p>Шаблон, карточки, промпты и подпись готовы. <b>Не хватает одного: реальной тройки.</b> Как только придёт первый заказ Sammenlign 3 — заполняется за час.</p>
+</div>
