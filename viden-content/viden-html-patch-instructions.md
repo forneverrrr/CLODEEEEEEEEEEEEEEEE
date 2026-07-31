@@ -86,3 +86,35 @@ med:
    сгенерировать/обновить `llms.txt` с ссылками на все guides (обсуждали в
    `codex-research-brief.md`, п.3) — это то, что даёт ChatGPT/Perplexity/Google
    AI Overviews ссылаться на нас как источник.
+
+---
+
+## Batch 7 — «Hvem arbejder for dig» (28.07.2026)
+
+### Новый файл
+
+- `viden-hvem-arbejder-for-dig.html` → `/viden-hvem-arbejder-for-dig.html`
+
+Сделан по тому же шаблону (nav v3, footer v3, Article + FAQPage JSON-LD с 5 вопросами,
+hreflang da + x-default). JSON-LD провалидирован.
+
+**Отличие от предыдущих:** CTA ведёт не на `/bestil.html` (299 kr), а на
+`/sammenlign-3.html` (599 kr) — статья про сравнение, поэтому продаёт сравнение.
+Это первый материал, который вообще продаёт «Sammenlign 3».
+
+### Добавить `.item` в viden.html
+
+```html
+<a class="item" href="/viden-hvem-arbejder-for-dig.html">
+  <div class="tag">Roller</div>
+  <h2>Hvem arbejder for dig, når du køber bolig?</h2>
+  <p>Mægleren skal varetage sælgers interesser — det står i loven. Se hvad hver part tjener, af hvad, og hvornår de kommer ind i processen.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
+### Проверить перед публикацией
+
+- Страница `/sammenlign-3.html` существует и принимает трафик (CTA ведёт туда).
+- Ссылки в блоке «Læs også» ведут на реально существующие страницы.
