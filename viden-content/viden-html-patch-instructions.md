@@ -179,6 +179,45 @@ hreflang da + x-default). JSON-LD провалидирован.
 </a>
 ```
 
+### B3. Ещё три страницы (31.07) — методология закрыта полностью
+
+- `viden-roede-groenne-flag.html` → `/viden-roede-groenne-flag.html`
+- `viden-bolig-som-investering.html` → `/viden-bolig-som-investering.html`
+- `viden-koeb-eller-leje.html` → `/viden-koeb-eller-leje.html`
+
+Все три по шаблону, Article + FAQPage по 5 вопросов, источники внизу.
+
+```html
+<a class="item" href="/viden-roede-groenne-flag.html">
+  <div class="tag">Vurdering</div>
+  <h2>Røde og grønne flag — sorteret efter hvad de koster</h2>
+  <p>Tre vægtklasser i stedet for en flad liste: hvad der dræber handlen, hvad der er et prisargument, og hvad du bare skal spørge om.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+
+<a class="item" href="/viden-bolig-som-investering.html">
+  <div class="tag">Økonomi</div>
+  <h2>Boligen som investering</h2>
+  <p>Hvad der reelt påvirker gensalget, hvad der ikke gør, og de fire ulemper der sjældent nævnes samlet.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+
+<a class="item" href="/viden-koeb-eller-leje.html">
+  <div class="tag">Økonomi</div>
+  <h2>Købe eller leje? Regnestykket over 5, 10 og 20 år</h2>
+  <p>Handelsomkostningerne ind og ud ligger typisk på 2-4 % af prisen. Fordelt over ejertiden ændrer det svaret fuldstændigt.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
+⚠️ В `viden-koeb-eller-leje.html` намеренно **не** моделируются проценты по
+ипотеке, налоги и ежемесячные ejerudgifter — актуальной ставки у нас нет, и
+выдумывать её нельзя. В статье это заявлено открытым блоком «что НЕ учтено».
+Считаются только транзакционные издержки, которые не зависят от ставки.
+
 ### C. Новый файл в корень сайта: `pricing.md`
 
 Файл `viden-content/pricing.md` → залить как **`https://nordindsigt.dk/pricing.md`**
