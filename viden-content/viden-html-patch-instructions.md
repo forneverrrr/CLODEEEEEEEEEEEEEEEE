@@ -161,6 +161,24 @@ hreflang da + x-default). JSON-LD провалидирован.
 </a>
 ```
 
+### B2. Третья новая страница (31.07)
+
+- `viden-fejl-efter-koeb.html` → `/viden-fejl-efter-koeb.html`
+
+Кластер, который не занят ни одним конкурентом: пост-покупка. Выдачу по нему
+держат юристы и банки. Статья даёт пошаговый алгоритм, а CTA ведёт не на
+проверку уже купленного дома (поздно), а на пересылку тому, кто ещё выбирает.
+
+```html
+<a class="item" href="/viden-fejl-efter-koeb.html">
+  <div class="tag">Efter handlen</div>
+  <h2>Du har købt huset. Nu dukker fejlen op.</h2>
+  <p>10 års frist lyder trygt. Her er hvorfor de fleste fund alligevel ikke kan kræves erstattet — og hvad du så gør, trin for trin.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
 ### C. Новый файл в корень сайта: `pricing.md`
 
 Файл `viden-content/pricing.md` → залить как **`https://nordindsigt.dk/pricing.md`**
