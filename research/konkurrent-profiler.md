@@ -17,11 +17,24 @@
 |---|---|---|
 | [Din Rådgivning](https://dinraadgivning.dk/koebermaegler/) | **1.795–7.499 kr** | Нижняя граница рынка |
 | [Boligraadgivning.com](https://boligraadgivning.com/ydelser/Koeberraadgivning/) | 7.500 kr | Фикс |
-| [Komplet Køberrådgivning](https://kompletkoeberraadgivning.dk/koeberraadgivning/) | 8.495 kr | Фикс, «всё включено» |
+| [Komplet Køberrådgivning](https://kompletkoeberraadgivning.dk/koeberraadgivning/) | 3.995 / 8.495 kr **+ 10% af prisnedslag** | Фикс плюс процент от выторгованной скидки |
+| [EDC Danebo Aalborg](https://xn--edc-kberrdgivning-hrb07a.dk/) | 3.995 kr **+ 10% бонуса от prisnedslag** | Найдено 31.07 |
+| [Teglovn Aalborg](https://teglovn.dk/koeberraadgivning-aalborg/) | fra kun 3.995 kr | Локальная страница под город |
+| [Husadvokaten Aalborg](https://www.husadvokaten.com/lokation/boligadvokat-aalborg/) | 8.500 kr | «Первая беседа бесплатно» |
 | [Købersmægler](https://koebersmaegler.dk/) | нет открытой цены | **3.000+ покупателей в год**, лидер рынка |
 | [RealMæglerne](https://www.realmaeglerne.dk/koeberraadgivning) | нет открытой цены | Køberrådgivning внутри сети мэглеров |
 
 **Ценовой коридор категории: ~1.800 – ~8.500 kr.**
+
+### 🔴 Конструкция стимулов: процент от скидки
+
+**Двое из найденных берут 10% от выторгованной скидки.** Это не деталь прайса,
+а устройство мотивации: советник, которому платят процент **от скидки**,
+зарабатывает только если сделка **состоится**. Совет «не покупай этот дом»
+стоит ему всего гонорара.
+
+Наш контраргумент — фиксированные 299 kr: мы зарабатываем одинаково, что бы ни
+посоветовали. Подробности и расчёт — `research/soegeadfaerd-2026.md` §4.
 
 ### Что это означает стратегически
 
