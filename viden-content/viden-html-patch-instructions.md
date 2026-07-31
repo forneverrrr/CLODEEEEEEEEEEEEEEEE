@@ -118,3 +118,64 @@ hreflang da + x-default). JSON-LD провалидирован.
 
 - Страница `/sammenlign-3.html` существует и принимает трафик (CTA ведёт туда).
 - Ссылки в блоке «Læs også» ведут на реально существующие страницы.
+
+---
+
+## Batch 8 — цифры, источники, две новые статьи, pricing.md (28.07.2026)
+
+### A. Обновлены 5 существующих страниц (перезалить целиком)
+
+`viden-bydel.html` · `viden-elrapport.html` · `viden-case-to-huse-samme-pris.html`
+`viden-andelsbolig.html` · `viden-skjulte-udgifter.html`
+
+В каждую добавлен блок `.note` с конкретными цифрами и указанием источника.
+В `viden-case-to-huse-samme-pris.html` дополнительно добавлена строка `kilder`,
+которой раньше не было вообще.
+
+Зачем: по исследованию Принстона (GEO, KDD 2024) ссылки на источники дают +40%
+к цитируемости в AI-поиске, статистика с цифрами +37%. Это самый дешёвый прирост
+из доступных — текст статей не переписывался.
+
+### B. Две новые страницы
+
+- `viden-hvornaar-ikke-koebe.html` → `/viden-hvornaar-ikke-koebe.html`
+- `viden-hvad-koster-hvad.html` → `/viden-hvad-koster-hvad.html`
+
+Обе по шаблону, JSON-LD провалидирован (Article + FAQPage, 5 и 6 вопросов).
+
+```html
+<a class="item" href="/viden-hvornaar-ikke-koebe.html">
+  <div class="tag">Beslutning</div>
+  <h2>Hvornår skal du IKKE købe boligen?</h2>
+  <p>Fem situationer, hvor det rigtige svar er nej — også når boligen er god, papirerne er i orden og prisen er fair.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+
+<a class="item" href="/viden-hvad-koster-hvad.html">
+  <div class="tag">Priser</div>
+  <h2>Hvad koster hvad, når du køber bolig?</h2>
+  <p>Mæglersalær, advokat, tinglysning, fortrydelsesret og hvad de typiske fund som tag og el reelt koster at udbedre.</p>
+  <span class="go">Læs guiden →</span>
+  <div class="lang-note">DA</div>
+</a>
+```
+
+### C. Новый файл в корень сайта: `pricing.md`
+
+Файл `viden-content/pricing.md` → залить как **`https://nordindsigt.dk/pricing.md`**
+(именно в корень, plain markdown, отдаваться должен как text/plain или text/markdown,
+не как HTML).
+
+Зачем: AI-агенты всё чаще сравнивают услуги за пользователя, и непрозрачные цены
+выпадают из сравнения. Ни одна крупная сеть мэглеров и ни один из найденных
+køberrådgivere цен машиночитаемо не публикует. У нас опубликованы все три.
+
+**Проверить после заливки:** открыть `https://nordindsigt.dk/pricing.md` и
+убедиться, что отдаётся сам markdown, а не HTML главной страницы (SPA-фолбэк).
+Той же проверки требует `/llms.txt` — сейчас неясно, существует ли он реально.
+
+### D. Проверить перед публикацией
+
+- `/sammenlign-3.html` существует — на неё ведёт CTA из `viden-hvornaar-ikke-koebe`.
+- Ссылки в блоках «Læs også» на новых страницах ведут на существующие адреса.
