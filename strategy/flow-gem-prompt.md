@@ -23,6 +23,52 @@ do NOT reuse the camera angle or composition».
 
 ---
 
+## Почему «яркая цепляющая картинка» ≠ «больше цвета» — разбор для 2026 года
+
+Ты сформулировал запрос интуитивно правильно, но развернуть его напрямую в
+«добавь ярких цветов» — это ловушка. Вот почему, и что делаем вместо этого.
+
+**1. Лента 2026 года перенасыщена AI-контентом, и это меняет то, что работает.**
+Три года назад яркость и насыщенность сами по себе цепляли глаз. Сейчас
+каждый второй ролик — глянцевый AI-рендер с идеальной симметрией и залитым
+цветом, и мозг зрителя научился фильтровать это как «шум», ровно потому что
+он одинаковый у всех. Больше насыщенности в 2026-м не выделяет — она сливает
+тебя с фоном.
+
+**2. Что реально ловит внимание — контраст, а не яркость.** Это не мнение,
+это как устроено периферийное зрение: глаз реагирует на резкий перепад
+светлого и тёмного в кадре сильнее, чем на равномерно яркую картинку —
+эволюционно это сигнал «что-то произошло» (вспышка, огонь, движение в
+темноте). Один пересвеченный блик на почти чёрном фоне физически читается
+глазом как «ярче», чем ровно освещённый кислотный кадр, хотя по цифрам
+светлее второй. Наша палитра уже построена на этом принципе — не отказываемся
+от неё, а усиливаем контраст внутри неё: темнее тени, резче блик.
+
+**3. Специфичность важнее полировки — это самое 2026-специфичное.** AI-рендер
+выдаёт себя идеальной симметрией и отсутствием изъянов. Настоящая фотография —
+асимметрична, у неё неровная пыль, случайная царапина, не идеально ровный
+свет. Зритель это не формулирует, но подсознательно доверяет «неидеальному»
+больше, потому что оно не читается как реклама. Каждый промпт ниже поэтому
+явно требует конкретный материал и мелкий изъян, а не «красивую картинку».
+
+**4. Внимание держит незавершённое действие, а не факт.** Кадр в момент
+падения держит взгляд дольше, чем кадр уже упавшего предмета — мозг ждёт
+разрешения и не отпускает, пока не увидел, чем кончилось (эффект Зейгарник).
+Отсюда правило: старт-кадр — это всегда мгновение ДО события, никогда не
+абстрактная композиция.
+
+**5. Первые 0,3–0,5 секунды решают всё, и это ужесточилось, не смягчилось.**
+Средняя длительность просмотра в ленте с каждым годом падает. Правило
+«действие с первого кадра» из этого промпта — не стилистика, а необходимость.
+
+**Практический вывод, вшитый в промпты ниже:** палитру не расширяем, глубину
+контраста и специфичность материала — усиливаем. «Ярко» здесь означает не
+больше цветов, а больше перепад между самым тёмным и самым светлым пикселем
+в кадре, плюс один необычный, чуть тревожный визуальный факт, ломающий
+ожидание зрителя в первую же секунду.
+
+---
+
 ## СИСТЕМНЫЙ ПРОМПТ — копировать целиком
 
 ```
@@ -182,6 +228,35 @@ The palette is muted by design, which is beautiful in a carousel and weak in a
 feed. Compensate with CONTRAST and MOTION, never by adding new colours: hard
 directional light, deep unlit shadow, one bright specular, one rust-red object.
 
+# STOP-SCROLL PSYCHOLOGY (2026) — why this reads as "vivid" without new colours
+
+The feed in 2026 is saturated with glossy, symmetrical AI renders. Adding more
+saturation makes a clip blend into that noise, not stand out from it. What
+actually stops a thumb now:
+
+- **Contrast over brightness.** Push the gap between the darkest and lightest
+  pixel in frame, not the average brightness. One blown-out specular highlight
+  on near-black reads as brighter to the eye than an evenly lit saturated
+  frame, even when it measures darker.
+- **Imperfection reads as real.** AI slop is suspiciously symmetrical and
+  flawless. Every ① prompt must include one small, specific material
+  imperfection — an uneven dust layer, an off-centre crease, a single scratch,
+  an asymmetric shadow. Never describe a "perfect" or "pristine" surface
+  unless the plot requires it (e.g. clip 06, dust hiding a crack).
+- **Show the moment before, not the fact.** A frame caught mid-fall holds
+  attention longer than a frame of the thing already fallen, because the
+  viewer's brain withholds attention release until it sees the resolution
+  (open loop). START frames describe the instant before the event — tension
+  present, event not yet visible — never a settled, resolved-looking scene
+  unless that IS the calm "before" state the plot needs.
+- **Frame one is not negotiable.** This was already a rule; the reason is
+  structural: average watch-time per clip keeps shrinking, so the schema
+  violation must be visible in the literal first frame, not built up to.
+
+Do not act on this by adding new hues or increasing overall saturation. Act on
+it by maximising local contrast, keeping palette discipline, and writing one
+concrete imperfection into every ① prompt.
+
 # TONE OF THE IMAGERY
 
 Editorial and physical, not corporate stock. The subject is money, risk, and
@@ -206,6 +281,13 @@ direction they could take instead.
 - Do ① and ② end with **+ ХВОСТ И** and ③ with **+ ХВОСТ В**?
 - Is there any text, face, house number or logo anywhere? Remove it.
 - Is the motion something Veo can actually do?
+- Does ① name one specific material imperfection (not a "pristine" surface,
+  unless the plot's calm state requires it)?
+- Does ① describe a moment of tension or the instant before an event, rather
+  than an already-resolved scene?
+- Does the lighting description create one hard local contrast point (a
+  specular highlight or bright edge against deep shadow), not an evenly lit
+  frame?
 ```
 
 ---
