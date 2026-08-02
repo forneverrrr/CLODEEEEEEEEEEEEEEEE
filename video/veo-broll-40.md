@@ -1,39 +1,34 @@
-# 32 клипа — START / END / ВИДЕО
+# 32 клипа — два режима: START/END/ВИДЕО (01–10) и прямой image-to-video (11–32)
 
-> **Рабочая версия — `video/veo-broll-32.html`.** Там те же 32 клипа, но хвосты
-> уже вклеены в каждый из 96 промптов: копируешь блок целиком, ничего не
-> дописываешь. Этот markdown остаётся исходником для правок.
+> **Рабочая версия — `video/veo-broll-32.html`.** Там те же 32 клипа с уже
+> вклеенными хвостами: копируешь блок целиком, ничего не дописываешь. Этот
+> markdown остаётся исходником для правок.
 
-**Дата:** 31 июля 2026
-**Баланс:** 410 кредитов · **Кадры (Veo 3.1 Lite) = 10 кредитов**
-**План:** 32 клипа × 10 = 320, буфер 90 = 9 перегенераций
+**Дата:** 31 июля 2026, клипы 11–32 переписаны 1 августа под прямой
+image-to-video (без END).
+**Баланс:** 410 кредитов · **Кадры / Video Veo 3.1 Lite = 10 кредитов**
 **Формат:** 9:16, 8 сек, **без текста в кадре**
 
 ---
 
-## Как это работает — прочитай один раз
+## Два режима в этом файле — не перепутай
 
-На каждый клип три промпта:
+**Клипы 01–10** — старая схема, START → END → Кадры. У них есть кадр-финал,
+Veo анимирует переход между двумя картинками.
 
-1. **① START** — стартовый кадр. Генеришь **4 штуки**, выбираешь лучший.
-2. **② END** — финальный кадр. **Не генерится с нуля.** Это правка выбранного
-   старта: «возьми эту картинку и измени только вот это».
-3. **③ ВИДЕО** — режим **Кадры**, подставляешь оба и промпт движения.
+**Клипы 11–32** — переписаны под **прямой image-to-video**: один START-кадр
++ текстовый промпт движения, без END. Причина смены: без END-кадра, привязанного
+к финальному состоянию, старые промпты ③ читались Veo как «ничего особо не
+происходит» — они писались в расчёте, что кульминацию уже показывает
+финальная картинка, а не текст. Без неё текст должен нести всю драматургию сам.
 
-### Почему END именно правкой, а не отдельной генерацией
+### Почему клипы 01–10 всё ещё используют END
 
-Если сгенерить 4 старта и 4 финала независимо, они между собой **не совпадут**:
-другая композиция, другой угол, предметы в других местах. Veo такую пару не
-соединяет — он её **морфит**, и получается то самое «бред какой-то».
-
-Пара должна быть **одной сценой в двух состояниях**. Единственный надёжный способ
-это получить — взять выбранный старт и изменить в нём ровно одну вещь.
-
-> В Nano Banana Pro / Gemini: загружаешь выбранный START и даёшь промпт ②.
-> Если правка недоступна — генери END с промптом ①, дописав к нему изменение
-> из ②. Совпадение будет хуже, но работать будет.
-
-### Порядок работы на один клип
+Если сгенерить 4 старта и 4 финала независимо, они **не совпадут**: другая
+композиция, другой угол. Veo такую пару не соединяет, а **морфит** — и
+получается «бред какой-то». Пара должна быть одной сценой в двух состояниях,
+и единственный надёжный способ это получить — взять старт и изменить в нём
+ровно одну вещь.
 
 ```
 ①  4 генерации START      →  выбрал 1
@@ -41,9 +36,31 @@
 ③  Кадры: START + END + промпт  →  10 кредитов
 ```
 
+### Почему клипы 11–32 обходятся без END
+
+Прямой image-to-video даёт Veo больше свободы досочинить сцену — а раз нет
+второй картинки, которая жёстко фиксирует, чем всё кончится, промпт движения
+обязан **сам** нести и нарастание, и явную концовку. Три правила, отличающие
+эти 22 промпта от прежних:
+
+1. **Несколько нарастающих битов, а не одно плавное движение.** Каждый промпт
+   разбит по секундам (0.0–Xs / X–Ys / Y–8s), и в каждом биту происходит
+   что-то новое, а не одно и то же действие, растянутое на 8 секунд.
+2. **Камера не всегда `locked off`.** Резкий push-in, whip-pan, рывок фокуса,
+   быстрый drift — это симулирует смену кадра там, где реального монтажного
+   реза нет. Раньше почти все клипы держали камеру неподвижной все 8 секунд —
+   отсюда и ощущение «скучно».
+3. **Явный `Final frame:` текстом.** Без картинки-якоря это единственное, что
+   не даёт Veo придумать вялую концовку.
+
+```
+①  4 генерации START      →  выбрал 1
+③  Video: START + текстовый промпт  →  10 кредитов, без Кадров
+```
+
 ---
 
-## ХВОСТ И — дописывать в конец каждого промпта картинки (① и ②)
+## ХВОСТ И — дописывать в конец каждого промпта картинки (① и ②, клипы 01–10)
 
 > Photorealistic, editorial still, shot on 50mm, shallow depth of field,
 > 9:16 vertical. Hard directional key light from one side, deep near-black
@@ -54,12 +71,22 @@
 > no watermark, no readable documents, no visible faces, no house numbers,
 > no street signs.
 
-## ХВОСТ В — дописывать в конец каждого промпта видео (③)
+## ХВОСТ В — для клипов 01–10 (③, режим Кадры)
 
 > Camera behaviour exactly as stated, no additional camera move. Motion starts
 > on the very first frame — no static intro, no slow build-up. The scene, the
 > framing and the lighting stay identical to the two supplied frames.
 > AUDIO: ambient only. No music, no dialogue, no voiceover.
+> No text appears at any point, no captions, no subtitles, no logos,
+> no watermark, no visible faces.
+
+## ХВОСТ В2 — для клипов 11–32 (прямой image-to-video, без END)
+
+> Camera behaviour as stated above — do not default to a fully static
+> locked-off shot for the whole duration; vary it as described (push,
+> whip-pan, rack-focus, drift, tilt) so the shot reads as more than one beat.
+> Motion begins decisively or violently on the very first frame, never a calm
+> intro. AUDIO: ambient only, no music, no dialogue, no voiceover.
 > No text appears at any point, no captions, no subtitles, no logos,
 > no watermark, no visible faces.
 
@@ -73,7 +100,9 @@
 ## Приёмка
 
 **Перегенерировать:** появился текст · видно лицо · шесть пальцев в фокусе ·
-событие позже 2-й секунды · камера уехала · финал не тот.
+событие позже 2-й секунды · камера статична все 8 сек у клипов 11–32 (там это
+уже брак, не только «локд-офф не туда уехал») · финал не совпадает с
+`Final frame:`.
 **Оставить:** чуть другой цвет · движение медленнее · форма не идеальная.
 На скорости 1,5 сек на кадр это не видно.
 
@@ -347,20 +376,16 @@
 > beams. A hard torch beam enters from below at frame bottom and lights only the
 > nearest rafters; everything beyond is pure black. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the torch beam has travelled up the
-> ridge and now holds steady on a dark water stain spreading across the underside
-> of the roof boards further along, lighting it clearly. Dust turns in the beam.
-> The nearest rafters are now unlit and dark.
-> Keep identical: camera position and angle, framing, lens, the rafters, the
-> timber colour, the total blackness outside the beam.
-
-**③ ВИДЕО**
-> A hard torch beam swings into frame from below on the first frame and sweeps
-> fast along the rafters, picking out dust in the air. The beam travels the length
-> of the ridge and stops on a dark water stain spreading across the underside of
-> the boards, holding steady on it. Only the light moves — camera locked off.
-> **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The torch beam is already sweeping fast along the rafters on the very
+> first frame, dust kicked violently into visible motion inside it. 1.0–4.0s: The
+> beam races the length of the ridge; the camera pushes forward hard and low
+> along the rafters chasing it, gaining speed, beam shadows whipping past close
+> to the lens. 4.0–8.0s: The beam whips to a stop on a dark water stain
+> spreading across the boards; a fast rack-focus pulls from the beam's edge onto
+> the stain, holding tight as the stain visibly widens a little further.
+> Final frame: beam locked hard on the stain, the stain clearly larger than at
+> the first glimpse, dust still drifting, camera holding tight on the timber. **+ ХВОСТ В2**
 
 ---
 
@@ -376,20 +401,16 @@
 > Both doors are fully shut. The room is lit dimly and evenly from above.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: both doors now stand fully open, swung
-> away from camera. The left opening is filled with warm golden light spilling
-> across the floor toward the lens; the right opening is completely black with no
-> light at all.
-> Keep identical: camera position, centring, framing, the wall, the two door
-> frames and their exact spacing, the floor.
-
-**③ ВИДЕО**
-> Both doors swing open simultaneously on the very first frame, away from camera,
-> at exactly the same speed. Warm golden light floods out of the left opening and
-> spreads across the floor toward the lens while the right opening stays pure
-> black. Both doors come to rest fully open. Camera locked off, perfectly centred,
-> no drift. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.8s: Both doors are already mid-swing, thrown open hard and fast
+> simultaneously on the very first frame — no calm start. 0.8–4.0s: Warm golden
+> light bursts through the left opening in a widening wedge, volumetric dust
+> visible inside the beam, spilling almost to the lens; the right opening's
+> blackness seems to deepen further, swallowing any hint of detail. 4.0–8.0s: The
+> camera pushes in and centres tighter on the gap between the two thresholds,
+> holding the maximum contrast between the flooding light and total dark.
+> Final frame: both doors fully open, warm light reaching almost to the camera
+> on the left, absolute black on the right, dust suspended in the light beam. **+ ХВОСТ В2**
 
 ---
 
@@ -404,20 +425,15 @@
 > the left side of the frame is bright and the right falls into shadow.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the hard light has moved to frame right
-> — the corroded key is now directly lit but stays dull and matte with no
-> highlight, while the polished key holds one bright specular streak along its
-> edge.
-> Keep identical: camera height and angle, framing, both keys and their exact
-> positions and rotation, the slate surface, the focal plane.
-
-**③ ВИДЕО**
-> A hard directional light sweeps across the frame from left to right starting on
-> the very first frame. As it crosses the polished key the metal flares into a
-> bright specular streak; as it crosses the corroded key nothing happens and the
-> surface stays dead and matte. The light settles at frame right and holds. Only
-> the light moves — camera locked off, keys completely still. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The hard directional light is already sweeping fast left to right on
+> the very first frame. 1.0–4.0s: As it crosses the polished key it detonates
+> into a blinding specular flare that briefly overexposes that side of frame; the
+> camera does a quick tight push toward the flare. 4.0–8.0s: The light reaches
+> the corroded key and simply dies there — no highlight, flat and dead — the
+> camera settles, holding both keys in frame with the stark difference visible.
+> Final frame: the polished key still glowing with the flare's afterimage, the
+> corroded key dead matte, the light stopped at frame right. **+ ХВОСТ В2**
 
 ---
 
@@ -431,19 +447,15 @@
 > folded stack of cream paper tied with coarse string with one rust-red thread.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the scale is now fully tipped with the
-> coin pan slammed down at the bottom and the paper pan raised high, the beam at a
-> steep angle. Several coins have scattered off the low pan onto the surface
-> below.
-> Keep identical: camera angle and height, framing, the scale, the brass patina,
-> the paper stack and its string, lighting direction, black background.
-
-**③ ВИДЕО**
-> The beam breaks its balance on the very first frame and the coin side drops
-> fast. The pan slams down and bounces, coins jumping and scattering off the edge
-> onto the surface below. The beam oscillates twice, decreasing, and locks fully
-> tipped. Camera locked off. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.6s: The beam breaks violently on the very first frame, the coin side
+> dropping hard and fast. 0.6–3.0s: The pan slams down, bounces twice, coins
+> flying off the edge and scattering loudly across the surface below, several
+> rolling out toward the lens. 3.0–8.0s: The camera whip-pans down to follow the
+> scattered coins as they roll to a stop, then rises back to hold the fully
+> tipped scale in frame.
+> Final frame: the scale locked hard-tipped, coins scattered and still across
+> the surface, one coin resting closest to the lens. **+ ХВОСТ В2**
 
 ---
 
@@ -457,19 +469,15 @@
 > with small deep-set windows and visible cracking. Both facades are fully lit by
 > hard low sun, no shadow anywhere. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the left modern facade is now completely
-> swallowed in deep black shadow, while the right old facade blazes in full hard
-> sun with every crack throwing its own shadow. The shadow edge falls exactly on
-> the junction between the two.
-> Keep identical: camera position, framing, both facades and every architectural
-> detail, the sky, the sun direction.
-
-**③ ВИДЕО**
-> A hard shadow edge enters from frame left on the first frame and sweeps across
-> at speed. It swallows the modern facade completely while the old facade blazes
-> in hard sun. The shadow edge stops exactly at the junction between the two
-> facades and holds. Camera locked off, no drift. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: A hard shadow edge slams across the frame from the left on the very
+> first frame, faster than natural cloud movement. 1.0–4.0s: It swallows the
+> modern facade whole while the old facade ignites in blinding hard sun, every
+> crack throwing a knife-sharp shadow; the camera pushes in on the junction
+> line. 4.0–8.0s: The shadow edge locks exactly on the junction and the camera
+> holds, the contrast now total between the two halves.
+> Final frame: the modern facade in total blackness, the old facade blazing, the
+> junction line razor-sharp, camera close on it. **+ ХВОСТ В2**
 
 ---
 
@@ -482,20 +490,16 @@
 > rooflines, same window rhythm. Wet asphalt between them reflects the sky. Heavy
 > cloud shadow covers both rows equally, flat and cold. Deep focus. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the left row is now lit by hard warm
-> sun, its brick reading red-ochre, while the right row has fallen into deep cold
-> blue-grey shade. The wet asphalt down the middle splits the two lighting
-> conditions.
-> Keep identical: camera position and height, framing, both rows and every
-> architectural detail, the street, the sky, the empty road.
-
-**③ ВИДЕО**
-> Heavy cloud shadow is racing across both rows from the very first frame. The
-> shadow clears the left row and it lights up in hard warm sun while the right row
-> falls into deep cold shade. The wet asphalt splits the difference down the
-> middle. The light stabilises and holds. Camera locked off, deep focus, street
-> empty throughout. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Heavy cloud shadow is already racing across both rows at speed on the
+> very first frame. 1.0–4.0s: It clears the left row explosively into hard warm
+> sun, brick flaring red-ochre, while the right row plunges into cold blue-grey
+> shade — the wet asphalt between them flashes with the reflected contrast. The
+> camera drifts fast and low along the street toward the split point. 4.0–8.0s:
+> The camera arrives at the midpoint and holds, both conditions locked, the
+> street empty throughout.
+> Final frame: left row blazing warm, right row cold and dark, camera centred
+> exactly on the dividing line down the wet street. **+ ХВОСТ В2**
 
 ---
 
@@ -511,19 +515,15 @@
 > completely full of pale sand, the lower chamber empty. Hard backlight from frame
 > right makes the brass glow at its edges. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the upper chamber is now completely
-> empty and all the sand has settled into a smooth cone in the lower chamber.
-> Keep identical: camera angle and distance, framing, depth of field, the brass
-> hourglass and its exact position, the drawing beneath it and its fold lines,
-> the backlight direction.
-
-**③ ВИДЕО**
-> The sand is already pouring at full rate on the very first frame, not starting
-> slowly. The upper chamber empties visibly and fast, the falling column of sand
-> catching the backlight, the lower cone building and collapsing on itself. The
-> last grains fall and stop. Camera pushes in extremely slowly, 5 percent over the
-> whole shot, no more. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Sand is already pouring at a violent rate on the very first frame, a
+> thick continuous column, not a trickle. 1.0–4.0s: The upper chamber empties
+> fast, visibly draining; the camera pushes in hard and fast toward the narrow
+> neck of the hourglass, tracking the falling column close. 4.0–8.0s: The lower
+> cone builds and partially collapses on itself twice before the last grains
+> fall; the camera pulls back to reveal the full hourglass motionless.
+> Final frame: the upper chamber completely empty, sand settled in an uneven
+> cone below, camera pulled back to a clean close-up of the still hourglass. **+ ХВОСТ В2**
 
 ---
 
@@ -536,20 +536,16 @@
 > a distinct hard shadow. The rest of the surface is completely bare.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: a tall spilling pile of identical white
-> envelopes now fills the centre of the frame, with several slid off the top and
-> resting flat on the desk around it, and one rust-red envelope visible in the
-> pile.
-> Keep identical: camera height and angle, framing, the black desk surface and its
-> texture, lighting direction and hardness.
-
-**③ ВИДЕО**
-> Envelopes start slamming down into frame from above immediately on the first
-> frame, one after another. The rate accelerates sharply and the pile builds,
-> slides and spreads sideways, envelopes sliding off the top onto the desk. The
-> fall stops and the top envelope slides down the side of the pile and comes to
-> rest. Camera locked off. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.8s: Envelopes are already slamming down hard and fast from above on the
+> very first frame, several at once, not one at a time. 0.8–4.0s: The pile
+> builds violently, sliding and toppling sideways, envelopes fanning across the
+> desk faster than gravity alone would allow; the camera whip-tilts down to
+> follow one envelope as it slides off the edge toward the lens. 4.0–8.0s: The
+> fall stops abruptly with a final shudder; the camera rises back to hold the
+> full spilling pile.
+> Final frame: a tall collapsed pile of envelopes spread wide across the desk,
+> one rust-red envelope prominent, camera steady on the full spread. **+ ХВОСТ В2**
 
 ---
 
@@ -562,18 +558,15 @@
 > sitting on it. The steel is completely clean with no corrosion anywhere. Hard
 > raking key light from frame right. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the entire surface is now heavily
-> corroded — saturated rust-orange scale spreading through the grain, flakes
-> lifting and curling at the edges, deep pitting throwing micro-shadows.
-> Keep identical: camera distance and angle, framing, focus, the metal grain
-> direction, the water droplet positions, lighting direction and hardness.
-
-**③ ВИДЕО**
-> Rust blooms outward from a single point on the very first frame. The corrosion
-> spreads across the surface in accelerated time, branching along the metal grain,
-> orange scale lifting and flaking at the edges. The spread stops and the surface
-> is left fully corroded and static. Camera locked off, focus fixed. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Rust erupts from a single point violently on the very first frame,
+> flaking visible almost immediately. 1.0–4.0s: The corrosion races outward
+> branching along the grain, flakes lifting and curling in real time; the camera
+> pushes in extremely close, tracking the leading edge of the spread as it
+> crosses the frame. 4.0–8.0s: The spread reaches the frame edges and stops, the
+> surface fully corroded; the camera holds tight on the pitted texture.
+> Final frame: the entire visible surface corroded and flaking, deep pitting
+> catching the raking light, camera in extreme close-up. **+ ХВОСТ В2**
 
 ---
 
@@ -587,20 +580,16 @@
 > sheeting off the tiles and overflowing the gutter, flat grey light, everything
 > soaked. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the rain has stopped and hard warm low
-> sun now rakes across the brick, with meltwater still streaming down the wall and
-> a single drip hanging from the gutter. The sky is deep navy and clear.
-> Keep identical: camera position and angle, framing, the facade, the roof tiles,
-> the windows, the gutter and every architectural detail.
-
-**③ ВИДЕО**
-> Hard rain is already lashing the facade on the first frame, water sheeting off
-> the tiles and overflowing the gutter. The rain cuts to driving snow which
-> settles fast on the roof and window ledges. The snow clears in accelerated time
-> and hard low sun breaks across the brick with meltwater streaming down the wall.
-> The water slows to a single drip and stops. Camera locked off, no zoom, deep
-> focus. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Hard rain is already lashing violently on the very first frame,
+> sheeting hard off the tiles. 1.0–3.0s: The rain whips into driving snow within
+> seconds, settling fast and visibly thickening on the roofline and sills; the
+> camera holds low and wide. 3.0–6.0s: The snow clears explosively fast and hard
+> low sun breaks across the brick, meltwater suddenly streaming down the wall in
+> visible rivulets; the camera pushes in on the streaming water. 6.0–8.0s: The
+> water slows to a single drip and stops.
+> Final frame: hard low sun on wet brick, one drip hanging from the gutter, sky
+> deep navy and clear, camera close on the wet facade. **+ ХВОСТ В2**
 
 ---
 
@@ -615,20 +604,16 @@
 > and crisp, covered in dense blocks of unreadable printed lines and one dark
 > stamp shape. Paper fibres visible. Hard key from frame right. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: a large soaked patch now covers most of
-> the sheet, the ink dissolved into a dark grey bloom with bleeding tendrils at
-> its edges, the paper cockled and lifted slightly at one corner.
-> Keep identical: camera height and angle, framing, depth of field, the sheet
-> position, the slate surface, lighting direction and specular sheen.
-
-**③ ВИДЕО**
-> A heavy water drop hits the centre of the sheet on the very first frame and the
-> paper darkens instantly around the impact. The ink bleeds outward in visible
-> tendrils, letters dissolving into grey blooms. Three more drops land in quick
-> succession and the wet patches merge. The spread slows and stops, the paper
-> cockling and lifting at one corner. Camera locked off, focus on the impact
-> point. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.6s: A heavy drop hits the sheet violently on the very first frame, the
+> paper darkening instantly in a visible shockwave outward. 0.6–4.0s: Ink bleeds
+> outward fast in branching tendrils, letters dissolving into grey blooms; three
+> more drops slam down in quick succession, the wet patches colliding and
+> merging; the camera pushes in tight on the collision point. 4.0–8.0s: The
+> spread slows and stops, the paper cockling and lifting sharply at one corner
+> as it dries unevenly.
+> Final frame: most of the sheet soaked and dissolved into a dark bloom, the
+> corner curled sharply upward, camera in tight macro on the ruined surface. **+ ХВОСТ В2**
 
 ---
 
@@ -641,18 +626,16 @@
 > cream cards stands intact and stable, each card throwing a long hard shadow
 > across the stone. One rust-red card sits in the structure. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the structure has completely collapsed —
-> the cards now lie in a flat scatter across the polished stone, fanned out in
-> different directions, nothing standing.
-> Keep identical: camera angle and height, framing, depth of field, the polished
-> stone surface and its reflections, lighting direction, the black background.
-
-**③ ВИДЕО**
-> The base card slips on the very first frame and the whole structure collapses in
-> one motion, cards fanning outward and sliding across the polished stone in
-> different directions. The movement decays and one card spins flat on the stone
-> and stops. Camera locked off. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.5s: The base card slips violently on the very first frame — no
+> hesitation. 0.5–3.0s: The entire structure collapses explosively in one
+> cascading motion, cards fanning outward and skidding across the polished stone
+> in multiple directions at once, one card spinning fast toward the lens.
+> 3.0–8.0s: The scattered cards settle one by one, the last card spinning slower
+> and slower before it drops flat; the camera tracks down slightly to follow it
+> to a stop.
+> Final frame: a flat chaotic scatter of cards across the reflective stone, the
+> last card lying still closest to camera. **+ ХВОСТ В2**
 
 ---
 
@@ -665,19 +648,15 @@
 > plain brass key is fully inserted and intact. Hard key light from frame right,
 > strong specular on the brass. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the key has snapped — only the broken
-> shaft remains in the keyway, its freshly fractured end catching the light with a
-> bright cool metal edge. The key head is gone entirely.
-> Keep identical: camera angle and distance, framing, focus, the lock cylinder and
-> its scratches, the door surface, lighting direction and specular character.
-
-**③ ВИДЕО**
-> The key begins turning under force on the very first frame, the metal visibly
-> straining. It resists, twists, and snaps — the head comes away in the hand and
-> moves out of frame while the broken shaft stays in the cylinder. The hand
-> withdraws completely and the broken end sits motionless in the keyway. Camera
-> locked off, focus fixed on the keyway. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The key is already under visible strain on the very first frame,
+> metal flexing hard. 1.0–3.0s: It resists violently, twists, and snaps with a
+> sudden sharp motion — the head flies out of frame fast rather than being
+> withdrawn gently; the camera whip-focuses from the straining key to the
+> fractured shaft. 3.0–8.0s: The broken end catches the light, motionless in the
+> keyway; the camera pushes in tight on the fresh fracture.
+> Final frame: the broken shaft alone in the lock, the fracture edge catching a
+> cold bright highlight, camera in extreme close-up. **+ ХВОСТ В2**
 
 ---
 
@@ -691,20 +670,16 @@
 > of cold daylight from an unseen window cuts across it; the rest is deep shadow.
 > The floor below is dry. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the damp patch has spread wide and dark
-> across the ceiling and the plaster sags visibly at its centre, a fragment of wet
-> plaster has fallen and lies on the boards below, and the floor beneath is wet
-> with splash marks.
-> Keep identical: camera position and angle, framing, lens distortion, the room,
-> the walls, the floorboards, the light shaft and its direction.
-
-**③ ВИДЕО**
-> A drop is already falling toward the lens on the very first frame and hits the
-> floor with a visible splash. The ceiling patch darkens and widens and drops fall
-> faster from three separate points, splashing on the bare boards below. A
-> fragment of wet plaster detaches and falls. The dripping continues steadily.
-> Camera locked off, wide. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.8s: A drop is already falling fast toward the lens on the very first
+> frame, hitting the floor with a hard visible splash. 0.8–4.0s: The ceiling
+> patch darkens and spreads violently fast, drops now falling from three points
+> at once, splashing loudly on the boards; the camera pulls back fast and wide
+> to reveal the full spreading damage. 4.0–8.0s: A large fragment of wet plaster
+> suddenly detaches and falls, striking the floor hard; the dripping continues
+> at a steady heavy rate.
+> Final frame: a wide shot of a badly sagging wet ceiling, a fallen plaster
+> fragment on the wet floor, drops still falling from multiple points. **+ ХВОСТ В2**
 
 ---
 
@@ -718,21 +693,16 @@
 > source. A light rain has just started — scattered droplets sit on the glass, no
 > streams yet. The room interior is pure black. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the glass is now covered in fast running
-> rivulets of water racing down the pane and merging, with the warm light outside
-> refracting and breaking across every stream.
-> Keep identical: camera position and distance, framing, focus locked on the
-> glass, the out-of-focus street shapes and the position of the warm light, the
-> pure black interior.
-
-**③ ВИДЕО**
-> Heavy rain is already hammering the glass on the very first frame, droplets
-> bursting on impact. The water builds into fast running rivulets racing down the
-> pane, merging and accelerating, the outside light refracting and breaking in
-> each stream. The downpour eases slightly and the rivulets slow but keep running.
-> Camera locked off, focus locked on the glass, background permanently out of
-> focus. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Heavy rain is already hammering the glass violently on the very
+> first frame, droplets bursting on impact in visible detail. 1.0–4.0s: The
+> water explodes into fast, thick rivulets racing down the pane, merging and
+> colliding faster than natural gravity, the outside light shattering and
+> refracting wildly across each stream; the camera pushes in tight on one
+> merging point. 4.0–8.0s: The downpour eases slightly but the rivulets keep
+> racing, the refracted light settling into a steady rhythm.
+> Final frame: glass covered in fast merged rivulets, the warm light outside
+> broken into multiple bright refracted streaks, camera close on the wet glass. **+ ХВОСТ В2**
 
 ---
 
@@ -746,19 +716,16 @@
 > vertical damp streak. Flat hard overcast daylight, everything wet and specular.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the gutter is now only dripping heavily,
-> and the damp streak down the brick has become much wider and darker, with water
-> pooling on the ground at the bottom of the frame.
-> Keep identical: camera position and angle, framing, the eaves, the gutter, the
-> brick wall and its bond pattern, the stone sill, the overcast light.
-
-**③ ВИДЕО**
-> Water is already pouring over the gutter lip in a continuous sheet on the first
-> frame. The flow increases, sheeting straight down the brick face toward the
-> lens, splashing hard off a stone sill halfway down. The flow thins to heavy
-> dripping and the wet streak on the brick is left much wider and darker. Camera
-> locked off, wide, deep focus. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: Water is already pouring violently over the gutter lip in a thick
+> sheet on the very first frame. 1.0–4.0s: The flow surges even harder, sheeting
+> down the brick face and slamming off the stone sill with visible spray; the
+> camera pulls back fast to reveal the full length of the streaming wall.
+> 4.0–8.0s: The flow thins abruptly to heavy dripping, the streak on the brick
+> left far wider and darker than at the start; the camera holds on the pooling
+> water below.
+> Final frame: a wide dark wet streak down the brick, water pooling visibly on
+> the ground, the gutter still dripping heavily. **+ ХВОСТ В2**
 
 ---
 
@@ -776,19 +743,15 @@
 > right, hovering just above the paper. Soft-hard key from frame left.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: a clean vertical column of six deep navy
-> ink checkmarks now runs down the margin, each one slightly bled into the paper
-> fibres, and the pen is gone from the frame entirely.
-> Keep identical: camera height and angle, framing, the paper and its texture, the
-> ruled lines, lighting direction and sheen.
-
-**③ ВИДЕО**
-> The first checkmark is struck on the very first frame, ink flowing wet into the
-> paper. Five more marks are struck down the margin at a steady confident pace,
-> each bleeding slightly into the fibres. The pen lifts and leaves frame and the
-> wet ink catches the light and begins to dull as it dries. Camera locked off.
-> **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.8s: The first checkmark strikes the paper decisively on the very first
+> frame, ink flowing fast and visible. 0.8–4.0s: Five more marks strike down the
+> margin in a quick confident rhythm, each bleeding slightly; the camera pushes
+> in steadily on the growing column of marks. 4.0–8.0s: The pen lifts and exits
+> frame fast; the camera holds tight on the full column as the wet ink begins to
+> dull evenly.
+> Final frame: six clean checkmarks in a tight column, ink settling, camera
+> close on the finished margin. **+ ХВОСТ В2**
 
 ---
 
@@ -801,19 +764,14 @@
 > cover folded back flat. Warm hard key from frame left throws a long shadow
 > across the desk, background dropping to black. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the stack is squared perfectly and the
-> kraft cover is folded over it and pressed flat, so the folder sits closed with
-> clean square edges. No hands in frame.
-> Keep identical: camera angle and height, framing, the oak desk and its grain,
-> the folder position, lighting direction and the long shadow.
-
-**③ ВИДЕО**
-> Hands square the stack with one sharp tap against the desk on the very first
-> frame. The kraft cover is folded over the stack in one continuous motion and
-> pressed flat with the palm. The hands withdraw fully out of frame and the folder
-> sits closed and completely still. Camera pushes in extremely slowly, 5 percent
-> over the whole shot. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.8s: Hands square the stack with one sharp decisive tap on the very first
+> frame. 0.8–4.0s: The kraft cover folds over in one confident continuous
+> motion and is pressed flat with a firm decisive palm strike; the camera pushes
+> in closer on the closing edge as it happens. 4.0–8.0s: The hands withdraw fast
+> and completely out of frame; the camera holds steady on the closed folder.
+> Final frame: the folder closed with clean square edges, hands gone, camera
+> close on the finished surface. **+ ХВОСТ В2**
 
 ---
 
@@ -826,18 +784,14 @@
 > brass key on a rust-red leather fob enters from above, hanging just clear of the
 > hook. Warm hard key from frame right, background near-black. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the key now hangs motionless on the
-> hook, the leather fob hanging straight down and still, with one bright specular
-> highlight on the brass.
-> Keep identical: camera angle and distance, framing, depth of field, the oak
-> board and grain, the hook position, lighting direction.
-
-**③ ВИДЕО**
-> The key is placed onto the hook on the very first frame and released. It swings
-> twice, each arc smaller than the last, the leather fob turning slowly. The
-> movement stops completely and the key hangs still. Camera locked off.
-> **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–0.6s: The key is placed onto the hook with a decisive motion on the very
+> first frame and released immediately. 0.6–4.0s: It swings in two confident
+> decreasing arcs, the leather fob turning visibly; the camera holds close,
+> tracking the swing slightly side to side. 4.0–8.0s: The movement stops
+> completely; the camera settles dead still on the motionless key.
+> Final frame: the key hanging perfectly still on the hook, one bright specular
+> highlight on the brass, camera locked close. **+ ХВОСТ В2**
 
 ---
 
@@ -850,19 +804,15 @@
 > red-brick facade. A brass handle, and a thin blade of warm light visible at the
 > door's edge. Cool overcast daylight outside. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: the door now stands fully open, swung
-> away from camera, and warm golden interior light spills across the threshold and
-> down the stone steps toward the lens, glowing on the brick around the doorway.
-> Keep identical: camera position and height, framing, the facade, the brickwork,
-> the stone steps, the door frame, the overcast outdoor light.
-
-**③ ВИДЕО**
-> The door begins swinging open away from camera on the very first frame, one
-> continuous arc. Warm interior light widens across the threshold and spills down
-> the stone steps toward the lens, the brick around the doorway catching the glow.
-> The door reaches full open and stops and the light steadies and holds. Camera
-> locked off, no zoom, no drift. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The door is already swinging open in a fast decisive arc on the very
+> first frame, not a slow reveal. 1.0–4.0s: Warm interior light widens rapidly
+> across the threshold, spilling down the steps toward the lens, the brick
+> catching the glow in a growing wash; the camera pushes in steadily toward the
+> widening light. 4.0–8.0s: The door reaches full open with a decisive stop; the
+> camera holds on the steady light.
+> Final frame: the door fully open, warm light flooding the steps and reaching
+> toward the lens, camera close on the glowing threshold. **+ ХВОСТ В2**
 
 ---
 
@@ -876,23 +826,16 @@
 > Dust turns in the light shaft. The room is empty — no person in frame.
 > **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: a single person now stands at the
-> window, small in frame, **seen strictly from behind**, in a dark coat, fully
-> backlit and reduced almost to a silhouette, one hand raised resting against the
-> window frame. No part of the face is visible and there is no reflection of a
-> face in the glass.
-> Keep identical: camera position and angle, framing, the room, the floorboards,
-> the walls, the window and its light, the dust in the shaft.
-
-**③ ВИДЕО**
-> The figure walks into frame from the left on the very first frame and crosses
-> toward the window, seen only from behind throughout. They reach the glass and
-> stop, one hand rising to rest against the frame. Dust turns in the shaft of
-> light around them. They stay completely still, facing away, and only the dust
-> moves. Camera pushes in extremely slowly, 5 percent over the whole shot.
-> The face is never visible at any point and never reflected in the glass.
-> **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The figure walks into frame from the left at a natural but decisive
+> pace on the very first frame, seen only from behind throughout. 1.0–4.0s: They
+> reach the glass and stop, one hand rising to rest against the frame; the
+> camera pushes in slowly but steadily, visibly closing distance. 4.0–8.0s: They
+> stay still, facing away; dust turns in the light shaft around them; the
+> camera settles into its final close position.
+> Final frame: the figure motionless at the window seen from behind, hand on the
+> frame, camera notably closer than the opening frame. The face is never visible
+> at any point and never reflected in the glass. **+ ХВОСТ В2**
 
 ---
 
@@ -905,19 +848,15 @@
 > the distance. Every window is dark. Deep navy sky with the last light at the
 > horizon. **+ ХВОСТ И**
 
-**② END**
-> Use this exact image. Change only this: about a dozen windows scattered across
-> the rooftops are now lit warm gold, near and far, glowing against the dark
-> roofline.
-> Keep identical: camera position and height, framing, every rooftop, chimney and
-> dormer and its exact position, the sky gradient and horizon light.
-
-**③ ВИДЕО**
-> One window in the near distance lights up warm on the very first frame. Windows
-> light up one after another across the frame, near then far, the rhythm building
-> until about a dozen are glowing. The last one lights and everything holds
-> steady. Camera drifts extremely slowly to the right, 3 percent of frame width
-> over the whole shot, nothing more. **+ ХВОСТ В**
+**ВИДЕО — прямой image-to-video, без END-кадра**
+> 0.0–1.0s: The first window lights up decisively on the very first frame, no
+> slow fade. 1.0–5.0s: Windows ignite one after another across the frame at a
+> quickening rhythm, near then far, building toward a fuller glow; the camera
+> drifts steadily to the right, a clearly visible drift, to reveal more of the
+> lit skyline as it happens. 5.0–8.0s: The last window lights and the drift
+> settles to a stop.
+> Final frame: a dozen or more warm windows lit across the dark rooftops, camera
+> settled after a visible rightward drift, sky unchanged. **+ ХВОСТ В2**
 
 ---
 
