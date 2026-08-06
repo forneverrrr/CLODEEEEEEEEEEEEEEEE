@@ -1,4 +1,15 @@
 {
+  "generation_settings": {
+    "duration_seconds": 8,
+    "duration_note": "All our prompts are written with timestamped beats (0.0-1.5s, 1.5-3.0s, etc) that assume an 8-second clip. If Flow only offers 4/6/8s options, always pick 8 — shorter durations will cut a beat off mid-motion.",
+    "mode": "single start image + text motion prompt (image-to-video), NOT a start+end frame pair",
+    "mode_note": "Do not assume this matches whatever mode a generic doc calls 'Frames to Video' (that implies both start AND end images, and historically ran far more expensive per generation than what we've actually paid). Before running step 6 of the test, use browser_snapshot to confirm which mode in the real Flow UI takes ONE image + text prompt, and check the actual credit cost shown before generating — don't assume, verify live.",
+    "quality_tier": "start on the cheapest/fastest available tier to validate the pipeline (chaining, frame extraction, browser automation) works end-to-end without burning credits on quality. Only switch to the top-quality tier once a segment's composition and motion are already approved at low quality — quality tier doesn't change whether the prompt/motion/chaining logic works, only sharpness.",
+    "audio": "off if there's a toggle — we mute all AI-generated audio and add our own sound/music in CapCut, per the video_tail below",
+    "image_tool": "Nano Banana Pro for every start-image generation, always generate 4 variants and stop — show all 4 to the user and let them pick which one to animate. Never auto-pick a variant yourself.",
+    "video_tool": "Omni, within Google Flow, for every video/motion generation, at the 8-second duration set above."
+  },
+
   "format": "9:16 vertical, photorealistic editorial still base, 50mm shallow depth of field",
   "palette": {
     "background": "near-black navy #0F1E30",
