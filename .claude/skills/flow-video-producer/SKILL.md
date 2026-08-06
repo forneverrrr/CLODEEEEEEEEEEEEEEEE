@@ -60,6 +60,14 @@ UI changes; a hardcoded selector is a guaranteed future failure.
   "no text/logos/faces/house numbers", ambient-audio-only line.
 - Every video prompt has explicit timestamps (`0.0–1.5s: ...`) and motion that
   begins decisively on frame one — no calm intro beat.
+- **Every single video, chained or standalone, must contain at least one real
+  state-change beat** — not just camera movement variety (push/pan/tilt alone
+  is not enough and reads as boring/static even when the camera is moving).
+  Pick one from `reliable_techniques` in `style.json`: a weather shift, a
+  light/color wave, a hard flash-cut between two states, a collapse/avalanche,
+  a material bursting open. If a segment's prompt draft has camera movement
+  but no actual change of state in the scene, rewrite it before generating —
+  don't spend credits on a "moving camera, static world" clip.
 - Check every new concept against `references/known-failures.md` BEFORE
   generating. If a concept matches a known failure pattern, don't spend
   credits testing it again — either drop it or use the documented workaround.
