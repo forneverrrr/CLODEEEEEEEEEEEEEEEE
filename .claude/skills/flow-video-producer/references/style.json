@@ -1,0 +1,32 @@
+{
+  "format": "9:16 vertical, photorealistic editorial still base, 50mm shallow depth of field",
+  "palette": {
+    "background": "near-black navy #0F1E30",
+    "midtone": "warm cream #E8DED1",
+    "accent": "one saturated rust-red #C4533F, used sparingly"
+  },
+  "lighting": "hard directional key light from one side, deep near-black shadows, strong specular highlights, high contrast, never flat, never evenly lit",
+
+  "image_tail": "Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.",
+
+  "video_tail": "Camera behaviour as stated above — do not default to a fully static locked-off shot for the whole duration; vary it as described (push, whip-pan, rack-focus, drift, tilt, crash zoom) so the shot reads as more than one beat. Motion begins decisively or violently on the very first frame, never a calm intro. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.",
+
+  "narrative_sections": [
+    "1. Цена ошибки — concrete cost, money/documents (no readable currency or text — see known-failures.md)",
+    "2. Скрытое под поверхностью — walls, cracks, damp, hidden defects",
+    "3. Два варианта — side-by-side comparison, contrast in light not narration",
+    "4. Время и будущие счета — decay, deadlines, hourglass-type imagery",
+    "5. Разрушение — bold destructive reveal (material tears/bursts open, not camera phasing through solid matter)",
+    "6. Разрешение и зелёный флаг — calm resolution, warm light, contrast payoff after tension"
+  ],
+
+  "reliable_techniques": [
+    "large-scale weather transformation (rain to snow to sun, storm clears)",
+    "light/color wave sweeping across a surface (cold to warm, red to green)",
+    "cascading ignition (windows, streetlamps, candles lighting one after another)",
+    "avalanche/collapse of a large stacked object (coins, cards, papers)",
+    "material bursting/tearing open explosively to reveal what's behind (roof, wall, ceiling) — the MATERIAL destroys itself, the camera does not pass through solid matter",
+    "hard flash-cut between two states (storm to sunny, dark to lit) — write it as an explicit instant cut, not a dissolve",
+    "camera flying through an already-open gap into revealed space — only after the barrier is removed, never through something still solid"
+  ]
+}
