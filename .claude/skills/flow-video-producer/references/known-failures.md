@@ -42,6 +42,35 @@ credits re-testing these; either avoid the category or use the documented fix.
   the model at all) is a reliable substitute when a "door opening" beat is
   needed for a resolution/CTA shot.
 
+## Stacked camera movements - suspected cause of recent low-quality generations
+- Source: cross-checked against kdowswell/veo-tools' prompt-checklist.md
+  (public, verified 2026-08-09) - this is a documented Veo failure pattern,
+  not our own confirmed test yet, so treat it as a strong hypothesis to apply
+  immediately, not a proven-in-our-pipeline fact like the entries above.
+- Pattern: describing two movements at once in a single shot - "dolly while
+  panning", "orbit and zoom", "push in with a slight tilt". Veo reportedly
+  either favors one and drops the other, or produces jarring, unpredictable
+  motion.
+- Our current style.json `video_tail` line lists several movement types
+  (push, whip-pan, rack-focus, drift, tilt, crash zoom) as things to "vary" -
+  read carefully, this means pick ONE per shot and vary WHICH one across
+  different shots/segments, never combine two of them inside the same 8s
+  clip. If a prompt draft reads like "camera pushes in while panning right",
+  split it: pick the single movement that best serves the beat.
+- If a recent low-quality batch used stacked-movement prompts, that is the
+  first thing to check and fix before blaming the model or the reference
+  images.
+
+## Generic descriptions - quality warning, not a hard failure
+- Source: same external checklist as above.
+- Vague nouns without material/texture detail ("metal surface", "water",
+  "light") tend to produce generic, stock-footage-feeling output even when
+  the shot technically succeeds. Add material specificity: not "metal
+  surface" but "brushed titanium with fine scratches catching the key
+  light" - matches our own palette/lighting language already used in
+  style.json's image_tail, just push it further into the subject
+  description itself, not only the lighting block.
+
 ## What reliably works, confirmed by multiple successful generations
 - Large-scale weather change in one continuous shot (rain → snow → sun)
 - A hard flash-cut between two states, described explicitly as instant, not a
