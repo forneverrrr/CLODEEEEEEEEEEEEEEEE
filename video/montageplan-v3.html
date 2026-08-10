@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NordIndsigt — Монтажплан v3: 24 рила + 4 концовки</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --green:#3D7A4F; --red:#B4483A; --neutral:#8A7B4E; --blue:#3B5A85;
+  --disp:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--red:#E0776A;--neutral:#C9B876;--blue:#7FA6D9;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--red:#E0776A;--neutral:#C9B876;--blue:#7FA6D9;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px 110px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:11px 0}
+.top-inner{max-width:900px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-family:var(--disp);font-weight:600;font-size:15.5px;white-space:nowrap}
+.brand b{color:var(--rust)}
+.top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:11.5px;color:var(--ink2);text-decoration:none;padding:5px 9px;border-radius:100px;white-space:nowrap}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:44px 0 18px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:13px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 15px;text-wrap:balance}
+.lead{font-size:16px;color:var(--ink2);max-width:680px;margin:0 0 6px}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+h2.sec{font-family:var(--disp);font-size:25px;font-weight:600;letter-spacing:-.01em;margin:52px 0 8px;scroll-margin-top:62px}
+h3.sub{font-family:var(--disp);font-size:19px;font-weight:600;margin:30px 0 8px}
+.sec-intro{font-size:14.5px;color:var(--ink2);max-width:680px;margin-bottom:18px}
+.callout{background:var(--tag-bg);border:1px solid var(--line);border-radius:15px;padding:17px 21px;margin:18px 0;font-size:14.5px;color:var(--ink2)}
+.callout b{color:var(--ink)}
+.callout.warn{border-left:3px solid var(--rust)}
+.callout.ok{border-left:3px solid var(--green)}
+.tail{background:var(--mono-bg);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:11px;padding:15px 17px;font-family:var(--mono);font-size:12.5px;line-height:1.65;color:var(--mono-ink);white-space:pre-wrap;user-select:text;margin:10px 0}
+.blockhead{display:flex;justify-content:space-between;align-items:center;margin:14px 0 5px;gap:10px}
+.blocklabel{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.copy-btn{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--line);color:var(--ink2);padding:4px 10px;border-radius:100px;cursor:pointer}
+.copy-btn:hover{background:var(--tag-bg);color:var(--ink)}
+.copy-btn.copied{color:var(--green);border-color:var(--green)}
+.reel{background:var(--card);border:1px solid var(--line);border-radius:19px;margin-bottom:22px;overflow:hidden;scroll-margin-top:68px}
+.reel-band{padding:16px 22px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:11px;flex-wrap:wrap}
+.reel-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.reel-title{font-family:var(--disp);font-size:17.5px;font-weight:600}
+.reel-meta{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.reel-body{padding:16px 22px 21px}
+.pill{display:inline-block;font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:100px;background:var(--tag-bg);color:var(--tag-ink);white-space:nowrap}
+.pill.p299{background:color-mix(in srgb,var(--neutral) 18%,transparent);color:var(--neutral)}
+.pill.p599{background:color-mix(in srgb,var(--gold) 20%,transparent);color:var(--tag-ink)}
+.pill.p2999{background:color-mix(in srgb,var(--rust) 16%,transparent);color:var(--rust-deep)}
+.pill.plus{background:color-mix(in srgb,var(--green) 16%,transparent);color:var(--green)}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0}
+th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 7px 0;border-bottom:1px solid var(--line);font-weight:400}
+td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+td.ts{font-family:var(--mono);font-size:11.5px;color:var(--ink);white-space:nowrap}
+td.dk{color:var(--ink);font-weight:500}
+.scroll{overflow-x:auto}
+.cap{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:11px;padding:14px 16px;font-size:14.5px;color:var(--ink);white-space:pre-wrap;user-select:text}
+.diff{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+@media(max-width:640px){.diff{grid-template-columns:1fr}}
+.diff>div{border:1px solid var(--line);border-radius:12px;padding:13px 15px;font-size:13.5px}
+.diff .was{border-left:3px solid var(--red)}
+.diff .now{border-left:3px solid var(--green)}
+.diff h4{margin:0 0 7px;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:400}
+footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="top-inner">
+  <div class="brand">Nord<b>Indsigt</b> · Монтажплан v3</div>
+  <nav>
+    <a href="#izmen">Что изменилось</a>
+    <a href="#hvosty">Хвосты</a>
+    <a href="#konc">Концовки 7–10</a>
+    <a href="#novye">Рилы 13–24</a>
+    <a href="#redo">REDO ×12</a>
+    <a href="#ochered">Очередь</a>
+  </nav>
+</div></div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">28 единиц · 4 концовки + 24 рила · 96 сегментов</div>
+  <h1>Монтажплан v3 — всё оставшееся производство в одном файле</h1>
+  <p class="lead">Объединяет 4 новые концовки (7–10), 12 новых рилов (13–24) и 12 редизайнов старой библиотеки (REDO-02…REDO-15). Промпты переработаны под то, что выяснилось после первых 12 смонтированных рилов: исправлен хвост, провоцировавший стекинг движений камеры, добавлены датские тексты поверх видео с таймингами, подписи и привязка к продукту.</p>
+  <div class="meta-row">
+    <span><b>Концовок:</b> 4 новые (7–10)</span>
+    <span><b>Рилов:</b> 24 (13–24 + REDO ×12)</span>
+    <span><b>Сегментов:</b> 72 видео + 24 старта</span>
+    <span><b>Не трогаем:</b> 01, 04, 06</span>
+  </div>
+</header>
+
+<div class="callout warn">
+<b>Главная правка v3.</b> В v2 хвост каждого видео-промпта заканчивался фразой «vary it as described (push, whip-pan, rack-focus, drift, tilt, crash zoom) so the shot reads as more than one beat». Она стояла во всех 112 промптах и читается моделью как приглашение <i>смешивать</i> движения. По документированному поведению Veo стекинг движений («dolly while panning») даёт непредсказуемый результат: модель либо выбирает одно и игнорирует остальные, либо выдаёт рваное движение. Это наиболее вероятная причина того, что новая партия генераций не понравилась. В v3 хвост переписан: <b>одно движение на сегмент, вариация между сегментами, а не внутри</b>.
+</div>
+
+<h2 class="sec" id="izmen">Что изменилось против v2</h2>
+<p class="sec-intro">Шесть правок. Первая — критическая, остальные повышают попадание с первого раза и убирают ручную работу на монтаже.</p>
+
+<div class="diff">
+<div class="was"><h4>Было (v2)</h4>«vary it as described (push, whip-pan, rack-focus, drift, tilt, crash zoom) so the shot reads as more than one beat» — в каждом из 112 промптов.</div>
+<div class="now"><h4>Стало (v3)</h4>«Only one camera movement is active at any given moment. Movements may follow one another between beats, but never overlap or blend.» Последовательная смена движений разрешена — она работает в готовых рилах. Запрещено только наложение.</div>
+</div>
+
+<div class="diff">
+<div class="was"><h4>Было</h4>Тексты поверх видео для 13–24 и REDO не написаны вообще. Для 01–12 они есть, для остальных 24 — нет.</div>
+<div class="now"><h4>Стало</h4>У каждого рила таблица: сегмент → тайминг → датский текст → почему здесь. Готово к впечатыванию.</div>
+</div>
+
+<div class="diff">
+<div class="was"><h4>Было</h4>Полный хвост (≈120 слов) физически повторён 112 раз. Правка требовала 112 замен.</div>
+<div class="now"><h4>Стало</h4>Хвосты вынесены в канонические блоки <code>ХВОСТ-К</code> и <code>ХВОСТ-В</code>. В промпте — только уникальная часть плюс ссылка. Правка в одном месте.</div>
+</div>
+
+<div class="diff">
+<div class="was"><h4>Было</h4>Текст сочинялся прямо в CapCut во время монтажа — что написать и на какой секунде решалось на ходу.</div>
+<div class="now"><h4>Стало</h4>Датская строка и её тайминг заданы заранее, привязаны к конкретной фазе кадра. Монтаж остаётся в CapCut — меняется только то, что текст больше не придумывается на месте.</div>
+</div>
+
+<div class="diff">
+<div class="was"><h4>Было</h4>Подписи и продукт назначались уже после монтажа, отдельным заходом.</div>
+<div class="now"><h4>Стало</h4>Подпись и цена (299/599/2.999) закреплены за рилом здесь же, вместе с концовкой. Ничего не назначается задним числом.</div>
+</div>
+
+<div class="diff">
+<div class="was"><h4>Было</h4>Приёмка на глаз: «нравится / не нравится».</div>
+<div class="now"><h4>Стало</h4>Чек-лист из 4 пунктов ниже. Если сегмент его не проходит — перегенерировать, не тащить дальше по цепочке.</div>
+</div>
+
+<div class="callout ok">
+<b>Чек-лист приёмки сегмента.</b> Прогонять до того, как брать последний кадр в следующий сегмент — плохой сегмент отравляет всю цепочку после себя.<br><br>
+<b>1. Движение.</b> Ровно одно движение камеры. Если видно, что камера едет и одновременно поворачивает — брак, перегенерировать.<br>
+<b>2. Смена состояния.</b> В кадре что-то реально изменилось (свет, разрушение, погода, обвал), а не просто ездила камера по неподвижной сцене.<br>
+<b>3. Первый кадр.</b> Движение началось на первом кадре, без спокойного вступления.<br>
+<b>4. Чистота.</b> Нет выдуманного текста, цифр, лиц, номеров домов, нероссийских/недатских вывесок.
+</div>
+
+<h2 class="sec" id="hvosty">Канонические хвосты</h2>
+<p class="sec-intro">Дописываются в конец каждого промпта. В карточках ниже промпты даны без них — подставляйте отсюда. Если правите стиль, правьте здесь, и правка разойдётся на все 96 сегментов.</p>
+
+<h3 class="sub">ХВОСТ-К — для стартовых картинок</h3>
+<div class="blockhead"><span class="blocklabel">Дописывать в конец START-промпта</span><button class="copy-btn" data-copy="t-k">Копировать</button></div>
+<div class="tail" id="t-k">Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
+
+<h3 class="sub">ХВОСТ-В — для видео-сегментов <span class="pill">исправлен в v3</span></h3>
+<div class="blockhead"><span class="blocklabel">Дописывать в конец каждого VIDEO-промпта</span><button class="copy-btn" data-copy="t-v">Копировать</button></div>
+<div class="tail" id="t-v">Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend — do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot — light, weather, material, or structure — not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+
+<h3 class="sub">ХВОСТ-В-КАРТА — для видео концовок</h3>
+<p class="sec-intro">Отличается тем, что в кадре присутствует готовая графическая карточка с ценой, и её нельзя перерисовывать.</p>
+<div class="blockhead"><span class="blocklabel">Дописывать в конец VIDEO-промпта концовки</span><button class="copy-btn" data-copy="t-vk">Копировать</button></div>
+<div class="tail" id="t-vk">The composited card content must never warp, blur into illegibility, regenerate, or have its text or numbers altered during any part of this sequence — treat it as a fixed foreground layer. Use exactly ONE camera movement type per beat as specified above; never combine two movements simultaneously. Motion begins decisively or violently on the very first frame, never a calm intro. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point beyond the supplied card, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+
+<div class="callout">
+<b>Про формат таймингов.</b> В промптах используется побитовая разметка <code>0.0–0.8s:</code> — она описывает биты внутри одного непрерывного кадра. Не путать с официальным Veo timestamp-prompting <code>[00:00-00:02]</code>, который нарезает генерацию на <i>разные шоты</i>. Нам нужен первый вариант: один непрерывный кадр с фазами, потому что следующий сегмент стартует с его последнего кадра. Формат проверен на 12 смонтированных рилах, не менять.
+</div>
+
+<div class="callout">
+<b>Про звук.</b> Veo 3.1 генерирует звук вместе с видео, а мы его всё равно глушим и накладываем свой в CapCut. Если в интерфейсе Flow есть переключатель звука — выключайте его на генерации: это дешевле, чем просить «ambient only» и потом глушить. Строка про AUDIO в хвосте остаётся как страховка на случай, если переключателя нет.
+</div>
+
+<h2 class="sec" id="konc">Концовки 7–10 <span class="pill">новые</span></h2>
+<p class="sec-intro">Дополняют существующие 1–6. Все четыре — «карточка + одно разрушительное/погодное событие вокруг неё», карточка неизменна и держится в резком фокусе последние 4 секунды. START-промпты даны без хвоста, дописывайте <code>ХВОСТ-К</code>; видео — <code>ХВОСТ-В-КАРТА</code>.</p>
+
+<div class="callout warn">
+<b>Дыра, которую эти 4 концовки не закрывают.</b> После добавления 7–10 расклад такой: на 299 kr — шесть концовок (1, 2, 3, 7, 8, 9), на 599 kr — три (4, 5, 10), на 2.999 kr — по-прежнему <b>одна</b> (6). При этом на 2.999 идут два рила (24 и REDO-15), и оба закрываются одной и той же концовкой. Для двух роликов это терпимо, но если 2.999 будет продвигаться кампанией — нужен как минимум второй вариант. Отдельно: концовки 7 и 8 обе «минус, 299» и обе построены на трещине (печать / стена) — визуально близки, не ставить их в соседние недели.
+</div>
+
+<div class="reel" id="k7">
+<div class="reel-band"><span class="reel-num">Концовка 7</span><span class="reel-title">Треснувшая печать</span><span class="reel-meta"><span class="pill p299">299 kr</span> минус · вариант B</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="k7s">Копировать</button></div>
+<div class="tail" id="k7s">A dark editorial still, 9:16 vertical. In the center of the frame, the pre-made 'BoligCheck — 299 kr / Find det, før du byder' graphic card is composited onto the image exactly as supplied, unaltered — do not regenerate, redraw, translate, or modify any of the text or numbers on this card in any way; treat it as a fixed foreground layer, not something to reinterpret. Beside the card, a large wax-style official seal disc rests on a dark stone surface, intact, with a fine hairline crack already visible across its face.</div>
+<div class="blockhead"><span class="blocklabel">VIDEO · + ХВОСТ-В-КАРТА</span><button class="copy-btn" data-copy="k7v">Копировать</button></div>
+<div class="tail" id="k7v">0.0–0.8s: Hard flash-cut — the seal disc splits violently along its hairline crack on the very first frame, two halves jolting apart with a visible jump, not a slow split. Camera static for this beat. 0.8–2.0s: Single movement — camera whip-pans following the halves as they settle apart, dust puffing from the break. 2.0–3.2s: Camera holds; a hard rust-red beam stabs into the gap between the two broken halves, lighting the raw fracture surface sharply. 3.2–4.0s: Single movement — crash zoom in on the card beside the broken seal, landing tight and centered. 4.0–8.0s: Camera holds the crash-zoomed composition rock-steady, card in sharp undistorted focus dead center, the broken seal halves visible at the frame edges.</div>
+</div></div>
+
+<div class="reel" id="k8">
+<div class="reel-band"><span class="reel-num">Концовка 8</span><span class="reel-title">Стена трескается</span><span class="reel-meta"><span class="pill p299">299 kr</span> минус · вариант C</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="k8s">Копировать</button></div>
+<div class="tail" id="k8s">A dark editorial still, 9:16 vertical. In the center-lower third of the frame, the pre-made 'BoligCheck — 299 kr / Find det, før du byder' graphic card leans against the base of a plain dark plaster wall, composited exactly as supplied and unaltered — do not regenerate, redraw, translate, or modify any of its text or numbers; treat it as a fixed foreground layer. A single fine crack is already visible running down the wall above the card.</div>
+<div class="blockhead"><span class="blocklabel">VIDEO · + ХВОСТ-В-КАРТА</span><button class="copy-btn" data-copy="k8v">Копировать</button></div>
+<div class="tail" id="k8v">0.0–0.8s: Hard flash-cut — the crack in the wall above the card tears open violently on the very first frame, plaster fragments bursting outward and falling past the card. Camera static for this beat. 0.8–2.0s: Single movement — camera whip-tilts up to follow the crack widening rapidly up the wall. 2.0–3.2s: Camera holds; a shaft of rust-red light spills through the widened crack, throwing a sharp jagged beam down across the wall and the top of the card. 3.2–4.0s: Single movement — crash zoom back down onto the card, landing tight and centered, the falling plaster settling around its base. 4.0–8.0s: Camera holds the crash-zoomed composition rock-steady, card in sharp undistorted focus dead center.</div>
+</div></div>
+
+<div class="reel" id="k9">
+<div class="reel-band"><span class="reel-num">Концовка 9</span><span class="reel-title">Дождь по стеклу</span><span class="reel-meta"><span class="pill p299">299 kr</span> нейтральная · вариант B</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="k9s">Копировать</button></div>
+<div class="tail" id="k9s">A balanced editorial still, 9:16 vertical. In the center of the frame, the pre-made 'BoligCheck — 299 kr' graphic card is composited onto the image exactly as supplied, unaltered — do not regenerate, redraw, translate, or modify any of the text or numbers on this card in any way; treat it as a fixed foreground layer, not something to reinterpret. The card is seen through a rain-streaked window pane, positioned just behind the glass, soft diffused daylight beyond it.</div>
+<div class="blockhead"><span class="blocklabel">VIDEO · + ХВОСТ-В-КАРТА</span><button class="copy-btn" data-copy="k9v">Копировать</button></div>
+<div class="tail" id="k9v">0.0–0.8s: Hard flash-cut — heavy rain suddenly hammers the window on the very first frame, streaks racing down the glass violently, not a gentle drizzle. Camera static for this beat. 0.8–2.0s: Single movement — fast rack-focus from the streaking rain on the glass to the card behind it, water distorting the light briefly. 2.0–3.2s: Camera holds; the rain cuts off abruptly in a hard cut, the glass instantly clear and still. 3.2–4.0s: Single movement — crash zoom in through the now-clear glass onto the card, landing tight and centered. 4.0–8.0s: Camera holds the crash-zoomed composition rock-steady, card in sharp undistorted focus dead center, the glass between camera and card now perfectly clear.</div>
+</div></div>
+
+<div class="reel" id="k10">
+<div class="reel-band"><span class="reel-num">Концовка 10</span><span class="reel-title">Три ключа вращаются</span><span class="reel-meta"><span class="pill p599">599 kr</span> Sammenlign 3 · вариант C</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="k10s">Копировать</button></div>
+<div class="tail" id="k10s">A comparative editorial still, 9:16 vertical. In the center of the frame, the pre-made 'Sammenlign 3 boliger — 599 kr' graphic card stands upright on a dark table, composited exactly as supplied and unaltered — do not regenerate, redraw, translate, or modify any of its text or numbers; treat it as a fixed foreground layer. Three identical keys are arranged in a loose triangle around its base, each catching a different sliver of light.</div>
+<div class="blockhead"><span class="blocklabel">VIDEO · + ХВОСТ-В-КАРТА</span><button class="copy-btn" data-copy="k10v">Копировать</button></div>
+<div class="tail" id="k10v">0.0–0.8s: Hard flash-cut — the three keys spin violently in place around the card on the very first frame, catching hard flashes of light as they turn, not a gentle rotation. Camera static for this beat. 0.8–2.0s: Single movement — camera whip-pans around the spinning keys, tracking the light flashes. 2.0–3.2s: Camera holds; the keys snap to a dead stop simultaneously, aligned now pointing toward the card, a single rust-red beam sweeping across all three at once. 3.2–4.0s: Single movement — crash zoom in on the card, landing tight and centered, keys visible pointing inward at the frame edges. 4.0–8.0s: Camera holds the crash-zoomed composition rock-steady, card in sharp undistorted focus dead center.</div>
+</div></div>
+
+<h2 class="sec" id="novye">Рилы 13–24 <span class="pill">новые темы</span></h2>
+<p class="sec-intro">Двенадцать тем, которых не было в старой библиотеке. Каждый рил — стартовая картинка плюс три чейн-сегмента: сегмент 2 стартует с последнего кадра сегмента 1, сегмент 3 — с последнего кадра сегмента 2. START дополняйте <code>ХВОСТ-К</code>, каждый сегмент — <code>ХВОСТ-В</code>.</p>
+
+<div class="reel" id="r13">
+<div class="reel-band"><span class="reel-num">Рил 13</span><span class="reel-title">Дом парит над собственной тенью</span><span class="reel-meta">Концовка 5 · <span class="pill p599">599 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r13s">Копировать</button></div>
+<div class="tail" id="r13s">Close-up photograph, camera at a low three-quarter angle to a dark polished stone table. A small precise wooden architectural model of a Danish house sits on the surface, hard directional light from frame right casting one sharp black shadow lying tight against its base, the model and shadow touching with no gap. Background falls to pure black.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r13a">Копировать</button></div>
+<div class="tail" id="r13a">0.0–0.8s: Camera holds still. The house model tears loose from its own shadow violently on the very first frame — a hard jolt upward, the shadow staying flat on the stone exactly where it was. 0.8–4.0s: Camera still holds. The model rises steadily higher, the black gap between object and shadow widening fast; the shadow below stays sharp-edged and does not move or shrink. 4.0–8.0s: Camera pushes in on the widening gap between them. Final frame: the model hovering high, its shadow still lying flat and sharp far below, a wide dark void between them.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: whip-drop, затем tracking · + ХВОСТ-В</span><button class="copy-btn" data-copy="r13b">Копировать</button></div>
+<div class="tail" id="r13b">0.0–0.6s: Camera whip-drops to table level in one fast move on the very first frame, now viewing the gap in strict profile. 0.6–4.0s: Camera holds still. A hard beam of light stabs in from frame left directly into the void between the hovering model and its shadow, the empty space suddenly lit and volumetric with fine dust. 4.0–8.0s: Camera tracks slowly sideways along the lit gap, holding both the model above and the shadow below in frame. Final frame: the lit empty gap running across the frame, model above, shadow below, dust suspended in the beam.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom, затем rack-focus · + ХВОСТ-В</span><button class="copy-btn" data-copy="r13c">Копировать</button></div>
+<div class="tail" id="r13c">0.0–1.0s: Camera crash-zooms down onto the shadow on the stone on the very first frame. 1.0–4.5s: Camera holds position; a hard rack-focus pulls all sharpness onto the shadow — its edges razor-crisp, its surface dense black — while the hovering model above dissolves into soft blur. 4.5–8.0s: Camera settles, holding the sharp shadow large in frame, the blurred model floating out of focus above it. Final frame: shadow sharp and dominant, model blurred and secondary.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Prisen løftede sig</td><td>Модель уже оторвалась и поднимается — текст описывает то, что видно</td></tr>
+<tr><td>2</td><td class="ts">0.6–4.0s</td><td class="dk">Vurderingen blev, hvor den var</td><td>На освещённом пустом промежутке, когда обе части в кадре</td></tr>
+<tr><td>3</td><td class="ts">1.0–4.5s</td><td class="dk">Afstanden er din risiko</td><td>На резкой тени во время rack-focus — вывод, а не описание</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r13cap">Копировать</button></div>
+<div class="cap" id="r13cap">Prisen og den offentlige vurdering peger sjældent samme vej. Sammenlign 3 boliger for 599 kr — se hvilken der reelt er den bedste handel.</div>
+</div></div>
+
+<div class="reel" id="r14">
+<div class="reel-band"><span class="reel-num">Рил 14</span><span class="reel-title">Дом, у которого времена года летят быстрее</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r14s">Копировать</button></div>
+<div class="tail" id="r14s">Elevated wide photograph, 28mm, camera above street level looking down a row of identical Danish brick houses on a calm summer day, full green trees, clear light. Every house looks the same.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r14a">Копировать</button></div>
+<div class="tail" id="r14a">0.0–1.0s: Camera holds still. At one house in the middle of the row, autumn rips through violently on the very first frame — its trees strip bare in a single second, leaves blasting off in a burst while every neighbouring house stays in full summer green. 1.0–5.0s: Camera still holds. That house's light shifts hard to cold amber, its garden browning fast, frost creeping across its path — the rest of the street unchanged, still summer. 5.0–8.0s: Camera pushes in slowly toward the changed house. Final frame: one bare, frost-touched house in the middle of a green summer street.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: push-in (продолжается) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r14b">Копировать</button></div>
+<div class="tail" id="r14b">0.0–1.0s: Winter slams into that one house on the very first frame — snow piling onto its roof and path within a second. 1.0–5.5s: The seasons race on it without pause: snow melts away hard, grass greens, leaves burst back, then strip again, then frost again — four full seasons cycling on this single house in five seconds, while the neighbours hold in the same still summer light. Camera continues its slow push-in throughout, no other movement. 5.5–8.0s: The cycling accelerates further, the house flickering between states. Final frame: the house caught mid-cycle, seasons blurring on it alone, neighbours static in summer.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="r14c">Копировать</button></div>
+<div class="tail" id="r14c">0.0–0.8s: Camera holds still. The racing stops dead on the very first frame — the cycling halts hard on a single state. 0.8–4.5s: The house now reads worn: grass trampled bare in patches, path stones sunken and uneven, paint dulled, the garden edges collapsed — clearly used harder than its neighbours. Camera pulls back steadily to bring the neighbouring houses back into frame. 4.5–8.0s: Camera settles wide, holding the worn house among the pristine ones. Final frame: one visibly worn house in a row of well-kept identical houses, same light on all of them.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">1.0–5.0s</td><td class="dk">Samme vej. Samme år.</td><td>Пока разница только начинает проявляться — утверждение ещё звучит правдиво</td></tr>
+<tr><td>2</td><td class="ts">1.0–5.5s</td><td class="dk">Ét hus har levet hurtigere</td><td>На самом прогоне сезонов, где это буквально видно</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Se hvilket, før du byder</td><td>Финальный широкий кадр, оба дома в сравнении</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r14cap">Копировать</button></div>
+<div class="cap" id="r14cap">To ens huse på samme vej er sjældent lige gamle indeni. Vi finder ud af hvilket, der har levet hårdest. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r15">
+<div class="reel-band"><span class="reel-num">Рил 15</span><span class="reel-title">Некрасивый снаружи, честный внизу</span><span class="reel-meta">Концовка 2 · <span class="pill p299">299 kr</span> <span class="pill plus">плюс-тон</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r15s">Копировать</button></div>
+<div class="tail" id="r15s">Close-up photograph, camera square on to a tired painted house facade, paint blistered and flaking, faded colour, rust streaks running from old fixings, hairline cracks in the render. Flat grey overcast light, no warmth.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: vertical drop · + ХВОСТ-В</span><button class="copy-btn" data-copy="r15a">Копировать</button></div>
+<div class="tail" id="r15a">0.0–1.0s: Camera plunges downward along the facade fast on the very first frame — a hard vertical drop, not a gentle tilt. 1.0–5.0s: The drop continues at speed; loose paint flakes tear off the wall and rush upward past the lens in the slipstream, each layer of damage passing quickly — blistering, rust streaks, cracks. 5.0–8.0s: The drop decelerates as the ground line enters frame, an open excavated trench visible along the base of the wall. Final frame: the bottom of the shabby facade meeting an open trench in the earth, flakes still settling.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: descent · + ХВОСТ-В</span><button class="copy-btn" data-copy="r15b">Копировать</button></div>
+<div class="tail" id="r15b">0.0–1.0s: Camera drops into the open trench on the very first frame, descending fast into the shadowed cut in the earth. 1.0–4.0s: The descent continues; the trench walls rush past on both sides, everything darkening. 4.0–8.0s: Camera settles and holds still as a hard shaft of sunlight stabs down into the trench from above, striking the foundation wall and lighting it sharply. Final frame: foundation wall lit by a hard shaft from above, trench in shadow around it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r15c">Копировать</button></div>
+<div class="tail" id="r15c">0.0–1.0s: Camera holds still. The shaft of light sweeps sideways along the foundation on the very first frame, moving fast. 1.0–5.0s: Camera still holds; as the light travels it reveals the concrete continuously dry, smooth and uncracked along its whole length, the damp-proof membrane intact at every point; the light itself warms from hard white to deep gold as it moves. 5.0–8.0s: The light settles, the whole foundation section now bathed in warm gold; camera pushes in gently on the clean surface. Final frame: dry unbroken foundation in warm golden light, the shabby wall above it soft and out of focus.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">1.0–5.0s</td><td class="dk">Facaden ser slidt ud</td><td>На пролёте мимо облупившейся краски — совпадает дословно</td></tr>
+<tr><td>2</td><td class="ts">4.0–8.0s</td><td class="dk">Så vi gravede dybere</td><td>Когда луч уже нашёл фундамент, до того как стало ясно, что он целый</td></tr>
+<tr><td>3</td><td class="ts">5.0–8.0s</td><td class="dk">Fundamentet var tørt hele vejen</td><td>На золотом свете по чистому бетону — разрешение</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r15cap">Копировать</button></div>
+<div class="cap" id="r15cap">Ikke alt slidt er et rødt flag. Vi siger det lige så tydeligt, når noget faktisk er i orden. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r16">
+<div class="reel-band"><span class="reel-num">Рил 16</span><span class="reel-title">Полка без пробелов</span><span class="reel-meta">Концовка 2 · <span class="pill p299">299 kr</span> <span class="pill plus">плюс-тон</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r16s">Копировать</button></div>
+<div class="tail" id="r16s">Close-up photograph, camera facing a long archive shelf in a dim room, a row of plain unlabelled folder spines receding into the distance. Several wide gaps break the row, bright light streaming through each empty slot from behind. Cold light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: side-tracking · + ХВОСТ-В</span><button class="copy-btn" data-copy="r16a">Копировать</button></div>
+<div class="tail" id="r16a">0.0–0.8s: Camera launches into a fast side-tracking move along the shelf on the very first frame. 0.8–5.0s: The tracking continues at speed along the row, the light from behind strobing hard through gap after gap as they pass — bright, dark, bright, dark, an aggressive flicker across the lens. 5.0–8.0s: The tracking continues at the same speed, gaps still passing. Final frame: mid-track along the shelf, light flaring through an open gap.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: side-tracking (замедляется) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r16b">Копировать</button></div>
+<div class="tail" id="r16b">0.0–1.0s: The tracking continues fast on the very first frame, one more gap flaring past. 1.0–3.0s: The strobing stops abruptly — the shelf ahead is solid, spine after spine with no break, no light coming through at all. 3.0–8.0s: The light quality shifts hard from cold backlight to warm frontal light as the camera slows along the unbroken section. Final frame: unbroken row of spines in warm frontal light, no gaps, camera slowing.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="r16c">Копировать</button></div>
+<div class="tail" id="r16c">0.0–1.0s: Camera stops its lateral movement hard and crash-zooms in on the dense section of spines on the very first frame. 1.0–5.0s: Camera holds still; the warm light strengthens steadily across them, every spine evenly lit, no shadow gaps anywhere. 5.0–8.0s: Camera continues to hold close and static on the solid wall of spines. Final frame: tight on an unbroken run of folder spines in full warm light.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–5.0s</td><td class="dk">Nogle sager har huller</td><td>На стробящих просветах — буквально то, что в кадре</td></tr>
+<tr><td>2</td><td class="ts">3.0–8.0s</td><td class="dk">Denne havde ingen</td><td>После того как стробинг прекратился, на сплошном ряду</td></tr>
+<tr><td>3</td><td class="ts">5.0–8.0s</td><td class="dk">Det er også et svar</td><td>На тёплом статичном финале — вывод</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r16cap">Копировать</button></div>
+<div class="cap" id="r16cap">En komplet dokumentmappe er lige så meget et resultat som en fejl. Vi fortæller dig hvilken af delene du står med. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r17">
+<div class="reel-band"><span class="reel-num">Рил 17</span><span class="reel-title">Кухня, на которую все смотрят</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r17s">Копировать</button></div>
+<div class="tail" id="r17s">Wide photograph of an immaculate modern kitchen, glossy dark cabinet fronts, polished stone worktop, brushed brass fittings, everything spotless. Warm afternoon light entering from frame left.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: drift right · + ХВОСТ-В</span><button class="copy-btn" data-copy="r17a">Копировать</button></div>
+<div class="tail" id="r17a">0.0–1.0s: Camera holds still. A hard beam of afternoon sun sweeps across the kitchen on the very first frame, already moving fast. 1.0–5.0s: Camera still holds; as the beam crosses the glossy surfaces it detonates into blinding specular flares on the brass and stone, each surface igniting in sequence, the whole room reading as expensive and perfect. 5.0–8.0s: Camera drifts slowly right, following the beam across the worktop. Final frame: the beam mid-sweep across gleaming surfaces, flares bright, camera drifting.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: whip-pan · + ХВОСТ-В</span><button class="copy-btn" data-copy="r17b">Копировать</button></div>
+<div class="tail" id="r17b">0.0–0.8s: Camera holds still. The beam accelerates hard on the very first frame, whipping off the kitchen surfaces entirely. 0.8–4.0s: Camera still holds; the kitchen falls rapidly into deep shadow behind the departing beam — the gloss dying, the brass going dull — while the beam races toward the far corner where wall meets ceiling. 4.0–8.0s: Camera whip-pans to follow the beam into that corner, the darkened kitchen sliding out of frame. Final frame: the corner of the room lit by the arriving beam, the kitchen behind it in near-darkness.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="r17c">Копировать</button></div>
+<div class="tail" id="r17c">0.0–1.0s: Camera holds still. The beam locks onto the corner on the very first frame and holds hard. 1.0–4.5s: Camera still holds; under the light a dark damp stain spreads visibly across the plaster in a growing bloom, paint blistering and lifting along a thin crack running down the joint. 4.5–8.0s: Camera crash-zooms tight onto the blistered crack; the darkened kitchen is no longer in frame. Final frame: extreme close on damp-stained blistered plaster and the open crack, hard light raking across it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">1.0–5.0s</td><td class="dk">Alle kigger på køkkenet</td><td>На пике бликов, когда кухня выглядит дороже всего</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.0s</td><td class="dk">Lyset flytter sig</td><td>Пока кухня уходит в тень — описывает происходящее, не предсказывает</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Vi kigger i hjørnet</td><td>На crash-zoom по вздувшейся штукатурке</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r17cap">Копировать</button></div>
+<div class="cap" id="r17cap">Det smukkeste rum i boligen er sjældent det, der kommer til at koste dig penge. BoligCheck 299 kr, før du byder.</div>
+</div></div>
+
+<div class="reel" id="r18">
+<div class="reel-band"><span class="reel-num">Рил 18</span><span class="reel-title">Сад для фотографий</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r18s">Копировать</button></div>
+<div class="tail" id="r18s">Wide photograph at eye level of an immaculate Danish garden in golden hour — sharply mown lawn, full flowering beds, a clean rendered house facade behind, warm low sun. Postcard-perfect.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: crane up · + ХВОСТ-В</span><button class="copy-btn" data-copy="r18a">Копировать</button></div>
+<div class="tail" id="r18a">0.0–1.0s: Camera holds still. The golden light surges brighter on the very first frame, flaring hard across the flower beds. 1.0–4.0s: Camera still holds; the whole scene intensifies — colours saturating, long shadows stretching across the lawn, everything at its most attractive. 4.0–8.0s: Camera begins rising fast, the garden starting to shrink in frame, the facade filling more of the shot. Final frame: garden below, facade dominant, camera already climbing.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crane up (продолжается) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r18b">Копировать</button></div>
+<div class="tail" id="r18b">0.0–1.0s: The climb accelerates hard on the very first frame. 1.0–5.0s: The camera continues rising fast up past the facade, the warm golden light cooling steadily to flat grey as it gains height, the garden shrinking to a small bright patch below. 5.0–8.0s: The roofline enters frame from above as the climb continues at the same rate. Final frame: the roof edge entering frame, garden small and distant below, light now cold.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crane up к надиру · + ХВОСТ-В</span><button class="copy-btn" data-copy="r18c">Копировать</button></div>
+<div class="tail" id="r18c">0.0–1.0s: The camera swings up over the roof on the very first frame, the full roof surface snapping into view. 1.0–5.0s: The rise continues; thick green moss is visible spreading across whole sections of tile, mismatched patch repairs in three different colours, a gutter choked with dark debris along the eave. 5.0–8.0s: Camera settles at drone height looking straight down, the perfect garden reduced to a small strip at the bottom edge of frame. Final frame: mossy patched roof filling three quarters of frame, the immaculate garden a thin strip below.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">1.0–4.0s</td><td class="dk">Haven er til billederne</td><td>На максимальной насыщенности, пока сад выглядит идеально</td></tr>
+<tr><td>2</td><td class="ts">1.0–5.0s</td><td class="dk">Vi kigger højere op</td><td>На подъёме, пока крыша ещё не показана — держит интригу</td></tr>
+<tr><td>3</td><td class="ts">5.0–8.0s</td><td class="dk">Taget er til dig</td><td>На финальном надирном кадре с мхом и заплатками</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r18cap">Копировать</button></div>
+<div class="cap" id="r18cap">Haven sælger boligen. Taget koster dig penge. Vi tjekker begge dele for 299 kr, før du byder.</div>
+</div></div>
+
+<div class="reel" id="r19">
+<div class="reel-band"><span class="reel-num">Рил 19</span><span class="reel-title">Три огня</span><span class="reel-meta">Концовка 3 · <span class="pill p299">299 kr</span> нейтральный</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r19s">Копировать</button></div>
+<div class="tail" id="r19s">Wide photograph of a dark empty room, three simple wall lamps mounted in a receding row along one wall, all unlit. Deep near-black shadow throughout, only the faintest ambient outline of the room visible.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r19a">Копировать</button></div>
+<div class="tail" id="r19a">0.0–0.5s: Camera holds still. The nearest lamp ignites violently on the very first frame — a hard burst of warm light, no fade-in. 0.5–4.0s: Camera still holds; its pool of light spreads across the floor and wall around it, the rest of the room staying pitch black; dust turns in the new light. 4.0–8.0s: Camera pushes in slightly toward the lit lamp, the light steady. Final frame: one lamp lit, its pool sharp against total darkness, two dark lamps beyond.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: push-in (продолжается) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r19b">Копировать</button></div>
+<div class="tail" id="r19b">0.0–0.5s: The second lamp bursts alight on the very first frame, deeper into the room. 0.5–4.5s: The two pools of light join and push the darkness further back, revealing floorboards and a section of far wall that were invisible a moment ago. 4.5–8.0s: Camera pushes forward steadily into the newly revealed space. Final frame: two lamps lit, the room half-revealed, the third lamp still dark ahead.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: замирает статикой · + ХВОСТ-В</span><button class="copy-btn" data-copy="r19c">Копировать</button></div>
+<div class="tail" id="r19c">0.0–0.5s: The third lamp ignites hard on the very first frame. 0.5–4.5s: The full room resolves at once — walls, ceiling, the whole floor now readable, every corner lit, the space finally legible as a complete room. Camera decelerates to a stop through this beat. 4.5–8.0s: Camera fully settled and static, all three lamps steady and even. Final frame: three lamps lit in a row, the entire room clearly visible, camera locked and still.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.5–4.0s</td><td class="dk">Ét spørgsmål oplyser lidt</td><td>Одна лампа, одно пятно света — совпадает буквально</td></tr>
+<tr><td>2</td><td class="ts">0.5–4.5s</td><td class="dk">To oplyser mere</td><td>Два пятна соединились, комната наполовину видна</td></tr>
+<tr><td>3</td><td class="ts">0.5–4.5s</td><td class="dk">Tre oplyser hele rummet</td><td>На моменте, когда комната стала читаемой целиком</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r19cap">Копировать</button></div>
+<div class="cap" id="r19cap">Tre spørgsmål ved fremvisningen ændrer, hvad du får at vide. Vi stiller dem for dig. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r20">
+<div class="reel-band"><span class="reel-num">Рил 20</span><span class="reel-title">Луч по столу</span><span class="reel-meta">Концовка 3 · <span class="pill p299">299 kr</span> нейтральный</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r20s">Копировать</button></div>
+<div class="tail" id="r20s">Overhead photograph of a dark wooden table in near-total darkness. A torch, a folding rule, a small moisture meter and a plain notebook lie spaced along it in a row, only the nearest object faintly catching light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r20a">Копировать</button></div>
+<div class="tail" id="r20a">0.0–0.6s: Camera holds still. A hard beam of light stabs in from frame left on the very first frame and lands directly on the nearest object. 0.6–4.0s: Camera still holds; the object reads sharply out of the darkness — texture, metal, edges — everything beyond it still black. 4.0–8.0s: Camera pushes in tight on the lit object, the beam holding steady. Final frame: one object sharply lit, the rest of the table in blackness.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: tracking · + ХВОСТ-В</span><button class="copy-btn" data-copy="r20b">Копировать</button></div>
+<div class="tail" id="r20b">0.0–0.6s: The beam breaks loose and races along the table on the very first frame; camera holds. 0.6–5.0s: The beam pulls the second, then the third object out of darkness in quick succession as it travels, each snapping into sharp visibility and falling dark again behind it; the objects themselves never move. 5.0–8.0s: Camera tracks alongside the running beam. Final frame: the beam mid-travel, one object lit, others fading in and out of the dark.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="r20c">Копировать</button></div>
+<div class="tail" id="r20c">0.0–0.8s: Camera holds still. The beam reaches the end of the table on the very first frame and stops hard on the last object. 0.8–4.0s: Camera still holds; the beam widens rapidly, flooding outward until the entire table and every object on it is evenly lit at once. 4.0–8.0s: Camera pulls back to hold the full set in frame, light steady. Final frame: the whole table and all four objects evenly lit, camera wide and static.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.6–4.0s</td><td class="dk">Tag lyset med</td><td>Фонарь — первый освещённый предмет, текст называет именно его</td></tr>
+<tr><td>2</td><td class="ts">0.6–5.0s</td><td class="dk">Og tre ting til</td><td>Пока луч вытаскивает остальные три из темноты</td></tr>
+<tr><td>3</td><td class="ts">4.0–8.0s</td><td class="dk">Så ser du mere end det, der vises frem</td><td>На широком финале, где виден весь набор</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r20cap">Копировать</button></div>
+<div class="cap" id="r20cap">Fire ting i tasken ændrer, hvad du opdager til en fremvisning. Eller lad os gennemgå boligen for dig. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r21">
+<div class="reel-band"><span class="reel-num">Рил 21</span><span class="reel-title">Пятно на газоне</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r21s">Копировать</button></div>
+<div class="tail" id="r21s">Elevated photograph looking down at a flawless green Danish lawn, evenly mown, soft daylight, a clipped hedge at the frame edge. Nothing marks the grass.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r21a">Копировать</button></div>
+<div class="tail" id="r21a">0.0–0.8s: Camera holds still. A yellow-brown blight erupts at a single point in the lawn on the very first frame and begins spreading violently outward. 0.8–5.0s: Camera still holds; the dead patch races across the grass in an expanding wave, green turning to dry brown the instant the edge crosses it. 5.0–8.0s: Camera pushes in on the leading edge of the spread. Final frame: a large irregular dead patch in the green lawn, edge still advancing.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="r21b">Копировать</button></div>
+<div class="tail" id="r21b">0.0–1.0s: Camera holds still. The spreading edge snaps straight on the very first frame — the irregular patch pulling hard into a sharp-cornered rectangle, unnaturally geometric against the organic lawn. 1.0–4.5s: Camera still holds; the rectangle's edges sharpen further, corners crisp, clearly the outline of something buried directly beneath. 4.5–8.0s: Camera crash-zooms down onto one corner of the rectangle. Final frame: a sharp geometric corner where dead brown meets living green.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crane up к надиру · + ХВОСТ-В</span><button class="copy-btn" data-copy="r21c">Копировать</button></div>
+<div class="tail" id="r21c">0.0–1.0s: Camera holds still. The earth inside the rectangle darkens hard on the very first frame and begins visibly sinking. 1.0–4.0s: Camera still holds; the ground subsides several centimetres across the whole rectangle, revealing the volume of the object below it, soil cracking along the edges. 4.0–8.0s: Camera rises fast to look straight down, holding the entire sunken rectangle in frame against the surrounding perfect lawn. Final frame: a sunken dark rectangle set in flawless green grass, seen from directly above.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–5.0s</td><td class="dk">Græsset dør i én plet</td><td>На расползающемся пятне — описание, не предсказание</td></tr>
+<tr><td>2</td><td class="ts">1.0–4.5s</td><td class="dk">Pletten har lige kanter</td><td>Ровно когда пятно стало прямоугольником</td></tr>
+<tr><td>3</td><td class="ts">4.0–8.0s</td><td class="dk">Noget ligger under haven</td><td>На надирном кадре просевшего прямоугольника</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r21cap">Копировать</button></div>
+<div class="cap" id="r21cap">En afblændet olietank følger med grunden. Regningen for at fjerne den følger med dig. Spørg, før du byder — BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="r22">
+<div class="reel-band"><span class="reel-num">Рил 22</span><span class="reel-title">Свет доходит не до всех</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r22s">Копировать</button></div>
+<div class="tail" id="r22s">Elevated wide photograph looking down a residential Danish street at night, houses dark on both sides, wet asphalt, the faint trace of a buried service line just readable under the road surface.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: forward drift · + ХВОСТ-В</span><button class="copy-btn" data-copy="r22a">Копировать</button></div>
+<div class="tail" id="r22a">0.0–0.8s: Camera holds still. The buried line under the street ignites warm on the very first frame and begins racing along the road, glowing through the asphalt. 0.8–5.0s: Camera still holds; as the light travels, a branch line lights up toward each house in turn, one after another in quick succession, the network coming alive down the street. 5.0–8.0s: Camera drifts forward above the advancing light. Final frame: the main line glowing, several branches lit, the wave still moving away down the street.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: forward drift (замедляется) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r22b">Копировать</button></div>
+<div class="tail" id="r22b">0.0–0.8s: The light wave surges further on the very first frame, more branches igniting. 0.8–4.0s: It reaches one particular house — and no branch lights toward it at all; the main line continues past, leaving a conspicuous dark void where that connection should be. 4.0–8.0s: The wave carries on beyond, lighting the next houses normally, the gap now unmistakable; camera slows to a near stop over the dark house. Final frame: a lit network running the length of the street with one clearly unlit gap.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: descent · + ХВОСТ-В</span><button class="copy-btn" data-copy="r22c">Копировать</button></div>
+<div class="tail" id="r22c">0.0–1.0s: Camera drops fast toward the unconnected house on the very first frame. 1.0–4.5s: The descent continues to ground level, where a separate isolated line is revealed running from that house alone into its own plot, glowing a different colder colour than the warm municipal network behind it. 4.5–8.0s: Camera settles and holds, both in frame — the warm shared network beyond, the cold solitary line in front. Final frame: one house on its own cold line, the warm network glowing separately behind it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–5.0s</td><td class="dk">Nettet når hele vejen ned ad vejen</td><td>Пока ветки зажигаются одна за другой — утверждение ещё верно</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.0s</td><td class="dk">Næsten hele vejen</td><td>Ровно на пропущенном доме, поправка к предыдущей строке</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Ét hus står for sig selv</td><td>На финале с холодной отдельной линией</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r22cap">Копировать</button></div>
+<div class="cap" id="r22cap">Egen boring eller egen kloak betyder eget ansvar for reparationen. Tjek det for 299 kr, før du overtager den.</div>
+</div></div>
+
+<div class="reel" id="r23">
+<div class="reel-band"><span class="reel-num">Рил 23</span><span class="reel-title">Три отражения одного дома</span><span class="reel-meta">Концовка 5 · <span class="pill p599">599 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r23s">Копировать</button></div>
+<div class="tail" id="r23s">Low-angle photograph near ground level on wet cobblestones after rain, three separate puddles spaced across the frame at different distances, a red-brick Danish house visible beyond. Only the far puddle currently shows a clear reflection.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-down · + ХВОСТ-В</span><button class="copy-btn" data-copy="r23a">Копировать</button></div>
+<div class="tail" id="r23a">0.0–1.0s: Camera holds still. Heavy rain is already hammering the puddles on the very first frame, all three surfaces churning. 1.0–3.0s: Camera still holds; the rain cuts off abruptly and the nearest puddle stills fast, its surface flattening to glass. 3.0–8.0s: The house reflection sharpens into full clarity in that puddle; camera pushes down close over it. Final frame: one mirror-still puddle holding a sharp reflection of the house.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: два whip-pan, между ними статика · + ХВОСТ-В</span><button class="copy-btn" data-copy="r23b">Копировать</button></div>
+<div class="tail" id="r23b">0.0–0.6s: Camera whip-pans hard to the second puddle on the very first frame. 0.6–3.5s: Camera holds still; its surface is equally still and equally sharp — but the same house reflected in it appears markedly smaller, out of proportion with the first. 3.5–4.1s: A second whip-pan snaps to the third puddle. 4.1–8.0s: Camera holds still again; there the same house reflects noticeably larger than in either previous puddle, just as sharp. Final frame: the third puddle holding an oversized but perfectly sharp reflection of the same house.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crane up · + ХВОСТ-В</span><button class="copy-btn" data-copy="r23c">Копировать</button></div>
+<div class="tail" id="r23c">0.0–1.0s: Camera rises fast on the very first frame, pulling back and up. 1.0–5.0s: The rise continues until all three puddles come into frame together, each holding a reflection of the same single house at three visibly different sizes, all three equally sharp and equally still. 5.0–8.0s: Camera settles high and static, all three in frame at once. Final frame: three still puddles side by side, one house reflected at three different scales.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">3.0–8.0s</td><td class="dk">Ét hus</td><td>Одна лужа, одно чёткое отражение — самая короткая строка серии</td></tr>
+<tr><td>2</td><td class="ts">4.1–8.0s</td><td class="dk">Tre tal</td><td>На третьей луже, когда разница размеров уже очевидна</td></tr>
+<tr><td>3</td><td class="ts">5.0–8.0s</td><td class="dk">Alle tre er officielle</td><td>На финале, где все три отражения в кадре одновременно</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r23cap">Копировать</button></div>
+<div class="cap" id="r23cap">Pris, offentlig vurdering og BBR er sjældent enige om samme bolig. Sammenlign 3 boliger for 599 kr, mens du stadig har et valg.</div>
+</div></div>
+
+<div class="reel" id="r24">
+<div class="reel-band"><span class="reel-num">Рил 24</span><span class="reel-title">Тень без предмета</span><span class="reel-meta">Концовка 6 · <span class="pill p2999">2.999 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="r24s">Копировать</button></div>
+<div class="tail" id="r24s">Wide photograph of a plain empty room with pale walls and bare floorboards, even soft daylight. A single dense, sharp-edged shadow lies across one wall — a clean geometric shadow shape. The floor beneath it and the space around it are completely bare.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="r24a">Копировать</button></div>
+<div class="tail" id="r24a">0.0–0.8s: Camera holds still. The shadow on the wall shifts and stretches decisively on the very first frame, as if something near it moved — while the room around it stays perfectly still. 0.8–4.5s: Camera still holds; the shadow continues to shift and reshape on the wall, its edges staying razor-sharp throughout; the floor and air beside it remain visibly empty. 4.5–8.0s: Camera pushes in on the shadow's sharpest edge. Final frame: a dense sharp shadow on the wall, the space around it bare. The area beside the wall stays empty throughout.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="r24b">Копировать</button></div>
+<div class="tail" id="r24b">0.0–1.0s: Camera pulls back fast and hard on the very first frame, opening the frame toward where the source should be. 1.0–5.0s: The pullback continues; the revealed space is bare floorboards and empty air — nothing stands between the light and the wall, yet the shadow holds its shape and darkness unchanged. 5.0–8.0s: The pullback continues at the same rate, more empty floor entering frame. Final frame: shadow on the wall at frame edge, a wide expanse of empty floor beside it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: pull-back (ускоряется, затем стоп) · + ХВОСТ-В</span><button class="copy-btn" data-copy="r24c">Копировать</button></div>
+<div class="tail" id="r24c">0.0–1.0s: The pullback accelerates on the very first frame. 1.0–5.0s: The camera reaches the far side of the room, revealing the entire space at once — completely bare in every direction, no furniture, no fittings, nothing standing anywhere on the floor — while the shadow remains on the wall, sharp and dense as at the start. 5.0–8.0s: Camera settles static, the whole empty room and the unexplained shadow in frame together. Final frame: a fully empty room, one sharp shadow on the wall, nothing present that could cast it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.5s</td><td class="dk">Skyggen er der</td><td>На движущейся тени — простая констатация того, что видно</td></tr>
+<tr><td>2</td><td class="ts">1.0–5.0s</td><td class="dk">Det, der kaster den, er ikke</td><td>Ровно когда открылся пустой пол и стало ясно, что источника нет</td></tr>
+<tr><td>3</td><td class="ts">5.0–8.0s</td><td class="dk">Vi finder det, før du skriver under</td><td>На статичном финале — единственная строка с обещанием</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="r24cap">Копировать</button></div>
+<div class="cap" id="r24cap">Nogle udgifter kaster skygge længe før de får et beløb. Vil du ikke selv lede, søger vi boligen for dig — 2.999 kr.</div>
+</div></div>
+
+<h2 class="sec" id="redo">REDO-02 … REDO-15 <span class="pill">редизайн старых</span></h2>
+<p class="sec-intro">Двенадцать тем из старой библиотеки, пересобранных под текущий стандарт. Старые номера 13, 14, 15 совпадали с новыми — отсюда префикс REDO-, чтобы не перепутать при монтаже. Рилы 01, 04 и 06 не трогаем, они уже выложены.</p>
+
+<div class="reel" id="redo02">
+<div class="reel-band"><span class="reel-num">REDO-02</span><span class="reel-title">Billederne er ikke det, du får</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d02s">Копировать</button></div>
+<div class="tail" id="d02s">Close-up photograph of a glossy printed real-estate photo of a pristine empty living room lying on a worn wooden coffee table with a faint ring stain, a folded blanket beside it, soft blurred room behind, warm lamp light from frame right.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: whip-pan · + ХВОСТ-В</span><button class="copy-btn" data-copy="d02a">Копировать</button></div>
+<div class="tail" id="d02a">0.0–0.8s: Camera holds still. A hard gust rips through the room on the very first frame, the glossy photo flipping up off the table violently. 0.8–4.0s: Camera still holds; as it flips, the pristine room printed on it visibly warps and ages mid-air — the photo's own surface cracking and yellowing as it tumbles. 4.0–8.0s: Camera whip-pans to follow the tumbling photo, tracking its fall. Final frame: the photo mid-fall, visibly aged and cracked, tumbling toward the floor.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d02b">Копировать</button></div>
+<div class="tail" id="d02b">0.0–0.8s: Camera holds still. The photo hits the floor hard on the very first frame and bursts into a small cloud of dust on impact. 0.8–4.5s: Camera still holds; as the dust clears, the real room behind it snaps into focus — worn floorboards, scuff marks, a single stray sock in the corner — replacing the glossy fiction entirely. 4.5–8.0s: Camera pushes in on the worn floor and the stray sock. Final frame: the real worn floor sharp in focus, the fallen photo now a torn scrap at the frame edge.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d02c">Копировать</button></div>
+<div class="tail" id="d02c">0.0–1.0s: Camera holds still. Light through the window shifts hard and cold on the very first frame. 1.0–4.5s: Camera still holds; the worn floor and stray sock are raked by the new cold light, every scuff and stain now unmissable, the torn photo scrap curling further at the edge. 4.5–8.0s: Camera crash-zooms onto the ring-stained tabletop where the photo used to lie, now bare. Final frame: bare worn table, ring stain sharp, the photo gone entirely from frame.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Billedet var perfekt</td><td>Пока фото ещё узнаваемо как глянцевое — до того как состарилось</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Rummet var ikke</td><td>Ровно на проявившемся реальном полу со следами</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Bed om friske billeder</td><td>На пустом столе — практический вывод</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d02cap">Копировать</button></div>
+<div class="cap" id="d02cap">Alle billederne var perfekte. Det var også hele problemet. Bed altid om friske billeder — BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo03">
+<div class="reel-band"><span class="reel-num">REDO-03</span><span class="reel-title">Sælgeren svarede «nej»</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d03s">Копировать</button></div>
+<div class="tail" id="d03s">Photorealistic interior looking up a narrow attic staircase toward a small closed wooden hatch door under a sloped ceiling, a single warm shaft of light across the steps from an unseen window, faint dust in the beam.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-up · + ХВОСТ-В</span><button class="copy-btn" data-copy="d03a">Копировать</button></div>
+<div class="tail" id="d03a">0.0–0.8s: Camera launches up the staircase fast on the very first frame, a hard push, not a slow climb. 0.8–4.0s: The push continues; the warm shaft of light intensifies violently as the camera nears the top, dust swirling thick in the beam. 4.0–8.0s: The push slows as the hatch comes into view already open — no hinge motion — light pouring hard through the gap above. Final frame: camera just below the open hatch, light flooding down, dust dense in the beam.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d03b">Копировать</button></div>
+<div class="tail" id="d03b">0.0–0.8s: Camera crash-zooms through the open hatch gap on the very first frame, emerging into the attic space above. 0.8–4.5s: Camera holds still; two documents lying side by side on a small table snap into view, hard directional light raking across both at once. 4.5–8.0s: Camera still holds as a sudden gust flips one document over onto the other, revealing conflicting markings underneath. Final frame: the two documents overlapped, one flipped, edges catching the light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d03c">Копировать</button></div>
+<div class="tail" id="d03c">0.0–0.8s: Camera holds still. Hard flash-cut on the very first frame — the two documents separate apart from each other violently, sliding to opposite edges of the table. 0.8–4.5s: Camera still holds; a sharp rust-red beam of light cuts into the gap now open between them, the void between the two documents lit and volumetric. 4.5–8.0s: Camera crash-zooms into that lit gap, holding both documents at the frame edges. Final frame: a lit empty gap between the two separated documents, both sharp at the edges of frame.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Sælgeren svarede nej</td><td>На подъёме к закрытому пространству, о существовании которого «нет»</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Rapporten svarede noget andet</td><td>Когда оба документа в кадре под одним светом</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Sammenhold dem, linje for linje</td><td>На освещённом зазоре между разъехавшимися документами</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d03cap">Копировать</button></div>
+<div class="cap" id="d03cap">Hvad gør du, når sælgeren svarer nej, og rapporten siger noget andet? Vi sammenholder dem, linje for linje. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo05">
+<div class="reel-band"><span class="reel-num">REDO-05</span><span class="reel-title">Samme pris, tre virkeligheder</span><span class="reel-meta">Концовка 4 · <span class="pill p599">599 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d05s">Копировать</button></div>
+<div class="tail" id="d05s">Overhead photograph of three identical apartment keys laid in a row on a dark wooden surface, each with a small blank paper tag, warm even light from frame left, soft shadows.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: whip-pan · + ХВОСТ-В</span><button class="copy-btn" data-copy="d05a">Копировать</button></div>
+<div class="tail" id="d05a">0.0–0.8s: Camera holds still. The middle key flares hard with rust-red light on the very first frame, the two outer keys staying neutral warm. 0.8–4.0s: Camera still holds; the red glow pulses and intensifies around the middle key, its shadow deepening sharply against the pale wood. 4.0–8.0s: Camera whip-pans between the three keys, contrasting the lit middle one against the two neutral ones. Final frame: middle key glowing rust-red, flanked by two neutral keys, sharp contrast.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crash-zoom, затем pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="d05b">Копировать</button></div>
+<div class="tail" id="d05b">0.0–0.8s: Camera crash-zooms down past the keys on the very first frame, revealing three stacks of documents beneath the table surface, of clearly different heights. 0.8–4.5s: Camera holds still; the tallest stack suddenly topples sideways in a hard collapse, papers cascading across the surface; the other two stacks stay perfectly upright and untouched. 4.5–8.0s: Camera pulls back to hold all three stacks — one collapsed, two intact — in frame. Final frame: one stack fully collapsed and scattered, two stacks standing neat beside it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d05c">Копировать</button></div>
+<div class="tail" id="d05c">0.0–0.8s: Camera holds still. Hard flash-cut on the very first frame — light over the two upright stacks turns warm gold, while the collapsed stack stays in cold shadow. 0.8–4.5s: Camera still holds; the contrast strengthens steadily, the two intact stacks glowing warmer, the wreckage staying dim and cold. 4.5–8.0s: Camera crash-zooms in tight between one warm stack and the cold wreckage, both visible in the same frame. Final frame: warm-lit intact stack beside cold, scattered wreckage, sharp contrast held.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Tre boliger. Samme pris.</td><td>Три одинаковых ключа в кадре — утверждение совпадает с картинкой</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Én bærer en tungere gæld</td><td>Ровно на обвале самой высокой стопки</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Se hvilken, før du vælger</td><td>На контрасте тёплой и холодной стопок</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d05cap">Копировать</button></div>
+<div class="cap" id="d05cap">Samme pris i annoncen. Vidt forskellig økonomisk virkelighed bag den. Sammenlign 3 boliger for 599 kr — cirka 200 kr pr. bolig.</div>
+</div></div>
+
+<div class="reel" id="redo07">
+<div class="reel-band"><span class="reel-num">REDO-07</span><span class="reel-title">Et servitut fra 1930</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d07s">Копировать</button></div>
+<div class="tail" id="d07s">Macro photograph of a magnifying glass held just above an old yellowed paper document with an official stamp, a hand's fingers visible holding the handle, warm raking side light emphasizing paper texture.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d07a">Копировать</button></div>
+<div class="tail" id="d07a">0.0–0.8s: Camera holds still. The magnifying glass whips sideways fast on the very first frame, sweeping hard across the document. 0.8–4.0s: Camera still holds; the old stamp swells violently into magnified focus as the glass passes over it, ink texture and cracked paper fibers filling the frame. 4.0–8.0s: Camera pushes in tight through the lens itself onto the magnified stamp. Final frame: the stamp magnified huge and sharp, filling most of the frame.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: pull-back, затем whip-pan · + ХВОСТ-В</span><button class="copy-btn" data-copy="d07b">Копировать</button></div>
+<div class="tail" id="d07b">0.0–0.8s: Camera pulls back hard and fast on the very first frame, the stamp shrinking back to normal size. 0.8–4.5s: Camera holds still; a stack of archival documents tied with a faded ribbon slams into frame from the side, the ribbon snapping loose violently on its own, papers fanning open in a sudden burst. 4.5–8.0s: Camera whip-pans across the fanned papers as they settle. Final frame: the stack fanned wide open, ribbon hanging loose, papers still settling.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d07c">Копировать</button></div>
+<div class="tail" id="d07c">0.0–0.8s: Camera holds still. A hard cold beam cuts across the fanned papers on the very first frame. 0.8–4.5s: Camera still holds; the beam sweeps fast across every sheet, briefly revealing dense old handwriting texture on each before passing on, light shifting from cold to a sharp rust-red as it finishes its sweep. 4.5–8.0s: Camera crash-zooms onto the final sheet, now lit rust-red. Final frame: one sheet lit sharp rust-red, the rest of the fan falling into shadow around it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Én linje fra 1930</td><td>На увеличенной печати — единственная деталь в кадре</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Resten står i en akt</td><td>Ровно на распахнувшейся пачке архивных бумаг</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Vi henter den for dig</td><td>На последнем листе под красным светом</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d07cap">Копировать</button></div>
+<div class="cap" id="d07cap">En sætning på én linje kan gemme en forpligtelse, der følger med grunden i mange år. Vi henter og læser akten for dig. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo08">
+<div class="reel-band"><span class="reel-num">REDO-08</span><span class="reel-title">Vejfonden, ingen fortalte dig om</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d08s">Копировать</button></div>
+<div class="tail" id="d08s">Photograph at eye level of a plain metal post beside a gravel private road, an unlit lantern mounted on top, overcast flat daylight, hedgerows on both sides receding into the distance.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-forward · + ХВОСТ-В</span><button class="copy-btn" data-copy="d08a">Копировать</button></div>
+<div class="tail" id="d08a">0.0–0.8s: Camera holds still. A hard gust tears down the gravel road on the very first frame, gravel and dust blasting past camera violently. 0.8–4.0s: Camera pushes forward fast into the gust, the hedgerows whipping, the road surface visibly rough and pot-holed as it rushes past. 4.0–8.0s: The push decelerates as the camera nears a bend in the road and the gust settles. Final frame: camera at the bend, dust settling, rough gravel surface clearly visible.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d08b">Копировать</button></div>
+<div class="tail" id="d08b">0.0–0.8s: Camera holds still. A single envelope drops hard into frame from above on the very first frame, landing on the gravel. 0.8–4.5s: Camera still holds; a cascade of identical envelopes follows fast, piling up rapidly at the same spot, the stack growing visibly with each one landing. 4.5–8.0s: Camera pushes in on the growing pile as it settles. Final frame: a substantial pile of identical envelopes heaped on the gravel road.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d08c">Копировать</button></div>
+<div class="tail" id="d08c">0.0–0.8s: Camera holds still. Light snaps hard to rust-red across the envelope pile on the very first frame. 0.8–4.5s: Camera still holds; the red light intensifies steadily, the pile's shadow stretching long and sharp across the gravel. 4.5–8.0s: Camera crash-zooms tight onto the topmost envelope, rust-red light dominating the frame. Final frame: single envelope lit sharp rust-red, pile beneath falling into shadow.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Vejen er privat</td><td>На разбитой гравийной дороге, которая проносится мимо</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Regningen er også din</td><td>Ровно на растущей куче конвертов</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Spørg om vejfonden, før du byder</td><td>На красном конверте крупным планом</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d08cap">Копировать</button></div>
+<div class="cap" id="d08cap">En privat fællesvej har ingen kommune bag sig. Vedligeholdelsen deles mellem ejerne — også dig. Spørg om vejfonden, før du byder. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo09">
+<div class="reel-band"><span class="reel-num">REDO-09</span><span class="reel-title">Et tomt felt, hvor et tal skulle stå</span><span class="reel-meta">Концовка 3 · <span class="pill p299">299 kr</span> нейтральный</span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d09s">Копировать</button></div>
+<div class="tail" id="d09s">Overhead photograph of a plain official-looking paper form on a dark desk, one printed field on it left demonstratively blank compared to the dense text around it, cold even light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d09a">Копировать</button></div>
+<div class="tail" id="d09a">0.0–0.6s: Camera holds still. A sharp pulse of light strikes the blank field on the very first frame, hard and sudden, like a strobe. 0.6–4.0s: Camera still holds; the pulse repeats twice more in quick succession, each flash isolating the empty field against the rest of the darkened form. 4.0–8.0s: Camera pushes in tight on the pulsing blank field, the light settling steady on it. Final frame: the blank field lit sharply, the rest of the form dimmed around it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: rack-focus · + ХВОСТ-В</span><button class="copy-btn" data-copy="d09b">Копировать</button></div>
+<div class="tail" id="d09b">0.0–0.8s: Camera holds still. A hand sweeps the top form aside violently on the very first frame, sending it sliding off frame. 0.8–4.5s: Camera still holds; a second document underneath is revealed instantly, the same field on it filled with dense marking, completely unlike the blank one above it. 4.5–8.0s: Camera holds position while a hard rack-focus pulls sharpness onto the filled field on the second document. Final frame: the second document's filled field sharp in focus, the first document gone from frame.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d09c">Копировать</button></div>
+<div class="tail" id="d09c">0.0–0.8s: Camera holds still. Hard flash-cut on the very first frame — both documents now side by side in frame, light snapping to an even wash across both. 0.8–4.5s: Camera still holds; a visible seam of shadow cuts sharply between the two documents, dividing blank from filled with a hard-edged line. 4.5–8.0s: Camera crash-zooms onto that dividing seam. Final frame: tight on the sharp shadow seam between the blank field and the filled one.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.6–4.0s</td><td class="dk">Feltet står tomt</td><td>На пульсирующем пустом поле — буквально то, что в кадре</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Andre steder står der et tal</td><td>Ровно на втором документе с заполненным полем</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Spørg hvorfor</td><td>На шве между пустым и заполненным — самая короткая строка</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d09cap">Копировать</button></div>
+<div class="cap" id="d09cap">Et sjusket eller tomt felt fortæller noget om hele dokumentet, ikke kun om det ene felt. Vi spørger for dig. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo10">
+<div class="reel-band"><span class="reel-num">REDO-10</span><span class="reel-title">Energimærket lover A. Naboens regning siger noget andet</span><span class="reel-meta">Концовка 5 · <span class="pill p599">599 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d10s">Копировать</button></div>
+<div class="tail" id="d10s">Close-up photograph of a small rectangular certificate card standing upright on a desk, its face showing only a plain vertical color gradient bar (deep green at top fading to red at bottom), no letters or numbers on it, warm side light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: whip-pan, затем pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="d10a">Копировать</button></div>
+<div class="tail" id="d10a">0.0–0.8s: Camera whip-pans down the color gradient bar fast on the very first frame, from green top to red bottom in one hard sweep. 0.8–4.0s: Camera holds still; the green band at the top pulses brighter, as if being emphasized, while the red band beneath darkens further. 4.0–8.0s: Camera pulls back slightly, holding the whole card upright and lit. Final frame: the gradient card standing lit, green top emphasized, red base dark.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="d10b">Копировать</button></div>
+<div class="tail" id="d10b">0.0–0.8s: Camera holds still. A single blank envelope drops hard into frame beside the card on the very first frame. 0.8–4.0s: Camera still holds; more envelopes cascade in rapidly, stacking fast into a visibly tall pile beside the small card, dwarfing it within seconds. 4.0–8.0s: Camera pulls back to hold both the card and the now-tall stack together. Final frame: a small green-topped card dwarfed by a tall stack of envelopes beside it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d10c">Копировать</button></div>
+<div class="tail" id="d10c">0.0–0.8s: Camera holds still. Light over the stack snaps hard to cold blue on the very first frame, while the card stays warm-lit. 0.8–4.5s: Camera still holds; the cold light over the stack intensifies, throwing a long sharp shadow from the envelopes across toward the card. 4.5–8.0s: Camera crash-zooms into the point where the cold shadow touches the warm-lit card. Final frame: warm card meeting a hard cold shadow cast by the tall stack beside it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Mærket lover grønt</td><td>На пульсирующей зелёной полосе — совпадает с картинкой без упоминания буквы</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.0s</td><td class="dk">Regningerne siger noget andet</td><td>Ровно когда стопка конвертов перерастает карточку</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Vi regner det efter</td><td>На стыке холодной тени и тёплой карточки</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d10cap">Копировать</button></div>
+<div class="cap" id="d10cap">Nogle gange gælder energimærket hele bygningen, ikke den bolig du kigger på. Vi regner den reelle andel ud. Sammenlign 3 boliger for 599 kr.</div>
+</div></div>
+
+<div class="reel" id="redo11">
+<div class="reel-band"><span class="reel-num">REDO-11</span><span class="reel-title">Boligydelsen, som blev nævnt ved fremvisningen</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d11s">Копировать</button></div>
+<div class="tail" id="d11s">Overhead photograph of a small plain notebook lying open to blank pages on a wooden desk, a pen resting diagonally across it, warm side light, quiet mood.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: статика · + ХВОСТ-В</span><button class="copy-btn" data-copy="d11a">Копировать</button></div>
+<div class="tail" id="d11a">0.0–0.8s: Camera holds still. A hard gust rips through the pages on the very first frame, flipping them violently one after another. 0.8–4.0s: Camera still holds; page after page flashes past, every one completely blank, the pen sliding and clattering across the desk from the force of the wind. 4.0–8.0s: Camera remains locked as the flipping decelerates fast, settling on a final blank page. Final frame: notebook open on a blank page, pen resting askew from the gust.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: rack-focus · + ХВОСТ-В</span><button class="copy-btn" data-copy="d11b">Копировать</button></div>
+<div class="tail" id="d11b">0.0–0.8s: Camera holds still. A formal document slams into frame from the side on the very first frame, landing hard atop the notebook. 0.8–4.5s: Camera holds position while a rack-focus pulls sharpness onto one printed field on the document, which is left visibly empty compared to the dense rows around it. 4.5–8.0s: Camera still holds as a hard beam of light isolates that one empty field. Final frame: the official document's blank field lit sharp, notebook beneath it out of focus.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d11c">Копировать</button></div>
+<div class="tail" id="d11c">0.0–0.8s: Camera holds still. Light snaps hard rust-red around the blank field's border on the very first frame, like an alert outline. 0.8–4.5s: Camera still holds; the red outline pulses twice, sharp and mechanical, the rest of the document dimming further around it. 4.5–8.0s: Camera crash-zooms into the center of the outlined blank field. Final frame: extreme close on the empty field, rust-red border pulsing at its edge.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Beløbet blev sagt højt</td><td>На пролистывании пустых страниц — сказано, но не записано</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Det står ingen steder</td><td>Ровно на пустом поле официального документа</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Bed om det på skrift</td><td>На красной рамке вокруг пустого поля</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d11cap">Копировать</button></div>
+<div class="cap" id="d11cap">Et beløb, der kun blev nævnt mundtligt, er ikke et beløb du kan regne med. Bed om det på skrift — eller lad os gøre det. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo12">
+<div class="reel-band"><span class="reel-num">REDO-12</span><span class="reel-title">Renoveret 2024 — men ikke i BBR</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d12s">Копировать</button></div>
+<div class="tail" id="d12s">Close-up photograph of a freshly renovated room corner, crisp new paint, clean new skirting board meeting an older original wall section, warm light from frame left.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d12a">Копировать</button></div>
+<div class="tail" id="d12a">0.0–0.8s: Camera holds still. The warm light over the fresh corner snaps hard to cold on the very first frame, no gradual transition. 0.8–4.0s: Camera still holds; under the cold light a hairline crack becomes suddenly visible running along the new paint's seam, the illusion of fresh perfection breaking down. 4.0–8.0s: Camera pushes in on the crack as it widens slightly under the harsh light. Final frame: cold-lit corner, a visible crack running through the fresh paint seam.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: rack-focus · + ХВОСТ-В</span><button class="copy-btn" data-copy="d12b">Копировать</button></div>
+<div class="tail" id="d12b">0.0–0.8s: Camera holds still. An official document slams into frame on the very first frame, flipping open hard to a specific page. 0.8–4.5s: Camera holds position while a rack-focus pulls sharpness onto one printed field on it, left completely blank where a renovation record should be. 4.5–8.0s: Camera still holds as the document flips itself shut hard in a single motion, no hand involved. Final frame: the document closed, its edge still catching light from the flip.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d12c">Копировать</button></div>
+<div class="tail" id="d12c">0.0–0.8s: Camera holds still. Hard flash-cut on the very first frame — the closed document and the cracked wall corner appear together in frame, rust-red light striking both at once. 0.8–4.5s: Camera still holds; the red light intensifies steadily across both surfaces, the crack and the closed document equally lit. 4.5–8.0s: Camera crash-zooms into the space between the two, holding both partially in frame. Final frame: cracked wall and closed document both rust-red lit, tight together in frame.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Annoncen siger renoveret</td><td>На свежем углу, до того как трещина стала заметной</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">BBR siger ingenting</td><td>Ровно на пустом поле, где должна стоять запись о ремонте</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">To kilder. Ét svar mangler.</td><td>На финале, где трещина и документ в одном кадре</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d12cap">Копировать</button></div>
+<div class="cap" id="d12cap">To officielle kilder om samme bolig, der ikke stemmer overens. Vi sammenholder annoncens påstande med BBR. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo13">
+<div class="reel-band"><span class="reel-num">REDO-13</span><span class="reel-title">Nul røde. Nul gule. Findes det?</span><span class="reel-meta">Концовка 3 · <span class="pill p299">299 kr</span> <span class="pill plus">зелёный флаг</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d13s">Копировать</button></div>
+<div class="tail" id="d13s">Close-up photograph of a plain white report lying squared and immaculate on a dark desk, its top corner slightly lifted by a draft, nothing else on the table.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d13a">Копировать</button></div>
+<div class="tail" id="d13a">0.0–0.8s: Camera holds still. A hard gust catches the lifted corner on the very first frame, flipping the whole top report violently aside. 0.8–4.0s: Camera still holds; beneath it, a second, visibly thicker and older document is revealed instantly, its edge stained and creased. 4.0–8.0s: Camera pushes in on the stained edge of the second document. Final frame: the thick stained document exposed, the flipped clean report at the frame edge.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d13b">Копировать</button></div>
+<div class="tail" id="d13b">0.0–0.8s: Camera holds still. The stained document snaps fully open on the very first frame in a single hard motion, no hand touching it. 0.8–4.5s: Camera still holds; a dark irregular mark spreads visibly across its surface, a real physical stain deepening in the light. 4.5–8.0s: Camera crash-zooms directly onto the center of the stain. Final frame: extreme close on the dark stain, texture and edges sharp.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: pull-back · + ХВОСТ-В</span><button class="copy-btn" data-copy="d13c">Копировать</button></div>
+<div class="tail" id="d13c">0.0–0.8s: Camera pulls back hard and fast on the very first frame. 0.8–4.5s: The pullback continues as both documents settle side by side in frame, the clean white one and the stained one, light evening out across both equally. 4.5–8.0s: Camera holds static, both documents fully visible together. Final frame: the pristine report and the stained document lying side by side, equally lit.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Vi finder normalt noget</td><td>На проявившемся потрёпанном документе — то, как обычно бывает</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Her var der intet at finde</td><td>Контрапункт: строка про «ничего» стоит на пятне — смысловой поворот</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Det siger vi lige så tydeligt</td><td>На финале, где оба документа освещены одинаково — про беспристрастность</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d13cap">Копировать</button></div>
+<div class="cap" id="d13cap">Vi siger «denne del er fin» lige så klart, som vi siger «her skal du spørge mere». Ikke alt er et rødt flag. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo14">
+<div class="reel-band"><span class="reel-num">REDO-14</span><span class="reel-title">Regningen, mægleren kalder «uvedkommende»</span><span class="reel-meta">Концовка 1 · <span class="pill p299">299 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d14s">Копировать</button></div>
+<div class="tail" id="d14s">Close-up photograph of a single invoice lying deliberately apart from a neat stack of other documents on a desk, a visible gap of clear space between it and the stack, cold even light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: push-in · + ХВОСТ-В</span><button class="copy-btn" data-copy="d14a">Копировать</button></div>
+<div class="tail" id="d14a">0.0–0.8s: Camera holds still. A hard gust sweeps the isolated invoice back toward the main stack on the very first frame, sliding it fast across the desk. 0.8–4.0s: Camera still holds; it collides with the stack, the impact visibly disturbing the top few sheets, which shift and fan slightly. 4.0–8.0s: Camera pushes in on the point of collision. Final frame: the invoice now merged into the stack's edge, top sheets still settling from the impact.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: crash-zoom · + ХВОСТ-В</span><button class="copy-btn" data-copy="d14b">Копировать</button></div>
+<div class="tail" id="d14b">0.0–0.8s: Camera holds still. The entire stack collapses hard on the very first frame, sheets scattering violently across the desk. 0.8–4.5s: Camera still holds; as they settle, the invoice ends up on top of the scattered pile, clearly visible, catching the light directly while the rest lie in shadow beneath it. 4.5–8.0s: Camera crash-zooms onto the invoice atop the wreckage. Final frame: the invoice sitting sharply lit on top of a scattered pile of documents.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: статика · + ХВОСТ-В</span><button class="copy-btn" data-copy="d14c">Копировать</button></div>
+<div class="tail" id="d14c">0.0–0.8s: Camera holds still. Light over the invoice snaps hard to rust-red on the very first frame, isolating it from the shadowed pile beneath. 0.8–4.5s: Camera remains locked; the red light intensifies steadily, the invoice's edges glowing sharp against the dark scattered pile below. 4.5–8.0s: Camera stays close and static, the invoice dominant and lit in the frame. Final frame: the invoice glowing rust-red atop the dark, disordered pile beneath it.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.0s</td><td class="dk">Den lå for sig selv</td><td>На столкновении отложенного счёта со стопкой</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Mægleren kaldte den uvedkommende</td><td>Когда счёт оказывается сверху всей кучи — визуальная ирония</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Den lander hos dig alligevel</td><td>На красном счёте, доминирующем в кадре</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d14cap">Копировать</button></div>
+<div class="cap" id="d14cap">Regningen lander hos den, der ejer huset den dag kravet kommer — ikke hos den, der solgte det. Kend beløbet først. BoligCheck 299 kr.</div>
+</div></div>
+
+<div class="reel" id="redo15">
+<div class="reel-band"><span class="reel-num">REDO-15</span><span class="reel-title">Isbjerget af skjulte udgifter</span><span class="reel-meta">Концовка 6 · <span class="pill p2999">2.999 kr</span></span></div>
+<div class="reel-body">
+<div class="blockhead"><span class="blocklabel">START · + ХВОСТ-К</span><button class="copy-btn" data-copy="d15s">Копировать</button></div>
+<div class="tail" id="d15s">Close-up photograph of a small price tag resting on a perfectly still dark water surface, tied with string, floating just above the surface, deep black water beneath, cool even light.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 1 · движение: descent · + ХВОСТ-В</span><button class="copy-btn" data-copy="d15a">Копировать</button></div>
+<div class="tail" id="d15a">0.0–0.8s: Camera plunges beneath the water surface hard on the very first frame, a violent drop, not a slow submersion. 0.8–4.5s: The descent continues fast; a huge mass of documents becomes visible below, stacked and drifting in the dark water, far larger than anything suggested above the surface. 4.5–8.0s: The descent continues past layer after layer of the submerged mass. Final frame: deep among the submerged documents, the surface and price tag far above, tiny now.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 2 · движение: whip-pan · + ХВОСТ-В</span><button class="copy-btn" data-copy="d15b">Копировать</button></div>
+<div class="tail" id="d15b">0.0–0.8s: Camera holds still. The submerged documents burst open violently on the very first frame, fanning outward in every direction as if pushed by sudden pressure. 0.8–4.5s: Camera still holds; they spread to fill the entire frame, layer after layer of dense paper mass, dark water swirling between them. 4.5–8.0s: Camera whip-pans across the vast spread mass. Final frame: an enormous fanned mass of documents filling the frame entirely, water swirling through it.</div>
+<div class="blockhead"><span class="blocklabel">Сегмент 3 · движение: ascent · + ХВОСТ-В</span><button class="copy-btn" data-copy="d15c">Копировать</button></div>
+<div class="tail" id="d15c">0.0–0.8s: Camera rockets back up toward the surface hard on the very first frame, the vast mass shrinking away below fast. 0.8–4.5s: The ascent continues and breaks the surface violently in a burst, water splitting apart around the small price tag, which is now dwarfed by comparison to what lies beneath. 4.5–8.0s: Camera settles just above the surface, tag floating small and alone, water settling around it. Final frame: the small price tag floating on the now-calm surface, the vast hidden mass implied far below.</div>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст на экране</th><th>Почему здесь</th></tr>
+<tr><td>1</td><td class="ts">0.8–4.5s</td><td class="dk">Prisen flyder ovenpå</td><td>На погружении, пока ценник ещё виден сверху</td></tr>
+<tr><td>2</td><td class="ts">0.8–4.5s</td><td class="dk">Resten ligger under</td><td>На развернувшейся массе документов во весь кадр</td></tr>
+<tr><td>3</td><td class="ts">4.5–8.0s</td><td class="dk">Vi dykker for dig</td><td>На финале, где ценник снова один на спокойной воде</td></tr>
+</table></div>
+<div class="blockhead"><span class="blocklabel">Billedtekst</span><button class="copy-btn" data-copy="d15cap">Копировать</button></div>
+<div class="cap" id="d15cap">Prisen er det, du ser. Resten ligger under overfladen. Vil du ikke selv lede, søger vi boligen for dig — 2.999 kr.</div>
+</div></div>
+
+<h2 class="sec" id="ochered">Очередь производства</h2>
+
+<div class="callout ok">
+<b>Концовки 7–10 не блокируют ничего.</b> Проверил по всем 24 рилам: используются только концовки 1–6, которые уже готовы. Ни один рил не ссылается на 7, 8, 9 или 10. Значит их можно генерить последними или вообще по мере надобности — они нужны как вариативность, чтобы одна и та же концовка не повторялась в соседних неделях, а не как недостающая деталь. Начинать можно прямо с рилов.
+</div>
+
+<div class="callout warn">
+<b>Расхождение с календарём, которое надо развести.</b> В календаре, который я собирал раньше по чату, концовки были расставлены иначе, чем в вашем исходнике. Например, неделя 9 (рилы 19, 20, 14) стояла целиком на 2.999 kr — а по исходнику 19 и 20 идут на концовку 3, а 14 на концовку 1, то есть все три на 299 kr. Исходник — ваш собственный план, он и есть источник правды; календарь надо пересобрать под него. Фактический расклад по продуктам ниже.
+</div>
+
+<div class="scroll"><table>
+<tr><th>Продукт</th><th>Рилов</th><th>Какие</th></tr>
+<tr><td class="dk"><span class="pill p299">299 kr</span></td><td class="ts">18</td><td>14, 15, 16, 17, 18, 19, 20, 21, 22 · REDO-02, 03, 07, 08, 09, 11, 12, 13, 14</td></tr>
+<tr><td class="dk"><span class="pill p599">599 kr</span></td><td class="ts">4</td><td>13, 23 · REDO-05, REDO-10</td></tr>
+<tr><td class="dk"><span class="pill p2999">2.999 kr</span></td><td class="ts">2</td><td>24 · REDO-15</td></tr>
+</table></div>
+
+<p class="sec-intro">На 2.999 kr приходится всего два рила из двадцати четырёх, и оба закрываются одной концовкой (6). Если этот продукт надо реально продавать, а не обозначить — двух роликов на сезон мало, и это стоит решать отдельно, добавив темы, а не концовки.</p>
+
+<h3 class="sub">Порядок генерации — батчами по общему сетапу</h3>
+<p class="sec-intro">Порядок не обязателен, но батчи сгруппированы так, чтобы соседние рилы делили сетап, свет и тип объекта. Это экономит время на подборе стартовых картинок: один удачный вариант освещения переиспользуется на всю группу.</p>
+
+<div class="scroll"><table>
+<tr><th>Батч</th><th>Рилы</th><th>Общий сетап</th></tr>
+<tr><td class="dk">A · Бумаги на столе</td><td>REDO-09, REDO-11, REDO-12, REDO-13, REDO-14</td><td>Тёмный стол, документы, направленный боковой свет. Самая большая однотипная группа — делать первой, набивается рука.</td></tr>
+<tr><td class="dk">B · Архив и печати</td><td>REDO-05, REDO-07, 16</td><td>Бумага, ключи, полки, лупа. Тот же павильонный свет, другой предметный ряд.</td></tr>
+<tr><td class="dk">C · Дом снаружи</td><td>14, 18, 21, 22, REDO-08</td><td>Улица, газон, крыша, дорога. Дневной/ночной уличный свет, дрон-ракурсы.</td></tr>
+<tr><td class="dk">D · Интерьер</td><td>17, 19, 24, REDO-02, REDO-03</td><td>Комнаты, лампы, стены, чердак. Тёплый интерьерный свет с жёсткой тенью.</td></tr>
+<tr><td class="dk">E · Одиночные сетапы</td><td>13, 15, 20, 23, REDO-10, REDO-15</td><td>Макет дома, траншея, набор инструментов, лужи, градиентная карточка, вода. У каждого свой сетап — делать последними, когда стандарт уже отработан.</td></tr>
+</table></div>
+
+<h3 class="sub">Приёмка перед склейкой</h3>
+<p class="sec-intro">Сегмент не идёт в цепочку, пока не прошёл четыре пункта из чек-листа в начале файла. Отдельно по этой партии стоит смотреть на два места, где модель чаще всего срывается:</p>
+
+<div class="scroll"><table>
+<tr><th>Где смотреть</th><th>Что может пойти не так</th></tr>
+<tr><td class="dk">Рил 13, 24 · тень</td><td>Модель склонна «дорисовать» предмет, отбрасывающий тень, или размягчить её край. В обоих рилах тень должна остаться резкой и без источника — это весь смысл. Если появился предмет — перегенерировать.</td></tr>
+<tr><td class="dk">Рил 23 · три отражения</td><td>Отражения должны отличаться <i>размером</i> при одинаковой резкости. Модель легко сделает их разной чёткости вместо разного масштаба — это ломает метафору трёх официальных оценок.</td></tr>
+<tr><td class="dk">Рил 14 · сезоны</td><td>Соседние дома обязаны остаться в неподвижном лете. Если сезоны поехали по всей улице — кадр бессмысленный, перегенерировать.</td></tr>
+<tr><td class="dk">REDO-10 · градиент</td><td>На карточке не должно появиться букв или цифр. Только цветовая полоса — иначе модель напишет несуществующую маркировку.</td></tr>
+<tr><td class="dk">Все концовки</td><td>Готовая карточка с ценой не должна перерисовываться, плыть или менять цифры на протяжении всего финального холда 4.0–8.0s.</td></tr>
+</table></div>
+
+<footer>NordIndsigt · Монтажплан v3 · 4 концовки + 24 рила · заменяет v2-промпты из PDF<br>Рилы 01, 04, 06 выложены по старому стандарту и не переделываются</footer>
+
+</div>
+<script>
+document.querySelectorAll('.copy-btn').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=document.getElementById(b.getAttribute('data-copy'));
+    if(!t)return;
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t.innerText).then(function(){
+        var p=b.textContent;b.textContent='Скопировано ✓';b.classList.add('copied');
+        setTimeout(function(){b.textContent=p;b.classList.remove('copied');},1600);
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
