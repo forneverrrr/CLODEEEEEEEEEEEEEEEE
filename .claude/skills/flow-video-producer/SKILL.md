@@ -32,22 +32,32 @@ UI changes; a hardcoded selector is a guaranteed future failure.
 2. **Read the brand rules** — load `references/style.json` and
    `references/known-failures.md` before writing a single prompt. Every prompt
    this skill writes must pass the checklist in `known-failures.md`.
-3. **Scene breakdown** — turn the user's request into a numbered list of
+3. **Watch the finished-example clips** — load
+   `references/finished-examples.md` and actually open (Read tool, as video
+   frames, or ask the user to share) every clip listed there before drafting
+   new prompts. These are real generated-and-edited output that already
+   shipped, not aspirational style notes. Pull concrete pacing/timing and
+   motion patterns from them — don't just re-read style.json's prose
+   description of a technique, look at how it actually plays out on screen at
+   real timestamps. If `finished-examples.md` is empty or missing entries, ask
+   the user which finished videos to add before proceeding — don't skip this
+   step silently.
+4. **Scene breakdown** — turn the user's request into a numbered list of
    8-second segments, each with: one-line purpose, subject, and which of the 6
    narrative sections it belongs to (see `style.json`). Show this list to the
    user and get explicit approval before generating anything.
-4. **Segment 1** — write the full prompt (image start description + tail from
+5. **Segment 1** — write the full prompt (image start description + tail from
    `style.json` + video motion beats with timestamps), generate it, wait for
    completion, download the result.
-5. **Chain** — run `scripts/chain_frame.py` on the downloaded segment to
+6. **Chain** — run `scripts/chain_frame.py` on the downloaded segment to
    extract its exact last frame. Use that frame as the literal starting image
    for the next segment's generation (do not describe it in words — upload the
    real extracted frame). Write the next segment's motion prompt as a
    continuation of the same story beat, not a new scene.
-6. **Repeat step 5** for every remaining segment. Check with the user after
+7. **Repeat step 6** for every remaining segment. Check with the user after
    each segment if the result doesn't match intent — do not silently keep
    generating past a bad result and hope the chain recovers.
-7. **Concatenate** — once all segments are approved, run
+8. **Concatenate** — once all segments are approved, run
    `scripts/concat_segments.py` to join them into one file, no transitions
    (segments already connect seamlessly because each starts from the previous
    one's real last frame).
@@ -71,6 +81,15 @@ UI changes; a hardcoded selector is a guaranteed future failure.
 - Check every new concept against `references/known-failures.md` BEFORE
   generating. If a concept matches a known failure pattern, don't spend
   credits testing it again — either drop it or use the documented workaround.
+- Prefer reusing a motion pattern that already worked in a finished-example
+  clip over inventing a new one from scratch. If a new segment's intent is
+  close to an existing finished clip (e.g. another "resolution/CTA" beat, or
+  another "decay reveal" beat), write the new prompt as a variation of the
+  finished one's actual timestamps and beats, not a fresh guess.
+- When a finished-example clip demonstrates a weak/borderline result (see the
+  QC notes in `finished-examples.md`), do not repeat that same weak setup —
+  treat it as a documented failure the same way `known-failures.md` entries
+  are treated.
 - Never trust a generation result from its filename or your own prediction —
   always pull real frames (`scripts/chain_frame.py --preview`) and look at
   them before calling a segment "good."
