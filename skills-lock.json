@@ -1,11 +1,47 @@
 {
   "version": 1,
   "skills": {
+    "ffmpeg-kinetic-captions": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/ffmpeg-effects/skills/ffmpeg-kinetic-captions/SKILL.md",
+      "computedHash": "bfeef96a5c5c8fcca9c5b031564c8ca646e7941c6aa33800655a203e870bb796"
+    },
     "humanizer": {
       "source": "blader/humanizer",
       "sourceType": "github",
       "skillPath": "SKILL.md",
       "computedHash": "44201a7ac488b5147fde0a8a63aeb1ffd1501f384d525fd3c482f9599c4903f4"
+    },
+    "viral-video-animated-captions": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/ffmpeg-social-video/skills/viral-video-animated-captions/SKILL.md",
+      "computedHash": "023bfa8810cad2dc0c46be5dc8c69d49e4a5fffd5dd79724851a025fc1d76085"
+    },
+    "viral-video-hook-templates": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/ffmpeg-social-video/skills/viral-video-hook-templates/SKILL.md",
+      "computedHash": "fa271c4249fa96ea029c693e2f8d6a4da4dcd93800acc325409ccf59affbe978"
+    },
+    "viral-video-hooks-retention": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/viral-video-master/skills/viral-video-hooks-retention/SKILL.md",
+      "computedHash": "c9f119abfe4b5d5733106b461cf1f5aee924ff56051ce77f78992912a84a99eb"
+    },
+    "viral-video-platform-specs": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/ffmpeg-social-video/skills/viral-video-platform-specs/SKILL.md",
+      "computedHash": "2d5d44e1a066a34a1127cccaaffd67ba088c684d9fddbf28ff3fef34d4ef0713"
+    },
+    "viral-video-short-form": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/viral-video-master/skills/viral-video-short-form/SKILL.md",
+      "computedHash": "f06df50b451186360ba67861178fcae0414c7f5e8091dfc82f9a873d097434d5"
     }
   }
 }
