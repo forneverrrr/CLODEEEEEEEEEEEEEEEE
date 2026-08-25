@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NordIndsigt — Ветка «Советы»: 12 тем, Пт+Сб</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --green:#3D7A4F; --blue:#3B5A85;
+  --disp:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--blue:#7FA6D9;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--blue:#7FA6D9;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:920px;margin:0 auto;padding:0 22px 110px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:11px 0}
+.top-inner{max-width:920px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-family:var(--disp);font-weight:600;font-size:15.5px}
+.brand b{color:var(--rust)}
+.top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:11.5px;color:var(--ink2);text-decoration:none;padding:5px 9px;border-radius:100px;white-space:nowrap}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:44px 0 18px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:13px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 15px;text-wrap:balance}
+.lead{font-size:16px;color:var(--ink2);max-width:690px;margin:0 0 6px}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+h2.sec{font-family:var(--disp);font-size:25px;font-weight:600;margin:52px 0 8px;scroll-margin-top:62px}
+.sec-intro{font-size:14.5px;color:var(--ink2);max-width:690px;margin-bottom:18px}
+.callout{background:var(--tag-bg);border:1px solid var(--line);border-radius:15px;padding:17px 21px;margin:18px 0;font-size:14.5px;color:var(--ink2)}
+.callout b{color:var(--ink)}
+.callout.warn{border-left:3px solid var(--rust)}
+.topic{background:var(--card);border:1px solid var(--line);border-radius:19px;margin-bottom:24px;overflow:hidden;scroll-margin-top:68px}
+.t-band{padding:16px 22px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:11px;flex-wrap:wrap}
+.t-num{font-family:var(--mono);font-size:12px;color:var(--rust-deep);font-weight:700}
+.t-title{font-family:var(--disp);font-size:18.5px;font-weight:600}
+.t-meta{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.t-body{padding:18px 22px 22px}
+.why{font-size:14px;color:var(--ink2);border-left:3px solid var(--gold);padding-left:13px;margin:0 0 18px}
+h4.blk{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:400;margin:18px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+h4.blk:first-of-type{border-top:none;padding-top:0}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:11px;padding:12px 15px;margin-bottom:9px}
+.seg-h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:5px}
+.seg-n{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--ink)}
+.mv{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:100px;background:color-mix(in srgb,var(--blue) 15%,transparent);color:var(--blue);white-space:nowrap}
+.seg p{margin:0;font-size:14px;color:var(--ink2)}
+.txt{font-family:var(--mono);font-size:12.5px;color:var(--rust-deep);margin-top:6px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:6px 0}
+th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 7px 0;border-bottom:1px solid var(--line);font-weight:400}
+td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+td.n{font-family:var(--mono);font-size:11.5px;color:var(--ink);white-space:nowrap;width:1%}
+td.k{color:var(--ink);font-weight:500}
+.scroll{overflow-x:auto}
+.pill{display:inline-block;font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:100px;background:var(--tag-bg);color:var(--tag-ink)}
+.pill.res{background:color-mix(in srgb,var(--green) 16%,transparent);color:var(--green)}
+footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="top-inner">
+  <div class="brand">Nord<b>Indsigt</b> · Ветка «Советы»</div>
+  <nav>
+    <a href="#pravila">Правила</a>
+    <a href="#t1">1</a><a href="#t2">2</a><a href="#t3">3</a><a href="#t4">4</a>
+    <a href="#t5">5</a><a href="#t6">6</a><a href="#t7">7</a><a href="#t8">8</a><a href="#t9">9</a>
+    <a href="#zapas">Запасные</a>
+  </nav>
+</div></div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Ветка 1 из 3 · слоты Пятница + Суббота · 12 тем</div>
+  <h1>Советы и лайфхаки — сценарии рилов и каруселей</h1>
+  <p class="lead">Девять основных тем до конца октября плюс три запасные на замену. Под каждую — сценарий рила (старт + три сегмента с движением камеры и таймингом) и структура карусели с постом на субботу. Черновик на русском: датский и английский пишем после того, как темы утверждены.</p>
+  <div class="meta-row">
+    <span><b>Тем:</b> 9 основных + 3 запасных</span>
+    <span><b>Сценариев:</b> 24 (12 рилов + 12 каруселей)</span>
+    <span><b>Длина рила:</b> 3 × 8с = 24с</span>
+    <span><b>Период:</b> Пт/Сб до конца октября</span>
+  </div>
+</header>
+
+<h2 class="sec" id="pravila">Правила, по которым написаны все 12</h2>
+
+<div class="callout warn">
+<b>Главная правка против прошлой версии.</b> В прошлом наборе 15 рилов из 24 открывались абстрактным предметом — полка, ключи, лупа, бланк — и зритель не успевал понять, что это вообще про жильё. Здесь <b>каждый первый кадр содержит узнаваемый признак дома</b>: комната, фасад, окно, улица. Предмет появляется вторым планом или следующим движением, когда контекст уже считан.
+</div>
+
+<div class="scroll"><table>
+<tr><th>Правило</th><th>Как применено</th></tr>
+<tr><td class="k">Динамика, а не статика</td><td>В каждом риле три разных движения камеры плюс минимум одна смена состояния в каждом сегменте — свет, разрушение, погода, появление предмета. Камера нигде не «просто едет по неподвижной сцене».</td></tr>
+<tr><td class="k">Одно движение в моменте</td><td>Движения идут последовательно по битам, но никогда не смешиваются. Термины взяты из общего лексикона: dolly in, truck right, pedestal up, whip pan, crash zoom, crane up, arc, tracking, slider, time-lapse.</td></tr>
+<tr><td class="k">Старт на первом кадре</td><td>Действие начинается в 0.0s. Ни одного спокойного вступления — по данным 2026 окно на решение «смотреть или свайпнуть» около секунды.</td></tr>
+<tr><td class="k">Контекст за 1.5 сек</td><td>Первый кадр отвечает на «это про что» до того, как пойдёт сюжет.</td></tr>
+<tr><td class="k">Тон — практика, не находка</td><td>Ветка «советы» отвечает на «что сделать тебе», а не «что нашли мы». Это отличает её от ветки находок, даже когда предмет тот же (энергометка, дорога, олиетанк).</td></tr>
+<tr><td class="k">Без текста в кадре</td><td>Модель врёт, когда рисует буквы и цифры. Весь текст накладывается при монтаже — в сценариях он вынесен отдельной строкой.</td></tr>
+</table></div>
+
+<div class="callout">
+<b>Что ещё не сделано и делается вторым заходом:</b> датские и английские тексты на экран, подписи к постам, хэштеги, гео. Сейчас всё на русском, чтобы вы утвердили или заменили темы до того, как в них вложится перевод.
+</div>
+
+<h2 class="sec">Девять основных тем</h2>
+
+<!-- 1 -->
+<div class="topic" id="t1">
+<div class="t-band"><span class="t-num">Тема 1</span><span class="t-title">Что взять с собой на просмотр</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Самый простой вход в тему: ничего не обвиняем, просто даём набор. Такой пост охотно сохраняют — а сохранения алгоритм ценит выше лайков.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Пустая датская комната, послеобеденный свет из окна слева, голые половицы, посреди комнаты небольшой стол — пока пустой. Комната узнаётся мгновенно, предметы появятся позже.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">dolly in</span></div>
+  <p><b>0.0–0.8s:</b> фонарь с силой падает на стол в кадр сверху, вспышка света от удара разлетается по комнате. <b>0.8–4.0s:</b> камера едет вперёд к столу, луч фонаря включается сам и бьёт вбок, выхватывая фактуру половиц. <b>4.0–8.0s:</b> подъезд заканчивается вплотную к фонарю, свет стабилизируется.</p>
+  <p class="txt">Текст: «Возьми фонарь» (0.8–4.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">truck right</span></div>
+  <p><b>0.0–0.6s:</b> камера резко уходит вправо вдоль стола. <b>0.6–5.0s:</b> по ходу движения один за другим с ударом падают ещё три предмета — складной метр, влагомер, блокнот; каждый при падении выбивает облачко пыли и на миг ловит жёсткий блик. <b>5.0–8.0s:</b> движение замедляется на последнем предмете.</p>
+  <p class="txt">Текст: «И ещё три вещи» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">pedestal up</span></div>
+  <p><b>0.0–1.0s:</b> камера начинает быстрый вертикальный подъём над столом. <b>1.0–5.0s:</b> с высоты видны все четыре предмета в ряд; свет резко меняется с холодного на тёплый, тени укорачиваются. <b>5.0–8.0s:</b> подъём останавливается строго сверху, набор лежит ровно и полностью освещён.</p>
+  <p class="txt">Текст: «Так ты увидишь больше, чем покажут» (5.0–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Четыре вещи, которые меняют просмотр»</td></tr>
+<tr><td class="n">2</td><td>Фонарь — чем светить в углы, под лестницу, в люк на чердак. Что именно искать: подтёки, тёмные пятна, следы ремонта в одном месте.</td></tr>
+<tr><td class="n">3</td><td>Складной метр — сверить реальную площадь комнаты с тем, что заявлено. Расхождение — повод посмотреть BBR.</td></tr>
+<tr><td class="n">4</td><td>Влагомер — стоит недорого, показывает влагу в стене там, где глазом не видно. Где мерить: наружные стены, углы, под окнами.</td></tr>
+<tr><td class="n">5</td><td>Блокнот — записывать ответы продавца на месте. Устный ответ, который нигде не записан, потом не существует.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Или мы проходим по документам за тебя — BoligCheck 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 2 -->
+<div class="topic" id="t2">
+<div class="t-band"><span class="t-num">Тема 2</span><span class="t-title">Три вопроса, которые стоит задать до бида</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Прямое продолжение первой темы, но про слова, а не про предметы. Хорошо работает как «сохранить и открыть перед просмотром».</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Тёмный коридор датской квартиры, три закрытые двери уходят вглубь, из-под каждой узкая полоска света. Пространство сразу читается как жильё.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">dolly in</span></div>
+  <p><b>0.0–0.7s:</b> полоска света под первой дверью резко вспыхивает и заливает пол. <b>0.7–4.5s:</b> камера быстро едет к двери, щель расширяется сама, свет становится объёмным, в нём видна пыль. <b>4.5–8.0s:</b> движение доходит вплотную, проём светится ровно.</p>
+  <p class="txt">Текст: «Первый вопрос открывает первую дверь» (0.7–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">whip pan right</span></div>
+  <p><b>0.0–0.5s:</b> камера резко разворачивается вправо ко второй двери. <b>0.5–4.5s:</b> вторая полоса света вспыхивает жёстко, коридор между двумя дверями наполняется светом с двух сторон, тени сталкиваются. <b>4.5–8.0s:</b> разворот замирает, обе двери светятся.</p>
+  <p class="txt">Текст: «Второй — вторую» (0.5–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crash zoom out</span></div>
+  <p><b>0.0–0.8s:</b> третья дверь вспыхивает, и камера мгновенно отскакивает назад резким зумом. <b>0.8–5.0s:</b> в кадре весь коридор целиком, все три проёма горят, темнота вытеснена полностью. <b>5.0–8.0s:</b> камера стоит, свет ровный и стабильный.</p>
+  <p class="txt">Текст: «Три вопроса — и видно всю квартиру» (5.0–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Три вопроса до того, как назовёшь цену»</td></tr>
+<tr><td class="n">2</td><td>«Готовы ли tilstandsrapport и elinstallationsrapport?» Если ещё нет — это законно, но решение ты принимаешь вслепую.</td></tr>
+<tr><td class="n">3</td><td>«Есть ли обязательное членство в grundejerforening, и что в последнем отчёте?» Обязательное членство означает, что от счёта нельзя отказаться.</td></tr>
+<tr><td class="n">4</td><td>«Какие расходы уже известны, но ещё не имеют суммы?» Формулировка, на которую сложно ответить обтекаемо.</td></tr>
+<tr><td class="n">5</td><td>Правило: любой ответ просить на письме. Устное «там всё в порядке» юридически не существует.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы задаём эти вопросы за тебя и записываем ответ — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 3 -->
+<div class="topic" id="t3">
+<div class="t-band"><span class="t-num">Тема 3</span><span class="t-title">Энергометка: на квартиру или на весь дом?</span><span class="t-meta">599 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Первая тема, где совет ведёт к сравнению трёх объектов — естественный мост к продукту за 599 kr, без давления.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Фасад датского многоквартирного дома вечером, часть окон горит тёплым, часть тёмная. Дом занимает весь кадр — контекст считывается за долю секунды.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">drone push in</span></div>
+  <p><b>0.0–0.8s:</b> одно окно вспыхивает ярче остальных, будто выделенное. <b>0.8–4.5s:</b> камера летит к этому окну, остальной фасад уходит в тень и расфокус. <b>4.5–8.0s:</b> подлёт останавливается вплотную к светящемуся окну.</p>
+  <p class="txt">Текст: «Ты смотришь на свою квартиру» (0.8–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.6s:</b> резкий зум сквозь окно внутрь — на подоконнике стоит карточка с вертикальной цветовой шкалой от зелёного вверху к красному внизу, без единой буквы. <b>0.6–4.5s:</b> зелёная полоса пульсирует ярче, будто её подчёркивают. <b>4.5–8.0s:</b> камера держит карточку крупно.</p>
+  <p class="txt">Текст: «А метка — зелёная» (0.6–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">drone pull back</span></div>
+  <p><b>0.0–1.0s:</b> камера начинает быстрый отлёт назад сквозь окно. <b>1.0–5.5s:</b> в кадр возвращается весь фасад, и одновременно все окна дома вспыхивают тем же зелёным свечением — метка накрывает всё здание, а не одну квартиру. <b>5.5–8.0s:</b> отлёт останавливается, весь дом светится одинаково.</p>
+  <p class="txt">Текст: «Но она может быть на весь дом» (1.0–5.5s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 7 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Энергометка — твоя или всего дома?»</td></tr>
+<tr><td class="n">2</td><td>Что такое energimærke и почему она обязательна при продаже.</td></tr>
+<tr><td class="n">3</td><td>Метка может быть выдана на здание целиком. Тогда цифра расхода — общая на все квартиры сразу.</td></tr>
+<tr><td class="n">4</td><td>Как проверить: смотреть, на какой адрес и объект выдан документ, а не на букву на обложке.</td></tr>
+<tr><td class="n">5</td><td>Почему это важно: буква продаёт, а в твою экономику каждый месяц попадает реальный расход именно твоей квартиры.</td></tr>
+<tr><td class="n">6</td><td>Что спросить: «Метка выдана на эту квартиру или на всё здание?» — письменно.</td></tr>
+<tr><td class="n">7</td><td>Финал: «Сравниваешь несколько квартир? Мы пересчитаем все три — 599 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 4 -->
+<div class="topic" id="t4">
+<div class="t-band"><span class="t-num">Тема 4</span><span class="t-title">Сверить объявление с BBR</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Самый быстрый бесплатный приём, который читатель может применить в тот же вечер. Высокая практическая ценность — такие посты дают репосты.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Угол жилой комнаты со свежим ремонтом, за окном виден кусок улицы с датскими домами. На подоконнике лежат два листа бумаги рядом. Комната первична, бумаги вторичны.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">slider right</span></div>
+  <p><b>0.0–0.7s:</b> порыв ветра из окна разворачивает оба листа, они хлопают и ложатся ровно. <b>0.7–4.5s:</b> камера плавно скользит вправо вдоль подоконника, проходя над обоими листами по очереди. <b>4.5–8.0s:</b> скольжение останавливается между ними.</p>
+  <p class="txt">Текст: «Объявление и BBR» (0.7–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.6s:</b> резкий зум на правый лист. <b>0.6–4.5s:</b> под жёстким светом на нём проявляется пустое поле — тёмный провал среди плотных строк, будто из документа выпал кусок. <b>4.5–8.0s:</b> камера держит пустое поле крупно, вокруг всё в тени.</p>
+  <p class="txt">Текст: «В одном пусто» (0.6–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">arc right</span></div>
+  <p><b>0.0–0.8s:</b> камера начинает обходить оба листа по дуге. <b>0.8–5.0s:</b> по ходу дуги свет разделяется: над левым листом становится тёплым, над правым — холодным синим, между ними ложится резкая граница тени. <b>5.0–8.0s:</b> дуга завершается, оба листа в кадре под разным светом.</p>
+  <p class="txt">Текст: «Два официальных источника, один ответ» (5.0–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Открой BBR до того, как поедешь смотреть»</td></tr>
+<tr><td class="n">2</td><td>Что такое BBR и почему это открытый бесплатный реестр — доступ есть у любого.</td></tr>
+<tr><td class="n">3</td><td>Что сверять: жилая площадь, год постройки, год ремонта, отопление, число комнат.</td></tr>
+<tr><td class="n">4</td><td>Частое расхождение: в объявлении «полностью отремонтировано в 2024», в BBR поле ремонта пустое.</td></tr>
+<tr><td class="n">5</td><td>Расхождение не означает обман — но означает вопрос, который надо задать до бида.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы сверяем объявление, BBR и отчёты между собой — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 5 -->
+<div class="topic" id="t5">
+<div class="t-band"><span class="t-num">Тема 5</span><span class="t-title">Что означают K1, K2, K3 в отчёте</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Чистое объяснение системы, которую все видят, но мало кто читает правильно. Такой формат хорошо заходит как «наконец-то по-человечески».</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Жилая комната с потёртой стеной, на переднем плане на журнальном столе лежит раскрытый отчёт. Комната в фокусе, отчёт — в нижней трети кадра.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">tilt down</span></div>
+  <p><b>0.0–0.8s:</b> по стене комнаты пробегает волна зелёного света, стена выглядит целой и спокойной. <b>0.8–4.5s:</b> камера наклоняется вниз от стены к отчёту на столе, зелёная волна перетекает на страницу. <b>4.5–8.0s:</b> наклон завершается, отчёт в кадре целиком, залит зелёным.</p>
+  <p class="txt">Текст: «Зелёное — можно жить дальше» (0.8–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">low tracking</span></div>
+  <p><b>0.0–0.6s:</b> зелёный резко сменяется жёлтым, свет становится жёстче. <b>0.6–5.0s:</b> камера низко скользит вдоль стола, по ходу движения на поверхности проступают мелкие трещины, которых секунду назад не было. <b>5.0–8.0s:</b> скольжение замедляется, трещины остаются в кадре.</p>
+  <p class="txt">Текст: «Жёлтое — следи и планируй» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.7s:</b> вспышка ржаво-красного, свет бьёт резко сбоку. <b>0.7–4.5s:</b> одна из трещин на глазах раскрывается шире, края темнеют, из разлома идёт красное свечение. <b>4.5–8.0s:</b> резкий зум вплотную к разлому, красный заполняет кадр.</p>
+  <p class="txt">Текст: «Красное — это уже счёт» (4.5–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «K1, K2, K3 — что это на самом деле значит»</td></tr>
+<tr><td class="n">2</td><td>Система оценок в tilstandsrapport: что именно оценивает byggesagkyndig и чего он не оценивает.</td></tr>
+<tr><td class="n">3</td><td>K1 — незначительно. Не «идеально», а «сейчас не критично».</td></tr>
+<tr><td class="n">4</td><td>K2 — требует внимания. Часто именно здесь прячется будущий бюджет.</td></tr>
+<tr><td class="n">5</td><td>K3 — критично. Но важнее не буква, а сколько таких пунктов и где они сгруппированы.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы переводим отчёт в кроны, а не в буквы — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 6 -->
+<div class="topic" id="t6">
+<div class="t-band"><span class="t-num">Тема 6</span><span class="t-title">Насколько свежий отчёт тебе показывают</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Тема, о которой почти не говорят: отчёт имеет срок, и старый отчёт описывает другой дом. Хороший «а я и не знал» эффект.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Комната с задёрнутыми шторами, в узкой полосе света на столе лежит отчёт, покрытый слоем пыли. Интерьер узнаётся, документ подчинён ему.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">dolly in</span></div>
+  <p><b>0.0–0.8s:</b> резкий порыв сдувает пыль с отчёта, облако взлетает и закручивается в луче света. <b>0.8–4.5s:</b> камера едет к столу сквозь висящую пыль. <b>4.5–8.0s:</b> подъезд завершается, отчёт чистый и резкий, пыль оседает.</p>
+  <p class="txt">Текст: «Отчёт есть» (0.8–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">time-lapse (камера статична)</span></div>
+  <p><b>0.0–0.5s:</b> шторы распахиваются рывком, комнату заливает свет. <b>0.5–5.5s:</b> камера стоит неподвижно, а по комнате в ускоренном темпе несколько раз проходит цикл день-ночь, свет из окна мечется по стенам, тени вращаются; отчёт на столе остаётся неподвижным центром. <b>5.5–8.0s:</b> цикл замирает на холодном сером утре.</p>
+  <p class="txt">Текст: «Вопрос — от какого он года» (0.5–5.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.7s:</b> резкий зум к верхнему углу документа, где стоит дата. <b>0.7–4.5s:</b> вокруг этого угла пульсирует ржаво-красная рамка, остальная страница уходит в темноту. <b>4.5–8.0s:</b> камера держит угол крупно, рамка пульсирует ровно.</p>
+  <p class="txt">Текст: «Дом с тех пор жил дальше» (4.5–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Посмотри на дату отчёта раньше, чем на выводы»</td></tr>
+<tr><td class="n">2</td><td>У tilstandsrapport есть срок действия, и он ограничен.</td></tr>
+<tr><td class="n">3</td><td>Что могло произойти после даты осмотра: зима, протечка, ремонт соседей, новая трещина.</td></tr>
+<tr><td class="n">4</td><td>Отдельный случай: отчёт сделан до ремонта, а объявление описывает состояние после. Документ и реальность расходятся легально.</td></tr>
+<tr><td class="n">5</td><td>Что спросить: можно ли получить свежий отчёт или дополнение, если с даты прошло много времени.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы всегда сверяем дату с тем, что заявлено сейчас — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 7 -->
+<div class="topic" id="t7">
+<div class="t-band"><span class="t-num">Тема 7</span><span class="t-title">Частная дорога и vejfond</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Расход, который не виден ни в одной цифре объявления. Тема с сильным «подождите, что?» эффектом у тех, кто смотрит дома за городом.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Гравийная дорога между живыми изгородями, по обе стороны видны датские дома. Пасмурный ровный свет. Улица и дома в кадре сразу.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">low tracking</span></div>
+  <p><b>0.0–0.8s:</b> по дороге проносится жёсткий порыв, гравий и пыль летят на камеру. <b>0.8–5.0s:</b> камера низко над самой дорогой быстро едет вперёд, под ней проносятся выбоины, трещины, размытая колея. <b>5.0–8.0s:</b> движение тормозит у поворота.</p>
+  <p class="txt">Текст: «Дорога выглядит как обычная» (0.8–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">static (камера неподвижна)</span></div>
+  <p><b>0.0–0.6s:</b> первый конверт с силой падает на гравий в центр кадра. <b>0.6–5.0s:</b> камера стоит намертво, а конверты сыплются сверху всё быстрее, вырастая в заметную кучу; каждый удар поднимает пыль. <b>5.0–8.0s:</b> поток прекращается, куча оседает.</p>
+  <p class="txt">Текст: «Но она ничья — значит, общая» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crane up</span></div>
+  <p><b>0.0–1.0s:</b> камера начинает быстрый подъём над кучей конвертов. <b>1.0–5.5s:</b> с высоты видно, что такие же кучи лежат у каждого дома вдоль дороги, и все они одновременно наливаются ржаво-красным светом. <b>5.5–8.0s:</b> подъём останавливается высоко, вся улица в кадре.</p>
+  <p class="txt">Текст: «Счёт делится на всех, включая тебя» (1.0–5.5s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Кто платит за дорогу перед домом»</td></tr>
+<tr><td class="n">2</td><td>Разница между offentlig vej и privat fællesvej — и почему это меняет твой бюджет.</td></tr>
+<tr><td class="n">3</td><td>Что такое vejfond и почему взнос может быть обязательным.</td></tr>
+<tr><td class="n">4</td><td>Что попросить: последний отчёт объединения и протоколы собраний за пару лет.</td></tr>
+<tr><td class="n">5</td><td>На что смотреть в протоколах: запланированные работы без суммы — это будущий счёт.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы читаем протоколы и отчёты объединения — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 8 -->
+<div class="topic" id="t8">
+<div class="t-band"><span class="t-num">Тема 8</span><span class="t-title">Передумать после бида стоит 1%</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Самая продающая тема ветки: называет конкретную цену ошибки и делает 299 kr очевидно дешёвыми на контрасте. Не запугивание — просто арифметика.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Датский дом снаружи в вечернем свете, целиком в кадре, окна тёплые. Ничего необычного — обычный дом, который кто-то вот-вот купит.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">fast zoom out</span></div>
+  <p><b>0.0–0.8s:</b> дом резко отдаляется быстрым зумом, вокруг него проявляется огромная плотная стопка бумаг, на которой он стоит. <b>0.8–4.5s:</b> зум продолжается, стопка растёт в кадре и уходит за края. <b>4.5–8.0s:</b> движение останавливается, дом теперь маленький на вершине массы.</p>
+  <p class="txt">Текст: «Цена дома — это стопка целиком» (0.8–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">slider left</span></div>
+  <p><b>0.0–0.6s:</b> в стопке резко вспыхивает ржаво-красным один тонкий слой у самого верха. <b>0.6–5.0s:</b> камера скользит влево вдоль всей массы, красная полоса остаётся в кадре как единственное яркое пятно, подчёркивая, насколько она тонкая относительно остального. <b>5.0–8.0s:</b> скольжение останавливается.</p>
+  <p class="txt">Текст: «Один процент — вот столько» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.7s:</b> резкий зум вплотную к красному слою. <b>0.7–4.5s:</b> вблизи видно, что этот тонкий слой сам по себе огромен и плотен, красный свет наливается. <b>4.5–8.0s:</b> камера держит его во весь кадр.</p>
+  <p class="txt">Текст: «И столько стоит передумать» (4.5–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Сколько стоит отказаться после бида»</td></tr>
+<tr><td class="n">2</td><td>Как работает fortrydelsesret при покупке жилья и в какой срок она действует.</td></tr>
+<tr><td class="n">3</td><td>Стоимость отказа — процент от покупной цены. На типичной датской сделке это десятки тысяч крон.</td></tr>
+<tr><td class="n">4</td><td>Почему люди всё же отказываются: узнали то, что можно было узнать заранее.</td></tr>
+<tr><td class="n">5</td><td>Что делать вместо: просить продление срока принятия, пока документы не прочитаны.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Прочитать документы заранее стоит 299 kr. Передумать — процент от дома»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 9 -->
+<div class="topic" id="t9">
+<div class="t-band"><span class="t-num">Тема 9</span><span class="t-title">Сколько осталось у строительной страховки</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Закрывает девятку темой про время: «новый дом» не значит «защищённый дом». Хорошо ложится на новостройки, где покупатель расслаблен.</p>
+
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Новый датский дом снаружи, чистый фасад, аккуратный участок, ясный дневной свет. Выглядит безупречно.</p></div>
+
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">static (камера неподвижна)</span></div>
+  <p><b>0.0–0.6s:</b> над домом резко возникает купол мягкого золотого света, будто защитная оболочка. <b>0.6–5.0s:</b> камера стоит, а вокруг дома в ускоренном темпе проносятся сезоны — дождь, снег, солнце — но купол держит, дом остаётся чистым. <b>5.0–8.0s:</b> сезоны замедляются, купол ровно светится.</p>
+  <p class="txt">Текст: «Новый дом защищён» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">orbit clockwise</span></div>
+  <p><b>0.0–0.7s:</b> купол начинает мигать и тускнеть рывками. <b>0.7–5.0s:</b> камера обходит дом по кругу, и с каждым градусом купол становится тоньше и прозрачнее, золото уходит в холодный серый. <b>5.0–8.0s:</b> обход завершается, от купола осталась еле заметная плёнка.</p>
+  <p class="txt">Текст: «Но защита не навсегда» (0.7–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crane down</span></div>
+  <p><b>0.0–0.8s:</b> купол гаснет полностью и мгновенно. <b>0.8–5.0s:</b> камера опускается к фасаду, и в тот же момент по стене от угла вниз побежала первая трещина, свет становится жёстким и холодным. <b>5.0–8.0s:</b> спуск останавливается у трещины.</p>
+  <p class="txt">Текст: «Узнай, сколько лет осталось» (5.0–8.0s)</p>
+</div>
+
+<h4 class="blk">Карусель на субботу · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «У новостройки есть срок годности гарантии»</td></tr>
+<tr><td class="n">2</td><td>Что покрывает byggeskadeforsikring и почему она обязательна для новых домов.</td></tr>
+<tr><td class="n">3</td><td>Срок ограничен. Он отсчитывается от постройки, а не от твоей покупки.</td></tr>
+<tr><td class="n">4</td><td>«Новый» дом на вторичном рынке может быть уже в середине или в конце срока.</td></tr>
+<tr><td class="n">5</td><td>Что спросить: дата начала покрытия и что именно исключено из него.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы считаем, сколько защиты тебе реально достанется — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<h2 class="sec" id="zapas">Три запасные темы</h2>
+<p class="sec-intro">На замену любой из девяти, если тема не понравится или окажется слабой по отклику. Собраны так, чтобы визуально не пересекаться с основными: подземное, вода и оптический обман.</p>
+
+<!-- 10 -->
+<div class="topic" id="t10">
+<div class="t-band"><span class="t-num">Запас 1</span><span class="t-title">Как самому проверить, есть ли олиетанк</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Практическая версия темы, которая в ветке находок звучит как «мы нашли». Здесь — «вот как посмотреть самому».</p>
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Ухоженный сад у датского дома, дом виден на заднем плане, ровный подстриженный газон в мягком свете.</p></div>
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">pedestal up</span></div>
+  <p><b>0.0–0.8s:</b> на газоне резко проступает бурое пятно и начинает расползаться. <b>0.8–5.0s:</b> камера поднимается вертикально, сверху видно, что пятно имеет неестественно ровные углы. <b>5.0–8.0s:</b> подъём завершается прямо над прямоугольником.</p>
+  <p class="txt">Текст: «Трава сохнет прямоугольником» (0.8–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">crash zoom in</span></div>
+  <p><b>0.0–0.7s:</b> резкий зум к одному углу прямоугольника. <b>0.7–4.5s:</b> земля внутри контура темнеет и заметно проседает, по краю идут трещины. <b>4.5–8.0s:</b> камера держит просевший угол.</p>
+  <p class="txt">Текст: «Под ней что-то есть» (0.7–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crane up</span></div>
+  <p><b>0.0–0.9s:</b> камера резко взмывает вверх. <b>0.9–5.5s:</b> с высоты видно и дом, и прямоугольник на газоне вместе; свет холодеет, тень от дома вытягивается к пятну. <b>5.5–8.0s:</b> подъём останавливается.</p>
+  <p class="txt">Текст: «Спроси про олиетанк до сделки» (5.5–8.0s)</p>
+</div>
+<h4 class="blk">Карусель · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Как заметить старый олиетанк своими глазами»</td></tr>
+<tr><td class="n">2</td><td>Почему у старых датских домов он вообще может быть — отопление мазутом в прошлом.</td></tr>
+<tr><td class="n">3</td><td>Признаки на участке: ровное пятно сухой травы, просевший грунт, металлический люк в траве.</td></tr>
+<tr><td class="n">4</td><td>Закрытый бак не значит убранный. Ответственность и расходы переходят к владельцу.</td></tr>
+<tr><td class="n">5</td><td>Что спросить письменно: статус бака и дата его закрытия.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы проверяем это по документам на участок — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 11 -->
+<div class="topic" id="t11">
+<div class="t-band"><span class="t-num">Запас 2</span><span class="t-title">Своя скважина и своя канализация</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Тема для загородных объектов: собственная инфраструктура означает собственную ответственность за ремонт.</p>
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Датская улица ночью с высоты, дома по обе стороны, мокрый асфальт, под покрытием едва угадывается линия коммуникаций.</p></div>
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">drone push in</span></div>
+  <p><b>0.0–0.8s:</b> линия под асфальтом резко вспыхивает тёплым и бежит вдоль улицы. <b>0.8–5.0s:</b> камера летит вперёд над ней, от главной линии к каждому дому одна за другой загораются ветки. <b>5.0–8.0s:</b> подлёт замедляется.</p>
+  <p class="txt">Текст: «Все дома на общей сети» (0.8–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">static (камера неподвижна)</span></div>
+  <p><b>0.0–0.6s:</b> волна света доходит до одного дома — и ветка к нему не загорается. <b>0.6–4.5s:</b> камера стоит, волна уходит дальше, освещая следующие дома; тёмный провал становится всё заметнее. <b>4.5–8.0s:</b> вся улица светится, кроме одного пробела.</p>
+  <p class="txt">Текст: «Кроме одного» (0.6–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crane down</span></div>
+  <p><b>0.0–0.9s:</b> камера быстро опускается к тёмному дому. <b>0.9–5.5s:</b> у земли становится видно: от него идёт отдельная линия в собственный участок, светится холодным синим вместо тёплого. <b>5.5–8.0s:</b> спуск останавливается, обе сети в кадре.</p>
+  <p class="txt">Текст: «Своё — значит, чинишь сам» (5.5–8.0s)</p>
+</div>
+<h4 class="blk">Карусель · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Вода из скважины — свобода или счёт?»</td></tr>
+<tr><td class="n">2</td><td>Разница между подключением к vandværk и собственной скважиной.</td></tr>
+<tr><td class="n">3</td><td>Что становится твоей зоной ответственности: насос, качество воды, регулярные анализы.</td></tr>
+<tr><td class="n">4</td><td>Отдельно про канализацию: коммуна может потребовать разделения стоков в будущем.</td></tr>
+<tr><td class="n">5</td><td>Что спросить: подключён ли объект к общей сети и есть ли известные планы коммуны.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы проверяем подключения и планы по адресу — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<!-- 12 -->
+<div class="topic" id="t12">
+<div class="t-band"><span class="t-num">Запас 3</span><span class="t-title">Проси свежие фото, если жильё сдавалось</span><span class="t-meta">299 kr · практика</span></div>
+<div class="t-body">
+<p class="why">Короткая тема с быстрым понятным советом. Хорошо работает на аудиторию, которая ищет квартиру, а не дом.</p>
+<h4 class="blk">Рил · старт-кадр</h4>
+<div class="seg"><p>Жилая комната, в кадре на переднем плане стоит распечатанное глянцевое фото этой же комнаты — идеально пустой и чистой. За фото видна настоящая комната, обжитая.</p></div>
+<h4 class="blk">Рил · сегменты</h4>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 1</span><span class="mv">dolly in</span></div>
+  <p><b>0.0–0.7s:</b> порыв ветра поднимает глянцевое фото, оно взлетает и переворачивается в воздухе. <b>0.7–4.5s:</b> камера едет вперёд, следом за фото; пока оно кувыркается, изображение на нём желтеет и покрывается трещинами. <b>4.5–8.0s:</b> фото падает вниз из кадра, движение продолжается вглубь комнаты.</p>
+  <p class="txt">Текст: «Фото было идеальным» (0.7–4.5s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 2</span><span class="mv">pan right</span></div>
+  <p><b>0.0–0.6s:</b> свет из окна резко становится холодным. <b>0.6–5.0s:</b> камера медленно поворачивается вправо по настоящей комнате, и под новым светом проявляются потёртости на полу, следы от мебели на стене, пятно у плинтуса. <b>5.0–8.0s:</b> поворот останавливается на углу с самым заметным следом.</p>
+  <p class="txt">Текст: «Комната — нет» (0.6–5.0s)</p>
+</div>
+<div class="seg">
+  <div class="seg-h"><span class="seg-n">Сегмент 3</span><span class="mv">crash zoom out</span></div>
+  <p><b>0.0–0.8s:</b> камера резко отскакивает назад широким зумом. <b>0.8–5.0s:</b> в кадре вся комната целиком, обжитая и настоящая, а глянцевое фото лежит на полу мятым обрывком в углу. <b>5.0–8.0s:</b> кадр стоит неподвижно.</p>
+  <p class="txt">Текст: «Проси фото за эту неделю» (5.0–8.0s)</p>
+</div>
+<h4 class="blk">Карусель · 6 карточек</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: «Когда фото в объявлении старше, чем кажется»</td></tr>
+<tr><td class="n">2</td><td>Почему в объявлениях сдававшегося жилья часто стоят фото со дня постройки.</td></tr>
+<tr><td class="n">3</td><td>Это законно и часто не злой умысел — но ты видишь не то состояние, которое покупаешь.</td></tr>
+<tr><td class="n">4</td><td>Признаки: пустые комнаты без единого следа жизни, при этом в тексте указано, что объект сдавался.</td></tr>
+<tr><td class="n">5</td><td>Что просить: свежие фото с датой или личный осмотр до бида.</td></tr>
+<tr><td class="n">6</td><td>Финал: «Мы сверяем то, что в тексте, с тем, что на фото — 299 kr»</td></tr>
+</table></div>
+</div></div>
+
+<footer>NordIndsigt · Ветка «Советы» · черновик на русском · датский и английский — вторым заходом</footer>
+
+</div>
+</body>
+</html>
