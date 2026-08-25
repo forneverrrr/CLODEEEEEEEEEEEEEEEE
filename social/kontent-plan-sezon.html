@@ -171,8 +171,56 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 <tr><td class="n"><span class="tech">П10</span></td><td class="k">Контраст</td><td>Красивое сверху, проблема под ним. Разрыв между фасадом и содержанием создаёт сюжет.</td><td>Не преувеличивать разрыв до неправдоподобия.</td></tr>
 </table></div>
 
+<h2 class="sec" id="agent">Инструкции для агента Google Flow</h2>
+<p class="sec-intro">Вставляется один раз в поле инструкций проекта в самом Flow. После этого агент держит стиль сам, и промпты ниже работают предсказуемее. Текст на английском, потому что читает его модель, а не человек.</p>
+
+<div class="en">PROJECT: NordIndsigt property-analysis b-roll. Vertical short-form video for Danish home buyers.
+
+VISUAL STYLE, applies to every generation without exception:
+Format 9:16 vertical, photorealistic editorial still base, shot on 50mm, shallow depth of field.
+Lighting: hard directional key light from one side, deep near-black shadows, strong specular highlights. High contrast. Never flat, never evenly lit.
+Palette: near-black navy #0F1E30 background, warm cream #E8DED1 midtones, one saturated rust-red #C4533F accent used sparingly as the only saturated colour in frame.
+
+HARD PROHIBITIONS, never override these even if a prompt seems to ask for them:
+No text of any kind rendered in frame. No captions, letters, numbers, logos, watermarks, readable documents, price tags, signage. The model renders text as garbled nonsense and every caption is added later in editing.
+No visible human faces. Hands and figures at distance are acceptable, recognisable faces are not.
+No house numbers, no street signs, no non-Danish architecture. Buildings must read as Danish: brick, tile roofs, restrained facades. No American ranch houses, no FOR SALE yard signs.
+
+CAMERA MOVEMENT, the single most important rule:
+Only one camera movement is active at any given moment. Movements may follow one another between timed beats, but they must never overlap or blend. Never push while panning. Never orbit while zooming. Never tilt while tracking. A blended movement produces jarring unpredictable motion and the shot is unusable.
+Each beat either commits to one movement or holds the camera completely still. Holding still is a valid and often correct choice when the scene itself is changing.
+Never default to a fully static locked-off shot for the entire duration.
+
+MOTION AND STATE CHANGE:
+Motion begins decisively or violently on the very first frame. No calm establishing beat, no slow build-up. The first frame must already be in motion.
+Every clip must contain a real change of state in the scene itself, not only camera movement. Acceptable state changes: weather transformation, a light or colour wave sweeping across a surface, cascading ignition, collapse or avalanche of stacked objects, material bursting or tearing open to reveal what is behind it, a hard flash-cut between two states described as an instant cut rather than a dissolve.
+A moving camera over an unchanging scene reads as static and is rejected.
+
+KNOWN FAILURES, do not attempt these, use the stated substitute:
+Hinged doors opening or closing. Substitute: a door already ajar with the light widening through the gap.
+A balance scale beam pivoting. Substitute: a collapse or avalanche.
+A key snapping or breaking. Substitute: a bolt sliding shut, one coarse translation.
+Checkmarks being drawn or counted one by one. Substitute: a single colour wave sweeping the whole area at once.
+Camera passing through an intact solid barrier such as a whole roof or wall. Substitute: destroy the barrier first in an earlier beat, then move through the opening.
+Any readable text, currency or price rendered by the model.
+
+CHAINING WORKFLOW:
+Segments are generated in sequence. The exact last frame of each segment becomes the literal start image of the next. Do not describe the previous frame in words, use the real extracted frame.
+Each new segment continues the same story beat and the same physical space. It is not a new scene.
+A bad segment poisons every segment chained after it, so approve each one before continuing.
+
+ACCEPTANCE, check before chaining onward:
+One movement active at a time, no blending.
+The scene changed state, not just the camera.
+Motion present on the very first frame.
+No invented text, faces, house numbers or non-Danish signage.
+
+AUDIO: ambient only. No music, no dialogue, no voiceover. If an audio toggle exists in the interface, switch audio off entirely: all sound is added later in editing.</div>
+
 <h2 class="sec" id="standart">Стандарт промпта</h2>
-<p class="sec-intro">Все промпты ниже уже полные и самодостаточные, включая хвост со стилем. Копируете и вставляете в Flow, дописывать ничего не нужно. Ниже эталон хвоста для справки, если понадобится править стиль централизованно.</p>
+<div class="callout ok">
+<b>Хвосты уже внутри каждого промпта.</b> Проверил все двенадцать промптов первой недели: в четырёх стартовых картинках полный хвост стиля, в восьми видео полный хвост движения. Копируете блок целиком и вставляете, дописывать не нужно ничего. Два блока ниже это эталон для справки, на случай если через месяц захотите поменять палитру или правило движения централизованно и будете искать, что именно править.
+</div>
 
 <h3 class="sub">Хвост для стартовой картинки</h3>
 <div class="en">Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
@@ -216,11 +264,19 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 
 <h4 class="blk">Текст на экран</h4>
 <div class="scroll"><table>
-<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
-<tr><td class="n">1</td><td class="n">0.7 - 4.5s</td><td class="k">Стену покрасили за неделю до показа</td><td>Совпадает с картинкой дословно, зритель верит глазам</td></tr>
-<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Под ней сохло не первый год</td><td>Разворот на моменте, когда видно кладку</td></tr>
-<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Краска стоит 2.000. Стена намного больше</td><td>Цифра без точной суммы, приём П2 в мягкой форме</td></tr>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Датский текст в кадр</th><th>По-русски</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.7 - 4.5s</td><td class="k">Væggen blev malet ugen før fremvisningen</td><td>Стену покрасили за неделю до показа</td><td>Совпадает с картинкой дословно, зритель верит глазам</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Under malingen havde den stået fugtig i årevis</td><td>Под ней сохло не первый год</td><td>Разворот на моменте, когда видно кладку</td></tr>
+<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Maling koster tusinder. Væggen koster mere</td><td>Краска стоит тысячи. Стена больше</td><td>Цифра без точной суммы, приём П2 в мягкой форме</td></tr>
 </table></div>
+
+<h4 class="blk">Подпись под рилом, датский</h4>
+<div class="art" style="border-left-color:var(--rust)">
+<p>Frisk maling skjuler mere, end den viser.</p>
+<p>Én nymalet væg i en ellers urørt stue er ikke pynt. Det er som regel et sted, der har haft et problem.</p>
+<p>Vi læser fugtnoterne i tilstandsrapporten og holder dem op mod det, der står i annoncen. BoligCheck, 299 kr, svar inden 24-48 timer.</p>
+<p>#boligkøb #tilstandsrapport #fugt #boligtjek #NordIndsigt</p>
+</div>
 </div>
 
 <div class="topic">
@@ -250,16 +306,46 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 <p><b>Итог.</b> Мы читаем отметки о влаге в отчёте и сверяем их с тем, что написано в объявлении. Если расхождение есть, вы узнаете о нём до бида, а не после переезда. BoligCheck, 299 kr, ответ за 24-48 часов.</p>
 </div>
 
-<h4 class="blk">Карусель к посту</h4>
+<h4 class="blk">Статья на датском, для публикации</h4>
+<div class="art" style="border-left-color:var(--rust)">
+<p><b>Frisk maling før salg er normalt. Én frisk væg er noget andet.</b></p>
+<p>At male før en fremvisning er helt almindelig og fuldt lovlig salgsklargøring. Problemet opstår først, når det friske lag lægges oven på aktiv fugt: malingen skjuler sporene, men fjerner ikke årsagen, og efter nogle måneder er pletten tilbage, nu hos den nye ejer.</p>
+<h5>Hvorfor maler alle før salg</h5>
+<p>Fordi det virker, og fordi det er billigt. En nymalet væg ændrer indtrykket af et rum mere end nogen møblering, og koster nogle få tusinde kroner. I sig selv siger det intet om boligen. Det ville være mærkeligt, hvis ingen gjorde det.</p>
+<h5>Sådan skelner du klargøring fra tildækning</h5>
+<p>Se ikke på malingen, men på hvor den er frisk. Er hele rummet malet, er der tale om klargøring. Er én væg malet, eller kun den nederste del af den, eller ét hjørne, mens resten står som før, så er det værd at spørge, hvad der var der tidligere. Fugt er næsten altid lokal, og en lokal reparation følger dens form.</p>
+<h5>Hvad du selv kan se og mærke</h5>
+<p>Blærer og små bobler under det friske lag, især ved gulv og vindueslysninger. Temperaturforskel, hvis du lægger hånden på væggen: et fugtigt felt føles mærkbart koldere end et tørt. En lugt, der ikke forsvinder efter udluftning. Og uoverensstemmelser: en fugtnote i tilstandsrapporten, som annoncen ikke nævner med et ord.</p>
+<h5>Hvad det koster bagefter</h5>
+<p>At male væggen om igen koster i størrelsesordenen nogle få tusinde kroner. At finde og udbedre kilden til fugten, som kan være dræn, tag eller beskadiget fugtspærre, koster titusinder. Forskellen mellem de to beløb er prisen på det spørgsmål, der ikke blev stillet ved fremvisningen.</p>
+<p><b>Skal sælger oplyse om fugt, hvis han kender til den?</b><br>Sælgeroplysningsskemaet indeholder spørgsmål om fugt og skader, og dem skal sælger besvare ærligt. Men formuleringerne kan fortolkes, så svarene bør altid holdes op mod rapporten.</p>
+<p><b>Kan man selv måle fugt ved en fremvisning?</b><br>Ja, med en almindelig fugtmåler. Mål ydervægge, hjørner og felter under vinduer, det er der fugt viser sig først.</p>
+<p><b>Hele lejligheden er nymalet. Er det også mistænkeligt?</b><br>Som regel tværtimod. Gennemgående maling er klargøring. Det er den punktvise friskhed på en ellers ældre overflade, der er værd at spørge ind til.</p>
+<p><b>Til sidst.</b> Vi læser fugtnoterne i rapporten og holder dem op mod annoncens tekst. Er der en uoverensstemmelse, får du den at vide før dit bud, ikke efter indflytningen. BoligCheck, 299 kr, svar inden 24-48 timer.</p>
+<p>#boligkøb #tilstandsrapport #fugt #skjultefejl #boligtjek #NordIndsigt</p>
+</div>
+
+<h4 class="blk">Карусель: тексты карточек</h4>
 <div class="scroll"><table>
-<tr><th>#</th><th>Карточка</th></tr>
-<tr><td class="n">1</td><td class="k">Обложка: свежая краска это нормально. Одна свежая стена уже нет</td></tr>
-<tr><td class="n">2</td><td>Почему красят все: пара тысяч крон меняет впечатление сильнее мебели</td></tr>
-<tr><td class="n">3</td><td>Красный флаг это не краска, а её география: одна стена, низ стены, один угол</td></tr>
-<tr><td class="n">4</td><td>Что проверить на месте: пузыри у пола, холодная на ощупь стена, запах после проветривания</td></tr>
-<tr><td class="n">5</td><td>Разница в цене: перекрасить это тысячи, устранить причину это десятки тысяч</td></tr>
-<tr><td class="n">6</td><td>Финал: мы сверяем отметки о влаге с текстом объявления. BoligCheck 299 kr</td></tr>
+<tr><th>#</th><th>Датский текст на карточке</th><th>По-русски</th></tr>
+<tr><td class="n">1</td><td class="k">Frisk maling er normalt.<br>Én frisk væg er det ikke.</td><td>Обложка: свежая краска это нормально, одна свежая стена уже нет</td></tr>
+<tr><td class="n">2</td><td>Alle maler før salg.<br>Nogle få tusinde kroner ændrer indtrykket mere end møbler.</td><td>Красят все, это дёшево и работает</td></tr>
+<tr><td class="n">3</td><td>Det røde flag er ikke malingen.<br>Det er hvor den sidder: én væg, nederste del, ét hjørne.</td><td>Дело в географии свежести, а не в самой краске</td></tr>
+<tr><td class="n">4</td><td>Tjek selv:<br>blærer ved gulvet · kold væg under hånden · lugt efter udluftning</td><td>Что проверить руками на месте</td></tr>
+<tr><td class="n">5</td><td>Male om: nogle få tusinde.<br>Fjerne årsagen: titusinder.</td><td>Разница в цене между косметикой и причиной</td></tr>
+<tr><td class="n">6</td><td>Vi holder fugtnoterne op mod annoncen.<br>BoligCheck 299 kr</td><td>Финал с продуктом</td></tr>
 </table></div>
+
+<h4 class="blk">Карусель: промпты для картинок</h4>
+<div class="callout info" style="margin-top:0">
+<b>Как устроена карусель.</b> Генерировать шесть отдельных картинок долго и дорого, а текст модель всё равно не нарисует. Поэтому: две сгенерированные картинки на обложку и финал, а середина это единый брендовый фон, на который текст кладётся в Canva. Один фон переиспользуется во всех каруселях сезона, генерить его нужно один раз.
+</div>
+<p class="ru-note">Обложка, карточка 1. Она решает, откроют карусель или нет, поэтому делается полноценной картинкой.</p>
+<div class="en">Square 1:1 format. Close-up of an interior wall in a Danish home, the left half freshly painted in a flat even cream tone, the right half visibly older with faint marks and age. A hard vertical line of shadow runs down the exact centre where the two halves meet, dividing the frame. One small paint blister is beginning to swell on the fresh half. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space in the upper third of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Финал, карточка 6. Спокойная, чтобы контрастировать с тревожной обложкой и не мешать читать цену.</p>
+<div class="en">Square 1:1 format. A calm, orderly desk surface in soft warm light, a closed plain document folder lying squarely in the lower half of the frame, nothing else on the surface. Clean, quiet, resolved atmosphere. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space in the upper half of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Универсальный фон для карточек 2 до 5. Генерится один раз на весь сезон, дальше переиспользуется во всех каруселях.</p>
+<div class="en">Square 1:1 format. An abstract textured background surface, deep near-black navy #0F1E30, with a very subtle diagonal gradient of warm cream #E8DED1 light falling from the upper left corner and fading out before the centre. Fine natural paper or plaster grain visible across the surface. No objects, no subject, completely empty composition intended purely as a background for text. Photorealistic, editorial, soft depth. High contrast between the lit corner and the dark body of the frame, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
 </div>
 
 <div class="topic">
@@ -284,11 +370,19 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 
 <h4 class="blk">Текст на экран</h4>
 <div class="scroll"><table>
-<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
-<tr><td class="n">1</td><td class="n">0.6 - 4.5s</td><td class="k">После душа</td><td>Максимально короткая строка, картинка говорит сама</td></tr>
-<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Три минуты</td><td>Конкретика времени, зритель может повторить тест</td></tr>
-<tr><td class="n">3</td><td class="n">5.5 - 8.0s</td><td class="k">И ни одного чёрного угла</td><td>Вывод на сухом кадре, разрешение напряжения</td></tr>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Датский текст в кадр</th><th>По-русски</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.6 - 4.5s</td><td class="k">Efter et brusebad</td><td>После душа</td><td>Максимально короткая строка, картинка говорит сама</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Tre minutter</td><td>Три минуты</td><td>Конкретика времени, зритель может повторить тест</td></tr>
+<tr><td class="n">3</td><td class="n">5.5 - 8.0s</td><td class="k">Og ikke ét sort hjørne</td><td>И ни одного чёрного угла</td><td>Вывод на сухом кадре, разрешение напряжения</td></tr>
 </table></div>
+
+<h4 class="blk">Подпись под рилом, датский</h4>
+<div class="art">
+<p>Fugt er den dyreste fejl i dansk bolig. Og den starter næsten altid med luft, der ikke kommer ud.</p>
+<p>Her forsvandt dampen på tre minutter. Ingen sorte hjørner, ingen skjolder ved gulvet. Sådan ser en bolig ud, der kan ånde.</p>
+<p>Vi skriver det lige så tydeligt, når noget er i orden, som når det ikke er. BoligCheck, 299 kr.</p>
+<p>#boligkøb #ventilation #fugt #boligtjek #NordIndsigt</p>
+</div>
 </div>
 
 <div class="topic">
@@ -318,16 +412,42 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 <p><b>Итог.</b> Этот тест мы отдаём бесплатно, потому что он реально работает и не требует нас. Мы нужны там, где надо связать отметки о влаге, вентиляции и состоянии конструкций в одну картину и перевести её в деньги. BoligCheck, 299 kr.</p>
 </div>
 
-<h4 class="blk">Карусель к посту</h4>
+<h4 class="blk">Статья на датском, для публикации</h4>
+<div class="art">
+<p><b>Ventilationstesten, der tager tre minutter</b></p>
+<p>Ventilation i en dansk bolig er systemet, der fjerner fugtig luft fra bad, køkken og opholdsrum, og det er præcis dét, der afgør, om der kommer skimmel. Du kan teste den på tre minutter med et almindeligt stykke papir, uden måleudstyr og uden at spørge sælger om lov.</p>
+<h5>Hvorfor fugt er den dyreste fejl i dansk bolig</h5>
+<p>Danmark har fugtigt klima og tætte, velisolerede huse. God isolering holder på varmen, men den holder også på fugten, hvis der ikke er noget til at føre den ud. Derfra kommer næsten alle de dyre problemer: skimmel, råd i konstruktionen, ødelagte overflader. Og årsagen er næsten altid den samme, luften kommer ikke ud.</p>
+<h5>Testen med et stykke papir</h5>
+<p>Hold et almindeligt A4-ark op mod ventilationsristen. Er der træk, bliver arket hængende af sig selv. Falder det ned, virker udsugningen ikke, eller kanalen er stoppet. Det er en grov test, men den fanger det hyppigste tilfælde: at risten sidder der, mens der ikke har været træk bag den i årevis.</p>
+<h5>Hvor du finder sporene, hvis du ikke kan teste</h5>
+<p>Skimmel viser sig altid de samme steder: samlingen mellem badekar og væg, hjørner ved gulvet på ydervægge, vindueslysninger, og feltet bag møbler op ad en kold væg. Er der rent netop dér i en bolig med ældre ventilation, er systemet enten vedligeholdt, eller også har beboerne luftet grundigt ud. Begge dele er gode tegn.</p>
+<h5>Hvad rapporten siger om det</h5>
+<p>I tilstandsrapporten står noter om fugt og noter om ventilation i hver sin sektion, og det giver ingen mening at læse dem hver for sig. Fugt uden forklaret årsag er blot et symptom. Fugt sammen med en note om manglende ventilation er en forståelig kæde, som kan sættes i kroner.</p>
+<p><b>Hvad hvis ventilationen er mekanisk, med ventilator?</b><br>Samme test virker, tænd blot for ventilatoren først. Spørg desuden, hvornår systemet sidst er serviceret, mekaniske anlæg har et interval.</p>
+<p><b>Er skimmel i et hjørne altid ventilation?</b><br>Ikke altid. Det kan også være en kuldebro i konstruktionen eller en utæthed udefra. Men ventilation tjekkes først, fordi det er den hyppigste og billigste årsag at udbedre.</p>
+<p><b>Hvad koster det at udbedre ventilationen?</b><br>Rensning af kanaler er forholdsvis billigt, etablering af mekanisk anlæg er væsentligt dyrere. Størrelsesordenen afhænger meget af hustypen, så et præcist tal kommer kun fra et tilbud.</p>
+<p><b>Til sidst.</b> Denne test giver vi væk, fordi den virker og ikke kræver os. Vi er nødvendige dér, hvor noter om fugt, ventilation og konstruktion skal bindes sammen til ét billede og oversættes til kroner. BoligCheck, 299 kr.</p>
+<p>#boligkøb #ventilation #skimmel #tilstandsrapport #boligtjek #NordIndsigt</p>
+</div>
+
+<h4 class="blk">Карусель: тексты карточек</h4>
 <div class="scroll"><table>
-<tr><th>#</th><th>Карточка</th></tr>
-<tr><td class="n">1</td><td class="k">Обложка: тест на вентиляцию за три минуты, без приборов</td></tr>
-<tr><td class="n">2</td><td>Почему влага это самая дорогая проблема в датском жилье</td></tr>
-<tr><td class="n">3</td><td>Лист А4 у решётки: держится значит тяга есть, падает значит нет</td></tr>
-<tr><td class="n">4</td><td>Где искать следы: стык ванны, углы у пола, откосы окон, за мебелью</td></tr>
-<tr><td class="n">5</td><td>В отчёте влажность и вентиляция стоят в разных разделах. Читать надо вместе</td></tr>
-<tr><td class="n">6</td><td>Финал: тест бесплатный. Связать всё в картину и в деньги, BoligCheck 299 kr</td></tr>
+<tr><th>#</th><th>Датский текст на карточке</th><th>По-русски</th></tr>
+<tr><td class="n">1</td><td class="k">Ventilationstesten<br>der tager tre minutter</td><td>Обложка: тест за три минуты</td></tr>
+<tr><td class="n">2</td><td>Fugt er den dyreste fejl i dansk bolig.<br>Årsagen er næsten altid den samme: luften kommer ikke ud.</td><td>Почему влага дороже всего</td></tr>
+<tr><td class="n">3</td><td>Hold et A4-ark op mod risten.<br>Hænger det: der er træk. Falder det: der er ikke.</td><td>Сам тест</td></tr>
+<tr><td class="n">4</td><td>Se efter spor:<br>samling ved badekar · hjørner ved gulvet · vindueslysninger · bag møbler</td><td>Где искать следы</td></tr>
+<tr><td class="n">5</td><td>I rapporten står fugt og ventilation hver for sig.<br>De skal læses sammen.</td><td>Как читать отчёт</td></tr>
+<tr><td class="n">6</td><td>Testen er gratis.<br>At binde det hele sammen: BoligCheck 299 kr</td><td>Финал с продуктом</td></tr>
 </table></div>
+
+<h4 class="blk">Карусель: промпты для картинок</h4>
+<p class="ru-note">Обложка. Пар и решётка, узнаваемо и спокойно, без тревоги: это плюсовая неделя.</p>
+<div class="en">Square 1:1 format. A ventilation grille high on a tiled bathroom wall, seen close and slightly from below, with visible streams of white steam being drawn into it from below. The tiles around it are clean and dry. Warm even light. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space in the lower third of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Финал. Сухой чистый угол в тёплом свете, полная противоположность понедельничной обложке с трещиной.</p>
+<div class="en">Square 1:1 format. A clean dry corner where a tiled bathroom wall meets the floor, sharply lit in warm golden light, the grout lines crisp and completely free of any dark staining. Calm, resolved, reassuring atmosphere. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space in the upper half of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Карточки 2 до 5: тот же универсальный брендовый фон, что и в понедельничной карусели. Генерить заново не нужно.</p>
 </div>
 
 <div class="topic">
@@ -352,11 +472,19 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 
 <h4 class="blk">Текст на экран</h4>
 <div class="scroll"><table>
-<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
-<tr><td class="n">1</td><td class="n">0.8 - 4.0s</td><td class="k">Возьми фонарь</td><td>Прямая инструкция на предмете, который в кадре</td></tr>
-<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">И ещё три вещи</td><td>Открывает петлю: какие именно, смотри дальше</td></tr>
-<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Так ты увидишь больше, чем покажут</td><td>Обещание результата на спокойном финале</td></tr>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Датский текст в кадр</th><th>По-русски</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.8 - 4.0s</td><td class="k">Tag en lygte med</td><td>Возьми фонарь</td><td>Прямая инструкция на предмете, который в кадре</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Og tre ting mere</td><td>И ещё три вещи</td><td>Открывает петлю: какие именно, смотри дальше</td></tr>
+<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Så ser du mere, end der bliver vist frem</td><td>Так ты увидишь больше, чем покажут</td><td>Обещание результата на спокойном финале</td></tr>
 </table></div>
+
+<h4 class="blk">Подпись под рилом, датский</h4>
+<div class="art" style="border-left-color:var(--gold)">
+<p>En fremvisning varer tyve minutter. Lyset er tændt overalt, og møblerne står, hvor de skal stå.</p>
+<p>Fire ting i tasken ændrer, hvad du opdager: en lygte, en tommestok, en fugtmåler og en notesbog.</p>
+<p>Listen virker også uden os. Papirerne bagefter læser vi for 299 kr.</p>
+<p>#boligkøb #fremvisning #boligkøbertips #boligtjek #NordIndsigt</p>
+</div>
 </div>
 
 <div class="topic">
@@ -386,16 +514,42 @@ code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1p
 <p><b>Итог.</b> Сохраните этот список перед следующим просмотром, он работает и без нас. А документы, которые остаются после просмотра, мы разбираем за 299 kr и отвечаем в течение 24-48 часов.</p>
 </div>
 
-<h4 class="blk">Карусель к посту</h4>
+<h4 class="blk">Статья на датском, для публикации</h4>
+<div class="art" style="border-left-color:var(--gold)">
+<p><b>Fire ting, der ændrer en fremvisning</b></p>
+<p>Fire genstande taget med til en boligfremvisning i Danmark, nemlig en lygte, en tommestok, en fugtmåler og en notesbog, gør det muligt selv at opdage det, billederne i annoncen ikke viser: fugt, afvigelser i areal, og mundtlige løfter, som bagefter ikke kan dokumenteres.</p>
+<h5>Hvorfor ét blik ikke rækker</h5>
+<p>En fremvisning varer tyve, højst tredive minutter. Lyset er tændt overalt, gardinerne er trukket fra, og møblerne står, så rummene virker større og de ubekvemme hjørner er dækket. Det er ikke snyd, det er almindelig klargøring. Men det betyder præcis én ting: på den tid kan øjnene kun fange det åbenlyse.</p>
+<h5>Hvad hver genstand giver dig</h5>
+<p>Lygten er til de steder, hvor der ikke er loftslys: hjørner, under trappen, op gennem loftslemmen, bag fyret. Det er dér, sporene efter udsivning og punktvis reparation bliver siddende. Tommestokken er til at holde rummets faktiske mål op mod det opgivne, og en afvigelse er grund til at slå op i BBR. Fugtmåleren koster ikke meget og viser fugt i væggen, som øjet ikke fanger, mål ydervægge, hjørner og felter under vinduer. Notesbogen er til at skrive sælgers svar ned på stedet, ordret.</p>
+<h5>Hvorfor svarene skal skrives ned</h5>
+<p>Fordi et mundtligt svar, der ikke er noteret nogen steder, ikke findes en måned senere. Ingen lyver med vilje, folk glemmer bare, hvad de præcist sagde, og køberen husker det, han gerne ville høre. En nedskrevet sætning med dato er noget, man kan vende tilbage til.</p>
+<h5>Hvad du gør med et fund</h5>
+<p>En fundet afvigelse er ikke grund til at droppe boligen. Den er grund til at stille et skriftligt spørgsmål, før du byder. Forskellen på før og efter er stor: før buddet kan du gå gratis, efter koster fortrydelse én procent af købesummen.</p>
+<p><b>Er det underligt at gå rundt med lygte og tommestok?</b><br>Nej, det er almindelig praksis ved boligkøb. Mægler og sælger forventer, at en køber undersøger boligen og ikke kun beundrer den.</p>
+<p><b>Hvad hvis sælger ikke vil have, at man måler?</b><br>Forbyde det kan han ikke, og en afvisende reaktion er i sig selv nyttig information: så bør papirerne rekvireres særskilt og læses grundigere.</p>
+<p><b>Skal man købe en fugtmåler til én fremvisning?</b><br>Ser du flere boliger, tjener den sig hjem med det samme. Er der kun én, klarer du dig med lygte og håndflade: et fugtigt felt føles mærkbart koldere end et tørt.</p>
+<p><b>Til sidst.</b> Gem listen til næste fremvisning, den virker også uden os. Papirerne, der ligger tilbage bagefter, læser vi for 299 kr med svar inden 24-48 timer.</p>
+<p>#boligkøb #fremvisning #boligkøbertips #tilstandsrapport #boligtjek #NordIndsigt</p>
+</div>
+
+<h4 class="blk">Карусель: тексты карточек</h4>
 <div class="scroll"><table>
-<tr><th>#</th><th>Карточка</th></tr>
-<tr><td class="n">1</td><td class="k">Обложка: четыре вещи, которые меняют просмотр</td></tr>
-<tr><td class="n">2</td><td>Фонарь: углы, под лестницу, чердачный люк, за котёл. Ищем подтёки и точечный ремонт</td></tr>
-<tr><td class="n">3</td><td>Складной метр: сверить реальную площадь с заявленной. Расхождение значит открыть BBR</td></tr>
-<tr><td class="n">4</td><td>Влагомер: наружные стены, углы, под окнами. Показывает то, чего не видно глазом</td></tr>
-<tr><td class="n">5</td><td>Блокнот: записать ответы дословно. Устный ответ через месяц не существует</td></tr>
-<tr><td class="n">6</td><td>Финал: список работает и без нас. Документы разбираем за 299 kr</td></tr>
+<tr><th>#</th><th>Датский текст на карточке</th><th>По-русски</th></tr>
+<tr><td class="n">1</td><td class="k">Fire ting<br>der ændrer en fremvisning</td><td>Обложка: четыре вещи</td></tr>
+<tr><td class="n">2</td><td>Lygten:<br>hjørner · under trappen · loftslemmen · bag fyret</td><td>Фонарь и где им светить</td></tr>
+<tr><td class="n">3</td><td>Tommestokken:<br>hold rummets mål op mod det opgivne. Afviger det, så slå op i BBR.</td><td>Метр и сверка площади</td></tr>
+<tr><td class="n">4</td><td>Fugtmåleren:<br>ydervægge · hjørner · under vinduer. Viser det, øjet ikke fanger.</td><td>Влагомер и где мерить</td></tr>
+<tr><td class="n">5</td><td>Notesbogen:<br>skriv svaret ned ordret. Et mundtligt svar findes ikke en måned senere.</td><td>Блокнот и зачем он</td></tr>
+<tr><td class="n">6</td><td>Listen virker uden os.<br>Papirerne læser vi: BoligCheck 299 kr</td><td>Финал, приём взаимности</td></tr>
 </table></div>
+
+<h4 class="blk">Карусель: промпты для картинок</h4>
+<p class="ru-note">Обложка. Тот же набор предметов, что в риле, но статично и сверху: карусель должна узнаваться как продолжение пятничного видео.</p>
+<div class="en">Square 1:1 format. Overhead view of four objects laid out in a row on a dark wooden surface: a metal flashlight, a folded wooden folding rule, a small handheld moisture meter, and a plain closed notebook. Evenly spaced, deliberately arranged, warm directional light raking across them from one side. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space along the top edge of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Финал. Фонарь, светящий в тёмный угол: обещание, что зритель увидит больше.</p>
+<div class="en">Square 1:1 format. A flashlight lying on a wooden floor, switched on, its beam cutting low across the boards into a dark corner of an empty room and lighting up the grain and texture there. Everything outside the beam falls to deep shadow. Photorealistic, editorial still, shot on 50mm, shallow depth of field. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. Generous empty space in the upper half of the frame for text to be added later. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Карточки 2 до 5: универсальный брендовый фон из понедельничной карусели.</p>
 </div>
 </div>
 
