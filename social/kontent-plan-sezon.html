@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NordIndsigt · Контент-сезон: 9 недель, 27 тем</title>
+<style>
+:root{
+  --paper:#FAF7F1; --card:#FFFFFF; --ink:#18222E; --ink2:#4F5C6B; --muted:#7C8895;
+  --line:#E4DBC9; --rust:#C4533F; --rust-deep:#9E4030; --gold:#C0863F;
+  --mono-bg:#F1ECE0; --mono-ink:#2B3542; --tag-bg:#EFE6D6; --tag-ink:#8A5A22;
+  --green:#3D7A4F; --blue:#3B5A85; --red:#B4483A;
+  --disp:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--blue:#7FA6D9;--red:#E0776A;}
+}
+:root[data-theme="dark"]{--paper:#131C26;--card:#1B2530;--ink:#EAE3D6;--ink2:#B7BFC9;--muted:#8993A0;--line:#2E3A47;--rust:#E07A63;--rust-deep:#C4533F;--gold:#D9A45C;--mono-bg:#101A22;--mono-ink:#D8DEE6;--tag-bg:#2A2214;--tag-ink:#D9A45C;--green:#6FBF8A;--blue:#7FA6D9;--red:#E0776A;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.6;font-size:16px}
+.wrap{max-width:940px;margin:0 auto;padding:0 22px 110px}
+.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:11px 0}
+.top-inner{max-width:940px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-family:var(--disp);font-weight:600;font-size:15.5px}
+.brand b{color:var(--rust)}
+.top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{font-size:11.5px;color:var(--ink2);text-decoration:none;padding:5px 9px;border-radius:100px;white-space:nowrap}
+.top nav a:hover{background:var(--tag-bg);color:var(--ink)}
+header.hero{padding:44px 0 18px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust-deep);margin-bottom:13px}
+h1{font-family:var(--disp);font-size:clamp(27px,5vw,38px);font-weight:600;letter-spacing:-.01em;line-height:1.1;margin:0 0 15px;text-wrap:balance}
+.lead{font-size:16px;color:var(--ink2);max-width:700px;margin:0 0 6px}
+.meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.meta-row b{color:var(--ink2)}
+h2.sec{font-family:var(--disp);font-size:25px;font-weight:600;margin:52px 0 8px;scroll-margin-top:62px}
+h3.sub{font-family:var(--disp);font-size:19px;font-weight:600;margin:30px 0 8px}
+.sec-intro{font-size:14.5px;color:var(--ink2);max-width:700px;margin-bottom:18px}
+.callout{background:var(--tag-bg);border:1px solid var(--line);border-radius:15px;padding:17px 21px;margin:18px 0;font-size:14.5px;color:var(--ink2)}
+.callout b{color:var(--ink)}
+.callout.warn{border-left:3px solid var(--rust)}
+.callout.ok{border-left:3px solid var(--green)}
+.callout.info{border-left:3px solid var(--blue)}
+.week{background:var(--card);border:1px solid var(--line);border-radius:19px;margin-bottom:30px;overflow:hidden}
+.week-band{padding:15px 22px;background:var(--tag-bg);border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.week-n{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--rust-deep)}
+.week-t{font-family:var(--disp);font-size:17px;font-weight:600}
+.week-d{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.topic{border-bottom:1px solid var(--line);padding:20px 22px}
+.topic:last-child{border-bottom:none}
+.t-band{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.slot{font-family:var(--mono);font-size:10px;font-weight:700;padding:3px 9px;border-radius:100px;white-space:nowrap}
+.slot.min{background:color-mix(in srgb,var(--red) 15%,transparent);color:var(--red)}
+.slot.plus{background:color-mix(in srgb,var(--green) 16%,transparent);color:var(--green)}
+.slot.tip{background:color-mix(in srgb,var(--gold) 20%,transparent);color:var(--tag-ink)}
+.t-title{font-family:var(--disp);font-size:17.5px;font-weight:600}
+.t-meta{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.goal{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:10px;padding:13px 16px;font-size:14px;color:var(--ink2);margin-bottom:14px}
+.goal b{color:var(--ink)}
+h4.blk{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:400;margin:18px 0 7px}
+.en{background:var(--mono-bg);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:10px;padding:13px 16px;font-family:var(--mono);font-size:12px;line-height:1.62;color:var(--mono-ink);white-space:pre-wrap;user-select:text;margin-bottom:8px}
+.ru-note{font-size:13.5px;color:var(--ink2);margin:0 0 12px;padding-left:13px;border-left:2px solid var(--line)}
+.mv{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:100px;background:color-mix(in srgb,var(--blue) 15%,transparent);color:var(--blue);white-space:nowrap;margin-left:6px}
+.tech{display:inline-block;font-family:var(--mono);font-size:9.5px;padding:2px 7px;border-radius:100px;background:color-mix(in srgb,var(--rust) 14%,transparent);color:var(--rust-deep);margin:2px 4px 2px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:6px 0 12px}
+th{text-align:left;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);padding:0 10px 7px 0;border-bottom:1px solid var(--line);font-weight:400}
+td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+td.n{font-family:var(--mono);font-size:11.5px;color:var(--ink);white-space:nowrap;width:1%}
+td.k{color:var(--ink);font-weight:500}
+.scroll{overflow-x:auto}
+.art h5{font-family:var(--disp);font-size:15.5px;font-weight:600;margin:15px 0 5px;color:var(--ink)}
+.art h5:first-child{margin-top:0}
+.art p{margin:0 0 10px;font-size:14px;color:var(--ink2)}
+.art{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--green);border-radius:11px;padding:15px 17px}
+.faq dt{font-weight:600;color:var(--ink);font-size:14px;margin-top:9px}
+.faq dd{margin:2px 0 0;font-size:13.5px;color:var(--ink2)}
+.verify{background:color-mix(in srgb,var(--gold) 18%,transparent);color:var(--tag-ink);padding:1px 6px;border-radius:4px;font-family:var(--mono);font-size:11px;white-space:nowrap}
+footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:center}
+code{font-family:var(--mono);font-size:.9em;background:var(--mono-bg);padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="top-inner">
+  <div class="brand">Nord<b>Indsigt</b> · Контент-сезон</div>
+  <nav>
+    <a href="#serial">Сериал</a>
+    <a href="#chisla">Цифры</a>
+    <a href="#priemy">Приёмы</a>
+    <a href="#standart">Стандарт</a>
+    <a href="#w1">Нед 1</a><a href="#w2">Нед 2</a><a href="#w3">Нед 3</a>
+  </nav>
+</div></div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Часть 1 из 4 · правила и недели 1 - 3</div>
+  <h1>Контент-сезон: девять недель, три акта, двадцать семь тем</h1>
+  <p class="lead">Один документ вместо трёх отдельных веток. Промпты для генерации на английском, пояснения и тексты на русском. Каждая тема идёт с указанием, какой приём убеждения в ней работает и на какой продукт она ведёт.</p>
+  <div class="meta-row">
+    <span><b>Недель:</b> 9</span>
+    <span><b>Тем:</b> 27 основных + 9 запасных</span>
+    <span><b>Слотов в неделю:</b> 3 рила + 3 поста</span>
+    <span><b>Старт:</b> 31 августа</span>
+  </div>
+</header>
+
+<div class="callout ok">
+<b>Что изменилось против трёх прошлых файлов.</b> Убраны все длинные тире, вы просили об этом раньше и я продолжал их ставить: их было 745 штук в четырёх файлах. Промпты переписаны на английский целиком, вместе с хвостом, готовы к вставке в Flow без доработки. К каждой теме добавлено: что должно получиться на выходе, какие приёмы убеждения работают, какой продукт продаётся. Зелёные флаги убраны из понедельника, потому что для них теперь есть отдельная среда.
+</div>
+
+<h2 class="sec" id="serial">Сериал: три акта за девять недель</h2>
+<p class="sec-intro">Темы идут не вперемешку, а с нарастанием уровня разговора. Каждый акт меняет предмет, а не повторяет предыдущий. Зритель, посмотревший подряд, проходит путь от «осмотр глазами не работает» до «цена ошибки конкретна».</p>
+
+<div class="scroll"><table>
+<tr><th>Акт</th><th>Недели</th><th>О чём</th><th>Что усваивает зритель</th><th>Продукт</th></tr>
+<tr><td class="k">Акт 1<br>Ты смотришь не туда</td><td class="n">1 - 3</td><td>Физическое: то, что видно глазами на просмотре. Краска, крыша, электрика, вентиляция, вода.</td><td>Осмотр глазами не работает, нужен инструмент и метод.</td><td class="n">299</td></tr>
+<tr><td class="k">Акт 2<br>Бумаги врут по-другому</td><td class="n">4 - 6</td><td>Документы: пропуски в отчётах, несовпадения с реальностью, полнота истории объекта.</td><td>Документ тоже надо уметь читать, наличие бумаги не равно порядку.</td><td class="n">299 + 599</td></tr>
+<tr><td class="k">Акт 3<br>Всё сходится к деньгам</td><td class="n">7 - 9</td><td>Деньги: три числа не сходятся, лучший из трёх объектов, один процент за передумать.</td><td>Цена ошибки конкретна, проверка стоит копейки на её фоне.</td><td class="n">599 + 2999</td></tr>
+</table></div>
+
+<div class="callout info">
+<b>Почему продукт за 599 kr появляется только со второго акта.</b> Sammenlign 3 продаётся сравнением, а сравнивать зритель начинает не сразу. В первые три недели он ещё усваивает, что проверять вообще нужно. Предлагать ему сравнить три объекта, пока он не согласился проверить один, значит продавать шаг, до которого он не дошёл. То же с 2.999 kr: услуга поиска имеет смысл для человека, который уже устал искать сам, а это состояние приходит к концу сезона.
+</div>
+
+<h3 class="sub">Как устроена неделя</h3>
+<div class="scroll"><table>
+<tr><th>День</th><th>Формат</th><th>Тон</th><th>Что делает</th></tr>
+<tr><td class="k">Понедельник</td><td>Рил</td><td><span class="slot min">находка</span></td><td>Показывает дефект и его цену. Цепляет тревогой.</td></tr>
+<tr><td class="k">Вторник</td><td>Пост, карусель, статья</td><td><span class="slot min">находка</span></td><td>Разбирает тему понедельника вглубь. Даёт то, что сохраняют.</td></tr>
+<tr><td class="k">Среда</td><td>Рил</td><td><span class="slot plus">плюс</span></td><td>Показывает, как выглядит хороший объект. Снимает ощущение запугивания.</td></tr>
+<tr><td class="k">Четверг</td><td>Пост, карусель, статья</td><td><span class="slot plus">плюс</span></td><td>Учит распознавать хорошее самостоятельно.</td></tr>
+<tr><td class="k">Пятница</td><td>Рил</td><td><span class="slot tip">совет</span></td><td>Практика, которую можно применить в выходные на просмотре.</td></tr>
+<tr><td class="k">Суббота</td><td>Пост, карусель, статья</td><td><span class="slot tip">совет</span></td><td>Полный разбор. Именно эти тексты потом переезжают на сайт.</td></tr>
+<tr><td class="k">Воскресенье</td><td>Разбор экрана</td><td>отдельно</td><td>Решается позже, в этом файле не расписан.</td></tr>
+</table></div>
+
+<h2 class="sec" id="chisla">Правило цифр: что можно называть, а что нельзя</h2>
+<p class="sec-intro">Вы верно поправили: рыночный диапазон работ это не выдуманная цифра. Но между «в среднем такая работа стоит столько» и «мы нашли дефект на такую сумму» проходит юридическая граница, и её стоит держать явно.</p>
+
+<div class="scroll"><table>
+<tr><th>Тип цифры</th><th>Можно?</th><th>Пример</th><th>Условие</th></tr>
+<tr><td class="k">Рыночный диапазон работ</td><td style="color:var(--green)"><b>Да</b></td><td>«Замена участка кровли с асбестом обычно обходится в 15 - 30.000 kr»</td><td>Указывать диапазон, а не точное число. Проверить по актуальному источнику перед публикацией.</td></tr>
+<tr><td class="k">Цифра из реального тестового анализа</td><td style="color:var(--green)"><b>Да</b></td><td>«В одном из наших тестовых разборов ejerudgift не покрывал 61.500 kr в год»</td><td>Анализ должен реально существовать. Пометка «Anonymiseret testanalyse, ikke en kundecase».</td></tr>
+<tr><td class="k">Публичная цена конкурента</td><td style="color:var(--green)"><b>Да</b></td><td>«Køberrådgiver стоит от 5.800 kr, наш разбор 299 kr»</td><td>Цена взята с сайта конкурента, актуальна на момент публикации.</td></tr>
+<tr><td class="k">Придуманная находка на конкретном объекте</td><td style="color:var(--red)"><b>Нет</b></td><td>«Мы нашли в этом доме протечку на 47.000 kr», если разбора не было</td><td>Это выдуманный факт. Нарушение markedsføringsloven §5-6.</td></tr>
+<tr><td class="k">Несуществующий клиент или отзыв</td><td style="color:var(--red)"><b>Нет</b></td><td>«Клиент сказал, что мы спасли ему 200.000 kr», если клиента нет</td><td>Публичный штраф от Forbrugerombudsmanden остаётся в выдаче по бренду навсегда.</td></tr>
+</table></div>
+
+<div class="callout warn">
+<b>Честно про диапазоны в этом файле.</b> Все суммы в статьях ниже я поставил как заготовки и пометил значком <span class="verify">проверить</span>. У меня нет проверенного источника по датским расценкам на ремонт, поэтому это порядок величины из общих соображений, а не подтверждённые данные. Перед публикацией каждую цифру нужно сверить по реальному источнику: Bolius, прайсы конкретных подрядчиков, ваши собственные тестовые разборы. Если источник не найдётся, лучше убрать сумму и оставить формулировку без числа, чем поставить непроверенную.
+</div>
+
+<h2 class="sec" id="priemy">Каталог приёмов убеждения</h2>
+<p class="sec-intro">Десять приёмов, помеченных кодами. У каждой темы ниже указано, какие из них работают именно в ней, чтобы вы могли проверять и переиспользовать систему сами.</p>
+
+<div class="scroll"><table>
+<tr><th>Код</th><th>Приём</th><th>Как работает</th><th>Граница</th></tr>
+<tr><td class="n"><span class="tech">П1</span></td><td class="k">Разрыв любопытства</td><td>Хук открывает вопрос, ответ приходит в конце. Мозг не любит незакрытые петли.</td><td>Ответ обязан быть. Хук без развязки это обман ожидания.</td></tr>
+<tr><td class="n"><span class="tech">П2</span></td><td class="k">Конкретность</td><td>«15 - 30.000 kr» работает сильнее, чем «дорого». Число делает угрозу реальной.</td><td>Только проверяемые числа, см. правило выше.</td></tr>
+<tr><td class="n"><span class="tech">П3</span></td><td class="k">Неприятие потери</td><td>Потерять 30.000 ощущается сильнее, чем сэкономить 30.000. Формулируем через потерю.</td><td>Потеря должна быть реальной, а не нагнетённой.</td></tr>
+<tr><td class="n"><span class="tech">П4</span></td><td class="k">Якорение ценой</td><td>299 kr рядом с ценой дома или с 5.800 kr конкурента выглядит как ничто.</td><td>Сравнение честное: указываем, что именно входит в каждую цену.</td></tr>
+<tr><td class="n"><span class="tech">П5</span></td><td class="k">Социальное доказательство</td><td>«Большинство покупателей это не проверяет» создаёт и тревогу, и чувство принадлежности к тем, кто проверяет.</td><td>Не выдумывать статистику. Формулировать как наблюдение, а не как замер.</td></tr>
+<tr><td class="n"><span class="tech">П6</span></td><td class="k">Доказательство независимости</td><td>Мы говорим и когда всё в порядке. Køberrådgiver с процентом от сделки этого позволить себе не может.</td><td>Обязаны реально публиковать положительные разборы, иначе это пустое заявление.</td></tr>
+<tr><td class="n"><span class="tech">П7</span></td><td class="k">Показать, а не заявить</td><td>Вместо «мы эксперты» показываем сам процесс чтения документа. Демонстрация убеждает сильнее титула.</td><td>Показывать реальный процесс, не инсценировку.</td></tr>
+<tr><td class="n"><span class="tech">П8</span></td><td class="k">Разрыв шаблона</td><td>Резкое визуальное событие в первом кадре останавливает палец на скролле.</td><td>Событие должно быть связано с темой, а не шок ради шока.</td></tr>
+<tr><td class="n"><span class="tech">П9</span></td><td class="k">Взаимность</td><td>Сначала отдаём реальную пользу бесплатно, просьба идёт после. Человек чувствует себя должным.</td><td>Польза должна быть настоящей и полной, а не обрезанной ради платного продолжения.</td></tr>
+<tr><td class="n"><span class="tech">П10</span></td><td class="k">Контраст</td><td>Красивое сверху, проблема под ним. Разрыв между фасадом и содержанием создаёт сюжет.</td><td>Не преувеличивать разрыв до неправдоподобия.</td></tr>
+</table></div>
+
+<h2 class="sec" id="standart">Стандарт промпта</h2>
+<p class="sec-intro">Все промпты ниже уже полные и самодостаточные, включая хвост со стилем. Копируете и вставляете в Flow, дописывать ничего не нужно. Ниже эталон хвоста для справки, если понадобится править стиль централизованно.</p>
+
+<h3 class="sub">Хвост для стартовой картинки</h3>
+<div class="en">Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
+
+<h3 class="sub">Хвост для видео</h3>
+<div class="en">Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+
+<div class="callout">
+<b>Четыре правила приёмки сегмента.</b> Проверять до того, как брать последний кадр в следующий сегмент, потому что плохой сегмент отравляет всю цепочку после себя.<br><br>
+<b>1.</b> Ровно одно движение камеры в каждый момент. Видно, что камера едет и одновременно поворачивает, значит брак.<br>
+<b>2.</b> В кадре реально изменилось состояние, а не просто ездила камера по неподвижной сцене.<br>
+<b>3.</b> Движение началось на первом кадре, без спокойного вступления.<br>
+<b>4.</b> Нет выдуманного текста, цифр, лиц, номеров домов, недатских вывесок.
+</div>
+
+<h2 class="sec">Акт 1: ты смотришь не туда</h2>
+<p class="sec-intro">Три недели про физическое, то, что покупатель видит на просмотре собственными глазами и всё равно пропускает. Задача акта: убедить, что осмотр без метода не работает. Продукт весь акт один, 299 kr.</p>
+
+<div class="week" id="w1">
+<div class="week-band"><span class="week-n">Неделя 1</span><span class="week-t">Влага: то, что прячут, и то, что дышит</span><span class="week-d">31 авг - 6 сен</span></div>
+
+<div class="topic">
+<div class="t-band"><span class="slot min">Пн · рил</span><span class="t-title">Свежая краска и то, что под ней</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> зритель видит идеально покрашенную стену, которая на глазах вздувается пузырями и проваливается внутрь, обнажая мокрую кладку с чёрными разводами. Ощущение: то, что выглядело свежим ремонтом, оказалось косметикой поверх многолетней проблемы. Первый кадр обязан читаться как жилая комната, а не как абстрактная стена.</div>
+<p><span class="tech">П8 разрыв шаблона</span><span class="tech">П10 контраст</span><span class="tech">П2 конкретность</span><span class="tech">П3 неприятие потери</span></p>
+
+<h4 class="blk">Стартовая картинка</h4>
+<div class="en">A lived-in Danish living room interior. One wall has just been freshly painted, a flat even surface with faint roller marks still visible, noticeably newer than everything around it. The rest of the room is ordinary and inhabited: worn floorboards, a low side table, a radiator under the window. Warm afternoon light enters from frame right. Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
+
+<h4 class="blk">Сегмент 1 <span class="mv">slow zoom in</span></h4>
+<div class="en">0.0-0.7s: On the very first frame a large paint blister swells up violently on the fresh wall and bursts open, flakes snapping outward. 0.7-4.5s: Camera pushes in slowly and steadily. More blisters rise and burst across the painted surface one after another, paint peeling away in curling petals, revealing a spreading dark damp patch underneath. 4.5-8.0s: The push-in settles close to the wall. Final frame: peeled paint hanging in curls around a dark wet stain on the plaster. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: краска вздувается и лопается, под ней проступает мокрое пятно. Камера едет вперёд ровно, без рывков.</p>
+
+<h4 class="blk">Сегмент 2 <span class="mv">handheld</span></h4>
+<div class="en">0.0-0.6s: On the very first frame the plaster at the centre of the damp patch collapses inward with a burst of dust, opening a ragged hole in the wall. 0.6-5.0s: The camera is handheld, moving in unsteadily with a slight natural tremor, approaching the opening. Inside, wet brickwork is visible and black mould spreads across it in real time, creeping outward while we watch. 5.0-8.0s: The handheld tremor settles as the camera holds close on the darkest area of mould. Final frame: open hole in the wall, wet brick and black mould filling the frame. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: штукатурка проваливается, камера в руках с лёгкой дрожью подходит к пролому, внутри растёт плесень. Дрожь тут намеренная, она даёт тревогу.</p>
+
+<h4 class="blk">Сегмент 3 <span class="mv">truck left</span></h4>
+<div class="en">0.0-0.8s: On the very first frame the camera breaks sharply into a lateral move to the left along the wall. 0.8-5.0s: The lateral movement continues at a steady pace. As it travels, paint peels away in a spreading wave along the entire length of the wall, revealing that the damp patch was not a single spot but a continuous band. The light shifts hard from warm afternoon tone to cold blue during the move. 5.0-8.0s: The lateral move stops. Final frame: the whole wall stripped and streaked with dark damp under cold blue light. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: камера едет вбок, по всей стене волной сходит краска, свет становится холодным. Мысль кадра: пятно было не одно.</p>
+
+<h4 class="blk">Текст на экран</h4>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.7 - 4.5s</td><td class="k">Стену покрасили за неделю до показа</td><td>Совпадает с картинкой дословно, зритель верит глазам</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Под ней сохло не первый год</td><td>Разворот на моменте, когда видно кладку</td></tr>
+<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Краска стоит 2.000. Стена намного больше</td><td>Цифра без точной суммы, приём П2 в мягкой форме</td></tr>
+</table></div>
+</div>
+
+<div class="topic">
+<div class="t-band"><span class="slot min">Вт · пост</span><span class="t-title">Почему свежая краска перед продажей это нормально, и когда это сигнал</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> текст, который человек дочитает и сохранит. Не обвинение продавцов, а объяснение, как отличить обычную предпродажную подготовку от маскировки. Тон живой, от лица того, кто это видел много раз.</div>
+<p><span class="tech">П9 взаимность</span><span class="tech">П2 конкретность</span><span class="tech">П7 показать</span><span class="tech">П5 социальное доказательство</span></p>
+
+<h4 class="blk">Статья</h4>
+<div class="art">
+<p><b>Определение.</b> Предпродажная покраска стен это стандартная и законная подготовка жилья к показу в Дании. Проблема возникает тогда, когда свежий слой ложится не на подготовленную поверхность, а поверх активной влаги: краска скрывает следы, но не устраняет причину, и через несколько месяцев пятно возвращается уже к новому владельцу.</p>
+<h5>Почему вообще все красят перед продажей</h5>
+<p>Потому что это работает и стоит копейки. Свежая стена меняет впечатление от комнаты сильнее, чем любая мебель, а обходится в пару тысяч крон <span class="verify">проверить</span>. Само по себе это ничего не говорит о доме. Странно было бы, если бы не красили.</p>
+<h5>Как отличить косметику от маскировки</h5>
+<p>Смотреть надо не на саму краску, а на то, где именно она свежая. Покрашена вся комната целиком, значит готовили к показу. Покрашена одна стена, или её нижняя часть, или один угол, а остальное осталось прежним, вот тогда стоит спросить, что там было раньше. Влага почти всегда локальна, и локальный ремонт повторяет её форму.</p>
+<h5>Что искать глазами и рукой</h5>
+<p>Вздутия и мелкие пузыри под свежим слоем, особенно у пола и у оконных откосов. Разница температуры, если приложить ладонь: влажный участок ощутимо холоднее сухого. Запах, который не уходит после проветривания. И расхождение: в отчёте стоит отметка о влаге, а в объявлении об этом ни слова.</p>
+<h5>Сколько это стоит потом</h5>
+<p>Перекрасить стену заново стоит порядка нескольких тысяч крон <span class="verify">проверить</span>. Найти и устранить источник влаги, а это может быть и дренаж, и кровля, и повреждённая гидроизоляция, обходится в десятки тысяч <span class="verify">проверить</span>. Разница между этими двумя суммами и есть цена вопроса, который не задали на просмотре.</p>
+<dl class="faq">
+<dt>Продавец обязан рассказать о влаге, если знает о ней?</dt>
+<dd>В sælgeroplysninger есть вопросы о влаге и повреждениях, и отвечать на них продавец обязан честно. Но формулировки допускают трактовки, поэтому сверять ответы с отчётом всё равно нужно.</dd>
+<dt>Можно ли проверить влагу самому на просмотре?</dt>
+<dd>Да, бытовым влагомером, он стоит недорого. Мерить имеет смысл наружные стены, углы и участки под окнами, там влага проявляется первой.</dd>
+<dt>Свежая краска везде, во всей квартире. Это тоже подозрительно?</dt>
+<dd>Обычно наоборот: сплошная покраска это подготовка к продаже. Настораживает именно точечная свежесть на фоне старого.</dd>
+</dl>
+<p><b>Итог.</b> Мы читаем отметки о влаге в отчёте и сверяем их с тем, что написано в объявлении. Если расхождение есть, вы узнаете о нём до бида, а не после переезда. BoligCheck, 299 kr, ответ за 24-48 часов.</p>
+</div>
+
+<h4 class="blk">Карусель к посту</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: свежая краска это нормально. Одна свежая стена уже нет</td></tr>
+<tr><td class="n">2</td><td>Почему красят все: пара тысяч крон меняет впечатление сильнее мебели</td></tr>
+<tr><td class="n">3</td><td>Красный флаг это не краска, а её география: одна стена, низ стены, один угол</td></tr>
+<tr><td class="n">4</td><td>Что проверить на месте: пузыри у пола, холодная на ощупь стена, запах после проветривания</td></tr>
+<tr><td class="n">5</td><td>Разница в цене: перекрасить это тысячи, устранить причину это десятки тысяч</td></tr>
+<tr><td class="n">6</td><td>Финал: мы сверяем отметки о влаге с текстом объявления. BoligCheck 299 kr</td></tr>
+</table></div>
+</div>
+
+<div class="topic">
+<div class="t-band"><span class="slot plus">Ср · рил</span><span class="t-title">Дом, который умеет дышать</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> ванная заполняется густым паром, всё исчезает в белом, а затем пар мощно уходит в вентиляционную решётку, и открывается сухая чистая поверхность без единого чёрного угла. Ощущение облегчения после понедельничной тревоги. Пара в кадре должно быть много, иначе не будет драмы.</div>
+<p><span class="tech">П6 независимость</span><span class="tech">П7 показать</span><span class="tech">П10 контраст</span></p>
+
+<h4 class="blk">Стартовая картинка</h4>
+<div class="en">A Danish bathroom interior, tiled walls, a mirror above a sink, a frosted glass window to one side, a ventilation grille visible high on the wall near the ceiling. Clean and ordinary, not luxurious. Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
+
+<h4 class="blk">Сегмент 1 <span class="mv">slow zoom in</span></h4>
+<div class="en">0.0-0.6s: On the very first frame the room fills instantly and violently with thick white steam, swallowing the mirror and tiles. 0.6-4.5s: Camera pushes in slowly through the dense steam. Shapes are barely readable, the mirror is completely fogged, water beads run down the tiles. 4.5-8.0s: The push-in settles close to the fogged mirror. Final frame: an opaque fogged mirror filling most of the frame, steam still swirling. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: комнату мгновенно заливает паром, камера едет вперёд сквозь него к запотевшему зеркалу.</p>
+
+<h4 class="blk">Сегмент 2 <span class="mv">tilt up</span></h4>
+<div class="en">0.0-0.6s: On the very first frame the steam surges into motion, pulled upward in visible streams. 0.6-5.0s: The camera tilts upward, following the moving steam. All of it is being drawn rapidly into the ventilation grille near the ceiling, the airflow clearly visible as the room clears from the bottom up. 5.0-8.0s: The tilt stops on the grille as the last wisps of steam vanish into it. Final frame: the grille in sharp focus, air clear around it. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: пар приходит в движение и втягивается в решётку, камера задирается вверх следом. Тяга должна быть видна глазом.</p>
+
+<h4 class="blk">Сегмент 3 <span class="mv">tilt-shift</span></h4>
+<div class="en">0.0-0.7s: On the very first frame the air snaps completely clear and the light turns warm. 0.7-5.5s: The camera holds position with a very shallow plane of focus, and the focus glides slowly from one area to another: the seam where bath meets wall, the corner at floor level, the window reveal. Every surface is dry, clean, with no dark staining anywhere. 5.5-8.0s: Focus settles on a dry clean corner in warm light. Final frame: a dry corner, sharp, warmly lit, nothing dark anywhere in frame. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: воздух чистый, фокус мягко переходит по швам и углам, везде сухо. Камера стоит, работает только фокус.</p>
+
+<h4 class="blk">Текст на экран</h4>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.6 - 4.5s</td><td class="k">После душа</td><td>Максимально короткая строка, картинка говорит сама</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">Три минуты</td><td>Конкретика времени, зритель может повторить тест</td></tr>
+<tr><td class="n">3</td><td class="n">5.5 - 8.0s</td><td class="k">И ни одного чёрного угла</td><td>Вывод на сухом кадре, разрешение напряжения</td></tr>
+</table></div>
+</div>
+
+<div class="topic">
+<div class="t-band"><span class="slot plus">Чт · пост</span><span class="t-title">Тест на вентиляцию, который занимает три минуты</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> практическая статья, после которой человек реально проверит вентиляцию на следующем просмотре. Здесь мы отдаём метод бесплатно и полностью, без обрезки под платное продолжение.</div>
+<p><span class="tech">П9 взаимность</span><span class="tech">П7 показать</span><span class="tech">П6 независимость</span></p>
+
+<h4 class="blk">Статья</h4>
+<div class="art">
+<p><b>Определение.</b> Вентиляция в датском жилье это система удаления влажного воздуха из ванной, кухни и жилых комнат, и именно от её работы зависит, появится ли в квартире плесень. Проверить её можно за три минуты обычным листом бумаги, без приборов и без разрешения продавца.</p>
+<h5>Почему влага это самая дорогая проблема датского жилья</h5>
+<p>Дания это влажный климат и плотно утеплённые дома. Хорошая изоляция удерживает тепло, но вместе с ним удерживает и влагу, если её нечем выводить. Отсюда почти все дорогие проблемы: плесень, гниль в конструкциях, испорченная отделка. И почти всегда корень один, воздух не уходит.</p>
+<h5>Тест с листом бумаги</h5>
+<p>Приложите обычный лист А4 к вентиляционной решётке. Если тяга есть, лист держится сам и не падает. Если падает, вытяжка не работает или забита. Это грубый тест, но он ловит самый частый случай, когда решётка есть, а тяги за ней нет уже несколько лет.</p>
+<h5>Где смотреть следы, если тест не сделать</h5>
+<p>Плесень всегда появляется в одних и тех же местах: стык ванны со стеной, углы у пола на наружных стенах, откосы окон, пространство за мебелью у холодной стены. Если в этих местах чисто в квартире со старой вентиляцией, значит либо систему обслуживали, либо жильцы хорошо проветривали. Оба варианта хорошие.</p>
+<h5>Что об этом говорит отчёт</h5>
+<p>В tilstandsrapport отметки о влажности и отметки о вентиляции стоят в разных разделах, и читать их по отдельности бессмысленно. Влага без объяснения причины это просто симптом. Влага плюс отметка о неработающей вентиляции это уже понятная цепочка, которую можно оценить в деньгах.</p>
+<dl class="faq">
+<dt>А если вентиляция принудительная, с вентилятором?</dt>
+<dd>Тот же тест работает, только включите вентилятор. Плюс стоит спросить, когда систему последний раз обслуживали, у механических систем есть регламент.</dd>
+<dt>Плесень в углу это всегда вентиляция?</dt>
+<dd>Не всегда. Причиной может быть и мостик холода в конструкции, и протечка снаружи. Но вентиляция это первое, что проверяют, потому что это самая частая и самая дешёвая в устранении причина.</dd>
+<dt>Насколько дорого починить вентиляцию?</dt>
+<dd>Прочистка каналов относительно недорога, установка принудительной системы существенно дороже <span class="verify">проверить</span>. Порядок сильно зависит от типа дома, поэтому точную цифру даёт только смета.</dd>
+</dl>
+<p><b>Итог.</b> Этот тест мы отдаём бесплатно, потому что он реально работает и не требует нас. Мы нужны там, где надо связать отметки о влаге, вентиляции и состоянии конструкций в одну картину и перевести её в деньги. BoligCheck, 299 kr.</p>
+</div>
+
+<h4 class="blk">Карусель к посту</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: тест на вентиляцию за три минуты, без приборов</td></tr>
+<tr><td class="n">2</td><td>Почему влага это самая дорогая проблема в датском жилье</td></tr>
+<tr><td class="n">3</td><td>Лист А4 у решётки: держится значит тяга есть, падает значит нет</td></tr>
+<tr><td class="n">4</td><td>Где искать следы: стык ванны, углы у пола, откосы окон, за мебелью</td></tr>
+<tr><td class="n">5</td><td>В отчёте влажность и вентиляция стоят в разных разделах. Читать надо вместе</td></tr>
+<tr><td class="n">6</td><td>Финал: тест бесплатный. Связать всё в картину и в деньги, BoligCheck 299 kr</td></tr>
+</table></div>
+</div>
+
+<div class="topic">
+<div class="t-band"><span class="slot tip">Пт · рил</span><span class="t-title">Что взять с собой на просмотр</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> четыре предмета с грохотом падают на стол в пустой комнате, каждый выбивает пыль и ловит жёсткий блик. Финал сверху: весь набор ровно освещён. Ощущение снаряжения перед делом. Комната должна читаться как жильё в первом кадре.</div>
+<p><span class="tech">П9 взаимность</span><span class="tech">П7 показать</span><span class="tech">П8 разрыв шаблона</span></p>
+
+<h4 class="blk">Стартовая картинка</h4>
+<div class="en">An empty Danish room with bare floorboards, afternoon light entering from a window on the left, a plain low table standing in the middle of the room, its surface completely empty. The room reads immediately as residential and unfurnished. Photorealistic, editorial still, shot on 50mm, shallow depth of field, 9:16 vertical. Hard directional key light from one side, deep near-black shadows, strong specular highlights. Palette: near-black navy #0F1E30 background, warm cream #E8DED1, one saturated rust-red #C4533F accent. High contrast, not flat, not evenly lit. No text anywhere in frame, no captions, no letters, no numbers, no logos, no watermark, no readable documents, no visible faces, no house numbers, no street signs.</div>
+
+<h4 class="blk">Сегмент 1 <span class="mv">dolly in</span></h4>
+<div class="en">0.0-0.8s: On the very first frame a metal flashlight slams down hard onto the empty table from above, the impact throwing up a burst of dust and a sharp flash of reflected light across the room. 0.8-4.0s: Camera dollies forward toward the table at a steady pace. The flashlight switches itself on, its beam cutting sideways low across the floorboards and picking out the grain and scuffs of the wood. 4.0-8.0s: The dolly stops close to the flashlight, its beam steady. Final frame: the flashlight lit and sharp on the table, its beam raking the floor. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: фонарь падает на стол с ударом и вспышкой, камера подъезжает, фонарь сам включается и светит вбок по полу.</p>
+
+<h4 class="blk">Сегмент 2 <span class="mv">truck right</span></h4>
+<div class="en">0.0-0.6s: On the very first frame the camera breaks sharply into a lateral move to the right along the table. 0.6-5.0s: The lateral move continues at a steady speed. As it travels, three more objects slam down onto the table in sequence, one after another: a folding rule, a small moisture meter, a plain notebook. Each impact throws up its own puff of dust and catches a hard specular flash. 5.0-8.0s: The lateral move decelerates and stops on the last object. Final frame: four objects on the table, dust still settling around them. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: камера едет вправо, по ходу с ударами падают ещё три предмета: метр, влагомер, блокнот.</p>
+
+<h4 class="blk">Сегмент 3 <span class="mv">pedestal up</span></h4>
+<div class="en">0.0-1.0s: On the very first frame the camera begins a fast vertical rise straight up above the table. 1.0-5.0s: The rise continues. From above, all four objects are visible laid out in a row. The light shifts hard from cold to warm during the ascent, shadows shortening and softening beneath each object. 5.0-8.0s: The rise stops directly overhead, the set evenly and warmly lit. Final frame: four objects seen from directly above, fully and evenly lit. Only one camera movement is active at any given moment. Movements may follow one another between the timed beats above, but they must never overlap or blend: do not push while panning, do not orbit while zooming, do not tilt while tracking. Each beat commits to a single movement, or holds the camera still. Do not default to a fully static locked-off shot for the whole duration either. Motion begins decisively or violently on the very first frame, never a calm intro. The scene itself must change state during the shot, through light, weather, material or structure, not only the camera position. AUDIO: ambient only, no music, no dialogue, no voiceover. No text appears at any point, no captions, no subtitles, no logos, no watermark, no visible faces.</div>
+<p class="ru-note">Русским: камера поднимается вертикально, сверху виден весь набор, свет теплеет. Финал спокойный, в отличие от понедельника.</p>
+
+<h4 class="blk">Текст на экран</h4>
+<div class="scroll"><table>
+<tr><th>Сегмент</th><th>Тайминг</th><th>Текст</th><th>Зачем здесь</th></tr>
+<tr><td class="n">1</td><td class="n">0.8 - 4.0s</td><td class="k">Возьми фонарь</td><td>Прямая инструкция на предмете, который в кадре</td></tr>
+<tr><td class="n">2</td><td class="n">0.6 - 5.0s</td><td class="k">И ещё три вещи</td><td>Открывает петлю: какие именно, смотри дальше</td></tr>
+<tr><td class="n">3</td><td class="n">5.0 - 8.0s</td><td class="k">Так ты увидишь больше, чем покажут</td><td>Обещание результата на спокойном финале</td></tr>
+</table></div>
+</div>
+
+<div class="topic">
+<div class="t-band"><span class="slot tip">Сб · пост</span><span class="t-title">Четыре вещи, которые меняют просмотр</span><span class="t-meta">299 kr</span></div>
+<div class="goal"><b>Что должно получиться:</b> самая сохраняемая статья первой недели. Человек должен открыть её перед следующим просмотром. Этот текст первый кандидат на перенос в раздел Viden на сайте.</div>
+<p><span class="tech">П9 взаимность</span><span class="tech">П2 конкретность</span><span class="tech">П5 социальное доказательство</span></p>
+
+<h4 class="blk">Статья</h4>
+<div class="art">
+<p><b>Определение.</b> Четыре предмета, взятые на просмотр жилья в Дании, а именно фонарь, складной метр, влагомер и блокнот, позволяют покупателю самостоятельно заметить то, чего не видно на фотографиях в объявлении: влагу, расхождение площади и устные обещания, которые потом невозможно доказать.</p>
+<h5>Почему одного взгляда недостаточно</h5>
+<p>Показ длится двадцать, максимум тридцать минут. Свет включён везде, шторы открыты, мебель расставлена так, чтобы комнаты казались просторнее, а неудобные углы были закрыты. Это не обман, это нормальная подготовка. Но означает она ровно одно: за это время глазами можно заметить только очевидное.</p>
+<h5>Что даёт каждый предмет</h5>
+<p>Фонарь нужен, чтобы посветить туда, где нет верхнего света: в углы, под лестницу, в люк на чердак, за котёл. Именно там остаются следы подтёков и точечного ремонта. Складной метр нужен, чтобы сверить реальную площадь комнаты с заявленной, расхождение это повод открыть BBR. Влагомер стоит недорого и показывает влагу в стене, которую не видно глазом, мерить имеет смысл наружные стены, углы и участки под окнами. Блокнот нужен, чтобы записать ответы продавца прямо на месте, дословно.</p>
+<h5>Зачем записывать ответы</h5>
+<p>Потому что устный ответ, который нигде не зафиксирован, через месяц не существует. Никто не врёт специально, просто люди забывают, что именно говорили, а покупатель запоминает то, что хотел услышать. Записанная фраза с датой это то, с чем можно вернуться к разговору позже.</p>
+<h5>Что делать с находкой</h5>
+<p>Найденное расхождение это не повод отказываться от объекта. Это повод задать письменный вопрос до подачи бида. Разница между вопросом до и вопросом после огромная: до бида вы можете уйти бесплатно, после отказ стоит один процент от цены сделки.</p>
+<dl class="faq">
+<dt>Не будет ли странно ходить по чужой квартире с фонарём и метром?</dt>
+<dd>Нет, это обычная практика при покупке жилья. Мэглер и продавец ожидают, что покупатель проверяет объект, а не только любуется им.</dd>
+<dt>А если продавец против измерений?</dt>
+<dd>Запретить он не может, но настороженная реакция сама по себе полезная информация: значит, стоит запросить документы отдельно и читать их внимательнее.</dd>
+<dt>Обязательно покупать влагомер ради одного просмотра?</dt>
+<dd>Если смотрите несколько объектов, он окупается сразу. Если объект один, можно обойтись фонарём и рукой: влажный участок стены ощутимо холоднее сухого.</dd>
+</dl>
+<p><b>Итог.</b> Сохраните этот список перед следующим просмотром, он работает и без нас. А документы, которые остаются после просмотра, мы разбираем за 299 kr и отвечаем в течение 24-48 часов.</p>
+</div>
+
+<h4 class="blk">Карусель к посту</h4>
+<div class="scroll"><table>
+<tr><th>#</th><th>Карточка</th></tr>
+<tr><td class="n">1</td><td class="k">Обложка: четыре вещи, которые меняют просмотр</td></tr>
+<tr><td class="n">2</td><td>Фонарь: углы, под лестницу, чердачный люк, за котёл. Ищем подтёки и точечный ремонт</td></tr>
+<tr><td class="n">3</td><td>Складной метр: сверить реальную площадь с заявленной. Расхождение значит открыть BBR</td></tr>
+<tr><td class="n">4</td><td>Влагомер: наружные стены, углы, под окнами. Показывает то, чего не видно глазом</td></tr>
+<tr><td class="n">5</td><td>Блокнот: записать ответы дословно. Устный ответ через месяц не существует</td></tr>
+<tr><td class="n">6</td><td>Финал: список работает и без нас. Документы разбираем за 299 kr</td></tr>
+</table></div>
+</div>
+</div>
+
+<footer>NordIndsigt · Контент-сезон · часть 1 из 4 · правила и недели 1 - 3 · черновик на русском, промпты на английском</footer>
+
+</div>
+</body>
+</html>
