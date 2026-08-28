@@ -29,6 +29,8 @@ YAML-шапке (там прямо написано "use when user mentions X, Y
 | `copywriting` | coreyhaines31/marketingskills | ✅ закоммичено локально |
 | `copy-editing` | coreyhaines31/marketingskills | ✅ закоммичено локально |
 | `competitor-profiling` | coreyhaines31/marketingskills | ✅ закоммичено локально |
+| `taste-skill` (`design-taste-frontend`) | Leonxlnx/taste-skill | ✅ закоммичено локально (28.08.2026, по прямому запросу — до этого числился в "рассмотрено, но не надо", см. 1.3a) |
+| `impeccable` | pbakaus/impeccable | ✅ установлено официальным инсталлятором `npx impeccable install` (28.08.2026) — ставит хуки `PostToolUse`/`Stop` в `.claude/settings.local.json`, которые гоняют детектор антипаттернов после Edit/Write и на Stop |
 
 **⚠️ "Закоммичено локально" ≠ "надёжно навсегда".** `git push` и GitHub API push
 оба дают 403 в этой сессии (у GitHub-интеграции нет прав записи в репо). Пока
@@ -45,6 +47,29 @@ YAML-шапке (там прямо написано "use when user mentions X, Y
 `using-superpowers`, `verification-before-completion`, `writing-plans`,
 `writing-skills`, `xlsx`, `humanizer` (последний уже был закоммичен в репо
 раньше, до этой сессии).
+
+### 1.3a Пересмотрено 28.08.2026 (по прямому запросу пользователя — раньше отклонял, потом переставил)
+
+При первом проходе по списку из 9 репо (public-apis, awesome-mcp-servers, open-design,
+awesome-llm-apps, awesome, Scrapling, free-for-dev, taste-skill, impeccable) я сам не
+поставил ни `taste-skill`, ни `impeccable`, ни `Scrapling` — аргумент был "в репо нет
+фронтенд-кодовой базы, применять не к чему". Пользователь явно попросил поставить все
+три — сделано:
+- `taste-skill` — скопирован `skills/taste-skill/SKILL.md` (v2, `design-taste-frontend`)
+  тем же способом, что и marketingskills (`.agents/skills/` + симлинк). Остальные 11
+  вариантов из репо (v1, gpt-tasteskill, brutalist/minimalist/soft, imagegen-* и т.д.)
+  **не** ставил — не просили, можно доставить точечно при необходимости.
+- `impeccable` — поставлен официальным `npx impeccable install` (не вручную копированием
+  файла, у него компилированный `dist/` + хуки). Установился в `.claude/skills/impeccable`
+  и `.agents/skills/impeccable`, плюс хуки в `.claude/settings.local.json`
+  (`PostToolUse: Edit|Write` и `Stop` гоняют `scripts/hook.mjs` — антипаттерн-детектор
+  на UI-файлах). Инсталлятор заодно попытался поставить хуки под Codex CLI
+  (`.codex/hooks.json`), которым тут не пользуемся — эту директорию удалил.
+- `Scrapling` — не skill, а Python-библиотека для скрапинга + свой MCP-сервер
+  (`scrapling-mcp`). Добавлена как MCP-коннектор в `.mcp.json` (см. раздел 2) плюс
+  `requirements.txt` в корне репо для документации. Из-за эфемерности контейнера
+  библиотека переустанавливается на каждый старт сессии тем же паттерном, что и
+  Playwright MCP (`pip install` внутри команды запуска, не заранее).
 
 ### 1.3 Рассмотрено, но НЕ установлено — отложено до появления сайта
 
@@ -85,6 +110,7 @@ YAML-шапке (там прямо написано "use when user mentions X, Y
 | Коннектор | Статус | Комментарий |
 |---|---|---|
 | **Playwright MCP** (Microsoft, `@playwright/mcp`) | ✅ Настроен через `.mcp.json` в корне репо (project scope) | Реальный браузер: navigate/screenshot/click/snapshot. Единственный надёжный способ реально "посмотреть" страницы (в отличие от WebFetch, который не видит JS-рендер типа Pinterest) |
+| **Scrapling MCP** (D4Vinci/Scrapling, `scrapling-mcp`) | ✅ Настроен через `.mcp.json` (28.08.2026) | HTTP/browser/stealth-fetch тулы для скрапинга (обход Cloudflare и т.п.). На момент установки активной задачи парсинга нет — поставлено про запас по прямому запросу пользователя |
 | Chrome DevTools MCP (Google) | Обсуждали, не ставили | Альтернатива Playwright MCP, решили не дублировать — Playwright уже закрывает эту потребность |
 | Canva | Уже подключен на уровне сессии/аккаунта (не наша установка) | Brand kit уже настроен (задача #1 в начале работы) |
 | Figma | Уже подключен | Не использовали активно в этой кампании |

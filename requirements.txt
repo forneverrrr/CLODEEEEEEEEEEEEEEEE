@@ -1,0 +1,5 @@
+# Python deps for MCP servers configured in .mcp.json.
+# The "scrapling" MCP server entry pip-installs this itself on each session
+# start (same self-fetch pattern as the "playwright" entry uses npx -y), so
+# this file is documentation, not a required manual step.
+scrapling[ai]
