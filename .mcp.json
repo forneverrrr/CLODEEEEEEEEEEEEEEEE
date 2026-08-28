@@ -9,6 +9,13 @@
       "env": {
         "NODE_EXTRA_CA_CERTS": "/root/.ccr/ca-bundle.crt"
       }
+    },
+    "scrapling": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "pip install -q --user \"scrapling[ai]\" >&2; exec \"$HOME/.local/bin/scrapling-mcp\""
+      ]
     }
   }
 }
