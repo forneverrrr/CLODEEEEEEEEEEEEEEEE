@@ -87,6 +87,41 @@ awesome-llm-apps, awesome, Scrapling, free-for-dev, taste-skill, impeccable) я 
 | `Imbad0202/academic-research-skills` | Скиллы для полного цикла академической статьи (research → write → review → finalize) | ❌ не ставлю | Не наш домен (научные публикации), плюс лицензия CC-BY-NC 4.0 — некоммерческая, а работа в этом репо коммерческая. |
 | `coreyhaines31/marketingskills` (переслали повторно) | Тот же репозиторий, что и в первом раунде | — без изменений | Уже разобран в разделе 1.1/1.3/1.4. Новых конкретных скиллов из оставшихся 31 не запрошено — если нужен конкретный (`offers`, `pricing`, `launch` и т.п.), скажи какой, не буду ставить все 31 не глядя. |
 
+### 1.3c Третий раунд, 28.08.2026 — доустановка того, что называл "может пригодиться"
+
+По прямой просьбе доставил всё, что реально можно поставить тем же способом
+(SKILL.md → `.agents/skills/` + симлинк):
+
+- **Остальные 11 вариантов из `Leonxlnx/taste-skill`**: `taste-skill-v1`,
+  `gpt-tasteskill`, `image-to-code-skill`, `redesign-skill`, `soft-skill`,
+  `output-skill`, `minimalist-skill`, `brutalist-skill`, `stitch-skill`,
+  `imagegen-frontend-web`, `imagegen-frontend-mobile`, `brandkit`.
+- **Все 6 скиллов из `DietrichGebert/ponytail`**: `ponytail`,
+  `ponytail-review`, `ponytail-audit`, `ponytail-help`, `ponytail-debt`,
+  `ponytail-gain`.
+
+**НЕ доставлял так же (не потому что не хотел, а физически не тот формат):**
+
+- **`nexu-io/open-design`** — это не набор SKILL.md, а полноценное desktop-приложение
+  с фоновым демоном (`od` CLI, `od mcp install claude`). У него внутри 162 скилла,
+  но большинство завязаны на платные провайдер-API (fal.ai, Venice, BFL и т.д.),
+  которых у нас нет, и сам демон должен постоянно работать на машине — в
+  эфемерном облачном контейнере это не переживёт сессию, а локально требует
+  отдельной установки приложения, не файла в git. Копировать 162 в основном
+  нерабочих без ключей скилла в репозиторий — мусор, а не установка.
+- **`calesthio/OpenMontage`** — то же самое: полноценный видео-пайплайн с 49
+  скиллами, требует Python venv, FFmpeg, Node, `make install-gpu`, Remotion,
+  Piper TTS — нативные зависимости, не скилл-файлы. Плюс дублирует уже рабочий
+  Flow-пайплайн.
+- Если когда-нибудь понадобится именно демон `open-design` или пайплайн
+  OpenMontage целиком — это отдельная задача "поставить приложение на свою
+  машину", не "положить скилл в репозиторий". Скажи — распишу шаги отдельно.
+
+**Справочные списки** (free-for-dev, awesome-mcp-servers, public-apis,
+claude-plugins-official, sindresorhus/awesome) — ставить нечего, это просто
+ссылки. Вместо установки собрал их в `REFERENCE-LINKS.md` в корне репо, чтобы
+не искать заново.
+
 ### 1.3 Рассмотрено, но НЕ установлено — отложено до появления сайта
 
 Из `coreyhaines31/marketingskills` (45 скиллов всего в репо):
