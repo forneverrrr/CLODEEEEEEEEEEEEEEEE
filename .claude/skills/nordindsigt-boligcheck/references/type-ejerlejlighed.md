@@ -1,6 +1,6 @@
 # TYPE MODULE — EJERLEJLIGHED (owner-occupied apartment)
 
-> Loaded when the property is an owned apartment in an `ejerforening`. Read with `core-kernel.md`.
+> Loaded when the property is an owned apartment in an `ejerforening`. Read with `rules.md`.
 
 ## Detection signals
 
@@ -35,12 +35,44 @@ Compare `kr/m²` to recent sold + active comps of similar size/floor/area. Note 
 
 Purchase price + ownership-transfer registration (+ mortgage registration if assumed) + `ejerudgift` (incl. `fællesudgift`, taxes) + any extraordinary assessment + insurance + renovation reserve. Show monthly (gross/net) and total cash needed using the salgsopstilling figures.
 
-## Scoring notes
+## Scorecard weights (`MONEY-7`)
 
-Condition may be **N/A** (no tilstandsrapport) — normal, not penalised as a red flag, but Renovation-risk and Condition weights fold into a clearly-flagged "association & building condition" assessment driven by the financials and energimærke. Documents score reflects whether association financials were provided.
+The apartment's binding question is the association, not the private unit's
+condition — so Condition and Renovation-risk give most of their weight to an
+"Association & building" category:
 
----
-## ADDENDUM v2 — ejerforening economy (mandatory block, test-driven 2026)
+| Category | Weight |
+|---|---:|
+| Price | 25% |
+| Association & building economy | 25% |
+| Neighbourhood | 20% |
+| Liquidity | 15% |
+| Documents | 10% |
+| Condition / renovation of the unit | 5% |
+
+A missing tilstandsrapport is **normal** here and never scored as a red flag — but
+missing association financials drives both the Association and Documents scores
+down and turns the section into a GATE. If Condition is genuinely unassessable,
+mark it N/A with the reason and redistribute its 5% (`MONEY-7`).
+
+## Living in it, letting it out (`LEGAL-2`, expat-critical)
+
+An expat buyer who may relocate needs these answered **before** bidding, and no
+one volunteers them at a viewing:
+
+- **Bopælspligt.** Some kommuner require a year-round dwelling to be actually
+  lived in, and treat a flat left empty as a breach — with the kommune able to
+  demand it be occupied or let. Check the kommune's rules for the address; it
+  decides whether "keep it and come back in two years" is even legal.
+- **Letting the flat out.** Read the `vedtægter` and `husorden` for whether
+  `udlejning` and `fremleje` are allowed at all, for how long, and with whose
+  consent. Short-term letting is separately restricted in many associations and
+  by the kommune.
+- **What that means for the exit.** If the flat can neither stand empty nor be
+  let, the buyer's only exit is a sale — which makes the liquidity analysis
+  (`investment-and-liquidity.md`) the decisive section rather than a footnote.
+
+## Ejerforening economy — the mandatory block
 
 The biggest hidden cost of an ejerlejlighed is the part you cannot see: the
 **ejerforening**. ALWAYS include an "Ejerforening economy" block and request:
@@ -61,9 +93,28 @@ asbestos in common risers/glue is the forening's remediation, but flag it as a
 possible future levy.
 
 ---
-## ADDENDUM v3 (2026-07 audit — first real ejerlejlighed run)
+## Is it actually an ejerlejlighed? — the ideel anpart trap (`TYPE-1`)
 
-### Permanent report absence (extends Mode B)
+Before applying any of the above, confirm the unit really is an ejerlejlighed.
+**Ideel anpart / villalejlighed** is a share of a whole property, divided by
+agreement between co-owners rather than registered as separate units. On a portal
+it looks like an ordinary apartment — same photos, same kr/m², sometimes the same
+category label.
+
+Signals: `ideel anpart`, `anpartslejlighed`, `villalejlighed`; a `samejeoverenskomst`
+instead of ejerforening vedtægter; no `ejerlejlighedsnummer`; an older villa
+divided into two or three homes; the salgsopstilling naming a share (e.g. "1/3 af
+ejendommen") rather than a unit.
+
+Why it changes the whole report: **no realkreditlån** on an ideel anpart (bank
+financing only, dearer and smaller), the co-owners' agreement governs everything
+from maintenance to who may buy in, exit depends on the other owners, and the
+buyer pool is a fraction of the apartment market. Do not apply this module's price
+or financing logic to one — state the tenure clearly, analyse the
+samejeoverenskomst in place of association financials, and treat liquidity as the
+leading risk.
+
+## Permanent report absence (extends Mode B)
 If the salgsopstilling states *"Der vil ikke blive udarbejdet tilstandsrapport"* /
 *"...elinstallationsrapport"*: this is **final**, not a pending phase. Client text
 must say the reports will never exist for this listing; Condition + Electrical are
@@ -72,7 +123,7 @@ own technical inspection (buyer-paid) if certainty is wanted". Contrast explicit
 with the villa "under udarbejdelse" case (temporary). Legal + common for apartments —
 not a red flag by itself, but a higher-uncertainty structure the buyer must own.
 
-### Energimærke SCOPE check (upgrade of the v1 caveat → mandatory step)
+### Energimærke scope check — mandatory (`DOC-6`)
 Open the energimærke's BAGGRUNDSINFORMATION page and record: total opvarmet areal,
 **boligareal vs erhvervsareal**, number of units covered. If the certificate covers
 the whole building (typical) — and especially if it includes **erhverv** (shops,
@@ -95,7 +146,7 @@ event venues):
 - **Ventilation/smells** from restaurant kitchens (energimærke ventilation section
   often reveals restaurant udsugning zones — cite it).
 
-### Sikkerhed til ejerforeningen → financing effect (upgrade of extraction field)
+### Sikkerhed til ejerforeningen → financing effect
 The tinglyst sikkerhed (pantstiftende byrde) **reduces the maximum ejerskiftelån**
 by its amount — the salgsopstilling's own standard-financing box usually admits
 this ("Standardfinansieringen kan ikke opnås..."). Translate for the client: real
@@ -109,9 +160,10 @@ for the exact effect. Never leave it as an unexplained line item.
   info for many buyers; same for fremleje terms (allowed §X / forbidden).
 - **Bevaringsværdig (SAVE) status**: if the salgsopstilling or FBB (kulturarv.dk)
   shows a SAVE category, explain that facade/window changes — even unit-owned
-  elements — may need approval; category number ≤ 4 = meaningful constraint.
+  elements — may need approval. Category ≤ 4 is a **potential** constraint
+  until the lokalplan or a kommune decision confirms it (`RES-9`).
 
-### Comp discipline for apartments (extends SKILL v5 #11)
+### Comp discipline for apartments (applies `RES-3`)
 - A sale **in the same building** is the strongest comp — search for it explicitly
   (Boliga by street + number). Adjust for size (bigger units trade lower kr/m²)
   and floor.

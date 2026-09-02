@@ -1,4 +1,4 @@
-# Site outputs & anonymization (NEW module, v6)
+# Site outputs & anonymization
 
 Rules for anything published on nordindsigt.dk: anonymized eksempelrapporter and
 comparison pages. Reference implementations: `eksempelrapport_1.html` (Algade 14 —
@@ -59,7 +59,7 @@ stay in project knowledge, only HTML ships. Required content blocks, in order:
 4. **Mægleren siger vs vi fandt** per object (cmp/cmp-claim/cmp-find markup from
    report-template).
 5. Nøgletal table (best/worst highlighting optional).
-6. 5-yr cost bars (formula per SKILL v6 §18; asterisk any object missing its
+6. 5-yr cost bars (formula per `MONEY-5`; asterisk any object missing its
    renovation reserve).
 7. **Anchored scorecard legend**: every axis shows its question, weight, and what
    100 / 50 / 0 / N/A mean — then per-object bars each with a one-line "why".

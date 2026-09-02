@@ -35,20 +35,24 @@ and say "get binding quotes". Trigger relevance by era/heating/construction.
 - **Hot-water exchanger / boiler age unknown** (e.g. Termix). Lifespan 15–25 yrs →
   replacement reserve. Trigger: VVS section lists it without a year.
 
-## B. Sector-wide trends (current, 2025–2026)
-- **Climate-driven insurance.** Husforsikring premiums rose up to **~27% in two years**
-  (Forbrugerrådet Tænk / TV2). Insurers (e.g. Gjensidige) move to **per-address risk
+## B. Sector-wide trends
+
+> Every figure in this section carries the date it was gathered. Re-check any of
+> them before it reaches a client (`EV-9`); a trend number quoted without its
+> vintage silently becomes a false claim.
+- **Climate-driven insurance** *(last_checked 2026-07)*. Husforsikring premiums
+  rose up to **~27% in two years** (Forbrugerrådet Tænk / TV2). Insurers (e.g. Gjensidige) move to **per-address risk
   pricing**; storm/skybrud-hit homes can become hard or expensive to insure. A home
   with a documented storm event will likely see premiums rise faster than general
   inflation. Tag `web`.
-- **Tax re-valuation / efterregulering 2025–26.** New ejendomsvurderinger roll out;
+- **Tax re-valuation / efterregulering** *(last_checked 2026-07)*. New ejendomsvurderinger roll out;
   if assessed higher, grundskyld/ejendomsværdiskat rise — possibly **soon after
   purchase** and retroactively (also via a grundejerforening). The salgsopstilling's
   "foreløbig"/efterregulering fine print is the local instance of this national trend.
 - **Deferred maintenance surfaces in year one.** "What if the boiler breaks 3 months
   after purchase" (Bolius/Boliga) — a long-tenure seller's deferred upkeep typically
   lands on the new owner's first year.
-- **General upkeep reserve.** Rule of thumb ≈ **1% of property value per year** for
+- **General upkeep reserve** *(rule of thumb, stable)*. ≈ **1% of property value per year** for
   maintenance — the boring, real number nobody budgets. Tag `assumption` (rule of thumb).
 - **hegnsloven.** Shared-hedge/fence costs with a neighbour are partly mandatory by
   law, not optional — plus a big plot (e.g. 900 m²) is real recurring upkeep + tool
@@ -65,7 +69,8 @@ table; every figure a range tagged `assumption`/`calc`/`web`; repeat "get quotes
 - **5–15 years:** appliances (replace the ~10-yr-old set in turn); eventual bathroom
   renovation; the ~1%/yr upkeep reserve.
 - **20–30 years:** big-ticket — e.g. asbestos eternit roof full replacement
-  (~1,000–2,000 kr/m² incl. removal/disposal); optional solceller.
+  (~1,000–2,000 kr/m² incl. removal/disposal — *last_checked 2026-07, re-price
+  before use*); optional solceller.
 - **Fine print that costs (doc-sourced where possible):** tax efterregulering;
   consumption *on top of* ejerudgift (heat + electricity + water); grundejerforening
   levies; ejerskifteforsikring beyond year 1 (and it won't cover listed defects).

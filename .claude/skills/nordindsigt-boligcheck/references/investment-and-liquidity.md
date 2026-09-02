@@ -1,7 +1,7 @@
 # The home as an asset — investment & liquidity
 
 How to read the property as money, not just shelter. All from data already gathered;
-tag `calc`/`web`/`assumption`. Goal: a buyer who understands resale risk and the real
+tag `calc`/`web`/`assumption` (`EV-2`). Goal: a buyer who understands resale risk and the real
 hold horizon, framed as analysis (never a promise of returns).
 
 ## 1. CAGR vs the market (free, from the sale history)
@@ -35,9 +35,13 @@ Buying and selling both cost money; a short hold can lose even if the price is f
   area reputation. State this as a resale-risk factor, not a defect.
 
 ## 4. Tax-free sale & upside
-- **parcelhusregel:** a private home can usually be sold free of gevinst tax if the
-  owner actually lived there and the plot is < 1,400 m². Note when it applies (e.g.
-  902 m² ✓).
+- **parcelhusregel:** a private home can usually be sold free of gain tax if the
+  owner actually lived there. The plot test is **not simply "under 1,400 m²"** —
+  a larger plot still qualifies where subdivision (`udstykning`) is not permitted,
+  or where subdividing would materially reduce the property's value; that is
+  established by a statement from the kommune. So: under 1,400 m² → note it
+  applies; over → do **not** conclude it fails, state the subdivision test and
+  point the buyer at the kommune declaration.
 - **Build-out upside:** footprint vs plot + the lokalplan may allow an extension/annex
   → a real, under-discussed lever on future value. Check lokalplan (manual).
 - **Rate sensitivity:** the salgsopstilling's standard financing assumes a fixed rate

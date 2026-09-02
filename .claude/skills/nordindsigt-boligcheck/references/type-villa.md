@@ -1,6 +1,6 @@
 # TYPE MODULE — VILLA / ENFAMILIEHUS
 
-> Loaded when the property is a detached single-family house. Read with `core-kernel.md`.
+> Loaded when the property is a detached single-family house. Read with `rules.md`.
 
 ## Detection signals
 
@@ -34,10 +34,47 @@ Also extract: roof material + `restlevetid` table + expected replacement year; *
 - **Heating:** `pillefyr`/wood-pellet, oil, heat pump, fjernvarme — running cost, manual work, storage, fjernvarme availability.
 - **Era-typical risks** labelled as general context, not proven defects.
 
+### Site infrastructure — three checks that are easy to miss
+
+These sit outside the tilstandsrapport and outside the listing, and each can carry
+a five-figure bill. Run all three for every villa.
+
+- **Waste water: public sewer or a private system?** A house outside `offentlig
+  kloak` runs a `nedsivningsanlæg`, `septiktank` or `samletank` — owner-maintained,
+  finite-lived, and subject to a kommune **påbud** to upgrade when the area's
+  `spildevandsplan` tightens. Check the plan for the address
+  (`research-pipeline.md`), ask when the system was last emptied and inspected, and
+  price an upgrade as a reserve range with "get binding quotes" (`MONEY-4`).
+  Where the house *is* on public sewer, check instead whether the area faces
+  `separatkloakering` — the owner pays for the work on their own plot.
+- **The access road: public or `privat fællesvej`?** On a private shared road the
+  owners carry maintenance, lighting and winter clearing, often through a
+  compulsory `vejlaug` with dues and occasional large resurfacing levies. Ask which
+  it is; the answer is in the ejendomsdatarapport's `vejforsyning` section.
+- **Grundejerforening with compulsory membership.** Standard in planned
+  developments and written into the lokalplan or the deed. Extract it like an
+  association: vedtægter, annual dues, what they cover, any planned shared works
+  and outstanding levies. It is a recurring cost the listing rarely shows.
+
 ## Geodata (Mode A & B)
 
 Check public sources for the exact address: flood/`oversvømmelse`, radon (pre-1998 builds lack `radonspærre`), `jordforurening`, road/rail noise. If address-level data isn't retrievable, say so and tell the buyer to check DinGeo — do not fabricate a flag.
 
-## Scoring notes
+## Scorecard weights (`MONEY-7`)
 
-Standard 6-category weighting applies. Condition is fully scorable in Mode A; in Mode B it is **N/A (no tilstandsrapport)** with a strong recommendation to obtain it.
+The villa carries the default weighting — this is the type the default was written
+for:
+
+| Category | Weight |
+|---|---:|
+| Price | 25% |
+| Condition | 20% |
+| Neighbourhood | 20% |
+| Liquidity | 15% |
+| Renovation risk | 10% |
+| Documents | 10% |
+
+Condition is fully scorable in Mode A. In Mode B it is **N/A (no
+tilstandsrapport)** with the reason stated and a strong recommendation to obtain
+one; its 20% is redistributed proportionally across the assessable categories and
+the report says so (`MONEY-7`).

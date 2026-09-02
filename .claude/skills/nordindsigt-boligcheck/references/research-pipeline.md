@@ -2,8 +2,9 @@
 
 > v4 = v3 + the operator-fetch policy (below) + source-lifecycle notes + the
 > layers added after the 2026-07 external review. Every fact pulled here must
-> land in the **evidence ledger** (SKILL v7 §27) before it reaches client text;
-> the inline `doc/web/calc/assumption` tags stay as the reader-facing shorthand.
+> land in the **evidence ledger** (`EV-7`) before it reaches client text;
+> the inline `doc/web/calc/assumption` tags stay as the reader-facing shorthand
+> (`EV-2`). Rule IDs cited here are defined in `rules.md`.
 
 Run this before writing the report. "Auto" = retrievable by Claude from an
 address with no login. "Manual" = needs the buyer/operator (login, gated form,
@@ -44,7 +45,7 @@ Treat this as a task, not a settled fact.
     operator use; if a network starts hard-blocking the mailbox, stop and fall back
     to manual for that network, note it here.
   - **Mode logic:** a fetch never sets the mode by itself. Fetched files enter the
-    **document inventory (SKILL v7 §26)** only after the fetcher's `manifest.json`
+    **document inventory (`DOC-1`)** only after the fetcher's `manifest.json`
     marks them `valid` (real `%PDF`, sane size/MIME); the mode is then re-derived
     from the inventory. State in the Operator Appendix which documents were
     operator-fetched (not client-supplied) — provenance fact, not a hidden detail.
@@ -74,7 +75,7 @@ Treat this as a task, not a settled fact.
   category** for the building. Mandatory check for pre-~1940 buildings and whenever
   the salgsopstilling mentions "bevaringsværdig". Category ≤4 = **potential**
   constraint on facade/window changes — verify against the lokalplan / kommune
-  decision before asserting an actual restriction (SKILL v7 §28). *Auto.*
+  decision before asserting an actual restriction (`RES-9`). *Auto.*
 - **Byggesagsarkiv — weblager.dk / filarkiv.dk** (kommune-dependent) — historical
   building-permit drawings: original fyrrum/olietank location, extensions, selvbyg
   verification, BBR mismatches. *Auto where the kommune publishes; else Manual.*
@@ -87,7 +88,7 @@ Treat this as a task, not a settled fact.
   debt, equity, auditor remarks, board. Run this BEFORE writing "financials not
   received" — the GATE text should state what the public filing already shows and
   what still must come from the agent (budget, referater, vedligeholdelsesplan).
-  *Auto.* (SKILL v6 §20.)
+  *Auto.* (`TYPE-7`.)
 
 ## Price, comps, liquidity
 - **Boligsiden** — listing, BBR panel, **price history** (reconstruct the FULL
@@ -102,7 +103,7 @@ Treat this as a task, not a settled fact.
   demographics, salgbarhed. If the exact address page won't render, a neighbouring
   address a few doors down is a labelled proxy — **for area-level data only**
   (radon class, noise, schools); NEVER as a stand-in for parcel-level facts
-  (soil V1/V2, servitutter, BBR, plot-level flood) — SKILL v7 §28. *Auto.*
+  (soil V1/V2, servitutter, BBR, plot-level flood) — `RES-6`. *Auto.*
 - **DST — Danmarks Statistik** tables **EJ99 / EJEN77 / EJEN99** — official market
   statistics incl. andelsbolig transfers: the neutral baseline when portal
   statistics look off, and the only official series for andel. *Auto.*
@@ -112,7 +113,7 @@ Treat this as a task, not a settled fact.
 ## Neighbourhood & daily life (the non-obvious layer)
 - **Schools** — Boligsiden panel / uddannelsesstatistik.dk / skolegang.dk: distance,
   trivsel, grade avg. *Auto.* Flag if below national ~7/12 — **a context flag,
-  never a neighbourhood verdict** (SKILL v7 §28); pair with the trend and trivsel.
+  never a neighbourhood verdict** (`RES-8`); pair with the trend and trivsel.
   **School DISTRICT ≠ nearest school**: check the kommune's skoledistrikt map when
   families are the audience — the assigned school can differ from the closest one.
   *Auto (kommune GIS) / Manual.*
@@ -121,10 +122,10 @@ Treat this as a task, not a settled fact.
   further daycare **even if the local one has space**. Check the kommune's
   pladsanvisning admin rules. *Auto (kommune page) + Manual (confirm wait time).*
   **High-impact for families; literally "see what others miss".** Daycare QUALITY
-  has no centralised public rating in DK — say so as a system fact (v5 #14).
+  has no centralised public rating in DK — say so as a system fact (`RES-8`).
 - **Area trajectory** — udsatte boligområder list (sm.dk), regeneration projects
   (Realdania / kommune). *Auto.*
-- **Crime / tryghed (v6 §17)** — primary sources ONLY for definitive claims:
+- **Crime / tryghed (`RES-7`)** — primary sources ONLY for definitive claims:
   **politi.dk anmeldelsesstatistik** (by politikreds), **Danmarks Statistik KRIM
   tables**, the kommune's tryghedsundersøgelse. Secondary aggregators citing a
   newspaper may be used only with the full caveat set (named chain, "requires
@@ -181,12 +182,12 @@ Treat this as a task, not a settled fact.
 ## Rule
 A combined query returns shallow results — search each item separately. A
 surprising public-record result is recorded, re-verified against a second source,
-and any conflict logged in the evidence ledger (SKILL v7 §28) — surprise raises
+and any conflict logged in the evidence ledger (`EV-6`, `EV-8`) — surprise raises
 the verification bar. On contested/area-reputation topics keep the framing
 factual, sourced, and non-discriminatory.
 
-## Orchestration rules (formerly ADDENDUM v2 — now core)
-- **Listing-status check FIRST** (SKILL v3 #6): confirm the property is currently
+## Orchestration rules (how the sources above are sequenced)
+- **Listing-status check FIRST** (`RES-1`): confirm the property is currently
   for sale before treating any asking price as live.
 - **Mode C price confidence is LOW by default.** Never output a fake fair-price
   range. (Andel: no comps method — forening economy instead.)

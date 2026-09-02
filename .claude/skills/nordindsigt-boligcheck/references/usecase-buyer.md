@@ -1,6 +1,6 @@
 # USE-CASE MODULE — BUYER (primary residence)
 
-> The default use case for V1. Read with `core-kernel.md` + the detected `type-*.md`.
+> The default use case. Read with `rules.md` + the detected `type-*.md`.
 > Defines the **client report structure**. The buyer may be a foreigner who doesn't read Danish well — tone is kind, direct, buyer-protective; like a knowledgeable friend who reads Danish and is NOT trying to sell the property.
 
 ## Audience & tone
@@ -25,6 +25,9 @@ Emit under `=== CLIENT REPORT ===` in `OUTPUT_LANGUAGE`, with clean Markdown hea
 - Top 3 strengths · Top 3 concerns
 - "Before bid/decision, check first" — 3 items
 - "What would change this verdict" — one sentence
+- **Legal gate line, when one is open** — if the right to buy is unresolved
+  (`LEGAL-1`), it appears here, on the first page, above every other finding:
+  a purchase the buyer may not legally complete outranks price and condition.
 
 For Mode-B/andelsbolig where some categories are N/A, present the verdict as a **status grid** (e.g. Market / Price / Condition / Association) instead of forcing a single number — but still give the weighted score for the categories that ARE assessable.
 
@@ -39,17 +42,33 @@ For Mode-B/andelsbolig where some categories are N/A, present the verdict as a *
 6. Energy
 7. Total cost (one-time cash + monthly; correct financing rules per type)
 8. Renovation estimate (only for flagged repairs; Low/Realistic/High; regional ranges; "request binding quotes")
-9. Negotiation angle (for andelsbolig: reframe as "is max-pris correct / is it worth the restrictions") — analysis, never a promise of discount
-10. Questions to ask agent/seller — tailored to this property, not generic
-11. Final checklist before decision
-12. Limitations & confidence summary
-13. Data provenance (documents used, web sources, calculations, unknowns)
+9. **Transaction, rights & deadlines** — the deal itself (`transaction-and-legal.md`):
+   the right-to-buy test and what to do about it; the two exits and their cost
+   (advokatforbehold; fortrydelsesret — 6 working days and 1% of the price);
+   a dated timeline from signature to handover with who acts at each step; what the
+   ejerskifteforsikring offer does and does not cover; the financing structure and
+   the cash actually needed on day one. Written as facts and questions for a lawyer
+   and a bank, never as legal or financial advice (`EV-11`, `LEGAL-4`).
+10. Negotiation angle (for andelsbolig: reframe as "is max-pris correct / is it worth the restrictions") — analysis, never a promise of discount
+11. Questions to ask agent/seller — tailored to this property, not generic.
+    Keep the lawyer's questions and the bank's questions as separate lists — they
+    are different appointments.
+12. Final checklist before decision
+13. Limitations & confidence summary — including the shortest-lived figure the
+    verdict depends on (`EV-9`)
+14. Data provenance (documents used, web sources, calculations, unknowns)
 
 ## Buyer-specific content rules
 
 - Lead with the single biggest decision driver for THIS property (often: price-vs-market for villas, association finances for apartments, max-pris + nøgleoplysningsskema for andelsbolig).
 - Negotiation: factual arguments only; "suggested range as analysis"; warn against over-aggressive bids; never imply a discount is guaranteed.
 - Questions: always consider why selling now, price reductions, known moisture, roof/window/electrical/heating updates, planned association works, servitutter/lokalplan, expected expenses next 3–5 years, plus the type-specific items from the active `type-*.md`.
-- Checklist: own lawyer before signing; financing confirmed; insurance/ejerskifteforsikring if relevant; obtain missing documents; physical inspection; contractor quotes for flagged repairs; keep a renovation reserve.
+- Checklist: right to buy resolved (`LEGAL-1`); own lawyer engaged before signing
+  and the advokatforbehold deadline diarised; financing confirmed with the real
+  day-one cash figure; insurance running from the handover date;
+  ejerskifteforsikring offer compared; missing documents obtained; physical
+  inspection; contractor quotes for flagged repairs; renovation reserve kept.
 
-Then emit the `=== OPERATOR APPENDIX ===` per `core-kernel.md` §11.
+Then emit the `=== OPERATOR APPENDIX ===` per `OUT-3` — opening with the document
+inventory table (`document-inventory.md`) and the evidence ledger
+(`evidence-ledger.md`), and marked "internal — do not send".

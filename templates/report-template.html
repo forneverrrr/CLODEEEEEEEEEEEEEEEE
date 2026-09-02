@@ -138,6 +138,17 @@
   .opwrap .eyebrow{color:var(--gold);} .opwrap .eyebrow::before{background:var(--gold);}
   .opwrap table th{color:#8fa6b8;border-color:#26384a;}
   .opwrap table td{border-color:#26384a;color:#cdd8e2;}
+  .draftbar{position:sticky;top:0;z-index:50;background:var(--rust);color:#fff;
+    font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+    text-align:center;padding:7px 12px;font-weight:600;}
+  .draftbar span{opacity:.8;letter-spacing:.06em;text-transform:none;}
+  .st{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 7px;border-radius:20px;white-space:nowrap;}
+  .st.ok{background:#D7E7D9;color:#245C2E;}      /* present */
+  .st.pend{background:var(--gold-soft);color:#8A5A22;}  /* pending */
+  .st.exp{background:var(--rust);color:#fff;}     /* expired */
+  .st.miss{background:#E2E8EF;color:#274057;}     /* missing-but-required */
+  .st.na{background:#C9CED3;color:#3a4651;}       /* permanently-not-applicable */
+  .st.unk{background:transparent;border:1px solid var(--muted);color:var(--muted);}
   .opbanner{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#11202F;background:var(--gold);display:inline-block;padding:5px 12px;border-radius:6px;font-weight:600;}
   .opwrap a{color:var(--ice);}
 
@@ -158,6 +169,14 @@
 </style>
 </head>
 <body>
+
+<!-- ============ DRAFT GATE (rules.md GATE-1) ============================
+     This bar and the "DRAFT" word in the filename stay until the operator
+     has explicitly approved the report. Remove BOTH, and only then, when
+     producing the approved client copy. Never remove it to "tidy up".
+================================================================== -->
+<div class="draftbar">DRAFT — NOT FOR CLIENT
+  <span>· internal working copy, pending operator approval</span></div>
 
 <!-- ============ COVER ============ -->
 <header class="cover">
@@ -492,6 +511,42 @@
   </div>
 </section>
 
+<!-- ============ 7b. FIVE-YEAR CASH OUTLAY (rules.md MONEY-5) ============
+     price + 60 × full monthly (incl. real heat/electricity/water)
+           + midpoint renovation reserve.
+     Name it honestly: this is a CASH OUTLAY for comparing objects —
+     it is not an economic cost of ownership (no financing, no resale value).
+     If no renovation reserve can be set, show the figure with * and say it
+     can only rise.
+====================================================================== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">7b · Five years, in cash</div>
+    <h2 class="sec">What this home costs you over five years</h2>
+    <p class="lead">Not a return calculation — a like-for-like comparison figure.
+      It excludes financing and excludes what the home is worth when you leave.</p>
+
+    <table>
+      <thead><tr><th>Component</th><th>Figure</th><th>Where it comes from</th></tr></thead>
+      <tbody>
+        <tr><td>Purchase price</td><td class="mono">0,000,000 kr</td>
+            <td class="small">asking / agreed <span class="src doc">doc</span></td></tr>
+        <tr><td>60 × full monthly cost</td><td class="mono">000,000 kr</td>
+            <td class="small">ejerudgift + real heat + electricity + water — state the
+              multiplier vs the advertised monthly figure and why
+              <span class="src calc">calc</span></td></tr>
+        <tr><td>Renovation reserve (midpoint)</td><td class="mono">000,000 kr</td>
+            <td class="small">midpoint of the flagged-repair range
+              <span class="src assume">assumption</span></td></tr>
+        <tr><td><b>Five-year cash outlay</b></td><td class="mono"><b>0,000,000 kr</b></td>
+            <td class="small">ex-financing, ex-residual-value</td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">* Where no tilstandsrapport exists, no reserve can be set:
+      show the total with an asterisk and state plainly that it can only rise.</p>
+  </div>
+</section>
+
 <!-- ============ 8. RENOVATION ============ -->
 <section>
   <div class="wrap">
@@ -513,7 +568,59 @@
   </div>
 </section>
 
-<!-- ============ 9. NEGOTIATION ============ -->
+<!-- ====== 9. TRANSACTION, RIGHTS & DEADLINES (transaction-and-legal.md) ======
+     Facts and questions for a lawyer and a bank — never advice (EV-11).
+     If the right to buy is unresolved (LEGAL-1) it ALSO appears on the
+     verdict page, above every other finding.
+=========================================================================== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">9 · The transaction — your rights and your clock</div>
+    <h2 class="sec">What happens after "yes", and what it costs to change your mind</h2>
+
+    <h3>Are you allowed to buy this?</h3>
+    <p>State the Civilstyrelsen test and which case applies — residence in Denmark,
+      EU/EEA rights, any prior five years here, year-round home or sommerhus. If it
+      is unresolved, say so as the first thing on this page and tell the buyer to
+      raise it with a lawyer at first contact. <span class="src web">web</span></p>
+
+    <h3>Your two exits, and what each one costs</h3>
+    <table>
+      <thead><tr><th>Exit</th><th>Window</th><th>Cost to use it</th></tr></thead>
+      <tbody>
+        <tr><td><b>Advokatforbehold</b> — lawyer's approval clause</td>
+            <td>as written in the købsaftale (days)</td>
+            <td>none, if the clause is present and covers the whole deal</td></tr>
+        <tr><td><b>Fortrydelsesret</b> — statutory withdrawal</td>
+            <td>6 working days</td>
+            <td class="mono">1% of the purchase price</td></tr>
+      </tbody>
+    </table>
+    <p class="small">Check the clause exists and how it is worded — narrowed or
+      missing is a material finding.</p>
+
+    <h3>The dated timeline</h3>
+    <ul class="clist">
+      <li>Signature → lawyer approval deadline</li>
+      <li>Bank guarantee posted (deadline in the købsaftale; the bank charges for it)</li>
+      <li>Cash deposit (deponering)</li>
+      <li>Handover day (overtagelsesdag) — risk and insurance pass to you here</li>
+      <li>Refusionsopgørelse — prepaid taxes and utilities settled between the parties</li>
+    </ul>
+
+    <h3>The insurance offer on the table</h3>
+    <p>What the ejerskifteforsikring offer does and does not cover — above all,
+      that it does <b>not</b> cover what the tilstandsrapport already describes,
+      and that it expires with the reports. <span class="src doc">doc</span></p>
+
+    <h3>The money you actually need on day one</h3>
+    <p>Financing structure as fact, not recommendation: realkredit ceiling, bank
+      loan, minimum own payment, bidragssats, kurstab, and the registration costs
+      kept as separate lines. <span class="src calc">calc</span></p>
+  </div>
+</section>
+
+<!-- ============ 10. NEGOTIATION ============ -->
 <section>
   <div class="wrap">
     <div class="eyebrow">9 · Negotiation angle</div>
@@ -620,6 +727,36 @@
     <div class="eyebrow" style="margin-top:18px">Build context</div>
     <h2 style="font-size:23px">Operator notes</h2>
 
+    <h3>Document inventory (document-inventory.md · DOC-1, DOC-2)</h3>
+    <p class="small">Built before the research pass. Status is checked for
+      <b>validity</b>, not just presence — the mode below is derived from this table,
+      never from how the documents arrived.</p>
+    <table><thead><tr><th>Document</th><th>Status</th><th>Issued</th><th>Source</th><th>Note</th></tr></thead><tbody>
+      <tr><td>salgsopstilling</td><td><span class="st ok">present</span></td><td class="mono">2026-05-14</td><td>client-supplied</td><td class="small">read as images</td></tr>
+      <tr><td>tilstandsrapport</td><td><span class="st exp">expired</span></td><td class="mono">2025-10-02</td><td>operator-fetched (manifest valid)</td><td class="small">6-month validity passed — insurance offer lapsed with it</td></tr>
+      <tr><td>elinstallationsrapport</td><td><span class="st pend">pending</span></td><td class="mono">—</td><td>agent: "under udarbejdelse"</td><td class="small">section gated, not skipped</td></tr>
+      <tr><td>energimærke</td><td><span class="st ok">present</span></td><td class="mono">2019-03-11</td><td>client-supplied</td><td class="small">valid to 2029; label cross-checked visually</td></tr>
+      <tr><td>E/F regnskab</td><td><span class="st miss">missing-but-required</span></td><td class="mono">—</td><td>requested from agent</td><td class="small">CVR shows a filing — see E-014</td></tr>
+    </tbody></table>
+    <p class="small muted">Statuses: <span class="st ok">present</span>
+      <span class="st pend">pending</span> <span class="st exp">expired</span>
+      <span class="st miss">missing-but-required</span>
+      <span class="st na">permanently-not-applicable</span>
+      <span class="st unk">unknown</span></p>
+
+    <h3>Evidence ledger (evidence-ledger.md · EV-7, EV-8)</h3>
+    <p class="small">Every client-facing fact resolves to an ID here. A raw web
+      result never goes straight into the client text. Conflicts are adjudicated —
+      both values stay visible, with the winner and the reason stated.</p>
+    <table><thead><tr><th>ID</th><th>Claim</th><th>Source</th><th>Retrieved</th><th>Value / quote</th><th>Conf.</th><th>Conflicts</th></tr></thead><tbody>
+      <tr><td class="mono">E-007</td><td>Heated area is 138 m²</td><td>BBR-meddelelse p.1</td><td class="mono">2026-06-18</td><td class="mono">Samlet boligareal 138 m²</td><td>High</td><td class="mono">E-008</td></tr>
+      <tr><td class="mono">E-008</td><td>Heated area is 132 m²</td><td>tinglysning udskrift</td><td class="mono">2026-06-18</td><td class="mono">132 m²</td><td>Medium</td><td class="mono">E-007</td></tr>
+      <tr><td class="mono">E-021</td><td>Label covers the whole building incl. two shops</td><td>energimærke, baggrundsinfo p.4</td><td class="mono">2026-06-18</td><td class="mono">erhvervsareal 210 m²</td><td>High</td><td>—</td></tr>
+    </tbody></table>
+    <p class="small muted">Resolution for E-007 / E-008: BBR is the registered figure
+      and leads; tinglyst area is measured differently — a modest gap is a
+      methodology difference, not fraud. Report uses BBR and states both.</p>
+
     <h3>Detection &amp; mode</h3>
     <p class="small">Type = <b>VILLA / enfamiliehus</b> (BBR 120, own matrikel 11s Nr. Tranders, BFE 5548783, ejerudgift, full huseftersyn set). Mode = <b>A (full package)</b>: salgsopstilling + tilstandsrapport + elrapport + energimærke + sælgeroplysninger all present. No missing core docs. OUTPUT_LANGUAGE = English (expat product).</p>
 
@@ -647,11 +784,13 @@
       <li>Area "ghettoliste" status: historical/almene-area context, sourced (Realdania/lex.dk); subject villa is owner-occupied pocket, not a listed block — keep framing factual, non-discriminatory.</li>
     </ul>
 
-    <h3>Legal/compliance self-gate</h3>
+    <h3>Self-gate (references/self-gate.md — the single checklist)</h3>
     <p class="small">✓ No forbidden certainty words · ✓ disclaimer on cover · ✓ every fact tagged, unknowns marked · ✓ no fabricated comps/costs/dates · ✓ price confidence = Medium consistent with n=5 · ✓ public valuation not treated as market value · ✓ ejerudgift explained on first use · ✓ registration fees separated · ✓ asbestos/structural framed cautiously, specialist required · ✓ era-typical risks labelled as context · ✓ no third-party PII compiled (seller name present in source docs; omit from any shared client copy if requested).</p>
 
     <h3>Remove before sending</h3>
-    <p class="small">This entire appendix block. Optionally redact seller name from provenance if the client copy should be PII-clean.</p>
+    <p class="small"><b>The DRAFT bar at the top of the page — only once the operator
+    has approved the report (GATE-1)</b>, and the "DRAFT" word in the filename.
+    This entire appendix block. Optionally redact seller name from provenance if the client copy should be PII-clean.</p>
   </div>
 </div>
 

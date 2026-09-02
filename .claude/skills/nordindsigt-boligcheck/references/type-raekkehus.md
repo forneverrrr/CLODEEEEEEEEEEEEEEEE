@@ -1,6 +1,6 @@
 # TYPE MODULE — RÆKKEHUS (townhouse / row house)
 
-> Loaded for townhouses. Read with `core-kernel.md`. A **hybrid**: villa-style technical ownership + apartment-style shared association costs. "Something between owning a house and an apartment."
+> Loaded for townhouses. Read with `rules.md`. A **hybrid**: villa-style technical ownership + apartment-style shared association costs. "Something between owning a house and an apartment."
 
 ## Detection signals
 
@@ -38,6 +38,20 @@ Comps = other rækkehuse of similar size/age/area (sold + active). Distinguish f
 
 Apply the cost/financing rules of the **detected ownership form** (ejerbolig / ejerlejlighed / andelsbolig), then add: `fællesudgift`, any extraordinary shared assessment, renovation reserve for both the private unit and the owner's share of common works.
 
-## Scoring notes
+## Scorecard weights (`MONEY-7`)
 
-Both Condition (own technical report) and an "association & shared-building" lens apply. In Mode B, mark whichever half is unverified as N/A with the document to obtain.
+A rækkehus has two risk centres — its own structure and the association — so the
+villa weighting gives room to a shared-building category:
+
+| Category | Weight |
+|---|---:|
+| Price | 20% |
+| Condition (own technical report) | 20% |
+| Neighbourhood | 20% |
+| Association & shared building | 15% |
+| Liquidity | 15% |
+| Documents | 10% |
+
+In Mode B, mark whichever half is unverified as N/A with the document to obtain,
+and redistribute its weight across the assessable categories with that stated
+(`MONEY-7`).

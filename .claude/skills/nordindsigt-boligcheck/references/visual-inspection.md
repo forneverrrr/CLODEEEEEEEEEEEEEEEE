@@ -1,8 +1,8 @@
-# Visual inspection — photos, floor plans, zoom discipline (NEW module, v6)
+# Visual inspection — photos, floor plans, zoom discipline
 
-Consolidates and extends SKILL v4 #9 and v5 #10. Those rules remain in force; this
-file is the how-to. Everything tagged `photo` must trace to an actual image-open
-tool call in the same session (v5 #10 — fabrication severity = inventing a comp).
+The how-to behind `VIS-1` … `VIS-5` in `rules.md`. Everything tagged `photo` must
+trace to an actual image-open tool call in the same session (`VIS-4` — fabrication
+severity = inventing a comp).
 
 ## 0. Ingestion rules
 - salgsopstilling / tilstandsrapport / elrapport / energimærke: convert to images
@@ -19,7 +19,7 @@ material, meter readings on a photo): **crop the region and upscale ≥3×** (PI
 LANCZOS), then view the crop. If still ambiguous after zoom → `photo — unconfirmed`.
 Never assert from a full-page thumbnail.
 
-## 2. Floor-plan pass (mandatory when a plantegning exists — SKILL v6 §16)
+## 2. Floor-plan pass (mandatory when a plantegning exists — `VIS-2`)
 1. **Compass rose**: crop + zoom it; state the north rotation vs the sheet's "up"
    (e.g. "N rotated ~25° clockwise"). Derive which compass direction each main
    window wall faces. This converts "orientation may vary" into a determination.
@@ -38,7 +38,7 @@ Never assert from a full-page thumbnail.
    (which rooms get morning/evening sun, what the light in the photos corroborates),
    plus the recommendation to verify at a viewing at different times of day.
 
-## 3. Room-by-room photo pass (per v4 #9)
+## 3. Room-by-room photo pass (`VIS-1`)
 Floors, ceilings, walls, windows (glazing layers, corner condensation), doors,
 kitchen, every wet zone, heating (radiators/underfloor), stairs + railings,
 balcony/altan (structure below, wood), facade, fence/privacy, driveway. Tie every
@@ -47,7 +47,7 @@ Net the cosmetic+functional total into one `assumption` range for negotiation.
 
 ## 4. Exterior / building forensics (apartments & shared buildings)
 - **Ground-floor use**: commercial signage (bars, restaurants, shops) → triggers the
-  mixed-use lens (type-ejerlejlighed v3).
+  mixed-use lens (`type-ejerlejlighed.md`).
 - **Security features**: window bars, gitterport, dørtelefon — corroborates (or
   contradicts) area-safety signals; describe neutrally.
 - **Courtyard vs street facade**: rate both; a polished street front with a tired

@@ -1,6 +1,6 @@
 # TYPE MODULE — ANDELSBOLIG (housing cooperative share)
 
-> Loaded when the property is a cooperative share. Read with `core-kernel.md`.
+> Loaded when the property is a cooperative share. Read with `rules.md`.
 > This type is **fundamentally different** from villa/ejerlejlighed — different price law, financing, liability, resale.
 
 ## Detection signals
@@ -51,12 +51,25 @@ Do **not** frame as "overpriced vs market." Frame as: (1) is the §5 max-pris co
 - Monthly: `boligafgift` + andelslån + utilities. No `ejendomsværdiskat`/`grundskyld` paid directly (covered via the forening).
 - Show one-time `kontantbehov ved køb` and the `teknisk pris`.
 
-## Scoring notes
+## Scorecard weights (`MONEY-7`)
 
-Condition + Renovation-risk are usually **N/A** (no tilstandsrapport — normal). The pivotal category becomes **Association finances & legal structure** (driven by nøgleoplysningsskema/regnskab). Documents score is low if the nøgleoplysningsskema is absent.
+Condition and Renovation-risk are normally **N/A** for this type (no
+tilstandsrapport — expected, not a red flag), and the association replaces them as
+the pivotal category:
+
+| Category | Weight |
+|---|---:|
+| Association finances & legal structure | 35% |
+| Price (is the §5 max-pris correct?) | 20% |
+| Neighbourhood | 15% |
+| Liquidity | 15% |
+| Documents | 15% |
+
+Without the nøgleoplysningsskema the Association category cannot be scored at all —
+that is a GATE, not a low score (`TYPE-5`), and the Documents score is low.
 
 ---
-## ADDENDUM v2 — andel pricing & forening economy (test-driven, 2026)
+## Andel pricing and the forening's economy
 
 **NEVER apply ownership-property price logic to an andelsbolig.**
 - NO CAGR from a past "sale". The price is the **andelsværdi**, set by the
