@@ -205,7 +205,8 @@ h2{font-size:19px;font-weight:800;letter-spacing:0;text-transform:none;color:var
 .tile.pick[aria-pressed="true"]{border-color:var(--gc);background:color-mix(in srgb,var(--gc) 10%,var(--surface))}
 .tile.pick[aria-pressed="true"] .cb{background:var(--gc);border-color:var(--gc)}
 .tile.pick .bar>i{background:var(--gc)}
-.card{border-top:6px solid var(--gc,var(--line));border-radius:14px}
+.card{position:relative;overflow:hidden;border-radius:14px}
+.card::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:var(--gc,var(--line))}
 .src{border-color:color-mix(in srgb,var(--gc,var(--line)) 50%,var(--line))}
 .map{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px}
 .seg{height:46px;border-radius:8px;border:1px solid color-mix(in srgb,var(--gc) 45%,var(--line));background:linear-gradient(to top,color-mix(in srgb,var(--gc) 40%,var(--surface)) var(--p),var(--surface) var(--p));font:500 12px var(--f-mono);color:var(--ink);padding:0;transition:transform .15s,border-color .15s}

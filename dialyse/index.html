@@ -212,7 +212,8 @@ h2{font-size:18px;font-weight:600;letter-spacing:0;text-transform:none;color:var
 .tile.pick[aria-pressed="true"] .cb{background:var(--gc);border-color:var(--gc)}
 .tile.pick .bar>i{background:var(--gc)}
 .tile{border-radius:12px}
-.card{border-top:5px solid var(--gc,var(--line));border-radius:14px}
+.card{position:relative;overflow:hidden;border-radius:14px}
+.card::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--gc,var(--line))}
 .src{border-color:color-mix(in srgb,var(--gc,var(--line)) 50%,var(--line))}
 .btn.red,.chip[aria-pressed="true"]{--x:0}
 .picker .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
