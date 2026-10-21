@@ -121,7 +121,8 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 .verdict.pass{background:var(--okbg);color:var(--ok)}
 .verdict.fail{background:var(--badbg);color:var(--bad)}
 .rev{display:flex;flex-direction:column;gap:10px}
-.revi{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.revi{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.revi::before{content:"Forkert";align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--bad);background:var(--badbg);border-radius:4px;padding:1px 8px}
 .revi .a{color:var(--muted);font-size:14px}.revi .a b{color:var(--ok)}
 /* tidslinje */
 .tl{border-left:3px solid var(--ink);margin-left:6px;display:flex;flex-direction:column}
