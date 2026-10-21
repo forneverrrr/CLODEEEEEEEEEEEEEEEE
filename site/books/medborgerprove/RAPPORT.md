@@ -1,6 +1,4 @@
-# Rapport: medborgerprøven øvebank
-
-Kilde: Læremateriale til medborgerskabsprøven (aug. 2026), 156 sider.
+# Rapport: Medborgerprøven
 
 | Nr | Emne | Sider | Spørgsmål |
 |---|---|---|---|
@@ -32,5 +30,3 @@ Kilde: Læremateriale til medborgerskabsprøven (aug. 2026), 156 sider.
 | 26 | Klima | 142–146 | 34 |
 | 27 | Ordliste | 147–155 | 88 |
 | | **I alt** | | **1062** |
-
-Faste prøver: officiel maj 2025 + 12 prøver à 25 spørgsmål (ingen spørgsmål gentages mellem prøverne).

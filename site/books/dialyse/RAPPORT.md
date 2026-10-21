@@ -1,8 +1,6 @@
-# Rapport: Dialyse Øvebank
+# Rapport: Dialyse
 
-Kilde: lærebogen Dialyse, 4. udgave 2023 (ISBN 9788794454599).
-
-| Kap. | Emne | Sider | Spørgsmål |
+| Nr | Emne | Sider | Spørgsmål |
 |---|---|---|---|
 | 1 | Akut nyreinsufficiens | 13–22 | 112 |
 | 2 | Kronisk nyreinsufficiens | 25–31 | 83 |
@@ -34,5 +32,3 @@ Kilde: lærebogen Dialyse, 4. udgave 2023 (ISBN 9788794454599).
 | 28 | Palliation | 261–263 | 62 |
 | 29 | Socialrådgivning | 267–271 | 71 |
 | | **I alt** | | **2094** |
-
-Faste prøver: 12 prøver à 25 spørgsmål (ingen spørgsmål gentages mellem prøverne).

@@ -1,0 +1,427 @@
+{
+ "slug": "medborgerprove",
+ "sheets": [
+  {
+   "n": 1,
+   "title": "Skole",
+   "pages": "5–10",
+   "files": [
+    "s01"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Uddannelse",
+   "pages": "11–16",
+   "files": [
+    "s02"
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Dagtilbud",
+   "pages": "17–20",
+   "files": [
+    "s03"
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Det danske arbejdsmarked",
+   "pages": "21–29",
+   "files": [
+    "s04"
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Dansk erhvervsliv",
+   "pages": "30–33",
+   "files": [
+    "s05"
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Det danske velfærdssamfund",
+   "pages": "34–39",
+   "files": [
+    "s06"
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Familieliv",
+   "pages": "40–45",
+   "files": [
+    "s07"
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Forenings- og fritidsliv",
+   "pages": "46–51",
+   "files": [
+    "s08"
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Sundhed og sygdom",
+   "pages": "52–56",
+   "files": [
+    "s09"
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Ligestilling",
+   "pages": "57–60",
+   "files": [
+    "s10"
+   ]
+  },
+  {
+   "n": 11,
+   "title": "Demokrati og grundloven",
+   "pages": "61–66",
+   "files": [
+    "s11"
+   ]
+  },
+  {
+   "n": 12,
+   "title": "Det danske retssamfund",
+   "pages": "67–70",
+   "files": [
+    "s12"
+   ]
+  },
+  {
+   "n": 13,
+   "title": "Folketing og regering",
+   "pages": "71–75",
+   "files": [
+    "s13"
+   ]
+  },
+  {
+   "n": 14,
+   "title": "Det lokale selvstyre",
+   "pages": "76–80",
+   "files": [
+    "s14"
+   ]
+  },
+  {
+   "n": 15,
+   "title": "Folkestyret i praksis – valg og partier",
+   "pages": "81–87",
+   "files": [
+    "s15"
+   ]
+  },
+  {
+   "n": 16,
+   "title": "Borgernes rettigheder og pligter",
+   "pages": "88–91",
+   "files": [
+    "s16"
+   ]
+  },
+  {
+   "n": 17,
+   "title": "Religion og kirke",
+   "pages": "92–95",
+   "files": [
+    "s17"
+   ]
+  },
+  {
+   "n": 18,
+   "title": "Danmark og omverdenen",
+   "pages": "96–103",
+   "files": [
+    "s18"
+   ]
+  },
+  {
+   "n": 19,
+   "title": "Danmarks geografi og befolkning",
+   "pages": "104–106",
+   "files": [
+    "s19"
+   ]
+  },
+  {
+   "n": 20,
+   "title": "Danmarks historie før 1945",
+   "pages": "107–114",
+   "files": [
+    "s20"
+   ]
+  },
+  {
+   "n": 21,
+   "title": "Danmarks historie efter 1945",
+   "pages": "115–121",
+   "files": [
+    "s21",
+    "s21b"
+   ]
+  },
+  {
+   "n": 22,
+   "title": "Dansk kultur",
+   "pages": "122–126",
+   "files": [
+    "s22"
+   ]
+  },
+  {
+   "n": 23,
+   "title": "Traditioner og mærkedage",
+   "pages": "127–131",
+   "files": [
+    "s23"
+   ]
+  },
+  {
+   "n": 24,
+   "title": "Danmarks forsvars- og sikkerhedspolitik",
+   "pages": "132–137",
+   "files": [
+    "s24"
+   ]
+  },
+  {
+   "n": 25,
+   "title": "Diskrimination, antisemitisme, hadforbrydelser og ekstremisme",
+   "pages": "138–141",
+   "files": [
+    "s25"
+   ]
+  },
+  {
+   "n": 26,
+   "title": "Klima",
+   "pages": "142–146",
+   "files": [
+    "s26"
+   ]
+  },
+  {
+   "n": 27,
+   "title": "Ordliste",
+   "pages": "147–155",
+   "files": [
+    "s27"
+   ]
+  }
+ ],
+ "patch": {
+  "Hvor mange procent stemte ja til EF i 1972-folkeafstemningen?": [
+   "Hvor mange procent stemte ja til EF-medlemskab ved folkeafstemningen?",
+   "63,4 procent",
+   "67 procent",
+   "50 procent",
+   "85 procent",
+   118
+  ],
+  "Hvor mange procent stemte ja til EF i 1972?": [
+   "Hvor mange procent stemte ja til EF-medlemskab ved folkeafstemningen?",
+   "63,4 procent",
+   "67 procent",
+   "50 procent",
+   "84 procent",
+   118
+  ],
+  "Hvor mange medlemmer har hvert regionsråd?": [
+   "Hvor mange medlemmer er der i hvert regionsråd?",
+   "41",
+   "19",
+   "55",
+   "179",
+   83
+  ],
+  "Hvem bestemmer, hvem der skal danne regering?": [
+   "Hvem afgør, hvilken regering der kan sidde?",
+   "Folketinget",
+   "Kongen alene",
+   "Domstolene",
+   "Regionerne",
+   72
+  ],
+  "Hvor findes det, hvor man kan finde oversigt over idrætsforeninger lokalt?": [
+   "Hvor kan man finde en oversigt over lokale idrætsforeninger?",
+   "I den enkelte kommune",
+   "Hos politiet",
+   "Hos Folketinget",
+   "Hos skolen",
+   48
+  ],
+  "Hvilke fag undervises der i i folkeskolen, og hvad hedder faget madlavning?": [
+   "Hvad hedder faget madlavning i folkeskolen?",
+   "Madkundskab",
+   "Husholdning",
+   "Køkkenfag",
+   "Ernæringslære",
+   6
+  ],
+  "Hvad har det offentlige støttet, så mange kan klare sig selv som ældre?": [
+   "Hvad er formålet med folkepensionen?",
+   "At ældre kan klare sig selv, når de ikke arbejder mere",
+   "At børn kan gå gratis i skole",
+   "At arbejdsløse får dagpenge",
+   "At studerende får SU",
+   37
+  ],
+  "Hvad begyndte fastetiden for 40 dage før påske?": [
+   "Hvad markerede fastelavn oprindeligt?",
+   "Begyndelsen på den kristne fastetid",
+   "Slutningen på julen",
+   "Begyndelsen på sommeren",
+   "Påskedag",
+   128
+  ],
+  "Hvilke fire partier er i den nuværende regering ifølge teksten?": null
+ },
+ "sets": {
+  "count": 12,
+  "perSet": 25,
+  "excludeSheets": [
+   27
+  ],
+  "skipPerSet": 1,
+  "official": "official2025.json",
+  "officialName": "Officiel prøve, maj 2025",
+  "officialSrc": "Officiel prøve 27. maj 2025 · bogen s. {p}"
+ },
+ "timeline": "timeline.json",
+ "meta": {
+  "slug": "medborgerprove",
+  "title": "Medborgerprøven",
+  "sub": {
+   "da": "Danmarks samfund, historie og hverdagsliv. Tidslinje og officiel prøve.",
+   "ru": "Общество, история и быт Дании. Лента времени и официальная проба."
+  },
+  "accent": "#C8102E",
+  "order": 1,
+  "cross": true,
+  "examSeconds": 1800,
+  "sheetWord": "Fakta-ark",
+  "noExam": [
+   27
+  ],
+  "special": {
+   "27": {
+    "name": "Ordliste",
+    "short": "Ord",
+    "tag": "ORD"
+   }
+  },
+  "features": {
+   "timeline": true
+  },
+  "hero": {
+   "title": "Medborger&shy;prøven",
+   "intro": {
+    "da": "Øvebank til »Læremateriale til medborgerskabsprøven« (august 2026). Alle 26 fakta-ark og ordlisten, alle årstal og begivenheder.",
+    "ru": "Тесты к учебнику «Læremateriale til medborgerskabsprøven» (август 2026). Все 26 разделов и словарь, все даты и события."
+   },
+   "foot": {
+    "da": "Spørgsmålene er udarbejdet ud fra det officielle læremateriale. Prøveformatet (25 spørgsmål, 30 minutter, mindst 20 rigtige) følger de offentlige oplysninger om prøven; tjek altid danskogproever.dk for de aktuelle regler.",
+    "ru": "Вопросы составлены по официальному учебному материалу. Формат пробы (25 вопросов, 30 минут, минимум 20 верных) соответствует публичной информации об экзамене; актуальные правила смотрите на danskogproever.dk."
+   }
+  },
+  "brand": "<svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"7\" fill=\"#C8102E\"/><rect x=\"0\" y=\"13\" width=\"32\" height=\"6\" fill=\"#fff\"/><rect x=\"9\" y=\"0\" width=\"6\" height=\"32\" fill=\"#fff\"/></svg>",
+  "icon": "<path d=\"M3 9l9-5 9 5M5 9v9M9.5 9v9M14.5 9v9M19 9v9M3 20h18\"/>",
+  "icons": [
+   "<path d=\"M3 9l9-5 9 5-9 5z\"/><path d=\"M7 11.5V16c2.5 2 7.5 2 10 0v-4.5\"/>",
+   "<path d=\"M4 11l8-7 8 7v9H4z\"/><path d=\"M10 20v-5h4v5\"/>",
+   "<path d=\"M3 9l9-5 9 5M5 9v9M9.5 9v9M14.5 9v9M19 9v9M3 20h18\"/>",
+   "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18\"/>",
+   "<path d=\"M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9\"/>",
+   "<path d=\"M12 3l2.6 5.5 6 .8-4.4 4.1 1.1 6L12 16.6 6.7 19.4l1.1-6L3.4 9.3l6-.8z\"/>",
+   "<path d=\"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z\"/>",
+   "<path d=\"M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z\"/><path d=\"M9 9h6M9 13h4\"/>"
+  ],
+  "groups": [
+   {
+    "name": "Skole og arbejde",
+    "icon": 0,
+    "sheets": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "Samfund og familie",
+    "icon": 1,
+    "sheets": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "Demokrati og retssamfund",
+    "icon": 2,
+    "sheets": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "name": "Religion og omverden",
+    "icon": 3,
+    "sheets": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "name": "Historie",
+    "icon": 4,
+    "sheets": [
+     20,
+     21
+    ]
+   },
+   {
+    "name": "Kultur og traditioner",
+    "icon": 5,
+    "sheets": [
+     22,
+     23
+    ]
+   },
+   {
+    "name": "Forsvar, diskrimination og klima",
+    "icon": 6,
+    "sheets": [
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "name": "Ordliste",
+    "icon": 7,
+    "sheets": [
+     27
+    ]
+   }
+  ]
+ }
+}

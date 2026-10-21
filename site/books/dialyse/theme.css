@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap");
+/* Dialyse: nefron-verden */
+:root{
+  --bg:#F3EFE8; --surface:#FFFFFF; --ink:#0F2742; --muted:#566478; --line:#DCD5C9;
+  --accent:#C93B2B; --accent-ink:#FFFFFF; --soft:#E9E4DA;
+  --g1:#1F6FB2;--g2:#0E8A8A;--g3:#5B4BC4;--g4:#C93B2B;--g5:#A86A12;--g6:#2E8B57;--g7:#B03A74;--g8:#5F7087;--g9:#8C5A3C;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A1628; --surface:#12233D; --ink:#E8EEF7; --muted:#9DB0C8; --line:#25395A;
+    --accent:#FF7B6B; --accent-ink:#2A0A06; --soft:#1B3050;
+    --g1:#6AB0F0;--g2:#4FD1C5;--g3:#A99BFF;--g4:#FF8A78;--g5:#F2B84B;--g6:#6FD39A;--g7:#F07FB0;--g8:#A9B7C9;--g9:#D9A07B;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A1628; --surface:#12233D; --ink:#E8EEF7; --muted:#9DB0C8; --line:#25395A;
+  --accent:#FF7B6B; --accent-ink:#2A0A06; --soft:#1B3050;
+  --g1:#6AB0F0;--g2:#4FD1C5;--g3:#A99BFF;--g4:#FF8A78;--g5:#F2B84B;--g6:#6FD39A;--g7:#F07FB0;--g8:#A9B7C9;--g9:#D9A07B;
+}
+h1{font-size:clamp(40px,9vw,64px);font-weight:800;line-height:1}
+.cta{box-shadow:0 10px 24px -12px color-mix(in srgb,var(--accent) 70%,transparent)}

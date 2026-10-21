@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,600;112,800;125,900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap");
+/* Medborgerprøven: folkeskole-plakat */
+:root{
+  --bg:#F5EDDB; --surface:#FFFBF2; --ink:#1B2A41; --muted:#5B6578; --line:#DED2B8;
+  --accent:#C8102E; --accent-ink:#FFFFFF; --soft:#EBE0C6;
+  --g1:#C8102E;--g2:#9A6A00;--g3:#1F3A6E;--g4:#0E7C86;--g5:#7A2E5C;--g6:#2F7D4F;--g7:#4A5568;--g8:#8A5A2B;
+  --f-ui:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-head:"Archivo","Hanken Grotesk",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#101B2E; --surface:#1A2842; --ink:#F2EAD8; --muted:#A9B3C6; --line:#2E3F61;
+    --accent:#FF5A6E; --accent-ink:#2A0710; --soft:#233352;
+    --g1:#FF6B7D;--g2:#F2C14E;--g3:#8FB0F5;--g4:#4FD1D9;--g5:#E88AC4;--g6:#6FD39A;--g7:#B6C2D6;--g8:#D9A66B;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101B2E; --surface:#1A2842; --ink:#F2EAD8; --muted:#A9B3C6; --line:#2E3F61;
+  --accent:#FF5A6E; --accent-ink:#2A0710; --soft:#233352;
+  --g1:#FF6B7D;--g2:#F2C14E;--g3:#8FB0F5;--g4:#4FD1D9;--g5:#E88AC4;--g6:#6FD39A;--g7:#B6C2D6;--g8:#D9A66B;
+}
+h1{font-weight:900;font-stretch:125%;line-height:.95}
+h2,h3{font-weight:800}
+.hero{position:relative;padding:28px 22px;border-radius:18px;background:var(--accent);color:var(--accent-ink);overflow:hidden}
+.hero h1{font-size:clamp(40px,10vw,76px);position:relative}
+.hero p{color:inherit;font-size:16px;opacity:.95}
+.hero .nums b{color:inherit}
+.hero .nums{position:relative}
+.hero .cross{position:absolute;right:-30px;top:-30px;width:170px;height:170px;opacity:.22}
+.cta{background:var(--ink);color:var(--bg)}
+.brand svg{color:inherit}
