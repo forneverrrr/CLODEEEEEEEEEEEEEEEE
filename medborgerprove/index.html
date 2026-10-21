@@ -8,30 +8,34 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Schibsted+Grotesk:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,600;112,800;125,900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: ét smalt studiepapir-spor; hjem = tilstande + temaer, quiz = ét kort ad gangen */
 :root{
-  --bg:#EDF0F6; --surface:#FFFFFF; --ink:#14213D; --muted:#586480; --line:#D3DAE7;
-  --accent:#C8102E; --accent-ink:#FFFFFF; --soft:#E3E8F2;
+  --bg:#F5EDDB; --surface:#FFFBF2; --ink:#1B2A41; --muted:#5B6578; --line:#DED2B8;
+  --accent:#C8102E; --accent-ink:#FFFFFF; --soft:#EBE0C6;
   --ok:#1B7448; --okbg:#DCF1E4; --bad:#B3261E; --badbg:#FBE1DE;
-  --f-ui:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --g1:#C8102E;--g2:#9A6A00;--g3:#1F3A6E;--g4:#0E7C86;--g5:#7A2E5C;--g6:#2F7D4F;--g7:#4A5568;--g8:#8A5A2B;
+  --f-ui:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-head:"Archivo","Hanken Grotesk",system-ui,sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0D1324; --surface:#172036; --ink:#E7ECF6; --muted:#9BA7C2; --line:#2A3558;
-    --accent:#FF5A6E; --accent-ink:#1A0A0D; --soft:#222D4A;
+    --bg:#101B2E; --surface:#1A2842; --ink:#F2EAD8; --muted:#A9B3C6; --line:#2E3F61;
+    --accent:#FF5A6E; --accent-ink:#2A0710; --soft:#233352;
     --ok:#62D393; --okbg:#12301F; --bad:#FF8F85; --badbg:#3B1815; color-scheme:dark;
+    --g1:#FF6B7D;--g2:#F2C14E;--g3:#8FB0F5;--g4:#4FD1D9;--g5:#E88AC4;--g6:#6FD39A;--g7:#B6C2D6;--g8:#D9A66B;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0D1324; --surface:#172036; --ink:#E7ECF6; --muted:#9BA7C2; --line:#2A3558;
-  --accent:#FF5A6E; --accent-ink:#1A0A0D; --soft:#222D4A;
+  --bg:#101B2E; --surface:#1A2842; --ink:#F2EAD8; --muted:#A9B3C6; --line:#2E3F61;
+  --accent:#FF5A6E; --accent-ink:#2A0710; --soft:#233352;
   --ok:#62D393; --okbg:#12301F; --bad:#FF8F85; --badbg:#3B1815; color-scheme:dark;
+  --g1:#FF6B7D;--g2:#F2C14E;--g3:#8FB0F5;--g4:#4FD1D9;--g5:#E88AC4;--g6:#6FD39A;--g7:#B6C2D6;--g8:#D9A66B;
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-ui);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 96px}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-ui);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 130px}
 .wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
 h1,h2,h3{margin:0;line-height:1.15;text-wrap:balance}
 h1{font-size:clamp(30px,6vw,44px);font-weight:800;letter-spacing:-.02em}
@@ -41,9 +45,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .mono{font-family:var(--f-mono);font-feature-settings:"tnum"}
 .hero{display:flex;flex-direction:column;gap:10px;border-bottom:3px solid var(--ink);padding-bottom:18px}
-.hero .flag{width:44px;height:32px;display:grid;grid-template-columns:12px 6px 1fr;grid-template-rows:12px 6px 1fr;background:var(--accent);border-radius:2px;margin-bottom:6px}
-.hero .flag i{background:#fff}
-.hero .flag i:nth-child(1){grid-area:1/2/4/3}.hero .flag i:nth-child(2){grid-area:2/1/3/4}
 .hero p{color:var(--muted);max-width:56ch}
 .stats{display:flex;gap:18px;flex-wrap:wrap;margin-top:6px}
 .stat b{display:block;font-size:26px;font-weight:800;line-height:1.1}
@@ -161,6 +162,67 @@ button.tile.pick{text-align:left;cursor:pointer;font:inherit;color:inherit;trans
 .foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 .theme{align-self:flex-end}
 @media (prefers-reduced-motion:no-preference){.card{animation:in .18s ease-out}@keyframes in{from{opacity:.0;transform:translateY(4px)}to{opacity:1;transform:none}}}
+
+/* ---- folkeskole-plakat ---- */
+h1,h2,h3,.brand,.cta b,.score b,.yr{font-family:var(--f-head)}
+h1{font-size:clamp(40px,10vw,76px);font-weight:900;font-stretch:125%;letter-spacing:-.03em;line-height:.95;text-transform:none}
+h2{font-size:19px;font-weight:800;letter-spacing:0;text-transform:none;color:var(--ink)}
+::selection{background:color-mix(in srgb,var(--accent) 28%,transparent)}
+.g1{--gc:var(--g1)}.g2{--gc:var(--g2)}.g3{--gc:var(--g3)}.g4{--gc:var(--g4)}.g5{--gc:var(--g5)}.g6{--gc:var(--g6)}.g7{--gc:var(--g7)}.g8{--gc:var(--g8)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px}
+.brand svg{width:30px;height:30px}
+.topbar .right{display:flex;align-items:center;gap:8px}
+.tabs{display:flex;gap:4px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:8px 12px;border-radius:10px;font-size:12px;font-weight:600;color:var(--muted)}
+.tab svg{width:22px;height:22px}
+.tab[aria-current="page"]{color:var(--ink);background:var(--soft)}
+.tab[aria-current="page"] svg{color:var(--accent)}
+@media (max-width:819px){
+  .tabs{position:fixed;left:0;right:0;bottom:0;z-index:6;justify-content:space-around;background:var(--surface);border-top:1px solid var(--line);padding:6px max(8px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))}
+  .tab{flex:1}
+  .startbar{bottom:calc(62px + env(safe-area-inset-bottom,0px))}
+}
+@media (min-width:820px){.tab{flex-direction:row;gap:8px;font-size:14px;padding:8px 14px}.tab svg{width:18px;height:18px}.wrap{max-width:920px}}
+.poster{position:relative;display:flex;flex-direction:column;gap:12px;padding:28px 22px;border-radius:18px;background:var(--accent);color:var(--accent-ink);overflow:hidden}
+.poster p{max-width:44ch;font-size:16px;opacity:.95}
+.poster .cross{position:absolute;right:-30px;top:-30px;width:170px;height:170px;opacity:.22}
+.poster h1{position:relative}
+.nums{font-size:14px;position:relative;opacity:.95}
+.nums b{font-weight:700}
+.cta{display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;width:100%;background:var(--ink);color:var(--bg);border:0;border-radius:16px;padding:20px 22px}
+.cta b{display:block;font-size:22px;font-weight:800;line-height:1.1}
+.cta span.t{display:block;margin-top:6px;font-size:15px;opacity:.88}
+.cta svg{width:28px;height:28px;flex:none}
+.cta:hover{filter:brightness(1.15)}
+.modes{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.mode{border-radius:14px}
+.tile{border-radius:12px}
+.gh{display:flex;align-items:center;gap:10px}
+.gi{width:36px;height:36px;padding:7px;border-radius:10px;color:var(--gc);background:color-mix(in srgb,var(--gc) 14%,var(--surface));flex:none}
+.grp-h h3{font-size:19px;font-weight:800}
+.tile.pick .no{color:var(--gc)}
+.tile.pick[aria-pressed="true"]{border-color:var(--gc);background:color-mix(in srgb,var(--gc) 10%,var(--surface))}
+.tile.pick[aria-pressed="true"] .cb{background:var(--gc);border-color:var(--gc)}
+.tile.pick .bar>i{background:var(--gc)}
+.card{border-top:6px solid var(--gc,var(--line));border-radius:14px}
+.src{border-color:color-mix(in srgb,var(--gc,var(--line)) 50%,var(--line))}
+.map{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px}
+.seg{height:46px;border-radius:8px;border:1px solid color-mix(in srgb,var(--gc) 45%,var(--line));background:linear-gradient(to top,color-mix(in srgb,var(--gc) 40%,var(--surface)) var(--p),var(--surface) var(--p));font:500 12px var(--f-mono);color:var(--ink);padding:0;transition:transform .15s,border-color .15s}
+.seg:hover{border-color:var(--gc);transform:translateY(-2px)}
+.mapnote{font-size:13px;color:var(--muted)}
+/* tidslinje-bånd */
+.eras{display:flex;gap:6px;flex-wrap:wrap}
+.rib{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding:18px 2px 10px;margin:0 -2px;scrollbar-width:thin;border-top:3px solid var(--ink);position:relative}
+.rc{flex:none;width:176px;scroll-snap-align:start;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.rc::before{content:"";position:absolute;left:14px;top:-26px;width:13px;height:13px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--bg)}
+.rc .yr{font-size:22px;font-weight:800;line-height:1;color:var(--ink)}
+.rc .tx{color:var(--ink);line-height:1.3;overflow-wrap:anywhere}
+.rc .p{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.rib-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sethead{display:flex;flex-direction:column;gap:6px}
+.sethead p{color:var(--muted);font-size:14px;max-width:60ch}
+@media (prefers-reduced-motion:reduce){.seg{transition:none}.seg:hover{transform:none}}
 </style>
 </head>
 <body>
@@ -259,7 +321,7 @@ function renderQuiz(){
   var exam=cfg.exam,done=Q.done[Q.i],a=Q.ans[Q.i];
   var h='<div class="qtop"><button class="back" id="x">← Afslut</button><div class="qtitle">'+esc(cfg.title)+'</div>'+(exam?'<div class="timer" id="timer">'+fmt(Q.left)+'</div>':'<div class="timer mono">'+(Q.i+1)+'/'+n+'</div>')+'</div>';
   h+='<div class="prog"><div class="bar"><i style="width:'+Math.round((Q.i+(done?1:0))/n*100)+'%"></i></div>'+(exam?'<span class="mono" style="font-size:13px">'+(Q.i+1)+'/'+n+'</span>':'')+'</div>';
-  h+='<div class="card"><div class="q" id="qq">'+esc(it.q)+'</div>';
+  h+='<div class="card'+(it.s?' g'+gcl(it.s):'')+'"><div class="q" id="qq">'+esc(it.q)+'</div>';
   if(!exam&&it.type==="mc"&&done)h+='<div class="src">'+esc(srcOf(it))+'</div>';
   if(it.type==="mc"){
     h+='<div class="opts" role="group" aria-label="Svarmuligheder">';
@@ -390,64 +452,123 @@ function finish(){
 function stripGen(x){var c=Object.assign({},x);delete c.opts;delete c.shown;return c;}
 
 /* ---------- screens ---------- */
-function home(){
-  Q=null;
-  var total=ALL.length,m=mastered(),wr=wrongIds().length;
-  var h='<button class="chip theme" id="th" aria-label="Skift lys/mørk">Lys / mørk</button>';
-  h+='<header class="hero"><div class="flag" aria-hidden="true"><i></i><i></i></div><h1>Medborgerprøven</h1><p>Øvebank til »Læremateriale til medborgerskabsprøven – demokrati og hverdagsliv i Danmark« (august 2026). Alle 26 fakta-ark og ordlisten, alle årstal og begivenheder.</p>';
-  h+='<div class="stats"><div class="stat"><b class="mono">'+total+'</b><span>spørgsmål</span></div><div class="stat"><b class="mono">'+TL.length+'</b><span>årstal i tidslinjen</span></div><div class="stat"><b class="mono">'+m+'</b><span>besvaret rigtigt sidst</span></div>'+(store.best!==null?'<div class="stat"><b class="mono">'+store.best+'%</b><span>bedste prøve</span></div>':'')+'</div></header>';
-  h+='<section class="sec"><h2>Vælg tilstand</h2><div class="modes">';
-  h+='<button class="mode primary" id="m-exam"><b>Prøve som til eksamen</b><span>25 spørgsmål fra hele bogen, 30 minutter, 3 svarmuligheder. 20 rigtige for at bestå.</span></button>';
-  h+='<button class="mode" id="m-seq"><b>Hele bogen i rækkefølge</b><span>'+(store.pos>0&&store.pos<total?'Fortsæt ved spørgsmål '+(store.pos+1)+' af '+total+'.':'Fra fakta-ark 1 til ordlisten, alle '+total+' spørgsmål.')+'</span></button>';
-  h+='<button class="mode" id="m-shuf"><b>Hele bogen blandet</b><span>Tilfældig rækkefølge på tværs af alle emner. Vælg længde nedenfor.</span></button>';
-  h+='<button class="mode" id="m-date"><b>Årstal og begivenheder</b><span>Hvornår skete det, hvad kom først, og sæt i kronologisk rækkefølge.</span></button>';
-  h+='<button class="mode" id="m-wr"'+(wr?'':' disabled')+'><b>Mine fejl</b><span>'+(wr?wr+' spørgsmål, du svarede forkert på sidst.':'Ingen fejl endnu. De samles her.')+'</span></button>';
-  h+='<button class="mode" id="m-tl"><b>Tidslinje</b><span>Alle årstal samlet, med sidehenvisning. Til gennemlæsning.</span></button>';
-  h+='</div><div class="row"><span style="font-size:14px;color:var(--muted)">Længde på blandet:</span><div class="picker" id="len">';
-  [25,50,100,0].forEach(function(n){h+='<button class="chip" data-n="'+n+'" aria-pressed="'+((n===(window.__len||50))?'true':'false')+'">'+(n||'Alle '+total)+'</button>';});
-  h+='</div></div></section>';
-  h+='<section class="sec"><h2>Færdige prøver, 25 spørgsmål hver</h2><p style="color:var(--muted);font-size:14px">Hver prøve har faste spørgsmål i blandet rækkefølge fra næsten alle fakta-ark. Ingen spørgsmål gentages mellem Prøve 1-12. »Som eksamen« giver 30 minutter og 3 svarmuligheder med svar til sidst. »Øv« viser svaret med det samme.</p><div class="tiles">';
+var ICONS=[
+ '<path d="M3 9l9-5 9 5-9 5z"/><path d="M7 11.5V16c2.500 2 7.500 2 10 0v-4.500"/>',
+ '<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/>',
+ '<path d="M3 9l9-5 9 5M5 9v9M9.500 9v9M14.500 9v9M19 9v9M3 20h18"/>',
+ '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+ '<path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/>',
+ '<path d="M12 3l2.600 5.500 6 .8-4.400 4.100 1.100 6L12 16.600 6.700 19.400l1.100-6L3.400 9.300l6-.8z"/>',
+ '<path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"/>',
+ '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M9 9h6M9 13h4"/>'];
+function icon(gi){return '<svg class="gi" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[gi]+'</svg>';}
+function gcl(n){for(var i=0;i<GROUPS.length;i++){if(GROUPS[i][1].indexOf(n)>=0)return i+1;}return 7;}
+var TABI={start:'<path d="M4 11l8-7 8 7v9H4z"/>',emner:'<rect x="4" y="4" width="7" height="7" rx="1.500"/><rect x="13" y="4" width="7" height="7" rx="1.500"/><rect x="4" y="13" width="7" height="7" rx="1.500"/><rect x="13" y="13" width="7" height="7" rx="1.500"/>',prover:'<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',tid:'<path d="M3 12h18M7 12V7M12 12v5M17 12V8"/>'};
+var TABN={start:"Start",emner:"Emner",prover:"Prøver",tid:"Tidslinje"};
+var ERAS=[["Alle",-9999,9999],["Før 1500",-9999,1499],["1500–1799",1500,1799],["1800–1944",1800,1944],["Efter 1945",1945,9999]];
+function eraSel(){return window.__era||0;}
+function ribHtml(){
+  var e=ERAS[eraSel()];
+  var rows=TL.filter(function(r){return r[0]>=e[1]&&r[0]<=e[2];}).sort(function(a,b){return a[0]-b[0];});
+  var h='<div class="rib" tabindex="0" aria-label="Tidslinje, rul sidelæns">';
+  rows.forEach(function(r){h+='<div class="rc"><span class="yr">'+esc(r[1])+'</span><span class="tx">'+esc(r[2])+'</span><span class="p">s. '+r[3]+'</span></div>';});
+  return h+'</div>';
+}
+function mapHtml(){
+  var h='<div class="map" role="group" aria-label="Fremgang pr. fakta-ark">';
+  SHEETS.forEach(function(sh){
+    var its=sheetItems(sh.n),ok=its.filter(function(x){var s=store.stat[x.id];return s&&s.l===1;}).length,pc=Math.round(ok/its.length*100);
+    var lbl=sh.n===27?"Ord":String(sh.n);
+    h+='<button class="seg g'+gcl(sh.n)+'" data-ch="'+sh.n+'" style="--p:'+pc+'%" title="'+esc(sh.title)+' · '+pc+' %" aria-label="'+esc(sh.title)+', '+pc+' procent rigtige">'+lbl+'</button>';
+  });
+  return h+'</div>';
+}
+function setsHtml(){
+  var h='<section class="sec"><div class="sethead"><h1 style="font-size:clamp(32px,8vw,52px)">Prøver</h1><p>Hver prøve har 25 faste spørgsmål i blandet rækkefølge fra næsten alle fakta-ark. Ingen spørgsmål gentages mellem Prøve 1-12. »Som eksamen« giver 30 minutter og 3 svarmuligheder med svar til sidst. »Øv« viser svaret med det samme.</p></div><div class="tiles">';
   DATA.sets.forEach(function(st,k){
     var b=store.sets[st.name];
     h+='<div class="tile"><div class="top"><span class="no">'+(st.kind==="official"?'OFF':String(k).padStart(2,"0"))+'</span><span class="tt">'+esc(st.name)+'</span></div><div class="bar"><i style="width:'+(b||0)+'%"></i></div><div class="meta"><span>'+st.items.length+' spørgsmål</span><span>'+(b===undefined?'ikke prøvet':'bedst '+b+'%')+'</span></div><div class="acts"><button class="chip" data-set="'+k+'" data-x="1">Som eksamen</button><button class="chip" data-set="'+k+'" data-x="0">Øv</button></div></div>';
   });
-  h+='</div></section>';
-  h+=builderHtml();
+  return h+'</div></section>';
+}
+var CROSS='<svg class="cross" viewBox="0 0 100 100" aria-hidden="true"><rect x="0" y="38" width="100" height="24" fill="currentColor"/><rect x="28" y="0" width="24" height="100" fill="currentColor"/></svg>';
+function startHtml(total,m,wr){
+  var h='<section class="poster">'+CROSS+'<h1>Medborger&shy;prøven</h1><p>Øvebank til »Læremateriale til medborgerskabsprøven« (august 2026). Alle 26 fakta-ark og ordlisten, alle årstal og begivenheder.</p><p class="nums"><b class="mono">'+total+'</b> spørgsmål · <b class="mono">'+TL.length+'</b> årstal · <b class="mono">'+m+'</b> besvaret rigtigt sidst'+(store.best!==null?' · bedste prøve <b class="mono">'+store.best+'%</b>':'')+'</p></section>';
+  h+='<button class="cta" id="m-exam"><span><b>Prøve som til eksamen</b><span class="t">25 spørgsmål fra hele bogen, 30 minutter, 3 svarmuligheder. 20 rigtige for at bestå.</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>';
+  h+='<section class="sec"><div class="rib-h"><h2>Danmarks tidslinje</h2><button class="chip" id="m-date">Test mig på årstal</button></div><div class="eras picker" id="eras">';
+  ERAS.forEach(function(e,i){h+='<button class="chip" data-e="'+i+'" aria-pressed="'+(i===eraSel()?'true':'false')+'">'+e[0]+'</button>';});
+  h+='</div>'+ribHtml()+'</section>';
+  h+='<section class="sec"><h2>Din fremgang</h2>'+mapHtml()+'<p class="mapnote">Hvert felt er et fakta-ark. Farven viser emnegruppen, fyldet viser, hvor mange spørgsmål du svarede rigtigt på sidst. Tryk for at øve emnet.</p></section>';
+  h+='<section class="sec"><h2>Øv på din måde</h2><div class="modes">';
+  h+='<button class="mode" id="m-seq"><b>Hele bogen i rækkefølge</b><span>'+(store.pos>0&&store.pos<total?'Fortsæt ved spørgsmål '+(store.pos+1)+' af '+total+'.':'Fra fakta-ark 1 til ordlisten, alle '+total+' spørgsmål.')+'</span></button>';
+  h+='<button class="mode" id="m-shuf"><b>Hele bogen blandet</b><span>Tilfældig rækkefølge på tværs af alle emner. Vælg længde nedenfor.</span></button>';
+  h+='<button class="mode" id="m-wr"'+(wr?'':' disabled')+'><b>Mine fejl</b><span>'+(wr?wr+' spørgsmål, du svarede forkert på sidst.':'Ingen fejl endnu. De samles her.')+'</span></button>';
+  h+='</div><div class="row"><span style="font-size:14px;color:var(--muted)">Længde på blandet:</span><div class="picker" id="len">';
+  [25,50,100,0].forEach(function(n){h+='<button class="chip" data-n="'+n+'" aria-pressed="'+((n===(window.__len||50))?'true':'false')+'">'+(n||'Alle '+total)+'</button>';});
+  h+='</div></div></section>';
   h+='<p class="foot">Spørgsmålene er udarbejdet ud fra det officielle læremateriale. Prøveformatet (25 spørgsmål, 30 minutter, mindst 20 rigtige) følger de offentlige oplysninger om prøven; tjek altid danskogproever.dk for de aktuelle regler. Din fremgang gemmes kun i denne browser.</p>';
+  return h;
+}
+function tidHtml(){
+  var rows=TL.slice().sort(function(a,b){return a[0]-b[0];});
+  var h='<section class="sec"><h1 style="font-size:clamp(32px,8vw,52px)">Tidslinje</h1><p style="color:var(--muted)">'+rows.length+' begivenheder i tidsrækkefølge. Sidetal viser, hvor i bogen det står.</p><div class="row"><button class="btn red" id="go">Test mig på årstal</button></div><ul class="tl">';
+  rows.forEach(function(r){h+='<li><span class="y">'+esc(r[1])+'</span><span>'+esc(r[2])+' <span class="p">s. '+r[3]+'</span></span></li>';});
+  return h+'</ul></section>';
+}
+function go2(v){window.__view=v;home();window.scrollTo(0,0);}
+function home(){
+  Q=null;
+  var view=window.__view||"start";
+  var total=ALL.length,m=mastered(),wr=wrongIds().length;
+  var h='<header class="topbar"><span class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#C8102E"/><rect x="0" y="13" width="32" height="6" fill="#fff"/><rect x="9" y="0" width="6" height="32" fill="#fff"/></svg>Medborgerprøven</span><div class="right"><nav class="tabs" aria-label="Hovedmenu">';
+  ["start","emner","prover","tid"].forEach(function(v){h+='<button class="tab" data-v="'+v+'"'+(v===view?' aria-current="page"':'')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+TABI[v]+'</svg>'+TABN[v]+'</button>';});
+  h+='</nav><button class="chip theme" id="th" aria-label="Skift lys/mørk">Lys / mørk</button></div></header>';
+  if(view==="start")h+=startHtml(total,m,wr);
+  else if(view==="emner")h+=builderHtml();
+  else if(view==="prover")h+=setsHtml();
+  else h+=tidHtml();
   app.innerHTML=h;
   document.getElementById("th").onclick=function(){
     var r=document.documentElement,cur=r.getAttribute("data-theme");
     var dark=cur?cur==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;
     r.setAttribute("data-theme",dark?"light":"dark");
   };
-  Array.prototype.forEach.call(document.querySelectorAll("#len .chip"),function(b){b.onclick=function(){window.__len=+b.getAttribute("data-n");home();};});
-  document.getElementById("m-exam").onclick=runExam;
-  document.getElementById("m-seq").onclick=function(){
-    var base=(store.pos>0&&store.pos<total)?store.pos:0;
-    startQuiz({title:"Hele bogen i rækkefølge",items:ALL.slice(base),saveOrder:true,base:base,rerun:function(){store.pos=0;save();home();}});
-  };
-  document.getElementById("m-shuf").onclick=runShuffle;
-  document.getElementById("m-date").onclick=runDates;
-  var wb=document.getElementById("m-wr");if(!wb.disabled)wb.onclick=function(){startQuiz({title:"Mine fejl",items:shuffle(wrongIds()),rerun:home});};
-  document.getElementById("m-tl").onclick=timeline;
-  Array.prototype.forEach.call(document.querySelectorAll("[data-set]"),function(b){b.onclick=function(){
+  Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(b){b.onclick=function(){go2(b.getAttribute("data-v"));};});
+  if(view==="start"){
+    Array.prototype.forEach.call(document.querySelectorAll("#len .chip"),function(b){b.onclick=function(){window.__len=+b.getAttribute("data-n");home();};});
+    Array.prototype.forEach.call(document.querySelectorAll("#eras .chip"),function(b){b.onclick=function(){window.__era=+b.getAttribute("data-e");var y=window.scrollY;home();window.scrollTo(0,y);};});
+    document.getElementById("m-exam").onclick=runExam;
+    document.getElementById("m-seq").onclick=function(){
+      var base=(store.pos>0&&store.pos<total)?store.pos:0;
+      startQuiz({title:"Hele bogen i rækkefølge",items:ALL.slice(base),saveOrder:true,base:base,rerun:function(){store.pos=0;save();home();}});
+    };
+    document.getElementById("m-shuf").onclick=runShuffle;
+    document.getElementById("m-date").onclick=runDates;
+    var wb=document.getElementById("m-wr");if(!wb.disabled)wb.onclick=function(){startQuiz({title:"Mine fejl",items:shuffle(wrongIds()),rerun:home});};
+    Array.prototype.forEach.call(document.querySelectorAll(".seg"),function(b){b.onclick=function(){
+      var n=+b.getAttribute("data-ch");
+      startQuiz({title:n===27?"Ordliste":"Fakta-ark "+n,items:sheetItems(n),rerun:function(){b.onclick();}});
+    };});
+  }
+  if(view==="tid")document.getElementById("go").onclick=runDates;
+  if(view==="prover")Array.prototype.forEach.call(document.querySelectorAll("[data-set]"),function(b){b.onclick=function(){
     var st=DATA.sets[+b.getAttribute("data-set")],ex=b.getAttribute("data-x")==="1";
     startQuiz({title:st.name+(ex?"":" · øv"),items:st.items.map(function(x){return Object.assign({type:"mc"},x);}),exam:ex,setName:st.name,rerun:function(){b.onclick();}});
   };});
-  bindBuilder();
+  if(view==="emner")bindBuilder();
 }
 var GROUPS=[["Skole og arbejde",[1,2,3,4,5]],["Samfund og familie",[6,7,8,9,10]],["Demokrati og retssamfund",[11,12,13,14,15,16]],["Religion og omverden",[17,18,19]],["Historie",[20,21]],["Kultur og traditioner",[22,23]],["Forsvar, diskrimination og klima",[24,25,26]],["Ordliste",[27]]];
 if(!store.sel)store.sel=[];
 if(!store.bset)store.bset={order:"seq",n:0,mode:"practice"};
 function isSel(n){return store.sel.indexOf(n)>=0;}
 function builderHtml(){
-  var h='<section class="sec" id="builder"><h2>Vælg emner</h2><p style="color:var(--muted);font-size:14px">Tryk på et eller flere emner. Vælg derefter rækkefølge, antal og tilstand nederst, og tryk Start.</p><div class="row"><button class="chip" id="sel-all">Vælg alle</button><button class="chip" id="sel-none">Fravælg alle</button></div>';
+  var h='<section class="sec" id="builder"><h1 style="font-size:clamp(32px,8vw,52px)">Vælg emner</h1><p style="color:var(--muted);font-size:14px">Tryk på et eller flere emner. Vælg derefter rækkefølge, antal og tilstand nederst, og tryk Start.</p><div class="row"><button class="chip" id="sel-all">Vælg alle</button><button class="chip" id="sel-none">Fravælg alle</button></div>';
   GROUPS.forEach(function(g,gi){
-    h+='<div class="grp"><div class="grp-h"><h3>'+esc(g[0])+'</h3><button class="chip" data-g="'+gi+'">Vælg gruppen</button></div><div class="tiles">';
+    h+='<div class="grp g'+(gi+1)+'"><div class="grp-h"><span class="gh">'+icon(gi)+'<h3>'+esc(g[0])+'</h3></span><button class="chip" data-g="'+gi+'">Vælg gruppen</button></div><div class="tiles">';
     g[1].forEach(function(n){
       var sh=SHEETS.filter(function(x){return x.n===n;})[0],its=sheetItems(n);
       var ok=its.filter(function(x){var t=store.stat[x.id];return t&&t.l===1;}).length;
-      h+='<button class="tile pick" data-s="'+n+'" aria-pressed="'+(isSel(n)?'true':'false')+'"><span class="top"><span class="cb" aria-hidden="true"></span><span class="no">'+(n===27?'ORD':String(n).padStart(2,"0"))+'</span><span class="tt">'+esc(sh.title)+'</span></span><span class="bar"><i style="width:'+Math.round(ok/its.length*100)+'%"></i></span><span class="meta"><span>'+its.length+' spørgsmål</span><span>s. '+sh.pages+'</span></span></button>';
+      h+='<button class="tile pick g'+(gi+1)+'" data-s="'+n+'" aria-pressed="'+(isSel(n)?'true':'false')+'"><span class="top"><span class="cb" aria-hidden="true"></span><span class="no">'+(n===27?'ORD':String(n).padStart(2,"0"))+'</span><span class="tt">'+esc(sh.title)+'</span></span><span class="bar"><i style="width:'+Math.round(ok/its.length*100)+'%"></i></span><span class="meta"><span>'+its.length+' spørgsmål</span><span>s. '+sh.pages+'</span></span></button>';
     });
     h+='</div></div>';
   });
