@@ -145,9 +145,10 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 var app=document.getElementById("app");
 var SHEETS=DATA.sheets, TL=DATA.timeline;
 var SRC=function(s,p){return (s===27?"Ordliste":"Fakta-ark "+s)+" · s. "+p;};
+function srcOf(it){return it.src||(it.s?SRC(it.s,it.p):"Tidslinje · s. "+it.p);}
 var STORE_KEY="mbp-ovebank-v1";
-var store={stat:{},pos:0,best:null};
-try{var raw=localStorage.getItem(STORE_KEY);if(raw){var o=JSON.parse(raw);if(o&&o.stat)store=o;}}catch(e){}
+var store={stat:{},pos:0,best:null,sets:{}};
+try{var raw=localStorage.getItem(STORE_KEY);if(raw){var o=JSON.parse(raw);if(o&&o.stat){store=o;if(!store.sets)store.sets={};}}}catch(e){}
 function save(){try{localStorage.setItem(STORE_KEY,JSON.stringify(store));}catch(e){}}
 
 /* ---------- helpers ---------- */
@@ -230,7 +231,7 @@ function renderQuiz(){
   var h='<div class="qtop"><button class="back" id="x">← Afslut</button><div class="qtitle">'+esc(cfg.title)+'</div>'+(exam?'<div class="timer" id="timer">'+fmt(Q.left)+'</div>':'<div class="timer mono">'+(Q.i+1)+'/'+n+'</div>')+'</div>';
   h+='<div class="prog"><div class="bar"><i style="width:'+Math.round((Q.i+(done?1:0))/n*100)+'%"></i></div>'+(exam?'<span class="mono" style="font-size:13px">'+(Q.i+1)+'/'+n+'</span>':'')+'</div>';
   h+='<div class="card"><div class="q" id="qq">'+esc(it.q)+'</div>';
-  if(!exam&&it.type==="mc"&&done)h+='<div class="src">'+esc(it.s?SRC(it.s,it.p):"Tidslinje · s. "+it.p)+'</div>';
+  if(!exam&&it.type==="mc"&&done)h+='<div class="src">'+esc(srcOf(it))+'</div>';
   if(it.type==="mc"){
     h+='<div class="opts" role="group" aria-label="Svarmuligheder">';
     it.opts.forEach(function(o,k){
@@ -328,6 +329,7 @@ function finish(){
     if(Q.cfg.exam&&!it.nostat)rec(it.id,ok);
   });
   var n=Q.items.length,pct=Math.round(right/n*100);
+  if(Q.cfg.setName){var ps=store.sets[Q.cfg.setName];if(ps===undefined||pct>ps)store.sets[Q.cfg.setName]=pct;}
   if(Q.cfg.exam){var prev=store.best;if(prev===null||pct>prev)store.best=pct;}
   if(Q.cfg.saveOrder&&Q.i>=n-1)store.pos=0;
   save();
@@ -343,7 +345,7 @@ function finish(){
     wrong.forEach(function(it){
       var k=Q.items.indexOf(it),a=Q.ans[k];
       h+='<div class="revi"><div><b>'+esc(it.q)+'</b></div>';
-      if(it.type==="mc")h+='<div class="a">Du svarede: '+esc(a===null?"(intet svar)":a)+'<br>Rigtigt: <b>'+esc(it.right)+'</b></div><div class="src">'+esc(it.s?SRC(it.s,it.p):"Tidslinje · s. "+it.p)+'</div>';
+      if(it.type==="mc")h+='<div class="a">Du svarede: '+esc(a===null?"(intet svar)":a)+'<br>Rigtigt: <b>'+esc(it.right)+'</b></div><div class="src">'+esc(srcOf(it))+'</div>';
       else h+='<div class="a">Rigtig rækkefølge:<br><b>'+it.events.map(function(e,j){return (j+1)+'. '+esc(e[2])+' ('+esc(e[1])+')';}).join('<br>')+'</b></div>';
       h+='</div>';
     });
@@ -375,6 +377,12 @@ function home(){
   h+='</div><div class="row"><span style="font-size:14px;color:var(--muted)">Længde på blandet:</span><div class="picker" id="len">';
   [25,50,100,0].forEach(function(n){h+='<button class="chip" data-n="'+n+'" aria-pressed="'+((n===(window.__len||50))?'true':'false')+'">'+(n||'Alle '+total)+'</button>';});
   h+='</div></div></section>';
+  h+='<section class="sec"><h2>Færdige prøver, 25 spørgsmål hver</h2><p style="color:var(--muted);font-size:14px">Hver prøve har faste spørgsmål i blandet rækkefølge fra næsten alle fakta-ark. Ingen spørgsmål gentages mellem Prøve 1-12. »Som eksamen« giver 30 minutter og 3 svarmuligheder med svar til sidst. »Øv« viser svaret med det samme.</p><div class="tiles">';
+  DATA.sets.forEach(function(st,k){
+    var b=store.sets[st.name];
+    h+='<div class="tile"><div class="top"><span class="no">'+(st.kind==="official"?'OFF':String(k).padStart(2,"0"))+'</span><span class="tt">'+esc(st.name)+'</span></div><div class="bar"><i style="width:'+(b||0)+'%"></i></div><div class="meta"><span>'+st.items.length+' spørgsmål</span><span>'+(b===undefined?'ikke prøvet':'bedst '+b+'%')+'</span></div><div class="acts"><button class="chip" data-set="'+k+'" data-x="1">Som eksamen</button><button class="chip" data-set="'+k+'" data-x="0">Øv</button></div></div>';
+  });
+  h+='</div></section>';
   h+='<section class="sec"><h2>Emner (fakta-ark)</h2><div class="tiles">';
   SHEETS.forEach(function(sh){
     var its=sheetItems(sh.n),ok=its.filter(function(x){var s=store.stat[x.id];return s&&s.l===1;}).length;
@@ -398,6 +406,10 @@ function home(){
   document.getElementById("m-date").onclick=runDates;
   var wb=document.getElementById("m-wr");if(!wb.disabled)wb.onclick=function(){startQuiz({title:"Mine fejl",items:shuffle(wrongIds()),rerun:home});};
   document.getElementById("m-tl").onclick=timeline;
+  Array.prototype.forEach.call(document.querySelectorAll("[data-set]"),function(b){b.onclick=function(){
+    var st=DATA.sets[+b.getAttribute("data-set")],ex=b.getAttribute("data-x")==="1";
+    startQuiz({title:st.name+(ex?"":" · øv"),items:st.items.map(function(x){return Object.assign({type:"mc"},x);}),exam:ex,setName:st.name,rerun:function(){b.onclick();}});
+  };});
   Array.prototype.forEach.call(document.querySelectorAll("[data-t]"),function(b){b.onclick=function(){
     var n=+b.getAttribute("data-t"),sh=SHEETS.filter(function(s){return s.n===n;})[0];
     var its=sheetItems(n),m=b.getAttribute("data-m")==="shuf";

@@ -59,12 +59,38 @@ for n in range(1, 28):
         out.append(r)
     sheets.append({"n": n, "title": titles[n][0], "pages": titles[n][1], "q": out})
 
+import random
+rng = random.Random(2026)
+NSETS = 12
+queues = {}
+for sh in sheets:
+    if sh["n"] == 27: continue
+    idx = list(range(len(sh["q"]))); rng.shuffle(idx); queues[sh["n"]] = idx
+sets = []
+for k in range(NSETS):
+    skip = k % 26 + 1
+    picks = []
+    for n in sorted(queues):
+        if n == skip: continue
+        i = queues[n].pop()
+        r = sh_q = sheets[n-1]["q"][i]
+        wr = r[2:-1]; wr = rng.sample(wr, 2)
+        picks.append({"id": "%d:%d" % (n, i), "s": n, "q": r[0], "right": r[1], "wrongs": wr, "p": r[-1]})
+    rng.shuffle(picks)
+    sets.append({"name": "Prøve %d" % (k + 1), "kind": "set", "items": picks})
+off = json.load(open(os.path.join(here, "q", "official2025.json"), encoding="utf-8"))
+items = []
+for j, r in enumerate(off):
+    items.append({"id": "off:%d" % j, "s": 0, "q": r[0], "right": r[1], "wrongs": r[2:-1], "p": r[-1], "nostat": True,
+                  "src": "Officiel prøve 27. maj 2025 · bogen s. %d" % r[-1]})
+sets.insert(0, {"name": "Officiel prøve, maj 2025", "kind": "official", "items": items})
+
 tl = json.load(open(os.path.join(here, "q", "timeline.json"), encoding="utf-8"))
 tl_seen = {}
 for e in tl:
     if len(e) != 4: problems.append(("tl", e, "forkert længde"))
 
-data = "const DATA=" + json.dumps({"sheets": sheets, "timeline": tl}, ensure_ascii=False, separators=(",", ":")) + ";"
+data = "const DATA=" + json.dumps({"sheets": sheets, "timeline": tl, "sets": sets}, ensure_ascii=False, separators=(",", ":")) + ";"
 tpl = open(os.path.join(here, "template.html"), encoding="utf-8").read()
 html = tpl.replace("__DATA__", data.replace("</", "<\\/"))
 outp = os.path.join(here, "medborgerprove.html")
@@ -75,3 +101,15 @@ print("spørgsmål i alt:", total, "· tidslinje:", len(tl), "· filstørrelse K
 for s in sheets: print("  %2d %-60s %3d" % (s["n"], s["title"][:60], len(s["q"])))
 print("problemer:", len(problems))
 for p in problems: print("  ", p)
+
+# rapport
+with open(os.path.join(here, "RAPPORT.md"), "w", encoding="utf-8") as f:
+    f.write("# Rapport: medborgerprøven øvebank\n\nKilde: Læremateriale til medborgerskabsprøven (aug. 2026), 156 sider.\n\n")
+    f.write("| Nr | Emne | Sider | Spørgsmål |\n|---|---|---|---|\n")
+    for sh in sheets: f.write("| %d | %s | %s | %d |\n" % (sh["n"], sh["title"], sh["pages"], len(sh["q"])))
+    f.write("| | **I alt** | | **%d** |\n\n" % total)
+    f.write("Faste prøver: officiel maj 2025 + %d prøver à 25 spørgsmål (ingen spørgsmål gentages mellem prøverne).\n" % NSETS)
+print("sæt:", len(sets), [len(x["items"]) for x in sets])
+# ingen overlap
+allids = [it["id"] for st in sets if st["kind"]=="set" for it in st["items"]]
+print("unikke spørgsmål i prøver:", len(set(allids)), "af", len(allids))
