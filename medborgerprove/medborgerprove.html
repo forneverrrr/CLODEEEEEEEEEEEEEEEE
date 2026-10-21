@@ -25,7 +25,7 @@
   --ok:#62D393; --okbg:#12301F; --bad:#FF8F85; --badbg:#3B1815; color-scheme:dark;
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-ui);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-ui);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 96px}
 .wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
 h1,h2,h3{margin:0;line-height:1.15;text-wrap:balance}
 h1{font-size:clamp(30px,6vw,44px);font-weight:800;letter-spacing:-.02em}
@@ -66,6 +66,24 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .picker{display:flex;gap:6px;flex-wrap:wrap}
 .picker .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+.grp{display:flex;flex-direction:column;gap:8px}
+.grp-h{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.grp-h h3{font-size:16px;font-weight:700}
+button.tile.pick{text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
+.tile.pick:hover{border-color:var(--ink)}
+.tile.pick[aria-pressed="true"]{border-color:var(--ink);background:var(--soft)}
+.tile.pick .top{display:flex;gap:10px;align-items:baseline}
+.tile.pick .tt{font-weight:700;line-height:1.25;overflow-wrap:anywhere;min-width:0}
+.tile.pick .bar{display:block}.tile.pick .meta{display:flex;justify-content:space-between}
+.cb{width:16px;height:16px;border:2px solid var(--muted);border-radius:4px;flex:none;align-self:center;display:inline-grid;place-items:center}
+.pick[aria-pressed="true"] .cb{background:var(--ink);border-color:var(--ink)}
+.pick[aria-pressed="true"] .cb::after{content:"";width:8px;height:4px;border-left:2px solid var(--bg);border-bottom:2px solid var(--bg);transform:rotate(-45deg) translate(1px,-1px)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.settings{display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.settings .lbl{font-size:13px;font-weight:700;min-width:84px;color:var(--muted)}
+.startbar{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.startbar #sum{font-size:13px}
 /* quiz */
 .qtop{display:flex;align-items:center;gap:12px;justify-content:space-between}
 .back{background:none;border:0;padding:6px 0;font-weight:600;color:var(--muted)}
@@ -209,13 +227,13 @@ function startQuiz(cfg){
     }else{c.shown=shuffle(c.events);}
     return c;
   });
-  Q={cfg:cfg,items:items,i:0,ans:items.map(function(){return null;}),done:items.map(function(){return false;}),t0:Date.now(),left:cfg.exam?30*60:0,timer:null,finished:false};
+  Q={cfg:cfg,items:items,i:0,ans:items.map(function(){return null;}),done:items.map(function(){return false;}),t0:Date.now(),total:cfg.seconds||1800,left:cfg.exam?(cfg.seconds||1800):0,timer:null,finished:false};
   if(cfg.exam){Q.timer=setInterval(tick,1000);}
   renderQuiz();
 }
 function tick(){
   if(!Q||Q.finished){return;}
-  Q.left=Math.max(0,30*60-Math.floor((Date.now()-Q.t0)/1000));
+  Q.left=Math.max(0,Q.total-Math.floor((Date.now()-Q.t0)/1000));
   var t=document.getElementById("timer");
   if(t){t.textContent=fmt(Q.left);t.classList.toggle("low",Q.left<=300);}
   if(Q.left<=0)finish();
@@ -384,12 +402,7 @@ function home(){
     h+='<div class="tile"><div class="top"><span class="no">'+(st.kind==="official"?'OFF':String(k).padStart(2,"0"))+'</span><span class="tt">'+esc(st.name)+'</span></div><div class="bar"><i style="width:'+(b||0)+'%"></i></div><div class="meta"><span>'+st.items.length+' spørgsmål</span><span>'+(b===undefined?'ikke prøvet':'bedst '+b+'%')+'</span></div><div class="acts"><button class="chip" data-set="'+k+'" data-x="1">Som eksamen</button><button class="chip" data-set="'+k+'" data-x="0">Øv</button></div></div>';
   });
   h+='</div></section>';
-  h+='<section class="sec"><h2>Emner (fakta-ark)</h2><div class="tiles">';
-  SHEETS.forEach(function(sh){
-    var its=sheetItems(sh.n),ok=its.filter(function(x){var s=store.stat[x.id];return s&&s.l===1;}).length;
-    h+='<div class="tile"><div class="top"><span class="no">'+(sh.n===27?'ORD':String(sh.n).padStart(2,"0"))+'</span><span class="tt">'+esc(sh.title)+'</span></div><div class="bar"><i style="width:'+Math.round(ok/its.length*100)+'%"></i></div><div class="meta"><span>'+its.length+' spørgsmål</span><span>s. '+sh.pages+'</span></div><div class="acts"><button class="chip" data-t="'+sh.n+'" data-m="seq">I rækkefølge</button><button class="chip" data-t="'+sh.n+'" data-m="shuf">Blandet</button></div></div>';
-  });
-  h+='</div></section>';
+  h+=builderHtml();
   h+='<p class="foot">Spørgsmålene er udarbejdet ud fra det officielle læremateriale. Prøveformatet (25 spørgsmål, 30 minutter, mindst 20 rigtige) følger de offentlige oplysninger om prøven; tjek altid danskogproever.dk for de aktuelle regler. Din fremgang gemmes kun i denne browser.</p>';
   app.innerHTML=h;
   document.getElementById("th").onclick=function(){
@@ -411,11 +424,72 @@ function home(){
     var st=DATA.sets[+b.getAttribute("data-set")],ex=b.getAttribute("data-x")==="1";
     startQuiz({title:st.name+(ex?"":" · øv"),items:st.items.map(function(x){return Object.assign({type:"mc"},x);}),exam:ex,setName:st.name,rerun:function(){b.onclick();}});
   };});
-  Array.prototype.forEach.call(document.querySelectorAll("[data-t]"),function(b){b.onclick=function(){
-    var n=+b.getAttribute("data-t"),sh=SHEETS.filter(function(s){return s.n===n;})[0];
-    var its=sheetItems(n),m=b.getAttribute("data-m")==="shuf";
-    startQuiz({title:(n===27?"Ordliste":"Fakta-ark "+n+": "+sh.title)+(m?" (blandet)":""),items:m?shuffle(its):its,rerun:function(){b.onclick();}});
+  bindBuilder();
+}
+var GROUPS=[["Skole og arbejde",[1,2,3,4,5]],["Samfund og familie",[6,7,8,9,10]],["Demokrati og retssamfund",[11,12,13,14,15,16]],["Religion og omverden",[17,18,19]],["Historie",[20,21]],["Kultur og traditioner",[22,23]],["Forsvar, diskrimination og klima",[24,25,26]],["Ordliste",[27]]];
+if(!store.sel)store.sel=[];
+if(!store.bset)store.bset={order:"seq",n:0,mode:"practice"};
+function isSel(n){return store.sel.indexOf(n)>=0;}
+function builderHtml(){
+  var h='<section class="sec" id="builder"><h2>Vælg emner</h2><p style="color:var(--muted);font-size:14px">Tryk på et eller flere emner. Vælg derefter rækkefølge, antal og tilstand nederst, og tryk Start.</p><div class="row"><button class="chip" id="sel-all">Vælg alle</button><button class="chip" id="sel-none">Fravælg alle</button></div>';
+  GROUPS.forEach(function(g,gi){
+    h+='<div class="grp"><div class="grp-h"><h3>'+esc(g[0])+'</h3><button class="chip" data-g="'+gi+'">Vælg gruppen</button></div><div class="tiles">';
+    g[1].forEach(function(n){
+      var sh=SHEETS.filter(function(x){return x.n===n;})[0],its=sheetItems(n);
+      var ok=its.filter(function(x){var t=store.stat[x.id];return t&&t.l===1;}).length;
+      h+='<button class="tile pick" data-s="'+n+'" aria-pressed="'+(isSel(n)?'true':'false')+'"><span class="top"><span class="cb" aria-hidden="true"></span><span class="no">'+(n===27?'ORD':String(n).padStart(2,"0"))+'</span><span class="tt">'+esc(sh.title)+'</span></span><span class="bar"><i style="width:'+Math.round(ok/its.length*100)+'%"></i></span><span class="meta"><span>'+its.length+' spørgsmål</span><span>s. '+sh.pages+'</span></span></button>';
+    });
+    h+='</div></div>';
+  });
+  var bs=store.bset;
+  function pk(name,opts,cur){return '<div class="row"><span class="lbl">'+({order:"Rækkefølge",n:"Antal",mode:"Tilstand"})[name]+'</span><div class="picker" data-p="'+name+'">'+opts.map(function(o){return '<button class="chip" data-v="'+o[0]+'" aria-pressed="'+(String(cur)===String(o[0])?'true':'false')+'">'+o[1]+'</button>';}).join("")+'</div></div>';}
+  h+='<div class="settings">'+pk("order",[["seq","I bogens rækkefølge"],["shuf","Blandet"]],bs.order)+pk("n",[[10,"10"],[25,"25"],[50,"50"],[100,"100"],[0,"Alle valgte"]],bs.n)+pk("mode",[["practice","Øv: svar med det samme"],["exam","Som eksamen: tid, svar til sidst"]],bs.mode)+'</div>';
+  h+='</section><div class="startbar"><span id="sum" class="mono"></span><button class="btn red" id="go-sel">Start</button></div>';
+  return h;
+}
+function selCount(){var c=0;store.sel.forEach(function(n){c+=sheetItems(n).length;});return c;}
+function updSum(){
+  var c=selCount(),n=store.bset.n,use=n&&n<c?n:c;
+  var sm=document.getElementById("sum"),go=document.getElementById("go-sel");
+  if(!sm)return;
+  sm.textContent=store.sel.length?store.sel.length+" emner · "+use+" af "+c+" spørgsmål":"Ingen emner valgt";
+  go.disabled=!store.sel.length;
+}
+function bindBuilder(){
+  Array.prototype.forEach.call(document.querySelectorAll(".pick"),function(b){b.onclick=function(){
+    var n=+b.getAttribute("data-s"),k=store.sel.indexOf(n);
+    if(k>=0)store.sel.splice(k,1);else store.sel.push(n);
+    b.setAttribute("aria-pressed",k>=0?"false":"true");save();updSum();
   };});
+  function setAll(arr){store.sel=arr.slice();Array.prototype.forEach.call(document.querySelectorAll(".pick"),function(b){b.setAttribute("aria-pressed",isSel(+b.getAttribute("data-s"))?"true":"false");});save();updSum();}
+  document.getElementById("sel-all").onclick=function(){setAll(SHEETS.map(function(x){return x.n;}));};
+  document.getElementById("sel-none").onclick=function(){setAll([]);};
+  Array.prototype.forEach.call(document.querySelectorAll("[data-g]"),function(b){b.onclick=function(){
+    var g=GROUPS[+b.getAttribute("data-g")][1],all=g.every(isSel);
+    var cur=store.sel.filter(function(n){return g.indexOf(n)<0;});
+    setAll(all?cur:cur.concat(g));
+  };});
+  Array.prototype.forEach.call(document.querySelectorAll(".picker[data-p]"),function(p){
+    var key=p.getAttribute("data-p");
+    Array.prototype.forEach.call(p.querySelectorAll(".chip"),function(b){b.onclick=function(){
+      var v=b.getAttribute("data-v");store.bset[key]=key==="n"?+v:v;
+      Array.prototype.forEach.call(p.querySelectorAll(".chip"),function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});
+      save();updSum();
+    };});
+  });
+  document.getElementById("go-sel").onclick=startSel;
+  updSum();
+}
+function startSel(){
+  if(!store.sel.length)return;
+  var nums=store.sel.slice().sort(function(a,b){return a-b;}),items=[];
+  nums.forEach(function(n){items=items.concat(sheetItems(n));});
+  var bs=store.bset;
+  if(bs.order==="shuf")items=shuffle(items);
+  if(bs.n&&bs.n<items.length)items=items.slice(0,bs.n);
+  var ex=bs.mode==="exam";
+  var title=nums.length===1?(nums[0]===27?"Ordliste":"Fakta-ark "+nums[0]):"Egne emner ("+nums.length+")";
+  startQuiz({title:title,items:items,exam:ex,seconds:Math.max(60,items.length*72),rerun:startSel});
 }
 function runExam(){
   var per=Math.floor(25/26),pick=[];
