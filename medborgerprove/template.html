@@ -143,7 +143,8 @@ button.tile.pick{text-align:left;cursor:pointer;font:inherit;color:inherit;trans
 .revi::before{content:"Forkert";align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--bad);background:var(--badbg);border-radius:4px;padding:1px 8px}
 .revi .a{color:var(--muted);font-size:14px}.revi .a b{color:var(--ok)}
 /* tidslinje */
-.tl{border-left:3px solid var(--ink);margin-left:6px;display:flex;flex-direction:column}
+.tl{position:relative;padding-left:3px;margin-left:6px;display:flex;flex-direction:column}
+.tl::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ink)}
 .tl li{list-style:none;display:grid;grid-template-columns:130px 1fr;gap:12px;padding:7px 0 7px 14px;position:relative;font-size:15px}
 .tl li::before{content:"";position:absolute;left:-8px;top:15px;width:11px;height:11px;border-radius:50%;background:var(--accent)}
 .tl .y{font-family:var(--f-mono);font-size:13px;font-weight:500;padding-top:2px}
