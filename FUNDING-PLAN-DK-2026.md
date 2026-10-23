@@ -275,3 +275,46 @@
 - [AAU Startup Grant](https://students.aau.dk/choices-along-the-way-and-jobs/entrepreneurship-and-innovation/aau-startup-program/aau-startup-grant)
 - [AAU Entrepreneurs in Residence](https://www.innovate.aau.dk/om-innovate/beboere/entrepreneurs-in-residence)
 - [DI: SMV-puljer 2026 (eksport)](https://www.danskindustri.dk/vi-radgiver-dig/ecommerce/nyhedsarkiv/nyheder/2026/02/fa-stotte-til-eksport-og-cybersikkerhed-med-forarets-smvpuljer/)
+
+---
+
+## 12. Реальные примеры и «фирма только ради пособий»
+
+### Как получают на практике (легальные кейсы)
+- **Leander** (мебель, 14 сотрудников): 25 000 kr из SMV:Digital на консультанта,
+  который помог выбрать платформу для интернет-магазина (DI, 2019).
+- **Billig-Arbejdstøj.dk** (интернет-магазин рабочей одежды): SMV:Digital на
+  внедрение роботизированного склада; по словам компании, производительность склада
+  выросла на 275 % (Dansk Erhverv, 2021).
+- Общее у всех: **сначала есть реальная задача и расход**, грант покрывает его часть.
+
+### Почему фирма «только ради денег» не работает
+1. **Почти все гранты — это софинансирование.** SMV:Digital возвращает 50 %,
+   Innobooster — 35 % от уже потраченного. Без реального проекта вы всегда в минусе.
+2. **Новая фирма не даёт нового лимита.** Лимит de minimis (300 000 евро за 3 года)
+   считается на «одно предприятие»: все фирмы под контролем одного владельца
+   считаются вместе. С 2026 года вся помощь видна в общем реестре ЕС.
+3. **Пособия на человека не растут от фирмы.** Dagpenge и kontanthjælp при своём
+   бизнесе урезают или теряются, а не добавляются.
+4. **Проверка задним числом.** Erhvervsstyrelsen требует возврата (пример — тысячи
+   дел по ковидным компенсациям). Ложные данные в заявке — это мошенничество
+   (bedrageri, straffeloven § 279) или мошенничество с субсидиями (§ 289a).
+
+### Когда новая фирма оправдана
+- Реально отдельный продукт или бизнес: например, ApS для AI-платформы, которую вы
+  лицензируете другим консультантам, отдельно от услуги BoligCheck.
+- Forening для бесплатного просвещения (см. раздел 11, п. 8).
+
+### Настоящий «лайфхак»
+Подавать только на то, что вы потратили бы и так: консультант, сотрудник, облако,
+обучение, выход на рынок. Тогда грант — это реальная скидка 35–100 % на ваши
+плановые расходы.
+
+Источники к разделу:
+- [DI: Leander, SMV:Digital](https://www.danskindustri.dk/di-business/arkiv/nyheder/2019/9/farre-end-249-ansatte-fa-hjalp-til-digitalisering/)
+- [Dansk Erhverv: Billig-Arbejdstøj.dk](https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2021/september/ny-pulje-pa-60-millioner-kroner-til-smver/)
+- [Guichet.lu: de minimis, single undertaking](https://guichet.public.lu/en/entreprises/support/glossaire/r/regle-minimis.html)
+- [Forskningsrådet: de minimis 300 000 EUR](https://www.forskningsradet.no/statsstotte/bagatellmessig-stotte/)
+- [UM: de minimis erklæring](https://um.dk/media/t5kbxln0/solemn-declaration-for-sme.pdf)
+- [virk.dk: tilbagebetaling af kompensation](https://virk.dk/vejledning/slutafregning/tilbagebetaling)
+- [FT: svar om manglende indberetning (2023)](https://ft.dk/samling/20222/almdel/ERU/bilag/226/2735676.pdf)
