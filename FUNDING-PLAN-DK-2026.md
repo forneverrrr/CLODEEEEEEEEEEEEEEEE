@@ -462,3 +462,67 @@
 - [News on the Block: Peabody + Kestrix](https://www.newsontheblock.com/news-opinion/peabody-and-partners-to-harness-thermal-imaging-tech-to-boost-retrofit-goals)
 - [Construction Management: Google Maps of heat loss](https://constructionmanagement.co.uk/can-the-google-maps-of-heat-loss-help-decarbonise-the-uk/)
 - [Aalborg budgetaftale 2026–2029](https://www.aalborg.dk/p/Filer%20-%20dispensation/%C3%98E%20Budget%20og%20regnskab/Budget%202026-2029/Budgetaftale-2026-2029.pdf)
+
+---
+
+## 14. Region Nordjylland и новая больница (Aalborg Universitetshospital, Aalborg Øst)
+
+Это отдельное направление B2G (продажи государству), а не BoligCheck. Цикл продаж
+долгий (закупки через udbud, от 6 до 24 месяцев), поэтому начинать стоит с пилота
+через инновационные каналы региона.
+
+### Что известно о проблемах (весна 2026)
+- Больница открылась в мае 2026 года. Вентиляция пока работает не оптимально,
+  встроенные жалюзи сломаны, в палатах и офисах **27–31 °C** (DR, DSR).
+- Системы очистки воздуха с ламинарным потоком (LAF) в операционных **сильно
+  шумят** (DSR).
+- 8–9 профсоюзов пожаловались в Styrelsen for Patientsikkerhed и Arbejdstilsynet.
+- Руководство: около **года** на тонкую настройку температуры и воздухообмена по
+  зонам. В этот период исправлять дефекты обязаны подрядчики по гарантии; чужой
+  компании «чинить вентиляцию» не дадут.
+- Цели региона: −40 % CO2 к 2030 году; −77 % в эксплуатации зданий (с 2018 по 2030).
+  У каждой больницы есть локальный климатический план на 2026–2028 годы.
+- Danske Regioner: **anlægsloft** (лимит капитальных вложений регионов) мешает
+  зелёным инвестициям вроде солнечных панелей.
+
+### Что реально можно предложить
+| # | Идея | Почему пройдёт | Кто нужен |
+|---|---|---|---|
+| 1 | **Карта внутреннего климата + обратная связь персонала**: датчики (температура, CO2, шум) + простая форма «в этой комнате жарко или шумно» → приоритеты для отдела эксплуатации и подрядчиков | Боль прямо сейчас, низкий порог, помогает самой больнице доказать подрядчикам, где дефекты. Похоже на ваш опыт связки нефрологии и семейных врачей: соединить две стороны, которые не видят данных друг друга | Поставщик датчиков, AAU BUILD (экспертиза по внутреннему климату) |
+| 2 | **Снижение вентиляции в пустых операционных** (setback по датчикам присутствия) | Доказано: в Испании −69 % электричества и −75 % газа в операционных, более 100 т CO2 в год на 2 операционные; Cleveland Clinic — −1,35 ГВт·ч в год на 55 операционных **без роста инфекций** | Гигиена больницы, подрядчик по вентиляции, AAU |
+| 3 | **Солнечные панели на крышах и парковках через PPA или ESCO**: инвестор ставит и владеет, регион платит за энергию или из экономии | Обходит проблему капитальных вложений (нужно проверить, как это учитывается в anlægsloft) | Инвестор или ESCO-компания, юрист по закупкам |
+| 4 | **Улавливание анестезирующих газов** | В мире это крупная статья CO2 больниц (не проверял применимость в Дании) | Медтех-партнёр |
+
+### Как зайти
+1. **Innovationsklinikken** (инновационное подразделение региона при Aalborg
+   Universitetshospital): онлайн-форма для компаний, проверка клинической
+   потребности, встречи с персоналом, соглашения о совместной разработке.
+   Вопросы продаж и маркетинга — в отдел закупок.
+2. **One-Stop-Shop региона** для сотрудничества с бизнесом.
+3. **SUND Innovation** (AAU + Aalborg Kommune + регион) — инновационная среда в
+   Aalborg Øst, прямо рядом с больницей. ЕС назначил регион «Regional Innovation
+   Valley».
+4. Финансирование пилота: Innobooster (с AAU как поставщиком знаний), SMV:Grøn,
+   позже Interreg и LIFE.
+
+### Честно о рисках
+- Одному без партнёра (BMS- или HVAC-фирма) регион вряд ли купит инженерное
+  решение. Реалистичная роль на старте: **интегратор данных и пилотов**, а не
+  поставщик оборудования.
+- Не вмешиваться в гарантийный процесс подрядчиков; позиционировать как помощь
+  больнице в документировании.
+- Данные о персонале и пациентах — только анонимно, по GDPR.
+
+Источники к разделу:
+- [TV 2: supersygehus problemer](https://nyheder.tv2.dk/samfund/2026-05-11-supersygehus-er-lige-aabnet-nu-vaelter-problemerne-frem)
+- [DR: problemer ved indvielsen](https://www.dr.dk/nyheder/indland/ramt-af-problemer-og-presset-personale-alligevel-klippede-dronning-mary-snoren-til-nyt-hospital-i)
+- [DSR: 31 grader og LAF-støj](https://dsr.dk/fag-og-udvikling/sygeplejersken/sygeplejersken-online/straalefare-stoejgener-og-31-grader-paa-supersygehus-nu-slaar-dsr-alarm/)
+- [DR: fagforeninger klager](https://www.dr.dk/nyheder/indland/fagforeninger-klager-over-helt-nyt-sygehus-til-fare-patienter-og-ansatte)
+- [Ugeskriftet: plan for udbedring](https://ugeskriftet.dk/nyhed/bekymringer-i-aalborg-brug-en-plan-hvornaar-man-forventer-problemerne-udbedret)
+- [RN: lokal klimahandlingsplan 2026–2028 (psykiatri)](https://rn.dk/-/media/Rn_dk/Om-Region-Nordjylland/Baeredygtighed/Lokale-klimahandlingsplaner/Lokal-klimahandlingsplan-2026-2028-Aalborg-Universitetshospital-Psykiatriomraadet-tilgaengelig.pdf)
+- [RN: klimaregnskab 2024](https://rn.dk/-/media/Rn_dk/Om-Region-Nordjylland/Baeredygtighed/Klimaregnskaber/RegionNordjylland_Klimaregnskab_2024.pdf)
+- [Altinget: anlægsloftet og grønne investeringer](https://www.altinget.dk/forsyning/artikel/danske-regioner-anlaegsloftet-staar-i-vejen-for-regionernes-klimaambitioner)
+- [Innovationsklinikken: for virksomheder](https://innovationsklinikken.rn.dk/For-virksomheder)
+- [RN: One-Stop-Shop brochure](https://rn.dk/-/media/Rn_dk/Om-Region-Nordjylland/Samarbejde-med-erhvervsliv/One-Stop-Shop/Brochure_210x210-4sider_finale-LOW.ashx?la=da)
+- [Applied Sciences 2022: OR ventilation setback](https://doaj.org/article/9b1bf03a68e3459ea520ef269dbaaf5e)
+- [Cleveland Clinic: lower air turnover in unoccupied ORs](https://consultqd.clevelandclinic.org/lower-air-turnover-in-unoccupied-ors-shows-safety-and-savings-potential)
