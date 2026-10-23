@@ -3,7 +3,7 @@
 Дата исследования: 23 октября 2026.
 
 Исхожу из того, что «NordInsideDeco» — это NordIndsigt (nordindsigt.dk), BoligCheck,
-независимая проверка жилья для покупателя, база в районе Randers (Midtjylland).
+независимая проверка жилья для покупателя, база в **Aalborg (Nordjylland)**.
 Если имелась в виду другая компания (например, про интерьер или декор), большая
 часть списка подходит и ей, кроме раздела 6 про регулирование.
 
@@ -16,9 +16,9 @@
 
 | # | Действие | Почему срочно |
 |---|---|---|
-| 1 | Записаться на **бесплатную** встречу в **Erhvervshus Midtjylland** (erhvervshusmidtjylland.dk) | Через них подаются почти все пулы, и они бесплатно помогают с заявкой |
+| 1 | Записаться на **бесплатную** встречу в **Erhvervshus Nordjylland** (ehnj.dk) и в **Business Aalborg** (StartUp Café Aalborg) | Через erhvervshus подаются почти все пулы, и они бесплатно помогают с заявкой. Business Aalborg — бесплатный стартап-консалтинг от коммуны |
 | 2 | Начать черновик заявки на **SMV:Digital** | Черновик, по данным Virksomhedsguiden, открыт с **26.10.2026**. Следующее окно, вероятно, **9–16.11.2026** (не подтверждено официально) |
-| 3 | Если вы студент или недавний выпускник, подать на **Mikrolegat** от Fonden for Entreprenørskab | Срок **15.11.2026** |
+| 3 | ~~Mikrolegat~~ — **не подходит**: курсы датского (danskuddannelse) не считаются учёбой для этого гранта | — |
 | 4 | Решить вопрос с моms и формой компании (раздел 4) | От этого зависят цены для клиентов и вычет расходов уже в 2026 году |
 
 ---
@@ -27,9 +27,8 @@
 
 | Программа | Что даёт | Подходит ли нам |
 |---|---|---|
-| **Erhvervshus Midtjylland** | Бесплатный и нейтральный консалтинг: бизнес-модель, рост, цифровизация, экспорт, помощь с заявками на Innobooster и SMV-пулы. Офисы в Aarhus, Herning, Horsens. Цель на 2026 год: 5 000 предпринимателей в программах | **Да, это точка входа номер один** |
-| **Business Randers / Randers Kommune erhvervsservice** | Местный бизнес-сервис. В политике Randers на 2024–2026 годы предпринимательство значится приоритетом | Да, спросить про местные курсы и нетворкинг |
-| **Business Boost for kvindelige iværksættere i Østjylland** | Пилотная программа роста для женщин-основателей в Randers и окрестностях (по документам горсовета). Статус на 2026 год не подтверждён | Только если основатель — женщина |
+| **Erhvervshus Nordjylland** | Бесплатный и нейтральный консалтинг для SMV: цифровизация, зелёная трансформация, интернационализация, рабочая сила, помощь с заявками на Innobooster и SMV-пулы | **Да, это точка входа номер один** |
+| **Business Aalborg** (Aalborg Kommune, около 50 сотрудников) | Бесплатно: индивидуальные консультации по старту, разбор идеи и бизнес-плана (drop-in или по записи), мероприятия, **StartUp Café Aalborg** | **Да, точка входа номер два** |
 | **Virksomhedsguiden.dk** | Государственный каталог всех схем и курсов, есть онлайн-воркшопы на английском | Да, как справочник |
 | **PropTech Denmark** (некоммерческая ассоциация при BLOXHUB, Копенгаген, 200+ членов) | Сообщество, мероприятия, матчмейкинг, «venture activities» | **Да.** Членство даёт выход на банки, ипотечные компании и маклеров как партнёров |
 | **The Hub (thehub.io/funding)** | Каталог грантов, инвесторов и конкурсов | Да, раз в месяц проверять |
@@ -38,11 +37,11 @@
 
 | Программа | Сумма | Условия | Шанс для нас |
 |---|---|---|---|
-| **SMV:Digital** (Digitaliseringsstyrelsen через erhvervshuse) | В последних раундах до **50 000 kr** на консультанта. В других раундах до 100 000 kr; до 250 000 kr при комбинации инвестиций и консультаций | Только консультации, не железо. Короткие окна примерно по неделе, оценка по баллам. Нельзя подавать один проект в несколько пулов | **Высокий.** Проект: «AI-автоматизация BoligCheck-отчёта + сайт + CRM» с одобренным консультантом. Проверить требования к числу сотрудников и обороту |
+| **SMV:Digital** (Digitaliseringsstyrelsen через erhvervshuse) | В последних раундах до **50 000 kr** на консультанта. В других раундах до 100 000 kr; до 250 000 kr при комбинации инвестиций и консультаций | **Это компенсация, а не деньги на руки:** фонд возвращает 50 % документально подтверждённых расходов на одобренного консультанта, только по описанию проекта и в срок проекта (бекендтгёрельсе nr. 1377/2023, § 6). Чтобы получить 50 000 kr, нужно сначала заплатить консультанту около 100 000 kr (вторую половину можно частично закрыть своими оплаченными часами). Только консультации, не железо. Короткие окна примерно по неделе, оценка по баллам. Нельзя подавать один проект в несколько пулов | **Высокий.** Проект: «AI-автоматизация BoligCheck-отчёта + сайт + CRM» с одобренным консультантом. Проверить требования к числу сотрудников и обороту |
 | **SMV:Grøn** | До 150 000 kr (до 300 000 kr в комбинации) | ESG и зелёная трансформация. Раунды были в январе–феврале и апреле–мае 2026 | Низкий–средний. Возможен угол «энергомодуль отчёта / помощь покупателю с energirenovering», но это натяжка |
 | **Innobooster** (Innovationsfonden) | 200 000 – 5 000 000 kr | Покрывает **35 %** расходов проекта, остальные 65 % ваши. До 1,5 млн оценивается письменно. Подача через e-grant.dk, есть тест InnoCheck. Успешность, по агрегатору, около 18 % | **Позже (2027).** Подойдёт, когда будет инновационное ядро: собственная модель оценки рисков дома по открытым данным (BBR, радон, наводнения, comps). Сначала нужны оборот или софинансирование |
 | **Innofounder** (Innovationsfonden) | Ежемесячная стипендия + разовый грант на 12 месяцев | Нужно высшее образование. Срок в 2026 году был 25.08 | Если есть диплом, готовить заявку к следующему раунду |
-| **Mikrolegat** (Fonden for Entreprenørskab) | До 30 000 kr без CVR и до 60 000 kr с CVR. Агрегатор указывает 25 % своих средств | Студенты и недавние выпускники. Сроки 15.03, 15.05, 15.09, **15.11** | Только при статусе студента или выпускника |
+| **Mikrolegat** (Fonden for Entreprenørskab) | До 30 000 kr без CVR и до 60 000 kr с CVR. Агрегатор указывает 25 % своих средств | Студенты высшего образования, PhD и недавние выпускники; с 2022 года также ученики EUD (профтехобразование). Сроки 15.03, 15.05, 15.09, **15.11** | **Не подходит:** курсы датского языка не дают статуса студента для гранта. Можно уточнить у ffe-ye.dk, но шанс почти нулевой |
 | **Heyfunding Grant** (с Antler) | 25 000 kr | Конкурс: инновация, потенциал, исполнение | Да, дешёвая попытка |
 | **Erasmus for Young Entrepreneurs** (ЕС) | Ежемесячная стипендия на 1–6 месяцев стажировки у опытного предпринимателя в другой стране ЕС | Для «новых» предпринимателей (бизнес до 3 лет или только план) | **Интересно:** 1–3 месяца у немецкой или голландской фирмы по Bauberatung / aankoopkeuring. Учиться модели и привезти партнёрство |
 
@@ -162,13 +161,14 @@
 ## 10. План по этапам
 
 **Фаза A: ноябрь–декабрь 2026, «фундамент без денег»**
-1. Встреча в Erhvervshus Midtjylland: показать BoligCheck и попросить сопровождение
-   по SMV:Digital и подходящим пулам.
+1. Встречи в Erhvervshus Nordjylland и Business Aalborg: показать BoligCheck и
+   попросить сопровождение по SMV:Digital и подходящим пулам.
 2. Консультация с бухгалтером: enkeltmand + virksomhedsordning, решение по moms,
    учёт с первого дня (Dinero, Billy).
-3. Подать заявку на SMV:Digital (около 50 000 kr на AI-автоматизацию отчёта и сайт).
+3. SMV:Digital — только если реально нужен внешний консультант: 50 % его счёта
+   возвращается, а остальное платите вы.
 4. Подать на облачные кредиты, вступить в PropTech Denmark.
-5. Если подходит по статусу: Mikrolegat (15.11) и Heyfunding.
+5. Heyfunding (25 000 kr).
 6. Ansvarsforsikring + юридический шаблон договора с клиентом (god skik).
 
 **Фаза B: январь–июнь 2027, «первые клиенты»**
@@ -216,9 +216,11 @@
 - [Varde Kommune: job med løntilskud 2026 (PDF)](https://vardekommune.dk/wp-content/uploads/2026/01/Job_med_loentilskud.pdf)
 - [KK: løntilskud nyuddannet med handicap](https://www.kk.dk/erhverv/find-arbejdskraft/ansaettelsesformer/job-med-loentilskud/loentilskud-for-en-nyuddannet-med-handicap)
 - [DI: løntilskud til voksenlærlinge](https://www.danskindustri.dk/vi-radgiver-dig/personale/elever-og-larlinge/ansattelsesvilkar-for-larlinge-og-elever/lon-til-larlinge-og-elever/lontilskud-til-voksenlarlinge/)
-- [Randers erhvervspolitik (PDF)](https://randers.dk/media/ryibdawl/erhvervspolitik_wt.pdf)
-- [Randers dagsorden: Business Boost](https://dagsordener.randers.dk/vis/pdf/dagsorden/02f3e436-7dd0-4307-829c-34c76d9b99dd)
-- [Lemvig dagsorden: Erhvervshus Midtjylland resultatkontrakt 2026](https://dagsordener.lemvig.dk/pdf/GetDagsorden/9a8d3981-5169-4a30-82c4-be02663d6637)
+- [Business Aalborg — aalborg.dk](https://www.aalborg.dk/businessaalborg)
+- [Business Aalborg (Energy Cluster)](https://energycluster.dk/en/members/business-aalborg)
+- [Ritzau: Erhvervshus Nordjylland](https://via.ritzau.dk/pressemeddelelse/14859911/ny-formand-i-spidsen-for-erhvervshus-nordjylland)
+- [Bekendtgørelse om SMV:Digital (nr. 1377/2023)](https://www.retsinformation.dk/eli/lta/2023/1377/pdf)
+- [FT: EUD-elever og Fonden for Entreprenørskab](https://www.ft.dk/samling/20211/almdel/BUU/bilag/113/2535961.pdf)
 - [Innofounder 2026 (fundsforngos)](https://www2.fundsforngos.org/?p=485882)
 - [Mikrolegat 15.11.2026 (fundsforngos)](https://www2.fundsforngos.org/?p=495189)
 - [EACEA Youth Wiki: start-up funding Denmark](https://national-policies.eacea.ec.europa.eu/youthwiki/chapters/denmark/39-start-up-funding-for-young-entrepreneurs)
