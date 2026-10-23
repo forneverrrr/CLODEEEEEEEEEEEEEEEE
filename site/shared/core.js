@@ -55,13 +55,13 @@ function rec(slug,id,ok,uns,snap){
   else if(s.k){s.z=(s.z||0)+1;if(s.z>=3){s.k=0;s.d=0;}else s.d=now+GAP[s.z]*1000;}
   st[id]=s;
 }
-function dueIds(slug){
+function dueIds(slug,valid){
   var st=book(slug).stat,now=Date.now(),out=[];
-  Object.keys(st).forEach(function(id){var s=st[id];if(s.k&&s.d<=now)out.push(id);});
+  Object.keys(st).forEach(function(id){var s=st[id];if(s.o||(valid&&!valid[id]))return;if(s.k&&s.d<=now)out.push(id);});
   out.sort(function(a,b){return st[a].d-st[b].d;});
   return out;
 }
-function weakCount(slug){var st=book(slug).stat,n=0;Object.keys(st).forEach(function(id){if(st[id].k)n++;});return n;}
+function weakCount(slug,valid){var st=book(slug).stat,n=0;Object.keys(st).forEach(function(id){var s=st[id];if(s.o||(valid&&!valid[id]))return;if(s.k)n++;});return n;}
 function logWrong(slug,it,given){
   S.log.push({ts:Date.now(),b:slug,id:it.id,q:it.q,given:given,right:it.right||"",p:it.p||0});
   if(S.log.length>1500)S.log=S.log.slice(-1500);

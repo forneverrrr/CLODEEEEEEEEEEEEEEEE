@@ -1,0 +1,431 @@
+[
+{
+"id": "6:0",
+"q": "Hvad bygger velfærdssamfundet i Danmark på?",
+"a": "En gensidig aftale mellem borgere og stat",
+"w": [
+"Private forsikringer",
+"Familiernes forsørgelse"
+],
+"p": 35,
+"lvl": "K",
+"type": "forståelse",
+"why": "Borgerne arbejder og betaler skat, og til gengæld spænder det offentlige et sikkerhedsnet ud under dem, der ikke kan klare sig selv."
+},
+{
+"id": "6:1",
+"q": "Hvad bidrager borgerne med til velfærden?",
+"a": "Arbejde og skat",
+"w": [
+"Gaver til staten",
+"Frivilligt arbejde"
+],
+"p": 35,
+"lvl": "K",
+"type": "fakta",
+"why": "De borgere, der kan, arbejder og betaler skat. Via skattesystemet kommer der penge til velfærden."
+},
+{
+"id": "6:2",
+"q": "Hvem kan få hjælp fra det offentlige i velfærdssamfundet?",
+"a": "Alle, der har behov",
+"w": [
+"Kun dem, der har arbejdet",
+"Kun dem, der betaler højest skat"
+],
+"p": 35,
+"lvl": "K",
+"type": "forståelse",
+"why": "Princippet er, at alle, der har behov, kan få hjælp, uanset deres tilknytning til arbejdsmarkedet."
+},
+{
+"id": "6:3",
+"q": "Hvordan betales udgifterne til velfærd?",
+"a": "Gennem skatter og afgifter",
+"w": [
+"Gennem egenbetaling alene",
+"Gennem private forsikringer"
+],
+"p": 35,
+"lvl": "K",
+"type": "fakta",
+"why": "Udgifterne til velfærd betales bl.a. gennem skatter. Dertil kommer afgifter, moms og andre offentlige indtægter."
+},
+{
+"id": "6:5",
+"q": "Hvilken aldersgrænse gælder for børnene, når forældre kan få børnecheck?",
+"a": "Under 18 år",
+"w": [
+"Under 6 år",
+"Under 25 år"
+],
+"p": 36,
+"lvl": "U",
+"type": "fakta",
+"why": "Forældre kan få børne- og ungeydelse (børnecheck), hvis de har børn under 18 år. Med særlig høj indkomst får man mindre eller ingenting."
+},
+{
+"id": "6:7",
+"q": "Hvilken ydelse gives kun til personer uden indkomst eller formue?",
+"a": "Kontanthjælp",
+"w": [
+"Boligstøtte",
+"Folkepension"
+],
+"p": 36,
+"lvl": "K",
+"type": "fakta",
+"why": "Kontanthjælp gives kun til personer uden indkomst eller formue. Boligstøtte gives til personer med lav indkomst."
+},
+{
+"id": "6:8",
+"q": "Hvad er boligstøtte?",
+"a": "Hjælp til huslejen",
+"w": [
+"Hjælp til at købe bolig",
+"Hjælp til at renovere"
+],
+"p": 38,
+"lvl": "K",
+"type": "fakta",
+"why": "Boligstøtte dækker en del af huslejen for lejere med lav indkomst. Størrelsen afhænger af indkomst, husleje og boligens størrelse."
+},
+{
+"id": "6:n0",
+"q": "Hvem kan få boligstøtte?",
+"a": "Lejere med lav indkomst",
+"w": [
+"Alle husejere",
+"Alle over 60 år"
+],
+"p": 38,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis man bor til leje og har lav indkomst, kan man i nogle tilfælde få boligstøtte. Pensionister med lav indkomst kan ofte få mere."
+},
+{
+"id": "6:9",
+"q": "Hvad hedder den økonomiske støtte, som studerende kan få?",
+"a": "SU",
+"w": [
+"Børnecheck",
+"Boligstøtte"
+],
+"p": 36,
+"lvl": "K",
+"type": "fakta",
+"why": "SU (Statens Uddannelsesstøtte) er støtte til dem, der studerer. Den er høj i Danmark sammenlignet med de fleste andre lande."
+},
+{
+"id": "6:10",
+"q": "Hvem sidder med i skolebestyrelsen i folkeskolen?",
+"a": "Forældrerepræsentanter",
+"w": [
+"Kun lærere",
+"Kun elever"
+],
+"p": 36,
+"lvl": "U",
+"type": "fakta",
+"why": "Loven kræver skolebestyrelser med forældrerepræsentanter i folkeskolen og forældrebestyrelser i daginstitutioner."
+},
+{
+"id": "6:n1",
+"q": "Hvorfor føler danske forældre, at de har stor indflydelse på skolen?",
+"a": "De deltager aktivt i bestyrelser og møder",
+"w": [
+"De bestemmer lærernes løn",
+"De vælger skolens leder"
+],
+"p": 36,
+"lvl": "U",
+"type": "forståelse",
+"why": "Der er lang tradition for, at forældre deltager i bestyrelser, forældreråd og forældremøder. Det forventes, at man tager del."
+},
+{
+"id": "6:11",
+"q": "Hvad kan man få, hvis man er syg i lang tid?",
+"a": "Sygedagpenge",
+"w": [
+"Folkepension",
+"Boligstøtte"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan få sygedagpenge, hvis man har optjent retten til dem, enten ved at arbejde eller som medlem af en a-kasse."
+},
+{
+"id": "6:12",
+"q": "En person kan kun arbejde lidt på grund af begrænset arbejdsevne. Hvad kan hjælpe?",
+"a": "Fleksjob",
+"w": [
+"Folkepension",
+"SU"
+],
+"p": 37,
+"lvl": "K",
+"type": "anvendelse",
+"why": "I et fleksjob arbejder man og tjener en del selv, og man får resten i offentlig ydelse."
+},
+{
+"id": "6:13",
+"q": "Hvem kan få førtidspension?",
+"a": "Personer med varigt nedsat arbejdsevne",
+"w": [
+"Alle over 60 år",
+"Alle arbejdsløse"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "Førtidspension gives til personer med varig og væsentligt nedsat evne til at arbejde."
+},
+{
+"id": "6:14",
+"q": "Fra hvilken alder kan man få folkepension i 2026?",
+"a": "67 år",
+"w": [
+"62 år",
+"72 år"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "I 2026 er folkepensionsalderen 67 år. Aldersgrænsen hæves gradvist, så den følger med, hvor længe befolkningen lever."
+},
+{
+"id": "6:n2",
+"q": "Hvorfor bliver folkepensionsalderen gradvist hævet?",
+"a": "Fordi befolkningen lever længere",
+"w": [
+"Fordi lønningerne stiger",
+"Fordi skatten er faldet"
+],
+"p": 37,
+"lvl": "K",
+"type": "forståelse",
+"why": "Aldersgrænsen for folkepension hæves i takt med, at befolkningen lever længere."
+},
+{
+"id": "6:15",
+"q": "Hvor mange års bopæl i Danmark giver fuld folkepension?",
+"a": "40 år",
+"w": [
+"10 år",
+"25 år"
+],
+"p": 37,
+"lvl": "U",
+"type": "fakta",
+"why": "Har man boet i Danmark i mindre end 40 år, får man pension i forhold til, hvor mange år man har boet i landet."
+},
+{
+"id": "6:16",
+"q": "Hvad kaldes den pension, man sparer op gennem sit arbejde?",
+"a": "Arbejdsmarkedspension",
+"w": [
+"Folkepension",
+"Førtidspension"
+],
+"p": 37,
+"lvl": "U",
+"type": "fakta",
+"why": "Mange har indbetalt til arbejdsmarkedspension i forbindelse med deres arbejde og får den udbetalt ved siden af folkepensionen."
+},
+{
+"id": "6:19",
+"q": "Hvilke speciallæger kan man gå til uden henvisning?",
+"a": "Øjenlæge og ørelæge",
+"w": [
+"Hudlæge og hjertelæge",
+"Alle speciallæger"
+],
+"p": 38,
+"lvl": "U",
+"type": "fakta",
+"why": "I sikringsgruppe 1 skal man have henvisning fra egen læge til speciallæge. Øre- og øjenlæge er undtaget."
+},
+{
+"id": "6:21",
+"q": "Man er henvist fra et offentligt til et privat sygehus pga. lang ventetid. Hvad koster behandlingen?",
+"a": "Ingenting",
+"w": [
+"Hele prisen",
+"Halvdelen"
+],
+"p": 38,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Bliver man henvist fra et offentligt sygehus til et privat, er behandlingen gratis. Ellers koster private sygehuse normalt penge."
+},
+{
+"id": "6:22",
+"q": "Hvad skal voksne selv betale en del af i sundhedsvæsenet?",
+"a": "Medicin",
+"w": [
+"Besøg hos egen læge",
+"Behandling på offentligt sygehus"
+],
+"p": 38,
+"lvl": "K",
+"type": "fakta",
+"why": "Læge og offentligt sygehus er gratis. Voksne betaler dog selv en del af udgifterne til fx medicin."
+},
+{
+"id": "6:n3",
+"q": "Hvad koster et besøg hos egen læge?",
+"a": "Ingenting",
+"w": [
+"En del af prisen",
+"Hele prisen"
+],
+"p": 38,
+"lvl": "K",
+"type": "fakta",
+"why": "Personer med bopæl i Danmark har ret til gratis behandling hos egen læge. Alle har adgang uanset indkomst."
+},
+{
+"id": "6:23",
+"q": "Hvad koster det at låne bøger på folkebiblioteket?",
+"a": "Ingenting",
+"w": [
+"Et lille gebyr",
+"Et årligt kontingent"
+],
+"p": 38,
+"lvl": "K",
+"type": "fakta",
+"why": "Bibliotekerne får meget offentlig støtte, så man kan låne bøger gratis. Man kan også låne lydbøger, e-bøger, film og musik."
+},
+{
+"id": "6:26",
+"q": "Hvad er princippet for skat af løn i Danmark?",
+"a": "Jo mere løn, jo større del i skat",
+"w": [
+"Alle betaler samme del",
+"Jo mere løn, jo mindre del i skat"
+],
+"p": 39,
+"lvl": "K",
+"type": "forståelse",
+"why": "Jo mere man får i løn, jo større del af lønnen skal man betale i skat."
+},
+{
+"id": "6:27",
+"q": "Hvor stor er momsen på varer i Danmark?",
+"a": "25 procent",
+"w": [
+"10 procent",
+"40 procent"
+],
+"p": 39,
+"lvl": "K",
+"type": "fakta",
+"why": "Momsen er 25 procent på de varer, man køber, og er blandt de højeste i Europa."
+},
+{
+"id": "6:n4",
+"q": "Hvad er moms?",
+"a": "En afgift på varer, man køber",
+"w": [
+"En skat på løn",
+"En skat på virksomheders overskud"
+],
+"p": 39,
+"lvl": "K",
+"type": "fakta",
+"why": "Moms betaler man på de varer, man køber, i butikken. Det er en af måderne, borgerne er med til at betale for velfærden."
+},
+{
+"id": "6:28",
+"q": "Hvad kaldes de særlige skatter på fx benzin, alkohol og cigaretter?",
+"a": "Afgifter",
+"w": [
+"Moms",
+"Kontingent"
+],
+"p": 39,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er særlige afgifter på mange varer, fx biler, benzin, alkohol, cigaretter og bæreposer. Moms er noget andet."
+},
+{
+"id": "6:n5",
+"q": "Hvorfor er der særlige afgifter på fx cigaretter og benzin?",
+"a": "Af hensyn til sundhed og miljø",
+"w": [
+"For at gøre dem billigere",
+"For at betale for SU"
+],
+"p": 39,
+"lvl": "U",
+"type": "forståelse",
+"why": "Afgifterne giver penge til staten, men er også begrundet i hensyn til miljø og sundhed."
+},
+{
+"id": "6:30",
+"q": "Hvad er formålet med folkepensionen?",
+"a": "At ældre kan klare sig selv",
+"w": [
+"At arbejdsløse får penge",
+"At studerende får SU"
+],
+"p": 37,
+"lvl": "K",
+"type": "forståelse",
+"why": "Folkepensionen skal give ældre mulighed for at klare sig selv, når de ikke arbejder mere."
+},
+{
+"id": "6:n6",
+"q": "Hvad koster børnepasning normalt for forældrene?",
+"a": "De betaler en del selv",
+"w": [
+"Det er altid gratis",
+"De betaler det hele"
+],
+"p": 36,
+"lvl": "K",
+"type": "fakta",
+"why": "Det offentlige sørger for vuggestue, børnehave og dagpleje, men det er normalt ikke gratis. Forældrene betaler som regel en del af udgifterne."
+},
+{
+"id": "6:n7",
+"q": "Hvad koster det at gå i folkeskole?",
+"a": "Det er gratis",
+"w": [
+"Forældrene betaler en del",
+"Forældrene betaler det hele"
+],
+"p": 36,
+"lvl": "K",
+"type": "fakta",
+"why": "Børn har ret til at gå gratis i folkeskole. Ungdomsuddannelser og videregående uddannelser er også gratis."
+},
+{
+"id": "6:n8",
+"q": "Hvad støtter det offentlige inden for transport?",
+"a": "Kollektiv transport",
+"w": [
+"Private biler",
+"Taxaer"
+],
+"p": 39,
+"lvl": "U",
+"type": "fakta",
+"why": "Staten giver støtte til busser, tog og færger. Veje og de fleste broer er gratis at køre på."
+},
+{
+"id": "6:n9",
+"q": "Hvorfor betaler borgerne i Danmark meget i skat?",
+"a": "Fordi velfærden koster meget",
+"w": [
+"Fordi der er få offentlige opgaver",
+"Fordi pensionerne er private"
+],
+"p": 39,
+"lvl": "K",
+"type": "forståelse",
+"why": "Et velfærdssamfund har store udgifter og kræver mange indtægter. Danmark er et af de lande, hvor borgerne betaler mest i skat."
+}
+]

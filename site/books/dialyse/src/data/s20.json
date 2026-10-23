@@ -1,0 +1,665 @@
+[
+{
+"id": "20:0",
+"q": "Hvor mange danskere har diabetes cirka?",
+"a": "300.000",
+"w": [
+"30.000",
+"3 millioner"
+],
+"p": 209,
+"lvl": "U",
+"type": "fakta",
+"why": "Diabetes er en af de hyppigste kroniske sygdomme: omkring 300.000 danskere har den, heraf ca. 28.000 med type 1."
+},
+{
+"id": "20:1",
+"q": "Hvor stor en andel af dialysepatienterne har diabetes?",
+"a": "Cirka 25 %",
+"w": [
+"Cirka 5 %",
+"Cirka 50 %"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Diabetes udgør fortsat ca. 25 % af dialysepopulationen, selv om antallet med diabetisk nefropati er stagneret."
+},
+{
+"id": "20:2",
+"q": "Hvordan er dødeligheden hos dialysepatienter med diabetes i forhold til dem uden?",
+"a": "Næsten dobbelt så stor",
+"w": [
+"Cirka halvt så stor",
+"Den samme som hos andre"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Diabetes giver næsten dobbelt så høj mortalitet; derfor er rettidig dialysestart og behandling af komplikationer vigtig."
+},
+{
+"id": "20:3",
+"q": "Ved hvilken eGFR bør en patient med diabetes henvises til nefrologisk vurdering (ml/min./1,73 m²)?",
+"a": "Under 40",
+"w": [
+"Under 15",
+"Under 60"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Retningslinjen anbefaler henvisning ved eGFR under 40, så nyresygdommen følges i fællesambulatorium."
+},
+{
+"id": "20:4",
+"q": "Hvilket årligt eGFR-fald giver anledning til henvisning til nefrolog?",
+"a": "Over 5 ml/min./1,73 m²",
+"w": [
+"Over 1 ml/min./1,73 m²",
+"Over 15 ml/min./1,73 m²"
+],
+"p": 209,
+"lvl": "U",
+"type": "fakta",
+"why": "Hastigt tab af nyrefunktion (fald over 5 ml/min./1,73 m² pr. år) er en henvisningsgrund, ligesom svær proteinuri."
+},
+{
+"id": "20:5",
+"q": "Hvilken urin-albumin/kreatinin-ratio regnes som svær proteinuri og giver henvisning?",
+"a": "Over 700 mg/g",
+"w": [
+"Over 30 mg/g",
+"Over 3.000 mg/g"
+],
+"p": 209,
+"lvl": "U",
+"type": "fakta",
+"why": "Ratio over 700 mg/g er svær proteinuri og henvisningsgrund hos patienter med diabetes."
+},
+{
+"id": "20:7",
+"q": "Hvordan er eGFR ved dialysestart hos patienter med diabetisk nefropati i forhold til andre patienter?",
+"a": "Dialyse kan starte ved højere eGFR",
+"w": [
+"Dialyse starter ved lavere eGFR",
+"Dialyse starter ved samme eGFR som andre"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Dårlig ernæringstilstand og vanskeligt regulerbar væske- og elektrolytbalance gør dialyse indiceret ved relativt højere eGFR."
+},
+{
+"id": "20:n0",
+"q": "Hvorfor kan dialyse være indiceret ved højere eGFR ved diabetisk nefropati?",
+"a": "Dårlig ernæring og svær væskebalance",
+"w": [
+"Hurtigere nedbrydning af insulin hos dem",
+"Højere risiko for kræft i nyrerne"
+],
+"p": 209,
+"lvl": "K",
+"type": "forståelse",
+"why": "Patienterne er ofte dårligt ernærede, og væske- og elektrolytbalancen er svær at regulere, så de tåler uræmi dårligere."
+},
+{
+"id": "20:n1",
+"q": "Er planlagt eller akut start af dialyse at foretrække?",
+"a": "Planlagt start",
+"w": [
+"Akut start",
+"Start så sent som muligt"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Planlagt frem for akut indledning af dialyse er vigtigt for alle patienter, også dem med diabetes."
+},
+{
+"id": "20:8",
+"q": "Er HD eller PD bedst til patienter med diabetes?",
+"a": "De er ligeværdige",
+"w": [
+"HD er klart bedst",
+"PD er klart bedst"
+],
+"p": 209,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er ikke vist forskel i overlevelse, så valget bygger på patientens dagligdag og livskvalitet."
+},
+{
+"id": "20:9",
+"q": "Hvorfor har der været bekymring for PD ved diabetes?",
+"a": "Glukoseoptag og proteintab",
+"w": [
+"Allergi mod PD-væsken",
+"Øget risiko for hjertesvigt"
+],
+"p": 209,
+"lvl": "U",
+"type": "forståelse",
+"why": "Glukose optages fra PD-væsken, og der kan være øget peritonealt proteintab; samlet vurderes HD og PD dog ligeværdige."
+},
+{
+"id": "20:10",
+"q": "Hvad mindsker intensiv blodsukkerkontrol ved diabetes?",
+"a": "Risikoen for mikrovaskulære komplikationer",
+"w": [
+"Dødeligheden af nyresvigt",
+"Tabet af nyrefunktion over tid"
+],
+"p": 210,
+"lvl": "K",
+"type": "fakta",
+"why": "Intensiv kontrol mindsker mikrovaskulære komplikationer inkl. albuminuri, men der er ikke evidens for effekt på nyrefunktionstab eller død af nyresvigt."
+},
+{
+"id": "20:12",
+"q": "Hvilket HbA1c-mål anbefales til dialysepatienter med diabetes?",
+"a": "48-58 mmol/mol",
+"w": [
+"30-40 mmol/mol",
+"70-80 mmol/mol"
+],
+"p": 210,
+"lvl": "K",
+"type": "fakta",
+"why": "HbA1c bruges fortsat som mål for kontrollen; målet lempes ofte hos ældre og terminale patienter."
+},
+{
+"id": "20:n2",
+"q": "Hos hvilke patienter lempes HbA1c-målet ofte?",
+"a": "Ældre og terminale patienter",
+"w": [
+"Børn og unge voksne",
+"Yngre patienter med type 1"
+],
+"p": 210,
+"lvl": "U",
+"type": "fakta",
+"why": "Målet 48-58 mmol/mol lempes yderligere hos ældre og terminale patienter."
+},
+{
+"id": "20:n3",
+"q": "Hvorfor kan HbA1c være upålideligt hos dialysepatienter?",
+"a": "De røde blodlegemers levetid ændres",
+"w": [
+"Dialysen fjerner HbA1c fra blodet",
+"Insulin binder sig til hæmoglobin"
+],
+"p": 210,
+"lvl": "U",
+"type": "forståelse",
+"why": "Blodtransfusion, jernmangel og ændret erytropoiese påvirker erytrocytlevetiden og dermed HbA1c's validitet, men HbA1c bruges stadig."
+},
+{
+"id": "20:14",
+"q": "Hvorfor falder insulinbehovet ofte, før dialysen startes?",
+"a": "Dårlig appetit og nedsat insulinnedbrydning",
+"w": [
+"Øget kulhydratindtag og vægtøgning",
+"Hurtigere nedbrydning af insulin"
+],
+"p": 210,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nyresvigt nedsætter nedbrydningen af insulin, og appetitten er dårlig, så insulinbehovet kan falde."
+},
+{
+"id": "20:15",
+"q": "Hvorfor kan HD give hypoglykæmi hos patienter med diabetes?",
+"a": "Glukose fjernes med dialysen",
+"w": [
+"Insulin hobes op i blodet",
+"Dialysen hæmmer appetitten helt"
+],
+"p": 210,
+"lvl": "K",
+"type": "forståelse",
+"why": "Glukose fjernes under HD, og patienten mister kulhydrater; dialysatets glukose gør dog kun sjældent blodsukkeret lavere end ca. 5 mmol/l."
+},
+{
+"id": "20:17",
+"q": "En HD-patient med diabetes får ofte hypoglykæmi. Hvad forbedrer kontrollen?",
+"a": "Anden insulindosis på dialysedage",
+"w": [
+"Dobbelt insulindosis på dialysedage",
+"Samme dosis alle dage uanset dialyse"
+],
+"p": 210,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kalorieindtag og aktivitet varierer mellem dialyse- og ikke-dialysedage, så forskellige insulindoser giver bedst kontrol."
+},
+{
+"id": "20:n4",
+"q": "Hvorfor kan insulinbehovet stige ved PD?",
+"a": "Glukose optages fra dialysevæsken",
+"w": [
+"Insulin fjernes med dialysevæsken",
+"Appetitten øges under PD-behandling"
+],
+"p": 210,
+"lvl": "K",
+"type": "forståelse",
+"why": "PD tilfører ekstra glukose afhængigt af væskens glukosekoncentration."
+},
+{
+"id": "20:18",
+"q": "Hvad vælges ved PD for at modvirke hyperglykæmi hos diabetespatienter?",
+"a": "Væske med lavt glukoseindhold",
+"w": [
+"Væske med højt glukoseindhold",
+"Ekstra salt i væsken"
+],
+"p": 210,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man vælger dialysevæske med så lavt glukoseindhold som muligt for at begrænse hyperglykæmien."
+},
+{
+"id": "20:n5",
+"q": "Hvilken PD-væske bruges med fordel frem for glukose ved diabetes?",
+"a": "Væske med icodextrin",
+"w": [
+"Væske med højt glukoseindhold",
+"Isotonisk NaCl"
+],
+"p": 210,
+"lvl": "U",
+"type": "fakta",
+"why": "Brug af dialysevæsker med icodextrin fremfor glukose har en fremtrædende plads ved PD-behandling af patienter med diabetes, hvor man vil undgå ekstra glukosetilførsel og hyperglykæmi."
+},
+{
+"id": "20:n6",
+"q": "Hvorfor bør blodsukker måles før og efter dialysesessioner?",
+"a": "For at lære patientens mønster af udsving",
+"w": [
+"For at beregne dialysedosis (Kt/V)",
+"For at justere patientens tørvægt"
+],
+"p": 210,
+"lvl": "U",
+"type": "forståelse",
+"why": "Målingerne viser den enkelte patients udsving omkring dialysen, så behandlingen og patientens reaktion kan tilpasses."
+},
+{
+"id": "20:20",
+"q": "Hvilken insulinbehandling bruges ved type 1-diabetes i dialyse?",
+"a": "Langtids- og hurtigtvirkende insulin",
+"w": [
+"Kun hurtigtvirkende insulin",
+"Kun peroral antidiabetika"
+],
+"p": 210,
+"lvl": "K",
+"type": "fakta",
+"why": "Langtidsvirkende analog én gang i døgnet kombineres med hurtigtvirkende insulin til hovedmåltiderne."
+},
+{
+"id": "20:21",
+"q": "Hvilken insulinbehandling er ofte nok ved type 2-diabetes i dialyse?",
+"a": "Langtidsvirkende insulin én gang dagligt",
+"w": [
+"Insulinpumpe",
+"Hurtigtvirkende insulin til alle måltider"
+],
+"p": 210,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste med type 2 opnår god kontrol med en langtidsvirkende analog én gang i døgnet; kun en mindre del har brug for type 1-regime."
+},
+{
+"id": "20:23",
+"q": "Ved hvilken eGFR skal metformindosis reduceres (ml/min./1,73 m²)?",
+"a": "Under 60",
+"w": [
+"Under 90",
+"Under 15"
+],
+"p": 211,
+"lvl": "K",
+"type": "fakta",
+"why": "Metformin udskilles via nyrerne, så dosis skal reduceres ved eGFR under 60."
+},
+{
+"id": "20:24",
+"q": "Ved hvilken eGFR skal metformin seponeres (ml/min./1,73 m²)?",
+"a": "Under 30",
+"w": [
+"Under 15",
+"Under 45"
+],
+"p": 211,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved eGFR under 30 seponeres metformin, fordi akkumulering giver risiko for laktatacidose."
+},
+{
+"id": "20:25",
+"q": "Hvorfor skal metformin seponeres ved lav eGFR?",
+"a": "Risiko for laktatacidose",
+"w": [
+"Risiko for alvorlig hypoglykæmi",
+"Risiko for alvorlig hyperkaliæmi"
+],
+"p": 211,
+"lvl": "K",
+"type": "forståelse",
+"why": "Metformin udskilles via nyrerne; ophobning øger risikoen for metformin-associeret laktatacidose (MALA)."
+},
+{
+"id": "20:26",
+"q": "Hvad stiger ved GLP-1-analoger, når nyrefunktionen falder?",
+"a": "Gastrointestinale bivirkninger",
+"w": [
+"Blodtrykket og pulsen",
+"Risikoen for hypoglykæmi"
+],
+"p": 211,
+"lvl": "K",
+"type": "fakta",
+"why": "Bivirkningerne stiger også hos dialysepatienter; nogle accepterer dem for vægttabets skyld, så det er en individuel vurdering."
+},
+{
+"id": "20:27",
+"q": "Ned til hvilken eGFR kan en SGLT2-hæmmer startes (ml/min./1,73 m²)?",
+"a": "Cirka 20",
+"w": [
+"Cirka 5",
+"Cirka 45"
+],
+"p": 211,
+"lvl": "U",
+"type": "fakta",
+"why": "Opstart kan ske ned til eGFR 20, men behandlingen anbefales seponeret ved dialyseopstart."
+},
+{
+"id": "20:28",
+"q": "Hvornår anbefales SGLT2-hæmmer seponeret?",
+"a": "Ved dialyseopstart",
+"w": [
+"Ved eGFR under 60",
+"Ved udvikling af hypertension"
+],
+"p": 211,
+"lvl": "K",
+"type": "fakta",
+"why": "SGLT2-hæmmere kan bruges ved nedsat nyrefunktion, men seponeres, når dialysen begynder."
+},
+{
+"id": "20:29",
+"q": "Hvilken effekt af SGLT2-hæmmere bevares ved nedsat nyrefunktion?",
+"a": "Hjerte-nyrebeskyttelse",
+"w": [
+"Kraftig blodsukkersænkning",
+"Sænkning af fosfat"
+],
+"p": 211,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den glukosesænkende effekt er beskeden ved nedsat nyrefunktion, men den hjerte-nyrebeskyttende effekt består."
+},
+{
+"id": "20:30",
+"q": "Hvilken type antidiabetika kan bruges uanset nyrefunktion og giver ikke hypoglykæmi?",
+"a": "DPP-4-hæmmere",
+"w": [
+"Sulfonylurinstoffer",
+"Metformin"
+],
+"p": 211,
+"lvl": "K",
+"type": "fakta",
+"why": "DPP-4-hæmmere kan bruges også i dialyse uden hypoglykæmirisiko, men har ikke vist hjerte-nyrebeskyttelse."
+},
+{
+"id": "20:31",
+"q": "Hvad gælder for sulfonylurinstoffer ved betydelig nedsat nyrefunktion?",
+"a": "Anbefales ikke rutinemæssigt",
+"w": [
+"Er førstevalg til alle",
+"Kræver dobbelt dosis i dialyse"
+],
+"p": 211,
+"lvl": "U",
+"type": "fakta",
+"why": "β-cellestimulerende midler som sulfonylurinstoffer anbefales ikke længere rutinemæssigt ved betydelig nedsat nyrefunktion."
+},
+{
+"id": "20:33",
+"q": "Hvorfor kan ketoacidose være svær at diagnosticere hos anuriske patienter?",
+"a": "Polyuri og dehydrering mangler",
+"w": [
+"Blodsukkeret er normalt",
+"Acidose forekommer slet ikke"
+],
+"p": 212,
+"lvl": "K",
+"type": "forståelse",
+"why": "Polyuri og dehydrering mangler, ketonuri kan ikke kvantificeres, og let metabolisk acidose er hyppig ved kronisk nyreinsufficiens."
+},
+{
+"id": "20:n7",
+"q": "En anurisk patient har svær hyperglykæmi og metabolisk acidose. Hvad behandles der for?",
+"a": "Diabetisk ketoacidose",
+"w": [
+"Svær hypoglykæmi",
+"Overhydrering"
+],
+"p": 212,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kombinationen af svær hyperglykæmi og metabolisk acidose skal medføre, at der startes ketoacidosebehandling."
+},
+{
+"id": "20:34",
+"q": "Hvilken blod-ketonværdi understøtter diagnosen ketoacidose?",
+"a": "Over 3 mmol/l",
+"w": [
+"Over 0,3 mmol/l",
+"Over 30 mmol/l"
+],
+"p": 212,
+"lvl": "U",
+"type": "fakta",
+"why": "Ketonstoffer over 3 mmol/l i blodet understøtter diagnosen, når klinik og urinfund er upålidelige."
+},
+{
+"id": "20:35",
+"q": "Hvorfor skal man være forsigtig med væske ved ketoacidose hos anuriske?",
+"a": "Risiko for overhydrering",
+"w": [
+"Risiko for hypoglykæmi",
+"Risiko for hypernatriæmi"
+],
+"p": 212,
+"lvl": "K",
+"type": "forståelse",
+"why": "Væskedeficitet er begrænset hos anuriske, så behandling efter standardinstrukser for ikke-nyresyge kan overhydrere; også kaliuminfusion kræver forsigtighed."
+},
+{
+"id": "20:36",
+"q": "Hvad er den hyppigste årsag til hypoglykæmi hos dialysepatienter med diabetes?",
+"a": "For lavt kalorieindtag",
+"w": [
+"For lidt insulin",
+"For højt proteinindtag"
+],
+"p": 212,
+"lvl": "K",
+"type": "fakta",
+"why": "Hypoglykæmi skyldes oftest utilstrækkeligt kalorieindtag, selv om dialysatet indeholder glukose."
+},
+{
+"id": "20:n8",
+"q": "En diabetespatient i dialyse spiser lidt og får hypoglykæmi. Hvad skal udelukkes som årsag?",
+"a": "Infektion eller utilstrækkelig dialyse",
+"w": [
+"Overdosis af jern",
+"Forhøjet blodtryk"
+],
+"p": 212,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Man skal udelukke konkurrerende sygdom, infektion og inadækvat dialyse som årsag til, at patienten ikke spiser nok."
+},
+{
+"id": "20:37",
+"q": "Hvilken tilstand ved autonom neuropati kan give både hypo- og hyperglykæmi?",
+"a": "Gastroparese",
+"w": [
+"Pancreatitis",
+"Gastroenteritis"
+],
+"p": 212,
+"lvl": "U",
+"type": "fakta",
+"why": "Gastroparese giver uforudsigelig optagelse af føde; peristaltikfremmende behandling, fx metoclopramid, kan forsøges."
+},
+{
+"id": "20:38",
+"q": "Hvad er hovedårsagen til overdødelighed hos dialysepatienter med diabetes?",
+"a": "Hjerte-kar-sygdom",
+"w": [
+"Alvorlige infektioner",
+"Kræftsygdomme"
+],
+"p": 212,
+"lvl": "K",
+"type": "fakta",
+"why": "Overdødeligheden skyldes primært kardiovaskulær sygdom, som ofte er til stede flere år før dialysestart."
+},
+{
+"id": "20:39",
+"q": "Hvilken behandling beskytter både hjerte og nyrer ved diabetes?",
+"a": "ACE-hæmmer/ARB og SGLT2-hæmmer",
+"w": [
+"Betablokker og statin",
+"Loop-diuretika og calciumantagonist"
+],
+"p": 212,
+"lvl": "K",
+"type": "fakta",
+"why": "ACE-hæmmere/ARB og SGLT2-hæmmere er helt centrale i den hjerte-nyrebeskyttende behandling; finerenon har desuden vist risikoreduktion."
+},
+{
+"id": "20:40",
+"q": "Hvilket interdialytisk blodtryksmål bruges ved diabetes?",
+"a": "Under 140/80 mmHg",
+"w": [
+"Under 120/70 mmHg",
+"Under 160/100 mmHg"
+],
+"p": 212,
+"lvl": "U",
+"type": "fakta",
+"why": "Målet er under 140/80 mmHg, helst ved hjemmemåling på ikke-dialysedage."
+},
+{
+"id": "20:41",
+"q": "Hvorfor får patienter med diabetes ofte symptomatisk hypotension under og efter HD?",
+"a": "Høj ultrafiltration og autonom neuropati",
+"w": [
+"Lav ultrafiltration og høj puls",
+"For lidt væske mellem dialyserne"
+],
+"p": 212,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stor væskeophobning kræver høj ultrafiltration, og autonom diabetisk neuropati svækker blodtrykkets regulering."
+},
+{
+"id": "20:42",
+"q": "Hvilken tromboseprofylakse opretholdes hos dialysepatienter med diabetes?",
+"a": "Acetylsalicylsyre 75 mg dagligt",
+"w": [
+"Warfarin i fast dosis",
+"Clopidogrel dagligt"
+],
+"p": 213,
+"lvl": "K",
+"type": "fakta",
+"why": "Tromboseprofylakse med acetylsalicylsyre 75 mg dagligt opretholdes."
+},
+{
+"id": "20:43",
+"q": "Hvad anbefales for behandling af hyperlipidæmi hos dialysepatienter?",
+"a": "Ikke rutinemæssig opstart",
+"w": [
+"Altid statin ved dialysestart",
+"Kun ved type 1-diabetes"
+],
+"p": 213,
+"lvl": "K",
+"type": "fakta",
+"why": "Flere store studier har ikke kunnet vise effekt på kardiovaskulære endepunkter, så behandling startes ikke rutinemæssigt."
+},
+{
+"id": "20:n9",
+"q": "Hvorfor udredes patienter med diabetes grundigt for hjertesygdom før transplantation?",
+"a": "Stumme iskæmiske hjertesygdomme er hyppige",
+"w": [
+"Diabetes beskytter hjertet mod iskæmi",
+"Dialyse forebygger hjertesygdom"
+],
+"p": 213,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ikke-symptomgivende iskæmisk kardiovaskulær sygdom er relativt hyppig, så der foretages fx stresstest eller belastningsekkokardiografi."
+},
+{
+"id": "20:n10",
+"q": "Hvorfor kan hjerteiskæmi overses hos dialysepatienter med diabetes?",
+"a": "Smerter og EKG-ændringer kan mangle",
+"w": [
+"Dialysen skjuler EKG-ændringer",
+"Hjertet er beskyttet af insulin"
+],
+"p": 213,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved diabetes og autonom neuropati kan iskæmiske smerter og EKG-forandringer være minimale; kardiologisk udredning sker ved klinisk mistanke."
+},
+{
+"id": "20:45",
+"q": "Hvad er en hyppig årsag til frameldelse fra nyretransplantation hos patienter med diabetes?",
+"a": "Fodsår",
+"w": [
+"Anæmi",
+"Hypertension"
+],
+"p": 213,
+"lvl": "K",
+"type": "fakta",
+"why": "Fodsår er en hyppig årsag til midlertidig eller permanent frameldelse; fodstatus vurderes derfor under dialysen eller ved egenkontrol."
+},
+{
+"id": "20:46",
+"q": "Hvilken transplantation bør patienter med type 1-diabetes vurderes til?",
+"a": "Kombineret nyre-pankreas",
+"w": [
+"Isoleret nyretransplantation",
+"Isoleret pankreastransplantation"
+],
+"p": 213,
+"lvl": "U",
+"type": "fakta",
+"why": "Patienter med type 1-diabetes bør vurderes til kombineret nyre-pankreastransplantation frem for isoleret nyretransplantation."
+},
+{
+"id": "20:47",
+"q": "Hvordan er overlevelsen efter nyretransplantation i forhold til dialyse ved diabetes?",
+"a": "Markant bedre",
+"w": [
+"Markant dårligere",
+"Ens"
+],
+"p": 213,
+"lvl": "K",
+"type": "fakta",
+"why": "Selv om overlevelsen er lavere end hos transplanterede uden diabetes, er den markant bedre end ved dialyse; transplantation er derfor optimal behandling."
+}
+]

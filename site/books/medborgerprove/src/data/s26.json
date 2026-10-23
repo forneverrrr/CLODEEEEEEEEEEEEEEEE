@@ -1,0 +1,366 @@
+[
+{
+"id": "26:0",
+"q": "Hvad kaldes gasser som CO2, der begrænser varme i at slippe ud af atmosfæren?",
+"a": "Drivhusgasser",
+"w": [
+"Edelgasser",
+"Naturgasser"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Gasserne lukker solens stråler ind, men holder varmen inde, ligesom et drivhus. Derfor kaldes de drivhusgasser."
+},
+{
+"id": "26:1",
+"q": "Hvad er fossile brændsler?",
+"a": "Kul, olie og gas",
+"w": [
+"Sol, vind og vand",
+"Træ og halm"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Afbrænding af kul, olie og gas giver store udledninger af CO2 og andre drivhusgasser."
+},
+{
+"id": "26:2",
+"q": "Hvad fører flere drivhusgasser i luften til?",
+"a": "Global opvarmning",
+"w": [
+"Global afkøling",
+"Mindre CO2"
+],
+"p": 143,
+"lvl": "K",
+"type": "forståelse",
+"why": "Flere drivhusgasser betyder, at mindre varme slipper ud af atmosfæren, og så stiger temperaturen."
+},
+{
+"id": "26:3",
+"q": "Hvilken konsekvens kan global opvarmning få?",
+"a": "Mere ekstrem varme",
+"w": [
+"Mere sne",
+"Færre oversvømmelser"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Global opvarmning kan give flere ørkener, oversvømmelser og ekstrem varme."
+},
+{
+"id": "26:5",
+"q": "Hvor meget er temperaturen steget siden 1850-1900?",
+"a": "Mere end én grad",
+"w": [
+"Cirka 0,1 grad",
+"Cirka 5 grader"
+],
+"p": 143,
+"lvl": "U",
+"type": "fakta",
+"why": "Temperaturen er steget globalt med mere end én grad, og udviklingen ser ud til at fortsætte."
+},
+{
+"id": "26:7",
+"q": "Hvor meget faldt Danmarks udledning af drivhusgasser fra 1990 til 2024?",
+"a": "Cirka 53 procent",
+"w": [
+"Cirka 23 procent",
+"Cirka 83 procent"
+],
+"p": 144,
+"lvl": "U",
+"type": "fakta",
+"why": "Udledningen er faldet med cirka 53 procent fra 1990 til 2024 på grund af mere effektivt energiforbrug og mere vind- og solenergi."
+},
+{
+"id": "26:n0",
+"q": "Hvorfor kan Danmark ikke løse klimaproblemet alene?",
+"a": "Andre lande skal også reducere",
+"w": [
+"Danmark udleder næsten alt",
+"Klimaet ændrer sig ikke"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Globalt er udledningen steget, fordi befolkningen vokser og flere får råd til at købe mere. Derfor er internationalt samarbejde nødvendigt."
+},
+{
+"id": "26:8",
+"q": "Hvilken international klimaaftale underskrev næsten alle lande i 2015?",
+"a": "Paris-aftalen",
+"w": [
+"Schengen-aftalen",
+"Maastricht-traktaten"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "I Paris-aftalen lovede næsten alle lande at reducere den globale udledning af drivhusgasser."
+},
+{
+"id": "26:9",
+"q": "Hvad er grøn omstilling?",
+"a": "Mindre olie og gas, mere vedvarende energi",
+"w": [
+"At male alt grønt",
+"At bruge flere biler"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Grøn omstilling er at stoppe med sorte energikilder som olie og gas og bruge sol, vind og vandkraft."
+},
+{
+"id": "26:10",
+"q": "Hvorfor kaldes energi fra sol og vind vedvarende?",
+"a": "Den slipper ikke op",
+"w": [
+"Den er billig",
+"Den er dansk"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Vedvarende energi slipper ikke op. Den kaldes grøn, fordi den udleder få eller ingen drivhusgasser."
+},
+{
+"id": "26:n1",
+"q": "Hvilken type grøn energi producerer Danmark mest af?",
+"a": "Vindenergi",
+"w": [
+"Solenergi",
+"Bølgeenergi"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Vindenergi er den vigtigste vedvarende energikilde i Danmark. Vindmøller producerede 52 procent af el-forbruget i 2025."
+},
+{
+"id": "26:11",
+"q": "Hvor stor en del af Danmarks energiforbrug dækkede vedvarende energi i 2025?",
+"a": "Cirka 50 procent",
+"w": [
+"Cirka 20 procent",
+"Cirka 80 procent"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Andelen er steget fra seks procent i 1990 til 50 procent i 2025."
+},
+{
+"id": "26:14",
+"q": "Hvad skal Klimarådet gøre?",
+"a": "Rådgive regeringen om klimapolitik",
+"w": [
+"Bygge vindmøller",
+"Dømme i klimasager"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Klimarådet blev oprettet i 2014 og skal vurdere regeringens klimapolitik og komme med anbefalinger."
+},
+{
+"id": "26:16",
+"q": "Hvor meget skal Danmarks udledning falde inden 2030 ifølge klimaloven?",
+"a": "70 procent",
+"w": [
+"30 procent",
+"50 procent"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Klimaloven fra 2019 kræver 70 procent reduktion i forhold til 1990."
+},
+{
+"id": "26:17",
+"q": "Hvornår skal Danmark være klimaneutralt?",
+"a": "Senest i 2050",
+"w": [
+"Senest i 2030",
+"Senest i 2100"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Klimaloven siger, at Danmark skal være klimaneutralt senest i 2050."
+},
+{
+"id": "26:18",
+"q": "Hvad betyder klimaneutral?",
+"a": "Man udleder ikke mere, end man optager",
+"w": [
+"Man bruger ingen energi",
+"Man har ingen biler"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Klimaneutral betyder, at man ikke udleder flere drivhusgasser, end man optager."
+},
+{
+"id": "26:19",
+"q": "Hvad er Vindeby ud for Lolland?",
+"a": "Verdens første havmøllepark",
+"w": [
+"Danmarks første energiø",
+"Verdens første solcellepark"
+],
+"p": 144,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark fik i 1991 verdens første vindmøllepark på havet."
+},
+{
+"id": "26:21",
+"q": "Hvor stor en del af Danmarks el producerer vindmøller?",
+"a": "Cirka halvdelen",
+"w": [
+"Cirka en tiendedel",
+"Næsten alt"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "I 2025 producerede vindmøller 52 procent af Danmarks el-forbrug."
+},
+{
+"id": "26:22",
+"q": "Hvor mange energiøer vil Danmark bygge?",
+"a": "To",
+"w": [
+"En",
+"Fem"
+],
+"p": 144,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark er første land i verden med planer om energiøer. Den ene skal ligge ved Bornholm, den anden i Nordsøen."
+},
+{
+"id": "26:n2",
+"q": "Hvorfor bygger Danmark energiøer?",
+"a": "Strøm fra havvindmøller kan ikke transporteres langt",
+"w": [
+"For at skaffe flere turister",
+"For at flytte vindmøller til land"
+],
+"p": 145,
+"lvl": "U",
+"type": "forståelse",
+"why": "Øerne opsamler og omdanner energien fra havvindmøller, så den kan bruges til transport og strøm."
+},
+{
+"id": "26:25",
+"q": "Hvad får boligejere offentlig støtte til at skifte olie- eller gasfyr til?",
+"a": "Varmepumper",
+"w": [
+"Brændeovne",
+"Større huse"
+],
+"p": 145,
+"lvl": "U",
+"type": "fakta",
+"why": "Staten støtter mere klimavenlig opvarmning, fx varmepumper i stedet for olie- eller gasfyr."
+},
+{
+"id": "26:26",
+"q": "Hvilket område har Danmark endnu ikke for alvor reduceret udledningen i?",
+"a": "Transport",
+"w": [
+"Elproduktion",
+"Vindenergi"
+],
+"p": 145,
+"lvl": "K",
+"type": "fakta",
+"why": "Transport udleder stadig meget. Klimarådet mener, at flere elbiler er nødvendige for at nå klimamålene."
+},
+{
+"id": "26:27",
+"q": "Hvilke biler vil Danmark have flere af?",
+"a": "Elbiler",
+"w": [
+"Dieselbiler",
+"Benzinbiler"
+],
+"p": 145,
+"lvl": "K",
+"type": "fakta",
+"why": "Bilafgifterne afhænger af udledningen, og målet er flere elbiler i stedet for benzin- og dieselbiler."
+},
+{
+"id": "26:n3",
+"q": "Hvorfor giver grøn omstilling Europa en fordel i forhold til Rusland?",
+"a": "Europa bliver mere uafhængig af Rusland",
+"w": [
+"Europa kan sælge mere olie til Rusland",
+"Europa får mere gas fra Rusland"
+],
+"p": 145,
+"lvl": "U",
+"type": "forståelse",
+"why": "Europa har købt meget olie og gas fra Rusland. Vedvarende energi gør Europa mindre afhængig af landet."
+},
+{
+"id": "26:29",
+"q": "Hvad hedder samarbejdet mellem regeringen, kommunerne og organisationer om natur, vand og landbrug?",
+"a": "Den Grønne Trepart",
+"w": [
+"Grøn Alliance",
+"Klimarådet"
+],
+"p": 146,
+"lvl": "K",
+"type": "fakta",
+"why": "Den Grønne Trepart aftalte i 2024 en plan for mere natur, renere vand og et landbrug, der forurener mindre."
+},
+{
+"id": "26:31",
+"q": "Hvor stor en del af Danmarks areal er landbrugsjord?",
+"a": "Cirka 60 procent",
+"w": [
+"Cirka 20 procent",
+"Cirka 40 procent"
+],
+"p": 146,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark har en af verdens største andele landbrugsjord, så omstilling af landbruget betyder meget for klimaet."
+},
+{
+"id": "26:32",
+"q": "Hvor stor en del af landbrugsjorden skal blive natur?",
+"a": "Cirka 15 procent",
+"w": [
+"Cirka 5 procent",
+"Cirka 50 procent"
+],
+"p": 146,
+"lvl": "U",
+"type": "fakta",
+"why": "Der skal plantes ny skov og laves nye moser, sumpe og åer."
+},
+{
+"id": "26:33",
+"q": "Hvilken ny afgift indfører Danmark som det første land i verden?",
+"a": "Afgift på landbrugets udledning",
+"w": [
+"Afgift på biler",
+"Forbud mod olie"
+],
+"p": 146,
+"lvl": "U",
+"type": "fakta",
+"why": "Landmænd skal betale CO2-afgift for udledningen fra deres køer, grise, får, høns og andre dyr."
+}
+]

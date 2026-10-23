@@ -12,12 +12,13 @@ function answeredToday(){
 }
 function bookTime(slug){var n=0;Object.keys(S.time).forEach(function(k){n+=S.time[k][slug]||0;});return n;}
 var h='<section class="hero"><h1>'+t("siteName")+'</h1><p>'+t("siteIntro")+'</p></section>';
-var due=0;BOOKS.forEach(function(b){due+=NS.dueIds(b.slug).length;});
+var VAL={};BOOKS.forEach(function(b){var m={};(b.ids||[]).forEach(function(i){m[i]=1;});VAL[b.slug]=b.ids?m:null;});
+var due=0;BOOKS.forEach(function(b){due+=NS.dueIds(b.slug,VAL[b.slug]).length;});
 h+='<section class="today"><div class="kpi"><b>'+NS.fmtDur(NS.totalOn(NS.dayKey()))+'</b><span>'+t("timeToday")+'</span></div><div class="kpi"><b>'+NS.fmtShort(weekSec())+'</b><span>'+t("time7")+'</span></div><div class="kpi"><b>'+answeredToday()+'</b><span>'+t("answeredToday")+'</span></div><div class="kpi"><b>'+due+'</b><span>'+t("dueAll")+'</span></div></section>';
 h+='<section class="sec"><h2>'+t("books")+'</h2><div class="books">';
 BOOKS.slice().sort(function(a,b){return (a.slug===S.last?-1:0)-(b.slug===S.last?-1:0)||(a.order||0)-(b.order||0);}).forEach(function(b){
-  var st=(S.books[b.slug]||{}).stat||{},ok=0;Object.keys(st).forEach(function(id){if(st[id].l===1)ok++;});
-  var d=NS.dueIds(b.slug).length,pc=b.count?Math.round(ok/b.count*100):0;
+  var st=(S.books[b.slug]||{}).stat||{},ok=0;Object.keys(st).forEach(function(id){var s=st[id];if(s.o||(VAL[b.slug]&&!VAL[b.slug][id]))return;if(s.l===1)ok++;});
+  var d=NS.dueIds(b.slug,VAL[b.slug]).length,pc=b.count?Math.round(ok/b.count*100):0;
   h+='<a class="bk" href="book.html?b='+b.slug+'" style="--bc:'+b.accent+'"><div class="bt"><span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+b.icon+'</svg></span><h3>'+esc(b.title)+'</h3></div><p>'+esc(b.sub[NS.lang]||b.sub.da)+'</p><div class="bar"><i style="width:'+pc+'%"></i></div><div class="bm"><span>'+b.count+' '+t("questions")+' · '+pc+' %</span><span>'+NS.fmtShort(bookTime(b.slug))+'</span>'+(d?'<span class="due">'+t("dueN",d)+'</span>':'')+(b.slug===S.last?'<span>'+t("continue")+' →</span>':'')+'</div></a>';
 });
 h+='<div class="empty">'+t("moreBooks")+'</div></div></section>';

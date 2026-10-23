@@ -1,0 +1,742 @@
+[
+{
+"id": "12:0",
+"q": "Hvilken betegnelse bruges for de knoglehistologiske forandringer ved nedsat nyrefunktion?",
+"a": "Renal osteodystrofi",
+"w": [
+"CKD-MBD",
+"Kalcifylaksi"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Renal osteodystrofi er knogleforandringerne set i biopsi. CKD-MBD er det bredere begreb, som også rummer mineralforstyrrelser og forkalkning af kar og bløddele."
+},
+{
+"id": "12:2",
+"q": "Hvilken forandring ud over knogleomsætning og mineralstofskifte indgår i CKD-MBD?",
+"a": "Forkalkning af kar og bløddele",
+"w": [
+"Nedsat syntese af albumin",
+"Mangel på jern og EPO"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "CKD-MBD omfatter forstyrret knogleomsætning, forstyrret mineralmetabolisme og kar- og bløddelskalcifikationer. Det forklarer den høje kardiovaskulære sygelighed."
+},
+{
+"id": "12:3",
+"q": "Hvilke to alvorlige følger bidrager CKD-MBD til?",
+"a": "Knoglebrud og kardiovaskulær sygdom",
+"w": [
+"Anæmi og hyppige infektioner",
+"Nyresten og forhøjet urinsyre"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "CKD-MBD bidrager til hyppige knoglebrud samt kardiovaskulær sygelighed og dødelighed, bl.a. via forkalkninger."
+},
+{
+"id": "12:4",
+"q": "Hvilken receptor på parathyroideacellerne registrerer ændringer i ioniseret calcium?",
+"a": "Calciumfølsom receptor (CaSR)",
+"w": [
+"Vitamin D-receptoren (VDR)",
+"FGF23-receptoren i nyren"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "CaSR opfanger udsving i ioniseret calcium, så PTH-sekretionen kan justeres med det samme."
+},
+{
+"id": "12:5",
+"q": "Hvad er det primære stimulus for PTH-sekretion?",
+"a": "Hypocalcæmi",
+"w": [
+"Hypercalcæmi",
+"Hyperkaliæmi"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "Faldende ioniseret calcium øger PTH-sekretion og -produktion. Højt calcium hæmmer den."
+},
+{
+"id": "12:6",
+"q": "Hvordan påvirker PTH nyrernes håndtering af calcium?",
+"a": "Øger reabsorptionen",
+"w": [
+"Hæmmer reabsorptionen",
+"Øger udskillelsen i urinen"
+],
+"p": 140,
+"lvl": "K",
+"type": "forståelse",
+"why": "PTH hæver plasmacalcium bl.a. ved øget tubulær reabsorption af calcium."
+},
+{
+"id": "12:7",
+"q": "Hvordan påvirker PTH nyrernes håndtering af fosfat?",
+"a": "Hæmmer reabsorptionen",
+"w": [
+"Øger reabsorptionen",
+"Påvirker den ikke"
+],
+"p": 140,
+"lvl": "K",
+"type": "forståelse",
+"why": "PTH hæmmer den renale tubulære reabsorption af fosfat, så fosfatudskillelsen i urinen øges (s. 140)."
+},
+{
+"id": "12:8",
+"q": "Hvordan øger PTH indirekte tarmens calciumoptagelse?",
+"a": "Via aktivering af D-vitamin",
+"w": [
+"Ved at hæmme 1α-hydroxylase",
+"Ved at nedsætte renal calciumreabsorption"
+],
+"p": 140,
+"lvl": "K",
+"type": "forståelse",
+"why": "PTH stimulerer 1α-hydroxylase, som danner 1,25(OH)2D3. Aktivt D-vitamin øger absorptionen af calcium og fosfat fra tarmen."
+},
+{
+"id": "12:9",
+"q": "Hvilket hormon varetager fortrinsvis reguleringen af fosfat?",
+"a": "FGF23",
+"w": [
+"PTH",
+"Calcitriol"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "FGF23 fra knoglerne styrer fosfatudskillelsen. PTH regulerer primært calcium, men hæmmer også fosfatreabsorption."
+},
+{
+"id": "12:11",
+"q": "Hvordan påvirker FGF23 nyrerne?",
+"a": "Øger fosfatudskillelsen og hæmmer 1α-hydroxylase",
+"w": [
+"Øger fosfatreabsorptionen og aktiverer D-vitamin",
+"Øger calciumreabsorptionen"
+],
+"p": 140,
+"lvl": "K",
+"type": "forståelse",
+"why": "FGF23 virker på fosfattransportører i proksimale tubuli og hæmmer dannelsen af calcitriol. Derved modregulerer det fosfat- og D-vitaminbalancen."
+},
+{
+"id": "12:12",
+"q": "Hvilken faktor har afgørende betydning for udvikling af sekundær hyperparathyroidisme ved CKD?",
+"a": "Hyperfosfatæmi",
+"w": [
+"Hypercalcæmi",
+"For højt D-vitamin"
+],
+"p": 141,
+"lvl": "K",
+"type": "fakta",
+"why": "Fosfatretention øger FGF23 og PTH og sænker calcitriol, hvilket driver den sekundære HPT."
+},
+{
+"id": "12:13",
+"q": "Hvordan holdes fosfat normalt i tidlige CKD-stadier?",
+"a": "Øget udskillelse pr. nefron",
+"w": [
+"Øget optagelse i knoglerne",
+"Nedsat absorption i tarmen"
+],
+"p": 141,
+"lvl": "K",
+"type": "forståelse",
+"why": "FGF23 og PTH øger udskillelsen pr. nefron. Prisen er høje FGF23- og PTH-niveauer samt lavt calcitriol."
+},
+{
+"id": "12:14",
+"q": "Ved hvilken GFR indtræder manifest hyperfosfatæmi?",
+"a": "20-30 ml/min.",
+"w": [
+"50-60 ml/min.",
+"5-10 ml/min."
+],
+"p": 141,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved GFR omkring 20-30 ml/min. kan fosfatudskillelsen ikke øges yderligere, og der indtræder manifest hyperfosfatæmi."
+},
+{
+"id": "12:15",
+"q": "Hvilken forstyrrelse giver mangel på 1,25(OH)2D3?",
+"a": "Hypocalcæmi",
+"w": [
+"Hypercalcæmi",
+"Hypokaliæmi"
+],
+"p": 141,
+"lvl": "K",
+"type": "forståelse",
+"why": "Uden aktivt D-vitamin absorberes mindre calcium fra tarmen. Hypocalcæmi og calcitriolmangel stimulerer derefter parathyroideakirtlerne."
+},
+{
+"id": "12:16",
+"q": "Hvad kendetegner tertiær hyperparathyroidisme?",
+"a": "Ikke-supprimerbar PTH-produktion",
+"w": [
+"PTH-mangel efter operation",
+"Normalt PTH, lavt calcium"
+],
+"p": 142,
+"lvl": "K",
+"type": "fakta",
+"why": "Kirtlerne mister følsomhed for calcium og D-vitamin. Det giver ofte svær hyperfosfatæmi og/eller hypercalcæmi trods behandling."
+},
+{
+"id": "12:17",
+"q": "Hvor stor en del af langvarige dialysepatienter har signifikante koronare kalcifikationer?",
+"a": "Omkring 90 %",
+"w": [
+"Omkring 20 %",
+"Omkring 60 %"
+],
+"p": 142,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "12:19",
+"q": "Hvilket levereddannet protein hæmmer udfældning af calcium og fosfat i kar?",
+"a": "Fetuin A",
+"w": [
+"Albumin",
+"Hepcidin"
+],
+"p": 142,
+"lvl": "K",
+"type": "fakta",
+"why": "Fetuin A er en kalcifikationsinhibitor fra leveren og danner stabile kolloide partikler med calcium og fosfat. Koncentrationen er reduceret ved kronisk nyreinsufficiens."
+},
+{
+"id": "12:21",
+"q": "Hvad sker der med glatte muskelceller i karvæggen ved vaskulær kalcifikation?",
+"a": "De omdannes til osteoblastlignende celler",
+"w": [
+"De omdannes til fedtceller",
+"De formerer sig og tilstopper karret"
+],
+"p": 142,
+"lvl": "K",
+"type": "forståelse",
+"why": "Cellerne danner knoglematrix i karvæggen, som mineraliseres. Karrene bliver stive og ueftergivelige."
+},
+{
+"id": "12:22",
+"q": "Hvad er hovedårsagen til high bone turnover ved renal osteodystrofi?",
+"a": "Hyperparathyroidisme",
+"w": [
+"Diabetes",
+"Overdreven PTH-suppression"
+],
+"p": 142,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højt PTH øger knogleomsætningen. Diabetes, inflammation og malnutrition øger i stedet risikoen for lav omsætning."
+},
+{
+"id": "12:23",
+"q": "Hvilken behandlingsrelateret faktor kan give low bone turnover?",
+"a": "For kraftig PTH-suppression",
+"w": [
+"Behandling med fosfatbindere",
+"Lavt saltindtag i kosten"
+],
+"p": 142,
+"lvl": "K",
+"type": "forståelse",
+"why": "Low bone turnover kan skyldes behandlingsinduceret suppression af PTH. Andre faktorer er nedsat følsomhed af PTH-receptoren, diabetes, inflammation og malnutrition."
+},
+{
+"id": "12:27",
+"q": "Hvad er kalcifylaksi?",
+"a": "Iskæmiske hudnekroser pga. forkalkede arterioler",
+"w": [
+"Forkalkede hjerteklapper hos dialysepatienter",
+"Knoglenekrose efter parathyroidektomi"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Forkalkning i tunica media i arteriolerne giver progredierende nekroser og ulcerationer i hud og subcutis. Tilstanden er sjælden, men meget alvorlig."
+},
+{
+"id": "12:n0",
+"q": "En dialysepatient får smertefulde, violette og indurerede hudområder på benene, som udvikler sig til sår. Hvad mistænkes?",
+"a": "Kalcifylaksi",
+"w": [
+"Rosen",
+"Diabetisk neuropati"
+],
+"p": 143,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Smertefulde violette indurerede områder med hurtigt voksende nekroser er typisk for kalcifylaksi. Tilstanden har høj dødelighed, oftest pga. sepsis."
+},
+{
+"id": "12:29",
+"q": "Hvad er en hjørnesten i behandlingen af kalcifylaksi?",
+"a": "Sænke fosfat, calcium og PTH",
+"w": [
+"Øge calcium- og D-vitamintilskud",
+"Give calciumholdig fosfatbinder i høj dosis"
+],
+"p": 143,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kalcifylaksi udløses af forstyrret mineralmetabolisme, så kontrol af fosfat, calcium og PTH er basis. Natriumthiosulfat og K-vitamin bruges efter individuelt skøn."
+},
+{
+"id": "12:30",
+"q": "Hvad afspejler plasma-PTH?",
+"a": "Knogleomsætningen",
+"w": [
+"Nyrefunktionen (GFR)",
+"Tarmens fosfatoptagelse"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "PTH korrelerer med histologisk high og low turnover. Derfor er PTH central i den daglige diagnostik af CKD-MBD."
+},
+{
+"id": "12:32",
+"q": "Hvilket PTH-niveau er forbundet med færrest frakturer og dødsfald i dialyse?",
+"a": "2-9 gange øvre normalgrænse",
+"w": [
+"Under normalgrænsen",
+"Over 20 gange normalgrænsen"
+],
+"p": 144,
+"lvl": "U",
+"type": "fakta",
+"why": "Det optimale niveau er usikkert, men risikoen er lavest ved dette niveau. Derfor følges PTH-tendensen over tid i stedet for enkeltværdier."
+},
+{
+"id": "12:33",
+"q": "Hvad er det ønskede niveau af ioniseret calcium ved CKD 3-5?",
+"a": "1,15-1,35 mmol/l",
+"w": [
+"0,80-1,10 mmol/l",
+"1,50-1,80 mmol/l"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Calcium holdes i normalområdet. Både hypocalcæmi og hypercalcæmi skal undgås."
+},
+{
+"id": "12:34",
+"q": "Hvad er det ønskede niveau af plasma-fosfat ved CKD 3-5?",
+"a": "0,80-1,50 mmol/l",
+"w": [
+"0,30-0,60 mmol/l",
+"1,80-2,50 mmol/l"
+],
+"p": 143,
+"lvl": "K",
+"type": "fakta",
+"why": "Hyperfosfatæmi hænger sammen med dødelighed og driver sekundær HPT, så fosfat søges holdt i normalområdet."
+},
+{
+"id": "12:35",
+"q": "Hvad er det ønskede PTH-niveau hos CKD 5-patienter?",
+"a": "13,8-62,1 pmol/l",
+"w": [
+"1,6-6,9 pmol/l",
+"100-200 pmol/l"
+],
+"p": 143,
+"lvl": "U",
+"type": "fakta",
+"why": "Målet er højere end referenceintervallet (1,6-6,9), svarende til 2-9 gange øvre normalgrænse."
+},
+{
+"id": "12:41",
+"q": "Hvad måler en DEXA-scanning?",
+"a": "Knoglemineraltæthed (BMD)",
+"w": [
+"Knogleomsætning (turnover)",
+"Knoglehistologi (TMV)"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "DEXA måler BMD i hofte og lumbal columna. Frakturrisikoen stiger med faldende BMD."
+},
+{
+"id": "12:42",
+"q": "Hvorfor siger DEXA intet om knogleomsætningen?",
+"a": "Lav BMD ses ved både low og high turnover",
+"w": [
+"Lav BMD ses kun ved high turnover",
+"Lav BMD ses kun ved low turnover"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Samme BMD kan dække over modsatte tilstande med modsat behandling. Knoglebiopsi kræves for at skelne."
+},
+{
+"id": "12:44",
+"q": "Hvad står T, M og V for i klassifikationen af renal osteodystrofi?",
+"a": "Turnover, mineralisering og volumen",
+"w": [
+"Tæthed, mængde og vækst",
+"Tid, modning og vægt"
+],
+"p": 144,
+"lvl": "K",
+"type": "fakta",
+"why": "Biopsien beskriver turnover (lav/normal/høj), mineralisering og knoglevolumen."
+},
+{
+"id": "12:n1",
+"q": "Hvorfor er det klinisk vigtigt at skelne high fra low bone turnover?",
+"a": "Behandlingen er modsat rettet",
+"w": [
+"Prognosen er ens i begge tilfælde",
+"Kun diagnosen ændres, ikke behandlingen"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved high turnover dæmpes omsætningen, ved low turnover forsøges den reaktiveret for at modvirke osteoporose."
+},
+{
+"id": "12:45",
+"q": "Hvad er behandlingsmålet ved high bone turnover?",
+"a": "Dæmpe knogleomsætningen",
+"w": [
+"Øge knogleomsætningen",
+"Øge fosfatindtaget"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "High turnover skyldes hyperparathyroidisme, og behandlingen går ud på at dæmpe omsætningshastigheden."
+},
+{
+"id": "12:47",
+"q": "Hvilket maksimalt fosfatindtag anbefales i tidlige CKD-stadier?",
+"a": "800-1.000 mg/dag",
+"w": [
+"200-400 mg/dag",
+"2.000-3.000 mg/dag"
+],
+"p": 145,
+"lvl": "U",
+"type": "fakta",
+"why": "Fosfatrestriktion kan undgå fosfatretention i tidlige stadier. Dialysepatienter får individuelle diætforskrifter af hensyn til ernæringen."
+},
+{
+"id": "12:49",
+"q": "Hvordan virker fosfatbindere?",
+"a": "Binder fosfat i tarmen",
+"w": [
+"Øger nyrernes fosfatudskillelse",
+"Sænker PTH-sekretionen"
+],
+"p": 145,
+"lvl": "K",
+"type": "forståelse",
+"why": "De danner tungtopløselige fosfatforbindelser, som udskilles med fæces, og nedsætter dermed fosfatabsorptionen."
+},
+{
+"id": "12:50",
+"q": "Hvilke to fosfatbindere indeholder calcium?",
+"a": "Calciumcarbonat og calciumacetat",
+"w": [
+"Sevelamer og lanthanumcarbonat",
+"Lanthanumcarbonat og sucroferrioxyhydroxid"
+],
+"p": 145,
+"lvl": "K",
+"type": "fakta",
+"why": "Calciumsalte binder fosfat effektivt, men calcium absorberes. Sevelamer, lanthan og sucroferrioxyhydroxid er calciumfri."
+},
+{
+"id": "12:n2",
+"q": "Hvorfor kan calciumholdige fosfatbindere være problematiske?",
+"a": "Calcium absorberes og kan forkalke",
+"w": [
+"De binder for lidt fosfat i tarmen",
+"De sænker PTH for kraftigt"
+],
+"p": 145,
+"lvl": "K",
+"type": "forståelse",
+"why": "Positiv calciumbalance øger risikoen for ekstraskeletale kalcifikationer. Det førte til calciumfri og calciumbegrænsede binder."
+},
+{
+"id": "12:52",
+"q": "En dialysepatient med hyperfosfatæmi har samtidig hypercalcæmi og vaskulære kalcifikationer. Hvilken fosfatbinder foretrækkes?",
+"a": "Calciumfri binder, fx sevelamer",
+"w": [
+"Calciumcarbonat i høj dosis",
+"Calciumacetat i høj dosis"
+],
+"p": 146,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Calciumholdige binder øger calciumbelastningen. Ved hypercalcæmi, oversupprimeret PTH og kalcifikationer vælges calciumfri."
+},
+{
+"id": "12:53",
+"q": "Hvad er maksimal dosis elementært calcium fra fosfatbindere pr. dag?",
+"a": "1.500 mg",
+"w": [
+"500 mg",
+"3.000 mg"
+],
+"p": 146,
+"lvl": "U",
+"type": "fakta",
+"why": "Grænsen begrænser calciumbelastningen. Er mere binding nødvendig, kombineres med en calciumfri binder."
+},
+{
+"id": "12:n3",
+"q": "En CKD-patient har GFR 15 ml/min. og høj p-fosfat trods fosfatbegrænset kost. Hvad er næste skridt?",
+"a": "Start fosfatbinder",
+"w": [
+"Skærpe fosfatrestriktion alene",
+"Stoppe D-vitamin"
+],
+"p": 145,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Under GFR 20-30 opstår hyperfosfatæmi trods diæt, og orale fosfatbindere bliver nødvendige."
+},
+{
+"id": "12:n4",
+"q": "Hvilken dialysebehandling kan give særdeles god fosfatkontrol?",
+"a": "Intensiveret dialyse, fx HHD",
+"w": [
+"Standard hæmodialyse (HD)",
+"Standard peritonealdialyse (PD)"
+],
+"p": 146,
+"lvl": "U",
+"type": "fakta",
+"why": "Standard HD og PD er ikke nok ved normalt indtag. Øget behandlingsaktivitet kan give god kontrol."
+},
+{
+"id": "12:54",
+"q": "Hvilket stof er den aktive form af D-vitamin?",
+"a": "Calcitriol (1,25(OH)2D3)",
+"w": [
+"Calcifediol (25(OH)D)",
+"Cholecalciferol (D3)"
+],
+"p": 146,
+"lvl": "K",
+"type": "fakta",
+"why": "Den sidste aktivering sker i nyrerne. Calcifediol er forstadiet dannet i leveren."
+},
+{
+"id": "12:n5",
+"q": "Hvorfor mangler CKD-patienter aktivt D-vitamin?",
+"a": "Nyrerne kan ikke 1α-hydroxylere",
+"w": [
+"Leveren kan ikke 25-hydroxylere",
+"Huden danner ikke D-vitamin"
+],
+"p": 146,
+"lvl": "K",
+"type": "forståelse",
+"why": "Aktiveringen sker primært i nyrernes proksimale tubuliceller, så svigtende nyrefunktion giver calcitriolmangel."
+},
+{
+"id": "12:58",
+"q": "Hvorfor gives aktive D-vitaminanaloger ved sekundær HPT?",
+"a": "De nedsætter PTH-syntesen",
+"w": [
+"De binder fosfat i tarmen",
+"De øger PTH-sekretionen"
+],
+"p": 146,
+"lvl": "K",
+"type": "forståelse",
+"why": "Alfacalcidol, calcitriol og paricalcitol reducerer PTH og bedrer knoglehistologi, myopati og knoglesmerter."
+},
+{
+"id": "12:59",
+"q": "Hvilken uønsket effekt har aktive D-vitaminanaloger på mineralstofskiftet?",
+"a": "Øget fosfat- og calciumabsorption",
+"w": [
+"Nedsat absorption af calcium",
+"Øget udskillelse af fosfat"
+],
+"p": 146,
+"lvl": "K",
+"type": "fakta",
+"why": "Det kan forværre hyperfosfatæmi og give hypercalcæmi ved overdosering eller store doser calciumbinder."
+},
+{
+"id": "12:60",
+"q": "En dialysepatient på aktiv D-vitamin får et dramatisk fald i PTH. Hvilken risiko er der?",
+"a": "Low turnover-knoglesygdom",
+"w": [
+"High turnover-knoglesygdom",
+"Tertiær hyperparathyroidisme"
+],
+"p": 146,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Oversuppression af PTH kan give low turnover. Derfor er monitorering af calcium, fosfat og PTH obligatorisk."
+},
+{
+"id": "12:n6",
+"q": "Hvorfor bør man være forsigtig med aktiv D-vitamin, hvis p-fosfat er ukontrolleret?",
+"a": "Risiko for ekstraskeletale kalcifikationer",
+"w": [
+"Risiko for hypokaliæmi og kramper",
+"Risiko for anæmi og træthed"
+],
+"p": 146,
+"lvl": "K",
+"type": "forståelse",
+"why": "Samtidig hypercalcæmi og hyperfosfatæmi øger risikoen for ekstraskeletale kalcifikationer."
+},
+{
+"id": "12:61",
+"q": "Hvordan virker calcimimetica?",
+"a": "Øger CaSR's følsomhed",
+"w": [
+"Binder fosfat i tarmen",
+"Aktiverer D-vitamin i nyren"
+],
+"p": 146,
+"lvl": "K",
+"type": "forståelse",
+"why": "De efterligner hypercalcæmi og hæmmer PTH-sekretionen direkte. Effekten kan være dramatisk, også ved udtalt HPT."
+},
+{
+"id": "12:63",
+"q": "Hvilken forstyrrelse kan calcimimetica give?",
+"a": "Hypocalcæmi",
+"w": [
+"Hypercalcæmi",
+"Hyperkaliæmi"
+],
+"p": 146,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypocalcæmi kan opstå som følge af behandling med calcimimetica, som kan reducere PTH-niveauet dramatisk."
+},
+{
+"id": "12:64",
+"q": "En dialysepatient har behandlingsrefraktært svært forhøjet PTH med hypercalcæmi. Hvad kan blive nødvendigt?",
+"a": "Parathyroidektomi",
+"w": [
+"Mere calciumholdig fosfatbinder",
+"Højere dosis D-vitamin"
+],
+"p": 146,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved manifest tertiær HPT kan kirurgi være nødvendig. Mere calcium eller D-vitamin ville forværre hypercalcæmi og kalcifikation."
+},
+{
+"id": "12:66",
+"q": "Dagen efter parathyroidektomi får en patient prikken og kramper. Hvilken forstyrrelse er sandsynlig?",
+"a": "Hypocalcæmi",
+"w": [
+"Hypercalcæmi",
+"Hyperkaliæmi"
+],
+"p": 147,
+"lvl": "K",
+"type": "anvendelse",
+"why": "De fleste udvikler hypocalcæmi efter indgrebet, og hurtige udsving kan give tetaniske kramper."
+},
+{
+"id": "12:67",
+"q": "Hvad er hungry bone syndrome?",
+"a": "Calcium og fosfat optages i knoglerne",
+"w": [
+"Knogleafkalkning efter PTH-fald",
+"Øget tarmudskillelse af calcium"
+],
+"p": 147,
+"lvl": "K",
+"type": "forståelse",
+"why": "Efter operationen vender knogleomsætningen, og calcium og fosfat strømmer ind i skelettet. Det giver hypocalcæmi og fald i fosfat."
+},
+{
+"id": "12:69",
+"q": "Hvorfor måles calcium tre til fire gange i døgnet efter parathyroidektomi?",
+"a": "For at forebygge tetaniske kramper",
+"w": [
+"For at forebygge sepsis efter operation",
+"For at forebygge blødning fra såret"
+],
+"p": 147,
+"lvl": "K",
+"type": "forståelse",
+"why": "Calcium kan svinge hurtigt, og behovet for calciumtilskud kan vare fra få dage til flere uger."
+},
+{
+"id": "12:n7",
+"q": "Hvorfor undgås hypercalcæmi hos CKD-patienter?",
+"a": "Øger risikoen for kalcifikationer",
+"w": [
+"Øger risikoen for hypokaliæmi",
+"Sænker PTH for meget"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hypercalcæmi bidrager til kalcifikation af kar, som er en vigtig årsag til kardiovaskulær sygelighed."
+},
+{
+"id": "12:n8",
+"q": "Hvilke to forhold stimulerer parathyroideakirtlerne ved faldende nyrefunktion?",
+"a": "Hypocalcæmi og calcitriolmangel",
+"w": [
+"Hypercalcæmi og højt calcitriol",
+"Hyperkaliæmi og acidose"
+],
+"p": 141,
+"lvl": "K",
+"type": "forståelse",
+"why": "Begge stimulerer PTH-sekretion og -produktion. Resultatet er sekundær hyperparathyroidisme."
+},
+{
+"id": "12:n9",
+"q": "Hvad styrer justering af behandling med aktiveret D-vitamin?",
+"a": "Plasma-calcium, fosfat og PTH",
+"w": [
+"Plasma-1,25(OH)2D3-niveauet",
+"Basisk fosfatase og DEXA"
+],
+"p": 144,
+"lvl": "K",
+"type": "forståelse",
+"why": "1,25(OH)2D3 måles ikke rutinemæssigt. Behandlingen justeres efter calcium, fosfat og PTH."
+},
+{
+"id": "12:n10",
+"q": "Hvorfor er man forsigtig med antiosteoporotika, når knogleomsætningen er ukendt?",
+"a": "Risiko for mere skade end gavn",
+"w": [
+"De øger PTH-niveauet kraftigt",
+"De er forbudt ved CKD"
+],
+"p": 147,
+"lvl": "U",
+"type": "forståelse",
+"why": "Hvis turnover er ukendt, kan behandlingen forværre den. Valg bør bygge på knoglemarkører og gerne biopsi."
+}
+]

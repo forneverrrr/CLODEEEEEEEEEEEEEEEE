@@ -1,0 +1,467 @@
+[
+{
+"id": "8:0",
+"q": "Må en udlænding danne en forening i Danmark?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle har ret til at danne en forening, også udlændinge."
+},
+{
+"id": "8:n0",
+"q": "Hvem skal godkende en forening, før borgerne må danne den?",
+"a": "Ingen myndighed",
+"w": [
+"Politiet i kommunen",
+"Kommunalbestyrelsen"
+],
+"p": 47,
+"lvl": "K",
+"type": "forståelse",
+"why": "Myndighederne skal ikke godkende foreninger. Retten følger af forenings-, forsamlings- og ytringsfriheden."
+},
+{
+"id": "8:1",
+"q": "Hvad hænger retten til at danne foreninger sammen med?",
+"a": "Forenings- og ytringsfriheden",
+"w": [
+"Valgretten til Folketinget",
+"Skolepligten for børn"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "Retten hænger sammen med forenings-, forsamlings- og ytringsfriheden. Den står i grundloven."
+},
+{
+"id": "8:n1",
+"q": "Hvorfor melder mange sig ind i en forening?",
+"a": "For at dyrke en interesse sammen",
+"w": [
+"For at få løn for arbejdet",
+"For at undgå at betale skat"
+],
+"p": 47,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man dyrker en fælles interesse og lærer andre at kende. Det giver sociale relationer og netværk."
+},
+{
+"id": "8:n2",
+"q": "Hvordan kan en forening hjælpe én med at få job?",
+"a": "Man får et netværk",
+"w": [
+"Foreningen betaler løn",
+"Foreningen finder job via kommunen"
+],
+"p": 47,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Mange får job gennem deres netværk, og foreninger er et godt sted at danne netværk."
+},
+{
+"id": "8:n3",
+"q": "Hvorfor er foreninger vigtige for samfundet?",
+"a": "De skaber sociale fællesskaber",
+"w": [
+"De opkræver skat af borgerne",
+"De laver love for kommunen"
+],
+"p": 47,
+"lvl": "U",
+"type": "forståelse",
+"why": "Her mødes mennesker med forskellig baggrund, fx forskellige sociale lag og politiske holdninger."
+},
+{
+"id": "8:2",
+"q": "Hvad betyder det at være frivillig i en forening?",
+"a": "At arbejde uden at få løn",
+"w": [
+"At arbejde for en lav løn",
+"At arbejde for en myndighed"
+],
+"p": 48,
+"lvl": "K",
+"type": "fakta",
+"why": "Frivillige udfører arbejde for foreningen uden at få løn."
+},
+{
+"id": "8:3",
+"q": "Hvor kommer en forenings penge bl.a. fra?",
+"a": "Kontingent og tilskud",
+"w": [
+"Kun penge fra staten",
+"Kun penge fra lotteri"
+],
+"p": 48,
+"lvl": "K",
+"type": "fakta",
+"why": "Indtægterne kommer fra medlemmernes kontingent, offentlige tilskud og private aktører som fonde og virksomheder."
+},
+{
+"id": "8:n4",
+"q": "Hvad kaldes det beløb, medlemmer betaler til en forening?",
+"a": "Kontingent",
+"w": [
+"Skatteindbetaling",
+"Offentligt tilskud"
+],
+"p": 48,
+"lvl": "K",
+"type": "fakta",
+"why": "Medlemmerne betaler kontingent. Tilskud er de penge, foreningen får fra det offentlige."
+},
+{
+"id": "8:4",
+"q": "Hvor ofte træner børn typisk i en idrætsforening?",
+"a": "Én-to gange om ugen",
+"w": [
+"Hver dag efter skole",
+"Én gang om måneden"
+],
+"p": 48,
+"lvl": "U",
+"type": "fakta",
+"why": "Børn mødes ofte en eller to gange om ugen til træning. Kampe spilles normalt i weekenden."
+},
+{
+"id": "8:5",
+"q": "Hvad bruger foreninger børnenes kontingent bl.a. til?",
+"a": "Spilletrøjer og redskaber",
+"w": [
+"Løn til frivillige trænere",
+"Skat til kommunen og staten"
+],
+"p": 48,
+"lvl": "K",
+"type": "fakta",
+"why": "Kontingentet dækker udgifter til fx spilletrøjer og redskaber. De frivillige får ikke løn."
+},
+{
+"id": "8:n5",
+"q": "Hvorfor er forældres hjælp vigtig i børns foreninger?",
+"a": "Foreningen lever af frivillige",
+"w": [
+"Kommunen kræver det af forældre",
+"Børn må ikke være medlem alene"
+],
+"p": 48,
+"lvl": "K",
+"type": "forståelse",
+"why": "Foreningerne er afhængige af frivilligt arbejde. Forældre er fx trænere, hjælpere eller kører børn."
+},
+{
+"id": "8:6",
+"q": "Hvor kan man finde en oversigt over lokale idrætsforeninger?",
+"a": "I kommunen",
+"w": [
+"Hos politiet",
+"Hos Folketinget"
+],
+"p": 48,
+"lvl": "U",
+"type": "fakta",
+"why": "Den enkelte kommune har oversigter over de lokale idrætsforeninger."
+},
+{
+"id": "8:7",
+"q": "Hvilket er et eksempel på frivilligt socialt arbejde?",
+"a": "En besøgsven til ensomme ældre",
+"w": [
+"At spille fodbold i en klub",
+"At gå på aftenskole om aftenen"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "Frivilligt socialt arbejde hjælper mennesker, der har brug for støtte, fx lektiecaféer, mentorordninger og besøgsvenner."
+},
+{
+"id": "8:10",
+"q": "Hvem får besøg af en frivillig besøgsven?",
+"a": "Ensomme ældre",
+"w": [
+"Hjemløse mennesker",
+"Børn i skolen"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "Besøgsvennetjenester er for ensomme ældre. Hjemløse bruger i stedet væresteder, og skolebørn kan bruge lektiecaféer."
+},
+{
+"id": "8:n6",
+"q": "Hvad tilbyder et værested for hjemløse?",
+"a": "Mad og kaffe",
+"w": [
+"Lektiehjælp",
+"Besøg af en besøgsven"
+],
+"p": 49,
+"lvl": "U",
+"type": "fakta",
+"why": "På væresteder kan hjemløse få et måltid mad eller en kop kaffe, og frivillige kan hjælpe til."
+},
+{
+"id": "8:8",
+"q": "Hvad hedder telefonlinjen, hvor børn og unge med problemer kan ringe?",
+"a": "BørneTelefonen",
+"w": [
+"Livslinjen",
+"Ungdomstelefonen"
+],
+"p": 49,
+"lvl": "D",
+"type": "fakta",
+"why": "BørneTelefonen er en rådgivning for børn og unge med problemer."
+},
+{
+"id": "8:9",
+"q": "Hvad hedder telefonlinjen for mennesker med selvmordstanker?",
+"a": "Livslinjen",
+"w": [
+"BørneTelefonen",
+"Røde Kors"
+],
+"p": 49,
+"lvl": "U",
+"type": "fakta",
+"why": "Livslinjen rådgiver mennesker med selvmordstanker. BørneTelefonen er for børn og unge."
+},
+{
+"id": "8:12",
+"q": "Hvad gælder om prisen på aftenskole?",
+"a": "Man skal selv betale",
+"w": [
+"Det er gratis for alle",
+"Staten betaler det hele"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal betale for at gå på aftenskole."
+},
+{
+"id": "8:n7",
+"q": "Hvad er målet med undervisningen på aftenskoler?",
+"a": "Almen og faglig indsigt",
+"w": [
+"At få en eksamen og karakterer",
+"At få et job hurtigt"
+],
+"p": 49,
+"lvl": "K",
+"type": "forståelse",
+"why": "Undervisningen skal give indsigt og styrke evnen til at tage ansvar og deltage i samfundet. Derfor er der ikke eksamen."
+},
+{
+"id": "8:13",
+"q": "Hvem står som regel for aftenskoletilbud?",
+"a": "Oplysningsforbund",
+"w": [
+"Regionerne i landet",
+"Folketinget"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "Aftenskoler drives som regel af oplysningsforbund som AOF, LOF, FOF og DOF."
+},
+{
+"id": "8:14",
+"q": "Hvad står AOF for?",
+"a": "Arbejdernes Oplysningsforbund",
+"w": [
+"Almennyttigt Oplysnings Forbund",
+"Alle Offentlige Foreninger"
+],
+"p": 49,
+"lvl": "D",
+"type": "fakta",
+"why": "AOF er et af de oplysningsforbund, der står for aftenskoletilbud."
+},
+{
+"id": "8:15",
+"q": "Hvem fik stor betydning for udviklingen af højskoler i Danmark?",
+"a": "N.F.S. Grundtvig",
+"w": [
+"H.C. Andersen",
+"Søren Kierkegaard"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "Højskolerne er bl.a. inspireret af N.F.S. Grundtvig, som var digter og præst."
+},
+{
+"id": "8:17",
+"q": "Hvad var Grundtvig?",
+"a": "Digter og præst",
+"w": [
+"Maler og tegner",
+"Sømand og maler"
+],
+"p": 50,
+"lvl": "U",
+"type": "fakta",
+"why": "Grundtvig var en dansk digter og præst. Hans ideer om skole og læring påvirkede højskolerne."
+},
+{
+"id": "8:n8",
+"q": "Hvorfor mente Grundtvig, at alle skulle have undervisning?",
+"a": "Det skaber demokrati",
+"w": [
+"Det giver bedre karakterer",
+"Det giver flere job"
+],
+"p": 50,
+"lvl": "K",
+"type": "forståelse",
+"why": "Grundtvig så undervisning for alle som en måde at skabe demokrati på i samfundet."
+},
+{
+"id": "8:n9",
+"q": "Hvad mente Grundtvig, at børn og voksne skulle lære?",
+"a": "At tænke selv",
+"w": [
+"At lære bøger udenad",
+"At få gode karakterer"
+],
+"p": 50,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man skulle ikke bare lære udenad, men blive personligt engageret og lære for sin egen skyld."
+},
+{
+"id": "8:20",
+"q": "Hvor lang tid varer de lange højskolekurser som regel?",
+"a": "Tre til fem måneder",
+"w": [
+"Én uge",
+"To år"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "De lange kurser varer som regel mellem tre og fem måneder."
+},
+{
+"id": "8:21",
+"q": "Tager man eksamen på en højskole?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "Man går ikke til eksamen på en højskole, fordi man skal lære for sin egen skyld og ikke for karakterer."
+},
+{
+"id": "8:22",
+"q": "Hvor bor man normalt under et højskoleophold?",
+"a": "På højskolen",
+"w": [
+"Hjemme hos forældrene",
+"På et hotel i byen"
+],
+"p": 50,
+"lvl": "U",
+"type": "fakta",
+"why": "Man bor normalt på højskolen under opholdet. Man betaler selv, men kan få økonomisk støtte."
+},
+{
+"id": "8:n10",
+"q": "Hvad gælder om prisen på et højskoleophold?",
+"a": "Man betaler, men kan få støtte",
+"w": [
+"Det er gratis for alle unge",
+"Kun unge under 25 år betaler"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal betale for et højskoleophold, men der er flere muligheder for økonomisk støtte."
+},
+{
+"id": "8:25",
+"q": "Hvor findes der folkebiblioteker i Danmark?",
+"a": "I alle kommuner",
+"w": [
+"Kun i de største byer",
+"Kun i hovedstaden"
+],
+"p": 51,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er folkebiblioteker i alle kommuner, og de er et tilbud til alle borgere."
+},
+{
+"id": "8:n11",
+"q": "Er det gratis at låne bøger på folkebiblioteket?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 51,
+"lvl": "K",
+"type": "fakta",
+"why": "På biblioteket kan man gratis låne bøger, magasiner, musik, film og computerspil."
+},
+{
+"id": "8:23",
+"q": "Hvad skal man vise for at låne noget på biblioteket?",
+"a": "Sundhedskort eller lånerkort",
+"w": [
+"Pas eller kørekort",
+"Dankort eller pas"
+],
+"p": 51,
+"lvl": "K",
+"type": "fakta",
+"why": "Man bruger sundhedskortet eller et lånerkort, man kan få på biblioteket."
+},
+{
+"id": "8:n12",
+"q": "Hvad kan biblioteket gøre, hvis bogen mangler?",
+"a": "Bestille den fra andet bibliotek",
+"w": [
+"Købe bogen og give dig den",
+"Sende dig til en boghandel"
+],
+"p": 51,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Biblioteket kan som regel bestille materialer hjem fra et andet bibliotek."
+},
+{
+"id": "8:24",
+"q": "Hvilke online-tjenester tilbyder bibliotekerne gratis?",
+"a": "eReolen og Filmstriben",
+"w": [
+"Netflix og Disney Plus",
+"YouTube og Instagram"
+],
+"p": 51,
+"lvl": "D",
+"type": "fakta",
+"why": "Her kan man låne og streame lydbøger, e-bøger, podcasts, film og tv-serier hjemmefra."
+},
+{
+"id": "8:26",
+"q": "Hvem hjælper børn med lektier i bibliotekets lektiecafé?",
+"a": "Frivillige",
+"w": [
+"Bibliotekarerne",
+"Børnenes forældre"
+],
+"p": 51,
+"lvl": "U",
+"type": "fakta",
+"why": "I lektiecaféer hjælper frivillige, fx pensionerede lærere eller studerende, børn med lektierne."
+}
+]

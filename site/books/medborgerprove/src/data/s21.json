@@ -1,0 +1,573 @@
+[
+{
+"id": "21:0",
+"q": "Hvornår blev Danmark medlem af NATO?",
+"a": "1949",
+"w": [
+"1969",
+"1989"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter 2. Verdenskrig stoppede Danmark sin neutralitetspolitik og blev i 1949 medlem af NATO."
+},
+{
+"id": "21:1",
+"q": "Hvad er NATO?",
+"a": "En forsvarsalliance",
+"w": [
+"En handelsunion",
+"En domstol for krig"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "NATO består af USA, Canada og en række vesteuropæiske lande. Danmark valgte side i Den Kolde Krig ved at blive medlem."
+},
+{
+"id": "21:3",
+"q": "Hvad hed alliancen med Sovjetunionen og lande i Østeuropa?",
+"a": "Warszawa-pagten",
+"w": [
+"NATO-pagten",
+"EU-pagten"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "Warszawa-pagten stod over for NATO i Den Kolde Krig."
+},
+{
+"id": "21:4",
+"q": "Hvad var Den Kolde Krig?",
+"a": "En kamp mellem USA og Sovjetunionen",
+"w": [
+"En krig mellem Danmark og Sverige i Norden",
+"En krig om olie"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "Det var en kamp om militær magt og atomvåben, men også mellem to ideologier. Danmark valgte side ved at blive medlem af NATO."
+},
+{
+"id": "21:5",
+"q": "Hvilke to økonomiske systemer stod over for hinanden i Den Kolde Krig?",
+"a": "Markedsøkonomi og planøkonomi",
+"w": [
+"Monarki og republik",
+"Landbrug og industriproduktion"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "Vesten havde liberal markedsøkonomi, og Sovjetunionen havde kommunistisk planøkonomi."
+},
+{
+"id": "21:n0",
+"q": "Hvilket land gav Danmark penge med Marshall-planen?",
+"a": "USA",
+"w": [
+"Sovjetunionen",
+"Tyskland"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "USA gav i 1948-51 store pengebeløb til lande i Vesteuropa, bl.a. Danmark."
+},
+{
+"id": "21:7",
+"q": "Hvad var formålet med Marshall-planen?",
+"a": "Genopbygge og stoppe kommunismen",
+"w": [
+"At bygge nye forsvarsværker",
+"At indføre en fælles valuta"
+],
+"p": 116,
+"lvl": "K",
+"type": "forståelse",
+"why": "Pengene skulle genopbygge byer, veje og fabrikker efter krigen. Planen skulle også forhindre, at kommunismen bredte sig."
+},
+{
+"id": "21:9",
+"q": "Hvordan blev landbruget moderniseret efter 2. verdenskrig?",
+"a": "Med traktorer og maskiner",
+"w": [
+"Med flere heste og plove",
+"Med færre og mindre marker"
+],
+"p": 116,
+"lvl": "U",
+"type": "fakta",
+"why": "Hjælpen fra USA gav maskiner i stedet for heste."
+},
+{
+"id": "21:10",
+"q": "Hvorfor flyttede mange fra land til by i 1950'erne?",
+"a": "Landbruget skulle bruge færre folk",
+"w": [
+"For at få billigere boliger",
+"For at komme i skole og uddanne sig"
+],
+"p": 116,
+"lvl": "K",
+"type": "forståelse",
+"why": "Maskinerne gjorde en stor del af arbejdskraften på landet unødvendig, så mange flyttede til byerne for at finde arbejde."
+},
+{
+"id": "21:11",
+"q": "Hvilken periode kaldes De glade 60'ere med høj økonomisk vækst?",
+"a": "1957-1973",
+"w": [
+"1945-1957",
+"1973-1982"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "Fra 1957 til 1973 voksede produktionen, og der var arbejde til næsten alle."
+},
+{
+"id": "21:n1",
+"q": "Hvorfor fik mange danskere flere penge i 1960'erne?",
+"a": "Høj vækst og arbejde nok",
+"w": [
+"Skatten blev afskaffet helt",
+"Der kom ingen nye fabrikker"
+],
+"p": 117,
+"lvl": "U",
+"type": "forståelse",
+"why": "Produktionen voksede, og næsten alle havde arbejde. Derfor kunne mange købe fx tv, bil og sommerhus."
+},
+{
+"id": "21:13",
+"q": "Hvornår blev velfærdsstaten især udbygget?",
+"a": "1960'erne og 1970'erne",
+"w": [
+"1930'erne og 1940'erne",
+"1990'erne og 2000'erne"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "Det var især i 1960'erne og 1970'erne, at Danmark blev til den velfærdsstat, vi kender i dag."
+},
+{
+"id": "21:14",
+"q": "Hvilken pension kom til alle ældre i velfærdsstaten?",
+"a": "Folkepension",
+"w": [
+"Kontanthjælp",
+"Dagpenge"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkepensionen er pension til alle ældre. Samtidig blev der bygget flere vuggestuer, børnehaver og plejehjem."
+},
+{
+"id": "21:15",
+"q": "Hvilket land kom mange udenlandske arbejdere fra i 1960'erne?",
+"a": "Tyrkiet",
+"w": [
+"Sverige",
+"Canada"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste kom fra Tyrkiet, ex-Jugoslavien eller Pakistan, fordi Danmark hentede arbejdskraft i udlandet."
+},
+{
+"id": "21:n2",
+"q": "Hvorfor kunne flere kvinder arbejde fra 1960'erne?",
+"a": "Børn kom i vuggestue og børnehave",
+"w": [
+"Mændene blev hjemme hos børnene",
+"Skolerne lukkede tidligere"
+],
+"p": 117,
+"lvl": "U",
+"type": "forståelse",
+"why": "I midten af 1900-tallet passede de fleste gifte kvinder hjem og børn. Fra 1960'erne kom børnene i nye vuggestuer, børnehaver og fritidshjem."
+},
+{
+"id": "21:16",
+"q": "Hvad gjorde mange unge fra slutningen af 1960'erne?",
+"a": "Gjorde oprør mod normer",
+"w": [
+"Meldte sig til hæren",
+"Flyttede ud på landet"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "De mente, at samfundets normer og værdier var gammeldags. Nye måder at leve på blev mere accepteret."
+},
+{
+"id": "21:17",
+"q": "Hvad er et kollektiv?",
+"a": "Mange voksne og børn bor sammen",
+"w": [
+"Et plejehjem for gamle og syge",
+"En ny slags fagforening"
+],
+"p": 117,
+"lvl": "U",
+"type": "fakta",
+"why": "I et kollektiv bor mange voksne og børn sammen og har fælles økonomi. Det var et alternativ til kernefamilien."
+},
+{
+"id": "21:n3",
+"q": "Hvad kæmpede kvindebevægelsen for i 1970'erne?",
+"a": "Ligestilling mellem kønnene",
+"w": [
+"Ret til at stemme til Folketinget",
+"Kortere skoledage for børn"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Ligestilling var et vigtigt politisk emne. Sejrene var bl.a. fri abort og loven om ligeløn."
+},
+{
+"id": "21:18",
+"q": "Hvornår blev fri abort indført i Danmark?",
+"a": "1973",
+"w": [
+"1953",
+"1983"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Fri abort var en vigtig sejr for kvindebevægelsen. Kvinder kunne selv vælge at afbryde en graviditet."
+},
+{
+"id": "21:19",
+"q": "Indtil hvilken graviditetsuge gjaldt fri abort fra 1973?",
+"a": "12. uge",
+"w": [
+"8. uge",
+"24. uge"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Fra 1973 kunne kvinder selv vælge abort frem til den 12. uge. I 2025 blev grænsen hævet til den 18. uge."
+},
+{
+"id": "21:20",
+"q": "I hvilket år blev grænsen for fri abort hævet til 18. uge?",
+"a": "2025",
+"w": [
+"1995",
+"2015"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Grænsen blev hævet fra den 12. til den 18. graviditetsuge."
+},
+{
+"id": "21:n4",
+"q": "Hvilken lov giver mænd og kvinder samme løn for samme arbejde?",
+"a": "Loven om ligeløn",
+"w": [
+"Loven om fri abort",
+"Loven om folkepension"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Folketinget vedtog loven i 1976. Før havde det været lovligt, at kvinder tjente mindre end mænd for samme arbejde."
+},
+{
+"id": "21:23",
+"q": "Hvornår blev det forbudt for forældre at slå deres egne børn?",
+"a": "1997",
+"w": [
+"1967",
+"1977"
+],
+"p": 118,
+"lvl": "U",
+"type": "fakta",
+"why": "I 1967 blev det forbudt at slå børn i skolen, men forældre måtte først holde op 30 år senere."
+},
+{
+"id": "21:n5",
+"q": "Hvornår blev Danmark medlem af EF (nu EU)?",
+"a": "1973",
+"w": [
+"1953",
+"1983"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "Det skete efter en folkeafstemning, hvor et flertal stemte ja."
+},
+{
+"id": "21:n6",
+"q": "Hvordan blev det afgjort, at Danmark skulle være med i EF?",
+"a": "Ved en folkeafstemning",
+"w": [
+"Kongen bestemte alene",
+"Folketinget bestemte alene"
+],
+"p": 118,
+"lvl": "U",
+"type": "forståelse",
+"why": "Danskerne stemte ja eller nej til medlemskab, og et flertal stemte ja."
+},
+{
+"id": "21:25",
+"q": "Hvorfor stemte ja-sigerne ja til EF?",
+"a": "Bedre handel og landbrugsstøtte",
+"w": [
+"For at beskytte velfærdsstaten",
+"For at få en fælles valuta og euro"
+],
+"p": 118,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ja-sigerne ville have bedre muligheder for at handle med Europa og støtte til dansk landbrug."
+},
+{
+"id": "21:26",
+"q": "Hvorfor stemte nej-sigerne nej til EF?",
+"a": "Tab af selvbestemmelse",
+"w": [
+"Bedre handel med Europa",
+"Støtte til landbruget fra EF"
+],
+"p": 118,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nej-sigerne mente, at Danmark opgav noget af sin ret til at bestemme selv, og at velfærdsstaten og den nationale identitet kunne lide skade."
+},
+{
+"id": "21:29",
+"q": "Hvorfor kom der økonomisk krise i 1970'erne?",
+"a": "Olieprisen steg meget",
+"w": [
+"Fødselstallet faldt",
+"Der kom mange nye partier"
+],
+"p": 118,
+"lvl": "K",
+"type": "forståelse",
+"why": "Priserne på olie steg i 1973 og 1979 på grund af krige og politiske problemer i Mellemøsten."
+},
+{
+"id": "21:n7",
+"q": "Hvorfor ramte stigende oliepriser Danmark hårdt?",
+"a": "Danmark havde næsten ingen olie",
+"w": [
+"Danmark solgte for meget olie",
+"Alle husene brugte kul og træ"
+],
+"p": 118,
+"lvl": "U",
+"type": "forståelse",
+"why": "Olie bruges i industrien og til at varme boliger op. Danmark producerede dengang kun meget lidt olie."
+},
+{
+"id": "21:27",
+"q": "Hvornår fik Danmark en borgerlig regering, der sad i over ti år?",
+"a": "1982",
+"w": [
+"1972",
+"1992"
+],
+"p": 118,
+"lvl": "U",
+"type": "fakta",
+"why": "Før 1982 havde Socialdemokratiet haft statsministerposten de fleste år siden 1929. Den borgerlige regering sad til 1993."
+},
+{
+"id": "21:37",
+"q": "Hvad besluttede Folketinget i 1985 om atomkraftværker?",
+"a": "At der ikke skulle bygges nogen",
+"w": [
+"At der skulle bygges ti stk.",
+"At der skulle bygges ét værk"
+],
+"p": 119,
+"lvl": "U",
+"type": "fakta",
+"why": "Miljøbevægelsen var imod atomkraft, og Folketinget besluttede, at Danmark ikke skulle have atomkraftværker."
+},
+{
+"id": "21:n8",
+"q": "Hvad var miljøbevægelsen i 1980'erne imod?",
+"a": "Atomkraft",
+"w": [
+"Fri abort",
+"Oprustning"
+],
+"p": 119,
+"lvl": "U",
+"type": "fakta",
+"why": "Miljøbevægelsen var fx imod atomkraft. Fredsbevægelsen arbejdede mod oprustning og våbenkapløb."
+},
+{
+"id": "21:n9",
+"q": "Hvad arbejdede fredsbevægelsen imod?",
+"a": "Oprustning og våbenkapløb",
+"w": [
+"Atomkraft og miljøskader",
+"Indvandring til de store byer"
+],
+"p": 119,
+"lvl": "U",
+"type": "fakta",
+"why": "Fredsbevægelsen var imod, at stormagterne rustede op og kappedes om våben. Miljøbevægelsen var imod atomkraft."
+},
+{
+"id": "21:39",
+"q": "Hvornår kom Dansk Folkeparti første gang ind i Folketinget?",
+"a": "1998",
+"w": [
+"1988",
+"2008"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Debatten om indvandrere og integration fyldte mere og mere i 1990'erne, og det førte til, at partiet blev valgt ind."
+},
+{
+"id": "21:40",
+"q": "Hvad blev sværere efter stramningerne af udlændingepolitikken?",
+"a": "At få familien til Danmark",
+"w": [
+"At rejse til udlandet",
+"At få folkepension af staten"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Det blev sværere at få udenlandsk familie til landet (familiesammenføring). Nytilkomne uden arbejde fik lavere kontanthjælp."
+},
+{
+"id": "21:n10",
+"q": "Hvad kræves bl.a. for at få dansk statsborgerskab?",
+"a": "At have haft arbejde det meste af tiden",
+"w": [
+"At have børn i Danmark",
+"At være gift med en dansker"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal også have boet længe i Danmark, ikke begå alvorlig kriminalitet, lære dansk og have viden om dansk historie, samfund og kultur."
+},
+{
+"id": "21:41",
+"q": "Hvornår ramte en international finanskrise Danmark?",
+"a": "2008",
+"w": [
+"1998",
+"2018"
+],
+"p": 120,
+"lvl": "K",
+"type": "fakta",
+"why": "Krisen startede i USA og spredte sig til Europa. Flere blev arbejdsløse, og værdien af Danmarks produktion faldt."
+},
+{
+"id": "21:44",
+"q": "Hvilket problem har Danmark og de fleste europæiske lande med befolkningen?",
+"a": "Flere ældre i forhold til dem i arbejdsalderen",
+"w": [
+"For mange børn og unge",
+"Flere unge end ældre og børn"
+],
+"p": 120,
+"lvl": "K",
+"type": "fakta",
+"why": "Der bliver mange flere ældre i forhold til dem i arbejdsalderen, som betaler skat."
+},
+{
+"id": "21:n11",
+"q": "Hvorfor bliver der flere ældre i Danmark?",
+"a": "Vi lever længere og får færre børn",
+"w": [
+"Flere indvandrere kommer hertil",
+"Vi arbejder meget mere og længere"
+],
+"p": 120,
+"lvl": "U",
+"type": "forståelse",
+"why": "Befolkningen lever længere, og kvinder føder færre børn end før."
+},
+{
+"id": "21:45",
+"q": "Hvilken aldersgruppe er typisk i arbejde og betaler skat?",
+"a": "15 til 64 år",
+"w": [
+"18 til 60 år",
+"25 til 75 år"
+],
+"p": 120,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "21:52",
+"q": "Hvordan er pensionsalderen ændret for at få flere i arbejde?",
+"a": "Man skal være ældre end før",
+"w": [
+"Man kan gå tidligere på pension",
+"Den er ikke ændret"
+],
+"p": 120,
+"lvl": "U",
+"type": "fakta",
+"why": "Reformerne i de sidste cirka 35 år skal få flere ud på arbejdsmarkedet. Perioden med a-kasse er også blevet kortere."
+},
+{
+"id": "21:53",
+"q": "Hvilken sygdom var en stor udfordring i årene 2020-22?",
+"a": "Covid-19 (corona)",
+"w": [
+"Pestsygdommen",
+"Kolera og tyfus"
+],
+"p": 121,
+"lvl": "K",
+"type": "fakta",
+"why": "Sygdommen blev opdaget i Kina i 2019, og der blev gjort meget for at bekæmpe smitte."
+},
+{
+"id": "21:58",
+"q": "Hvad var et tiltag mod coronasmitte?",
+"a": "Holde afstand og sprite hænder",
+"w": [
+"At rejse mere end før",
+"At holde alle skolerne åbne"
+],
+"p": 121,
+"lvl": "U",
+"type": "fakta",
+"why": "Skoler, restauranter og museer var også lukkede i perioder, og mange arbejdede hjemmefra. Vaccination var et andet vigtigt middel."
+},
+{
+"id": "21:n12",
+"q": "Hvorfor ville man under corona undgå, at mange blev smittet på én gang?",
+"a": "Sygehusene havde ikke plads",
+"w": [
+"Vaccinerne var ikke færdige endnu",
+"Skolerne skulle åbne igen"
+],
+"p": 121,
+"lvl": "U",
+"type": "forståelse",
+"why": "Hvis for mange blev syge samtidig, kunne sygehusene ikke behandle dem alle."
+}
+]

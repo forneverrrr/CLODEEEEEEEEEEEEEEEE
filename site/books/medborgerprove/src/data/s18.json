@@ -1,0 +1,600 @@
+[
+{
+"id": "18:0",
+"q": "Hvor mange lande er medlem af EU?",
+"a": "27",
+"w": [
+"20",
+"35"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "EU er et samarbejde mellem 27 europæiske lande. Danmark er et af dem."
+},
+{
+"id": "18:1",
+"q": "Hvor ligger EU's hovedkvarter?",
+"a": "Bruxelles",
+"w": [
+"Paris",
+"Strasbourg"
+],
+"p": 97,
+"lvl": "U",
+"type": "fakta",
+"why": "EU's hovedkvarter ligger i Bruxelles i Belgien."
+},
+{
+"id": "18:2",
+"q": "Hvilket slags samarbejde er EU?",
+"a": "Økonomisk, politisk og retligt",
+"w": [
+"Kun militært",
+"Kun kulturelt"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "EU er et økonomisk, politisk og retligt samarbejde, fx om miljø, forbrugerspørgsmål og fri handel."
+},
+{
+"id": "18:3",
+"q": "Hvor mange af de 27 EU-lande har euroen som valuta?",
+"a": "21",
+"w": [
+"12",
+"27"
+],
+"p": 98,
+"lvl": "U",
+"type": "fakta",
+"why": "21 af 27 lande har euroen. Danmark er ikke med, selv om det er medlem af EU."
+},
+{
+"id": "18:4",
+"q": "Hvilken valuta har Danmark?",
+"a": "Kroner",
+"w": [
+"Euro",
+"Pund"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark har valgt at beholde kronen og er ikke med i den fælles valuta."
+},
+{
+"id": "18:5",
+"q": "Hvornår blev Danmark medlem af EF, som senere blev til EU?",
+"a": "1973",
+"w": [
+"1957",
+"1992"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark blev medlem i 1973 efter en folkeafstemning. 1992 er årstallet for afstemningen om Maastricht-traktaten."
+},
+{
+"id": "18:6",
+"q": "Hvad hed EU, da Danmark blev medlem i 1973?",
+"a": "EF",
+"w": [
+"NATO",
+"FN"
+],
+"p": 98,
+"lvl": "U",
+"type": "fakta",
+"why": "EU hed EF, da Danmark blev medlem."
+},
+{
+"id": "18:8",
+"q": "Hvem kan stemme til Europa-Parlamentet?",
+"a": "Statsborgere i EU-lande",
+"w": [
+"Kun danske statsborgere",
+"Alle, der bor i Europa"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være statsborger i et EU-land for at stemme til Europa-Parlamentet."
+},
+{
+"id": "18:10",
+"q": "Hvad stemte et flertal af danskerne i 1992?",
+"a": "Nej til den nye EU-traktat",
+"w": [
+"Ja til den nye EU-traktat",
+"Ja til euroen"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Danskerne stemte nej til traktaten, som bl.a. omfattede euroen. Derefter fik Danmark forbehold."
+},
+{
+"id": "18:11",
+"q": "Hvad er et dansk forbehold i EU?",
+"a": "Et område uden dansk deltagelse i samarbejdet",
+"w": [
+"En særlig dansk skat",
+"Et møde mellem danske ministre"
+],
+"p": 98,
+"lvl": "K",
+"type": "forståelse",
+"why": "Et forbehold betyder, at Danmark ikke er med i EU-landenes samarbejde på et bestemt område."
+},
+{
+"id": "18:13",
+"q": "Hvilket område dækker det danske forbehold om retligt samarbejde?",
+"a": "Politi og strafferet",
+"w": [
+"Landbrug",
+"Fiskeri"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Forbeholdet betyder, at Danmark ikke deltager i fælles EU-regler om fx politi, strafferet, asyl og indvandring."
+},
+{
+"id": "18:14",
+"q": "Hvornår blev det danske forsvarsforbehold ophævet?",
+"a": "2022",
+"w": [
+"2002",
+"2012"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Forsvarsforbeholdet blev ophævet efter en folkeafstemning i 2022. Euroforbeholdet og retsforbeholdet findes stadig."
+},
+{
+"id": "18:16",
+"q": "Hvordan kan et dansk forbehold afskaffes?",
+"a": "Ved en ny folkeafstemning",
+"w": [
+"Ved Folketingets beslutning",
+"Ved kongens beslutning"
+],
+"p": 99,
+"lvl": "K",
+"type": "forståelse",
+"why": "Danmark kan selv bestemme at afskaffe forbehold, men det kræver en ny folkeafstemning, hvor befolkningen stemmer for."
+},
+{
+"id": "18:17",
+"q": "Hvor vedtages EU's overordnede politiske retningslinjer?",
+"a": "I Det Europæiske Råd",
+"w": [
+"I Ministerrådet",
+"I EU-Domstolen"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Retningslinjerne vedtages på EU-topmøder i Det Europæiske Råd."
+},
+{
+"id": "18:18",
+"q": "Hvem deltager for Danmark i Det Europæiske Råd?",
+"a": "Statsministeren",
+"w": [
+"Kongen",
+"Udenrigsministeren"
+],
+"p": 99,
+"lvl": "U",
+"type": "fakta",
+"why": "Statsministeren deltager sammen med stats- og regeringschefer fra de andre EU-lande."
+},
+{
+"id": "18:19",
+"q": "Hvem deltager i Ministerrådets møder?",
+"a": "Ministre fra medlemslandene",
+"w": [
+"Dommere fra medlemslandene",
+"Statsoverhoveder fra medlemslandene"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Ministerrådet består af medlemslandenes regeringsrepræsentanter. Det er ministre for det pågældende område, der mødes."
+},
+{
+"id": "18:20",
+"q": "Hvor mange EU-kommissærer har hvert medlemsland?",
+"a": "Én",
+"w": [
+"To",
+"Tre"
+],
+"p": 99,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvert EU-land har en kommissær i Europa-Kommissionen."
+},
+{
+"id": "18:22",
+"q": "Hvilken domstol tolker EU's traktat og tager stilling i retssager om EU's regler?",
+"a": "EU-Domstolen",
+"w": [
+"Højesteret",
+"Menneskerettighedsdomstolen"
+],
+"p": 100,
+"lvl": "U",
+"type": "fakta",
+"why": "EU-Domstolen tolker EU's traktat og tager stilling i retssager om EU's regler."
+},
+{
+"id": "18:24",
+"q": "Hvor mange medlemmer af Europa-Parlamentet er valgt i Danmark?",
+"a": "15",
+"w": [
+"5",
+"25"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark vælger 15 medlemmer til Europa-Parlamentet."
+},
+{
+"id": "18:27",
+"q": "Hvor længe varer et lands formandskab for EU's Ministerråd?",
+"a": "Seks måneder",
+"w": [
+"Et år",
+"To år"
+],
+"p": 100,
+"lvl": "D",
+"type": "fakta",
+"why": "Landene skiftes til formandskabet hver sjette måned."
+},
+{
+"id": "18:29",
+"q": "Hvad er Europarådet?",
+"a": "En selvstændig organisation",
+"w": [
+"En del af EU",
+"En del af FN"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Europarådet er en selvstændig organisation med 47 europæiske medlemslande, og dermed uafhængig af EU."
+},
+{
+"id": "18:31",
+"q": "Hvad har Europarådet vedtaget?",
+"a": "Menneskerettighedskonventionen",
+"w": [
+"EU-traktaten",
+"FN-pagten"
+],
+"p": 100,
+"lvl": "U",
+"type": "fakta",
+"why": "Europarådet vedtog Den Europæiske Menneskerettighedskonvention med rettigheder som ytringsfrihed og forbud mod tortur."
+},
+{
+"id": "18:32",
+"q": "Hvornår blev FN grundlagt?",
+"a": "1945",
+"w": [
+"1919",
+"1960"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "FN blev grundlagt i 1945, kort efter 2. verdenskrig, og Danmark har været medlem fra begyndelsen."
+},
+{
+"id": "18:34",
+"q": "Hvad er FN's formål?",
+"a": "At skabe fred og udvikling",
+"w": [
+"At skabe handel",
+"At forsvare Europa"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "FN arbejder for fred og udvikling i verden, fx ved at hjælpe efter katastrofer og fremme menneskerettigheder."
+},
+{
+"id": "18:35",
+"q": "Hvilket af disse lande har fast plads i FN's Sikkerhedsråd?",
+"a": "Frankrig",
+"w": [
+"Tyskland",
+"Italien"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "De faste medlemmer er Frankrig, Kina, Rusland, Storbritannien og USA."
+},
+{
+"id": "18:36",
+"q": "Hvor mange øvrige medlemmer har Sikkerhedsrådet ud over de faste?",
+"a": "Ti",
+"w": [
+"Fem",
+"Tyve"
+],
+"p": 101,
+"lvl": "U",
+"type": "fakta",
+"why": "Ud over de fem faste lande har rådet ti øvrige medlemmer, der skiftes."
+},
+{
+"id": "18:37",
+"q": "Hvor længe er de øvrige medlemmer valgt i Sikkerhedsrådet ad gangen?",
+"a": "To år",
+"w": [
+"Et år",
+"Fem år"
+],
+"p": 101,
+"lvl": "D",
+"type": "fakta",
+"why": "De ti øvrige medlemmer vælges for to år ad gangen."
+},
+{
+"id": "18:40",
+"q": "Et land angriber et andet land. Hvad kan FN's Sikkerhedsråd gøre?",
+"a": "Indføre sanktioner",
+"w": [
+"Afholde valg i landet",
+"Udskifte landets regering"
+],
+"p": 101,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Sikkerhedsrådet kan indføre økonomiske eller militære sanktioner mod et land, der fx angriber andre lande."
+},
+{
+"id": "18:41",
+"q": "Hvornår vedtog FN's medlemslande verdensmålene?",
+"a": "2015",
+"w": [
+"1995",
+"2005"
+],
+"p": 102,
+"lvl": "U",
+"type": "fakta",
+"why": "Verdensmålene blev vedtaget på et topmøde i New York i 2015."
+},
+{
+"id": "18:42",
+"q": "Hvor mange verdensmål for bæredygtig udvikling har FN?",
+"a": "17",
+"w": [
+"7",
+"27"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "FN har 17 verdensmål, bl.a. om fattigdom, uddannelse, sundhed, ligestilling og klima."
+},
+{
+"id": "18:43",
+"q": "Hvilket af disse lande hører til Norden?",
+"a": "Island",
+"w": [
+"Polen",
+"Tyskland"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Norden er Danmark, Norge, Sverige, Finland og Island samt Færøerne, Grønland og Åland."
+},
+{
+"id": "18:44",
+"q": "Hvad hedder et organ for nordisk samarbejde?",
+"a": "Nordisk Råd",
+"w": [
+"Nordisk Domstol",
+"Nordisk Kommission"
+],
+"p": 102,
+"lvl": "U",
+"type": "fakta",
+"why": "Det nordiske samarbejde foregår bl.a. i Nordisk Råd og Nordisk Ministerråd."
+},
+{
+"id": "18:46",
+"q": "Hvilken verdensdel modtager mest af Danmarks udviklingsbistand?",
+"a": "Afrika",
+"w": [
+"Asien",
+"Sydamerika"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Afrika modtager størstedelen af Danmarks udviklingsbistand."
+},
+{
+"id": "18:n0",
+"q": "Hvad kaldes Danmarks økonomiske støtte til udviklingslande?",
+"a": "Udviklingsbistand",
+"w": [
+"Eksportstøtte",
+"Udviklingsskat"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark giver hvert år økonomisk støtte til udviklingslande. Den kaldes udviklingsbistand."
+},
+{
+"id": "18:n1",
+"q": "Hvordan er Danmarks udviklingsbistand i forhold til befolkningens størrelse?",
+"a": "Blandt verdens største",
+"w": [
+"Blandt verdens mindste",
+"Gennemsnitlig"
+],
+"p": 102,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark er et af de lande, der betaler mest i udviklingsbistand i forhold til befolkningens størrelse."
+},
+{
+"id": "18:n2",
+"q": "Hvorfor giver Danmark især udviklingsbistand til Afrika?",
+"a": "Afrika er verdens fattigste kontinent",
+"w": [
+"Afrika er verdens rigeste kontinent",
+"Der er ingen konflikter i Afrika"
+],
+"p": 103,
+"lvl": "U",
+"type": "forståelse",
+"why": "Afrika er samlet set det fattigste kontinent med konflikter og klimaproblemer. Det har også betydning for Europa."
+},
+{
+"id": "18:n3",
+"q": "Hvor længe har Danmark været medlem af FN?",
+"a": "Siden starten",
+"w": [
+"Siden 1973",
+"Siden 1992"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark har været medlem af FN fra begyndelsen i 1945."
+},
+{
+"id": "18:n4",
+"q": "Hvilke lande gælder FN's verdensmål for?",
+"a": "Alle verdens lande",
+"w": [
+"Kun udviklingslande",
+"Kun EU-lande"
+],
+"p": 102,
+"lvl": "K",
+"type": "forståelse",
+"why": "Verdensmålene gælder for alle lande, også Danmark, og ikke kun for fattige lande."
+},
+{
+"id": "18:n5",
+"q": "Hvad betyder det for danske love, at Danmark er med i EU?",
+"a": "EU påvirker store dele af lovene",
+"w": [
+"EU skriver alle danske love",
+"EU påvirker ikke danske love"
+],
+"p": 98,
+"lvl": "K",
+"type": "forståelse",
+"why": "EU har indflydelse på store dele af lovgivningen i medlemslandene, men Danmark har også selv indflydelse."
+},
+{
+"id": "18:n6",
+"q": "Hvad har EU sat grænser for i Danmark?",
+"a": "Underskud på statsbudgettet",
+"w": [
+"Antal borgere",
+"Lønninger"
+],
+"p": 98,
+"lvl": "U",
+"type": "fakta",
+"why": "EU har stor indflydelse på økonomisk politik og har sat grænser for, hvor store underskud statsbudgettet må have."
+},
+{
+"id": "18:n7",
+"q": "Hvordan har Danmark indflydelse på EU's politik?",
+"a": "Danske ministre deltager i møderne",
+"w": [
+"Danmark bestemmer alene",
+"Danske borgere deltager i møderne"
+],
+"p": 98,
+"lvl": "U",
+"type": "fakta",
+"why": "Danske ministre og embedsmænd deltager i de møder, hvor EU's politikker og love fastlægges."
+},
+{
+"id": "18:n8",
+"q": "Hvordan skal en EU-kommissær arbejde?",
+"a": "Uafhængigt af sit hjemlands interesser",
+"w": [
+"For sit hjemlands interesser",
+"Efter ordre fra sin regering"
+],
+"p": 99,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kommissærerne er ikke repræsentanter for deres land. De skal arbejde uafhængigt af hjemlandets interesser."
+},
+{
+"id": "18:n9",
+"q": "Danmarks miljøminister skal til EU-møde om miljøpolitik. Hvilket EU-organ mødes hun i?",
+"a": "Ministerrådet",
+"w": [
+"Europa-Parlamentet",
+"EU-Domstolen"
+],
+"p": 99,
+"lvl": "K",
+"type": "anvendelse",
+"why": "I Ministerrådet deltager medlemslandenes ministre for det pågældende område, fx miljøministre ved møder om miljø."
+},
+{
+"id": "18:n10",
+"q": "Hvordan er stemmeprocenten normalt ved valg til Europa-Parlamentet?",
+"a": "Lavere end ved folketingsvalg",
+"w": [
+"Højere end ved folketingsvalg",
+"Den samme som ved folketingsvalg"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er typisk lavere deltagelse ved EP-valg end ved valg til Folketinget."
+},
+{
+"id": "18:n11",
+"q": "Hvor tit er der valg til Europa-Parlamentet?",
+"a": "Hvert femte år",
+"w": [
+"Hvert fjerde år",
+"Hvert tredje år"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Der afholdes valg til Europa-Parlamentet hvert femte år."
+},
+{
+"id": "18:n12",
+"q": "Hvem vælger medlemmerne af Europa-Parlamentet?",
+"a": "Befolkningerne i EU-landene",
+"w": [
+"Regeringerne i EU-landene",
+"Europa-Kommissionen"
+],
+"p": 100,
+"lvl": "K",
+"type": "forståelse",
+"why": "Parlamentet vælges direkte af befolkningerne. Det adskiller det fra Ministerrådet, hvor regeringerne er repræsenteret."
+}
+]

@@ -1,0 +1,547 @@
+[
+{
+"id": "23:0",
+"q": "Hvad er fastelavn et andet ord for?",
+"a": "Karneval",
+"w": [
+"Påske",
+"Pinse"
+],
+"p": 128,
+"lvl": "K",
+"type": "fakta",
+"why": "Fastelavn er et andet ord for karneval, en forårsfest med udklædning."
+},
+{
+"id": "23:1",
+"q": "Hvornår ligger fastelavn i forhold til påske?",
+"a": "Syv uger før påske",
+"w": [
+"Syv uger efter påske",
+"To uger før påske"
+],
+"p": 128,
+"lvl": "K",
+"type": "fakta",
+"why": "Fastelavn var begyndelsen på fastetiden før påske og ligger syv uger før påske."
+},
+{
+"id": "23:2",
+"q": "Hvad var fastelavn oprindeligt begyndelsen på?",
+"a": "Den kristne fastetid",
+"w": [
+"Slutningen på julen",
+"Begyndelsen på sommeren"
+],
+"p": 128,
+"lvl": "U",
+"type": "fakta",
+"why": "Fastelavn markerede starten på den kristne fastetid, som begyndte 40 dage før påske."
+},
+{
+"id": "23:3",
+"q": "Hvad gør børn til fastelavn?",
+"a": "Klæder sig ud og slår katten af tønden",
+"w": [
+"Tænder bål og danser",
+"Skyder fyrværkeri af"
+],
+"p": 128,
+"lvl": "K",
+"type": "fakta",
+"why": "Udklædning og at slå katten af tønden er den kendte fastelavnstradition. Bål hører til sankthans."
+},
+{
+"id": "23:4",
+"q": "Hvad kaldes den, der slår det sidste bræt af tønden?",
+"a": "Kattekonge",
+"w": [
+"Tøndekonge",
+"Fastelavnskonge"
+],
+"p": 128,
+"lvl": "U",
+"type": "fakta",
+"why": "Den, der slår det sidste bræt af tønden, kaldes kattekonge."
+},
+{
+"id": "23:5",
+"q": "Hvad er der i dag i tønden?",
+"a": "Slik og frugt",
+"w": [
+"En levende kat",
+"Penge"
+],
+"p": 128,
+"lvl": "D",
+"type": "fakta",
+"why": "I gamle dage var der en levende kat i tønden. I dag er der slik og frugt."
+},
+{
+"id": "23:6",
+"q": "Hvad markerer påsken i kristendommen?",
+"a": "At Jesus døde og opstod",
+"w": [
+"At Jesus blev født i Betlehem",
+"At Helligånden kom til jorden"
+],
+"p": 128,
+"lvl": "K",
+"type": "fakta",
+"why": "Påsken markerer, at Jesus blev korsfæstet, døde og opstod fra de døde. Fødslen fejres til jul."
+},
+{
+"id": "23:n0",
+"q": "Hvilken af disse dage hører til påsken?",
+"a": "Skærtorsdag",
+"w": [
+"Juledag",
+"Grundlovsdag"
+],
+"p": 128,
+"lvl": "U",
+"type": "fakta",
+"why": "Påskedagene er palmesøndag, skærtorsdag, langfredag, påskedag og 2. påskedag. De er helligdage."
+},
+{
+"id": "23:8",
+"q": "Hvad hedder den særlige øl til påskefrokost?",
+"a": "Påskebryg",
+"w": [
+"Juleøl",
+"Pinseøl"
+],
+"p": 128,
+"lvl": "D",
+"type": "fakta",
+"why": "Mange drikker påskebryg til påskefrokosten."
+},
+{
+"id": "23:9",
+"q": "Hvornår på året ligger påsken?",
+"a": "Om foråret",
+"w": [
+"Om sommeren",
+"Om efteråret"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Påsken ligger hvert år i marts eller april, altså om foråret."
+},
+{
+"id": "23:n1",
+"q": "Hvilken højtid ligger hvert år på samme dato?",
+"a": "Jul",
+"w": [
+"Påske",
+"Pinse"
+],
+"p": 129,
+"lvl": "K",
+"type": "forståelse",
+"why": "Julen er altid 24.-26. december. Påsken ligger ikke på faste datoer, og pinsen følger påsken."
+},
+{
+"id": "23:11",
+"q": "Hvornår holdes pinsen i forhold til påske?",
+"a": "Syv uger efter påske",
+"w": [
+"Syv uger før påske",
+"Fire uger efter påske"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Pinsen holdes syv uger efter påske. Fastelavn ligger derimod før påske."
+},
+{
+"id": "23:12",
+"q": "Hvad markerer pinsen?",
+"a": "At Helligånden kom ned til jorden",
+"w": [
+"At Jesus blev født i en stald",
+"At Jesus døde på korset"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Pinsen holdes til minde om, at Helligånden ifølge Bibelen kom ned til jorden."
+},
+{
+"id": "23:14",
+"q": "I hvilke måneder ligger pinsen?",
+"a": "Maj eller juni",
+"w": [
+"Marts eller april",
+"November eller december"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Pinsen ligger syv uger efter påsken, altså i maj eller juni."
+},
+{
+"id": "23:n2",
+"q": "Hvad fejrer man den 1. maj?",
+"a": "Arbejdernes dag",
+"w": [
+"Grundloven",
+"Befrielsen"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "1. maj har siden 1889 været arbejdernes internationale demonstrations- og festdag."
+},
+{
+"id": "23:16",
+"q": "Hvem arrangerer 1. maj?",
+"a": "Fagforeninger og politiske organisationer",
+"w": [
+"Kongehuset og Folketinget",
+"Kirken og kommunerne"
+],
+"p": 129,
+"lvl": "U",
+"type": "fakta",
+"why": "Fagforeninger og politiske organisationer arrangerer 1. maj. Det er forskelligt, om man har fri."
+},
+{
+"id": "23:17",
+"q": "Hvad fejrer man den 5. maj?",
+"a": "Danmarks befrielse i 1945",
+"w": [
+"Grundloven fra 1849",
+"Arbejdernes internationale dag"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Den 5. maj 1945 blev Danmark befriet efter fem års tysk besættelse under 2. verdenskrig."
+},
+{
+"id": "23:19",
+"q": "Hvad gør mange for at mindes befrielsen?",
+"a": "Sætter lys i vinduerne",
+"w": [
+"Tænder store bål",
+"Skyder raketter af"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Under krigen brugte man mørklægningsgardiner. Derfor sætter mange stearinlys i vinduerne for at mindes befrielsen."
+},
+{
+"id": "23:20",
+"q": "Hvad fejrer man på grundlovsdag?",
+"a": "Danmarks første frie grundlov",
+"w": [
+"Befrielsen efter krigen",
+"Kongens fødselsdag"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundlovsdag fejrer, at Danmarks første frie forfatning blev indført i 1849. Der holdes møder om demokrati."
+},
+{
+"id": "23:n3",
+"q": "Hvilken dato er grundlovsdag?",
+"a": "5. juni",
+"w": [
+"5. maj",
+"5. april"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundlovsdag er 5. juni. Den 5. maj er befrielsen."
+},
+{
+"id": "23:21",
+"q": "Er grundlovsdag en officiel fridag?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundlovsdag er ikke officiel fridag, men offentlige kontorer og mange butikker har lukket."
+},
+{
+"id": "23:n4",
+"q": "Hvorfor er mange offentlige kontorer lukket den 5. juni?",
+"a": "Man fejrer grundlovsdag",
+"w": [
+"Man fejrer nytår",
+"Man fejrer sankthans"
+],
+"p": 129,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Den 5. juni er grundlovsdag. Selv om den ikke er officiel fridag, har offentlige kontorer og mange butikker lukket."
+},
+{
+"id": "23:22",
+"q": "I hvilken måned fejres sankthans?",
+"a": "Juni",
+"w": [
+"April",
+"Maj"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Sankthansaften er den 23. juni og markerer midsommer."
+},
+{
+"id": "23:23",
+"q": "Hvad gør man typisk sankthansaften?",
+"a": "Tænder bål",
+"w": [
+"Slår katten af tønden",
+"Skyder raketter af"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Man samles og tænder bål. At slå katten af tønden hører til fastelavn."
+},
+{
+"id": "23:n5",
+"q": "En kollega inviterer dig til bål den 23. juni om aftenen. Hvad fejrer I?",
+"a": "Sankthans",
+"w": [
+"Fastelavn",
+"Grundlovsdag"
+],
+"p": 129,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Bål den 23. juni er sankthansaften, som markerer midsommer."
+},
+{
+"id": "23:24",
+"q": "Hvad markerer sankthans i den folkelige tradition?",
+"a": "Midsommer",
+"w": [
+"Midvinter",
+"Nytår"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Sankthans er en blanding af hedensk folketradition og kristendom, og festen markerer midsommer."
+},
+{
+"id": "23:25",
+"q": "Hvad markerer julen i den kristne tradition?",
+"a": "Jesu fødsel",
+"w": [
+"Jesu død",
+"Helligåndens komme"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Julen markerer Jesu fødsel. Jesu død og opstandelse markeres til påske."
+},
+{
+"id": "23:26",
+"q": "Hvilke dage har man normalt fri i julen?",
+"a": "24., 25. og 26. december",
+"w": [
+"Kun 25. december",
+"23.-27. december"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Man har normalt fri fra arbejde og skole på juleaftensdag, juledag og 2. juledag."
+},
+{
+"id": "23:28",
+"q": "Hvad gør mange børn og voksne juleaften?",
+"a": "Danser om juletræet",
+"w": [
+"Slår katten af tønden",
+"Tænder bål"
+],
+"p": 130,
+"lvl": "U",
+"type": "fakta",
+"why": "Juleaften har man juletræ, danser om det, synger julesange og giver gaver."
+},
+{
+"id": "23:29",
+"q": "Hvad samles mange familier til juledag og 2. juledag?",
+"a": "Julefrokost",
+"w": [
+"Sankthansfest",
+"Pinsefest"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Mange samles til julefrokost juledag og 2. juledag. Man spiser meget mad og drikker øl og snaps."
+},
+{
+"id": "23:30",
+"q": "Hvornår fejres nytår i Danmark?",
+"a": "Den 31. december om aftenen",
+"w": [
+"Den 24. december",
+"Den 5. maj"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Nytåret fejres 31. december om aftenen med fest og fyrværkeri."
+},
+{
+"id": "23:n6",
+"q": "Hvem holder tale i tv nytårsaften den 31. december?",
+"a": "Kongen",
+"w": [
+"Statsministeren",
+"Folketingets formand"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Kongens nytårstale vises i tv klokken 18. Statsministeren taler først 1. januar."
+},
+{
+"id": "23:31",
+"q": "Hvornår vises kongens nytårstale i tv?",
+"a": "Klokken 18",
+"w": [
+"Klokken 12",
+"Klokken 21"
+],
+"p": 130,
+"lvl": "U",
+"type": "fakta",
+"why": "Mange begynder nytårsfesten med kongens nytårstale i tv klokken 18."
+},
+{
+"id": "23:32",
+"q": "Hvem holder tale i tv den 1. januar?",
+"a": "Statsministeren",
+"w": [
+"Kongen",
+"Borgmesteren"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Nytårsdag holder statsministeren en tale i tv. Kongen taler nytårsaften."
+},
+{
+"id": "23:33",
+"q": "Hvad er Ramadan?",
+"a": "Muslimernes fastemåned",
+"w": [
+"En kristen højtid",
+"En jødisk højtid"
+],
+"p": 131,
+"lvl": "K",
+"type": "fakta",
+"why": "Ramadan er muslimernes fastemåned. Mange spiser og drikker ikke, mens solen er på himlen."
+},
+{
+"id": "23:34",
+"q": "Hvad fejrer man til Eid al-Fitr?",
+"a": "Afslutningen på Ramadan",
+"w": [
+"Starten på Ramadan",
+"Muslimernes nytår"
+],
+"p": 131,
+"lvl": "K",
+"type": "fakta",
+"why": "Eid al-Fitr er festen, der markerer slutningen på fastemåneden Ramadan."
+},
+{
+"id": "23:35",
+"q": "Hvad mindes muslimer under Ramadan?",
+"a": "Profetens første åbenbaring",
+"w": [
+"Moses' ti bud på Sinai",
+"Jesu fødsel i Betlehem"
+],
+"p": 131,
+"lvl": "U",
+"type": "fakta",
+"why": "Ramadan holdes til minde om måneden, hvor Muhammad ifølge Koranen fik sin første åbenbaring."
+},
+{
+"id": "23:36",
+"q": "Hvad mindes man under den jødiske påske?",
+"a": "Udvandringen fra Ægypten",
+"w": [
+"Jesu fødsel og død",
+"Moses' ti bud"
+],
+"p": 131,
+"lvl": "K",
+"type": "fakta",
+"why": "Den jødiske påske holdes blandt andet til minde om jødernes udvandring fra Ægypten."
+},
+{
+"id": "23:37",
+"q": "Hvad spiser man under den jødiske påske?",
+"a": "Lam og usyret brød",
+"w": [
+"Fisk og hvedebrød",
+"Svinekød og rugbrød"
+],
+"p": 131,
+"lvl": "D",
+"type": "fakta",
+"why": "Under den jødiske påske er der tradition for at spise lam og usyret brød."
+},
+{
+"id": "23:38",
+"q": "Hvad fejrer man under den jødiske pinse?",
+"a": "Pagten på Sinai bjerg",
+"w": [
+"Jesu opstandelse fra de døde",
+"Afslutningen på Ramadan"
+],
+"p": 131,
+"lvl": "U",
+"type": "fakta",
+"why": "Under den jødiske pinse fejrer man pagten på Sinai bjerg, hvor Moses modtog de ti bud."
+},
+{
+"id": "23:40",
+"q": "Hvad afslutter det kinesiske nytår?",
+"a": "Lanternefestival",
+"w": [
+"Fastelavn",
+"Eid al-Fitr"
+],
+"p": 131,
+"lvl": "D",
+"type": "fakta",
+"why": "Det kinesiske nytår slutter med lanternefestival på den 15. dag."
+},
+{
+"id": "23:41",
+"q": "Hvilket lands tradition er halloween?",
+"a": "USA",
+"w": [
+"Kina",
+"Ægypten"
+],
+"p": 131,
+"lvl": "U",
+"type": "fakta",
+"why": "Halloween er en amerikansk tradition, hvor børn klæder sig ud som hekse og spøgelser."
+}
+]

@@ -1,0 +1,275 @@
+[
+{
+"id": "17:0",
+"q": "Hvornår blev religionsfriheden i Danmark stadfæstet med grundloven?",
+"a": "1849",
+"w": [
+"1536",
+"1915"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven fra 1849 stadfæstede religionsfriheden. 1536 er årstallet for reformationen, ikke for religionsfriheden."
+},
+{
+"id": "17:1",
+"q": "Hvem bestemmer, hvilken religion man har i Danmark?",
+"a": "Man vælger selv",
+"w": [
+"Staten",
+"Familien"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er religionsfrihed: man kan vælge religion, skifte religion eller slet ikke have en religion."
+},
+{
+"id": "17:2",
+"q": "Hvilken kirke er den danske folkekirke ifølge grundloven?",
+"a": "Den evangelisk-lutherske kirke",
+"w": [
+"Den romersk-katolske kirke",
+"Den reformerte kirke"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven siger, at den evangelisk-lutherske kirke er folkekirken."
+},
+{
+"id": "17:3",
+"q": "Hvilken type kirke er folkekirken?",
+"a": "Protestantisk",
+"w": [
+"Katolsk",
+"Ortodoks"
+],
+"p": 93,
+"lvl": "U",
+"type": "fakta",
+"why": "Folkekirken er protestantisk, fordi Danmark brød med den katolske kirke efter reformationen."
+},
+{
+"id": "17:4",
+"q": "Hvornår brød Danmark med den katolske kirke (reformationen)?",
+"a": "1536",
+"w": [
+"1349",
+"1814"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "I 1536 brød Danmark med den katolske kirke, og folkekirken blev protestantisk."
+},
+{
+"id": "17:5",
+"q": "Hvad gælder for forholdet mellem stat og kirke i Danmark?",
+"a": "De er ikke adskilt",
+"w": [
+"De er helt adskilt fra hinanden",
+"Kirken styrer staten"
+],
+"p": 93,
+"lvl": "K",
+"type": "forståelse",
+"why": "Staten understøtter folkekirken økonomisk, så stat og kirke er ikke adskilt. Folkekirken har dog ingen politisk magt."
+},
+{
+"id": "17:6",
+"q": "Hvor stor en del af borgerne er medlem af folkekirken (2026)?",
+"a": "Cirka 70 procent",
+"w": [
+"Cirka 40 procent",
+"Cirka 95 procent"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste danskere, cirka 70 procent, er medlem af folkekirken. Der er altså et flertal, men ikke alle."
+},
+{
+"id": "17:7",
+"q": "Hvad bruger de fleste danskere først og fremmest kirken til?",
+"a": "Dåb, bryllup og begravelse",
+"w": [
+"Daglig bøn",
+"Politiske møder"
+],
+"p": 93,
+"lvl": "U",
+"type": "fakta",
+"why": "Mange bruger kirken ved livets store begivenheder som dåb, konfirmation, bryllup og begravelse."
+},
+{
+"id": "17:8",
+"q": "Hvad bruges kirkeskatten blandt andet til?",
+"a": "At vedligeholde kirker og kirkegårde",
+"w": [
+"At bygge nye skoler",
+"At betale politikere"
+],
+"p": 94,
+"lvl": "K",
+"type": "fakta",
+"why": "Medlemmer betaler kirkeskat, der blandt andet bruges til at vedligeholde kirker og kirkegårde."
+},
+{
+"id": "17:9",
+"q": "Hvordan bliver man medlem af folkekirken?",
+"a": "Ved at blive døbt",
+"w": [
+"Ved at betale kirkeskat",
+"Ved at blive gift"
+],
+"p": 94,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan kun blive medlem ved at blive døbt. Kirkeskat betaler man som følge af medlemskabet."
+},
+{
+"id": "17:10",
+"q": "Må man blive begravet på en dansk kirkegård, hvis man ikke er medlem af folkekirken?",
+"a": "Ja",
+"w": [
+"Nej",
+"Kun hvis man er kristen"
+],
+"p": 94,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle kan blive begravet på en dansk kirkegård, også ikke-medlemmer."
+},
+{
+"id": "17:11",
+"q": "Anna er ikke medlem af folkekirken. Hendes kæreste er medlem. Kan de blive gift i folkekirken?",
+"a": "Ja",
+"w": [
+"Nej",
+"Kun hvis Anna bliver døbt"
+],
+"p": 94,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man kan blive gift i folkekirken, hvis den, man skal giftes med, er medlem."
+},
+{
+"id": "17:12",
+"q": "Hvilken opgave har folkekirken ud over gudstjenester?",
+"a": "Registrering af fødsler og dødsfald",
+"w": [
+"Udstedelse af pas og kørekort",
+"Opkrævning af indkomstskat"
+],
+"p": 94,
+"lvl": "U",
+"type": "fakta",
+"why": "Folkekirken registrerer fødsler, navngivning og dødsfald."
+},
+{
+"id": "17:13",
+"q": "Hvem kan frit danne et trossamfund i Danmark?",
+"a": "En gruppe borgere",
+"w": [
+"Kun staten kan det",
+"Kun folkekirken kan det"
+],
+"p": 94,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven giver en gruppe borgere ret til frit at danne en menighed eller et trossamfund. Staten kan ikke forbyde det."
+},
+{
+"id": "17:14",
+"q": "Hvad kan en præst i et anerkendt trossamfund få bemyndigelse til?",
+"a": "At foretage vielser",
+"w": [
+"At opkræve kirkeskat",
+"At give skilsmisse"
+],
+"p": 94,
+"lvl": "U",
+"type": "fakta",
+"why": "Med bemyndigelse kan præsten foretage vielser, der samtidig er borgerligt gyldige."
+},
+{
+"id": "17:15",
+"q": "Hvilken økonomisk fordel har medlemmer af anerkendte trossamfund?",
+"a": "Fradrag i skat for bidrag",
+"w": [
+"Gratis uddannelse",
+"Højere SU fra staten"
+],
+"p": 94,
+"lvl": "U",
+"type": "fakta",
+"why": "Medlemmer kan med visse begrænsninger trække deres bidrag til trossamfundet fra i skat."
+},
+{
+"id": "17:n0",
+"q": "Betaler man kirkeskat til folkekirken, hvis man ikke er medlem?",
+"a": "Nej",
+"w": [
+"Ja",
+"Kun hvis man er døbt"
+],
+"p": 94,
+"lvl": "K",
+"type": "fakta",
+"why": "Kirkeskat betales kun af medlemmer. Alle borgere betaler dog via skatten en del af kirkens udgifter, fx noget af præsternes løn."
+},
+{
+"id": "17:n1",
+"q": "Hvorfor betaler også ikke-medlemmer en del af folkekirkens udgifter?",
+"a": "Staten understøtter folkekirken",
+"w": [
+"Alle er medlemmer",
+"Kirken ejer landet"
+],
+"p": 94,
+"lvl": "U",
+"type": "forståelse",
+"why": "Fordi staten understøtter folkekirken økonomisk, betales fx en del af lønnen til præster og biskopper over skatten."
+},
+{
+"id": "17:n2",
+"q": "Hvad mener de fleste danskere om religion?",
+"a": "Det er en privatsag",
+"w": [
+"Det er en statssag",
+"Det er en pligt"
+],
+"p": 93,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er tradition for en tydelig grænse mellem religion og politik, fordi de fleste ser religion som en privatsag."
+},
+{
+"id": "17:n3",
+"q": "Hvilken religion har langt de fleste anerkendte trossamfund i Danmark?",
+"a": "Kristendom",
+"w": [
+"Islam",
+"Buddhisme"
+],
+"p": 95,
+"lvl": "U",
+"type": "fakta",
+"why": "Langt de fleste anerkendte trossamfund er kristne, men der findes også muslimske, buddhistiske, hinduistiske og jødiske."
+},
+{
+"id": "17:n4",
+"q": "Hvad skal en menighed eller et trossamfund søge om for at få fordele som skattefradrag?",
+"a": "Anerkendelse",
+"w": [
+"Kirkeskat",
+"Valgret"
+],
+"p": 94,
+"lvl": "U",
+"type": "forståelse",
+"why": "Man kan søge om anerkendelse. Et anerkendt trossamfund får økonomiske fordele, men skal til gengæld leve op til særlige krav."
+}
+]

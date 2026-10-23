@@ -1,0 +1,468 @@
+[
+{
+"id": "22:0",
+"q": "Hvem kaldes 'dansk litteraturs far'?",
+"a": "Ludvig Holberg",
+"w": [
+"H.C. Andersen",
+"Karen Blixen"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Holberg skrev komedier som 'Jeppe på Bjerget' og lagde grunden til dansk teater. Han levede i 1700-tallet."
+},
+{
+"id": "22:n0",
+"q": "Hvad er Ludvig Holberg særlig kendt for?",
+"a": "Han var forfatter",
+"w": [
+"Han var maler",
+"Han var komponist"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Holberg var en meget flittig forfatter og professor i København."
+},
+{
+"id": "22:7",
+"q": "I hvilket århundrede levede Ludvig Holberg?",
+"a": "1700-tallet",
+"w": [
+"1500-tallet",
+"1900-tallet"
+],
+"p": 123,
+"lvl": "U",
+"type": "fakta",
+"why": "Holberg (1684-1754) hører til 1700-tallet og oplysningstiden."
+},
+{
+"id": "22:2",
+"q": "Hvor voksede Ludvig Holberg op?",
+"a": "Bergen i Norge",
+"w": [
+"Odense",
+"Aarhus"
+],
+"p": 123,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "22:4",
+"q": "Hvilken komedie skrev Ludvig Holberg?",
+"a": "Jeppe på Bjerget",
+"w": [
+"Grantræet",
+"Festen"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Med komedier som 'Jeppe på Bjerget' lagde Holberg grunden til dansk teater."
+},
+{
+"id": "22:8",
+"q": "Hvornår levede H.C. Andersen?",
+"a": "1805-1875",
+"w": [
+"1705-1775",
+"1905-1975"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "H.C. Andersen levede i 1800-tallet og blev verdensberømt for sine eventyr."
+},
+{
+"id": "22:9",
+"q": "Hvor blev H.C. Andersen født?",
+"a": "Odense",
+"w": [
+"København",
+"Bergen"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Han blev født i Odense som søn af en fattig skomager og flyttede til København som 14-årig."
+},
+{
+"id": "22:n1",
+"q": "Hvad er H.C. Andersen verdensberømt for?",
+"a": "Sine eventyr",
+"w": [
+"Sine malerier",
+"Sine symfonier"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Hans eventyr er oversat til cirka 125 sprog. Han skrev også romaner og digte."
+},
+{
+"id": "22:n2",
+"q": "Hvem skrev eventyret 'Den Grimme Ælling'?",
+"a": "H.C. Andersen",
+"w": [
+"Søren Kierkegaard",
+"Karen Blixen"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Andersens eventyr om bl.a. 'Grantræet' og 'Den Grimme Ælling' viser hans evne til at give dyr og planter menneskers stemmer."
+},
+{
+"id": "22:n3",
+"q": "Hvad gør H.C. Andersen med dyr og planter i eventyrene?",
+"a": "Giver dem menneskers stemmer",
+"w": [
+"Gør dem til guder",
+"Gør dem usynlige"
+],
+"p": 123,
+"lvl": "U",
+"type": "forståelse",
+"why": "Med dyr og planter fortæller han om menneskers fejl og drømme."
+},
+{
+"id": "22:15",
+"q": "Hvor blev maleren P.S. Krøyer født?",
+"a": "Stavanger i Norge",
+"w": [
+"Skagen",
+"Odense"
+],
+"p": 123,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "22:16",
+"q": "Hvad er P.S. Krøyer kendt for?",
+"a": "Malerier fra Skagen",
+"w": [
+"Eventyr",
+"Filosofi"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Krøyer var kunstmaler og boede i Skagen i 1880'erne og 1890'erne. Et kendt maleri er 'Hip, hip, hurra!'."
+},
+{
+"id": "22:17",
+"q": "Hvor kan man se mange af Krøyers Skagen-malerier?",
+"a": "Skagens Museum",
+"w": [
+"Nationalmuseet",
+"Louisiana"
+],
+"p": 123,
+"lvl": "U",
+"type": "fakta",
+"why": "En række af malerierne fra Skagen kan ses på Skagens Museum."
+},
+{
+"id": "22:19",
+"q": "Hvad er Søren Kierkegaard særlig kendt for?",
+"a": "Han var filosof",
+"w": [
+"Han var kunstmaler",
+"Han var politiker"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Hans tanker om menneskets eksistens har påvirket folk i mange lande."
+},
+{
+"id": "22:20",
+"q": "Hvad hedder en af Kierkegaards mest kendte titler?",
+"a": "Enten-eller",
+"w": [
+"Epistler",
+"Gift"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "'Enten-eller' (1843) viser, hvor vigtigt valget er for Kierkegaard."
+},
+{
+"id": "22:n4",
+"q": "Hvad understregede Søren Kierkegaard om mennesker?",
+"a": "Retten og pligten til at vælge",
+"w": [
+"Pligten til at adlyde",
+"Kongens ret til at bestemme"
+],
+"p": 123,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kierkegaard mente, at hvert menneske har ret og pligt til at træffe valg om sit eget liv. Titlen 'Enten-eller' viser det."
+},
+{
+"id": "22:22",
+"q": "Hvad er Carl Nielsen særlig kendt for?",
+"a": "Han komponerede musik",
+"w": [
+"Han lavede billedkunst",
+"Han skrev eventyr"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "Carl Nielsen skrev korværker og symfonier og musik til danske digte, der blev til kendte sange."
+},
+{
+"id": "22:n5",
+"q": "Hvad er Karen Blixen især kendt for?",
+"a": "Hun skrev bøger",
+"w": [
+"Hun malede billeder",
+"Hun spillede teater"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "Blixen er forfatter, bl.a. til 'Den afrikanske farm' og historiske noveller."
+},
+{
+"id": "22:26",
+"q": "Hvor ejede Karen Blixen i mange år en kaffefarm?",
+"a": "I Kenya",
+"w": [
+"I Danmark",
+"I USA"
+],
+"p": 124,
+"lvl": "U",
+"type": "fakta",
+"why": "Oplevelserne på farmen blev grundlag for bogen 'Den afrikanske farm'."
+},
+{
+"id": "22:27",
+"q": "Hvilken bog skrev Karen Blixen om sin kaffefarm?",
+"a": "Den afrikanske farm",
+"w": [
+"Barndommens Gade",
+"Gift"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "Hun skrev bogen i 1937, efter at farmen var solgt, og hun var vendt tilbage til Danmark."
+},
+{
+"id": "22:30",
+"q": "Hvor voksede Tove Ditlevsen op?",
+"a": "På Vesterbro i København",
+"w": [
+"I Odense",
+"I Skagen"
+],
+"p": 124,
+"lvl": "U",
+"type": "fakta",
+"why": "Hun voksede op i en fattig familie og skrev om at være barn, kvinde og fattig."
+},
+{
+"id": "22:n6",
+"q": "Hvad drømte Tove Ditlevsen om som barn?",
+"a": "At blive digter",
+"w": [
+"At blive maler",
+"At blive sygeplejerske"
+],
+"p": 124,
+"lvl": "U",
+"type": "fakta",
+"why": "Hendes far sagde, at piger ikke kunne blive digtere, men hun skrev alligevel digte og romaner."
+},
+{
+"id": "22:34",
+"q": "Hvad er Arne Jacobsen kendt for?",
+"a": "Han var arkitekt",
+"w": [
+"Han var komponist",
+"Han var maler"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "Arne Jacobsen tegnede huse og møbler i stilen funktionalisme."
+},
+{
+"id": "22:35",
+"q": "Hvad hedder Arne Jacobsens hverdagsstol?",
+"a": "7-eren",
+"w": [
+"Ægget",
+"Kuglen"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "7-eren er fremstillet af krydsfinér og metal og er hans mest udbredte møbel."
+},
+{
+"id": "22:37",
+"q": "Hvad er funktionalisme?",
+"a": "Vægt på, hvad ting skal bruges til",
+"w": [
+"Huse med meget pynt",
+"En stil med mange farver"
+],
+"p": 124,
+"lvl": "K",
+"type": "forståelse",
+"why": "Funktionalisme lægger vægt på, hvad huse og møbler skal bruges til."
+},
+{
+"id": "22:40",
+"q": "For hvilken film vandt Thomas Vinterberg en Oscar i 2021?",
+"a": "Druk",
+"w": [
+"Festen",
+"Jagten"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "'Druk' (2020) handler om fire lærere, der drikker for at gøre deres liv mere spændende."
+},
+{
+"id": "22:41",
+"q": "Hvad handler filmen 'Druk' om?",
+"a": "Lærere, der drikker hele dagen",
+"w": [
+"Falske beskyldninger",
+"Seksuelt misbrug"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "Det går godt i begyndelsen, men det kommer ud af kontrol og ender i en tragisk ulykke."
+},
+{
+"id": "22:42",
+"q": "Hvilken Vinterberg-film handler om seksuelt misbrug?",
+"a": "Festen",
+"w": [
+"Jagten",
+"Kollektivet"
+],
+"p": 125,
+"lvl": "U",
+"type": "fakta",
+"why": "'Festen' er fra 1998. 'Jagten' handler om falske beskyldninger."
+},
+{
+"id": "22:n7",
+"q": "Hvad er Thomas Vinterberg og Susanne Bier kendte for?",
+"a": "De er filminstruktører",
+"w": [
+"De er kunstmalere",
+"De er forfattere"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "Begge har vundet en Oscar: Vinterberg for 'Druk' og Bier for 'Hævnen'."
+},
+{
+"id": "22:45",
+"q": "Hvem vandt en Oscar for filmen 'Hævnen'?",
+"a": "Susanne Bier",
+"w": [
+"Thomas Vinterberg",
+"Lars von Trier"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "Hævnen (2010) handler om, hvornår det er rigtigt eller forkert at hævne sig."
+},
+{
+"id": "22:47",
+"q": "Hvor mange gange har Danmark vundet Eurovision Song Contest?",
+"a": "Tre gange",
+"w": [
+"To gange",
+"Fem gange"
+],
+"p": 125,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark vandt i 1963, 2000 og 2013."
+},
+{
+"id": "22:52",
+"q": "Hvilken gruppe havde hittet 'Barbie Girl' i 1990'erne?",
+"a": "Aqua",
+"w": [
+"Brødrene Olsen",
+"Gasolin"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "Aqua er en dansk-norsk popgruppe, der solgte 28 millioner cd'er."
+},
+{
+"id": "22:54",
+"q": "Hvad er Olafur Eliasson kendt for?",
+"a": "Han er kunstner",
+"w": [
+"Han er forfatter",
+"Han er musiker"
+],
+"p": 126,
+"lvl": "U",
+"type": "fakta",
+"why": "Eliasson er dansk-islandsk kunstner."
+},
+{
+"id": "22:55",
+"q": "Hvilket værk har Olafur Eliasson lavet oven på ARoS i Aarhus?",
+"a": "Your rainbow panorama",
+"w": [
+"Hip, hip, hurra!",
+"Ægget"
+],
+"p": 126,
+"lvl": "K",
+"type": "fakta",
+"why": "Værket fra 2011 er en cirkelformet gangbro i glas i regnbuens farver."
+},
+{
+"id": "22:57",
+"q": "Hvad var Yahya Hassan særligt kendt for?",
+"a": "Han skrev en digtsamling",
+"w": [
+"Han var musiker",
+"Han var fodboldspiller"
+],
+"p": 126,
+"lvl": "K",
+"type": "fakta",
+"why": "Forfatteren Yahya Hassan debuterede i 2013 med digtsamlingen 'Yahya Hassan', som har solgt flest eksemplarer i Danmark nogensinde (over 100.000)."
+},
+{
+"id": "22:n8",
+"q": "Hvorfor skabte Yahya Hassans digte debat?",
+"a": "De pegede på sammenstød mellem normer",
+"w": [
+"De var meget korte",
+"De angreb kongen"
+],
+"p": 126,
+"lvl": "U",
+"type": "forståelse",
+"why": "Digtene om at vokse op som indvandrer i et ghettokvarter pegede på problemer og sammenstød mellem danske normer og normerne i socialt belastede indvandrermiljøer."
+}
+]

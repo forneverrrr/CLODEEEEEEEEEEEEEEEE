@@ -1,0 +1,639 @@
+[
+{
+"id": "21:1",
+"q": "Hvilken gruppe sygdomme er blandt de hyppigste årsager til terminal nyresygdom hos børn?",
+"a": "Medfødte anomalier i nyrer og urinveje",
+"w": [
+"Diabetisk nefropati",
+"Hypertensiv nefrosklerose"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "CAKUT, arvelige nyresygdomme og ukendt årsag er de hyppigste årsager hos børn; sygdommen er sjælden."
+},
+{
+"id": "21:2",
+"q": "Hvad er målet med behandling af børn med terminalt nyresvigt?",
+"a": "Normal vækst og udvikling",
+"w": [
+"Længst mulig tid i dialyse",
+"Kun lavt kreatinin"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Behandlingen skal bevare vækst og udvikling, hvilket bedst sker med nyretransplantation."
+},
+{
+"id": "21:n0",
+"q": "Hvilken behandling er bedst for børn med terminalt nyresvigt?",
+"a": "Nyretransplantation",
+"w": [
+"Langvarig hæmodialyse",
+"Langvarig peritonealdialyse"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Transplantation giver bedst mulighed for normal vækst og udvikling; dialyse bruges som regel i ventetiden."
+},
+{
+"id": "21:n1",
+"q": "Hvorfor dialyseres børn ofte, mens de venter på transplantation?",
+"a": "De skal vokse og styrkes først",
+"w": [
+"Dialyse er bedre end transplantation",
+"Der findes ingen donornyrer til børn"
+],
+"p": 215,
+"lvl": "K",
+"type": "forståelse",
+"why": "Barnet skal opnå en tilstrækkelig størrelse og en god fysisk og ernæringsmæssig tilstand, før transplantation er mulig."
+},
+{
+"id": "21:n2",
+"q": "Hvem inddrages i valget mellem HD og PD for et barn?",
+"a": "Forældrene og barnet",
+"w": [
+"Kun børnelægen og nefrologen",
+"Kun dialysesygeplejersken"
+],
+"p": 215,
+"lvl": "U",
+"type": "fakta",
+"why": "Valget sker i tæt samråd med forældrene og under hensyn til familiens ønsker, behov og ressourcer."
+},
+{
+"id": "21:4",
+"q": "Hvilken dialysebehandling anbefales for at give barnet et normalt familie- og skoleliv?",
+"a": "Hjemmebaseret dialyse",
+"w": [
+"Dialyse på hospital",
+"Natlig dialyse på sygehus"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Hjemmebaseret behandling anbefales, hvis det er gennemførligt, for at sikre barnet et så normalt liv som muligt."
+},
+{
+"id": "21:5",
+"q": "Hvorfor vælges PD ofte som første dialyseform hos små børn?",
+"a": "Undgår eller udskyder vaskulær adgang",
+"w": [
+"Det er billigere og hurtigere end HD",
+"Det giver altid bedre clearance end HD"
+],
+"p": 215,
+"lvl": "K",
+"type": "forståelse",
+"why": "Komplikationer ved anlæggelse af HD-adgang er hyppigere, jo mindre barnet er."
+},
+{
+"id": "21:n3",
+"q": "Hvad bevares formentlig bedre under PD end under HD hos børn?",
+"a": "Restnyrefunktionen",
+"w": [
+"Den vaskulære adgang",
+"Barnets længdevækst"
+],
+"p": 215,
+"lvl": "U",
+"type": "forståelse",
+"why": "Bevaret restfunktion har betydning for livskvalitet, ernæring, dialysedosis, ultrafiltration og nyrernes endokrine funktioner."
+},
+{
+"id": "21:6",
+"q": "Hvordan hænger barnets størrelse sammen med komplikationer ved HD-adgang?",
+"a": "Jo mindre barn, jo flere komplikationer",
+"w": [
+"Jo mindre barn, jo færre komplikationer",
+"Der er ingen sammenhæng med størrelse"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er en generel erfaring, at komplikationer ved anlæggelse af HD-adgang er hyppigere hos mindre børn."
+},
+{
+"id": "21:7",
+"q": "Et barn kan ikke få brugbar vaskulær adgang til HD. Hvilken dialyseform er indiceret?",
+"a": "Peritonealdialyse",
+"w": [
+"Hæmodialyse via fistel",
+"Ingen dialysebehandling"
+],
+"p": 215,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Manglende vaskulær adgang er en indikation for PD hos børn; andre er forældre og barns ønske samt blødningstendens."
+},
+{
+"id": "21:n4",
+"q": "Et barn har blødningstendens. Hvorfor kan PD foretrækkes?",
+"a": "Man undgår heparinisering",
+"w": [
+"Man undgår kateter",
+"Man undgår væskerestriktion"
+],
+"p": 215,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Blødningstendens er en indikation for PD, hvor man ønsker at undgå heparinisering."
+},
+{
+"id": "21:8",
+"q": "Hvilken tilstand er en absolut kontraindikation for PD hos børn?",
+"a": "Omfalocele",
+"w": [
+"Højdosis immunosuppression",
+"Nylig stor abdominal kirurgi"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Omfalocele, gastroschisis, blæreektopi og svære misdannelser i peritoneum er absolutte; de to andre er relative kontraindikationer."
+},
+{
+"id": "21:12",
+"q": "Hvilken tilstand er en relativ kontraindikation for PD hos børn?",
+"a": "Højdosis immunosuppression",
+"w": [
+"Blødningstendens, hvor man ønsker at undgå heparinisering",
+"Manglende vaskulær adgang til HD"
+],
+"p": 215,
+"lvl": "K",
+"type": "fakta",
+"why": "Relative kontraindikationer er bl.a. højdosis immunosuppression og nylig eller forestående stor abdominal kirurgi. Omfalocele og gastroschisis er absolutte kontraindikationer."
+},
+{
+"id": "21:9",
+"q": "Hvad er omfalocele?",
+"a": "Medfødt navlebrok",
+"w": [
+"Medfødt misdannelse af blæren",
+"Medfødt spalte i hele bugvæggen"
+],
+"p": 215,
+"lvl": "U",
+"type": "fakta",
+"why": "Omfalocele er en medfødt navlebrok og er en absolut kontraindikation for PD."
+},
+{
+"id": "21:14",
+"q": "Hvilket tegn bør give anledning til at overveje dialysestart hos et barn?",
+"a": "Stagnerende vækst",
+"w": [
+"Et enkelt lavt GFR-tal",
+"Barnets alder alene"
+],
+"p": 216,
+"lvl": "K",
+"type": "anvendelse",
+"why": "GFR og de sædvanlige parametre er kun vejledende; løbende observation af symptomer og trivsel er afgørende, især vækst."
+},
+{
+"id": "21:n5",
+"q": "Hvorfor udsættes dialysestart hos børn længst muligt under tæt observation?",
+"a": "Start giver mange komplikationer",
+"w": [
+"Dialyse virker dårligt hos børn",
+"Restfunktionen er ubetydelig for børn"
+],
+"p": 216,
+"lvl": "U",
+"type": "forståelse",
+"why": "Dialysestart hos børn er forbundet med talrige komplikationer, nogle potentielt dødelige."
+},
+{
+"id": "21:16",
+"q": "Under hvilken anæstesi anlægges PD-kateter hos børn?",
+"a": "Generel anæstesi",
+"w": [
+"Lokalanæstesi",
+"Epiduralanæstesi"
+],
+"p": 216,
+"lvl": "K",
+"type": "fakta",
+"why": "Kateteret lægges i generel anæstesi og under profylaktisk antibiotika."
+},
+{
+"id": "21:18",
+"q": "Hvor bør exit-site placeres hos et barn med ble?",
+"a": "Uden for bleområdet",
+"w": [
+"I selve bleområdet",
+"På ryggen, tæt på ryglinjen"
+],
+"p": 216,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Exit-site skal ligge uden for bleområdet, og åbningen peger helst nedad."
+},
+{
+"id": "21:19",
+"q": "Hvad anbefales ofte sammen med PD-kateteranlæggelse hos små børn?",
+"a": "Omentektomi",
+"w": [
+"Appendektomi",
+"Splenektomi"
+],
+"p": 216,
+"lvl": "K",
+"type": "fakta",
+"why": "Rutinemæssig omentektomi mindsker risikoen for mekaniske komplikationer og displacering af kateteret."
+},
+{
+"id": "21:20",
+"q": "Hvilket indløbsvolumen kan PD hos børn indledes med?",
+"a": "20 ml/kg",
+"w": [
+"5 ml/kg",
+"100 ml/kg"
+],
+"p": 216,
+"lvl": "U",
+"type": "fakta",
+"why": "PD indledes med ca. 20 ml/kg, som gradvist øges til 30-40 ml/kg, selv hos neonatale."
+},
+{
+"id": "21:21",
+"q": "Hvilket dwell-volumen stiles mod ved kronisk PD hos børn?",
+"a": "1.000-1.200 ml/m²",
+"w": [
+"200-400 ml/m²",
+"2.500-3.000 ml/m²"
+],
+"p": 216,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved kronisk PD stiles mod et dwell-volumen på 1.000-1.200 ml/m² legemsoverflade. Ved opstart bruges 20 ml/kg, gradvist øget til 30-40 ml/kg."
+},
+{
+"id": "21:23",
+"q": "Hvilket intraperitonealt tryk bør ikke overstiges under PD hos børn?",
+"a": "18 cm vand",
+"w": [
+"8 cm vand",
+"38 cm vand"
+],
+"p": 216,
+"lvl": "U",
+"type": "fakta",
+"why": "Intraperitonealt tryk måles, og det bør ikke overstige 18 cm vand."
+},
+{
+"id": "21:25",
+"q": "Hvorfor har børn ofte høj peritoneal transporthastighed?",
+"a": "Større overflade pr. kg",
+"w": [
+"Tyndere peritoneum end hos voksne",
+"Mere kropsvand end hos voksne"
+],
+"p": 217,
+"lvl": "K",
+"type": "forståelse",
+"why": "Børn har en relativt større peritoneal overflade pr. kg end voksne."
+},
+{
+"id": "21:n6",
+"q": "Hvorfor giver høj transporthastighed risiko for utilstrækkelig ultrafiltration?",
+"a": "Glukosen absorberes hurtigt",
+"w": [
+"Kateteret tilstoppes",
+"Dialysatet bliver for koldt"
+],
+"p": 217,
+"lvl": "K",
+"type": "forståelse",
+"why": "Glukosen absorberes hurtigt fra bughulen, så den osmotiske gradient forsvinder; til gengæld opnås høj clearance."
+},
+{
+"id": "21:26",
+"q": "Hvilken PD-form foretrækkes oftest til børn?",
+"a": "APD med natmaskine",
+"w": [
+"CAPD",
+"Intermitterende PD"
+],
+"p": 217,
+"lvl": "K",
+"type": "fakta",
+"why": "APD kombinerer hyppige, korte ækvilibreringstider med frihed for barnet og familien."
+},
+{
+"id": "21:n7",
+"q": "Hvorfor foretrækkes APD til børn med høj transporthastighed?",
+"a": "Færre koblinger, færre infektioner",
+"w": [
+"Højere glukoseoptag giver bedre UF",
+"Større indløbsvolumen er mulig"
+],
+"p": 217,
+"lvl": "U",
+"type": "forståelse",
+"why": "APD giver færrest til- og frakoblinger, hvilket reducerer risikoen for infektiøse komplikationer."
+},
+{
+"id": "21:27",
+"q": "Hvad betyder tidal-dialyse?",
+"a": "Kun en del skiftes ved hvert dræn",
+"w": [
+"Dialysatet skiftes helt hver time",
+"Dialysen sker kun om dagen"
+],
+"p": 217,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved tidal-dialyse skiftes oftest ca. 80 % af dialysatet ved hvert dræn."
+},
+{
+"id": "21:28",
+"q": "Hvorfor anvendes tidal-dialyse hos børn?",
+"a": "Mindre ubehag under dræn",
+"w": [
+"Højere ultrafiltration pr. dræn",
+"Mindre glukoseoptag fra væsken"
+],
+"p": 217,
+"lvl": "U",
+"type": "forståelse",
+"why": "Den reducerer dræntiden og smerter under dræn og sikrer bedre søvnkvalitet."
+},
+{
+"id": "21:29",
+"q": "Hvor lang tids APD er oftest nok ved god restnyrefunktion?",
+"a": "8-10 timer",
+"w": [
+"3-4 timer",
+"14-16 timer"
+],
+"p": 217,
+"lvl": "K",
+"type": "fakta",
+"why": "Når restfunktionen aftager, og barnet vokser, kan dagtidsbehandling blive nødvendig som supplement."
+},
+{
+"id": "21:30",
+"q": "Et barn i APD har trægt udløb og mange drænalarmer. Hvad kan være årsagen?",
+"a": "Displaceret kateter, obstipation",
+"w": [
+"Høj peritoneal transporthastighed",
+"Overhydrering af barnet"
+],
+"p": 217,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Trægt udløb skyldes bl.a. displacering, okklusion af fibrin, oment eller adhærencer, knæk på slangen, lejring eller obstipation; røntgenbillede af abdomen kan hjælpe."
+},
+{
+"id": "21:31",
+"q": "Et barn i PD har udsivning af væske fra exit-site. Hvad er oftest behandlingen?",
+"a": "Omlægning af kateteret",
+"w": [
+"Suturer omkring kateteret",
+"Mere heparin i væsken"
+],
+"p": 217,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Suturer hjælper sjældent og øger risikoen for infektion; en dialysepause kan forsøges, hvis barnets tilstand tillader det."
+},
+{
+"id": "21:33",
+"q": "Hvordan behandles lækage til en inguinalhernie hos et barn i PD?",
+"a": "Herniotomi",
+"w": [
+"Dialysepause alene",
+"Suturer omkring kateteret"
+],
+"p": 217,
+"lvl": "K",
+"type": "fakta",
+"why": "Lækage i inguinalhernie eller åben processus vaginalis er hyppig og behandles med herniotomi."
+},
+{
+"id": "21:n8",
+"q": "Et barn i PD får ensidigt genitalt ødem. Hvad er en hyppig årsag?",
+"a": "Lækage til inguinalhernie",
+"w": [
+"Peritonitis med feber",
+"Tarmperforation med blodigt udløb"
+],
+"p": 217,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Lækage i en inguinalhernie eller åben processus vaginalis giver ofte ensidigt genitalt ødem."
+},
+{
+"id": "21:n9",
+"q": "Et PD-barn får hydrothorax, oftest på højre side. Hvad er årsagen?",
+"a": "Lækage til pleura",
+"w": [
+"Peritonitis med feber",
+"Lungeemboli efter operation"
+],
+"p": 217,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Lækage af PD-væske til pleura giver hydrothorax, oftest ensidigt på højre side."
+},
+{
+"id": "21:34",
+"q": "Et barn har grumset udløb og positiv leukocyttest kort efter kateteranlæggelse. Hvad kan forveksles med peritonitis?",
+"a": "Intraperitoneal blødning",
+"w": [
+"Lækage til pleura",
+"Lækage via inguinalhernie"
+],
+"p": 217,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Selv mindre blødninger giver grumset udløbsvæske og positiv leukocyttest; større blødning med hæmoperitoneum kræver akut vurdering."
+},
+{
+"id": "21:35",
+"q": "Et PD-barn har svær peritonitis med fækulent udløb. Hvad mistænkes?",
+"a": "Tarmperforation",
+"w": [
+"Kateterlækage",
+"Fri luft i peritoneum"
+],
+"p": 217,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tarmperforation er potentielt livstruende: kirurg vurderer straks, og bredspektret antibiotika startes."
+},
+{
+"id": "21:36",
+"q": "Hvornår er fri luft i peritoneum alene indikation for laparotomi hos en PD-patient?",
+"a": "Aldrig",
+"w": [
+"Altid hos børn",
+"Ved smerter"
+],
+"p": 218,
+"lvl": "K",
+"type": "fakta",
+"why": "Fri luft er hyppigt hos PD-patienter og giver aldrig alene indikation for eksplorativ laparotomi."
+},
+{
+"id": "21:37",
+"q": "Hvordan forebygges fri luft i peritoneum ved PD?",
+"a": "Tøm slanger for luft før indløb",
+"w": [
+"Brug et mindre indløbsvolumen",
+"Giv antibiotika før hvert indløb"
+],
+"p": 217,
+"lvl": "K",
+"type": "fakta",
+"why": "Luft i slangesættene forebygges ved at tømme dem før indløb."
+},
+{
+"id": "21:38",
+"q": "Hvordan er hyppigheden af infektiøse komplikationer ved PD hos børn i forhold til voksne?",
+"a": "Højere hos børn",
+"w": [
+"Lavere hos børn",
+"Den samme"
+],
+"p": 218,
+"lvl": "K",
+"type": "fakta",
+"why": "Exit-site-infektion, tunnelinfektion og peritonitis er hyppigere hos børn, men kriterierne er som hos voksne."
+},
+{
+"id": "21:39",
+"q": "Hvorfor er hydrering vanskelig hos børn i dialyse?",
+"a": "Større usynligt vandtab",
+"w": [
+"Mindre totalt vandindhold end voksne",
+"Mindre overflade pr. kg end voksne"
+],
+"p": 218,
+"lvl": "K",
+"type": "forståelse",
+"why": "Børn har mere totalt vand, større usynligt vandtab pga. relativt større overflade og dårligere væskeregulering; CAKUT-børn mister ofte vand og salt."
+},
+{
+"id": "21:40",
+"q": "Et barn i dialyse har vægtøgning, hypertension og ødemer. Hvad er det tegn på?",
+"a": "Overhydrering",
+"w": [
+"Dehydrering af barnet",
+"Begyndende peritonitis"
+],
+"p": 218,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Overhydrering viser sig også som vejrtrækningsbesvær, ændret bevidsthed og kramper."
+},
+{
+"id": "21:41",
+"q": "Et barn i dialyse har vægttab, blodtryksfald, hurtig puls og døsighed. Hvad er det tegn på?",
+"a": "Dehydrering",
+"w": [
+"Overhydrering",
+"Peritonitis"
+],
+"p": 218,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dehydrering giver også temperaturfald, nedsat vækst og risiko for tab af restnyrefunktion."
+},
+{
+"id": "21:42",
+"q": "Hvad er oftest vanskeligst at opnå hos børn i dialyse?",
+"a": "Optimal ernæring og vækst",
+"w": [
+"Optimal dialysedosis",
+"Optimal hydrering af barnet"
+],
+"p": 218,
+"lvl": "U",
+"type": "fakta",
+"why": "Børn har ofte ringe appetit, og væksten hos især små børn afhænger helt af kalorieindtaget."
+},
+{
+"id": "21:43",
+"q": "Et lille barn i dialyse har ingen appetit og vokser dårligt. Hvad er næsten altid nødvendigt?",
+"a": "PEG-sonde",
+"w": [
+"Parenteral ernæring i en vene",
+"Færre kalorier om dagen"
+],
+"p": 218,
+"lvl": "K",
+"type": "anvendelse",
+"why": "PEG-sonde kan lægges før eller samtidig med PD-kateteret."
+},
+{
+"id": "21:n10",
+"q": "Hvorfor er kalorieindtaget vigtigt for små børn i dialyse?",
+"a": "Væksten afhænger af kalorieindtaget",
+"w": [
+"Det beskytter restnyrefunktionen mest",
+"Det hæver hæmoglobinniveauet hurtigt"
+],
+"p": 218,
+"lvl": "U",
+"type": "forståelse",
+"why": "Væksten hos især små børn er helt afhængig af kalorieindtaget, mens appetitten ofte er ringe."
+},
+{
+"id": "21:46",
+"q": "Hvilken type fosfatbinder anbefales til børn i dialyse?",
+"a": "Calciumfri",
+"w": [
+"Calciumholdig",
+"Ingen fosfatbinder"
+],
+"p": 218,
+"lvl": "U",
+"type": "fakta",
+"why": "Der anbefales calciumfrie fosfatbindere, fx sevelamer, som kan opløses i vand eller mælk."
+},
+{
+"id": "21:n11",
+"q": "Hvilke prøver kontrolleres hyppigt efter dosisændring af alfacalcidol hos børn?",
+"a": "P-calcium, fosfat og PTH",
+"w": [
+"Hb, ferritin og jern i blodet",
+"Kreatinin og urinstof i blodet"
+],
+"p": 218,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Børn er meget følsomme over for dosisændringer af alfacalcidol, så selv små ændringer kræver hyppig kontrol."
+},
+{
+"id": "21:47",
+"q": "Hvor foretages PD ved akut nyresvigt hos børn som hovedregel?",
+"a": "På intensivafdeling",
+"w": [
+"Hjemme hos familien",
+"På dialyseafsnittet"
+],
+"p": 218,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandlingen kræver samarbejde mellem intensivlæge, nefrolog og børnelæge."
+},
+{
+"id": "21:n12",
+"q": "Hvordan er PD ved akut nyresvigt efter hjertekirurgi hos børn?",
+"a": "Sikker og effektiv",
+"w": [
+"Usikker og ineffektiv",
+"Kun egnet til store børn"
+],
+"p": 220,
+"lvl": "U",
+"type": "fakta",
+"why": "I et stort dansk studie måtte kun to børn skifte til HD, så PD vurderes som en sikker og effektiv behandling."
+}
+]

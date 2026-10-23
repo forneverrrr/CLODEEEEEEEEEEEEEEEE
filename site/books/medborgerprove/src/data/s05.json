@@ -1,0 +1,326 @@
+[
+{
+"id": "5:n0",
+"q": "Hvordan har landbrugene i Danmark udviklet sig siden 1960?",
+"a": "Færre og større",
+"w": [
+"Flere og mindre",
+"Uændret"
+],
+"p": 31,
+"lvl": "K",
+"type": "forståelse",
+"why": "Antallet af landbrug er faldet med omkring 80 procent. Småbønderne forsvandt, mange landbrug blev lagt sammen, og i dag er de store og højeffektive."
+},
+{
+"id": "5:4",
+"q": "Hvilke landbrug har traditionelt domineret i Danmark?",
+"a": "De mellemstore",
+"w": [
+"De meget store",
+"De helt små"
+],
+"p": 31,
+"lvl": "K",
+"type": "fakta",
+"why": "I modsætning til i mange lande dominerede mellemstore landbrug. Det gav en stærk og velorganiseret bondestand."
+},
+{
+"id": "5:6",
+"q": "Hvem ejer et andelsselskab som Arla?",
+"a": "Landmændene",
+"w": [
+"Staten",
+"Udenlandske investorer"
+],
+"p": 31,
+"lvl": "K",
+"type": "fakta",
+"why": "Arla og Danish Crown er andelsselskaber, ejet af landmændene selv, selv om de i dag er store koncerner."
+},
+{
+"id": "5:n1",
+"q": "Hvor mange stemmer har en landmand i et andelsselskab?",
+"a": "Én",
+"w": [
+"Tre",
+"Flere, hvis man leverer mere"
+],
+"p": 31,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hver landmand har én stemme, uanset hvor meget mælk eller hvor mange dyr han leverer. Det er et demokratisk princip."
+},
+{
+"id": "5:7",
+"q": "Hvilke to store koncerner inden for mejeri og slagteri ejes af landmænd?",
+"a": "Arla og Danish Crown",
+"w": [
+"Mærsk og ISS",
+"Vestas og LEGO"
+],
+"p": 31,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste mejerier og slagterier er lagt sammen i Arla (mejeri) og Danish Crown (slagteri), som eksporterer til hele verden."
+},
+{
+"id": "5:n2",
+"q": "Hvad er Arla et eksempel på?",
+"a": "En virksomhed med ejere fra flere lande",
+"w": [
+"En statsejet virksomhed",
+"En virksomhed kun i Danmark"
+],
+"p": 31,
+"lvl": "U",
+"type": "fakta",
+"why": "Arla ejes af næsten 10.000 landmænd fra syv lande. Danske og svenske mejerier blev lagt sammen i 2000."
+},
+{
+"id": "5:11",
+"q": "Hvad har traditionelt præget dansk industri?",
+"a": "Små og mellemstore virksomheder",
+"w": [
+"Store statsejede fabrikker",
+"Multinationale koncerner"
+],
+"p": 32,
+"lvl": "K",
+"type": "forståelse",
+"why": "Danmark har haft få store industrivirksomheder. De mindre firmaer var gode til at finde nicher og omstille sig hurtigt."
+},
+{
+"id": "5:12",
+"q": "Hvad fremstiller den danske virksomhed LEGO?",
+"a": "Byggeklodser",
+"w": [
+"Insulin",
+"Vindmøller"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "LEGO fremstiller byggeklodser til børn i næsten alle lande og er nok Danmarks mest kendte virksomhed."
+},
+{
+"id": "5:13",
+"q": "Hvilken dansk virksomhed fremstiller medicin, fx insulin?",
+"a": "Novo Nordisk",
+"w": [
+"Vestas",
+"Arla"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "Novo Nordisk er en af giganterne blandt de store danske medicinalvirksomheder og laver bl.a. insulin til patienter med sukkersyge."
+},
+{
+"id": "5:14",
+"q": "Hvor stor en del af verdens høreapparater fremstiller Danmark?",
+"a": "Cirka en tredjedel",
+"w": [
+"Cirka en tiendedel",
+"Cirka to tredjedele"
+],
+"p": 32,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark fremstiller over en tredjedel af verdens høreapparater. Tre danske producenter er blandt de fem største i verden."
+},
+{
+"id": "5:18",
+"q": "Hvilken dansk virksomhed var i 2024 verdens største producent af vindmøller?",
+"a": "Vestas",
+"w": [
+"Novo Nordisk",
+"Mærsk"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "Vestas er verdens største vindmølleproducent. Danmark er hjemland for den moderne vindmølleindustri."
+},
+{
+"id": "5:n3",
+"q": "Inden for hvilket område er Danmark et af verdens førende lande?",
+"a": "Vedvarende energi",
+"w": [
+"Kulproduktion",
+"Bilindustri"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark har en stærk position inden for vedvarende energi, energibesparelser og grøn produktion, fx affaldshåndtering og genbrug."
+},
+{
+"id": "5:19",
+"q": "Hvad fremstiller Rockwool?",
+"a": "Isolering",
+"w": [
+"Pumper",
+"Vinduer"
+],
+"p": 32,
+"lvl": "U",
+"type": "fakta",
+"why": "Rockwool laver isolering. Grundfos laver pumper, Danfoss termostater og Velux vinduer. De er alle internationale danske virksomheder."
+},
+{
+"id": "5:20",
+"q": "Hvad fremstiller Grundfos?",
+"a": "Pumper",
+"w": [
+"Isolering",
+"Vindmøller"
+],
+"p": 32,
+"lvl": "U",
+"type": "fakta",
+"why": "Grundfos er en international dansk virksomhed, der fremstiller pumper."
+},
+{
+"id": "5:n4",
+"q": "Hvordan beskrives Danmarks økonomi i forhold til udlandet?",
+"a": "Meget åben",
+"w": [
+"Lukket",
+"Styret af staten"
+],
+"p": 32,
+"lvl": "U",
+"type": "forståelse",
+"why": "Handel med udlandet, især med nabolandene, spiller en meget stor rolle. Derfor kaldes økonomien meget åben."
+},
+{
+"id": "5:23",
+"q": "Hvilket land importerer Danmark mest fra?",
+"a": "Tyskland",
+"w": [
+"USA",
+"Kina"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "Tyskland er det land, Danmark importerer mest fra. USA er det land, Danmark eksporterer mest til."
+},
+{
+"id": "5:24",
+"q": "Hvilket land eksporterer Danmark mest til?",
+"a": "USA",
+"w": [
+"Tyskland",
+"Sverige"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "USA er det enkelte land, Danmark eksporterer mest til. Samlet set er eksporten til EU-landene dog klart større."
+},
+{
+"id": "5:n5",
+"q": "Hvor eksporterer Danmark samlet set mest til?",
+"a": "EU-landene",
+"w": [
+"USA"
+],
+"p": 32,
+"lvl": "U",
+"type": "fakta",
+"why": "USA er det største enkeltland, men samlet set er eksporten til andre EU-lande klart større."
+},
+{
+"id": "5:25",
+"q": "Hvilket land havde størst andel af Danmarks udenrigshandel i 2025?",
+"a": "USA",
+"w": [
+"Tyskland",
+"Sverige"
+],
+"p": 32,
+"lvl": "K",
+"type": "fakta",
+"why": "USA lå øverst med 14,1 procent, derefter Tyskland og Sverige. Udenrigshandel er import og eksport tilsammen."
+},
+{
+"id": "5:29",
+"q": "Hvilket dansk rederi er blandt verdens to største containerrederier?",
+"a": "Mærsk",
+"w": [
+"Arla",
+"ISS"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark er en vigtig søfartsnation. Mærsk er et af verdens to største rederier, der sejler med containere."
+},
+{
+"id": "5:30",
+"q": "Hvornår skal Danmarks olieproduktion være stoppet helt, hvis planen holder?",
+"a": "Inden 2050",
+"w": [
+"Inden 2030",
+"Inden 2100"
+],
+"p": 33,
+"lvl": "U",
+"type": "fakta",
+"why": "Produktionen er faldet kraftigt siden midten af 00'erne, og planen er, at den skal stoppes helt inden 2050."
+},
+{
+"id": "5:33",
+"q": "Hvad arbejder det danske firma ISS med?",
+"a": "Rengøring og ejendomsservice",
+"w": [
+"Containertransport",
+"Isolering"
+],
+"p": 33,
+"lvl": "U",
+"type": "fakta",
+"why": "ISS har omkring en halv million ansatte verden over med rengøring, ejendomsservice og sikkerhed."
+},
+{
+"id": "5:34",
+"q": "Hvad forventes af medarbejdere i danske virksomheder?",
+"a": "At tage ansvar og initiativ",
+"w": [
+"At følge ordrer uden spørgsmål",
+"At lade chefen beslutte alt"
+],
+"p": 33,
+"lvl": "K",
+"type": "forståelse",
+"why": "Danske virksomheder giver den enkelte ansvar for sit eget område. Man forventes ikke blot at gøre, hvad der bliver sagt."
+},
+{
+"id": "5:n6",
+"q": "Hvorfor klarer danske firmaer sig godt?",
+"a": "Dygtige medarbejdere og god ledelse",
+"w": [
+"Billig arbejdskraft og lav skat",
+"Store statsstøtter og told"
+],
+"p": 33,
+"lvl": "K",
+"type": "forståelse",
+"why": "Veluddannede, dygtige medarbejdere og god ledelse er de vigtigste årsager. Medarbejdere får desuden ansvar og tager initiativ."
+},
+{
+"id": "5:n7",
+"q": "Hvad har Danmark traditionelt eksporteret meget af?",
+"a": "Fødevarer",
+"w": [
+"Kul",
+"Biler"
+],
+"p": 31,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark har traditionelt været et landbrugsland med stor eksport af fødevarer, bl.a. mejeriprodukter og kød."
+}
+]

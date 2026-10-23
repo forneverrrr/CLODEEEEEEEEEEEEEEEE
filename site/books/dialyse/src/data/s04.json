@@ -1,0 +1,574 @@
+[
+{
+"id": "4:0",
+"q": "Hvad adskiller membranen ved dialyse?",
+"a": "Blod og dialysat",
+"w": [
+"Blod og urin",
+"Plasma og blodceller"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Både PD og HD er stoftransport over en membran, der adskiller blod og dialysat. Den grundlæggende biofysik er derfor fælles."
+},
+{
+"id": "4:1",
+"q": "Hvad kaldes nettotransport fra høj til lav koncentration på grund af tilfældige sammenstød?",
+"a": "Diffusion",
+"w": [
+"Konvektion",
+"Adsorption"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Molekylerne støder tilfældigt ind i hinanden, og der sker flest sammenstød, hvor koncentrationen er høj. Det giver nettotransport mod lav koncentration."
+},
+{
+"id": "4:n0",
+"q": "Hvorfor flytter stoffer sig nettomæssigt fra høj til lav koncentration?",
+"a": "Flere sammenstød, hvor der er mest stof",
+"w": [
+"Stofferne tiltrækkes af vandmolekyler",
+"Membranen suger dem gennem porerne"
+],
+"p": 41,
+"lvl": "K",
+"type": "forståelse",
+"why": "Diffusion skyldes ikke en kraft, men tilfældige sammenstød. Hvor koncentrationen er høj, skubbes flere molekyler væk, end der kommer tilbage."
+},
+{
+"id": "4:2",
+"q": "Hvorfor diffunderer store molekyler langsommere end små?",
+"a": "De er sværere at flytte ved sammenstød",
+"w": [
+"De har en stærk elektrisk ladning",
+"De opløses ikke i vand"
+],
+"p": 41,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tunge molekyler flyttes sværere af vandmolekylernes sammenstød. Jo større molekyle, desto langsommere transport over membranen."
+},
+{
+"id": "4:3",
+"q": "Hvad sætter grænsen for, hvor store molekyler der kan passere membranen?",
+"a": "Porestørrelsen",
+"w": [
+"Blodtrykket",
+"Dialysattemperaturen"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Membranen har små porer, og deres størrelse afgør, hvilke molekyler der overhovedet kan passere, uanset transportform."
+},
+{
+"id": "4:4",
+"q": "Hvordan påvirker en større koncentrationsforskel over membranen diffusionen?",
+"a": "Mere diffusion",
+"w": [
+"Mindre diffusion",
+"Ingen ændring"
+],
+"p": 41,
+"lvl": "K",
+"type": "forståelse",
+"why": "Jo større koncentrationsforskel, desto mere nettodiffusion. Nettobevægelsen går altid i koncentrationsgradientens retning."
+},
+{
+"id": "4:6",
+"q": "Hvad er membranen ved PD?",
+"a": "Peritoneum",
+"w": [
+"En kunstig plastmembran",
+"Tarmvæggen"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved PD er membranen en del af kroppen: blodet strømmer i peritoneums kar, og dialysatet står i bughulen."
+},
+{
+"id": "4:7",
+"q": "Hvad består membranen af ved HD?",
+"a": "Et plastmateriale",
+"w": [
+"Peritoneum",
+"Huden"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved HD er membranen kunstig i et filter, hvor blod og dialysat løber på hver sin side."
+},
+{
+"id": "4:8",
+"q": "Hvorfor giver større flow af blod og dialysat bedre rensning?",
+"a": "Koncentrationsforskellen over membranen øges",
+"w": [
+"Membranens porer bliver større",
+"Molekylerne bliver mindre"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Mere blod holder affaldsstoffernes koncentration høj, og mere dialysat holder den lav på den anden side. Det øger nettodiffusionen."
+},
+{
+"id": "4:9",
+"q": "Hvad begrænser gevinsten ved at øge flowet yderligere?",
+"a": "Molekylstørrelse og membranens overfladeareal",
+"w": [
+"Dialysatets pH-værdi og temperatur",
+"Patientens højde og vægt"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Større flow giver bedre rensning, men kun til en grænse sat af molekylestørrelse og membranens egenskaber, især overfladearealet."
+},
+{
+"id": "4:10",
+"q": "Hvad kaldes ultrafiltration i daglig tale?",
+"a": "Væsketræk",
+"w": [
+"Blodrensning",
+"Stoftransport"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ultrafiltration er processen, hvor vand trækkes fra blodet gennem dialysemembranen."
+},
+{
+"id": "4:11",
+"q": "Hvordan trækkes væske fra patienten ved PD?",
+"a": "Med osmotisk tryk fra glukose",
+"w": [
+"Med sug på dialysatsiden",
+"Med øget blodflow"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved PD tilsættes fx glukose til dialysatet, og det giver et osmotisk tryk, der trækker vand fra blodet."
+},
+{
+"id": "4:12",
+"q": "Hvordan trækkes væske fra patienten ved HD?",
+"a": "Med sug på dialysatsiden",
+"w": [
+"Med osmotisk tryk fra glukose",
+"Med opvarmet dialysat"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved HD gøres væsketræk med et negativt hydrostatisk tryk, altså sug, på dialysatsiden af filteret."
+},
+{
+"id": "4:n1",
+"q": "Hvad svarer væsketrækket under en HD-behandling typisk til?",
+"a": "Vægtstigningen mellem to behandlinger",
+"w": [
+"Patientens målte tørvægt",
+"Dialysatets samlede volumen"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der trækkes typisk omkring en liter i timen, svarende til den vægtstigning patienten har haft mellem to behandlinger."
+},
+{
+"id": "4:13",
+"q": "Hvad kaldes det, når opløste stoffer følger med vandet gennem membranen?",
+"a": "Konvektion",
+"w": [
+"Diffusion",
+"Adsorption"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Når vand ultrafiltreres, følger andre molekyler med. Det kaldes konvektiv transport."
+},
+{
+"id": "4:14",
+"q": "Hvordan adskiller konvektion sig fra diffusion i bevægelsen?",
+"a": "Konvektion er rettet, diffusion tilfældig",
+"w": [
+"Konvektion er tilfældig, diffusion rettet",
+"Ingen forskel i bevægelsen"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved konvektion trækkes vandet konstant samme vej og tager opløste stoffer med, også større. Diffusion skyldes tilfældige sammenstød."
+},
+{
+"id": "4:15",
+"q": "Hvad forhindrer plasmaproteiner i at passere en almindelig dialysemembran?",
+"a": "Deres høje molekylvægt",
+"w": [
+"Et for lavt tryk",
+"Membranens tykkelse"
+],
+"p": 42,
+"lvl": "U",
+"type": "forståelse",
+"why": "Membranens porer sætter en grænse, også ved konvektion. Til plasmaferese bruges derfor filtre med større porer."
+},
+{
+"id": "4:16",
+"q": "Hvor meget ultrafiltreres højst dagligt ved PD?",
+"a": "1-1½ liter",
+"w": [
+"200 ml",
+"6 liter"
+],
+"p": 42,
+"lvl": "D",
+"type": "fakta",
+"why": "Ved PD ultrafiltreres sædvanligvis højst 1-1½ liter dagligt, så der fjernes kun lidt ved konvektion."
+},
+{
+"id": "4:18",
+"q": "Hvad kaldes behandling med kraftigt øget ultrafiltration og erstatningsvæske?",
+"a": "Hæmofiltration",
+"w": [
+"Hæmodialyse",
+"Plasmaferese"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved hæmofiltration (HF) kan ultrafiltrationen komme op på fx 6 liter i timen, mens der tilføres intravenøs erstatningsvæske."
+},
+{
+"id": "4:20",
+"q": "Hvad er fordelen ved hæmofiltration frem for almindelig HD?",
+"a": "Bedre rensning af store molekyler",
+"w": [
+"Bedre rensning af små molekyler",
+"Lavere blodflow nødvendigt"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Hæmofiltration renser større molekyler bedre, netop fordi transporten foregår ved konvektion."
+},
+{
+"id": "4:n2",
+"q": "Hvorfor renser hæmofiltration større molekyler bedre end HD?",
+"a": "Transporten sker ved konvektion",
+"w": [
+"Membranen har større overflade",
+"Blodflowet er højere"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Konvektion tager også større opløste molekyler med vandet, mens diffusion er langsom for store molekyler."
+},
+{
+"id": "4:19",
+"q": "Hvad kaldes HF kombineret med traditionel HD?",
+"a": "Hæmodiafiltration",
+"w": [
+"Hæmoperfusion",
+"Plasmaferese"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved hæmodiafiltration (HDF) foregår både diffusion og konvektion samtidigt."
+},
+{
+"id": "4:21",
+"q": "Hvad angiver et filters ultrafiltrationskoefficient (Kuf)?",
+"a": "Hvor let vand filtreres gennem membranen",
+"w": [
+"Hvor godt små molekyler renses",
+"Hvor længe filtret kan holde"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Kuf angiver, hvor mange ml vand der filtreres pr. time pr. mmHg trykforskel. Et filter til HF skal have høj Kuf."
+},
+{
+"id": "4:n3",
+"q": "Hvilke filtre har den højeste ultrafiltrationskoefficient?",
+"a": "High-flux-filtre",
+"w": [
+"Low-flux-filtre",
+"Begge har ens"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "High-flux-filtre har en Kuf på omkring 30-75 mod 5-14 ml/time/mmHg for low-flux, og clearance af større molekyler er højere."
+},
+{
+"id": "4:25",
+"q": "Hvad ved man om overlevelsesgevinsten ved high-flux-filtre?",
+"a": "Ingen dokumenteret gevinst",
+"w": [
+"Klar gevinst for alle",
+"Gevinst kun hos børn"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er ikke evidens for overordnet overlevelsesgevinst, men high-flux-filtre bruges alligevel som standard de fleste steder."
+},
+{
+"id": "4:26",
+"q": "Hvad er adsorption ved dialyse?",
+"a": "Stoffer hæfter sig til membranmaterialet",
+"w": [
+"Stoffer diffunderer gennem porerne",
+"Vand trækkes igennem membranen"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved adsorption sætter stofferne sig fast på selve membranmaterialet og fjernes dermed fra patienten."
+},
+{
+"id": "4:n4",
+"q": "Hvorfor har adsorption særlig betydning for store molekyler?",
+"a": "De passerer ikke ved diffusion eller konvektion",
+"w": [
+"De diffunderer hurtigst af alle",
+"De er altid elektrisk neutrale"
+],
+"p": 42,
+"lvl": "U",
+"type": "forståelse",
+"why": "Store molekyler kan ikke passere membranens porer, så adsorption kan være den eneste måde, de fjernes på."
+},
+{
+"id": "4:27",
+"q": "Hvilket stof, der ophobes hos dialysepatienter og kan give amyloidose, fjernes bl.a. ved adsorption?",
+"a": "β-2-mikroglobulin",
+"w": [
+"Karbamid",
+"Kreatinin"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "β-2-mikroglobulin er et stort molekyle, som ophobes ved dialyse og kan give amyloidose. Adsorption bidrager til at fjerne det."
+},
+{
+"id": "4:28",
+"q": "Hvad fjernes ved adsorption før nyretransplantation mod AB0-forlig?",
+"a": "Blodtypeantistoffer",
+"w": [
+"Overskydende væske",
+"Kalium"
+],
+"p": 42,
+"lvl": "D",
+"type": "fakta",
+"why": "Adsorption kan bruges til selektiv fjernelse af blodtypeantistoffer og ved visse forgiftninger (kulfilter)."
+},
+{
+"id": "4:29",
+"q": "Hvad gælder for dialysens fjernelse af toksiner og nyttige stoffer?",
+"a": "Den skelner ikke mellem dem",
+"w": [
+"Den fjerner kun toksiner",
+"Den fjerner kun små nyttige stoffer"
+],
+"p": 43,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dialyseprocesserne er uselektive: Hvis et molekyle kan passere membranen eller adsorberes, fjernes det i et eller andet omfang."
+},
+{
+"id": "4:30",
+"q": "Hvad adskiller dialyseformerne hovedsageligt?",
+"a": "Rensning af større molekyler",
+"w": [
+"Rensning af kalium",
+"Rensning af natrium"
+],
+"p": 43,
+"lvl": "K",
+"type": "fakta",
+"why": "Små molekyler renses godt ved alle former. Forskellen ses mest på, hvor godt de større molekyler fjernes."
+},
+{
+"id": "4:32",
+"q": "Hvad er clearance?",
+"a": "Plasmavolumen, der renses for et stof pr. tid",
+"w": [
+"Den samlede mængde stof, der fjernes",
+"Koncentrationen af stoffet i dialysatet"
+],
+"p": 43,
+"lvl": "K",
+"type": "fakta",
+"why": "Clearance er det beregnede plasmavolumen, som renses totalt for et stof pr. tidsenhed, oftest angivet i ml/min."
+},
+{
+"id": "4:39",
+"q": "Hvad begrænser clearance af små molekyler som karbamid?",
+"a": "Blodflowet",
+"w": [
+"Membranarealet",
+"Dialysetiden"
+],
+"p": 44,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved lavt blodflow når karbamid at komme i ligevægt over membranen, så et større filter hjælper kun lidt. Clearance er flowbegrænset."
+},
+{
+"id": "4:n5",
+"q": "Karbamid og kreatinin er højt trods et stort filter, og blodflowet er lavt. Hvad bør man først øge for at forbedre clearance?",
+"a": "Blodflowet",
+"w": [
+"Membranarealet",
+"Filtrets ultrafiltrationskoefficient"
+],
+"p": 44,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Små molekylers clearance stiger først og fremmest med blodflowet. Først ved højt flow kan en større membran øge clearance yderligere."
+},
+{
+"id": "4:40",
+"q": "Hvad begrænser clearance af store molekyler?",
+"a": "Membranarealet",
+"w": [
+"Blodflowet",
+"Dialysatets pH"
+],
+"p": 44,
+"lvl": "K",
+"type": "forståelse",
+"why": "Store molekylers clearance stiger næsten proportionalt med membranarealet, mens blodflow betyder lidt. Clearance er arealbegrænset."
+},
+{
+"id": "4:41",
+"q": "Hvad taler imod rutinemæssig brug af de største membraner?",
+"a": "Mere antikoagulation og biokompatibilitetsproblemer",
+"w": [
+"De renser små molekyler dårligere",
+"De kan ikke steriliseres"
+],
+"p": 44,
+"lvl": "U",
+"type": "forståelse",
+"why": "Store membraner kræver mere antikoagulation, som giver blødningsrisiko, og problemer med biokompatibilitet tiltager med arealet."
+},
+{
+"id": "4:42",
+"q": "Hvornår under dialysen fjernes der mest karbamid og kreatinin?",
+"a": "I begyndelsen",
+"w": [
+"I slutningen",
+"Jævnt hele forløbet"
+],
+"p": 44,
+"lvl": "U",
+"type": "fakta",
+"why": "Karbamid og kreatinin har høj clearance, så der fjernes absolut mest i begyndelsen af dialysen."
+},
+{
+"id": "4:43",
+"q": "Hvilke molekyler har størst gavn af forlænget dialysetid?",
+"a": "Store molekyler",
+"w": [
+"Små molekyler",
+"Elektrolytter"
+],
+"p": 44,
+"lvl": "K",
+"type": "forståelse",
+"why": "Store molekyler har længere halveringstid, og deres koncentration falder næsten lineært i mange timer, så ekstra tid giver mest for dem."
+},
+{
+"id": "4:44",
+"q": "Hvilke indstillinger kan ændres ved PD-ordination?",
+"a": "Dialysetid, dialysatvolumen og antal skift",
+"w": [
+"Blodflow og membranareal",
+"Membranareal og dialysatvolumen alene"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved PD kan membranareal og blodflow ikke ændres, så ordinationen begrænses til dialysetid, dialysatvolumen og antal skift."
+},
+{
+"id": "4:45",
+"q": "Hvad begrænser især effekten af PD?",
+"a": "Blodflowet i peritoneums kar",
+"w": [
+"Katetrets længde og placering",
+"Dialysatets pH-værdi"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er svært at opnå tilstrækkelig clearance af små molekyler ved PD, mens de lange dialysetider giver rimelig clearance af større."
+},
+{
+"id": "4:46",
+"q": "Hvorfor bruges kreatinin og karbamid til at vurdere dialyse?",
+"a": "De er lette at måle",
+"w": [
+"De er de mest toksiske stoffer",
+"De er store molekyler"
+],
+"p": 44,
+"lvl": "U",
+"type": "forståelse",
+"why": "De er lette at måle og del af daglig praksis, selvom de absolutte værdier korrelerer dårligt med uræmisk intoksikation."
+},
+{
+"id": "4:38",
+"q": "Hvad bruges vitamin B12 som mål for i filterdata?",
+"a": "Clearance af mellemstore molekyler",
+"w": [
+"Clearance af små molekyler",
+"Clearance af kalium"
+],
+"p": 44,
+"lvl": "D",
+"type": "fakta",
+"why": "Producenter angiver B12-clearance (1355 Da) for mellemstore molekyler og inulin for endnu større."
+},
+{
+"id": "4:47",
+"q": "Hvad kaldes stigningen i plasmakoncentration efter endt dialyse?",
+"a": "Rebound",
+"w": [
+"Overshoot",
+"Reflux"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter en effektiv behandling opstår et tilbagesving, rebound, fordi koncentrationerne udlignes bagefter."
+},
+{
+"id": "4:48",
+"q": "Hvorfor opstår rebound efter dialyse?",
+"a": "Langsom udligning fra celler og dårligt perfunderet væv",
+"w": [
+"Filteret afgiver stoffer til blodet",
+"Dialysatet var for koldt og tyndt"
+],
+"p": 44,
+"lvl": "K",
+"type": "forståelse",
+"why": "Intracellulære koncentrationer udlignes langsommere end ekstracellulære, og væv med lav perfusion renses langsommere end væv med høj perfusion."
+}
+]

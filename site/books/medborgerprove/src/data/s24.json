@@ -1,0 +1,548 @@
+[
+{
+"id": "24:0",
+"q": "Hvornår blev Danmark medlem af FN?",
+"a": "1945",
+"w": [
+"1949",
+"1973"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark blev medlem af FN i 1945, lige efter 2. verdenskrig. NATO fulgte i 1949."
+},
+{
+"id": "24:n0",
+"q": "Hvornår blev Danmark medlem af NATO?",
+"a": "1949",
+"w": [
+"1945",
+"1969"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark kom med i NATO i 1949, i starten af Den Kolde Krig, sammen med blandt andre USA."
+},
+{
+"id": "24:1",
+"q": "Hvad blev grundlaget for Danmarks sikkerhedspolitik efter 2. verdenskrig?",
+"a": "FN og NATO",
+"w": [
+"EU og euroen",
+"Neutralitet"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Medlemskabet af FN og NATO blev grundlaget for Danmarks udenrigs- og sikkerhedspolitik."
+},
+{
+"id": "24:3",
+"q": "Hvad kaldes Danmarks udenrigspolitik efter Den Kolde Krig?",
+"a": "Aktivistisk",
+"w": [
+"Neutral",
+"Isolationistisk"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter cirka 1990 deltog Danmark mere aktivt i internationale konflikter, ikke kun i fredsbevarende missioner."
+},
+{
+"id": "24:4",
+"q": "Hvornår begyndte Golfkrigen?",
+"a": "1990",
+"w": [
+"1980",
+"2001"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "Golfkrigen begyndte i 1990, da Irak besatte Kuwait."
+},
+{
+"id": "24:5",
+"q": "Hvad skete der, da Golfkrigen begyndte?",
+"a": "Irak besatte Kuwait",
+"w": [
+"Rusland besatte Krim",
+"Libyen blev bombet"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Irak besatte nabolandet Kuwait i 1990. Året efter ledede USA en militær aktion for at befri landet."
+},
+{
+"id": "24:6",
+"q": "Hvem ledede aktionen for at befri Kuwait i 1991?",
+"a": "USA",
+"w": [
+"Danmark",
+"Rusland"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "USA ledede aktionen på baggrund af en FN-beslutning."
+},
+{
+"id": "24:7",
+"q": "Hvad sendte Danmark til Golfkrigen?",
+"a": "Et skib",
+"w": [
+"Jagerfly",
+"Soldater"
+],
+"p": 133,
+"lvl": "D",
+"type": "fakta",
+"why": "Danmark sendte et skib, som ikke deltog i aktive militære handlinger."
+},
+{
+"id": "24:8",
+"q": "Hvor kom danske FN-soldater i direkte kamp i 1994?",
+"a": "Bosnien",
+"w": [
+"Afghanistan",
+"Libyen"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Under borgerkrigen i det tidligere Jugoslavien kæmpede danske soldater mod serbiske styrker i Bosnien."
+},
+{
+"id": "24:10",
+"q": "Hvilken organisations aktion i Kosovo deltog danske jagerfly i?",
+"a": "NATO",
+"w": [
+"FN",
+"EU"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "NATO greb militært ind i Kosovo i 1999, efter forhandlinger uden resultat. Danske jagerfly deltog."
+},
+{
+"id": "24:11",
+"q": "I hvilket år var terrorangrebet mod USA, hvor fly blev kapret?",
+"a": "2001",
+"w": [
+"1991",
+"2011"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Terrorangrebet den 11. september 2001 blev et vendepunkt for NATO og medlemslandene."
+},
+{
+"id": "24:12",
+"q": "Hvor mange blev dræbt ved terrorangrebet på USA i 2001?",
+"a": "Omkring 3.000",
+"w": [
+"Omkring 300",
+"Omkring 30.000"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Terrorister dræbte omkring 3.000 mennesker ved at flyve kaprede fly ind i blandt andet World Trade Center."
+},
+{
+"id": "24:13",
+"q": "Hvilken ny trussel begyndte NATO at bekæmpe efter 2001?",
+"a": "Terrorgrupper",
+"w": [
+"Pirater",
+"Klimaforandringer"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Før 2001 reagerede NATO kun på trusler fra andre nationer. Nu bekæmper NATO også terrorgrupper."
+},
+{
+"id": "24:14",
+"q": "Hvilken terrororganisation stod bag angrebet på USA i 2001?",
+"a": "Al Qaeda",
+"w": [
+"Islamisk Stat",
+"Hamas"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Al Qaeda stod bag angrebet og havde base i Afghanistan."
+},
+{
+"id": "24:n1",
+"q": "Hvorfor gik NATO-ledede styrker ind i Afghanistan i 2001?",
+"a": "Al Qaeda havde base der",
+"w": [
+"Landet angreb Kuwait",
+"Man ville fjerne Saddam Hussein"
+],
+"p": 134,
+"lvl": "K",
+"type": "forståelse",
+"why": "Al Qaeda stod bag angrebet 11. september og havde base i Afghanistan. Taliban-regeringen samarbejdede med Al Qaeda."
+},
+{
+"id": "24:16",
+"q": "Hvilken regering afsatte NATO-ledede styrker i Afghanistan?",
+"a": "Talibans",
+"w": [
+"Saddam Husseins",
+"Gaddafis"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Styrkerne afsatte den islamistiske Taliban-regering, som samarbejdede med Al Qaeda."
+},
+{
+"id": "24:19",
+"q": "Hvor mange danske soldater mistede livet i Afghanistan?",
+"a": "44",
+"w": [
+"4",
+"144"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "I alt 44 danske soldater døde. De var sendt til Helmand-provinsen, en af de mest urolige."
+},
+{
+"id": "24:20",
+"q": "Hvornår erobrede Taliban igen magten i Afghanistan?",
+"a": "2021",
+"w": [
+"2001",
+"2011"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter 20 år med borgerkrig erobrede Taliban igen magten i 2021. Danske soldater var siden blevet trukket helt hjem."
+},
+{
+"id": "24:21",
+"q": "Hvornår førte USA krig mod Irak og Saddam Hussein?",
+"a": "2003",
+"w": [
+"2001",
+"2011"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "USA og andre lande førte krig mod Irak i 2003, og Saddam Hussein blev fjernet fra magten."
+},
+{
+"id": "24:n2",
+"q": "Hvilket land sendte Danmark soldater til efter USA's invasion i 2003?",
+"a": "Irak",
+"w": [
+"Syrien",
+"Libyen"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Danske soldater hjalp med at genopbygge Irak efter krigen og skabe demokrati."
+},
+{
+"id": "24:22",
+"q": "Hvorfor gik USA i krig mod Irak i 2003?",
+"a": "Mistanke om masseødelæggelsesvåben",
+"w": [
+"Irak angreb Kuwait igen",
+"Irak støttede Taliban"
+],
+"p": 134,
+"lvl": "K",
+"type": "forståelse",
+"why": "Irak ville ikke samarbejde om FN's nedrustning, og USA mente, at Irak ulovligt havde udviklet masseødelæggelsesvåben."
+},
+{
+"id": "24:23",
+"q": "Hvad fandt man ud af om Iraks masseødelæggelsesvåben?",
+"a": "Man fandt aldrig nogen",
+"w": [
+"Man fandt mange",
+"Man fandt kun kemiske våben"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Der blev aldrig fundet masseødelæggelsesvåben i Irak, selv om det var en grund til krigen."
+},
+{
+"id": "24:n3",
+"q": "I hvilket land deltog Danmark i en FN-godkendt aktion i 2011?",
+"a": "Libyen",
+"w": [
+"Syrien",
+"Irak"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "I 2011 deltog Danmark med fly og bombardementer i Libyen med mandat fra FN."
+},
+{
+"id": "24:25",
+"q": "Hvem skulle civile beskyttes mod i Libyen i 2011?",
+"a": "Diktatoren Gaddafi",
+"w": [
+"Saddam Hussein",
+"Taliban"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Aktionen skulle beskytte civilbefolkningen mod overgreb fra diktatoren Muammar Al-Gaddafi."
+},
+{
+"id": "24:n4",
+"q": "Hvilken terrorbevægelse erobrede store dele af Irak og Syrien i 2014?",
+"a": "Islamisk Stat",
+"w": [
+"Al Qaeda",
+"Taliban"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "USA ledede en mission mod Islamisk Stat, og Danmark deltog med fly og træning af irakiske soldater."
+},
+{
+"id": "24:27",
+"q": "Hvad bidrog Danmark med mod Islamisk Stat?",
+"a": "Fly og træning af soldater",
+"w": [
+"Kun penge",
+"Kun et skib"
+],
+"p": 134,
+"lvl": "D",
+"type": "fakta",
+"why": "Danmark deltog med både fly og soldater, der trænede irakiske soldater."
+},
+{
+"id": "24:28",
+"q": "I hvilket år besatte Rusland halvøen Krim?",
+"a": "2014",
+"w": [
+"2008",
+"2022"
+],
+"p": 135,
+"lvl": "U",
+"type": "fakta",
+"why": "Ruslands besættelse af Krim i 2014 og krigen i Ukraine siden 2022 skabte bekymring for angreb på andre lande."
+},
+{
+"id": "24:29",
+"q": "Hvornår begyndte krigen i Ukraine?",
+"a": "2022",
+"w": [
+"2014",
+"2018"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "Krigen i Ukraine har stået på siden 2022 og har fået Vesten til at styrke forsvaret."
+},
+{
+"id": "24:30",
+"q": "Hvad har NATO igen som hovedfokus på grund af Rusland?",
+"a": "At forsvare eget område",
+"w": [
+"Fredsbevarende missioner",
+"At bekæmpe terrorgrupper"
+],
+"p": 135,
+"lvl": "K",
+"type": "forståelse",
+"why": "På grund af frygt for russiske angreb er NATO vendt tilbage til sit oprindelige fokus: at forsvare medlemslandenes territorium."
+},
+{
+"id": "24:31",
+"q": "Hvad vil Danmark bruge flere penge på frem mod 2030?",
+"a": "Forsvaret",
+"w": [
+"Skolerne",
+"Sundhedsvæsenet"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark bruger mange flere penge på forsvaret, så man sammen med NATO bedre kan forsvare sig mod angreb."
+},
+{
+"id": "24:32",
+"q": "Til hvor mange måneder forlænges værnepligten i 2024?",
+"a": "11 måneder",
+"w": [
+"6 måneder",
+"18 måneder"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "I 2024 blev værnepligten forlænget fra fire til 11 måneder."
+},
+{
+"id": "24:n5",
+"q": "Hvad blev besluttet om værnepligten i 2024?",
+"a": "Flere skal indkaldes",
+"w": [
+"Færre skal indkaldes",
+"Den afskaffes"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "Det blev besluttet, at der skal indkaldes flere soldater, og at værnepligten forlænges."
+},
+{
+"id": "24:33",
+"q": "Hvordan har Vesten støttet Ukraine?",
+"a": "Med våben og træning",
+"w": [
+"Med soldater i kamp",
+"Ved at købe russisk olie"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "Vesten har givet Ukraine våben og træning og forbudt køb af russisk olie for at svække Ruslands økonomi."
+},
+{
+"id": "24:35",
+"q": "Hvor byggede USA i 1951 en stor luftbase i Grønland?",
+"a": "Qaanaaq (Thule)",
+"w": [
+"Nuuk",
+"Ilulissat"
+],
+"p": 136,
+"lvl": "K",
+"type": "fakta",
+"why": "USA byggede en luftbase og radarstation ved Qaanaaq (Thule) i det nordlige Grønland."
+},
+{
+"id": "24:n6",
+"q": "I hvilket område ligger den amerikanske Thule-base?",
+"a": "Grønland",
+"w": [
+"Færøerne",
+"Bornholm"
+],
+"p": 136,
+"lvl": "K",
+"type": "fakta",
+"why": "Basen ligger i Nordgrønland og hedder i dag Pituffik Space Base."
+},
+{
+"id": "24:36",
+"q": "Hvad hedder den amerikanske base i Grønland i dag?",
+"a": "Pituffik Space Base",
+"w": [
+"Nuuk Space Base",
+"Thule Sea Base"
+],
+"p": 136,
+"lvl": "D",
+"type": "fakta",
+"why": "Basen ved Qaanaaq hedder i dag Pituffik Space Base og bruges stadig af USA."
+},
+{
+"id": "24:37",
+"q": "Hvorfor havde Grønland stor betydning under Den Kolde Krig?",
+"a": "Det lå mellem USA og Sovjetunionen",
+"w": [
+"Det var rigt på guld og olie",
+"Det var et neutralt område"
+],
+"p": 136,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den korteste vej for fly og raketter mellem USA og Sovjetunionen gik over Grønland. Derfor fik landet strategisk betydning."
+},
+{
+"id": "24:n7",
+"q": "Hvilket område er en del af det danske Rigsfællesskab?",
+"a": "Grønland",
+"w": [
+"Island",
+"Norge"
+],
+"p": 136,
+"lvl": "K",
+"type": "fakta",
+"why": "Rigsfællesskabet består af Danmark, Færøerne og Grønland. Island og Norge er ikke en del af det."
+},
+{
+"id": "24:38",
+"q": "Hvad giver afsmeltning af isen i Arktis bedre mulighed for?",
+"a": "Olie, gas og nye skibsruter",
+"w": [
+"Mere fiskeri",
+"Dyrkning af korn"
+],
+"p": 136,
+"lvl": "K",
+"type": "forståelse",
+"why": "Når isen smelter, kan man finde olie, gas og mineraler, og der kan komme nye, kortere skibsruter."
+},
+{
+"id": "24:39",
+"q": "Hvilke stormagter er interesseret i Arktis?",
+"a": "USA, Rusland og Kina",
+"w": [
+"Kun USA",
+"Kun Rusland"
+],
+"p": 137,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle tre er interesseret på grund af forsvar og økonomi, fx minedrift og skibstransport. Det kan udfordre målet om et fredeligt Arktis."
+},
+{
+"id": "24:n8",
+"q": "Hvilket område har USA's præsident ønsket skal blive en del af USA?",
+"a": "Grønland",
+"w": [
+"Færøerne",
+"Island"
+],
+"p": 137,
+"lvl": "U",
+"type": "fakta",
+"why": "Ønsket blev afvist af både den grønlandske og den danske regering."
+},
+{
+"id": "24:41",
+"q": "Hvad besluttede Danmark i 2025 om Arktis?",
+"a": "At styrke forsvaret omkring Grønland",
+"w": [
+"At sælge Grønland",
+"At lukke baserne"
+],
+"p": 137,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark vil bruge nye skibe og droner til at overvåge området omkring Grønland."
+}
+]

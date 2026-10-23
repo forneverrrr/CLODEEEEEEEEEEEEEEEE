@@ -1,0 +1,612 @@
+[
+{
+"id": "11:0",
+"q": "Hvad hedder Danmarks forfatning til daglig?",
+"a": "Grundloven",
+"w": [
+"Valgloven",
+"Kongeloven"
+],
+"p": 62,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmarks Riges Grundlov er landets forfatning og kaldes ofte bare grundloven. Den indeholder de vigtigste regler om styreformen."
+},
+{
+"id": "11:2",
+"q": "Hvornår fik Danmark sin første demokratiske grundlov?",
+"a": "1849",
+"w": [
+"1660",
+"1915"
+],
+"p": 62,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven er fra 1849. Året 1660 er starten på enevælden, og 1915 er året, hvor kvinder fik stemmeret."
+},
+{
+"id": "11:3",
+"q": "Hvornår blev grundloven sidst ændret?",
+"a": "1953",
+"w": [
+"1849",
+"1915"
+],
+"p": 62,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven er kun ændret nogle få gange siden 1849. Sidste gang var i 1953."
+},
+{
+"id": "11:4",
+"q": "Hvordan er grundloven i forhold til andre love?",
+"a": "Den er landets øverste lov",
+"w": [
+"Den er en almindelig lov",
+"Den er den nyeste lov"
+],
+"p": 62,
+"lvl": "K",
+"type": "forståelse",
+"why": "Andre love må ikke stride mod grundloven. Derfor er den landets øverste lov og sværere at ændre end andre love."
+},
+{
+"id": "11:5",
+"q": "Hvem vælger politikerne til Folketinget?",
+"a": "Borgerne",
+"w": [
+"Kongen",
+"Regeringen"
+],
+"p": 62,
+"lvl": "K",
+"type": "fakta",
+"why": "I et demokrati er det borgerne, der vælger politikerne. Det gælder også kommunalbestyrelser, regionsråd og Europa-Parlamentet."
+},
+{
+"id": "11:6",
+"q": "Hvem må se, hvad du stemmer på ved et valg?",
+"a": "Ingen",
+"w": [
+"Politiet",
+"Din arbejdsgiver"
+],
+"p": 62,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Valg i Danmark er frie og hemmelige. Ingen kan tvinge dig til at sige, hvad du har stemt på."
+},
+{
+"id": "11:7",
+"q": "Hvem skal først vedtage en ændring af grundloven?",
+"a": "Det siddende Folketing",
+"w": [
+"Domstolene",
+"Kongen"
+],
+"p": 62,
+"lvl": "K",
+"type": "fakta",
+"why": "Først vedtager det siddende Folketing forslaget. Derefter kommer nyvalg, og det nye Folketing skal vedtage det uændret."
+},
+{
+"id": "11:8",
+"q": "Hvad sker der efter, at Folketinget har vedtaget en grundlovsændring?",
+"a": "Der er valg til Folketinget",
+"w": [
+"Der er straks folkeafstemning",
+"Domstolene godkender den"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter første vedtagelse skal der være nyvalg. Først bagefter kommer folkeafstemningen."
+},
+{
+"id": "11:n0",
+"q": "Hvorfor er grundloven sværere at ændre end andre love?",
+"a": "Det kræver valg og folkeafstemning",
+"w": [
+"Domstolene skal være enige",
+"Regionerne skal stemme"
+],
+"p": 63,
+"lvl": "K",
+"type": "forståelse",
+"why": "Et flertal i Folketinget er ikke nok. Forslaget skal også vedtages af et nyt Folketing efter valg og af vælgerne ved en folkeafstemning."
+},
+{
+"id": "11:9",
+"q": "Hvor mange procent af alle vælgere skal mindst stemme ja til en grundlovsændring?",
+"a": "40 procent",
+"w": [
+"25 procent",
+"60 procent"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved folkeafstemningen skal et flertal af de afgivne stemmer og mindst 40 procent af alle vælgere stemme for."
+},
+{
+"id": "11:n1",
+"q": "Skal der holdes folkeafstemning, før grundloven kan ændres?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven kan kun ændres, hvis vælgerne efter nyvalget stemmer ja ved en folkeafstemning."
+},
+{
+"id": "11:n2",
+"q": "Hvor gammel skulle en mand være for at stemme til Folketinget i 1849?",
+"a": "30 år",
+"w": [
+"18 år",
+"21 år"
+],
+"p": 63,
+"lvl": "U",
+"type": "fakta",
+"why": "I 1849 var stemmeretsalderen 30 år, kun for mænd. I dag er den 18 år for både mænd og kvinder."
+},
+{
+"id": "11:11",
+"q": "Hvornår fik kvinder stemmeret til Folketinget?",
+"a": "1915",
+"w": [
+"1849",
+"1953"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinder fik ikke stemmeret med grundloven i 1849. Det kom først med en ændring af grundloven i 1915."
+},
+{
+"id": "11:12",
+"q": "Hvor gammel skal man være for at stemme til Folketinget i dag?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Valgretsalderen er sat ned flere gange. I dag er man både stemmeberettiget og valgbar fra 18 år."
+},
+{
+"id": "11:n3",
+"q": "Hvad er frihedsrettigheder?",
+"a": "Ret til at handle uden tilladelse fra myndighederne",
+"w": [
+"Ret til gratis hjælp fra staten",
+"Ret til at bryde loven"
+],
+"p": 63,
+"lvl": "K",
+"type": "forståelse",
+"why": "Frihedsrettigheder betyder, at borgerne frit kan sige og gøre ting, så længe de overholder lovene. Myndighederne skal ikke give tilladelse først."
+},
+{
+"id": "11:13",
+"q": "Hvad sikrer forsamlingsfriheden?",
+"a": "Retten til at mødes og demonstrere",
+"w": [
+"Retten til at vælge religion",
+"Retten til at rejse frit"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Forsamlingsfriheden giver ret til at holde offentlige møder og demonstrationer."
+},
+{
+"id": "11:n4",
+"q": "Du vil holde en demonstration. Hvad skal du først gøre?",
+"a": "Give politiet besked",
+"w": [
+"Bede politiet om tilladelse",
+"Bede kommunen om tilladelse"
+],
+"p": 63,
+"lvl": "K",
+"type": "anvendelse",
+"why": "En forsamling skal ikke godkendes af politiet, men man skal give besked. Ellers kan man få en bøde."
+},
+{
+"id": "11:14",
+"q": "Hvornår skal man senest give politiet besked om en offentlig forsamling?",
+"a": "24 timer før",
+"w": [
+"En uge før",
+"En måned før"
+],
+"p": 63,
+"lvl": "U",
+"type": "fakta",
+"why": "Giver man ikke politiet besked senest 24 timer i forvejen, kan man få en bøde. Forsamlingen kan stadig holdes."
+},
+{
+"id": "11:15",
+"q": "Hvad sikrer foreningsfriheden?",
+"a": "Retten til at danne foreninger",
+"w": [
+"Retten til at stemme",
+"Retten til at ytre sig"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan danne foreninger med lovligt formål uden tilladelse fra myndighederne. Det er en vigtig del af demokratiet."
+},
+{
+"id": "11:16",
+"q": "Hvad sikrer ytringsfriheden?",
+"a": "Retten til at sige sin mening",
+"w": [
+"Retten til at danne foreninger",
+"Retten til at mødes og demonstrere"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Ytringsfriheden er retten offentligt at sige og skrive det, man mener, uden at myndighederne godkender det først."
+},
+{
+"id": "11:17",
+"q": "Hvad begrænser ytringsfriheden?",
+"a": "Loven, fx om injurier og racisme",
+"w": [
+"Politiets godkendelse",
+"Kongens ønsker"
+],
+"p": 63,
+"lvl": "U",
+"type": "fakta",
+"why": "Ytringer må ikke være ulovlige. Fx er injurier og ytringer i strid med racismeparagraffen strafbare."
+},
+{
+"id": "11:n5",
+"q": "Hvornår kan man blive straffet for en ulovlig ytring?",
+"a": "Efter at den er offentliggjort",
+"w": [
+"Før den bliver offentliggjort",
+"Kun hvis kongen forbyder den"
+],
+"p": 63,
+"lvl": "U",
+"type": "forståelse",
+"why": "Myndighederne godkender ikke ytringer på forhånd. Viser en ytring sig at være ulovlig, kan man bagefter blive straffet."
+},
+{
+"id": "11:n6",
+"q": "Hvad hedder den frihed, der sikrer, at en anholdt hurtigt kommer for en dommer?",
+"a": "Den personlige frihed",
+"w": [
+"Forsamlingsfriheden",
+"Religionsfriheden"
+],
+"p": 64,
+"lvl": "U",
+"type": "fakta",
+"why": "Den personlige frihed betyder bl.a., at en anholdt inden 24 timer skal stilles for en dommer."
+},
+{
+"id": "11:19",
+"q": "Hvad betyder religionsfriheden?",
+"a": "Man vælger selv sin religion",
+"w": [
+"Alle skal følge folkekirken",
+"Kun kristne må dyrke deres religion"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan selv vælge religion og dyrke den, hvis man respekterer nogle grundlæggende regler."
+},
+{
+"id": "11:20",
+"q": "Hvilken kirke har en særstilling i grundloven?",
+"a": "Folkekirken",
+"w": [
+"Den katolske kirke",
+"Frikirkerne"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkekirken understøttes af staten. Staten må dog også støtte andre religioner, fx med en grund til en moske."
+},
+{
+"id": "11:21",
+"q": "Hvornår må politiet som udgangspunkt gå ind i dit hjem?",
+"a": "Når en dommer har godkendt det",
+"w": [
+"Når politiet selv vil",
+"Når naboen klager"
+],
+"p": 64,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Boligens ukrænkelighed betyder, at politiet som udgangspunkt skal have en dommers godkendelse."
+},
+{
+"id": "11:22",
+"q": "Hvem afgør, om en forening med voldeligt formål skal opløses?",
+"a": "Domstolene",
+"w": [
+"Politiet",
+"Folketinget"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Foreningsfriheden er begrænset: foreninger med voldeligt formål kan opløses, men det er domstolene, der afgør det."
+},
+{
+"id": "11:23",
+"q": "Hvad er Danmarks styreform?",
+"a": "Monarki",
+"w": [
+"Republik",
+"Enevælde"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "I et monarki er statsoverhovedet en konge eller dronning. Monarken er ikke valgt af folket, men har arvet tronen."
+},
+{
+"id": "11:24",
+"q": "Hvem er Danmarks konge i dag?",
+"a": "Frederik 10.",
+"w": [
+"Frederik 7.",
+"Christian 10."
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "Frederik 10. arvede tronen i 2024 efter sin mor, Dronning Margrethe 2."
+},
+{
+"id": "11:25",
+"q": "Hvornår arvede Frederik 10. tronen?",
+"a": "2024",
+"w": [
+"2004",
+"2011"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Frederik 10. arvede tronen i 2024 efter sin mor, Dronning Margrethe 2. Han har siden 2004 været gift med dronning Mary."
+},
+{
+"id": "11:26",
+"q": "Hvem arvede Frederik 10. tronen efter?",
+"a": "Sin mor, Margrethe 2.",
+"w": [
+"Sin far, Frederik 9.",
+"Sin farfar"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Dronning Margrethe 2. havde selv arvet tronen efter sin far, Frederik 9."
+},
+{
+"id": "11:28",
+"q": "Hvem arver tronen efter Frederik 10.?",
+"a": "Kronprins Christian",
+"w": [
+"Prins Vincent",
+"Prinsesse Isabella"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Tronen går i arv til det ældste barn, og det er Kronprins Christian."
+},
+{
+"id": "11:29",
+"q": "Hvem arver tronen, når monarken dør?",
+"a": "Det ældste barn",
+"w": [
+"Det yngste barn",
+"Den, Folketinget vælger"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "Monarken vælges ikke. Tronen går i arv til det ældste barn."
+},
+{
+"id": "11:30",
+"q": "Hvem underskriver en vedtaget lov?",
+"a": "Kongen og en minister",
+"w": [
+"Kun statsministeren",
+"Folketingets formand"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Når Folketinget har vedtaget et lovforslag, skal kongen og en minister underskrive det, før det bliver til lov."
+},
+{
+"id": "11:n7",
+"q": "Hvilken politisk magt har kongen?",
+"a": "Ingen politisk magt",
+"w": [
+"Han vælger ministrene",
+"Han bestemmer lovenes indhold"
+],
+"p": 65,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kongen underskriver love og har nogle funktioner ved dannelse af en regering. Han bestemmer ikke, hvem der er minister, eller hvad der står i lovene."
+},
+{
+"id": "11:36",
+"q": "Hvilken dag holder kongen sin nytårstale?",
+"a": "31. december",
+"w": [
+"24. december",
+"1. januar"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvert år på nytårsaften holder kongen en nytårstale, som vises i fjernsynet."
+},
+{
+"id": "11:n8",
+"q": "Hvorfor tager erhvervsfolk med kongen på statsbesøg?",
+"a": "For at lave handelsaftaler",
+"w": [
+"For at vælge nye ministre",
+"For at lave nye love"
+],
+"p": 65,
+"lvl": "U",
+"type": "forståelse",
+"why": "Statsbesøg kan bidrage til handelsaftaler og dermed øge den danske eksport."
+},
+{
+"id": "11:37",
+"q": "Hvor lang tid havde Danmark enevælde før 1849?",
+"a": "Næsten 200 år",
+"w": [
+"Cirka 50 år",
+"Cirka 500 år"
+],
+"p": 65,
+"lvl": "D",
+"type": "fakta",
+"why": "Enevælden varede fra 1660-61 og indtil grundloven i 1849."
+},
+{
+"id": "11:38",
+"q": "Hvad er enevælde?",
+"a": "Kongen har magten alene",
+"w": [
+"Folket vælger kongen",
+"Kongen og Folketinget deler magten"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "Enevælde er en styreform, hvor kongen har magten alene. Grundloven af 1849 afløste den."
+},
+{
+"id": "11:39",
+"q": "Hvem var Danmarks sidste enevældige konge?",
+"a": "Frederik 7.",
+"w": [
+"Christian 9.",
+"Frederik 9."
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Frederik 7. blev konge i 1848 og afgav samme år sin enevældige magt."
+},
+{
+"id": "11:41",
+"q": "Hvilke tre magter deler statsmagten i Danmark?",
+"a": "Lovgivende, udøvende og dømmende",
+"w": [
+"Konge, regering og folk",
+"Stat, region og kommune"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Statsmagten er ikke samlet ét sted, men delt i en lovgivende, en udøvende og en dømmende magt."
+},
+{
+"id": "11:43",
+"q": "Hvem har den lovgivende magt?",
+"a": "Regeringen og Folketinget",
+"w": [
+"Folketinget og domstolene",
+"Kongen og domstolene"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Regeringen fremsætter de fleste lovforslag, og Folketinget vedtager dem. Derfor har de magten sammen."
+},
+{
+"id": "11:42",
+"q": "Hvem har den udøvende magt?",
+"a": "Regeringen",
+"w": [
+"Domstolene",
+"Folketinget"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Ministrene og embedsmændene sørger for, at lovene bliver ført ud i livet og overholdt."
+},
+{
+"id": "11:44",
+"q": "Hvem har den dømmende magt?",
+"a": "Domstolene",
+"w": [
+"Regeringen",
+"Folketinget"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Domstolene afgør retssager og er uafhængige af politikerne."
+},
+{
+"id": "11:n9",
+"q": "Hvem fremsætter de fleste lovforslag?",
+"a": "Regeringen",
+"w": [
+"Kongen",
+"Domstolene"
+],
+"p": 66,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste lovforslag kommer fra regeringen, men det er Folketinget, der vedtager dem."
+},
+{
+"id": "11:45",
+"q": "Hvorfor er statsmagten delt i tre?",
+"a": "Så magten ikke samles ét sted",
+"w": [
+"Så kongen får mere magt",
+"Så regeringen kan afskedige dommere"
+],
+"p": 66,
+"lvl": "K",
+"type": "forståelse",
+"why": "Når magten er delt, kan Folketinget kontrollere regeringen, og domstolene kan vurdere, om myndigheders afgørelser er lovlige."
+},
+{
+"id": "11:n10",
+"q": "Hvem kan vurdere, om en lov er forenelig med grundloven?",
+"a": "Domstolene",
+"w": [
+"Kongen",
+"Regeringen"
+],
+"p": 66,
+"lvl": "U",
+"type": "forståelse",
+"why": "Domstolene kan både prøve myndigheders afgørelser og vurdere, om en lov strider mod grundloven."
+}
+]

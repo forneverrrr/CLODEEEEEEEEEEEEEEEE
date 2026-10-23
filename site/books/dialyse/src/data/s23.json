@@ -1,0 +1,444 @@
+[
+{
+"id": "23:0",
+"q": "Hvad er aferese?",
+"a": "Ekstrakorporal fjernelse af specifikke blodbestanddele",
+"w": [
+"Dialyse over en membran med dialysat",
+"Tilførsel af blod fra en donor"
+],
+"p": 229,
+"lvl": "K",
+"type": "fakta",
+"why": "Aferese adskiller plasma og blodets formede elementer uden for kroppen og fjerner bestemte bestanddele, fx antistoffer eller celler. Det er ikke almindelig dialyse."
+},
+{
+"id": "23:2",
+"q": "Hvilken adgang kræver alle afereser?",
+"a": "Vaskulær adgang",
+"w": [
+"Peritonealkateter",
+"Lumbalpunktur"
+],
+"p": 229,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandlingen foregår i et ekstrakorporalt blodkredsløb, så der skal anlægges vaskulær adgang og ofte gives blodfortyndende behandling."
+},
+{
+"id": "23:3",
+"q": "Hvad fjerner plasmaferese?",
+"a": "Plasmabestanddele med høj molekylvægt",
+"w": [
+"Små vandopløselige stoffer som urinstof",
+"Røde blodlegemer"
+],
+"p": 229,
+"lvl": "K",
+"type": "fakta",
+"why": "Plasmaferese fjerner højmolekylære plasmabestanddele. Små stoffer som urinstof fjernes bedre ved dialyse."
+},
+{
+"id": "23:4",
+"q": "Hvad kendetegner plasmaudskiftning?",
+"a": "Plasma erstattes med væske",
+"w": [
+"Plasma fjernes uden erstatning",
+"Kun blodplader fjernes"
+],
+"p": 229,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved plasmaudskiftning erstattes det tabte volumen sekundært med erstatningsvæske, så patienten ikke bliver volumendepleteret."
+},
+{
+"id": "23:5",
+"q": "Hvad er formålet med plasmaferese?",
+"a": "Fjerne toksiner eller immunmodulere",
+"w": [
+"Fjerne overskudsvæske og salt",
+"Tilføre jern og vitaminer"
+],
+"p": 229,
+"lvl": "K",
+"type": "fakta",
+"why": "Plasmaferese fjerner toksiske plasmabestanddele eller immunmodulerer ved at fjerne immunglobuliner, autoantistoffer, immunkomplekser og komplement."
+},
+{
+"id": "23:6",
+"q": "Hvilke stoffer er plasmaferese velegnet til at fjerne?",
+"a": "Over 15 kDa eller højt proteinbundne",
+"w": [
+"Små, vandopløselige stoffer",
+"Kun elektrolytter og vand"
+],
+"p": 229,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højmolekylære eller højt proteinbundne stoffer fjernes dårligt ved dialyse. Plasmaferese bruges, når stoffet er toksisk og anden behandling er virkningsløs."
+},
+{
+"id": "23:n0",
+"q": "Et giftstof er højt proteinbundet, og dialyse er virkningsløs. Hvilken ekstrakorporal behandling kan overvejes?",
+"a": "Plasmaferese",
+"w": [
+"Peritonealdialyse",
+"Hæmofiltration"
+],
+"p": 229,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Plasmaferese kan fjerne stoffer med høj proteinbinding, hvis de er toksiske og anden behandling ikke virker, og hvis T½ og Vd giver forventning om effekt."
+},
+{
+"id": "23:7",
+"q": "Hvorfor fjerner én plasmaferese kun en begrænset del af en højmolekylær plasmabestanddel?",
+"a": "Langsom ækvilibrering fra vævet",
+"w": [
+"Filteret tilbageholder det",
+"Stoffet nedbrydes straks i plasma"
+],
+"p": 229,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højmolekylære stoffer flytter sig kun ca. 1-3 % i timen mellem det ekstra- og intravaskulære rum, så effekten af én behandling er begrænset til blodbanen."
+},
+{
+"id": "23:8",
+"q": "Hvorfor gentages plasmaferese typisk hver en-to dage?",
+"a": "For at sænke koncentrationen i hele kroppen",
+"w": [
+"Filteret tilstoppes efter et døgn",
+"Citrat virker kun i ét døgn"
+],
+"p": 230,
+"lvl": "K",
+"type": "forståelse",
+"why": "Én behandling renser kun blodbanen. Gentagne behandlinger er nødvendige, før koncentrationen i hele kroppen er faldet nok."
+},
+{
+"id": "23:9",
+"q": "Hvilke to metoder adskiller plasma fra blodets formede elementer?",
+"a": "Centrifugering og membranfiltration",
+"w": [
+"Diffusion og adsorption",
+"Osmose og ultrafiltration"
+],
+"p": 230,
+"lvl": "K",
+"type": "fakta",
+"why": "Adskillelsen sker enten med centrifugalkraft eller med hydrostatisk tryk over en membran."
+},
+{
+"id": "23:10",
+"q": "Hvad driver adskillelsen af blodets bestanddele ved centrifugering?",
+"a": "Centrifugalkraft",
+"w": [
+"Hydrostatisk tryk over en membran",
+"Adsorption til en kolonne"
+],
+"p": 230,
+"lvl": "U",
+"type": "fakta",
+"why": "Blodet roterer med høj hastighed i en centrifugeenhed, og bestanddelene adskilles ved centrifugalkraft."
+},
+{
+"id": "23:11",
+"q": "Hvad driver adskillelsen ved membranfiltration?",
+"a": "Hydrostatisk tryk over membranen",
+"w": [
+"Centrifugalkraft i en roterende enhed",
+"Osmotisk gradient over membranen"
+],
+"p": 230,
+"lvl": "U",
+"type": "fakta",
+"why": "En pumpe i det ekstrakorporale kredsløb skaber trykket, der presser plasma gennem membranen."
+},
+{
+"id": "23:n1",
+"q": "Hvilken fordel har centrifugering frem for membranfiltration?",
+"a": "Den kan fraktionere alle blodets komponenter",
+"w": [
+"Den giver højere blodflow",
+"Den kræver ingen antikoagulation"
+],
+"p": 230,
+"lvl": "K",
+"type": "forståelse",
+"why": "Centrifugering kan fraktionere alle blodets komponenter, fx også blodplader og leukocytter. Membranfiltration adskiller kun plasma."
+},
+{
+"id": "23:13",
+"q": "Hvilken erstatningsvæske bruges ved plasmaudskiftning?",
+"a": "Albumin eller frisk frosset plasma",
+"w": [
+"Isotonisk glukoseopløsning",
+"Fuldblod fra donor"
+],
+"p": 230,
+"lvl": "K",
+"type": "fakta",
+"why": "I Danmark bruges human albumin (evt. blandet med Ringer), og frisk frosset plasma (FFP). Valget påvirker bivirkningerne."
+},
+{
+"id": "23:14",
+"q": "Hvad doseres plasmaudskiftning efter?",
+"a": "Patientens estimerede plasmavolumen",
+"w": [
+"Legemsvægt alene",
+"Hæmoglobinniveau"
+],
+"p": 230,
+"lvl": "U",
+"type": "fakta",
+"why": "Udskiftningsvolumen er typisk 1-1,5 gange patientens estimerede plasmavolumen."
+},
+{
+"id": "23:15",
+"q": "Hvad er målet med plasmaudskiftning ved nefrologiske og neurologiske sygdomme?",
+"a": "Fjerne antistoffer og immunkomplekser",
+"w": [
+"Fjerne overskudsvæske og salt",
+"Øge urinproduktionen"
+],
+"p": 230,
+"lvl": "K",
+"type": "fakta",
+"why": "Plasmaudskiftning bruges hyppigst til at fjerne sygdomsfremkaldende antistoffer og immunkomplekser."
+},
+{
+"id": "23:16",
+"q": "Hvorfor gives plasmaferese typisk tidligt i det akutte forløb?",
+"a": "Immunsuppression virker først efter nogen tid",
+"w": [
+"Plasmaferese virker kun de første dage",
+"Antistoffer dannes kun tidligt i forløbet"
+],
+"p": 230,
+"lvl": "K",
+"type": "forståelse",
+"why": "Plasmaferese sænker hurtigt mængden af cirkulerende antistoffer, mens den immunsupprimerende medicin endnu ikke har effekt."
+},
+{
+"id": "23:n2",
+"q": "Hvilken behandling kombineres oftest med plasmaudskiftning?",
+"a": "Immunsupprimerende behandling",
+"w": [
+"Hæmodialyse med high-flux-filter",
+"Antibiotika mod infektion"
+],
+"p": 230,
+"lvl": "K",
+"type": "forståelse",
+"why": "Plasmaferese fjerner eksisterende antistoffer, men immunsuppression hæmmer den fortsatte dannelse af nye."
+},
+{
+"id": "23:17",
+"q": "For hvilken nefrologisk sygdom er effekten af plasmaferese veldokumenteret?",
+"a": "Anti-GBM-sygdom",
+"w": [
+"IgA-nefropati",
+"Diabetisk nefropati"
+],
+"p": 230,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved andre nefrologiske sygdomme end anti-GBM-sygdom er dokumentationen for plasmaudskiftning fortsat inkonklusiv."
+},
+{
+"id": "23:18",
+"q": "Hvad er anti-GBM-sygdom?",
+"a": "Autoimmun sygdom mod glomeruli og alveoler",
+"w": [
+"Arvelig sygdom med nyrecyster",
+"Bakteriel infektion i nyrerne"
+],
+"p": 231,
+"lvl": "K",
+"type": "fakta",
+"why": "Patogene IgG-autoantistoffer binder glomeruli og lungernes alveoler. Sygdommen er sjælden, men kan give nyre- og lungeaffektion."
+},
+{
+"id": "23:n3",
+"q": "En patient har anti-GBM-sygdom. Hvilken behandling supplerer medicinsk immunsuppression?",
+"a": "Plasmaferese",
+"w": [
+"Hæmoperfusion",
+"Peritonealdialyse"
+],
+"p": 231,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Plasmaferese giver hurtig fjernelse af patogene autoantistoffer, som medicin alene kun halverer efter ca. tre uger."
+},
+{
+"id": "23:19",
+"q": "Hvad er plasmahalveringstiden for IgG ca.?",
+"a": "Ca. 3 uger",
+"w": [
+"Ca. 3 timer",
+"Ca. 3 dage"
+],
+"p": 231,
+"lvl": "U",
+"type": "fakta",
+"why": "IgG har lang halveringstid (ca. 21 dage), så medicin alene sænker antistofkoncentrationen langsomt."
+},
+{
+"id": "23:20",
+"q": "Hvor længe gives plasmaferese oftest dagligt ved anti-GBM-sygdom?",
+"a": "10-20 dage",
+"w": [
+"1-2 dage",
+"2-3 måneder"
+],
+"p": 231,
+"lvl": "U",
+"type": "fakta",
+"why": "Anti-GBM-antistoffer er stærkt patogene, så behandlingen gives oftest dagligt i 10-20 dage."
+},
+{
+"id": "23:22",
+"q": "En patient får snurren omkring munden under plasmaferese med citrat. Hvad skyldes det mest sandsynligt?",
+"a": "Citrat-induceret hypocalcæmi",
+"w": [
+"Hyperkaliæmi",
+"Hypoglykæmi"
+],
+"p": 231,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Citrat binder calcium og giver paræstesi. Det er en typisk, mild bivirkning."
+},
+{
+"id": "23:n4",
+"q": "Hvilken bivirkning er typisk ved plasmaferese?",
+"a": "Blodtryksfald",
+"w": [
+"Hypertensiv krise",
+"Kraftig blødning"
+],
+"p": 231,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste bivirkninger er milde, fx blodtryksfald, paræstesi, alkalose og allergiske reaktioner ved FFP."
+},
+{
+"id": "23:23",
+"q": "Hvilke elektrolytforstyrrelser kan plasmaudskiftning give?",
+"a": "Hypokaliæmi og hypocalcæmi",
+"w": [
+"Hyperkaliæmi og hypercalcæmi",
+"Hypernatriæmi og hyperfosfatæmi"
+],
+"p": 231,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved udskiftning af plasma kan der opstå hypokaliæmi, hypomagnesiæmi og hypocalcæmi, desuden koagulopati og hypogammaglobulinæmi."
+},
+{
+"id": "23:24",
+"q": "Hvorfor giver daglig plasmaudskiftning øget infektionsrisiko?",
+"a": "Hypogammaglobulinæmi",
+"w": [
+"Hypokaliæmi",
+"Hypocalcæmi"
+],
+"p": 231,
+"lvl": "K",
+"type": "forståelse",
+"why": "Daglig plasmaudskiftning fortynder og fjerner immunglobuliner, så patienten får for lidt gammaglobulin."
+},
+{
+"id": "23:25",
+"q": "Hvor hyppige er alvorlige bivirkninger ved plasmaferese?",
+"a": "Sjældne",
+"w": [
+"Hyppige",
+"Hos hver anden patient"
+],
+"p": 231,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste bivirkninger er milde. Alvorlige er sjældne (ca. 0,5 %), men anafylaksi kan forekomme."
+},
+{
+"id": "23:26",
+"q": "En patient får allergisk reaktion under plasmaudskiftning. Hvilken erstatningsvæske er mest sandsynlig?",
+"a": "Frisk frosset plasma",
+"w": [
+"Albuminopløsning",
+"Ringer-laktat"
+],
+"p": 231,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Allergiske reaktioner og anafylaksi ses især ved erstatning med FFP."
+},
+{
+"id": "23:n5",
+"q": "En patient med akut leversvigt har mangel på koagulationsfaktorer. Hvilken erstatningsvæske kan tilføre dem ved plasmaudskiftning?",
+"a": "Frisk frosset plasma",
+"w": [
+"Albuminopløsning",
+"Ringer-acetat"
+],
+"p": 230,
+"lvl": "K",
+"type": "anvendelse",
+"why": "FFP indeholder koagulationsfaktorer. Større mængder kan kun gives, hvis tilsvarende mængde af patientens eget plasma samtidig fjernes."
+},
+{
+"id": "23:27",
+"q": "Hvad sker der ved immunadsorption?",
+"a": "Plasma passerer en kolonne, der binder antistoffer",
+"w": [
+"Plasma erstattes med albuminopløsning",
+"Blodet passerer et kulfilter med coating"
+],
+"p": 231,
+"lvl": "K",
+"type": "fakta",
+"why": "Plasma adskilles fra blodet og passerer en adsorptionskolonne med en ligand. Kun uønskede bestanddele, fx et bestemt antistof, bindes."
+},
+{
+"id": "23:28",
+"q": "En recipient har uforligelig blodtype til sin levende nyredonor. Hvilken behandling før transplantationen fjerner blodtypeantistofferne?",
+"a": "Immunadsorption",
+"w": [
+"Hæmoperfusion",
+"Peritonealdialyse"
+],
+"p": 232,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Immunadsorption renser plasma for antistoffer mod donors blodtype, så AB0-inkompatibel transplantation bliver mulig."
+},
+{
+"id": "23:29",
+"q": "Hvad indeholder kolonnen ved immunadsorption ved AB0-inkompatibilitet?",
+"a": "Syntetiske A- eller B-epitoper",
+"w": [
+"Albumin bundet til kolonnen",
+"Heparin bundet til kolonnen"
+],
+"p": 232,
+"lvl": "U",
+"type": "fakta",
+"why": "De syntetiske blodtypeantigener binder de cirkulerende antistoffer, før plasmaet returneres til patienten."
+},
+{
+"id": "23:31",
+"q": "Hvilken behandling er en aferese ud over plasmaferese?",
+"a": "Erytrocytaferese",
+"w": [
+"Hæmodialyse",
+"Peritonealdialyse"
+],
+"p": 229,
+"lvl": "U",
+"type": "fakta",
+"why": "Aferese omfatter også cytaferese (fx leukocyt-, trombocyt- og erytrocytaferese), fotoferese og lipoproteinaferese."
+}
+]

@@ -1,0 +1,970 @@
+[
+{
+"id": "10:0",
+"q": "Hvordan doseres dialyse?",
+"a": "Ved varighed, frekvens og effektivitet",
+"w": [
+"Kun ved blodflow og filterstørrelse",
+"Kun ved dialysatets sammensætning"
+],
+"p": 115,
+"lvl": "K",
+"type": "fakta",
+"why": "Dosis tilpasses patientens behov, herunder legemsstørrelse og restnyrefunktion, ved at justere tid, frekvens og effektivitet af dialysen."
+},
+{
+"id": "10:1",
+"q": "Hvad er clearance?",
+"a": "Volumen renset for et stof pr. tidsenhed",
+"w": [
+"Koncentration af stoffet i blodet efter dialyse",
+"Mængde stof, der udskilles i urinen"
+],
+"p": 115,
+"lvl": "K",
+"type": "fakta",
+"why": "Clearance er uafhængig af tilførsel og dannelse af stoffet, mens koncentrationen alene ikke afspejler fjernelsen."
+},
+{
+"id": "10:3",
+"q": "Hvilke egenskaber gør karbamid velegnet som indikator for dialysedosis?",
+"a": "Atoksisk, let og billig at måle",
+"w": [
+"Fedtopløselig og bundet til proteiner",
+"Langsom passage fra depoter i kroppen"
+],
+"p": 115,
+"lvl": "K",
+"type": "fakta",
+"why": "Karbamid er atoksisk, findes endogent frit i vandfasen og er billigt at måle. Derfor bruges det stadig, selvom der ikke er konsensus om en bedre indikator."
+},
+{
+"id": "10:4",
+"q": "Hvilke toksiner fanger karbamid som indikator ikke?",
+"a": "Proteinbundne eller fedtopløselige",
+"w": [
+"Små molekyler i vandfasen",
+"Stoffer, der frit passerer membranen"
+],
+"p": 115,
+"lvl": "K",
+"type": "fakta",
+"why": "Dosis måles ikke for stoffer, der ikke kan passere membranen, afgives langsomt fra depoter, er fedtopløselige eller er proteinbundne."
+},
+{
+"id": "10:5",
+"q": "Hvor dannes karbamid hovedsageligt?",
+"a": "I leveren",
+"w": [
+"I nyrerne",
+"I musklerne"
+],
+"p": 115,
+"lvl": "U",
+"type": "fakta",
+"why": "Karbamid er leverens slutprodukt af nitrogen fra proteinomsætningen, som ikke genanvendes."
+},
+{
+"id": "10:6",
+"q": "Hvad står PCR for i forbindelse med karbamid?",
+"a": "Protein catabolic rate",
+"w": [
+"Peritoneal clearance rate",
+"Plasma creatinine ratio"
+],
+"p": 115,
+"lvl": "K",
+"type": "fakta",
+"why": "PCR (også kaldet PNA) er hastigheden af proteinomsætningen og afspejler proteinindtag og katabolisme."
+},
+{
+"id": "10:7",
+"q": "Hvad er et andet navn for protein catabolic rate (PCR)?",
+"a": "Protein nitrogen appearance",
+"w": [
+"Protein nitrate assay",
+"Plasma nitrogen amount"
+],
+"p": 115,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:8",
+"q": "Hvad afspejler stigningen i p-karbamid mellem to HD-sessioner?",
+"a": "Kroppens nitrogenoverskud, proportionalt med PCR",
+"w": [
+"Alene restnyrefunktionen mellem dialyserne",
+"Alene dialysedosis i den forudgående HD"
+],
+"p": 115,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stigningen afspejler sammen med udskillelse via urin og dialyse nitrogenoverskuddet, som er proportionalt med PCR."
+},
+{
+"id": "10:9",
+"q": "Hvordan hænger p-karbamid og overlevelse sammen hos dialysepatienter?",
+"a": "U-formet sammenhæng",
+"w": [
+"Lineær sammenhæng",
+"Ingen sammenhæng"
+],
+"p": 116,
+"lvl": "U",
+"type": "fakta",
+"why": "Både høj og lav p-karbamid er forbundet med kortere levetid."
+},
+{
+"id": "10:10",
+"q": "Hvorfor kan p-karbamid ikke bruges til at dosere dialyse?",
+"a": "Den afhænger også af proteinindtag (PCR)",
+"w": [
+"Den afhænger også af blodtrykket under HD",
+"Den er for dyr at måle i klinikken"
+],
+"p": 116,
+"lvl": "K",
+"type": "forståelse",
+"why": "Samme p-karbamid kan ses ved høj og lav dosis, afhængigt af PCR. Kun ved konstant PCR kan p-karbamid afspejle dosis."
+},
+{
+"id": "10:11",
+"q": "Hvad ud fra karbamid korrelerer entydigt med overlevelse ved HD?",
+"a": "Dosis målt som karbamidclearance",
+"w": [
+"P-karbamid målt før hver dialyse",
+"Blodtryk målt efter hver dialyse"
+],
+"p": 116,
+"lvl": "K",
+"type": "fakta",
+"why": "HD-dosis målt som karbamidclearance er grundlag for dosisangivelse i guidelines, mens p-karbamid alene ikke kan bruges."
+},
+{
+"id": "10:12",
+"q": "Hvilke blodprøver bruges til at finde filterclearance ved blodsidemetoden?",
+"a": "Før og efter filteret",
+"w": [
+"Før og efter dialysen",
+"Fra arterie og vene på armen"
+],
+"p": 116,
+"lvl": "U",
+"type": "fakta",
+"why": "Prøverne (A før filteret og V efter) tages midtvejs, og clearance beregnes ud fra forskellen og blodflowet."
+},
+{
+"id": "10:13",
+"q": "Hvornår tages blodprøverne ved blodsidemetoden?",
+"a": "Midtvejs i HD-sessionen",
+"w": [
+"Ved start",
+"Ved slut"
+],
+"p": 116,
+"lvl": "U",
+"type": "forståelse",
+"why": "Filteret kan være lidt mere effektivt i starten end i slutningen, så midtvejs er mere repræsentativt."
+},
+{
+"id": "10:14",
+"q": "Hvilket stof ændres kortvarigt i dialysevæsken ved konduktansmetoden?",
+"a": "Natrium",
+"w": [
+"Kalium",
+"Bikarbonat"
+],
+"p": 116,
+"lvl": "U",
+"type": "forståelse",
+"why": "Natrium passerer frit over filteret ligesom karbamid, så maskinens ændring i natrium over filteret kan bruges til at beregne clearance."
+},
+{
+"id": "10:16",
+"q": "Hvad udtrykker Kt/V?",
+"a": "Clearance gange tid i forhold til fordelingsvolumen",
+"w": [
+"Karbamidkoncentration efter dialysen i forhold til før",
+"Blodflow gange dialysetid i forhold til vægt"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "K er karbamidclearance, t dialysetid og V fordelingsvolumen. Kt/V angives uden enhed og er standardmål for dialysedosis."
+},
+{
+"id": "10:17",
+"q": "Hvad svarer V i Kt/V oftest til?",
+"a": "Kroppens vandvolumen",
+"w": [
+"Dialysatets samlede volumen",
+"Det cirkulerende blodvolumen"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "V er karbamids fordelingsvolumen, som er tæt på kroppens vandvolumen (ca. 60 % af kropsvægten)."
+},
+{
+"id": "10:18",
+"q": "Hvad måler URR (urea reduction ratio)?",
+"a": "Fraktionelt fald i karbamid under en HD",
+"w": [
+"Stigning i p-karbamid mellem to HD-sessioner",
+"Mængden af urin udskilt pr. døgn"
+],
+"p": 117,
+"lvl": "K",
+"type": "fakta",
+"why": "URR = (C0-C1)/C0 og beskriver kun én enkelt HD-dosis hos samme person under ellers ens forhold."
+},
+{
+"id": "10:20",
+"q": "Hvordan falder karbamidkoncentrationen under dialyse?",
+"a": "Eksponentielt",
+"w": [
+"Lineært",
+"Konstant"
+],
+"p": 117,
+"lvl": "K",
+"type": "forståelse",
+"why": "Renset blod fyldes tilbage i kroppen, så koncentrationen reduceres med en konstant procent pr. tid og når aldrig nul."
+},
+{
+"id": "10:22",
+"q": "Hvorfor er den simple URR-baserede Kt/V upræcis?",
+"a": "Ignorerer ændringer i V, UF, karbamiddannelse og Kr",
+"w": [
+"Den bruger en forkert enhed for tid",
+"Den kræver altid dialysekateter"
+],
+"p": 118,
+"lvl": "K",
+"type": "forståelse",
+"why": "UF og urinclearance kan have stor indflydelse på den samlede Kt/V, hvilket UKM tager højde for."
+},
+{
+"id": "10:23",
+"q": "Hvad er urea kinetic modeling (UKM)?",
+"a": "Matematisk beregning af karbamidens dynamik",
+"w": [
+"Én enkelt blodprøve taget efter dialysen",
+"Måling af urinvolumen over et døgn"
+],
+"p": 118,
+"lvl": "K",
+"type": "fakta",
+"why": "UKM tager højde for ukendt generering (G), varierende V, UF og egen nyrefunktion (Kr)."
+},
+{
+"id": "10:24",
+"q": "Hvor stor en del af kropsvægten udgør karbamids fordelingsvolumen cirka?",
+"a": "60 %",
+"w": [
+"20 %",
+"90 %"
+],
+"p": 118,
+"lvl": "U",
+"type": "fakta",
+"why": "Fordelingsvolumen er tæt på kroppens vandvolumen, men varierer med væskeindtag, UF og diurese."
+},
+{
+"id": "10:25",
+"q": "Hvilke tre p-karbamid-målinger indgår i UKM?",
+"a": "Start-HD, slut-HD og start næste HD",
+"w": [
+"Kun start og slut af den samme HD",
+"Daglige prøver gennem en hel måned"
+],
+"p": 118,
+"lvl": "U",
+"type": "fakta",
+"why": "C0, C1 og C2 måles midt i ugen og bruges til at estimere G og V."
+},
+{
+"id": "10:27",
+"q": "Hvad er fordelen ved UKM frem for simple formler?",
+"a": "Kt/V er uafhængig af kropsstatur",
+"w": [
+"Kræver kun én blodprøve",
+"Kan ikke bruges med restnyrefunktion"
+],
+"p": 119,
+"lvl": "U",
+"type": "forståelse",
+"why": "UKM tilpasser V, så Kt/V måles uanset muskelmasse, ernæringsstatus, køn, amputationer og alder."
+},
+{
+"id": "10:28",
+"q": "Hvilken simplere Kt/V-formel fra 1993 sammenlignes med UKM?",
+"a": "Daugirdas' formel",
+"w": [
+"Watsons formel",
+"Tattersall-formlen"
+],
+"p": 119,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:29",
+"q": "Hvorfor stiger p-karbamid de første 2 minutter efter HD?",
+"a": "Recirkulation af renset og urenset blod",
+"w": [
+"Karbamid frigives hurtigt fra musklerne",
+"Dialysatet lækker tilbage i blodbanen"
+],
+"p": 119,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kardiopulmonal recirkulation blander renset og urenset blod, derefter følger rebound i op til 30 minutter."
+},
+{
+"id": "10:30",
+"q": "Hvor længe stiger p-karbamid gradvist efter HD (rebound)?",
+"a": "30 minutter",
+"w": [
+"2 timer",
+"6 timer"
+],
+"p": 119,
+"lvl": "U",
+"type": "fakta",
+"why": "Systemisk udjævning mellem kropsdele får p-karbamid til at stige de første ca. 30 minutter."
+},
+{
+"id": "10:31",
+"q": "Hvilken karbamidprøve påvirker Kt/V mest: start- eller slutprøven?",
+"a": "Slutprøven",
+"w": [
+"Startprøven",
+"Begge lige meget"
+],
+"p": 119,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kt/V er meget følsom over for slutprøven, men mindre følsom over for startprøven. Derfor skal slutprøven tages korrekt."
+},
+{
+"id": "10:32",
+"q": "En startprøve er fortyndet med NaCl. Hvordan påvirkes den beregnede Kt/V?",
+"a": "Den bliver for lav",
+"w": [
+"Den bliver for høj",
+"Den ændres ikke"
+],
+"p": 119,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fortyndet startprøve eller for sen slutprøve giver lavere Kt/V og beskytter dermed mod ordination af for lav HD-dosis."
+},
+{
+"id": "10:33",
+"q": "Hvornår tages slutprøven til spKt/V?",
+"a": "2-5 min. efter HD",
+"w": [
+"Lige før starten af HD",
+"2 timer efter HD"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Single-pool Kt/V bruger slutprøve 2-5 minutter efter HD, mens eKt/V bruger prøve efter 30 minutter."
+},
+{
+"id": "10:34",
+"q": "Hvornår tages slutprøven til ækvilibreret Kt/V (eKt/V)?",
+"a": "30 min. efter HD",
+"w": [
+"2 min. efter HD",
+"Før start af HD"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter 30 minutter er karbamid ækvilibreret mellem kropsdele, og eKt/V afspejler det teoretisk ideelle."
+},
+{
+"id": "10:36",
+"q": "Hvilket tal bruges i Tattersall-formlen i stedet for 35 ved dialyse via kateter?",
+"a": "22",
+"w": [
+"10",
+"60"
+],
+"p": 119,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:37",
+"q": "Hvor meget lavere er eKt/V end spKt/V for praktiske formål?",
+"a": "10-15 %",
+"w": [
+"1-2 %",
+"30-40 %"
+],
+"p": 119,
+"lvl": "K",
+"type": "fakta",
+"why": "Rebound gør, at ækvilibreret Kt/V er lavere end single-pool Kt/V."
+},
+{
+"id": "10:38",
+"q": "Hvilken metode bruger online Kt/V på dialysemaskinen?",
+"a": "Konduktansmetoden",
+"w": [
+"Blodsidemetoden",
+"Dialysatopsamling"
+],
+"p": 119,
+"lvl": "U",
+"type": "fakta",
+"why": "Maskinen måler K med konduktans og beregner Kt/V; V indtastes eller estimeres med Watsons formel."
+},
+{
+"id": "10:n0",
+"q": "Hvorfor skal online Kt/V tages med forbehold?",
+"a": "V bygger på et befolkningsgennemsnit",
+"w": [
+"Prøven tages for tidligt",
+"Restnyrefunktion er medregnet dobbelt"
+],
+"p": 120,
+"lvl": "U",
+"type": "forståelse",
+"why": "Online Kt/V medregner ikke restnyrefunktion og bruger et skønnet V, men kan følge samme patient over tid."
+},
+{
+"id": "10:39",
+"q": "Hvad er stdKt/V?",
+"a": "Ækvivalent ugentlig Kt/V",
+"w": [
+"Kt/V efter 30 minutter",
+"Kt/V ved én enkelt session"
+],
+"p": 120,
+"lvl": "K",
+"type": "fakta",
+"why": "stdKt/V gør det muligt at sammenligne ugentlig dosis ved forskellig frekvens, med restnyrefunktion eller ved PD."
+},
+{
+"id": "10:n1",
+"q": "Hvorfor må man ikke blot gange spKt/V med antal sessioner ved HD × 2 eller × 4?",
+"a": "Det overestimerer dialysernes bidrag",
+"w": [
+"Det underestimerer dialysernes bidrag",
+"Kt/V kan ikke måles ved afvigende frekvens"
+],
+"p": 120,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nettofjernelsen aftager med faldende koncentration under dialysen, og start-p-karbamid afhænger af frekvensen. Derfor bruges stdKt/V."
+},
+{
+"id": "10:40",
+"q": "Hvilken ugentlig dosis svarer spKt/V 1,2 × 3 pr. uge til?",
+"a": "stdKt/V = 2",
+"w": [
+"stdKt/V = 1",
+"stdKt/V = 4"
+],
+"p": 120,
+"lvl": "K",
+"type": "fakta",
+"why": "Sammenhængen mellem session-spKt/V og stdKt/V kan ikke regnes simpelt og udledes ved computer."
+},
+{
+"id": "10:n2",
+"q": "Hvor mange HD-sessioner pr. uge kræver en anurisk patient mindst?",
+"a": "3",
+"w": [
+"2",
+"1"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Anuriske patienter kræver altid minimum 3 ugentlige behandlinger, og stdKt/V 2 kan ikke nås med 2 sessioner."
+},
+{
+"id": "10:42",
+"q": "Hvordan får man større ugentlig dosis ved samme samlede dialysetid?",
+"a": "Ved at fordele tiden på flere sessioner",
+"w": [
+"Ved at samle tiden i færre sessioner",
+"Ved at sænke blodflowet og dialysatflowet"
+],
+"p": 121,
+"lvl": "U",
+"type": "forståelse",
+"why": "Fordeling af den samme samlede dialysetid på flere sessioner pr. uge giver større ugentlig dosis (stdKt/V), jf. figur 10.10."
+},
+{
+"id": "10:43",
+"q": "Hvordan hænger restnyrefunktion og overlevelse sammen i registerstudier?",
+"a": "Bedre restfunktion, bedre overlevelse",
+"w": [
+"Ingen sammenhæng",
+"Bedre restfunktion, dårligere overlevelse"
+],
+"p": 121,
+"lvl": "K",
+"type": "fakta",
+"why": "Overlevelsen er bedre med restnyrefunktion, og den anses derfor som bevaringsværdig, mens dialysen er et supplement."
+},
+{
+"id": "10:n3",
+"q": "Hvorfor anses restnyrefunktion som vigtig for dialysepatienter?",
+"a": "Fjerner ikke-dialyserbare stoffer",
+"w": [
+"Den gør dialysen unødvendig",
+"Den hæver p-karbamid"
+],
+"p": 121,
+"lvl": "K",
+"type": "forståelse",
+"why": "Renal clearance sker mest ved filtration og er mindre afhængig af molekylestørrelse. Ofte følger bedre hydreringskontrol og mindre behov for UF."
+},
+{
+"id": "10:44",
+"q": "Hvor stor en del af summen af dialyse- og nyrefunktion kan en Kr på 3 ml/min. udgøre?",
+"a": "Cirka 20 %",
+"w": [
+"Cirka 2 %",
+"Cirka 60 %"
+],
+"p": 121,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:45",
+"q": "Hvad opsamles mellem to dialyser for at måle restnyrens karbamidclearance?",
+"a": "Urin",
+"w": [
+"Dialysat",
+"Ultrafiltrat"
+],
+"p": 121,
+"lvl": "U",
+"type": "fakta",
+"why": "Kr beregnes ud fra urinens karbamidudskillelse og middel p-karbamid i opsamlingsperioden."
+},
+{
+"id": "10:46",
+"q": "Hvilken spKt/V bør man sigte mod ved HD × 3/uge ifølge KDOQI 2015?",
+"a": "1,4",
+"w": [
+"0,8",
+"2,0"
+],
+"p": 122,
+"lvl": "K",
+"type": "fakta",
+"why": "Målet 1,4 sikrer, at minimum 1,2 faktisk leveres, når målingen er usikker, eller sessioner springes over."
+},
+{
+"id": "10:n4",
+"q": "Hvilken minimum leveret spKt/V skal sikres ved HD × 3/uge?",
+"a": "1,2",
+"w": [
+"0,6",
+"2,4"
+],
+"p": 122,
+"lvl": "K",
+"type": "fakta",
+"why": "Minimum er spKt/V 1,2 × 3 pr. uge inklusive restnyrefunktion, og dialysetiden bør være mindst 3½ time."
+},
+{
+"id": "10:47",
+"q": "Hvorfor sigtes der mod højere spKt/V end minimum?",
+"a": "Målefejl og oversprungne sessioner",
+"w": [
+"Dialyse er billigere ved høj dosis",
+"Dosis falder ved højere blodflow"
+],
+"p": 122,
+"lvl": "K",
+"type": "forståelse",
+"why": "Målet fungerer som sikkerhedsmargin mod usikkerhed og afbrudte sessioner."
+},
+{
+"id": "10:48",
+"q": "Hvilken minimum dialysetid anbefales pr. HD-session uanset Kt/V?",
+"a": "3½ time",
+"w": [
+"2 timer",
+"5 timer"
+],
+"p": 122,
+"lvl": "K",
+"type": "fakta",
+"why": "Længere HD (> 3½ time) er knyttet til lavere morbiditet og mortalitet samt bedre BT og lavere fosfat."
+},
+{
+"id": "10:50",
+"q": "Hvad er HD over 3½ time pr. session forbundet med?",
+"a": "Lavere morbiditet og mortalitet",
+"w": [
+"Højere fosfatniveau i blodet efter HD",
+"Dårligere blodtryksregulering over tid"
+],
+"p": 122,
+"lvl": "U",
+"type": "fakta",
+"why": "Registerdata viser desuden bedre blodtrykskontrol og lavere fosfat."
+},
+{
+"id": "10:51",
+"q": "Hvilken ændring øger HD-dosis (Kt/V)?",
+"a": "Længere dialysetid",
+"w": [
+"Lavere blodflow i kredsløbet",
+"Større fordelingsvolumen"
+],
+"p": 122,
+"lvl": "K",
+"type": "fakta",
+"why": "Kt/V øges ved højere K, længere tid, lavere V og hyppigere dialyse."
+},
+{
+"id": "10:n5",
+"q": "En HD-patient har lav Kt/V og velfungerende adgang. Hvad kan øge clearance?",
+"a": "Højere blodflow",
+"w": [
+"Mindre filter",
+"Lavere dialysatflow"
+],
+"p": 122,
+"lvl": "K",
+"type": "anvendelse",
+"why": "K øges ved større blodflow, hvis filter, adgang og nåle kan klare det. Lavere blodflow og mindre filter sænker K."
+},
+{
+"id": "10:52",
+"q": "Hvad sker der med K, når dialysatflowet øges over 500 ml/min.?",
+"a": "Næsten ingen ændring",
+"w": [
+"K fordobles næsten",
+"K halveres næsten"
+],
+"p": 122,
+"lvl": "U",
+"type": "fakta",
+"why": "Øget dialysatflow over 500 ml/min. ændrer ikke væsentligt på K."
+},
+{
+"id": "10:n6",
+"q": "Hvad sker der med Kt/V, hvis V falder, fx ved afmagring eller amputation?",
+"a": "Den stiger",
+"w": [
+"Den falder",
+"Den ændres ikke"
+],
+"p": 122,
+"lvl": "U",
+"type": "forståelse",
+"why": "Lavere kropsvolumen giver højere Kt/V ved samme K og t."
+},
+{
+"id": "10:55",
+"q": "Hvad er fundet mindsket ved kort daglig dialyse (< 4 timer, × 6/uge)?",
+"a": "Kardiel hypertrofi",
+"w": [
+"Risiko for tab af restnyrefunktion",
+"Adgangsproblemer"
+],
+"p": 123,
+"lvl": "U",
+"type": "fakta",
+"why": "Intensiverede regimer er desuden forbundet med bedre BT og fosfat, men øget risiko for tab af restnyrefunktion og adgangsproblemer."
+},
+{
+"id": "10:n7",
+"q": "Hvilken risiko er øget ved intensiverede HD-regimer?",
+"a": "Tab af restnyrefunktion",
+"w": [
+"Højere fosfatniveau i blodet",
+"Højere blodtryk mellem dialyser"
+],
+"p": 123,
+"lvl": "U",
+"type": "fakta",
+"why": "BT og fosfat forbedres, men restnyrefunktionen kan gå tabt hurtigere, og adgangsproblemer ses oftere."
+},
+{
+"id": "10:n8",
+"q": "Hvilken tilstand kan især have gavn af intensiveret dialyse?",
+"a": "Behandlingsresistent hypertension",
+"w": [
+"Anæmi hos dialysepatienter",
+"Nedsat livskvalitet og psykisk trivsel"
+],
+"p": 123,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Intensiverede regimer kan hjælpe ved stort UF-behov, resistent hypertension og højt fosfat, men har ikke vist klar effekt på anæmi eller livskvalitet."
+},
+{
+"id": "10:56",
+"q": "Hvilket konvektionsvolumen er målet ved HDF?",
+"a": "Over 23 liter pr. session",
+"w": [
+"Over 8 liter pr. session",
+"Over 50 liter pr. session"
+],
+"p": 123,
+"lvl": "K",
+"type": "fakta",
+"why": "Målet gælder × 3/uge, mens Kt/V-målet er som ved HD."
+},
+{
+"id": "10:57",
+"q": "Hvilken mængde erstatningsvæske pr. session skal de fleste bruge ved HDF-prædilution for at nå konvektionsmålet?",
+"a": "Mere end 40 liter",
+"w": [
+"Under 10 liter",
+"Ca. 20 liter"
+],
+"p": 123,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved prædilution kan de fleste nå konvektionsmålet (> 23 liter/session) med en erstatningsvæskevolumen på > 40 liter/session."
+},
+{
+"id": "10:n9",
+"q": "Hvorfor undgås hæmokoncentration ved HDF-prædilution?",
+"a": "Blodet fortyndes før filteret",
+"w": [
+"Blodet fortyndes efter filteret",
+"Dialysatflowet er højere"
+],
+"p": 123,
+"lvl": "U",
+"type": "forståelse",
+"why": "Hæmatokrit stiger kun til niveauet i det arterielle blod, men der kræves et betydeligt større substitutionsvolumen."
+},
+{
+"id": "10:n10",
+"q": "En patient har begrænset blodflow og kort dialysetid. Hvilken HDF-form kan nå konvektionsmålet?",
+"a": "HDF med prædilution",
+"w": [
+"HDF med postdilution",
+"Standard HD"
+],
+"p": 123,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved begrænset blodflow og tid kan målet på 23 liter nås med prædilution, men ikke med postdilution."
+},
+{
+"id": "10:59",
+"q": "Hvorfor har de fleste dialysepatienter med normal kost brug for fosfatbindere?",
+"a": "Dialysen fjerner ikke al fosfat",
+"w": [
+"Fosfat dannes i dialysatet",
+"Dialyse øger fosfatoptagelsen"
+],
+"p": 124,
+"lvl": "K",
+"type": "forståelse",
+"why": "En standarddialyse × 3/uge fjerner mindre fosfat, end kosten tilfører. Hyppigere og længere dialyse kan mindske behovet for bindere."
+},
+{
+"id": "10:62",
+"q": "Hvor meget falder p-K cirka i løbet af 30-60 minutters dialyse ved dialysat-K på 2 mmol/l?",
+"a": "Cirka 1 mmol/l",
+"w": [
+"Cirka 0,1 mmol/l",
+"Cirka 4 mmol/l"
+],
+"p": 124,
+"lvl": "U",
+"type": "fakta",
+"why": "Kalium fjernes effektivt ved dialyse."
+},
+{
+"id": "10:63",
+"q": "Hvor meget kalium fjerner en standarddialyse cirka?",
+"a": "80-100 mmol",
+"w": [
+"10-20 mmol",
+"200-300 mmol"
+],
+"p": 124,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:n11",
+"q": "En dialysepatient har kraftig diarré og tab af kalium. Hvad kan man justere?",
+"a": "Højere kalium i dialysatet",
+"w": [
+"Lavere natrium i dialysatet",
+"Kortere dialysetid"
+],
+"p": 124,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved kaliumtab via diarré eller enterostomi kan dialysatets K-koncentration hæves til 3-4 mmol/l."
+},
+{
+"id": "10:64",
+"q": "Hvor stor er peritoneal clearance af kreatinin oftest?",
+"a": "Under 6 ml/min.",
+"w": [
+"Cirka 30 ml/min.",
+"Cirka 100 ml/min."
+],
+"p": 124,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:65",
+"q": "Hvorfor er PD-patienter mere afhængige af restnyrefunktion end HD-patienter?",
+"a": "Peritoneal clearance er lav",
+"w": [
+"PD fjerner ikke karbamid",
+"PD varer få timer pr. dag"
+],
+"p": 124,
+"lvl": "K",
+"type": "forståelse",
+"why": "Peritoneal clearance af kreatinin er lav, oftest under 6 ml/min., så PD-patienter er mere afhængige af restnyrefunktion for tilstrækkelig clearance og UF."
+},
+{
+"id": "10:66",
+"q": "Hvornår kan dialysedosis ved PD først bestemmes?",
+"a": "Når PD er stabilt etableret",
+"w": [
+"Under den allerførste uge",
+"Efter mere end et års PD"
+],
+"p": 124,
+"lvl": "K",
+"type": "forståelse",
+"why": "Beregning kræver steady state: nogle uger efter start og med stabilt p-karbamid."
+},
+{
+"id": "10:67",
+"q": "Hvad opsamles til at beregne fjernet karbamid ved PD?",
+"a": "Døgnurin og brugt dialysat",
+"w": [
+"Kun døgnurin uden dialysat",
+"Kun brugt dialysat uden urin"
+],
+"p": 124,
+"lvl": "K",
+"type": "fakta",
+"why": "Fjernet karbamid = D-karbamid + U-karbamid, og clearance = fjernet mængde divideret med p-karbamid."
+},
+{
+"id": "10:69",
+"q": "Hvorfor er kreatininclearance også et mål ved PD?",
+"a": "Kreatinin fjernes langsommere end karbamid",
+"w": [
+"Kreatinin er giftigere end karbamid",
+"Karbamid kan ikke måles ved PD"
+],
+"p": 125,
+"lvl": "K",
+"type": "forståelse",
+"why": "Karbamid fjernes hurtigere ved diffusion, så ved lav transporthastighed kan underdialysering ses lettere på kreatinin."
+},
+{
+"id": "10:70",
+"q": "Hvilken total Kt/V karbamid har guidelines hidtil anbefalet ved PD?",
+"a": "Over 1,7 pr. uge",
+"w": [
+"Over 0,7 pr. uge",
+"Over 3,5 pr. uge"
+],
+"p": 125,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er dog ingen positiv effekt på mortalitet ved at øge total Kt/V over 1,7/uge."
+},
+{
+"id": "10:71",
+"q": "Hvilken total kreatininclearance har guidelines hidtil anbefalet ved PD?",
+"a": "Over 45 liter pr. uge",
+"w": [
+"Over 15 liter pr. uge",
+"Over 90 liter pr. uge"
+],
+"p": 125,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "10:73",
+"q": "Hvad er mortalitet og morbiditet ved PD kritisk afhængig af?",
+"a": "Renal Kt/V (restnyrefunktion)",
+"w": [
+"Peritoneal Kt/V alene",
+"Antal vekslinger pr. døgn"
+],
+"p": 125,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er ingen sikker sammenhæng mellem peritoneal Kt/V og overlevelse, så restnyrefunktionen skal bevares bedst muligt."
+},
+{
+"id": "10:n12",
+"q": "En PD-patient har lav Kt/V. Hvad bør beslutningen om skift til HD bygge på?",
+"a": "Samlet klinisk vurdering",
+"w": [
+"Kun den målte Kt/V",
+"Kun kreatininclearancen"
+],
+"p": 125,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Beslutningen bør vurdere livskvalitet, uræmiske symptomer, væskebalance, BT og ernæring og ikke alene Kt/V."
+},
+{
+"id": "10:74",
+"q": "Hvad fokuseres der mere på i nyere anbefalinger om adækvat dialyse?",
+"a": "Livskvalitet og fravær af symptomer",
+"w": [
+"Højere Kt/V for små molekyler hos alle",
+"Hyppigere måling af kreatinin og urea"
+],
+"p": 125,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fokus er flyttet fra clearance af små molekyler til symptomer, restnyrefunktion, væskebalance, BT og ernæring."
+},
+{
+"id": "10:n13",
+"q": "Hvordan ændres dialysen typisk hos en gravid patient i dialyse?",
+"a": "Højere dosis med 6-7 sessioner pr. uge",
+"w": [
+"Uændret med 3 sessioner pr. uge",
+"Færre og længere sessioner, kun 2 pr. uge"
+],
+"p": 126,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Gravide behandles med HD mindst 20-36 timer/uge fordelt på 6-7 sessioner, og højeste dosis ved anuri."
+},
+{
+"id": "10:n14",
+"q": "Hvad er højere dialysedosis hos gravide forbundet med?",
+"a": "Højere fødselsvægt og færre fostertab",
+"w": [
+"Mere præmaturitet og lavere fødselsvægt",
+"Flere fostertab og mere præmaturitet"
+],
+"p": 126,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højere dosis korrelerer med højere fødselsvægt, mindre præmaturitet og færre fostertab, men erfaringsgrundlaget er svagt."
+}
+]

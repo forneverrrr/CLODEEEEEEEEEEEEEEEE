@@ -1,0 +1,1131 @@
+[
+{
+"id": "19:0",
+"q": "Hvilken særlig viden er vigtig om en dialysepatients lægemidler?",
+"a": "Om lægemidlet fjernes ved dialyse",
+"w": [
+"Om lægemidlet er receptpligtigt",
+"Om lægemidlet findes som tablet"
+],
+"p": 197,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialyse kan fjerne lægemidler, så man skal vide, om et stof uddialyseres, for at kunne dosere rigtigt (evt. ekstra dosis efter HD)."
+},
+{
+"id": "19:1",
+"q": "Hvilke lægemidler skal oftest gives i mindre dosis ved nedsat nyrefunktion?",
+"a": "Renalt udskilte, også via metabolitter",
+"w": [
+"Lægemidler udskilt via leveren",
+"Alle antibiotika uden undtagelse"
+],
+"p": 197,
+"lvl": "K",
+"type": "forståelse",
+"why": "Renalt udskilte stoffer og stoffer med renalt udskilte aktive metabolitter ophobes ved nedsat GFR. Mindre dosis giver samme blodkoncentration som hos nyreraske."
+},
+{
+"id": "19:4",
+"q": "Hvor optages peroral medicin hovedsageligt?",
+"a": "I tyndtarmen",
+"w": [
+"I mavesækken",
+"I tyktarmen"
+],
+"p": 197,
+"lvl": "U",
+"type": "fakta",
+"why": "Tyndtarmens mucosa er hovedabsorptionsstedet for peroralt indgivet medicin."
+},
+{
+"id": "19:5",
+"q": "Hvad er førstepassagemetabolisme?",
+"a": "Leveren fjerner en del før kredsløbet",
+"w": [
+"Nyrerne filtrerer en del fra",
+"Mavesækken nedbryder en del først"
+],
+"p": 197,
+"lvl": "K",
+"type": "forståelse",
+"why": "Peroral medicin optages til portalkredsløbet og passerer leveren, før den når det systemiske kredsløb. Det påvirker biotilgængeligheden."
+},
+{
+"id": "19:6",
+"q": "Hvad er biotilgængelighed (F)?",
+"a": "Andel der når det systemiske kredsløb",
+"w": [
+"Andelen udskilt i urinen",
+"Andelen bundet til albumin"
+],
+"p": 197,
+"lvl": "K",
+"type": "fakta",
+"why": "F er den andel af lægemidlet, der når det systemiske kredsløb efter peroral indgift sammenlignet med i.v."
+},
+{
+"id": "19:7",
+"q": "Hvilken værdi har biotilgængeligheden (F) ved intravenøs indgift?",
+"a": "1 (hele dosis)",
+"w": [
+"0,5",
+"0"
+],
+"p": 200,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved i.v. indgift er F = 1. Formlen Cl = F × dosis / AUC gælder også for i.v.-administration, idet F her er 1."
+},
+{
+"id": "19:8",
+"q": "Hvilke administrationsveje går uden om leveren ved første passage?",
+"a": "Sublingual eller rektal",
+"w": [
+"Peroral",
+"Gastrisk og duodenal"
+],
+"p": 198,
+"lvl": "U",
+"type": "fakta",
+"why": "Sublingual og rektal indgift når det systemiske kredsløb uden om leveren, så førstepassagemetabolisme undgås."
+},
+{
+"id": "19:9",
+"q": "Hvilken egenskab har størst betydning for et lægemiddels skæbne i kroppen?",
+"a": "Lipidopløselighed",
+"w": [
+"Proteinbinding i plasma",
+"Molekylstørrelse"
+],
+"p": 198,
+"lvl": "U",
+"type": "fakta",
+"why": "Passiv diffusion gennem lipidmembraner er vigtigste transportmekanisme, og lipidopløselighed er den enkeltparameter, der betyder mest."
+},
+{
+"id": "19:10",
+"q": "Hvad gælder for polære (vandopløselige) lægemidler?",
+"a": "Dårlig membranpassage, men let udskilt",
+"w": [
+"God absorption, men dårlig udskillelse",
+"Udskilles kun via leveren"
+],
+"p": 198,
+"lvl": "K",
+"type": "forståelse",
+"why": "Polære stoffer passerer cellemembraner dårligt (nedsat absorption), men udskilles lettere med urinen. Apolære (fedtopløselige) stoffer forholder sig omvendt."
+},
+{
+"id": "19:11",
+"q": "Hvordan påvirker kronisk nyreinsufficiens generelt lægemidlers absorption?",
+"a": "Den nedsættes",
+"w": [
+"Den øges",
+"Den er uændret"
+],
+"p": 198,
+"lvl": "K",
+"type": "fakta",
+"why": "Kronisk nyreinsufficiens nedsætter generelt absorptionen, bl.a. pga. gastrointestinale symptomer, men effekten er svær at forudsige hos den enkelte."
+},
+{
+"id": "19:12",
+"q": "Hvordan ændres mavesækkens pH ved øget ammoniakdannelse i kronisk nyreinsufficiens?",
+"a": "Mere alkalisk",
+"w": [
+"Mere surt",
+"Uændret pH"
+],
+"p": 198,
+"lvl": "K",
+"type": "forståelse",
+"why": "Øget ammoniakdannelse giver et mere alkalisk miljø, hvilket giver langsommere og inkomplet absorption af lægemidler, der opløses bedst i surt miljø."
+},
+{
+"id": "19:13",
+"q": "Hvorfor nedsætter øget pH i ventriklen optagelsen af peroralt jern?",
+"a": "Jern skal hydrolyseres i surt miljø",
+"w": [
+"Jern bindes til albumin i blodet",
+"Jern nedbrydes i leveren"
+],
+"p": 198,
+"lvl": "U",
+"type": "forståelse",
+"why": "Jernsalte skal hydrolyseres i surt miljø, før de kan absorberes. Højere pH nedsætter derfor biotilgængeligheden."
+},
+{
+"id": "19:14",
+"q": "Hvad kan nedsætte absorptionen af jern og digoxin, hvis det tages samtidig?",
+"a": "Calciumholdig fosfatbinder",
+"w": [
+"Loop-diuretikum",
+"Insulin i samme tidsrum"
+],
+"p": 198,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Samtidig indtag af calcium-/magnesiumholdige fosfatbindere nedsætter absorptionen af jernsalte og digoxin, og de kan også kompleksbinde eltroxin."
+},
+{
+"id": "19:15",
+"q": "Hvorfor kan absorptionen være nedsat hos patient med diabetisk nefropati?",
+"a": "Gastroparese forsinker ventrikeltømningen",
+"w": [
+"Øget syreproduktion i ventriklen",
+"Hurtigere ventrikeltømning"
+],
+"p": 198,
+"lvl": "U",
+"type": "forståelse",
+"why": "Diabetisk nefropati kan give gastroparese og dermed forsinket ventrikeltømning, som påvirker absorptionen."
+},
+{
+"id": "19:16",
+"q": "En overhydreret patient har dårlig effekt af peroral furosemid. Hvad er en forklaring?",
+"a": "Ødem i tarmslimhinden",
+"w": [
+"Furosemid bindes til albumin i tarmen",
+"Leveren nedbryder furosemid hurtigere"
+],
+"p": 198,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Universel overhydrering giver ødem i tarmslimhinden og nedsat absorption af furosemid. Derfor kan i.v. administration være en fordel."
+},
+{
+"id": "19:17",
+"q": "Hvad sker der med koncentrationen af en calcineurinhæmmer ved diarré?",
+"a": "Den stiger",
+"w": [
+"Den falder",
+"Den er uændret"
+],
+"p": 198,
+"lvl": "D",
+"type": "forståelse",
+"why": "Diarré mindsker passagetiden i tarmen og dermed CYP-induceret metabolisme i tarmvæggen, så koncentrationen i blodet øges."
+},
+{
+"id": "19:18",
+"q": "Hvad er et lægemiddels fordelingsvolumen (Vd)?",
+"a": "Tilsyneladende volumen ved ligevægt",
+"w": [
+"Det anatomiske blodvolumen",
+"Det daglige urinvolumen"
+],
+"p": 198,
+"lvl": "K",
+"type": "fakta",
+"why": "Vd er ikke et anatomisk volumen, men forholdet mellem indgivet dosis og plasmakoncentration (C0). Det beskriver, hvor udbredt stoffet er i kroppen."
+},
+{
+"id": "19:n0",
+"q": "Hvad tyder et lille Vd (få liter) på?",
+"a": "Stoffet er primært i blodet",
+"w": [
+"Udbredt vævsbinding",
+"Høj lipidopløselighed og vævsaffinitet"
+],
+"p": 199,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lille Vd ses ved vandopløselige stoffer, store molekyler, høj proteinbinding eller lav vævsaffinitet, så meget af stoffet bliver i blodbanen."
+},
+{
+"id": "19:20",
+"q": "Hvad tyder et Vd på flere hundrede liter på?",
+"a": "Udbredt vævsbinding",
+"w": [
+"Stoffet er kun i blodet",
+"Stoffet er kun i ekstracellulærvæsken"
+],
+"p": 199,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stort Vd ses ved høj lipidopløselighed og høj vævsaffinitet, hvor stoffet sidder i vævene og ikke i plasma."
+},
+{
+"id": "19:21",
+"q": "Hvordan påvirker universelle ødemer Vd og plasmakoncentration for vandopløselige lægemidler?",
+"a": "Vd øges, koncentrationen falder",
+"w": [
+"Vd falder, koncentrationen stiger",
+"Ingen ændring"
+],
+"p": 199,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ødem øger det volumen, vandopløselige stoffer fordeles i, så plasmakoncentrationen kan blive uhensigtsmæssigt lav."
+},
+{
+"id": "19:22",
+"q": "En dehydreret patient med lav muskelmasse får et vandopløseligt lægemiddel. Hvad sker der med plasmakoncentrationen?",
+"a": "Den stiger",
+"w": [
+"Den falder",
+"Den er uændret"
+],
+"p": 199,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dehydrering og reduceret muskelmasse nedsætter Vd og øger dermed plasmakoncentrationen. Hyppige vægtmålinger giver et estimat af hydreringstilstand."
+},
+{
+"id": "19:23",
+"q": "Hvad kan ophobede nitrogenholdige affaldsstoffer gøre ved lægemidlers proteinbinding?",
+"a": "Fortrænge lægemidlet fra proteinerne",
+"w": [
+"Øge lægemidlets proteinbinding",
+"Nedbryde albumin i leveren"
+],
+"p": 199,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved tiltagende nyreinsufficiens kan affaldsstoffer fortrænge lægemidlet fra proteiner eller ændre bindingsaffiniteten. Det har kun betydning for stoffer med høj proteinbinding."
+},
+{
+"id": "19:n1",
+"q": "Hvorfor kan dosering efter total plasmakoncentration give forgiftning ved hypoalbuminæmi?",
+"a": "Den ubundne del er næsten uændret",
+"w": [
+"Totalkoncentrationen stiger altid",
+"Albumin nedbryder lægemidlet"
+],
+"p": 200,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved lavt albumin er totalkoncentrationen lavere, men den ubundne fraktion næsten uændret. Forsøger man at nå normalt terapeutisk niveau, kan man overdosere."
+},
+{
+"id": "19:25",
+"q": "Hvorfor skal mætningsdosis af digoxin reduceres ved svær nyreinsufficiens?",
+"a": "Nedsat vævsbinding giver mindre Vd",
+"w": [
+"Digoxin udskilles hurtigere",
+"Digoxin bindes mere til albumin"
+],
+"p": 200,
+"lvl": "K",
+"type": "forståelse",
+"why": "Digoxin har nedsat vævsproteinbinding i muskulatur ved nyreinsufficiens og dermed nedsat Vd, så mætningsdosis reduceres til 50-75 %."
+},
+{
+"id": "19:26",
+"q": "Hvad er et lægemiddels halveringstid (T½)?",
+"a": "Tid til halveret blodkoncentration",
+"w": [
+"Tiden til maksimal effekt",
+"Tiden til fuld absorption"
+],
+"p": 200,
+"lvl": "K",
+"type": "fakta",
+"why": "T½ er tiden det tager at halvere koncentrationen af lægemidlet i blodet."
+},
+{
+"id": "19:n2",
+"q": "Hvordan påvirker et større Vd en lægemiddels halveringstid?",
+"a": "Den forlænges",
+"w": [
+"Den forkortes",
+"Den påvirkes ikke"
+],
+"p": 200,
+"lvl": "U",
+"type": "forståelse",
+"why": "T½ = ln2 × Vd/Cl. Større Vd giver længere T½, større clearance giver kortere T½."
+},
+{
+"id": "19:28",
+"q": "Hvad er clearance (Cl) af et lægemiddel?",
+"a": "Plasmavolumen renset for stof pr. tid",
+"w": [
+"Mængden af lægemiddel i urinen",
+"Koncentrationen i plasma ved tid 0"
+],
+"p": 200,
+"lvl": "K",
+"type": "fakta",
+"why": "Cl forstås som det teoretiske plasmavolumen, der fuldstændigt renses for stoffet pr. tidsenhed. Total clearance er summen af renal, hepatisk og anden clearance."
+},
+{
+"id": "19:29",
+"q": "Hvilken kinetik følger de fleste lægemidler i terapeutiske doser?",
+"a": "1. ordens kinetik",
+"w": [
+"0. ordens kinetik",
+"Mætningskinetik"
+],
+"p": 200,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved 1. ordens kinetik elimineres en konstant procentdel pr. tidsenhed. Enzymsystemerne mættes ikke ved terapeutiske koncentrationer."
+},
+{
+"id": "19:31",
+"q": "Hvornår følger et lægemiddel 0. ordens kinetik (mætningskinetik)?",
+"a": "Ved toksiske doser",
+"w": [
+"Ved terapeutiske doser",
+"Ved nedsat nyrefunktion"
+],
+"p": 200,
+"lvl": "D",
+"type": "forståelse",
+"why": "Ved toksiske doser fjernes den samme mængde pr. tidsenhed, fordi eliminationssystemerne er mættede."
+},
+{
+"id": "19:32",
+"q": "Efter hvor mange halveringstider nås steady state-koncentration?",
+"a": "Cirka fem",
+"w": [
+"Cirka tre",
+"Cirka ti"
+],
+"p": 200,
+"lvl": "K",
+"type": "fakta",
+"why": "Det tager fem halveringstider at nå steady state, hvor indgift svarer til elimination. Ved nyresvigt tager det længere tid for renalt udskilte stoffer."
+},
+{
+"id": "19:n3",
+"q": "Hvorfor forlænges halveringstiden for renalt udskilte lægemidler ved nyresvigt?",
+"a": "Den renale clearance falder",
+"w": [
+"Fordelingsvolumen stiger kraftigt",
+"Proteinbindingen stiger"
+],
+"p": 200,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved nedsat nyrefunktion betyder den ændrede renale clearance mere for T½ end ændringen i Vd. Virkningsvarigheden øges."
+},
+{
+"id": "19:n4",
+"q": "Hvordan kan man hurtigt nå terapeutisk niveau trods forlænget halveringstid?",
+"a": "Giv en mætningsdosis",
+"w": [
+"Fordobl vedligeholdelsesdosis",
+"Forkort doseringsintervallet"
+],
+"p": 200,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Uden mætningsdosis tager det længere tid at nå terapeutisk niveau. Mætningsdosis er som regel den samme som hos nyreraske, undtagen for digoxin."
+},
+{
+"id": "19:34",
+"q": "Hvad sker der ved uændret dosering af renalt udskilt lægemiddel ved nyreinsufficiens?",
+"a": "Højere koncentration, risiko for forgiftning",
+"w": [
+"Lavere koncentration i blodet",
+"Ingen ændring i koncentrationen"
+],
+"p": 201,
+"lvl": "K",
+"type": "forståelse",
+"why": "Css = F × dosis/(τ × Cl). Falder clearance, stiger Css, især farligt ved snævert terapeutisk interval."
+},
+{
+"id": "19:35",
+"q": "Hvilken doseringsmetode bruges oftest ved nedsat nyrefunktion?",
+"a": "Lavere dosis, uændret interval",
+"w": [
+"Uændret dosis, længere interval",
+"Dobbelt dosis, længere interval"
+],
+"p": 201,
+"lvl": "K",
+"type": "fakta",
+"why": "Oftest fastholdes intervallet og dosis sænkes for stabil plasmakoncentration. Alternativt kan dosis fastholdes og intervallet øges."
+},
+{
+"id": "19:36",
+"q": "Hvornår kan det være bedst at fastholde dosis og forlænge intervallet?",
+"a": "Ved visse antibiotika",
+"w": [
+"Ved antiarytmika",
+"Ved alle lægemidler"
+],
+"p": 201,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved visse antibiotika ønskes høje peakkoncentrationer i plasma. Derfor forlænges intervallet i stedet for at sænke dosis."
+},
+{
+"id": "19:37",
+"q": "Hvordan udskilles vandopløselige lægemidler overvejende?",
+"a": "Uomdannet via nyrerne",
+"w": [
+"Efter omdannelse i leveren",
+"Via lungerne"
+],
+"p": 201,
+"lvl": "K",
+"type": "fakta",
+"why": "Vandopløselige stoffer udskilles uomdannet renalt, mens fedtopløselige først omdannes i leveren til vandopløselige metabolitter."
+},
+{
+"id": "19:38",
+"q": "Hvilken del af et lægemiddel filtreres i glomerulus?",
+"a": "Kun den ubundne fraktion",
+"w": [
+"Kun den proteinbundne fraktion",
+"Både bundet og ubundet lige meget"
+],
+"p": 201,
+"lvl": "U",
+"type": "forståelse",
+"why": "Mængden af lægemiddel, der fjernes, afhænger af plasmakoncentration, proteinbinding og GFR; det er kun den ubundne fraktion, som filtreres."
+},
+{
+"id": "19:40",
+"q": "Hvordan øges udskillelsen af salicylat ved salicylatforgiftning?",
+"a": "Alkalinisering af urinen og diurese",
+"w": [
+"Surgøring af urinen",
+"Væskerestriktion og hvile"
+],
+"p": 201,
+"lvl": "U",
+"type": "fakta",
+"why": "Reabsorptionen i tubuli afhænger af urinens pH og urinflow, hvilket udnyttes ved alkalinisering og forceret diurese."
+},
+{
+"id": "19:43",
+"q": "Hvilket enzymsystem katalyserer den vigtigste hepatiske oxidation?",
+"a": "Cytokrom P450",
+"w": [
+"Komplementsystemet",
+"Koagulationssystemet"
+],
+"p": 201,
+"lvl": "D",
+"type": "fakta",
+"why": "Cytokrom P450 er den mest dominerende eliminationsvej i leveren. Interaktioner via CYP3A4 har fx betydning for DOAK."
+},
+{
+"id": "19:44",
+"q": "Hvorfor kan morfin give toksicitet hos nyresyge?",
+"a": "Aktive metabolitter ophobes",
+"w": [
+"Morfin nedbrydes ikke i leveren",
+"Morfin binder sig stærkt til albumin"
+],
+"p": 201,
+"lvl": "K",
+"type": "forståelse",
+"why": "Morfin omdannes til aktive metabolitter (M-3G og M-6G), som normalt udskilles renalt og ophobes ved nedsat nyrefunktion med sløvhed og respirationsinsufficiens."
+},
+{
+"id": "19:45",
+"q": "En diabetiker med faldende nyrefunktion får hypoglykæmi på uændret insulin. Hvorfor?",
+"a": "Insulins halveringstid forlænges",
+"w": [
+"Insulin nedbrydes hurtigere",
+"Insulinbehovet stiger altid"
+],
+"p": 201,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Nyrerne nedbryder insulin i tubulus. Ved nyreinsufficiens forlænges T½, og insulinbehovet falder."
+},
+{
+"id": "19:46",
+"q": "Hvad anbefales for lægemidler med snævert terapeutisk interval, fx digoxin, lithium og vancomycin?",
+"a": "Måling af koncentration i blodet",
+"w": [
+"Fast standarddosis til alle",
+"Dobbelt dosis i starten"
+],
+"p": 203,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved snævert terapeutisk interval er margenen lille mellem for lidt og toksisk, så koncentrationen måles."
+},
+{
+"id": "19:n5",
+"q": "Hvilke lægemidler kræver ikke dosisreduktion trods nedsat nyrefunktion?",
+"a": "Dem med inaktive renale metabolitter",
+"w": [
+"Alle vandopløselige lægemidler",
+"Alle lægemidler givet peroralt"
+],
+"p": 203,
+"lvl": "U",
+"type": "forståelse",
+"why": "Dosisjustering er nødvendig ved renalt udskilte stoffer eller aktive metabolitter. Ved inaktive metabolitter er reduktion ikke nødvendig."
+},
+{
+"id": "19:47",
+"q": "Hvad kan bruges til dosering, hvis eGFR er misvisende?",
+"a": "Kreatinin-clearance",
+"w": [
+"P-kalium",
+"Hæmoglobin og ferritin"
+],
+"p": 203,
+"lvl": "U",
+"type": "fakta",
+"why": "eGFR kan være misvisende; kreatinin-clearance eller isotopclearance (51Cr-EDTA) kan i stedet bruges."
+},
+{
+"id": "19:48",
+"q": "Giver det mening at tale om eGFR hos en patient i dialyse?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 203,
+"lvl": "K",
+"type": "fakta",
+"why": "Kilden: Såfremt patienten er i dialyse, giver det ikke mening at tale om eGFR; i stedet angives dosering for HD, PD og CRRT (tabel 19.2)."
+},
+{
+"id": "19:n6",
+"q": "Hvorfor kan doseringsvejledninger for kronisk nyresvigt ikke bruges direkte ved AKI?",
+"a": "De bygger på stabil nyrefunktion",
+"w": [
+"AKI giver altid normal clearance",
+"AKI påvirker kun leveren"
+],
+"p": 203,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved AKI er mere individuel dosering nødvendig, og medicinlisten skal gennemgås med henblik på seponering af potentielt nefrotoksiske lægemidler."
+},
+{
+"id": "19:n7",
+"q": "En patient udvikler AKI. Hvad bør man gøre ved medicinlisten?",
+"a": "Seponere nefrotoksiske lægemidler",
+"w": [
+"Fordoble alle doser",
+"Kun skifte til peroral medicin"
+],
+"p": 203,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Medicinlisten skal gennemgås omhyggeligt for potentielt nefrotoksiske lægemidler, som bør seponeres."
+},
+{
+"id": "19:n8",
+"q": "Hvad skal mætningsdosis af digoxin ved svær nyreinsufficiens sættes til?",
+"a": "50-75 % af normal",
+"w": [
+"100 % af normal",
+"150 % af normal"
+],
+"p": 203,
+"lvl": "K",
+"type": "fakta",
+"why": "Mætningsdosis er ellers uændret ved nedsat nyrefunktion. Digoxin er undtagelsen pga. nedsat Vd."
+},
+{
+"id": "19:n9",
+"q": "Nyrefunktionen er halveret. Hvordan justeres vedligeholdelsesdosis ved uændret interval?",
+"a": "Dosis halveres",
+"w": [
+"Dosis fordobles",
+"Dosis er uændret"
+],
+"p": 204,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Modificeret dosis = patientens clearance/normal clearance × normal dosis. Uændret interval sikrer stabil plasmakoncentration og compliance."
+},
+{
+"id": "19:52",
+"q": "Nyrefunktionen er halveret, og dosis holdes uændret. Hvad sker der med doseringsintervallet?",
+"a": "Det fordobles",
+"w": [
+"Det halveres",
+"Det er uændret"
+],
+"p": 204,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Modificeret dosisinterval = normalt interval × normal clearance/patientens clearance. Halveret nyrefunktion giver dobbelt interval."
+},
+{
+"id": "19:53",
+"q": "Hvilke egenskaber har lægemidler, der fjernes godt ved dialyse?",
+"a": "Små, vandopløselige, lavt proteinbundne",
+"w": [
+"Store, fedtopløselige, proteinbundne",
+"Store molekyler med stort Vd"
+],
+"p": 204,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialyserbare stoffer er vandopløselige, små, har lav proteinbinding og lille Vd samt udskilles ved glomerulær filtration."
+},
+{
+"id": "19:55",
+"q": "Hvad betyder en sieving coefficient (Si) nær 1 ved hæmofiltration?",
+"a": "Lægemidlet passerer filteret frit",
+"w": [
+"Lægemidlet passerer slet ikke",
+"Lægemidlet binder til filteret"
+],
+"p": 204,
+"lvl": "U",
+"type": "fakta",
+"why": "Si beskriver konvektiv transport over filteret. Nær 1 er fri passage, nær 0 er manglende passage."
+},
+{
+"id": "19:56",
+"q": "Hvilken molekylvægt øger et lægemiddels dialyserbarhed?",
+"a": "Under 500 Da",
+"w": [
+"Over 1000 Da",
+"Over 5000 Da"
+],
+"p": 204,
+"lvl": "U",
+"type": "fakta",
+"why": "Lav molekylvægt (< 500 Da) hører med lav proteinbinding, vandopløselighed, lille Vd og ringe non-renal clearance til de egenskaber, der øger dialyserbarheden."
+},
+{
+"id": "19:57",
+"q": "Hvilken indstilling af dialysen øger lægemiddelelimination?",
+"a": "Lang dialysetid",
+"w": [
+"Lavt blodflow",
+"Lille filteroverflade"
+],
+"p": 204,
+"lvl": "U",
+"type": "forståelse",
+"why": "Stort filter, højt blod- og dialysatflow, høj UF-hastighed og lang dialysetid øger elimination af lægemidler."
+},
+{
+"id": "19:58",
+"q": "Et dialyserbart antibiotikum gives til en HD-patient. Hvornår gives supplerende dosis?",
+"a": "Efter endt dialyse",
+"w": [
+"Før dialysen",
+"Under dialysen"
+],
+"p": 204,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysen fjerner lægemidlet, så der gives en ekstra dosis efter dialysen for at genoprette niveauet."
+},
+{
+"id": "19:59",
+"q": "Hvordan doseres lægemidler, der ikke uddialyseres?",
+"a": "Som ved GFR under 15",
+"w": [
+"Som ved normal nyrefunktion",
+"Med dobbelt dosis"
+],
+"p": 204,
+"lvl": "K",
+"type": "fakta",
+"why": "Medikamenter, der ikke uddialyseres, doseres som ved GFR < 15 ml/min./1,73 m²."
+},
+{
+"id": "19:60",
+"q": "Hvordan er PD til at fjerne vandopløselige lægemidler sammenlignet med HD?",
+"a": "Væsentlig ringere",
+"w": [
+"Bedre end HD",
+"Lige så effektiv som HD"
+],
+"p": 204,
+"lvl": "K",
+"type": "forståelse",
+"why": "De fleste lægemidler fjernes ikke i større grad ved PD, og der doseres som ved GFR < 15. Data for mange lægemidler mangler."
+},
+{
+"id": "19:61",
+"q": "Hvilket analgetikum anbefales fortrinsvis til lette smerter hos nyresyge?",
+"a": "Paracetamol",
+"w": [
+"NSAID",
+"Kodein"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Paracetamol omdannes i leveren til inaktive metabolitter og udskilles renalt, og anbefales til lette smerter."
+},
+{
+"id": "19:62",
+"q": "Hvilket analgetikum anbefales fortrinsvis til moderate smerter hos nyresyge?",
+"a": "Tramadol",
+"w": [
+"Morfin",
+"Petidin"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Tramadol kan bruges under hensyn til nyrefunktionen; ved faldende eGFR stiger T½ af den aktive metabolit, så dosis reduceres."
+},
+{
+"id": "19:63",
+"q": "Hvilket opioid kan bruges til stærke smerter hos nyresyge?",
+"a": "Metadon",
+"w": [
+"Morfin",
+"Petidin"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Oxycodon, metadon, fentanyl og buprenorphin kan bruges til stærke smerter hos nyresyge. Morfin og petidin bør undgås."
+},
+{
+"id": "19:64",
+"q": "Hvilket opioid bør undgås ved moderat til svært nedsat nyrefunktion?",
+"a": "Morfin",
+"w": [
+"Oxycodon",
+"Metadon"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Den aktive metabolit M-6G akkumuleres og giver sløvhed og respirationsinsufficiens. Oxycodon i reduceret dosis og metadon kan anbefales."
+},
+{
+"id": "19:65",
+"q": "Hvorfor bør petidin undgås ved nyresvigt?",
+"a": "Norpetidin ophobes",
+"w": [
+"Det omdannes til morfin",
+"Det er nefrotoksisk"
+],
+"p": 205,
+"lvl": "K",
+"type": "forståelse",
+"why": "Petidin giver risiko for akkumulering af norpetidin. At kodein omdannes til morfin er en anden grund til at undgå kodein."
+},
+{
+"id": "19:66",
+"q": "Hvorfor frarådes kodein til nyresyge?",
+"a": "Det omdannes til morfin",
+"w": [
+"Det er nefrotoksisk",
+"Det har ingen smertestillende effekt"
+],
+"p": 205,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kodein omdannes til morfin, hvis aktive metabolitter ophobes ved nedsat nyrefunktion."
+},
+{
+"id": "19:67",
+"q": "Hvorfor kan metadon anbefales til nyresyge med kroniske smerter?",
+"a": "Metabolitten er inaktiv og ikke renal",
+"w": [
+"Det udskilles kun via nyrerne",
+"Det omdannes til morfin"
+],
+"p": 205,
+"lvl": "U",
+"type": "forståelse",
+"why": "Metadon omdannes til en inaktiv metabolit, som ikke udskilles renalt, så der er ikke risiko for ophobning."
+},
+{
+"id": "19:68",
+"q": "Hvad kan NSAID gøre ved bestående nyreskade?",
+"a": "Forværre den via renal hæmodynamik",
+"w": [
+"Beskytte nyrefunktionen",
+"Øge diuresen markant"
+],
+"p": 205,
+"lvl": "K",
+"type": "forståelse",
+"why": "NSAID kan forværre nyreskade primært pga. ændret renal hæmodynamik og i sjældne tilfælde give interstitiel nefritis."
+},
+{
+"id": "19:n10",
+"q": "En nyresyg patient har urinsyregigt-anfald. Hvordan kan NSAID eventuelt bruges?",
+"a": "Kortvarigt og under kontrol",
+"w": [
+"Langvarigt i lav dosis",
+"Aldrig under nogen omstændigheder"
+],
+"p": 205,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Når både antiinflammatorisk og smertestillende effekt ønskes, kan NSAID bruges kortvarigt og med kontrol af nyrefunktionen."
+},
+{
+"id": "19:69",
+"q": "Kan lavdosis acetylsalicylsyre anvendes langvarigt hos nyresyge?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 205,
+"lvl": "U",
+"type": "fakta",
+"why": "Lavdosis acetylsalicylsyre (hjertemagnyl) kan anvendes langvarigt og menes ikke at give risiko for nyreskade."
+},
+{
+"id": "19:70",
+"q": "Hvordan doseres gabapentin ved neuropatiske smerter hos nyresyge?",
+"a": "Reduceret dosis, forlænget interval",
+"w": [
+"Uændret dosis og interval",
+"Dobbelt dosis"
+],
+"p": 205,
+"lvl": "U",
+"type": "fakta",
+"why": "Gabapentin kan anvendes mod neuropatiske smerter med dosisreduktion og forlænget dosisinterval i forhold til nyrefunktionen."
+},
+{
+"id": "19:71",
+"q": "Hvilke antibiotika kræver monitorering med dalværdier?",
+"a": "Aminoglykosider og vancomycin",
+"w": [
+"Penicilliner",
+"Cefalosporiner"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Mange antibiotika har bredt terapeutisk interval, men aminoglykosider og vancomycin monitoreres med dalværdi for at undgå både under- og overdosering."
+},
+{
+"id": "19:n11",
+"q": "Hvorfor bør i.v. aminoglykosider ikke gives ved let til moderat nyreinsufficiens?",
+"a": "Kan forværre nyrefunktionen",
+"w": [
+"Virker ikke ved nyresvigt",
+"Udskilles kun via leveren"
+],
+"p": 205,
+"lvl": "U",
+"type": "forståelse",
+"why": "Intravenøse aminoglykosider kan forværre nyrefunktionen og undgås ved let til moderat nyreinsufficiens."
+},
+{
+"id": "19:n12",
+"q": "Hvordan gives aminoglykosid og vancomycin ved peritonitis hos PD-patient?",
+"a": "Intraperitonealt",
+"w": [
+"Peroralt",
+"Intramuskulært"
+],
+"p": 205,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved PD-peritonitis anvendes aminoglykosid og vancomycin intraperitonealt."
+},
+{
+"id": "19:72",
+"q": "Hvilket antibiotikum kan give krystalluri og bør undgås ved moderat til svært nedsat nyrefunktion?",
+"a": "Sulfonamider",
+"w": [
+"Penicilliner",
+"Rifampicin"
+],
+"p": 205,
+"lvl": "U",
+"type": "fakta",
+"why": "Sulfonamider kan forårsage krystalluri og bør undgås ved moderat til svær nyrefunktionsnedsættelse."
+},
+{
+"id": "19:73",
+"q": "Hvilken diuretikagruppe er førstevalg ved moderat til svær nyreinsufficiens?",
+"a": "Loop-diuretika",
+"w": [
+"Thiazider",
+"Kaliumbesparende diuretika"
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Loop-diuretika er førstevalg, ofte i høje doser."
+},
+{
+"id": "19:74",
+"q": "Hvorfor kræves høje doser loop-diuretika ved nyreinsufficiens?",
+"a": "Kun lidt når tubuli-lumen",
+"w": [
+"Biotilgængeligheden er nedsat",
+"Stoffet nedbrydes i leveren"
+],
+"p": 205,
+"lvl": "K",
+"type": "forståelse",
+"why": "Biotilgængeligheden er som hos raske, men udskillelsen er nedsat, så kun 10-20 % når den luminale side af tubuli."
+},
+{
+"id": "19:75",
+"q": "Hvor høj en døgndosis furosemid kan være nødvendig ved svær nyreinsufficiens?",
+"a": "Op til 1.000-1.500 mg",
+"w": [
+"Op til 100-150 mg",
+"Op til 10-15 g"
+],
+"p": 205,
+"lvl": "D",
+"type": "fakta",
+"why": "Pga. nedsat udskillelse kan døgndoser på op til 1.000-1.500 mg furosemid være nødvendige."
+},
+{
+"id": "19:76",
+"q": "Ved hvilken eGFR har thiazider ringe effekt?",
+"a": "Under 30 ml/min.",
+"w": [
+"Over 60 ml/min.",
+"Over 90 ml/min."
+],
+"p": 205,
+"lvl": "K",
+"type": "fakta",
+"why": "Thiazider kan bruges ved lettere nyreinsufficiens, men effekten er ringe ved eGFR < 30."
+},
+{
+"id": "19:n13",
+"q": "Hvorfor undgås kaliumbesparende diuretika ved eGFR under 30?",
+"a": "Risiko for hyperkaliæmi",
+"w": [
+"Risiko for hypokaliæmi",
+"Risiko for hyponatriæmi"
+],
+"p": 205,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kaliumbesparende diuretika undgås i reglen ved eGFR < 30 pga. risiko for hyperkaliæmi."
+},
+{
+"id": "19:n14",
+"q": "Hvordan kan det diuretiske respons forbedres, hvis loop-diuretikum ikke er nok?",
+"a": "Kombiner med thiazid eller K-besparende",
+"w": [
+"Stop loop-diuretikum helt",
+"Giv loop-diuretikum sjældnere"
+],
+"p": 206,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Gives et thiazid eller kaliumbesparende diuretikum sammen med et loop-diuretikum, kan responset bedres."
+},
+{
+"id": "19:77",
+"q": "Hvordan doseres calciumkanalblokkere ved nyreinsufficiens?",
+"a": "Sædvanlig dosis",
+"w": [
+"Halv dosis",
+"Kontraindiceret"
+],
+"p": 206,
+"lvl": "U",
+"type": "fakta",
+"why": "Calciumkanalblokkere elimineres primært hepatisk og kan alle anvendes i vanlig dosering."
+},
+{
+"id": "19:78",
+"q": "Hvilken betablokker udskilles renalt og skal dosisreduceres?",
+"a": "Atenolol",
+"w": [
+"Metoprolol",
+"Carvedilol"
+],
+"p": 206,
+"lvl": "K",
+"type": "fakta",
+"why": "Atenolol og sotalol udskilles renalt. Metoprolol og carvedilol metaboliseres i leveren."
+},
+{
+"id": "19:79",
+"q": "Hvorfor er metoprolol hyppigt anvendt hos nyresyge?",
+"a": "Metaboliseres i leveren",
+"w": [
+"Udskilles renalt, lav dosis",
+"Beskytter nyrerne direkte"
+],
+"p": 206,
+"lvl": "U",
+"type": "forståelse",
+"why": "Metoprolol metaboliseres i leveren og kan bruges i vanlig dosis."
+},
+{
+"id": "19:81",
+"q": "Hvordan håndteres digoxin ved nyreinsufficiens?",
+"a": "Reduceret dosis og blodmåling",
+"w": [
+"Uændret dosis",
+"Øget dosis"
+],
+"p": 206,
+"lvl": "K",
+"type": "fakta",
+"why": "Vedligeholdelsesdosis reduceres og behandlingen monitoreres med plasmakoncentration pga. øget risiko for toksicitet, som kan forværres af kaliumforstyrrelser."
+},
+{
+"id": "19:82",
+"q": "Hvorfor frarådes metformin ved moderat til svært nedsat nyrefunktion?",
+"a": "Ophobning giver laktatacidose",
+"w": [
+"Det udskilles via leveren",
+"Det giver hyperkaliæmi"
+],
+"p": 206,
+"lvl": "K",
+"type": "forståelse",
+"why": "Metformin udskilles i nyrerne og akkumuleres ved nyreinsufficiens, så der er risiko for laktatacidose."
+},
+{
+"id": "19:n15",
+"q": "Hvilke prøver følges, når en nyresyg patient får ACE-hæmmer i reduceret dosis?",
+"a": "P-kreatinin og p-kalium",
+"w": [
+"P-natrium og p-calcium",
+"INR og hæmoglobin"
+],
+"p": 206,
+"lvl": "U",
+"type": "anvendelse",
+"why": "De fleste ACE-hæmmere elimineres renalt og gives i reduceret dosis under kontrol af p-kreatinin og p-kalium."
+},
+{
+"id": "19:84",
+"q": "Ved hvilken eGFR er apixaban og rivaroxaban kontraindicerede?",
+"a": "Under 15",
+"w": [
+"Under 30",
+"Under 60"
+],
+"p": 206,
+"lvl": "K",
+"type": "fakta",
+"why": "Der kræves forsigtighed ved eGFR 15-30 pga. blødningsrisiko; under 15 er de kontraindicerede."
+},
+{
+"id": "19:86",
+"q": "Ved hvilken eGFR er dabigatran kontraindiceret?",
+"a": "Under 30",
+"w": [
+"Under 15",
+"Under 60"
+],
+"p": 206,
+"lvl": "K",
+"type": "fakta",
+"why": "Dabigatran udskilles 85 % renalt. Dosisreduktion ved eGFR 30-50, kontraindiceret under 30."
+},
+{
+"id": "19:n16",
+"q": "En ældre patient på DOAK indlægges med dehydrering og infektion. Hvad skal man være opmærksom på?",
+"a": "Faldende nyrefunktion, blødningsrisiko",
+"w": [
+"Nyrefunktionen er uden betydning",
+"For lav antikoagulation"
+],
+"p": 206,
+"lvl": "K",
+"type": "anvendelse",
+"why": "DOAK-elimination afhænger af nyrefunktionen. Hurtige ændringer hos ældre kan give ophobning og blødningstendens."
+}
+]

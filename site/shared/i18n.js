@@ -571,5 +571,37 @@ window.STR={
 "importFail": {
 "da": "Filen kunne ikke læses.",
 "ru": "Не удалось прочитать файл."
+},
+"why": {
+"da": "Hvorfor?",
+"ru": "Почему?"
+},
+"goals": {
+"da": "Mål",
+"ru": "Цели"
+},
+"keypoints": {
+"da": "Nøglepunkter",
+"ru": "Ключевые пункты"
+},
+"introNote": {
+"da": "Læs først, og test dig selv bagefter. Fejl og usikre svar vender tilbage senere.",
+"ru": "Сначала прочитайте, потом проверьте себя. Ошибки и неуверенные ответы вернутся позже."
+},
+"startQ": {
+"da": "Start spørgsmål",
+"ru": "Начать вопросы"
+},
+"lbl_d": {
+"da": "Detaljer",
+"ru": "Детали"
+},
+"dOff": {
+"da": "Kun kerne og udvidet",
+"ru": "Только основное"
+},
+"dOn": {
+"da": "Med detaljer (D)",
+"ru": "С деталями (D)"
 }
 };

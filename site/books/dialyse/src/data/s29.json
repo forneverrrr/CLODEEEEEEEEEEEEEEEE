@@ -1,0 +1,495 @@
+[
+{
+"id": "29:0",
+"q": "Hvem anbefales dialysepatienter at tale med, før de kontakter kommunen om sociale rettigheder?",
+"a": "En socialrådgiver",
+"w": [
+"Pensionsselskabet",
+"Lægemiddelstyrelsen"
+],
+"p": 267,
+"lvl": "K",
+"type": "fakta",
+"why": "En socialrådgiver (på sygehuset, i Nyreforeningen eller fagforeningen) kan hjælpe med at overskue situationen, før man henvender sig i kommunen."
+},
+{
+"id": "29:1",
+"q": "Hvad forsøges først for at fastholde en nyresyg i arbejde?",
+"a": "Omlægning af arbejdsforholdene",
+"w": [
+"Opsigelse med tilbud om pension",
+"Øgede arbejdstimer hele ugen"
+],
+"p": 267,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx hjemmearbejdsplads, hviletid, personlig assistance eller omplacering. Det gælder også ved behov for dialyse."
+},
+{
+"id": "29:5",
+"q": "Hvad betyder en § 56-aftale for arbejdsgiveren?",
+"a": "Sygedagpengerefusion fra første fraværsdag",
+"w": [
+"Fuld løn fra kommunen i et helt år",
+"Tilskud til ny medarbejder"
+],
+"p": 267,
+"lvl": "U",
+"type": "fakta",
+"why": "Aftalen søges i kommunen af personer med langvarig eller kronisk lidelse og forventet fravær. Den bruges til enkeltstående fravær, fx behandling og kontrol."
+},
+{
+"id": "29:10",
+"q": "Hvad kan et jobafklarings- eller ressourceforløb munde ud i?",
+"a": "Fleksjob, revalidering, førtidspension",
+"w": [
+"Folkepension eller efterløn",
+"Barselsdagpenge eller arbejdsløshedsdagpenge"
+],
+"p": 267,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter en periode med sygemelding vurderer kommunen, om andre hjælpeforanstaltninger skal tilbydes."
+},
+{
+"id": "29:11",
+"q": "Hvad er et fleksjob?",
+"a": "Job på særlige vilkår med lønstilskud",
+"w": [
+"Midlertidigt praktikforløb hos kommunen",
+"Frivilligt arbejde uden løn eller tilskud"
+],
+"p": 267,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunen giver lønstilskud. Fleksjob kan oprettes hos offentlige og private arbejdsgivere, og selvstændige er også omfattet."
+},
+{
+"id": "29:13",
+"q": "Hvornår kan et fleksjob oprettes?",
+"a": "Ved varigt nedsat arbejdsevne",
+"w": [
+"Ved ethvert sygefravær",
+"Når man ønsker færre arbejdstimer"
+],
+"p": 268,
+"lvl": "K",
+"type": "forståelse",
+"why": "Arbejdsevnen skal være varigt eller længerevarende begrænset, så almindelige arbejdsvilkår ikke er muligt."
+},
+{
+"id": "29:14",
+"q": "Hvad er fastholdelsesfleksjob?",
+"a": "Fleksjob i det nuværende job",
+"w": [
+"Fleksjob hos ny arbejdsgiver",
+"Revalidering til nyt fag"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Man bliver i sin nuværende stilling, men på fleksjobvilkår."
+},
+{
+"id": "29:15",
+"q": "Hvorfor kan fastholdelsesfleksjob være en fordel?",
+"a": "Man undgår jobafklaringsforløb",
+"w": [
+"Man får højere sygedagpenge",
+"Man får automatisk førtidspension"
+],
+"p": 268,
+"lvl": "U",
+"type": "forståelse",
+"why": "Fleksjob i det nuværende job gør, at man kan undgå et jobafklaringsforløb (arbejdsprøvning)."
+},
+{
+"id": "29:16",
+"q": "Hvad kan de fleste dialysepatienter i forhold til arbejde?",
+"a": "Samme arbejde med nedsat tid",
+"w": [
+"Intet arbejde, uanset type",
+"Kun lettere kontorarbejde uden skift"
+],
+"p": 268,
+"lvl": "K",
+"type": "anvendelse",
+"why": "De fleste kan udføre samme type arbejde som hidtil, men med reduceret arbejdstid på grund af træthed og dialysens tidsforbrug."
+},
+{
+"id": "29:n0",
+"q": "Hvem kan få førtidspension?",
+"a": "Personer med varigt og betydeligt nedsat arbejdsevne",
+"w": [
+"Alle patienter, der er i dialysebehandling",
+"Alle over 60 år"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er blevet vanskeligere at få førtidspension. Kravet er varig og betydelig nedsat arbejdsevne."
+},
+{
+"id": "29:20",
+"q": "Hvad er sum ved kritisk sygdom?",
+"a": "Skattefri engangssum",
+"w": [
+"Månedlig førtidspension",
+"Tilskud til medicin"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Udbetales fra pensions- og gruppelivsordninger (via arbejdsgiver, evt. egen ordning) som økonomisk håndsrækning ved alvorlig sygdom."
+},
+{
+"id": "29:n1",
+"q": "En dialysepatient har arbejdsgiverordnet pensionsordning. Hvad bør hun undersøge?",
+"a": "Om sum ved kritisk sygdom er dækket",
+"w": [
+"Om pensionen også betaler dialysen",
+"Om hun automatisk får tildelt fleksjob"
+],
+"p": 268,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kronisk nyresvigt er ofte omfattet af ordningerne, men det fremgår af den enkelte pensionsordning, hvilke sygdomme der dækkes."
+},
+{
+"id": "29:22",
+"q": "Hvornår kan sum ved kritisk sygdom udbetales ved nyresvigt?",
+"a": "Når patienten er i dialyse",
+"w": [
+"Først efter transplantation",
+"Først ved pensionsalderen"
+],
+"p": 268,
+"lvl": "U",
+"type": "fakta",
+"why": "Beløbet udbetales også, når der er fastsat dato for anlæggelse af dialyseadgang eller transplantation."
+},
+{
+"id": "29:n2",
+"q": "Hvilken ydelse (Servicelovens § 100, 18-67 år) kan dække merudgifter som ekstra transport og praktisk hjælp i hjemmet, når funktionsnedsættelsen er indgribende, varig og alvorlig?",
+"a": "Merudgiftsydelse",
+"w": [
+"Kronikertilskud til medicin",
+"Helbredstillæg for pensionister"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Merudgiftsydelse kan dække merudgifter ved kronisk nyresygdom for voksne i arbejdsalderen, hvis funktionsnedsættelsen er indgribende, varig og alvorlig."
+},
+{
+"id": "29:27",
+"q": "Hvilken funktionsnedsættelse giver mulighed for merudgiftsydelse?",
+"a": "Indgribende, varig og alvorlig",
+"w": [
+"Kortvarig og let",
+"Enhver kronisk lidelse"
+],
+"p": 268,
+"lvl": "U",
+"type": "fakta",
+"why": "Funktionsnedsættelsen skal være indgribende i dagligdagen, varig og alvorlig."
+},
+{
+"id": "29:28",
+"q": "Hvilken udgift kan fx dækkes som merudgift ved nyresygdom?",
+"a": "Ekstra transport",
+"w": [
+"Almindelig husleje",
+"Fritidsaktiviteter"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Merudgifter kan fx være egenbetaling til medicin, ekstra transport, praktisk hjælp i hjemmet eller rejseudgifter pga. sygdommen."
+},
+{
+"id": "29:29",
+"q": "Hvordan får man det generelle medicintilskud?",
+"a": "Automatisk på apoteket",
+"w": [
+"Ansøgning til kommunen",
+"Ansøgning til sygehuset"
+],
+"p": 268,
+"lvl": "K",
+"type": "fakta",
+"why": "Tilskuddet vokser med udgifterne til tilskudsberettiget medicin, og man skal ikke søge om det."
+},
+{
+"id": "29:30",
+"q": "En kronisk syg har store medicinudgifter. Hvad udløses automatisk ved en bestemt grænse?",
+"a": "Kronikertilskud",
+"w": [
+"Merudgiftsydelse",
+"Helbredstillæg"
+],
+"p": 268,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Overskrides grænsen for medicinudgifter, udløses kronikertilskud automatisk."
+},
+{
+"id": "29:32",
+"q": "Hvilket tillæg kan folkepensionister søge til medicinudgifter?",
+"a": "Helbredstillæg",
+"w": [
+"Kronikertilskud",
+"Plejevederlag"
+],
+"p": 268,
+"lvl": "U",
+"type": "fakta",
+"why": "Helbredstillæg skal søges. Kronikertilskud udløses derimod automatisk."
+},
+{
+"id": "29:33",
+"q": "Hvornår kan nyresyge få tilskud til psykologhjælp?",
+"a": "Ved væsentlig ændring af helbredet",
+"w": [
+"Altid uden begrænsning",
+"Kun ved psykisk sygdom"
+],
+"p": 268,
+"lvl": "U",
+"type": "fakta",
+"why": "Fx ved dialysestart, transplantation eller afstødning. Både patient og nærtstående pårørende kan få tilskud."
+},
+{
+"id": "29:35",
+"q": "Hvad kræves for tilskud til psykologbehandling?",
+"a": "Henvisning fra egen læge",
+"w": [
+"Henvisning fra kommunen",
+"Henvisning fra sygeplejersken"
+],
+"p": 268,
+"lvl": "U",
+"type": "fakta",
+"why": "Henvisningen kommer fra en praktiserende læge, og psykologen skal have overenskomst med sygesikringen."
+},
+{
+"id": "29:36",
+"q": "Hvorfor dækker sygehuset udgifterne til dialyse i eget hjem?",
+"a": "Det er sygehusbehandling",
+"w": [
+"Det er en kommunal ydelse",
+"Det er en privat forsikring"
+],
+"p": 269,
+"lvl": "K",
+"type": "forståelse",
+"why": "PD og HD i eget hjem betragtes som sygehusbehandling, så patienten skal have dækket alle udgifter til behandlingen."
+},
+{
+"id": "29:37",
+"q": "En patient vil dialysere hjemme. Hvem betaler udstyr samt el og vand?",
+"a": "Sygehuset",
+"w": [
+"Patienten",
+"Kommunen"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Sygehuset sørger for installation, maskine og udstyr og dækker også merudgifter til el, vand og renovation."
+},
+{
+"id": "29:39",
+"q": "En dialysepatient er utilfreds med sit sygehus. Hvad kan hun efter reglerne?",
+"a": "Vælge et andet offentligt sygehus",
+"w": [
+"Vælge privat klinik på regionens regning",
+"Intet, hun er bundet til sit sygehus"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Frit sygehusvalg betyder, at man kan vælge mellem de offentlige sygehuse, der kan varetage behandlingen."
+},
+{
+"id": "29:40",
+"q": "Gælder frit sygehusvalg også dialyse og nyretransplantation?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 269,
+"lvl": "U",
+"type": "fakta",
+"why": "Frit sygehusvalg gælder også højt specialiseret behandling som dialyse og nyretransplantation."
+},
+{
+"id": "29:41",
+"q": "Hvornår kan en afdeling afvise en patient fra et andet område?",
+"a": "Ved længere ventetid end andre afdelinger",
+"w": [
+"Hvis patienten er over 70 år",
+"Hvis patienten har kronisk sygdom"
+],
+"p": 269,
+"lvl": "U",
+"type": "fakta",
+"why": "Afdelingen kan afvise fritvalgspatienter, hvis dens ventetider er længere end på lignende afdelinger."
+},
+{
+"id": "29:42",
+"q": "En dialysepatient vælger et andet sygehus end sit faste. Hvem betaler transporten?",
+"a": "Patienten selv",
+"w": [
+"Regionen",
+"Kommunen"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Vælger man et andet sygehus end det faste, skal man selv betale transporten."
+},
+{
+"id": "29:43",
+"q": "Hvornår gælder frit sygehusvalg ikke?",
+"a": "Ved akut sygehusbehandling",
+"w": [
+"Ved dialyse",
+"Ved nyretransplantation"
+],
+"p": 269,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved behov for akut behandling kan man ikke vælge frit. Planlagt højt specialiseret behandling er omfattet."
+},
+{
+"id": "29:45",
+"q": "En dialysepatient rejser til Italien. Hvilket kort skal hun medbringe?",
+"a": "Det blå sygesikringskort",
+"w": [
+"Det gule sundhedskort",
+"Forsikringskort fra kommunen"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Det blå sygesikringskort skal altid medbringes i EU, EØS og Schweiz."
+},
+{
+"id": "29:46",
+"q": "Hvad dækker det blå sygesikringskort ved dialyse?",
+"a": "Dialyse på offentlige klinikker i EU",
+"w": [
+"Dialyse på private klinikker",
+"Dialyse uden for EU"
+],
+"p": 269,
+"lvl": "U",
+"type": "fakta",
+"why": "Kortet bruges til betaling på offentlige klinikker i EU. Privat klinik eller udenfor EU betaler man selv."
+},
+{
+"id": "29:47",
+"q": "En patient vil dialysere på en privat klinik under ferien. Hvem betaler?",
+"a": "Patienten selv",
+"w": [
+"Regionen",
+"Sygehuset"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved dialyse på privat klinik eller uden for EU skal patienten selv betale."
+},
+{
+"id": "29:48",
+"q": "Hvad dækker en almindelig rejseforsikring?",
+"a": "Kun akut opstået sygdom og skade",
+"w": [
+"Alle kroniske sygdomme",
+"Planlagt dialyse"
+],
+"p": 269,
+"lvl": "K",
+"type": "fakta",
+"why": "Forsikringen gælder akut sygdom eller skader på rejsen, ikke kendt kronisk sygdom."
+},
+{
+"id": "29:49",
+"q": "Hvorfor bør dialysepatienter afklare dækning med forsikringsselskabet?",
+"a": "Kronisk sygdom er ikke akut",
+"w": [
+"Det er et lovkrav",
+"Det giver lavere præmie"
+],
+"p": 269,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kronisk nyresygdom er ikke akut, så dækningen er uklar. Det gælder også korte ture uden for landets grænser."
+},
+{
+"id": "29:50",
+"q": "Hvad er et medicinsk forhåndstilsagn?",
+"a": "Forsikringsselskabets tilsagn om dækning ved sygdom",
+"w": [
+"En recept til rejsen",
+"Et visum til udlandet"
+],
+"p": 269,
+"lvl": "K",
+"type": "fakta",
+"why": "Uden medicinsk forhåndstilsagn er man ikke dækket ved sygdom under udlandsopholdet."
+},
+{
+"id": "29:51",
+"q": "En patient har skiftet medicin og været indlagt for nylig. Hvad bør hun søge før en udlandsrejse?",
+"a": "Medicinsk forhåndstilsagn",
+"w": [
+"Nyt sygesikringskort",
+"Rejsevaccination"
+],
+"p": 269,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved ændret medicinering eller nylig indlæggelse bør man søge forhåndstilsagn hos forsikringsselskabet."
+},
+{
+"id": "29:53",
+"q": "Hvad kan forældre til et barn i dialyse få kompensation for?",
+"a": "Tabt arbejdsfortjeneste",
+"w": [
+"Fuld pension",
+"Sum ved kritisk sygdom"
+],
+"p": 269,
+"lvl": "K",
+"type": "fakta",
+"why": "Det gælder, når barnet er indlagt, eller når det er en nødvendig følge af sygdommen, at barnet passes hjemme. Merudgifter dækkes også."
+},
+{
+"id": "29:56",
+"q": "Hvad får en nyredonor bl.a. dækket?",
+"a": "Tabt arbejdsfortjeneste",
+"w": [
+"Livsvarig invaliditetsydelse",
+"Kronikertilskud"
+],
+"p": 269,
+"lvl": "K",
+"type": "fakta",
+"why": "Donor får fuld tabt arbejdsfortjeneste i forundersøgelses-, indlæggelses- og rekreationsperioden samt transportudgifter."
+},
+{
+"id": "29:60",
+"q": "En mulig nyredonor findes ikke egnet efter forundersøgelser. Får hun tabt arbejdsfortjeneste dækket?",
+"a": "Ja, også da",
+"w": [
+"Nej, kun ved operation",
+"Kun hvis hun er selvstændig"
+],
+"p": 269,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Også en potentiel donor, der kun gennemgår forundersøgelser, får tabt arbejdsfortjeneste dækket."
+}
+]

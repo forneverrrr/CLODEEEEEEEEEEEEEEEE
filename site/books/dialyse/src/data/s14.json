@@ -1,0 +1,574 @@
+[
+{
+"id": "14:2",
+"q": "Hvordan stiger risikoen for hjerte-kar-sygdom med aftagende nyrefunktion?",
+"a": "Eksponentielt",
+"w": [
+"Lineært",
+"Uændret indtil dialyse"
+],
+"p": 157,
+"lvl": "K",
+"type": "fakta",
+"why": "Risikoen er højest ved kronisk dialysebehov, og CVD debuterer tidligere og progredierer hurtigere end hos baggrundsbefolkningen."
+},
+{
+"id": "14:7",
+"q": "Hvilken dødsmåde er hyppig hos dialysepatienter?",
+"a": "Pludselig, muligvis pga. arytmier",
+"w": [
+"Altid planlagt ved ophør med dialyse",
+"Næsten altid af maligne sygdomme"
+],
+"p": 157,
+"lvl": "U",
+"type": "fakta",
+"why": "En stor del dør pludseligt, muligvis pga. hjertearytmier. Pludselig hjertedød er 16 % af dødsårsagerne."
+},
+{
+"id": "14:8",
+"q": "Hvorfor behandles dialysepatienters hjerte-kar-sygdom ofte ud fra ekstrapolation?",
+"a": "De ekskluderes ofte fra kliniske studier",
+"w": [
+"Hjerte-kar-sygdom er sjælden hos dem",
+"Guidelines forbyder behandling"
+],
+"p": 157,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienter med svær nyrepåvirkning er underrepræsenteret i kardiovaskulær forskning, så behandlingen bygger på ekstrapolation eller empiri."
+},
+{
+"id": "14:9",
+"q": "Hvad overskygger efterhånden traditionelle risikofaktorer, når nyrefunktionen falder?",
+"a": "Uræmispecifikke faktorer",
+"w": [
+"Genetiske risikofaktorer",
+"Kostrelaterede faktorer"
+],
+"p": 157,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fx anæmi, inflammation, calciumforstyrrelser og sympatisk overaktivitet. Risk-scores undervurderer derfor risikoen ved CKD."
+},
+{
+"id": "14:10",
+"q": "Hvilken gruppe er den største kendte dødsårsag hos dialysepatienter?",
+"a": "Hjerte-kar-sygdom",
+"w": [
+"Infektion i dialysen",
+"Maligne sygdomme"
+],
+"p": 158,
+"lvl": "K",
+"type": "fakta",
+"why": "Kardiovaskulær sygdom udgør ca. 29 % af dødsfaldene i dansk dialyse 2017-2021, foran infektion (21 %)."
+},
+{
+"id": "14:15",
+"q": "Hvilken af disse er en traditionel kardiovaskulær risikofaktor?",
+"a": "Rygning",
+"w": [
+"Uræmiske toksiner",
+"Renal anæmi"
+],
+"p": 158,
+"lvl": "K",
+"type": "fakta",
+"why": "Traditionelle: alder, hypertension, rygning, inaktivitet, køn, diabetes og dyslipidæmi. Uræmiske toksiner og anæmi er CKD-relaterede."
+},
+{
+"id": "14:16",
+"q": "Hvilken risikofaktor er specifik for CKD?",
+"a": "Uræmiske toksiner",
+"w": [
+"Rygning og alkohol",
+"Dyslipidæmi og diabetes"
+],
+"p": 158,
+"lvl": "K",
+"type": "fakta",
+"why": "CKD-relaterede faktorer er bl.a. inflammation, oxidativt stress, vaskulære kalcifikationer, malnutrition og renal anæmi."
+},
+{
+"id": "14:n0",
+"q": "Hvordan påvirker CKD risk-scores for hjerte-kar-sygdom?",
+"a": "De undervurderer risikoen",
+"w": [
+"De overvurderer risikoen",
+"De er mere præcise end hos nyreraske"
+],
+"p": 159,
+"lvl": "U",
+"type": "fakta",
+"why": "Scorerne bruges til at vejlede undersøgelser, men tager ikke højde for CKD."
+},
+{
+"id": "14:18",
+"q": "Hvad er aterosklerose?",
+"a": "Kronisk inflammation i intima",
+"w": [
+"Degeneration i tunica media",
+"Akut blodprop i et kar"
+],
+"p": 159,
+"lvl": "K",
+"type": "fakta",
+"why": "Sygdommen rammer intima i mellemstore og store arterier og danner plaques af kolesterol, inflammatoriske celler, nekroser og arvæv."
+},
+{
+"id": "14:20",
+"q": "Hvad er den hyppigste årsag til akut myokardieinfarkt i baggrundsbefolkningen?",
+"a": "Plaqueruptur med trombose",
+"w": [
+"Koronarspasme alene",
+"Hypotension og anæmi"
+],
+"p": 159,
+"lvl": "K",
+"type": "fakta",
+"why": "Plaqueruptur med trombose giver også pludselig hjertedød og hjerneinfarkt. Om det samme gælder ved CKD, vides ikke."
+},
+{
+"id": "14:21",
+"q": "Hvordan er plaquekalcifikationer ved CKD sammenlignet med nyreraske?",
+"a": "Tidligere og mere udtalte",
+"w": [
+"Senere og mindre udtalte",
+"Samme omfang"
+],
+"p": 159,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er karakteristisk ved CKD, at plaquekalcifikationer ses tidligere og er mere udtalte end hos nyreraske."
+},
+{
+"id": "14:39",
+"q": "Hvad er medial kalcifikation overvejende relateret til?",
+"a": "Degenerative forandringer i tunica media",
+"w": [
+"Inflammation i tunica intima",
+"Kolesterolaflejring i plaques"
+],
+"p": 160,
+"lvl": "K",
+"type": "forståelse",
+"why": "Medial kalcifikation skyldes destruktion af elastiske fibre, celledød og matrixvesikler og er accelereret ved CKD og diabetes. Intimal kalcifikation er derimod inflammationsbetinget."
+},
+{
+"id": "14:38",
+"q": "Hvilken proces er intimal kalcifikation en del af?",
+"a": "Avanceret aterosklerose",
+"w": [
+"Degeneration af tunica media",
+"Dannelse af matrixvesikler"
+],
+"p": 160,
+"lvl": "K",
+"type": "forståelse",
+"why": "Intimal kalcifikation er primært inflammationsbetinget. Medial kalcifikation er derimod degenerativ."
+},
+{
+"id": "14:22",
+"q": "Hvordan ændres systolisk og diastolisk BT, når arterierne bliver stive?",
+"a": "Systolisk stiger, diastolisk falder",
+"w": [
+"Begge stiger",
+"Systolisk falder, diastolisk stiger"
+],
+"p": 159,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nedsat aortacompliance giver øget pulsbølgehastighed, højere systolisk og lavere diastolisk tryk."
+},
+{
+"id": "14:23",
+"q": "Hvorfor øger højt systolisk BT risikoen for venstre ventrikelhypertrofi?",
+"a": "Det øger afterload",
+"w": [
+"Det sænker preload",
+"Det øger koronar perfusion"
+],
+"p": 159,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højere afterload belaster venstre ventrikel, som hypertrofierer."
+},
+{
+"id": "14:24",
+"q": "Hvorfor øger lavt diastolisk BT risikoen for hjerteiskæmi?",
+"a": "Nedsat koronar perfusion",
+"w": [
+"Nedsat nyreperfusion",
+"Øget afterload"
+],
+"p": 159,
+"lvl": "K",
+"type": "forståelse",
+"why": "Koronararterierne perfunderes især i diastolen, så lavt diastolisk tryk kan give iskæmi."
+},
+{
+"id": "14:25",
+"q": "En dialysepatient har udbredte vaskulære kalcifikationer. Hvilket indgreb kan blive vanskeligt?",
+"a": "Anlæggelse af AV-fistel",
+"w": [
+"Venepunktur på armen",
+"BT-måling på armen"
+],
+"p": 159,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kalcifikationer kan også vanskeliggøre PCI, CABG og nyretransplantation."
+},
+{
+"id": "14:26",
+"q": "Hvilken forskel fandt man mellem invasiv og konservativ behandling af iskæmisk hjertesygdom i en population, hvor ca. halvdelen var i kronisk dialyse?",
+"a": "Ingen forskel i endepunkter",
+"w": [
+"Invasiv strategi var bedre",
+"Konservativ strategi var bedre"
+],
+"p": 159,
+"lvl": "U",
+"type": "fakta",
+"why": "Studiet inkluderede ca. halvt dialysepatienter og fulgte 2,2 år (median). Invasiv strategi forbedrede ikke død, AMI, hjertesvigt m.m."
+},
+{
+"id": "14:n1",
+"q": "Hvornår udvikles venstre ventrikelhypertrofi og diastolisk dysfunktion ved CKD?",
+"a": "Allerede i tidlige stadier",
+"w": [
+"Først ved dialysestart",
+"Kun ved diabetes"
+],
+"p": 160,
+"lvl": "K",
+"type": "fakta",
+"why": "Hypertrofi findes hos 31 % ved GFR 25-50 og hos op til 74 % ved dialysestart."
+},
+{
+"id": "14:30",
+"q": "En patient med svært nedsat uddrivningsfraktion får anlagt AV-fistel. Hvad kan udløses?",
+"a": "Manifest hjerteinsufficiens",
+"w": [
+"Akut lungeemboli",
+"Svær hyperkaliæmi"
+],
+"p": 160,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fistlen øger hjertets arbejde, hvilket kan afsløre hjerteinsufficiens ved svært nedsat uddrivningsfraktion."
+},
+{
+"id": "14:31",
+"q": "Hvad præger det uræmiske myokardium?",
+"a": "Fibrose og kalcifikationer",
+"w": [
+"Fedtinfiltration og tyndvæg",
+"Øget kapillærtæthed"
+],
+"p": 160,
+"lvl": "K",
+"type": "fakta",
+"why": "Der ses også nedsat kapillærtæthed og fortykkede arteriolevægge. Det forringer toleransen over for iskæmi."
+},
+{
+"id": "14:n2",
+"q": "Hvilken hjerteforandring kan medvirke til hypotension under HD?",
+"a": "Nedsat kardiel compliance",
+"w": [
+"Øget afterload",
+"Øget kardiel compliance"
+],
+"p": 160,
+"lvl": "U",
+"type": "forståelse",
+"why": "Fibrose og kalcifikationer gør hjertet stift. Det kan medvirke til hæmodialyseassocieret hypotension."
+},
+{
+"id": "14:32",
+"q": "Hvilken hjerterytmeforstyrrelse er den vigtigste risikofaktor for iskæmisk apopleksi?",
+"a": "Kronisk atrieflimren",
+"w": [
+"Ventrikeltakykardi",
+"AV-blok"
+],
+"p": 160,
+"lvl": "K",
+"type": "fakta",
+"why": "Atrieflimren er også en uafhængig prædiktor for død i baggrundsbefolkningen."
+},
+{
+"id": "14:n3",
+"q": "Hvorfor er antikoagulation ved atrieflimren uafklaret ved CKD 5?",
+"a": "Øget blødningsrisiko",
+"w": [
+"Nedsat risiko for apopleksi",
+"Manglende effekt på rytmen"
+],
+"p": 160,
+"lvl": "U",
+"type": "forståelse",
+"why": "Atrieflimren er to-tre gange hyppigere ved CKD 2-5, men blødningsrisikoen komplicerer indikationen."
+},
+{
+"id": "14:33",
+"q": "Hvor meget hyppigere er kronisk atrieflimren ved CKD 2-5 end i baggrundsbefolkningen?",
+"a": "To-tre gange",
+"w": [
+"Ti gange",
+"Samme hyppighed"
+],
+"p": 160,
+"lvl": "U",
+"type": "fakta",
+"why": "Prævalensen er øget to-tre gange."
+},
+{
+"id": "14:35",
+"q": "En dialysepatient med kateter og klapforandringer får bakteriæmi. Hvilken komplikation frygtes?",
+"a": "Endokarditis",
+"w": [
+"Aortadissektion",
+"Lungeemboli"
+],
+"p": 160,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kalcifikation og sklerosering af klapperne øger risikoen for endokarditis ved bakteriæmi, især ved dialysekateter."
+},
+{
+"id": "14:43",
+"q": "Hvilket lipidmønster er typisk ved CKD?",
+"a": "Højt triglycerid og lavt HDL",
+"w": [
+"Højt LDL og højt HDL",
+"Lavt triglycerid og højt HDL"
+],
+"p": 161,
+"lvl": "K",
+"type": "fakta",
+"why": "LDL er normalt eller let forøget, og ændringerne er ofte små. Modificerede lipoproteiner og HDL-dysfunktion er afgørende."
+},
+{
+"id": "14:44",
+"q": "Anbefales start af statin som primær profylakse hos kroniske dialysepatienter?",
+"a": "Nej, anbefales ikke",
+"w": [
+"Ja, til alle",
+"Kun ved forhøjet LDL"
+],
+"p": 161,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved nedsat nyrefunktion før dialyse reducerer statin risikoen. I kronisk dialyse anbefales primær profylakse ikke."
+},
+{
+"id": "14:45",
+"q": "En patient i statinbehandling starter i dialyse. Hvad anbefales?",
+"a": "Fortsæt statinen",
+"w": [
+"Stop statinen straks",
+"Halvér statindosis"
+],
+"p": 161,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Statinen fortsættes, hvis den er givet pga. CKD, tidligere CVD eller diabetes."
+},
+{
+"id": "14:48",
+"q": "Hvilken effekt har fysisk træning vist i randomiserede forsøg hos dialysepatienter?",
+"a": "Bedre formåen og livskvalitet",
+"w": [
+"Lavere dødelighed i randomiserede forsøg",
+"Dårligere kondition"
+],
+"p": 161,
+"lvl": "U",
+"type": "fakta",
+"why": "Randomiserede forsøg har vist øget fysisk formåen og livskvalitet. Mål for aktivitet og kondition er kun i observationelle studier associeret med øget overlevelse."
+},
+{
+"id": "14:54",
+"q": "Hvilken effekt har SGLT2-hæmmere ved diabetes, hjerte- og nyresygdom?",
+"a": "Udsætter dialysestart, færre CV-hændelser",
+"w": [
+"Fremskynder dialysestart",
+"Flere kardiovaskulære hændelser"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "De mindsker også mortalitet. Der pågår studier af effekten i dialyse."
+},
+{
+"id": "14:55",
+"q": "Ved hvilken laveste eGFR kan SGLT2-hæmmere startes?",
+"a": "20 ml/min./1,73 m²",
+"w": [
+"45 ml/min./1,73 m²",
+"10 ml/min./1,73 m²"
+],
+"p": 162,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandlingen kan startes ned til eGFR 20 og fortsættes frem til dialysestart."
+},
+{
+"id": "14:53",
+"q": "Kan RAS-blokade forebygge kardiovaskulære hændelser hos kroniske dialysepatienter?",
+"a": "Nej, det er ikke vist",
+"w": [
+"Ja, hos alle",
+"Ja, men kun ACEi"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "Trods randomiseret undersøgelse er effekten ikke påvist i kronisk dialyse."
+},
+{
+"id": "14:58",
+"q": "Hvad er LDL-målet ved forebyggelse af hjerte-kar-sygdom i dialyse?",
+"a": "< 2,6 mmol/l",
+"w": [
+"< 4,0 mmol/l",
+"< 1,0 mmol/l"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "Eksisterende lipidsænkende behandling fortsættes ved tidligere indikation (diabetes, CKD, CVD)."
+},
+{
+"id": "14:59",
+"q": "Hvad er HbA1c-målet ved forebyggelse af hjerte-kar-sygdom i dialyse?",
+"a": "< 48 mmol/mol",
+"w": [
+"< 70 mmol/mol",
+"< 30 mmol/mol"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "Målet tilpasses alder og komorbiditet, med øje for hypoglykæmi."
+},
+{
+"id": "14:62",
+"q": "Hvornår anbefales acetylsalicylsyre til dialysepatienter?",
+"a": "Ved tidligere CVD eller høj risiko",
+"w": [
+"Til alle uanset risiko",
+"Kun ved diabetes og anæmi"
+],
+"p": 162,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Acetylsalicylsyre bruges som sekundær profylakse eller ved høj risiko."
+},
+{
+"id": "14:63",
+"q": "Hvordan er mortaliteten efter akut myokardieinfarkt ved nedsat nyrefunktion?",
+"a": "Øget",
+"w": [
+"Nedsat",
+"Uændret"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er også flere komplikationer efter PCI og CABG samt risiko for restenosering."
+},
+{
+"id": "14:n4",
+"q": "Hvordan påvirker anæmi venstre ventrikel?",
+"a": "Øger risiko for hypertrofi/dilatation",
+"w": [
+"Mindsker ventriklens størrelse",
+"Påvirker ikke ventriklen"
+],
+"p": 161,
+"lvl": "U",
+"type": "forståelse",
+"why": "Anæmi er associeret med øget kardiovaskulær risiko ved alle CKD-stadier. Korrektion kan bedre iskæmiske symptomer."
+},
+{
+"id": "14:n5",
+"q": "Hvad menes at udløse sympatikusaktivering ved CKD?",
+"a": "Signal fra de syge nyrer",
+"w": [
+"Lavt blodtryk og hypovolæmi",
+"Højt hæmoglobin og EPO"
+],
+"p": 162,
+"lvl": "U",
+"type": "forståelse",
+"why": "Sympatikusaktivering bidrager til hypertension, venstre ventrikelhypertrofi og arytmier."
+},
+{
+"id": "14:n6",
+"q": "Hvordan behandles iskæmisk hjertesygdom og hjertesvigt hos nyresyge?",
+"a": "Samme principper som hos nyreraske",
+"w": [
+"Kun med kirurgi",
+"Særlige nyrespecifikke midler"
+],
+"p": 162,
+"lvl": "K",
+"type": "fakta",
+"why": "Nyresvigt giver dog højere mortalitet efter AMI, flere komplikationer ved PCI og CABG og komplicerer lægemiddeldoseringen."
+},
+{
+"id": "14:n7",
+"q": "Hvilken komplikation er hyppigere efter PCI ved nedsat nyrefunktion?",
+"a": "Restenosering",
+"w": [
+"Aortadissektion",
+"Endokarditis"
+],
+"p": 163,
+"lvl": "U",
+"type": "fakta",
+"why": "Forhøjet risiko for restenosering ses sammen med flere komplikationer efter PCI og CABG."
+},
+{
+"id": "14:46",
+"q": "Hvordan hænger højt BMI sammen med overlevelse hos dialysepatienter?",
+"a": "Forbundet med bedre overlevelse",
+"w": [
+"Forbundet med dårligere overlevelse",
+"Ingen sammenhæng"
+],
+"p": 161,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved CKD 3-4 øger fedme CVD-risikoen, men i dialyse er højt BMI positivt associeret med overlevelse."
+},
+{
+"id": "14:42",
+"q": "Hvad karakteriserer dyslipidæmi ved CKD?",
+"a": "Modificerede lipoproteiner og HDL-dysfunktion",
+"w": [
+"Meget højt LDL og normalt HDL",
+"Lavt triglycerid og velfungerende HDL"
+],
+"p": 161,
+"lvl": "U",
+"type": "forståelse",
+"why": "Nedsat leverclearance af modificerede lipoproteiner øger influx i karvæggen, og dysfunktionelt HDL fjerner kolesterol dårligere."
+},
+{
+"id": "14:40",
+"q": "Hvor stor en del af CKD-patienter har hypertension?",
+"a": "60-90 %",
+"w": [
+"10-20 %",
+"30-40 %"
+],
+"p": 160,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypertension er associeret med øget CVD-risiko ved CKD 3-4 og i dialyse. Både hypotension og hypertension har dårlig prognose."
+}
+]

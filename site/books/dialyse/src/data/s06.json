@@ -1,0 +1,833 @@
+[
+{
+"id": "6:0",
+"q": "Hvilket mål har ISPD sat for PD-kateters overlevelse efter ét år?",
+"a": "80 %",
+"w": [
+"50 %",
+"99 %"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "PD-kateterkomplikationer er stadig en alvorlig trussel mod kronisk PD, og ISPD har defineret målet som 80 % efter ét år."
+},
+{
+"id": "6:2",
+"q": "Hvor anlægges exit-site oftest?",
+"a": "Lateralt på abdomen",
+"w": [
+"Medialt på thorax",
+"I lysken"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Exit-site anlægges hyppigst lateralt på abdomen. Præsternalt bruges kun, hvis abdomen ikke egner sig."
+},
+{
+"id": "6:3",
+"q": "Hvordan anbefales kateteranlæggelse organiseret?",
+"a": "Et dedikeret team af få personer",
+"w": [
+"Alle kirurger på skift",
+"Sygeplejersker alene uden læge"
+],
+"p": 63,
+"lvl": "U",
+"type": "fakta",
+"why": "Det anbefales, at et dedikeret team med relativt få personer varetager anlæggelserne."
+},
+{
+"id": "6:4",
+"q": "Hvilke komplikationer til PD-katetre er mest almindelige?",
+"a": "Infektioner",
+"w": [
+"Blødninger",
+"Tarmperforation"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "De almindeligste komplikationer er infektiøse: exit-site- eller tunnelinfektion."
+},
+{
+"id": "6:5",
+"q": "Hvilket materiale er de fleste PD-katetre lavet af?",
+"a": "Silikone",
+"w": [
+"Teflon",
+"Latex"
+],
+"p": 63,
+"lvl": "K",
+"type": "fakta",
+"why": "Silikonebaserede katetre er de hyppigst anvendte."
+},
+{
+"id": "6:6",
+"q": "Hvorfor er silikone velegnet til PD-katetre?",
+"a": "Holdbart i kroppen og tåler sprit",
+"w": [
+"Billigt og meget blødt",
+"Opløseligt i sprit og sæbe"
+],
+"p": 63,
+"lvl": "U",
+"type": "forståelse",
+"why": "Silikone er holdbart i biologiske miljøer og modstår organiske opløsningsmidler som sprit, hvilket har stor praktisk betydning."
+},
+{
+"id": "6:9",
+"q": "Hvorfor har de fleste PD-katetre røntgenfast materiale?",
+"a": "Så de kan ses på røntgen",
+"w": [
+"Så de bliver stærkere",
+"Så de ikke bliver inficeret"
+],
+"p": 63,
+"lvl": "U",
+"type": "forståelse",
+"why": "Materialet gør katetret synligt, så det kan identificeres med konventionelt røntgenudstyr, fx ved mistanke om displacering."
+},
+{
+"id": "6:11",
+"q": "Hvad kendetegner et tungstenskateter?",
+"a": "Et tungstenlod i enden (self-locating)",
+"w": [
+"Et spiralformet segment",
+"To cuffs og vinkel"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Tungstenskateteret har lige segment med et lille cylinderlod i den distale del, som skal holde katetret på plads."
+},
+{
+"id": "6:12",
+"q": "Hvorfor er tungstenskateteret udviklet?",
+"a": "For at give færre displaceringer",
+"w": [
+"For at give mindre smerte",
+"For at gøre det billigere"
+],
+"p": 64,
+"lvl": "K",
+"type": "forståelse",
+"why": "Loddet skal give færre episoder med kateterdisplacering end det klassiske Tenckhoff-kateter. Loddet kan dog give ubehag."
+},
+{
+"id": "6:13",
+"q": "Hvor skal spidsen af det intraperitoneale kateter ligge?",
+"a": "Dybt i det lille bækken",
+"w": [
+"Under leveren",
+"Ved diafragma"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Spidsen og sidehullerne skal ligge så dybt i det lille bækken som muligt, hvorfor der findes katetre i forskellige længder."
+},
+{
+"id": "6:18",
+"q": "Hvad er cuffens funktion på et PD-kateter?",
+"a": "Fastgøre katetret og lukke mod bakterier",
+"w": [
+"Øge dialysatflowet",
+"Måle trykket i bughulen"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Cuffen fikserer katetret uden suturer, giver tæthed i det ekstraperitoneale forløb og medvirker til en barriere mod mikroorganismer."
+},
+{
+"id": "6:19",
+"q": "Hvordan forankres cuffen i vævet?",
+"a": "Vævsreaktion med fibrose",
+"w": [
+"Med suturer",
+"Med lim"
+],
+"p": 64,
+"lvl": "K",
+"type": "forståelse",
+"why": "Cuffen fremkalder en vævsreaktion med fibrosedannelse, som giver forankring i det omgivende væv, så katetret ikke skal syes fast."
+},
+{
+"id": "6:20",
+"q": "Hvad er et svanehalskateter?",
+"a": "Kateter med fast vinkel uden for peritoneum",
+"w": [
+"Kateter med lod i enden",
+"Kateter med exit-site på brystet"
+],
+"p": 64,
+"lvl": "U",
+"type": "fakta",
+"why": "Svanehalskateteret har en permanent vinkel på det ekstraperitoneale segment, så spidsen peger nedad mod det lille bækken og displacering modvirkes."
+},
+{
+"id": "6:21",
+"q": "Hvad bygger valg af PD-kateter hovedsageligt på?",
+"a": "Lokal tradition",
+"w": [
+"Dokumenteret overlegenhed",
+"Patientens alder"
+],
+"p": 64,
+"lvl": "U",
+"type": "fakta",
+"why": "Det er uklart, om to cuffs eller buet forløb er bedre, så valget bygger hovedsageligt på lokal tradition."
+},
+{
+"id": "6:22",
+"q": "Hvilke to hovedmetoder bruges til at anlægge PD-katetre?",
+"a": "Kirurgisk og perkutan",
+"w": [
+"Kirurgisk og endoskopisk",
+"Perkutan og radiologisk"
+],
+"p": 64,
+"lvl": "K",
+"type": "fakta",
+"why": "Kirurgisk sker ved laparoskopi eller laparotomi, perkutan med Seldinger-teknik eller ultralydsvejledt. ISPD anbefaler den metode, man lokalt har bedst resultat med."
+},
+{
+"id": "6:25",
+"q": "En patient har tidligere abdominalkirurgi og adhærencer. Hvordan anlægges PD-katetret?",
+"a": "Kirurgisk",
+"w": [
+"Perkutan blind teknik",
+"Ultralydsvejledt perkutan"
+],
+"p": 65,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved kendte komplicerende intraperitoneale tilstande som tidligere kirurgi, adhærencer eller hernier anbefales kirurgisk anlæggelse altid."
+},
+{
+"id": "6:26",
+"q": "Hvilken anlæggelse giver højere risiko for lækage?",
+"a": "Laparotomi",
+"w": [
+"Perkutan teknik"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Anlæggelse ved laparotomi giver højere risiko for lækage end perkutan teknik."
+},
+{
+"id": "6:27",
+"q": "Hvilken anæstesi kræver kirurgisk anlæggelse af PD-kateter?",
+"a": "Generel anæstesi",
+"w": [
+"Lokalbedøvelse alene",
+"Spinalanæstesi"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "Kirurgisk anlæggelse kræver generel anæstesi, mens perkutan teknik kan gøres i lokalbedøvelse."
+},
+{
+"id": "6:31",
+"q": "Hvilken bedøvelse bruges ved perkutan anlæggelse?",
+"a": "Lokalbedøvelse",
+"w": [
+"Generel anæstesi",
+"Spinalanæstesi"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "I lokalbedøvelse kan patienten hjælpe med at angive korrekt placering (rektalføling), og forløbet bliver lettere uden generel anæstesi."
+},
+{
+"id": "6:28",
+"q": "Hvor ligger den inderste cuff?",
+"a": "Mellem peritoneum og fascien",
+"w": [
+"I selve huden",
+"I tarmvæggen"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Den inderste cuff placeres mellem peritoneum og fascien, den yderste i den subkutane tunnel."
+},
+{
+"id": "6:32",
+"q": "Hvilken risiko er let øget ved perkutan anlæggelse?",
+"a": "Perforation af hulorgan",
+"w": [
+"Lækage",
+"Behov for generel anæstesi"
+],
+"p": 65,
+"lvl": "K",
+"type": "fakta",
+"why": "Perkutan teknik giver en beskeden øget risiko for perforation af et hulorgan under indgrebet."
+},
+{
+"id": "6:33",
+"q": "Hvad gør patienten før perkutan anlæggelse?",
+"a": "Tager laksativ og tømmer blæren",
+"w": [
+"Får heparin i blodet",
+"Faster i tre dage"
+],
+"p": 65,
+"lvl": "U",
+"type": "fakta",
+"why": "Før proceduren får patienten et laksativ og tømmer urinblæren."
+},
+{
+"id": "6:35",
+"q": "Hvorfor gives antibiotikum under anlæggelse af PD-kateter?",
+"a": "Som infektionsprofylakse",
+"w": [
+"Som smertelindring",
+"Som blødningsprofylakse"
+],
+"p": 66,
+"lvl": "K",
+"type": "forståelse",
+"why": "ISPD anbefaler et antibiotikum peroperativt for at forebygge infektion, som er den almindeligste kateterkomplikation."
+},
+{
+"id": "6:36",
+"q": "Hvor længe før dialysestart anlægges PD-katetret mindst?",
+"a": "To uger",
+"w": [
+"Samme dag",
+"Seks måneder"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Det anbefales at anlægge katetret minimum to uger før start."
+},
+{
+"id": "6:n0",
+"q": "Hvorfor anlægges PD-katetret mindst to uger før dialysestart?",
+"a": "For at mindske risikoen for lækage",
+"w": [
+"For at undgå peritonitis",
+"For at tarmen kan komme til hvile"
+],
+"p": 66,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tidlig dialyse øger risikoen for lækage af PD-væske. Tiden giver katetret mulighed for at hele fast i vævet."
+},
+{
+"id": "6:37",
+"q": "Dialysen skal starte tidligt efter anlæggelsen. Hvordan gennemføres den?",
+"a": "Små indløbsvolumina i liggende stilling",
+"w": [
+"Store volumina siddende",
+"Kun natdialyse i maskine"
+],
+"p": 66,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Små indløbsvolumina (1.000-1.200 ml) og liggende stilling mindsker risikoen for lækage, når man ikke kan vente to uger."
+},
+{
+"id": "6:42",
+"q": "Hvilken funktion har den subkutane tunnel?",
+"a": "Barriere mod hudbakterier",
+"w": [
+"Regulere dialysatflowet",
+"Øge trykket ved indløb"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Tunnelen virker som barriere for bakterier fra huden, og cuffen vokser fast i det subkutane væv."
+},
+{
+"id": "6:43",
+"q": "Hvor stor bør afstanden fra yderste cuff til exit-site mindst være?",
+"a": "2 cm",
+"w": [
+"0,5 cm",
+"5 cm"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Mindst 2 cm mellem yderste cuff og exit-site forebygger cuffekstrusion."
+},
+{
+"id": "6:n1",
+"q": "Hvorfor skal der være mindst 2 cm fra yderste cuff til exit-site?",
+"a": "For at undgå cuffekstrusion",
+"w": [
+"For at undgå lækage",
+"For at undgå hernie"
+],
+"p": 66,
+"lvl": "U",
+"type": "forståelse",
+"why": "Er afstanden for kort, kan cuffen blive udstødt gennem exit-site. Cuffekstrusion øger risikoen for infektion betydeligt."
+},
+{
+"id": "6:45",
+"q": "Hvilken placering af exit-site giver fysisk irritation?",
+"a": "I niveau med bukselinningen",
+"w": [
+"Lateralt på abdomen",
+"Højt på brystkassen"
+],
+"p": 66,
+"lvl": "U",
+"type": "forståelse",
+"why": "Exit-site bør ligge væk fra bukselinningen, ligesom arvæv og hudfolder bør undgås."
+},
+{
+"id": "6:46",
+"q": "Hvilken retning af exit-site giver færrest infektioner?",
+"a": "Nedadgående",
+"w": [
+"Opadgående",
+"Vandret"
+],
+"p": 66,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er evidens for, at et nedadgående exit-site giver færre tunnel- og exit-site-infektioner."
+},
+{
+"id": "6:47",
+"q": "Hvilket kateter vælges, når abdomen er uegnet til exit-site, fx ved stomier og svær adipositas?",
+"a": "Præsternalt PD-kateter",
+"w": [
+"Begravet kateter",
+"Tungstenskateter"
+],
+"p": 66,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Præsternalt kateter har exit-site fortil på thorax og bruges, når abdomen ikke egner sig. Det bruges ikke rutinemæssigt i Danmark."
+},
+{
+"id": "6:48",
+"q": "Hvad kendetegner et begravet PD-kateter (Moncrief-Popovich)?",
+"a": "Exit-site laves først efter 4-8 uger",
+"w": [
+"Exit-site laves allerede ved anlæggelsen",
+"Kateteret anlægges kun ved akut dialysestart"
+],
+"p": 66,
+"lvl": "U",
+"type": "fakta",
+"why": "Det ekstraperitoneale segment efterlades i en subkutan lomme for at mindske lækage og infektion. Fordelene er ikke sikkert påvist."
+},
+{
+"id": "6:50",
+"q": "Hvad forårsager lækage af dialysevæske langs PD-katetret?",
+"a": "Utæthed og højt tryk i bughulen",
+"w": [
+"Fibrinudfældning i kateteret",
+"Perforation af tarmen"
+],
+"p": 66,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lækage skyldes utæthed langs katetret kombineret med øget intraabdominalt tryk, fx ved tunge løft."
+},
+{
+"id": "6:51",
+"q": "Hvornår er lækage hyppigst?",
+"a": "Lige efter anlæggelsen",
+"w": [
+"Efter fem år",
+"Under peritonitis"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Lækage er hyppigst i tiden umiddelbart efter anlæggelsen, men kan komme senere ved pludseligt øget abdominaltryk."
+},
+{
+"id": "6:52",
+"q": "En PD-patient har lækage lige efter anlæggelsen. Hvad er bedste behandling?",
+"a": "Dialysepause i 2-4 uger",
+"w": [
+"Større indløbsvolumen",
+"Straks kateterskift"
+],
+"p": 67,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysepause giver tid til at hele. Kan patienten ikke undvære dialyse, kan man bruge liggende stilling og små volumina; ellers omlægges katetret."
+},
+{
+"id": "6:53",
+"q": "Hvilken tilstand øger risikoen for lækage?",
+"a": "Malnutrition med lidt underhudsfedt",
+"w": [
+"Høj alder hos patienten",
+"Mandligt køn"
+],
+"p": 67,
+"lvl": "U",
+"type": "forståelse",
+"why": "Tunnelinfektion, malnutrition med ringe subkutant fedtlag og træk på katetret den første tid øger risikoen for lækage."
+},
+{
+"id": "6:54",
+"q": "En patient med tungstenskateter har ubehag efter anlæggelsen. Hvad kan hjælpe?",
+"a": "Lidt væske hvilende i bughulen",
+"w": [
+"Større indløbsvolumen",
+"Fjerne katetret straks"
+],
+"p": 67,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ubehaget kan komme fra tungstenloddet og afhjælpes ved at lade 100-300 ml saltvand eller dialysevæske hvile intraperitonealt."
+},
+{
+"id": "6:n2",
+"q": "En PD-patient har mavesmerter. Hvad skal altid mistænkes?",
+"a": "Peritonitis",
+"w": [
+"Hernie",
+"Obstipation"
+],
+"p": 67,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Peritonitis skal altid mistænkes hos PD-patienter med mavesmerter, også selv om der er en anden mulig forklaring."
+},
+{
+"id": "6:n3",
+"q": "Hvorfor udvikles hernier hyppigt efter start på PD?",
+"a": "Øget tryk i bughulen",
+"w": [
+"Dialysatet er for varmt",
+"Patienten ligger for meget"
+],
+"p": 67,
+"lvl": "U",
+"type": "forståelse",
+"why": "Dialysevæske i bughulen øger det intraabdominale tryk. Det gælder primært umbilicalhernier."
+},
+{
+"id": "6:55",
+"q": "En PD-patient har langsomt eller ophørt udløb. Hvad er hyppigste årsag?",
+"a": "Obstipation",
+"w": [
+"Omentomlejring",
+"Fibrin"
+],
+"p": 67,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Obstipation er den hyppigste årsag til flowproblemer, og diagnosen er enkel. Andre årsager er omentomlejring, displacering og fibrin."
+},
+{
+"id": "6:56",
+"q": "Hvorfor giver omentomlejring udløbsproblemer?",
+"a": "Omentet virker som en envejsventil",
+"w": [
+"Katetret knækker i tunnelen",
+"Fibrin tilstopper sidehullerne"
+],
+"p": 67,
+"lvl": "K",
+"type": "forståelse",
+"why": "Omentet suges ind i katetrets ende- og sidehuller og tillader indløb, men blokerer udløb."
+},
+{
+"id": "6:58",
+"q": "Hvad er behandlingen af omentomlejring?",
+"a": "Omlægge katetret og evt. fjerne omentet",
+"w": [
+"Peroralt antibiotikum",
+"Daglig laksantia"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er ofte nødvendigt at omlægge katetret, og omentet fjernes samtidig, hvis muligt. Korrekt placering dybt i bækkenet gør omentomlejring sjælden."
+},
+{
+"id": "6:59",
+"q": "Hvad betyder det, at et PD-kateter er displaceret?",
+"a": "Spidsen ligger uden for det lille bækken",
+"w": [
+"Katetret er knækket over",
+"Cuffen er trukket ud"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved displacering ligger den distale del af det intraperitoneale segment uden for det lille bækken, ofte med udløbsproblemer."
+},
+{
+"id": "6:60",
+"q": "Hvordan stilles diagnosen displaceret PD-kateter?",
+"a": "Røntgengennemlysning af abdomen",
+"w": [
+"Dyrkning af dialysat",
+"Blodprøver"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Placeringen af katetret ses på røntgengennemlysning af abdomen."
+},
+{
+"id": "6:61",
+"q": "Hvor er et displaceret PD-kateter oftest placeret?",
+"a": "Under leveren",
+"w": [
+"Ved blæren",
+"I lysken"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Tarmens peristaltik fanger katetret og fører det til en anden placering, hyppigst under leveren."
+},
+{
+"id": "6:62",
+"q": "Hvorfor øger obstipation risikoen for displacering?",
+"a": "Der bliver trangt i det lille bækken",
+"w": [
+"Cuffen løsner sig fra vævet",
+"Dialysatet bliver for tykt"
+],
+"p": 67,
+"lvl": "K",
+"type": "forståelse",
+"why": "Trange pladsforhold i bækkenet pga. obstipation eller colon meteorisme øger risikoen for, at tarmen fører katetret væk."
+},
+{
+"id": "6:63",
+"q": "Et PD-kateter er displaceret. Hvad er første behandling?",
+"a": "Motion og laksantia",
+"w": [
+"Operation med det samme",
+"Peroralt antibiotikum"
+],
+"p": 67,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Første trin er motion og laksantia. Hjælper det ikke, kan man manipulere katetret i røntgengennemlysning eller omlægge det."
+},
+{
+"id": "6:64",
+"q": "Hvilke laksantia frarådes ved displacering?",
+"a": "Magnesium- og fosfatholdige",
+"w": [
+"Macrogol",
+"Lactulose"
+],
+"p": 67,
+"lvl": "D",
+"type": "fakta",
+"why": "Ved behandling med laksantia bør magnesium- og fosfatholdige undgås."
+},
+{
+"id": "6:66",
+"q": "Hvad ses i udløbet ved fibrinudfældninger?",
+"a": "Fibrintråde",
+"w": [
+"Pus",
+"Luftbobler"
+],
+"p": 67,
+"lvl": "K",
+"type": "fakta",
+"why": "Fibrin ophobes i eller omkring katetret og giver flowproblemer. Diagnosen er enkel pga. talrige fibrintråde i udløbsvæsken."
+},
+{
+"id": "6:n4",
+"q": "Flushing hjælper ikke ved fibrinudfældninger. Hvad kan tilsættes dialysevæsken?",
+"a": "Heparin",
+"w": [
+"Antibiotika",
+"Insulin"
+],
+"p": 67,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Først forsøges kraftig flushing på katetret. Er det ikke nok, kan heparin tilsættes dialysevæsken i en til to uger."
+},
+{
+"id": "6:68",
+"q": "Hvad bør cuffekstrusion føre til?",
+"a": "Fjernelse eller omlægning af katetret",
+"w": [
+"Blot observation i en uge",
+"Peroralt antibiotikum"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Cuffekstrusion øger risikoen for infektiøse komplikationer betydeligt og bør altid føre til fjernelse eller omlægning."
+},
+{
+"id": "6:69",
+"q": "Hvilke tegn har en exit-site-infektion?",
+"a": "Rødme, hævelse, pus eller ømhed",
+"w": [
+"Feber og hovedpine",
+"Kvalme og opkast"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Tegnene sidder lokalt ved exit-site. Tunnelinfektion viser sig tilsvarende over den subkutane tunnel."
+},
+{
+"id": "6:n5",
+"q": "En PD-patient har rødme og pus ved exit-site. Hvad bør altid gøres?",
+"a": "Podning fra exit-site",
+"w": [
+"Fjerne katetret straks",
+"Kun tage en blodprøve"
+],
+"p": 68,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Der bør altid podes fra exit-site ved mistanke om infektion, så behandlingen kan tilpasses dyrkningssvaret."
+},
+{
+"id": "6:70",
+"q": "Hvilke bakterier er hyppigst ved exit-site-infektion?",
+"a": "Stafylokokker",
+"w": [
+"E. coli",
+"Pseudomonas"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "De hyppigste agens er S. aureus og S. epidermidis. Pseudomonas ses i under 10 % af tunnelinfektioner."
+},
+{
+"id": "6:71",
+"q": "Hvordan behandles exit-site-infektion?",
+"a": "Peroralt antibiotikum efter dyrkningssvar",
+"w": [
+"Altid intravenøst antibiotikum",
+"Kirurgisk fjernelse af tunnelen"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Behandlingen består af perorale antibiotika i henhold til dyrkningssvaret."
+},
+{
+"id": "6:72",
+"q": "Hvad er empirisk peroral behandling af let tunnelinfektion?",
+"a": "Dicloxacillin eller flucloxacillin",
+"w": [
+"Vancomycin i.v.",
+"Gentamicin i.v."
+],
+"p": 68,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Let tunnelinfektion behandles empirisk med peroral antibiotika i 14 dage. Mere udtalte tilfælde indlægges til intravenøs behandling."
+},
+{
+"id": "6:74",
+"q": "Tunnelinfektion med tegn på sepsis. Hvad overvejes?",
+"a": "Akut fjernelse af katetret",
+"w": [
+"Flere dages observation",
+"Kun lokal antibiotikacreme"
+],
+"p": 68,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Katetret overvejes fjernet akut ved manglende bedring på antibiotika eller almenpåvirkning med sepsis, og ofte ved Pseudomonas."
+},
+{
+"id": "6:n6",
+"q": "Hvorfor fjernes katetret ofte ved infektion med Pseudomonas?",
+"a": "Tendens til dannelse af biofilm",
+"w": [
+"Det opløser silikonen",
+"Det giver altid peritonitis"
+],
+"p": 68,
+"lvl": "U",
+"type": "forståelse",
+"why": "Pseudomonas danner let biofilm på katetret, så infektionen er svær at behandle med katetret på plads."
+},
+{
+"id": "6:75",
+"q": "Hvad bør undersøges ved gentagne S. aureus-infektioner?",
+"a": "Næsebærertilstand",
+"w": [
+"Nyrefunktion",
+"Kateterlængde"
+],
+"p": 68,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved recidiverende S. aureus anbefales nasal podning for at påvise bærertilstand."
+},
+{
+"id": "6:76",
+"q": "Hvilket middel reducerer infektioner ved lokal applikation?",
+"a": "Mupirocin",
+"w": [
+"Steroidcreme",
+"Sprit"
+],
+"p": 68,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er evidens for, at lokal behandling med mupirocin reducerer antallet af infektiøse komplikationer."
+},
+{
+"id": "6:77",
+"q": "Hvad er et hypergranulom?",
+"a": "Granulationsvæv pga. mekanisk irritation",
+"w": [
+"En cyste fra tunnelen",
+"En allergisk reaktion"
+],
+"p": 68,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypergranulom dannes ved exit-site, disponerer til infektion og kan give smerter og blødning."
+},
+{
+"id": "6:78",
+"q": "Hvordan behandles hypergranulom?",
+"a": "Lokal steroidholdig creme",
+"w": [
+"Peroralt antibiotikum",
+"Fjernelse af katetret"
+],
+"p": 68,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandlingen er lokal applikation af steroidholdig creme."
+},
+{
+"id": "6:79",
+"q": "Hvad bør alle PD-afdelinger kunne?",
+"a": "Fjerne PD-katetre, akut og planlagt",
+"w": [
+"Kun anlægge nye katetre",
+"Kun skylle katetre"
+],
+"p": 68,
+"lvl": "U",
+"type": "fakta",
+"why": "Alle afdelinger med PD-behandling bør kunne fjerne katetre både akut og elektivt."
+}
+]

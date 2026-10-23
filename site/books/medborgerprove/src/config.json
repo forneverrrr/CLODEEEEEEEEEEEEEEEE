@@ -4,298 +4,146 @@
   {
    "n": 1,
    "title": "Skole",
-   "pages": "5–10",
-   "files": [
-    "s01"
-   ]
+   "pages": "5–10"
   },
   {
    "n": 2,
    "title": "Uddannelse",
-   "pages": "11–16",
-   "files": [
-    "s02"
-   ]
+   "pages": "11–16"
   },
   {
    "n": 3,
    "title": "Dagtilbud",
-   "pages": "17–20",
-   "files": [
-    "s03"
-   ]
+   "pages": "17–20"
   },
   {
    "n": 4,
    "title": "Det danske arbejdsmarked",
-   "pages": "21–29",
-   "files": [
-    "s04"
-   ]
+   "pages": "21–29"
   },
   {
    "n": 5,
    "title": "Dansk erhvervsliv",
-   "pages": "30–33",
-   "files": [
-    "s05"
-   ]
+   "pages": "30–33"
   },
   {
    "n": 6,
    "title": "Det danske velfærdssamfund",
-   "pages": "34–39",
-   "files": [
-    "s06"
-   ]
+   "pages": "34–39"
   },
   {
    "n": 7,
    "title": "Familieliv",
-   "pages": "40–45",
-   "files": [
-    "s07"
-   ]
+   "pages": "40–45"
   },
   {
    "n": 8,
    "title": "Forenings- og fritidsliv",
-   "pages": "46–51",
-   "files": [
-    "s08"
-   ]
+   "pages": "46–51"
   },
   {
    "n": 9,
    "title": "Sundhed og sygdom",
-   "pages": "52–56",
-   "files": [
-    "s09"
-   ]
+   "pages": "52–56"
   },
   {
    "n": 10,
    "title": "Ligestilling",
-   "pages": "57–60",
-   "files": [
-    "s10"
-   ]
+   "pages": "57–60"
   },
   {
    "n": 11,
    "title": "Demokrati og grundloven",
-   "pages": "61–66",
-   "files": [
-    "s11"
-   ]
+   "pages": "61–66"
   },
   {
    "n": 12,
    "title": "Det danske retssamfund",
-   "pages": "67–70",
-   "files": [
-    "s12"
-   ]
+   "pages": "67–70"
   },
   {
    "n": 13,
    "title": "Folketing og regering",
-   "pages": "71–75",
-   "files": [
-    "s13"
-   ]
+   "pages": "71–75"
   },
   {
    "n": 14,
    "title": "Det lokale selvstyre",
-   "pages": "76–80",
-   "files": [
-    "s14"
-   ]
+   "pages": "76–80"
   },
   {
    "n": 15,
    "title": "Folkestyret i praksis – valg og partier",
-   "pages": "81–87",
-   "files": [
-    "s15"
-   ]
+   "pages": "81–87"
   },
   {
    "n": 16,
    "title": "Borgernes rettigheder og pligter",
-   "pages": "88–91",
-   "files": [
-    "s16"
-   ]
+   "pages": "88–91"
   },
   {
    "n": 17,
    "title": "Religion og kirke",
-   "pages": "92–95",
-   "files": [
-    "s17"
-   ]
+   "pages": "92–95"
   },
   {
    "n": 18,
    "title": "Danmark og omverdenen",
-   "pages": "96–103",
-   "files": [
-    "s18"
-   ]
+   "pages": "96–103"
   },
   {
    "n": 19,
    "title": "Danmarks geografi og befolkning",
-   "pages": "104–106",
-   "files": [
-    "s19"
-   ]
+   "pages": "104–106"
   },
   {
    "n": 20,
    "title": "Danmarks historie før 1945",
-   "pages": "107–114",
-   "files": [
-    "s20"
-   ]
+   "pages": "107–114"
   },
   {
    "n": 21,
    "title": "Danmarks historie efter 1945",
-   "pages": "115–121",
-   "files": [
-    "s21",
-    "s21b"
-   ]
+   "pages": "115–121"
   },
   {
    "n": 22,
    "title": "Dansk kultur",
-   "pages": "122–126",
-   "files": [
-    "s22"
-   ]
+   "pages": "122–126"
   },
   {
    "n": 23,
    "title": "Traditioner og mærkedage",
-   "pages": "127–131",
-   "files": [
-    "s23"
-   ]
+   "pages": "127–131"
   },
   {
    "n": 24,
    "title": "Danmarks forsvars- og sikkerhedspolitik",
-   "pages": "132–137",
-   "files": [
-    "s24"
-   ]
+   "pages": "132–137"
   },
   {
    "n": 25,
    "title": "Diskrimination, antisemitisme, hadforbrydelser og ekstremisme",
-   "pages": "138–141",
-   "files": [
-    "s25"
-   ]
+   "pages": "138–141"
   },
   {
    "n": 26,
    "title": "Klima",
-   "pages": "142–146",
-   "files": [
-    "s26"
-   ]
+   "pages": "142–146"
   },
   {
    "n": 27,
    "title": "Ordliste",
-   "pages": "147–155",
-   "files": [
-    "s27"
-   ]
+   "pages": "147–155"
   }
  ],
- "patch": {
-  "Hvor mange procent stemte ja til EF i 1972-folkeafstemningen?": [
-   "Hvor mange procent stemte ja til EF-medlemskab ved folkeafstemningen?",
-   "63,4 procent",
-   "67 procent",
-   "50 procent",
-   "85 procent",
-   118
-  ],
-  "Hvor mange procent stemte ja til EF i 1972?": [
-   "Hvor mange procent stemte ja til EF-medlemskab ved folkeafstemningen?",
-   "63,4 procent",
-   "67 procent",
-   "50 procent",
-   "84 procent",
-   118
-  ],
-  "Hvor mange medlemmer har hvert regionsråd?": [
-   "Hvor mange medlemmer er der i hvert regionsråd?",
-   "41",
-   "19",
-   "55",
-   "179",
-   83
-  ],
-  "Hvem bestemmer, hvem der skal danne regering?": [
-   "Hvem afgør, hvilken regering der kan sidde?",
-   "Folketinget",
-   "Kongen alene",
-   "Domstolene",
-   "Regionerne",
-   72
-  ],
-  "Hvor findes det, hvor man kan finde oversigt over idrætsforeninger lokalt?": [
-   "Hvor kan man finde en oversigt over lokale idrætsforeninger?",
-   "I den enkelte kommune",
-   "Hos politiet",
-   "Hos Folketinget",
-   "Hos skolen",
-   48
-  ],
-  "Hvilke fag undervises der i i folkeskolen, og hvad hedder faget madlavning?": [
-   "Hvad hedder faget madlavning i folkeskolen?",
-   "Madkundskab",
-   "Husholdning",
-   "Køkkenfag",
-   "Ernæringslære",
-   6
-  ],
-  "Hvad har det offentlige støttet, så mange kan klare sig selv som ældre?": [
-   "Hvad er formålet med folkepensionen?",
-   "At ældre kan klare sig selv, når de ikke arbejder mere",
-   "At børn kan gå gratis i skole",
-   "At arbejdsløse får dagpenge",
-   "At studerende får SU",
-   37
-  ],
-  "Hvad begyndte fastetiden for 40 dage før påske?": [
-   "Hvad markerede fastelavn oprindeligt?",
-   "Begyndelsen på den kristne fastetid",
-   "Slutningen på julen",
-   "Begyndelsen på sommeren",
-   "Påskedag",
-   128
-  ],
-  "Hvilke fire partier er i den nuværende regering ifølge teksten?": null
- },
  "sets": {
   "count": 12,
   "perSet": 25,
   "excludeSheets": [
    27
   ],
-  "skipPerSet": 1,
-  "official": "official2025.json",
-  "officialName": "Officiel prøve, maj 2025",
-  "officialSrc": "Officiel prøve 27. maj 2025 · bogen s. {p}"
+  "skipPerSet": 1
  },
  "timeline": "timeline.json",
  "meta": {
@@ -423,5 +271,6 @@
     ]
    }
   ]
- }
+ },
+ "setsVer": "2"
 }

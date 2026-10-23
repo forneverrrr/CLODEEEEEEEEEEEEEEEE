@@ -1,0 +1,480 @@
+[
+{
+"id": "9:0",
+"q": "Hvordan betales langt de fleste sundhedsbehandlinger?",
+"a": "Over skatten",
+"w": [
+"Af patienterne selv",
+"Via private forsikringer"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste behandlinger er gratis for patienten, fordi udgifterne betales via skatterne."
+},
+{
+"id": "9:1",
+"q": "Hos hvem skal voksne selv betale en del af regningen?",
+"a": "Tandlægen",
+"w": [
+"Den praktiserende læge",
+"Det offentlige sygehus"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Tandlæge, fysioterapeut og en del af medicinen skal man selv betale en del af. Lægebesøg og offentligt sygehus er gratis."
+},
+{
+"id": "9:n0",
+"q": "Er det gratis for voksne at gå til egen læge?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal ikke betale for at gå til sin praktiserende læge."
+},
+{
+"id": "9:2",
+"q": "Hvad er det gule sundhedskort bevis på?",
+"a": "Ret til behandling",
+"w": [
+"Dansk statsborgerskab",
+"Ret til folkepension"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Sundhedskortet er bevis på, at man har ret til behandling i det offentlige sundhedsvæsen."
+},
+{
+"id": "9:n1",
+"q": "Hvornår får man et sundhedskort?",
+"a": "Ved registrering i CPR",
+"w": [
+"Når man får et arbejde",
+"Når man bliver statsborger"
+],
+"p": 53,
+"lvl": "U",
+"type": "fakta",
+"why": "Man får sundhedskortet, når man registreres i Det Centrale Personregister (CPR) i en kommune."
+},
+{
+"id": "9:3",
+"q": "Hvornår skal man medbringe sundhedskortet?",
+"a": "Ved al kontakt med sundhedsvæsenet",
+"w": [
+"Kun når man er på sygehuset",
+"Kun når man går til lægen"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Kortet skal med hver gang, fx hos lægen eller på sygehuset."
+},
+{
+"id": "9:n2",
+"q": "Kan man selv vælge sin praktiserende læge?",
+"a": "Ja, hvis lægen har plads",
+"w": [
+"Nej, kommunen vælger lægen",
+"Nej, regionen vælger lægen"
+],
+"p": 53,
+"lvl": "U",
+"type": "fakta",
+"why": "Borgerne kan som udgangspunkt frit vælge, hvis lægen har åbent for nye patienter."
+},
+{
+"id": "9:n3",
+"q": "Hvem går man normalt til først, når man bliver syg?",
+"a": "Egen læge",
+"w": [
+"Sygehuset",
+"En speciallæge"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Den praktiserende læge er normalt den første, man henvender sig til. Lægen kan behandle, ordinere medicin eller henvise."
+},
+{
+"id": "9:7",
+"q": "Hvad kalder man det, når lægen sender patienten til en speciallæge?",
+"a": "At henvise",
+"w": [
+"At ordinere",
+"At indlægge"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Lægen henviser patienten. At ordinere betyder at give medicin."
+},
+{
+"id": "9:8",
+"q": "Skal man have henvisning fra lægen, hvis man akut skal på sygehuset?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved akut sygdom eller skade skal man ikke have henvisning."
+},
+{
+"id": "9:4",
+"q": "Hvad kaldes medicin, som kræver recept fra lægen?",
+"a": "Receptpligtig medicin",
+"w": [
+"Håndkøbsmedicin",
+"Naturmedicin"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Receptpligtig medicin kræver recept. Håndkøbsmedicin kan man købe uden recept."
+},
+{
+"id": "9:6",
+"q": "Hvor kan man købe receptpligtig medicin?",
+"a": "Kun på apoteket",
+"w": [
+"I supermarkedet",
+"På biblioteket"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Receptpligtig medicin sælges kun på apoteker."
+},
+{
+"id": "9:n4",
+"q": "Hvor kan man købe håndkøbsmedicin mod hovedpine?",
+"a": "På apotek og i nogle butikker",
+"w": [
+"Kun på apotek",
+"Kun på sygehuset"
+],
+"p": 53,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Håndkøbsmedicin mod fx hovedpine og ondt i halsen kan også købes i nogle supermarkeder."
+},
+{
+"id": "9:n5",
+"q": "Hvem giver tilskud til det meste receptpligtige medicin?",
+"a": "Det offentlige",
+"w": [
+"Apotekerne selv",
+"Medicinfirmaerne"
+],
+"p": 54,
+"lvl": "U",
+"type": "fakta",
+"why": "Tilskuddet trækkes automatisk fra, når man køber medicinen, og afhænger af, hvor meget man køber i løbet af året."
+},
+{
+"id": "9:9",
+"q": "Hvem driver de offentlige sygehuse?",
+"a": "Regionerne",
+"w": [
+"Kommunerne",
+"Staten"
+],
+"p": 54,
+"lvl": "K",
+"type": "fakta",
+"why": "De offentlige sygehuse drives af de danske regioner."
+},
+{
+"id": "9:n6",
+"q": "Hvad betyder det, at behandling er ambulant?",
+"a": "Man bliver ikke indlagt",
+"w": [
+"Man ligger flere nætter",
+"Man behandles på privat sygehus"
+],
+"p": 54,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ambulant behandling sker uden indlæggelse, men man møder op på sygehusets ambulatorium."
+},
+{
+"id": "9:10",
+"q": "Hvad betyder frit sygehusvalg?",
+"a": "Man vælger selv offentligt sygehus",
+"w": [
+"Man vælger selv sin praktiserende læge",
+"Man betaler ikke for behandlingen"
+],
+"p": 54,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man kan normalt selv vælge sygehus. Vælger man uden for sin region, kan man få afslag, hvis der ikke er plads."
+},
+{
+"id": "9:11",
+"q": "Du har brækket en arm og kan selv komme afsted. Hvad gør du først?",
+"a": "Ringer til akutmodtagelsen",
+"w": [
+"Henter henvisning fra egen læge",
+"Ringer efter ambulance"
+],
+"p": 54,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man skal ringe til akutmodtagelsen, inden man møder op. Den bruges ved behov for hurtig hjælp, der ikke kræver ambulance."
+},
+{
+"id": "9:12",
+"q": "Hvor lang ventetid kan give ret til gratis behandling på et privat sygehus?",
+"a": "Mere end en måned",
+"w": [
+"Mere end en uge",
+"Mere end seks måneder"
+],
+"p": 54,
+"lvl": "K",
+"type": "fakta",
+"why": "Venter man mere end en måned på et offentligt sygehus, kan man blive henvist til et privat sygehus uden betaling."
+},
+{
+"id": "9:13",
+"q": "Hvad kan man få, hvis man taler for lidt dansk til lægen?",
+"a": "At få en tolk",
+"w": [
+"At få en anden læge",
+"At få gratis privat sygehus"
+],
+"p": 54,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man har ret til at få tolk hos lægen eller på sygehuset. I nogle tilfælde skal man betale et gebyr."
+},
+{
+"id": "9:14",
+"q": "Må forældre overnatte, når deres barn er indlagt?",
+"a": "Ja, på de fleste sygehuse",
+"w": [
+"Nej, kun i besøgstiden",
+"Kun hvis barnet er under fem år"
+],
+"p": 54,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste sygehuse tilbyder forældre at overnatte og være der uden for besøgstiden."
+},
+{
+"id": "9:15",
+"q": "Hvem ligger normalt på hver sin stue på sygehuset?",
+"a": "Mænd og kvinder",
+"w": [
+"Børn og forældre",
+"Unge og ældre"
+],
+"p": 54,
+"lvl": "D",
+"type": "fakta",
+"why": "Kvinder og mænd ligger normalt ikke på stue sammen."
+},
+{
+"id": "9:16",
+"q": "Hvad er gratis for indlagte patienter på offentlige sygehuse?",
+"a": "Mad og sengetøj",
+"w": [
+"Kun behandlingen",
+"Kun sengetøj"
+],
+"p": 54,
+"lvl": "K",
+"type": "fakta",
+"why": "Maden og sengetøj er gratis på offentlige sygehuse, ligesom behandlingen."
+},
+{
+"id": "9:17",
+"q": "Til hvilken alder er tandpleje gratis for børn og unge?",
+"a": "Til og med 21 år",
+"w": [
+"Til og med 18 år",
+"Til og med 25 år"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Børn og unge får gratis tandpleje til og med 21 år i deres kommune."
+},
+{
+"id": "9:n7",
+"q": "Hvad gælder for voksnes besøg hos tandlægen?",
+"a": "Man betaler selv, men får et tilskud fra det offentlige",
+"w": [
+"Det er helt gratis for alle",
+"Regionen betaler hele regningen"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Voksne fra 22 år vælger selv en privat tandlæge og betaler selv for undersøgelse og behandling. Det offentlige giver dog et tilskud, som trækkes fra regningen."
+},
+{
+"id": "9:n8",
+"q": "Hvad er formålet med børneundersøgelserne hos lægen?",
+"a": "At følge barnets udvikling",
+"w": [
+"At give børnene vaccinationer",
+"At teste barnets intelligens"
+],
+"p": 55,
+"lvl": "U",
+"type": "forståelse",
+"why": "Børn kan få forebyggende undersøgelser fra fem uger til fem år. De følger barnets udvikling og trivsel."
+},
+{
+"id": "9:20",
+"q": "Hvem giver børn deres vaccinationer?",
+"a": "Den praktiserende læge",
+"w": [
+"Sundhedsplejersken i hjemmet",
+"Børnesygehuset"
+],
+"p": 55,
+"lvl": "U",
+"type": "fakta",
+"why": "Børnevaccinationerne gives af den praktiserende læge og er gratis."
+},
+{
+"id": "9:n9",
+"q": "Er børnevaccinationer gratis?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Vaccinationer mod børnesygdomme er gratis. Rejsevaccinationer skal man selv betale."
+},
+{
+"id": "9:21",
+"q": "Hvilken sygdom bliver børn bl.a. vaccineret mod?",
+"a": "Mæslinger",
+"w": [
+"Malaria",
+"Gul feber"
+],
+"p": 55,
+"lvl": "U",
+"type": "fakta",
+"why": "Børn vaccineres bl.a. mod difteri, stivkrampe, kighoste, polio, mæslinger, fåresyge, røde hunde og HPV."
+},
+{
+"id": "9:22",
+"q": "Hvem betaler for vaccination før en rejse til udlandet?",
+"a": "Man selv",
+"w": [
+"Regionen",
+"Arbejdsgiveren"
+],
+"p": 55,
+"lvl": "U",
+"type": "fakta",
+"why": "Særlige vaccinationer i forbindelse med rejser skal man selv betale."
+},
+{
+"id": "9:27",
+"q": "Hvad er livsstilssygdomme?",
+"a": "Sygdomme knyttet til levevis",
+"w": [
+"Sygdomme man arver fra forældre",
+"Sygdomme man får som barn"
+],
+"p": 55,
+"lvl": "K",
+"type": "forståelse",
+"why": "De hænger sammen med måden, man lever på, fx rygning, alkohol og for fed mad. Love skal forebygge dem."
+},
+{
+"id": "9:25",
+"q": "Hvor gammel skal man mindst være for at købe cigaretter?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være fyldt 18 år for at købe cigaretter. Butikker kan kræve legitimation."
+},
+{
+"id": "9:n10",
+"q": "Alkohol over hvor mange procent kræver, at man er 18 år?",
+"a": "Over 6 procent",
+"w": [
+"Over 3 procent",
+"Over 12 procent"
+],
+"p": 55,
+"lvl": "U",
+"type": "fakta",
+"why": "Alkohol over seks procent, fx meget stærk øl, vin og spiritus, kræver 18 år. Almindelig øl kan købes fra 16 år."
+},
+{
+"id": "9:26",
+"q": "Hvor gammel skal man mindst være for at købe alkohol efter kl. 22 i en nattelivszone?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "I nattelivszoner skal man være fyldt 18 år for at købe alkohol efter klokken 22."
+},
+{
+"id": "9:28",
+"q": "Hvad gælder for rygning i busser og biografer?",
+"a": "Det er forbudt",
+"w": [
+"Det er forbudt for børn",
+"Det er tilladt i pauser"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Rygeloven forbyder rygning indendørs på offentlige steder, fx busser, sportshaller og biografer."
+},
+{
+"id": "9:29",
+"q": "Hvad gælder for rygning for elever i skoletiden?",
+"a": "Forbudt, også uden for skolens område",
+"w": [
+"Tilladt uden for skolens område",
+"Tilladt for elever over 16 år"
+],
+"p": 56,
+"lvl": "U",
+"type": "fakta",
+"why": "Elever må ikke ryge eller bruge e-cigaretter i skoletiden, heller ikke uden for skolens område."
+},
+{
+"id": "9:n11",
+"q": "Hvordan skal tobak som udgangspunkt opbevares i butikker?",
+"a": "Gemt væk fra kunderne",
+"w": [
+"Ved kassen i butikken",
+"På en åben hylde i butikken"
+],
+"p": 56,
+"lvl": "D",
+"type": "fakta",
+"why": "Tobak og e-cigaretter skal som udgangspunkt gemmes væk, så kunderne ikke kan se dem."
+}
+]

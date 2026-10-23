@@ -18,13 +18,20 @@ og i en undermappe på et eget domæne (fx `https://nordindsigt.info/ovebank/`).
 3. GitHub Pages: læg filerne i repoet, *Settings, Pages, Deploy from a branch*.
 
 ## Tilføje en ny bog (uden at røre forsiden eller motoren)
-1. `cp -r books/dialyse books/NY-BOG` og slet `book.js` og `RAPPORT.md` i den nye mappe.
-2. I `books/NY-BOG/src/q/` ligger spørgsmålene: `s01.json`, `s02.json` ... Hver række er
-   `["Spørgsmål","rigtigt svar","forkert 1","forkert 2",("forkert 3"),sidetal]`.
-3. Ret `books/NY-BOG/src/config.json`: `slug`, titel, kapitler (`sheets`), grupper og ikoner (`meta`), tekster på da/ru.
-4. Ret farver i `books/NY-BOG/theme.css`.
-5. Kør `python3 tools/build_all.py`. Det laver `book.js` og opdaterer `shared/books.js` (forsidens liste).
-6. Upload mappen `books/NY-BOG/` og `shared/books.js`. De andre bøger berøres ikke.
+1. `cp -r books/dialyse books/NY-BOG`, slet `book.js`, `RAPPORT.md`, `src/data/`, `src/chapters.json`, `src/removed.json`.
+2. Læg spørgsmål i `books/NY-BOG/src/data/s01.json`, `s02.json` ... (ét kapitel pr. fil). Hvert spørgsmål:
+   `{"id":"1:0","q":"…","a":"rigtigt","w":["forkert","forkert"],"p":13,"lvl":"K","type":"fakta","why":"forklaring"}`
+   - `id` er STABILT (fremgangen er knyttet til det). Ret aldrig et id; ved ændret betydning giv et nyt id.
+   - `lvl`: K kerne / U udvidet / D detalje (D kommer kun med i »hele bogen« og efter valg).
+   - `type`: fakta / forståelse / anvendelse. `why`: 1-2 sætninger fra kilden (påkrævet for K og U).
+3. `src/chapters.json`: `[{"n":1,"goals":["Efter kapitlet kan du …"],"keypoints":["…"]}]`.
+4. Ret `src/config.json` (slug, titel, kapitler, grupper/ikoner, tekster da/ru) og `theme.css` (farver).
+5. `python3 tools/build_all.py` laver `book.js` og opdaterer `shared/books.js` (forsidens liste).
+6. Upload `books/NY-BOG/` og `shared/books.js`. De andre bøger berøres ikke.
+Instruktion til at lade en AI lave spørgsmålene (med regler for kvalitet): se `COWORK-INSTRUKTSIYA-v2.md` i denne mappe.
+
+## Revision af spørgsmål uden at miste fremgang
+Rediger kun i `src/data/*.json` og behold `id`. Slettede spørgsmål forsvinder fra tællere, men deres statistik ligger stadig i browserens lager (markeret som forældreløs), og kommer tilbage, hvis id'et genindføres. `src/removed.json` er loggen over slettede spørgsmål.
 
 ## Data og tid
 - Alt gemmes i browserens localStorage under nøglen `nordstudy-v1`, pr. domæne og pr. enhed.

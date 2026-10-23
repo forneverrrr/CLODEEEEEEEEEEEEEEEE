@@ -1,0 +1,626 @@
+[
+{
+"id": "17:0",
+"q": "Hvad er seksuel dysfunktion (SD)?",
+"a": "Nedsat seksuel evne, som generer personen",
+"w": [
+"Kun manglende seksuel lyst hos kvinder",
+"Kun smerter ved samleje, uanset gene"
+],
+"p": 187,
+"lvl": "K",
+"type": "fakta",
+"why": "SD er nedsat evne til at initiere, udføre eller opnå ønsket seksuel aktivitet, kombineret med at man er generet. Uden gene er det ikke SD."
+},
+{
+"id": "17:1",
+"q": "Hvilket problem er hyppigt hos kvinder med SD?",
+"a": "Smerter ved sex",
+"w": [
+"Hurtig udløsning",
+"Erektil dysfunktion"
+],
+"p": 187,
+"lvl": "U",
+"type": "fakta",
+"why": "Hos kvinder er nedsat lyst og lubrikation, hæmmet orgasme og smerter ved sex de hyppigste problemer. Hurtig udløsning og ED er mandlige problemer."
+},
+{
+"id": "17:2",
+"q": "Hvilket problem er hyppigt hos mænd med SD?",
+"a": "Hurtig udløsning",
+"w": [
+"Dyspareuni",
+"Lubrikationsproblemer"
+],
+"p": 187,
+"lvl": "U",
+"type": "fakta",
+"why": "Hos mænd er ED, hurtig udløsning, nedsat lyst og hæmmet orgasme de hyppigste problemer. Dyspareuni og lubrikationsproblemer er kvindelige."
+},
+{
+"id": "17:4",
+"q": "På hvilket grundlag udvikles SD?",
+"a": "Biologiske, psykologiske og sociale faktorer",
+"w": [
+"Udelukkende biologiske faktorer",
+"Udelukkende psykologiske faktorer"
+],
+"p": 187,
+"lvl": "K",
+"type": "forståelse",
+"why": "SD udvikles på et bio-psyko-socialt grundlag. Derfor skal både krop, psyke og sociale forhold tænkes ind i udredning og behandling."
+},
+{
+"id": "17:5",
+"q": "Hvorfor er det vigtigt at inddrage seksualitet i patientbehandlingen?",
+"a": "Det kan øge livskvalitet og mestring",
+"w": [
+"Det nedsætter behovet for dialyse",
+"Det erstatter medicinsk behandling"
+],
+"p": 187,
+"lvl": "K",
+"type": "forståelse",
+"why": "For mange er seksuel trivsel og intimitet en »raskhedsfaktor«, der øger livskvaliteten og styrker mestringen af kronisk sygdom."
+},
+{
+"id": "17:6",
+"q": "Hvilken er en biologisk risikofaktor for SD?",
+"a": "Slimhindetørhed",
+"w": [
+"Skyld og skam",
+"Stigmatisering og isolation"
+],
+"p": 187,
+"lvl": "U",
+"type": "fakta",
+"why": "Slimhindetørhed hører til de biologiske faktorer sammen med bl.a. træthed, smerter og medicinbivirkninger. Skyld og stigmatisering er psykologiske/sociale."
+},
+{
+"id": "17:7",
+"q": "Hvilken er en psykologisk risikofaktor for SD?",
+"a": "Ændret kropsbillede",
+"w": [
+"Slimhindetørhed og træthed",
+"Udtyndet netværk"
+],
+"p": 187,
+"lvl": "U",
+"type": "fakta",
+"why": "Ændret kropsbillede, depression, angst og nedsat selvværd er psykologiske faktorer. Slimhindetørhed er biologisk, udtyndet netværk er socialt."
+},
+{
+"id": "17:8",
+"q": "Hvilken er en social risikofaktor for SD?",
+"a": "Isolation",
+"w": [
+"Angst og depression",
+"Smerter og kvalme"
+],
+"p": 187,
+"lvl": "U",
+"type": "fakta",
+"why": "Isolation, mistet status og udtyndet netværk er sociale faktorer. Angst er psykologisk og smerter er biologiske."
+},
+{
+"id": "17:9",
+"q": "Hvad er den hyppigste SD hos mandlige dialysepatienter?",
+"a": "Erektil dysfunktion",
+"w": [
+"Hæmmet udløsning",
+"Nedsat seksuel lyst"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "ED er den hyppigste SD hos mænd i dialyse. Nedsat lyst og ejakulations-/orgasmeproblemer er også hyppige, men ikke de hyppigste."
+},
+{
+"id": "17:10",
+"q": "Hvordan defineres erektil dysfunktion (ED)?",
+"a": "Manglende evne til at opnå/holde erektion",
+"w": [
+"Hurtig udløsning ved samleje",
+"Nedsat seksuel lyst og motivation"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "ED er manglende evne til at opnå og vedligeholde en erektion, der er tilstrækkelig til tilfredsstillende samleje. Lyst og udløsning er andre problemer."
+},
+{
+"id": "17:11",
+"q": "Hvor stor en andel af mænd i dialyse har ED?",
+"a": "Cirka 80 %",
+"w": [
+"Cirka 20 %",
+"Cirka 40 %"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Omkring 80 % af mænd i dialysebehandling har ED, så problemet er meget udbredt og bør efterspørges aktivt."
+},
+{
+"id": "17:15",
+"q": "Hvilken hormonforandring disponerer mænd i dialyse til SD?",
+"a": "Nedsat testosteron",
+"w": [
+"Forhøjet testosteron",
+"Nedsat prolaktin"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Nedsat testosteron samt forhøjede LH- og prolaktinniveauer disponerer mænd med dialysebehov til SD."
+},
+{
+"id": "17:16",
+"q": "Hvilken lægemiddelgruppe kan give hæmmet ejakulation?",
+"a": "Betablokkere",
+"w": [
+"PDE-5-hæmmere",
+"Jernpræparater"
+],
+"p": 188,
+"lvl": "U",
+"type": "fakta",
+"why": "Hæmmet ejakulation kan skyldes alder, neuropati og lægemiddelbivirkninger, fx fra betablokkere og antidepressiva."
+},
+{
+"id": "17:17",
+"q": "Hvor stor en andel af mænd i dialyse har klinisk depression?",
+"a": "20-30 %",
+"w": [
+"5 %",
+"60 %"
+],
+"p": 188,
+"lvl": "D",
+"type": "fakta",
+"why": "Cirka 20-30 % af mænd i dialyse har klinisk depression, og depression hænger sammen med ED."
+},
+{
+"id": "17:18",
+"q": "Hvad er den hyppigste SD hos kvinder med nyresygdom?",
+"a": "Nedsat seksuel lyst",
+"w": [
+"Lubrikationsproblemer",
+"Smerter ved samleje"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Nedsat seksuel lyst er den hyppigste SD hos kvinder med nyresygdom. Lubrikations-, smerte- og orgasmeproblemer er også almindelige."
+},
+{
+"id": "17:21",
+"q": "Hvad betyder dyspareuni?",
+"a": "Smerter ved samleje",
+"w": [
+"Manglende seksuel lyst",
+"Vaginal tørhed"
+],
+"p": 188,
+"lvl": "U",
+"type": "fakta",
+"why": "Dyspareuni er smerter ved samleje. Det er ikke det samme som manglende lyst; lubrikationsproblemer og smerter ved samleje nævnes som separate problemer."
+},
+{
+"id": "17:22",
+"q": "Hvad er en af de vigtigste risikofaktorer for SD hos kvinder med nyresygdom?",
+"a": "Depression",
+"w": [
+"Højt uddannelsesniveau",
+"Mange børn"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Depression er en af de vigtigste risikofaktorer for SD hos kvinder, og derfor er udredning for depression relevant ved SD."
+},
+{
+"id": "17:23",
+"q": "Hvilken model kan bruges til at strukturere samtalen om seksuelle emner?",
+"a": "PLISSIT-modellen",
+"w": [
+"SOAP-modellen til journalføring",
+"PICO-modellen til søgning"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "PLISSIT har fire trin (Permission, Limited Information, Specific Suggestions, Intensive Therapy). Jo længere ned, des mere viden kræves af behandleren."
+},
+{
+"id": "17:28",
+"q": "Hvilket PLISSIT-trin går ud på at åbne for samtalen og give tilladelse til at tale om sex?",
+"a": "Permission",
+"w": [
+"Limited Information",
+"Specific Suggestions"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Permission er første trin: behandleren signalerer, at det er acceptabelt at tale om seksualitet, og skaber et trygt rum."
+},
+{
+"id": "17:29",
+"q": "Hvilket PLISSIT-trin indebærer faktuelle oplysninger, fx om medicinbivirkninger?",
+"a": "Limited Information",
+"w": [
+"Permission",
+"Intensive Therapy"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Limited Information er at give faktuelle oplysninger om fx bivirkninger og hvad sygdom gør ved seksualiteten."
+},
+{
+"id": "17:30",
+"q": "Hvilket PLISSIT-trin indebærer konkrete forslag, fx PDE-5-hæmmer eller vaginalt østrogen?",
+"a": "Specific Suggestions",
+"w": [
+"Limited Information",
+"Intensive Therapy"
+],
+"p": 189,
+"lvl": "K",
+"type": "fakta",
+"why": "Specific Suggestions er konkrete behandlingsforslag til den specifikke problemstilling, fx PDE-5-hæmmer ved ED eller vaginalt østrogen ved lubrikationsproblemer."
+},
+{
+"id": "17:31",
+"q": "Hvilket PLISSIT-trin er specialiseret behandling ved langvarige, komplekse problemer?",
+"a": "Intensive Therapy",
+"w": [
+"Permission",
+"Specific Suggestions"
+],
+"p": 189,
+"lvl": "K",
+"type": "fakta",
+"why": "Intensive Therapy er til problemer, der ikke afhjælpes på de andre trin, og kan være urologisk, gynækologisk, psykiatrisk eller sexologisk behandling."
+},
+{
+"id": "17:32",
+"q": "Hvorfor er det svært at tale om sex under HD?",
+"a": "Flersengsstuer giver sjældent uforstyrret samtale",
+"w": [
+"Patienterne er for trætte til at tale",
+"Personalet må ikke spørge til sex"
+],
+"p": 188,
+"lvl": "K",
+"type": "forståelse",
+"why": "HD-patienter har ofte ikke adgang til uforstyrret samtale om følsomme emner, da behandlingen foregår på flersengsstuer. Der bør skabes rum for samtale på anden måde."
+},
+{
+"id": "17:33",
+"q": "Hvilken behandling af en bagvedliggende årsag kan afhjælpe SD hos dialysepatienter?",
+"a": "Korrektion af anæmi",
+"w": [
+"Øget saltindtag",
+"Mindre fysisk aktivitet"
+],
+"p": 189,
+"lvl": "K",
+"type": "forståelse",
+"why": "Behandling kan rette sig mod årsagerne: korrektion af anæmi og hormonforandringer, optimering af dialyse og ernæring samt rygestop. Fysisk aktivitet stabiliserer kredsløbet og øger velværet."
+},
+{
+"id": "17:34",
+"q": "Hvilken lægemiddelgruppe bruges mod ED, hvis der ikke er kontraindikationer?",
+"a": "PDE-5-hæmmere",
+"w": [
+"Betablokkere",
+"Loop-diuretika"
+],
+"p": 189,
+"lvl": "K",
+"type": "fakta",
+"why": "PDE-5-hæmmere er den farmakologiske behandling af ED, hvis der ikke findes kontraindikationer."
+},
+{
+"id": "17:35",
+"q": "Hvilken injektionsbehandling af ED kan urologisk ekspertise tilbyde?",
+"a": "Injektion i svulmelegemet",
+"w": [
+"Intravenøs injektion i armen",
+"Injektion i testiklerne"
+],
+"p": 189,
+"lvl": "U",
+"type": "fakta",
+"why": "Urologisk ekspertise kan inddrages, fx med intrakavernøs injektionsterapi."
+},
+{
+"id": "17:36",
+"q": "Hvorfor bør injektionsterapi mod ED hos HD-patienter ske på en ikke-dialysedag?",
+"a": "Øget blødningsrisiko",
+"w": [
+"Risiko for lavt blodtryk",
+"Risiko for infektion"
+],
+"p": 189,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved HD er blødningsrisikoen øget, derfor placeres injektionen på en dag uden dialyse."
+},
+{
+"id": "17:38",
+"q": "Hvilket ord foretrækkes frem for »impotens« ved samtale om ED?",
+"a": "Rejsningsproblem",
+"w": [
+"Sterilitet",
+"Svaghed"
+],
+"p": 189,
+"lvl": "K",
+"type": "forståelse",
+"why": "»Rejsningsproblem« er ofte mere præcist og efterlader plads til, at tilstanden kan gå over. »Impotens« lyder permanent."
+},
+{
+"id": "17:39",
+"q": "Hvordan kan man afhjælpe hæmmet udløsning?",
+"a": "Korrigere hormonforstyrrelse og diabetes",
+"w": [
+"Give mere antidepressiv medicin",
+"Øge dialysetiden markant"
+],
+"p": 189,
+"lvl": "K",
+"type": "fakta",
+"why": "Man korrigerer bagvedliggende fysiske faktorer som hormonforstyrrelse og diabetes. Hjælper det ikke, henvises til psykoterapeutisk behandling og sexologisk rådgivning."
+},
+{
+"id": "17:40",
+"q": "Hvilken farmakologisk behandling af nedsat lyst hos kvinder er godkendt?",
+"a": "Ingen",
+"w": [
+"PDE-5-hæmmere",
+"Vaginalt østrogen"
+],
+"p": 190,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er ingen godkendte farmakologiske behandlinger af nedsat lyst hos kvinder. Sexologisk behandling og rådgivning er mest anvendt."
+},
+{
+"id": "17:41",
+"q": "Hos hvilke kvinder kan testosteron- og østrogentilskud forsøges ved nedsat lyst?",
+"a": "Under og efter overgangsalder",
+"w": [
+"Gravide kvinder",
+"Unge piger i puberteten"
+],
+"p": 190,
+"lvl": "D",
+"type": "fakta",
+"why": "Tilskud kan forsøges hos kvinder under og efter overgangsalder og synes at have nogen effekt."
+},
+{
+"id": "17:42",
+"q": "Hvorfor hjælper vaginal østrogen postmenopausale kvinder med smerter ved sex?",
+"a": "Øger fugtigheden, mindsker friktionen",
+"w": [
+"Øger sexlysten direkte i hjernen",
+"Sænker blodtrykket og udrenser væske"
+],
+"p": 190,
+"lvl": "K",
+"type": "forståelse",
+"why": "Vaginal østrogen øger fugtigheden i skeden og nedsætter friktion ved samleje, så smerter og ubehag mindskes."
+},
+{
+"id": "17:44",
+"q": "Hvad er den typiske behandling af orgasmeproblemer hos kvinder?",
+"a": "Ændre medicin, der giver problemet",
+"w": [
+"Stoppe dialysebehandlingen helt",
+"Øge dosis af antidepressiva"
+],
+"p": 190,
+"lvl": "K",
+"type": "fakta",
+"why": "Behandlingen er oftest at ændre medicin, der kan give orgasmeproblemer, optimere hormonbehandling og øve fokus på seksuel stimulation."
+},
+{
+"id": "17:45",
+"q": "Hvad er fokus i sexologisk behandling af par?",
+"a": "Intimitet og nærhed",
+"w": [
+"Hyppigere samleje og orgasme",
+"Øget fertilitet"
+],
+"p": 190,
+"lvl": "U",
+"type": "forståelse",
+"why": "Behandlingen sigter på intimitet, kropslighed og nærhed med mindre fokus på samleje og orgasme som mål."
+},
+{
+"id": "17:n0",
+"q": "En mand i HD har rejsningsproblemer. Hvad bør man overveje ud over PDE-5-hæmmer?",
+"a": "Udredning for lavt testosteron",
+"w": [
+"Reduceret fysisk aktivitet",
+"Stop af al medicin"
+],
+"p": 189,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved ED bør det overvejes, om der skal henvises til udredning/behandling for lavt testosteron, da nedsat testosteron er en kønsspecifik faktor."
+},
+{
+"id": "17:n1",
+"q": "En postmenopausal kvinde i dialyse har smerter ved samleje pga. tørhed. Hvilken behandling er relevant?",
+"a": "Vaginal østrogen",
+"w": [
+"PDE-5-hæmmer som til mænd",
+"Betablokker mod tørhed"
+],
+"p": 190,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Vaginal østrogen øger fugtighed og mindsker friktion. Glidecreme kan supplere. PDE-5-hæmmere hører til mænds ED."
+},
+{
+"id": "17:n2",
+"q": "En HD-mand på betablokker og antidepressiva har svært ved at få udløsning. Hvad er en sandsynlig årsag?",
+"a": "Lægemiddelbivirkning",
+"w": [
+"Overhydrering og ødemer",
+"Hyperkaliæmi"
+],
+"p": 188,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hæmmet ejakulation kan skyldes alder, neuropati og lægemiddelbivirkninger, fx fra betablokkere og antidepressiva."
+},
+{
+"id": "17:n3",
+"q": "Hvorfor kan manglende lyst eller rejsningsproblemer belaste et parforhold?",
+"a": "De kan misforstås som manglende interesse",
+"w": [
+"De gør dialyse umulig for patienten",
+"De kræver altid indlæggelse"
+],
+"p": 189,
+"lvl": "K",
+"type": "forståelse",
+"why": "Problemerne kan misforstås som svigtende interesse. Derfor opfordres patienten til dialog med partneren, som gerne må deltage i samtalen."
+},
+{
+"id": "17:n4",
+"q": "Hvorfor skal personalet selv tage seksuelle emner op med dialysepatienter?",
+"a": "Begge parter holder sig tilbage",
+"w": [
+"Patienterne spørger altid selv først",
+"Kun læger må tale om emnet"
+],
+"p": 188,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ofte er både behandler og patient tilbageholdende. Det er personalets opgave at bryde mønsteret, og patientens oplevelse er udgangspunkt for udredningen."
+},
+{
+"id": "17:n5",
+"q": "Hvilke sygdomme hænger ED sammen med?",
+"a": "Depression og hjerte-kar-sygdom",
+"w": [
+"Astma og eksem",
+"Gigt og knogleskørhed"
+],
+"p": 188,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er fundet sammenhæng mellem ED, depression og kardiovaskulære sygdomme, så ED kan være en indikator for disse."
+},
+{
+"id": "17:n6",
+"q": "Hvordan ændrer forekomsten af ED sig med alderen hos mænd i dialyse?",
+"a": "Den stiger",
+"w": [
+"Den falder",
+"Den er uændret"
+],
+"p": 188,
+"lvl": "U",
+"type": "fakta",
+"why": "Prævalensen af ED stiger med stigende alder."
+},
+{
+"id": "17:n7",
+"q": "Hvad er den mest anvendte behandling af nedsat lyst hos kvinder?",
+"a": "Sexologisk behandling",
+"w": [
+"Testosterontilskud til alle kvinder",
+"Vaginalt østrogen"
+],
+"p": 190,
+"lvl": "K",
+"type": "fakta",
+"why": "Da der ikke findes godkendt medicin, er sexologisk behandling og rådgivning mest brugt."
+},
+{
+"id": "17:n8",
+"q": "Hvorfor kan dialysekateter og AV-fistel give seksuelle problemer?",
+"a": "De ændrer kropsbilledet og selvværdet",
+"w": [
+"De nedsætter testosteron direkte",
+"De giver smerter ved samleje"
+],
+"p": 187,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kateter og AV-fistel kan give nedsat selvværd og ændret kropsbillede, som er psykologiske risikofaktorer for SD."
+},
+{
+"id": "17:n9",
+"q": "Hvad kan give hæmmet orgasme hos kvinder med nyresygdom?",
+"a": "Anæmi",
+"w": [
+"Hyperkaliæmi",
+"Overhydrering"
+],
+"p": 188,
+"lvl": "U",
+"type": "fakta",
+"why": "Manglende eller hæmmet orgasme kan skyldes alder, anæmi, neuropati og lægemiddelbivirkninger."
+},
+{
+"id": "17:n10",
+"q": "Hvorfor er det relevant at udrede for depression ved SD?",
+"a": "Der er stærk sammenhæng mellem depression og SD",
+"w": [
+"Depression behandles med PDE-5-hæmmer",
+"Depression er sjælden ved SD"
+],
+"p": 189,
+"lvl": "K",
+"type": "forståelse",
+"why": "Depression er en vigtig risikofaktor for SD hos begge køn (stærk korrelation), så udredning for depression er relevant."
+},
+{
+"id": "17:n11",
+"q": "En kvinde i dialyse har nedsat orgasme og tager betablokker. Hvad er et relevant tiltag?",
+"a": "Overveje at ændre medicinen",
+"w": [
+"Øge dosis af betablokker",
+"Give PDE-5-hæmmer"
+],
+"p": 190,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hæmmet orgasme kan skyldes lægemiddelbivirkninger, fx fra betablokkere og antidepressiva. Behandlingen er oftest at ændre medicin."
+},
+{
+"id": "17:n12",
+"q": "En sygeplejerske forklarer en patient, hvordan en bivirkning kan påvirke sexlivet. Hvilket PLISSIT-trin er det?",
+"a": "Limited Information",
+"w": [
+"Permission",
+"Specific Suggestions"
+],
+"p": 188,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Limited Information er faktuelle oplysninger, fx om medicinbivirkninger og hvad sygdom gør ved seksualiteten."
+},
+{
+"id": "17:n13",
+"q": "En patient har langvarige, komplekse seksuelle problemer, som ikke afhjælpes af de første trin. Hvad er næste skridt?",
+"a": "Henvisning til specialiseret behandling",
+"w": [
+"Ingen yderligere indsats",
+"Øget dialysetid"
+],
+"p": 189,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Intensive Therapy er specialiseret behandling (urologisk, gynækologisk, psykiatrisk eller sexologisk) til problemer, der ikke løses på de andre trin."
+}
+]

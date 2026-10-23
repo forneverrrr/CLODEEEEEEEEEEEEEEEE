@@ -1,0 +1,378 @@
+[
+{
+"id": "14:0",
+"q": "Hvad hedder den folkevalgte forsamling i en kommune?",
+"a": "Kommunalbestyrelse",
+"w": [
+"Regionsråd",
+"Folketing"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommuner styres af en kommunalbestyrelse. Regionsråd er den tilsvarende forsamling i regionerne."
+},
+{
+"id": "14:1",
+"q": "Hvad hedder den folkevalgte forsamling i en region?",
+"a": "Regionsråd",
+"w": [
+"Kommunalbestyrelse",
+"Folketing"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Regioner styres af et regionsråd. Kommunalbestyrelsen leder kommunen."
+},
+{
+"id": "14:2",
+"q": "Hvor ofte er der valg til kommunalbestyrelser og regionsråd?",
+"a": "Hvert fjerde år",
+"w": [
+"Hvert tredje år",
+"Hvert femte år"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunalvalg og regionsrådsvalg holdes på samme tid hvert fjerde år, fx 2021 og 2025."
+},
+{
+"id": "14:4",
+"q": "Hvad er tanken med det lokale selvstyre?",
+"a": "Opgaver løses tæt på borgerne",
+"w": [
+"Staten løser alle opgaver",
+"Regionerne bestemmer alt"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Opgaver, der har med borgernes hverdag at gøre, skal løses så tæt på borgerne som muligt. Derfor har kommuner og regioner ansvar for mange opgaver."
+},
+{
+"id": "14:5",
+"q": "Hvor mange kommuner er der i Danmark?",
+"a": "98",
+"w": [
+"68",
+"128"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark har 98 kommuner af meget forskellig størrelse."
+},
+{
+"id": "14:6",
+"q": "Hvad kan man få ordnet hos kommunens borgerservice?",
+"a": "Pas og kørekort",
+"w": [
+"En dom i retten",
+"Valg til Folketinget"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Borgerservice er indgangen til kommunen. Man kan bl.a. få pas og kørekort og få svar om flytning og pension."
+},
+{
+"id": "14:7",
+"q": "Hvilke opgaver har kommunerne ansvar for?",
+"a": "Børnehaver og folkeskoler",
+"w": [
+"Sygehuse",
+"Politiet"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunerne driver bl.a. børnehaver, vuggestuer og folkeskoler. Sygehuse er regionernes opgave."
+},
+{
+"id": "14:8",
+"q": "Hvem er formand for kommunalbestyrelsen?",
+"a": "Borgmesteren",
+"w": [
+"Statsministeren",
+"Regionsrådsformanden"
+],
+"p": 79,
+"lvl": "K",
+"type": "fakta",
+"why": "Formanden for kommunalbestyrelsen er borgmesteren, som er den øverste leder af kommunens forvaltning."
+},
+{
+"id": "14:9",
+"q": "Hvad hedder borgmesteren i København?",
+"a": "Overborgmester",
+"w": [
+"Storborgmester",
+"Rådmand"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "I København kaldes borgmesteren overborgmester."
+},
+{
+"id": "14:10",
+"q": "Hvem vælger borgmesteren?",
+"a": "Den nyvalgte kommunalbestyrelse",
+"w": [
+"Borgerne direkte",
+"Regeringen"
+],
+"p": 79,
+"lvl": "K",
+"type": "fakta",
+"why": "Borgerne vælger kommunalbestyrelsen, og den vælger derefter borgmesteren."
+},
+{
+"id": "14:11",
+"q": "Hvor mange medlemmer har en kommunalbestyrelse normalt?",
+"a": "Mellem 19 og 31",
+"w": [
+"Mellem 5 og 10",
+"Mellem 50 og 100"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "Normalt er der 19-31 medlemmer. I de mindste kommuner er der dog ned til ni."
+},
+{
+"id": "14:12",
+"q": "Hvor mange medlemmer kan kommunalbestyrelsen i København højst have?",
+"a": "55",
+"w": [
+"31",
+"79"
+],
+"p": 79,
+"lvl": "D",
+"type": "fakta",
+"why": "København har op til 55 medlemmer, mere end de fleste kommuner."
+},
+{
+"id": "14:13",
+"q": "Skal antallet af medlemmer i en kommunalbestyrelse være lige eller ulige?",
+"a": "Ulige",
+"w": [
+"Lige"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "Reglen er, at antallet skal være ulige, fx 19 eller 31."
+},
+{
+"id": "14:14",
+"q": "Hvad har kommunerne ret til?",
+"a": "At udskrive skatter",
+"w": [
+"At lave love",
+"At føre krig"
+],
+"p": 79,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunerne må udskrive skatter og skaffer dermed selv en del af pengene til deres opgaver. Love laves i Folketinget."
+},
+{
+"id": "14:15",
+"q": "Hvad hedder kommunernes interesseorganisation?",
+"a": "KL",
+"w": [
+"Danske Regioner",
+"Dansk Kommuneforbund"
+],
+"p": 79,
+"lvl": "K",
+"type": "fakta",
+"why": "De 98 kommuner har interesseorganisationen KL (Kommunernes Landsforening). Danske Regioner er regionernes."
+},
+{
+"id": "14:16",
+"q": "Hvor mange regioner er der i Danmark?",
+"a": "Fem",
+"w": [
+"Tre",
+"Syv"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark er opdelt i fem regioner."
+},
+{
+"id": "14:18",
+"q": "Hvilke to regioner lægges sammen i 2027?",
+"a": "Hovedstaden og Sjælland",
+"w": [
+"Syddanmark og Midtjylland",
+"Midtjylland og Nordjylland"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Region Hovedstaden og Region Sjælland lægges sammen 1. januar 2027."
+},
+{
+"id": "14:19",
+"q": "Hvad skal Region Hovedstaden og Region Sjælland hedde, når de lægges sammen?",
+"a": "Region Østdanmark",
+"w": [
+"Region Midtdanmark",
+"Region Vestdanmark"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Den nye, sammenlagte region skal hedde Region Østdanmark."
+},
+{
+"id": "14:20",
+"q": "Hvilken region ligger Bornholm i?",
+"a": "Region Hovedstaden",
+"w": [
+"Region Sjælland",
+"Region Syddanmark"
+],
+"p": 80,
+"lvl": "U",
+"type": "fakta",
+"why": "Region Hovedstaden dækker København og omegn, Nordsjælland og Bornholm."
+},
+{
+"id": "14:21",
+"q": "Hvilken region ligger Fyn i?",
+"a": "Region Syddanmark",
+"w": [
+"Region Sjælland",
+"Region Midtjylland"
+],
+"p": 80,
+"lvl": "U",
+"type": "fakta",
+"why": "Region Syddanmark dækker Fyn samt Syd- og Sønderjylland."
+},
+{
+"id": "14:22",
+"q": "Hvilken region ligger Lolland-Falster i?",
+"a": "Region Sjælland",
+"w": [
+"Region Hovedstaden",
+"Region Syddanmark"
+],
+"p": 80,
+"lvl": "D",
+"type": "fakta",
+"why": "Region Sjælland omfatter bl.a. Lolland-Falster."
+},
+{
+"id": "14:23",
+"q": "Hvem driver de offentlige sygehuse?",
+"a": "Regionerne",
+"w": [
+"Kommunerne",
+"Staten"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Sundhedsområdet er regionernes ansvar, og de driver de offentlige sygehuse."
+},
+{
+"id": "14:24",
+"q": "Hvor får regionerne deres penge fra?",
+"a": "Direkte fra staten",
+"w": [
+"Fra skatter, de selv udskriver",
+"Fra kommunerne"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Regionerne må ikke udskrive skatter, men får pengene direkte fra staten. Det kan kommunerne gøre."
+},
+{
+"id": "14:25",
+"q": "Hvem leder en region?",
+"a": "Et regionsråd",
+"w": [
+"En borgmester",
+"Kommunalbestyrelsen"
+],
+"p": 80,
+"lvl": "K",
+"type": "fakta",
+"why": "Et regionsråd med en regionsrådsformand leder regionen. Borgmesteren leder en kommune."
+},
+{
+"id": "14:26",
+"q": "Hvad hedder regionernes interesseorganisation?",
+"a": "Danske Regioner",
+"w": [
+"KL",
+"Regionsforbundet"
+],
+"p": 80,
+"lvl": "U",
+"type": "fakta",
+"why": "Regionerne har interesseorganisationen Danske Regioner. KL er kommunernes."
+},
+{
+"id": "14:n0",
+"q": "Du vil melde dit barn i børnehave. Hvem henvender du dig til?",
+"a": "Kommunen",
+"w": [
+"Regionen",
+"Staten"
+],
+"p": 77,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Børnehaver, vuggestuer og folkeskoler drives af kommunen, så man melder sit barn ind hos kommunen."
+},
+{
+"id": "14:n1",
+"q": "Hvem hjælper ældre, der har svært ved at klare sig selv?",
+"a": "Kommunen",
+"w": [
+"Regionen",
+"Folketinget"
+],
+"p": 77,
+"lvl": "U",
+"type": "fakta",
+"why": "Kommunerne har ansvar for sociale tilbud som hjælp til ældre og til mennesker med handicap."
+},
+{
+"id": "14:n2",
+"q": "Hvem aftaler hvert år med regeringen, hvor mange penge kommunerne tilsammen må bruge?",
+"a": "KL",
+"w": [
+"Danske Regioner",
+"Folketinget"
+],
+"p": 79,
+"lvl": "U",
+"type": "forståelse",
+"why": "Regeringen aftaler det med KL. På den måde kan regeringen påvirke den samlede kommunale økonomi."
+},
+{
+"id": "14:n3",
+"q": "Hvem bestemmer, hvor mange folkeskoler der skal være i en kommune?",
+"a": "Kommunalbestyrelsen",
+"w": [
+"Regeringen",
+"KL"
+],
+"p": 79,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Kommunalbestyrelsen beslutter, hvor mange penge der bruges på velfærd, fx hvor mange skoler og børnehaver der skal være."
+}
+]

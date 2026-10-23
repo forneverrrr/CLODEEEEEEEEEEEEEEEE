@@ -1,0 +1,765 @@
+[
+{
+"id": "4:0",
+"q": "Hvem bestemmer de fleste regler om ansættelsesforhold i Danmark?",
+"a": "Arbejdsmarkedets parter",
+"w": [
+"Folketinget alene",
+"Kommunalbestyrelserne"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Kun få regler står i loven. De fleste er aftalt mellem fagforeninger og arbejdsgiverorganisationer."
+},
+{
+"id": "4:n0",
+"q": "Hvem er arbejdsmarkedets parter i Danmark?",
+"a": "Fagforeninger og arbejdsgivere",
+"w": [
+"Folketing og regering",
+"Kommuner og regioner"
+],
+"p": 22,
+"lvl": "U",
+"type": "fakta",
+"why": "Parterne er de ansattes fagforeninger og arbejdsgivernes organisationer. De forhandler overenskomster uden at staten blander sig."
+},
+{
+"id": "4:1",
+"q": "Fra hvilket år har Danmark haft systemet med aftaler mellem arbejdsmarkedets parter?",
+"a": "1899",
+"w": [
+"1849",
+"1945"
+],
+"p": 22,
+"lvl": "U",
+"type": "fakta",
+"why": "Systemet med forhandlinger mellem fagforeninger og arbejdsgivere går helt tilbage til 1899."
+},
+{
+"id": "4:2",
+"q": "Hvad kaldes aftalerne om løn og arbejdstid mellem fagforeninger og arbejdsgiverorganisationer?",
+"a": "Kollektive overenskomster",
+"w": [
+"Ansættelsesbeviser",
+"Individuelle aftaler"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Overenskomster er aftaler mellem fagforeninger og arbejdsgiverorganisationer, som regulerer løn, arbejdstid, løn under sygdom og barsel, pension og efteruddannelse."
+},
+{
+"id": "4:3",
+"q": "Hvor længe varer en overenskomst som oftest?",
+"a": "2-3 år",
+"w": [
+"6 måneder",
+"10 år"
+],
+"p": 22,
+"lvl": "U",
+"type": "fakta",
+"why": "Overenskomster gælder typisk i to eller tre år. Derefter forhandler parterne en ny."
+},
+{
+"id": "4:4",
+"q": "Hvad betyder fredspligt i en overenskomst?",
+"a": "Ingen strejke eller lockout",
+"w": [
+"Ingen fyringer i et år",
+"Intet overarbejde"
+],
+"p": 22,
+"lvl": "K",
+"type": "forståelse",
+"why": "Så længe overenskomsten gælder, må ingen af parterne strejke eller lave lockout. Det giver ro på arbejdsmarkedet."
+},
+{
+"id": "4:5",
+"q": "Hvor afgøres brud på en overenskomst?",
+"a": "I Arbejdsretten",
+"w": [
+"I Højesteret",
+"I Landsretten"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Brud på overenskomster afgøres uden for de almindelige domstole, i Arbejdsretten og faglige voldgiftsretter."
+},
+{
+"id": "4:6",
+"q": "Hvad er en strejke?",
+"a": "Ansatte standser arbejdet",
+"w": [
+"Arbejdsgiveren lukker de ansatte ude",
+"Ansatte får ekstra ferie"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved en strejke standser medlemmerne arbejdet, til der er en overenskomst. Det er fagforeningens våben. Arbejdsgiverens våben hedder lockout."
+},
+{
+"id": "4:7",
+"q": "Hvad er en lockout?",
+"a": "Arbejdsgiveren lukker ansatte ude",
+"w": [
+"Ansatte standser arbejdet",
+"Ansatte skifter fagforening"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved lockout må de ansatte, der er medlem af en fagforening, ikke komme på arbejde, før der er en overenskomst. Det er arbejdsgiverens våben."
+},
+{
+"id": "4:8",
+"q": "Hvad får ansatte i løn, mens de strejker eller er ramt af lockout?",
+"a": "Ingen løn",
+"w": [
+"Fuld løn som normalt",
+"Halv løn"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Arbejdsgiverne udbetaler ikke løn til ansatte, der strejker eller er ramt af lockout."
+},
+{
+"id": "4:9",
+"q": "Hvor stor en del af borgerne mellem 16 og 66 år har et lønmodtagerarbejde?",
+"a": "Cirka tre ud af fire",
+"w": [
+"Cirka to ud af fem",
+"Cirka ni ud af ti"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Cirka 73 procent har et lønmodtagerarbejde, altså næsten tre ud af fire. Næsten lige mange mænd og kvinder arbejder."
+},
+{
+"id": "4:10",
+"q": "Hvad kaldes det, at det er let at ansætte og fyre, mens ledige får økonomisk støtte?",
+"a": "Flexicurity",
+"w": [
+"Den danske model",
+"Fredspligt"
+],
+"p": 23,
+"lvl": "K",
+"type": "fakta",
+"why": "Flexicurity betyder fleksibilitet for arbejdsgiveren og økonomisk sikkerhed for de ansatte. Fredspligt handler i stedet om strejke og lockout."
+},
+{
+"id": "4:n1",
+"q": "Hvorfor er flexicurity en fordel for de ansatte?",
+"a": "De får støtte, hvis de fyres",
+"w": [
+"De kan ikke fyres",
+"De får højere løn"
+],
+"p": 23,
+"lvl": "K",
+"type": "forståelse",
+"why": "Arbejdsgiveren kan fyre let, men til gengæld kan ledige få dagpenge eller kontanthjælp. Fyring betyder altså ikke økonomisk ruin."
+},
+{
+"id": "4:n2",
+"q": "Der er kun lidt arbejde i en virksomhed. Hvad er let for arbejdsgiveren i Danmark?",
+"a": "At fyre medarbejdere",
+"w": [
+"At forbyde fagforeninger",
+"At indføre mindsteløn"
+],
+"p": 23,
+"lvl": "U",
+"type": "anvendelse",
+"why": "I Danmark er det relativt let at ansætte og fyre, så arbejdsgiveren kan tilpasse antallet af ansatte til arbejdsmængden."
+},
+{
+"id": "4:11",
+"q": "Hvad kan ledige få, hvis de er medlem af en a-kasse?",
+"a": "Dagpenge",
+"w": [
+"Folkepension",
+"Børnecheck"
+],
+"p": 23,
+"lvl": "K",
+"type": "fakta",
+"why": "Medlemmer af en a-kasse kan normalt få dagpenge (arbejdsløshedsdagpenge), hvis de mister deres arbejde."
+},
+{
+"id": "4:12",
+"q": "Hvad kan ledige uden a-kasse få af hjælp fra kommunen?",
+"a": "Kontanthjælp",
+"w": [
+"Dagpenge",
+"Folkepension"
+],
+"p": 23,
+"lvl": "K",
+"type": "fakta",
+"why": "Hvis man ikke er medlem af en a-kasse, kan man henvende sig til kommunen og søge kontanthjælp."
+},
+{
+"id": "4:n3",
+"q": "Hvem kan få dagpenge, hvis de bliver ledige?",
+"a": "Medlemmer af en a-kasse",
+"w": [
+"Alle borgere",
+"Medlemmer af en fagforening"
+],
+"p": 23,
+"lvl": "K",
+"type": "fakta",
+"why": "Man er normalt kun økonomisk forsikret mod ledighed som medlem af en a-kasse. Mange a-kasser er knyttet til en fagforening, men medlemskab af den er ikke et krav."
+},
+{
+"id": "4:13",
+"q": "Hvad har betydning for, om man kan få kontanthjælp, men ikke for dagpenge?",
+"a": "Indkomst og opsparing",
+"w": [
+"Alder og uddannelse",
+"Boligens størrelse og alder"
+],
+"p": 23,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kontanthjælp afhænger af personens og ægtefællens indkomst og opsparing. Dagpenge afhænger ikke af det."
+},
+{
+"id": "4:14",
+"q": "Hvad kaldes det, når arbejdsmarkedets parter bestemmer forholdene i stedet for Folketinget?",
+"a": "Den danske model",
+"w": [
+"Flexicurity",
+"Velfærdsmodellen"
+],
+"p": 24,
+"lvl": "K",
+"type": "fakta",
+"why": "Overenskomsterne dækker så stor en del af arbejdsmarkedet, at de næsten virker som en lov. Det kaldes den danske model."
+},
+{
+"id": "4:15",
+"q": "Hvem bestemmer den ugentlige arbejdstid og mindsteløn?",
+"a": "Overenskomsterne",
+"w": [
+"Folketinget og regeringen",
+"Kommunerne og regionerne"
+],
+"p": 23,
+"lvl": "K",
+"type": "forståelse",
+"why": "Folketinget bestemmer hverken arbejdstid eller mindsteløn. Det afhænger af de kollektive overenskomster."
+},
+{
+"id": "4:16",
+"q": "Hvad er bestemt ved lov på det danske arbejdsmarked?",
+"a": "Fem ugers ferie",
+"w": [
+"Mindsteløn",
+"Ugentlig arbejdstid"
+],
+"p": 24,
+"lvl": "K",
+"type": "fakta",
+"why": "Staten bestemmer kun nogle forhold ved lov, fx fem ugers ferie. Løn og arbejdstid er aftalt i overenskomster."
+},
+{
+"id": "4:n4",
+"q": "Hvad kan Folketinget gøre, hvis en strejke varer meget længe?",
+"a": "Stoppe den ved lov",
+"w": [
+"Give strejkende dagpenge",
+"Opløse fagforeningen"
+],
+"p": 24,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Folketinget har flere gange stoppet strejker og lockout ved at vedtage en lov, der bestemmer overenskomsten, fx da sygeplejerskerne strejkede i 2021."
+},
+{
+"id": "4:18",
+"q": "Hvem er ofte ikke dækket af overenskomst og forhandler derfor selv løn?",
+"a": "Fx ingeniører og jurister",
+"w": [
+"Fx SOSU-assistenter",
+"Fx chauffører og murere"
+],
+"p": 24,
+"lvl": "U",
+"type": "fakta",
+"why": "Mange højtuddannede i private firmaer, fx ingeniører, økonomer og jurister, er ikke dækket af overenskomst og forhandler selv løn og vilkår."
+},
+{
+"id": "4:19",
+"q": "Hvor stor en del af lønmodtagerne er medlem af en fagforening i dag?",
+"a": "Cirka to ud af tre",
+"w": [
+"Cirka ni ud af ti",
+"Cirka en ud af tre"
+],
+"p": 24,
+"lvl": "K",
+"type": "fakta",
+"why": "I dag er omkring 68 procent medlem. Andelen var i 1990 omkring fem ud af seks, så den er faldet."
+},
+{
+"id": "4:21",
+"q": "Hvad kaldes pengene, man betaler for at være medlem af en fagforening?",
+"a": "Kontingent",
+"w": [
+"Skat til staten",
+"Afgift"
+],
+"p": 24,
+"lvl": "K",
+"type": "fakta",
+"why": "Det koster penge at være medlem af en fagforening. Man betaler et kontingent. Medlemskab er ikke gratis."
+},
+{
+"id": "4:22",
+"q": "Hvilken fagforening passer til en kontoransat eller butiksansat?",
+"a": "HK",
+"w": [
+"3F",
+"FOA"
+],
+"p": 25,
+"lvl": "U",
+"type": "anvendelse",
+"why": "HK repræsenterer primært handel og kontor, fx butiksansatte, sekretærer og receptionister."
+},
+{
+"id": "4:23",
+"q": "Hvilken fagforening passer til en SOSU-assistent i hjemmeplejen?",
+"a": "FOA",
+"w": [
+"HK",
+"3F"
+],
+"p": 25,
+"lvl": "U",
+"type": "anvendelse",
+"why": "FOA repræsenterer primært ansatte i hjemmeplejen, SOSU-assistenter, brandmænd og kantinepersonale."
+},
+{
+"id": "4:24",
+"q": "Hvilken fagforening passer til en murer eller chauffør?",
+"a": "3F",
+"w": [
+"HK",
+"FOA"
+],
+"p": 25,
+"lvl": "U",
+"type": "anvendelse",
+"why": "3F repræsenterer typisk ansatte i industri, transport og byggeri, fx svejsere, chauffører, murere og tømrere."
+},
+{
+"id": "4:25",
+"q": "Hvad gælder om medlemskab af en fagforening?",
+"a": "Det er frivilligt",
+"w": [
+"Det er lovpligtigt",
+"Det er et krav for offentligt ansatte"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Ingen kan tvinge en ansat til at være medlem af en fagforening eller af en bestemt fagforening. Hverken arbejdsgiver eller kolleger."
+},
+{
+"id": "4:26",
+"q": "Må en arbejdsgiver fyre en ansat, fordi vedkommende melder sig ind i en fagforening?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 25,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Arbejdsgiveren må ikke fyre nogen, fordi de melder sig ind i eller ud af en fagforening. Medlemskab er frit."
+},
+{
+"id": "4:27",
+"q": "På arbejdspladser med mere end hvor mange ansatte vælger man typisk en tillidsrepræsentant?",
+"a": "Mere end 10",
+"w": [
+"Mere end 3",
+"Mere end 50"
+],
+"p": 25,
+"lvl": "U",
+"type": "fakta",
+"why": "Tillidsrepræsentanter vælges typisk på arbejdspladser med mere end ti ansatte."
+},
+{
+"id": "4:28",
+"q": "Hvem vælger tillidsrepræsentanten på en arbejdsplads?",
+"a": "Medarbejderne",
+"w": [
+"Arbejdsgiveren",
+"Medarbejderne og arbejdsgiveren sammen"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Tillidsrepræsentanter vælges blandt medarbejderne på et møde, hvor arbejdsgiveren ikke er med."
+},
+{
+"id": "4:29",
+"q": "Hvad kaldes fagforeningens møder på arbejdspladsen?",
+"a": "Klubmøder",
+"w": [
+"Samarbejdsudvalg",
+"Forældremøder"
+],
+"p": 25,
+"lvl": "D",
+"type": "fakta",
+"why": "På klubmøder diskuterer medlemmerne forhold på arbejdspladsen, fx løn, og vælger tillidsrepræsentant."
+},
+{
+"id": "4:30",
+"q": "Hvad er en tillidsrepræsentants vigtigste opgave?",
+"a": "Tale de ansattes sag over for ledelsen",
+"w": [
+"Lede virksomheden og fyre folk",
+"Betale de ansattes løn"
+],
+"p": 25,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tillidsrepræsentanten taler de ansattes sag over for ledelsen, fx ved lønforhandlinger, og giver kolleger råd. Repræsentanten har også særlig beskyttelse mod fyring."
+},
+{
+"id": "4:31",
+"q": "Hvad holder en arbejdsmiljørepræsentant øje med?",
+"a": "Fysisk og psykisk arbejdsmiljø",
+"w": [
+"Lønnen og ferieplanerne",
+"Arbejdstidens længde"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Arbejdsmiljørepræsentanten ser på de ansattes sikkerhed og sundhed, fx sikkerhedsudstyr, og kan gribe ind, hvis arbejdsgiveren ikke sørger for sikkerheden."
+},
+{
+"id": "4:32",
+"q": "En medarbejder bliver mobbet på jobbet. Hvilket arbejdsmiljø er det dårligt?",
+"a": "Det psykiske",
+"w": [
+"Det fysiske",
+"Det økonomiske"
+],
+"p": 26,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Mobning, chikane og stress hører til det psykiske arbejdsmiljø, som handler om, om medarbejderne trives."
+},
+{
+"id": "4:33",
+"q": "Hvad er et eksempel på dårligt fysisk arbejdsmiljø?",
+"a": "For meget støj",
+"w": [
+"Mobning på jobbet",
+"Stress hos de ansatte"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Fysisk arbejdsmiljø handler fx om støj, for varmt eller koldt indeklima, for lidt lys og dårlige stole. Mobning og stress er psykisk."
+},
+{
+"id": "4:34",
+"q": "Hvad har man ret til at få senest en måned efter ansættelsen?",
+"a": "Et ansættelsesbevis",
+"w": [
+"En overenskomst",
+"Et kontingent til fagforeningen"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle, der arbejder mere end tre timer om ugen i over fire uger, skal have et ansættelsesbevis senest en måned efter ansættelsen."
+},
+{
+"id": "4:35",
+"q": "Hvilke oplysninger står i et ansættelsesbevis?",
+"a": "Løn og ugentlige timer",
+"w": [
+"Helbredsoplysninger",
+"Religion og politisk holdning"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Beviset beskriver arbejdet, starttidspunkt, timer, løn, ferie, overenskomst og opsigelsesvarsel. Helbred og religion hører ikke med."
+},
+{
+"id": "4:36",
+"q": "Må en arbejdsgiver spørge en ansøger om religion?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Når man søger job, må arbejdsgiveren ikke spørge til religion. Det gælder også helbred uden betydning for jobbet, og graviditet."
+},
+{
+"id": "4:37",
+"q": "Hvilket spørgsmål er forbudt for en arbejdsgiver i en jobsamtale?",
+"a": "Om man er gravid",
+"w": [
+"Om man har relevant uddannelse",
+"Om man har tidligere erfaring"
+],
+"p": 26,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Arbejdsgiveren må ikke spørge til graviditet, planer om børn, sygedage i tidligere job eller religion."
+},
+{
+"id": "4:38",
+"q": "Hvornår må en arbejdsgiver spørge til ansøgerens helbred?",
+"a": "Når det har betydning for jobbet",
+"w": [
+"Altid, uanset jobbet",
+"Aldrig, i intet tilfælde"
+],
+"p": 26,
+"lvl": "K",
+"type": "forståelse",
+"why": "Arbejdsgiveren må kun spørge om helbredsforhold, der har betydning for arbejdet, fx ryggen ved et job i byggebranchen. Ansøgeren skal også selv oplyse om dem."
+},
+{
+"id": "4:39",
+"q": "Hvor mange timer om ugen er den mest almindelige arbejdstid?",
+"a": "37 timer",
+"w": [
+"32 timer",
+"42 timer"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "En almindelig fuldtidsuge er 37 timer, aftalt i overenskomsterne. Ved skifteholdsarbejde og fast natarbejde er den ofte lidt lavere."
+},
+{
+"id": "4:40",
+"q": "Hvem afgør, om man kan få lov til at gå på deltid?",
+"a": "Arbejdsgiveren",
+"w": [
+"Fagforeningen",
+"Kommunen eller staten"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan altid bede om nedsat tid, men det er arbejdsgiveren, der bestemmer, om man får lov."
+},
+{
+"id": "4:41",
+"q": "Kan arbejdsgiveren forlange, at en ansat går på deltid?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "Arbejdsgiveren kan ikke forlange deltid. Man kan bede om det, men arbejdsgiveren afgør, om man får lov."
+},
+{
+"id": "4:43",
+"q": "Hvor mange ugers betalt ferie har man ret til efter et helt års arbejde?",
+"a": "Fem uger",
+"w": [
+"Tre uger",
+"Otte uger"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "Man optjener cirka to feriedage pr. måned, altså fem uger på et år. Nogle har efter overenskomst en sjette ferieuge."
+},
+{
+"id": "4:n5",
+"q": "Hvor mange ugers ferie har man normalt ret til at holde i sammenhæng om sommeren?",
+"a": "Tre uger",
+"w": [
+"Én uge",
+"Fem uger"
+],
+"p": 27,
+"lvl": "U",
+"type": "fakta",
+"why": "Normalt har man ret til tre ugers sammenhængende ferie mellem 1. maj og 30. september."
+},
+{
+"id": "4:45",
+"q": "Hvad er et samarbejdsudvalg?",
+"a": "Et udvalg med ledelse og ansatte",
+"w": [
+"Et udvalg med politikere og ledere",
+"Et udvalg med to fagforeninger"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "På større arbejdspladser drøfter ledelsen og de ansattes tillidsrepræsentanter forhold på arbejdspladsen i samarbejdsudvalget."
+},
+{
+"id": "4:46",
+"q": "Efter hvor lang tid overtager kommunen ansvaret for et ledigt a-kasse-medlem?",
+"a": "Efter fire måneder",
+"w": [
+"Efter to uger",
+"Efter halvandet år"
+],
+"p": 29,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter fire måneders ledighed overtager kommunen ansvaret for at få medlemmet i arbejde og opdaterer jobplanen."
+},
+{
+"id": "4:47",
+"q": "Hvad hedder den digitale jobplan for ledige?",
+"a": "Min Plan",
+"w": [
+"Min Side",
+"Mit Job"
+],
+"p": 29,
+"lvl": "D",
+"type": "fakta",
+"why": "I Min Plan står, hvordan den ledige kommer i arbejde, samt aftaler om jobsøgningen."
+},
+{
+"id": "4:48",
+"q": "Hvad skal man gøre for at få dagpenge, ud over at have arbejdet før?",
+"a": "Stå til rådighed for jobs",
+"w": [
+"Eje sin egen bolig",
+"Have børn i hjemmet"
+],
+"p": 29,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man skal sige ja til tilbudte job, søge job aktivt og deltage i indsatser og samtaler. Ellers kan man ikke få dagpenge."
+},
+{
+"id": "4:49",
+"q": "Hvor registrerer man sig som selvstændig erhvervsdrivende?",
+"a": "Hos Erhvervsstyrelsen",
+"w": [
+"Hos politiet",
+"Hos fagforeningen eller a-kassen"
+],
+"p": 29,
+"lvl": "U",
+"type": "fakta",
+"why": "Man registrerer sig på Erhvervsstyrelsens hjemmeside og giver nogle få oplysninger."
+},
+{
+"id": "4:50",
+"q": "Hvad har en selvstændig erhvervsdrivende pligt til at føre?",
+"a": "Regnskab",
+"w": [
+"Ansættelsesbevis",
+"Klubmøde"
+],
+"p": 29,
+"lvl": "U",
+"type": "fakta",
+"why": "Selvstændige skal føre regnskab og opgive overskud eller underskud til SKAT."
+},
+{
+"id": "4:51",
+"q": "Må en arbejdsgiver fyre en kvinde, fordi hun er gravid?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 28,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Graviditet og barsel er ikke lovlige grunde til fyring. Det samme gælder køn, religion, alder, handicap og seksuel orientering."
+},
+{
+"id": "4:n6",
+"q": "Hvilken grund kan en arbejdsgiver lovligt fyre en ansat for?",
+"a": "Samarbejdsproblemer",
+"w": [
+"Graviditet",
+"Religion"
+],
+"p": 28,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fyring kræver en saglig grund, fx samarbejdsproblemer, uegnethed eller besparelser. Graviditet, religion, køn og fagforeningsmedlemskab er ikke saglige grunde."
+},
+{
+"id": "4:52",
+"q": "Hvad skal en arbejdsgiver som hovedregel have for at fyre en ansat?",
+"a": "En saglig grund",
+"w": [
+"Tilladelse fra kommunen",
+"Tilladelse fra Folketinget"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Arbejdsgiveren skal i de fleste tilfælde have en saglig og reel grund til at fyre, fx at man ikke er egnet til jobbet, samarbejdsproblemer eller besparelser."
+},
+{
+"id": "4:53",
+"q": "Hvad gælder om medlemskab af en a-kasse?",
+"a": "Det er frivilligt",
+"w": [
+"Det er lovpligtigt",
+"Det er krav for alle over 25"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal ikke være medlem af en a-kasse. Men uden medlemskab er man normalt ikke forsikret mod økonomiske følger af ledighed."
+},
+{
+"id": "4:n7",
+"q": "Hvordan foregår meget medbestemmelse på danske arbejdspladser?",
+"a": "Uformelt, ved at tale med chefen",
+"w": [
+"Ved folkeafstemning",
+"Gennem love fra Folketinget"
+],
+"p": 28,
+"lvl": "U",
+"type": "forståelse",
+"why": "Medarbejdere, der er utilfredse eller har forslag, taler normalt direkte med deres nærmeste chef. Det er mere udbredt i Danmark end i de fleste lande."
+},
+{
+"id": "4:n8",
+"q": "Hvem aftaler lønnen for offentligt ansatte typisk?",
+"a": "Fagforeninger og offentlige arbejdsgivere",
+"w": [
+"Folketinget alene",
+"Hver medarbejder selv"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "I den offentlige sektor aftales lønnen typisk centralt mellem fagforeningerne og de offentlige arbejdsgivere: stat, regioner og kommuner."
+}
+]

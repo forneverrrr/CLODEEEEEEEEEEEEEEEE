@@ -1,0 +1,685 @@
+[
+{
+"id": "2:0",
+"q": "Hvad kaldes det danske samfund ofte, fordi viden er den vigtigste ressource?",
+"a": "Et videnssamfund",
+"w": [
+"Et industrisamfund",
+"Et landbrugssamfund"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "I et videnssamfund har stadig flere et arbejde, hvor viden er den vigtigste ressource. Derfor er uddannelse helt afgørende."
+},
+{
+"id": "2:1",
+"q": "Hvad koster uddannelse som regel i Danmark?",
+"a": "Det er som regel gratis",
+"w": [
+"Den enkelte betaler det hele",
+"Kun folkeskolen er gratis"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "Uddannelse er som regel gratis i Danmark. Efteruddannelse som diplomuddannelse koster dog penge."
+},
+{
+"id": "2:2",
+"q": "Hvilke to former for ungdomsuddannelser findes der?",
+"a": "Gymnasiale uddannelser og erhvervsuddannelser",
+"w": [
+"Universiteter og professionshøjskoler",
+"Folkeskole og efterskole"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter folkeskolen vælger de fleste en ungdomsuddannelse: enten en gymnasial uddannelse eller en erhvervsuddannelse."
+},
+{
+"id": "2:3",
+"q": "Hvem er FGU (forberedende grunduddannelse) for?",
+"a": "Unge under 25 år uden uddannelse eller job",
+"w": [
+"Voksne over 25 år",
+"Udviklingshæmmede unge"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "FGU er for unge under 25 år uden ungdomsuddannelse og job, som har brug for forberedelse. Målet er uddannelse eller job."
+},
+{
+"id": "2:4",
+"q": "Hvad står FGU for?",
+"a": "Forberedende grunduddannelse",
+"w": [
+"Frivillig gymnasial uddannelse",
+"Fælles grunduddannelse"
+],
+"p": 12,
+"lvl": "U",
+"type": "fakta",
+"why": "FGU forbereder unge til en ungdomsuddannelse eller et job."
+},
+{
+"id": "2:5",
+"q": "Hvem er STU (særligt tilrettelagt ungdomsuddannelse) for?",
+"a": "Unge med særlige behov",
+"w": [
+"Alle unge efter 9. klasse",
+"Voksne over 25 år"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "STU er for unge under 25 år med særlige behov, fx udviklingshæmning, som ikke kan tage en almindelig ungdomsuddannelse."
+},
+{
+"id": "2:6",
+"q": "Giver STU i sig selv adgang til andre uddannelser?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "STU gør unge klar til voksenlivet og måske job eller uddannelse, men giver ikke i sig selv adgang til andre uddannelser."
+},
+{
+"id": "2:7",
+"q": "Hvor mange forskellige gymnasiale uddannelser er der?",
+"a": "Fire",
+"w": [
+"To",
+"Tre"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "De fire er stx, hhx, htx og hf. De forbereder især til videregående uddannelser."
+},
+{
+"id": "2:8",
+"q": "Hvilken af disse er en gymnasial uddannelse?",
+"a": "htx",
+"w": [
+"FGU",
+"AMU"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "De gymnasiale uddannelser er stx, hhx, htx og hf. FGU forbereder til ungdomsuddannelse, og AMU er korte kurser for voksne."
+},
+{
+"id": "2:9",
+"q": "Hvor lang tid varer stx, hhx og htx?",
+"a": "Tre år",
+"w": [
+"Ét år",
+"Fem år"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Stx, hhx og htx varer tre år. Kun hf er kortere."
+},
+{
+"id": "2:10",
+"q": "Hvor lang tid varer hf?",
+"a": "To år",
+"w": [
+"Tre år",
+"Fem år"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Hf varer to år, mens stx, hhx og htx varer tre år."
+},
+{
+"id": "2:11",
+"q": "Hvad afsluttes stx med?",
+"a": "Almen studentereksamen",
+"w": [
+"Merkantil studentereksamen",
+"Teknisk studentereksamen"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Stx er den almene studentereksamen. Hhx giver merkantil og htx teknisk studentereksamen."
+},
+{
+"id": "2:12",
+"q": "Hvilken gymnasial uddannelse har fag om handel, økonomi og afsætning?",
+"a": "hhx",
+"w": [
+"htx",
+"stx"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Hhx foregår på et handelsgymnasium og giver en merkantil studentereksamen."
+},
+{
+"id": "2:13",
+"q": "Hvilken gymnasial uddannelse har naturvidenskabelige og teknologiske fag?",
+"a": "htx",
+"w": [
+"hhx",
+"stx"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Htx foregår på et teknisk gymnasium og giver en teknisk studentereksamen."
+},
+{
+"id": "2:14",
+"q": "Hvilke videregående uddannelser er hf-eksamen særligt rettet mod?",
+"a": "Korte og mellemlange",
+"w": [
+"Lange universitetsuddannelser",
+"Erhvervsuddannelser"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Hf-eksamen er særligt rettet mod korte og mellemlange uddannelser på professionshøjskoler og erhvervsakademier."
+},
+{
+"id": "2:15",
+"q": "Hvad skal man have for at blive optaget på en gymnasial uddannelse?",
+"a": "9.-klasseprøven",
+"w": [
+"Studentereksamen",
+"Mindst 25 års alder"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Unge, der har afsluttet grundskolen med 9.-klasseprøven, kan optages på stx, hhx, htx og hf."
+},
+{
+"id": "2:16",
+"q": "Hvor mange forskellige erhvervsuddannelser er der cirka?",
+"a": "Over 100",
+"w": [
+"Cirka 20",
+"Cirka 50"
+],
+"p": 13,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er mere end 100 erhvervsuddannelser, som dækker alle erhverv i Danmark."
+},
+{
+"id": "2:18",
+"q": "Hvad består en erhvervsuddannelse af?",
+"a": "Grundforløb og hovedforløb",
+"w": [
+"Kun praktik i en virksomhed",
+"Kun skoleundervisning"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundforløbet er på en erhvervsskole. I hovedforløbet kombineres skole og praktisk oplæring."
+},
+{
+"id": "2:19",
+"q": "Hvor lang tid kan en erhvervsuddannelse tage?",
+"a": "Mellem 1½ og 5½ år",
+"w": [
+"Altid tre år",
+"Mellem 4 og 8 år"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "Længden afhænger af uddannelsen og varierer fra 1½ til 5½ år."
+},
+{
+"id": "2:20",
+"q": "Får man løn under en erhvervsuddannelse med uddannelsesaftale?",
+"a": "Ja, både i oplæring og skoletid",
+"w": [
+"Kun i oplæringen",
+"Nej"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Med en uddannelsesaftale med en virksomhed får man løn både i oplæringen og i skoletiden."
+},
+{
+"id": "2:21",
+"q": "Hvad får man i stedet for løn, hvis man tager oplæring på et skoleoplæringscenter?",
+"a": "Skoleoplæringsydelse",
+"w": [
+"Fuld løn",
+"SU"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Finder man ikke en læreplads, kan man som regel få oplæring på et skoleoplæringscenter. Dér får man ikke løn, men skoleoplæringsydelse."
+},
+{
+"id": "2:23",
+"q": "Hvad får man med en afsluttet eux?",
+"a": "Svendebrev og studentereksamen",
+"w": [
+"Kun et svendebrev",
+"Kun en bachelorgrad"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Eux er en erhvervsuddannelse med gymnasiale fag. Man får svendebrev med adgang til job og en erhvervsfaglig studentereksamen."
+},
+{
+"id": "2:26",
+"q": "Hvor lang tid tager en erhvervsakademiuddannelse typisk?",
+"a": "Omkring to år",
+"w": [
+"Omkring fem år",
+"Omkring ét år"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "Erhvervsakademiuddannelsen tager typisk omkring to år og kombinerer undervisning med praktik."
+},
+{
+"id": "2:28",
+"q": "Hvor lang tid tager en professionsbacheloruddannelse normalt?",
+"a": "Tre til fire år",
+"w": [
+"Ét år",
+"Seks år"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "Professionsbacheloruddannelser tager normalt tre-fire år og indeholder praktik."
+},
+{
+"id": "2:29",
+"q": "Hvilket job kan man uddanne sig til på en professionshøjskole?",
+"a": "Sygeplejerske",
+"w": [
+"Læge",
+"Smed"
+],
+"p": 15,
+"lvl": "K",
+"type": "fakta",
+"why": "På professionshøjskoler uddannes man til fx lærer, sygeplejerske, pædagog og socialrådgiver. Læge læser man på universitetet."
+},
+{
+"id": "2:30",
+"q": "Hvor mange universiteter er der i Danmark?",
+"a": "Otte",
+"w": [
+"Fire",
+"Tolv"
+],
+"p": 15,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "2:32",
+"q": "Hvad står SU for?",
+"a": "Statens Uddannelsesstøtte",
+"w": [
+"Studerendes Understøttelse",
+"Statslig Undervisning"
+],
+"p": 15,
+"lvl": "K",
+"type": "fakta",
+"why": "SU er økonomisk støtte fra staten til dem, der studerer på en uddannelse godkendt til SU."
+},
+{
+"id": "2:33",
+"q": "Hvilken betingelse skal man opfylde for at få SU?",
+"a": "Man skal være studieaktiv",
+"w": [
+"Man skal være dansk statsborger",
+"Man skal være over 30 år"
+],
+"p": 15,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være indskrevet på en SU-godkendt uddannelse, være studieaktiv og ikke tjene for meget ved siden af. Ikke-statsborgere kan søge om samme støtte."
+},
+{
+"id": "2:34",
+"q": "Hvad er en diplomuddannelse?",
+"a": "En deltidsuddannelse på bachelorniveau",
+"w": [
+"En erhvervsuddannelse",
+"En ungdomsuddannelse"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "Diplomuddannelse er til folk med uddannelse og erfaring. Den tages på deltid og svarer fagligt til en bacheloruddannelse."
+},
+{
+"id": "2:35",
+"q": "Skal man betale for at tage en diplomuddannelse?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 16,
+"lvl": "U",
+"type": "fakta",
+"why": "Diplomuddannelsen tager typisk to til tre år på deltid, og man betaler selv for den."
+},
+{
+"id": "2:36",
+"q": "Hvad står AMU for?",
+"a": "Arbejdsmarkedsuddannelser",
+"w": [
+"Almen Moderne Uddannelse",
+"Arbejdsmæssig Ungdomsuddannelse"
+],
+"p": 16,
+"lvl": "U",
+"type": "fakta",
+"why": "AMU er korte kursusforløb for voksne inden for fx handel, sundhed, bygge/anlæg og transport."
+},
+{
+"id": "2:37",
+"q": "Hvem er AMU-kurserne primært rettet mod?",
+"a": "Faglærte og ufaglærte",
+"w": [
+"Kun akademikere",
+"Kun børn"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "AMU er korte kurser for voksne, primært faglærte og ufaglærte."
+},
+{
+"id": "2:38",
+"q": "En 35-årig har svært ved at læse og regne. Hvilket kursus kan hun tage på VUC?",
+"a": "FVU",
+"w": [
+"AMU",
+"Diplomuddannelse"
+],
+"p": 16,
+"lvl": "K",
+"type": "anvendelse",
+"why": "FVU er for voksne med problemer med at læse, stave eller regne. Det tages på VUC."
+},
+{
+"id": "2:39",
+"q": "Hvad står VUC for?",
+"a": "Voksenuddannelsescentre",
+"w": [
+"Videregående Uddannelsescenter",
+"Virksomheders Uddannelsescenter"
+],
+"p": 16,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "2:40",
+"q": "Hvad kaldes kurser for ordblinde voksne på VUC?",
+"a": "OBU",
+"w": [
+"FVU",
+"AMU"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "OBU står for ordblindeundervisning og giver bedre muligheder for at klare sig, når man skal læse eller skrive."
+},
+{
+"id": "2:41",
+"q": "Hvor gammel skal man normalt være for at blive optaget på FVU, OBU og avu?",
+"a": "Fyldt 25 år",
+"w": [
+"Fyldt 18 år",
+"Fyldt 30 år"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal normalt være fyldt 25 år for at komme på FVU og OBU, og som hovedregel for avu."
+},
+{
+"id": "2:42",
+"q": "Hvad står avu for?",
+"a": "Almen voksenuddannelse",
+"w": [
+"Almen videregående uddannelse",
+"Arbejdsmarkedsuddannelse"
+],
+"p": 16,
+"lvl": "U",
+"type": "fakta",
+"why": "Avu giver voksne bedre muligheder for videre uddannelse og for at deltage aktivt i et demokratisk samfund."
+},
+{
+"id": "2:43",
+"q": "Hvilket niveau har fagene på avu?",
+"a": "Enkeltfag på grundskoleniveau",
+"w": [
+"Fag på universitetsniveau",
+"Kun erhvervsfag"
+],
+"p": 16,
+"lvl": "U",
+"type": "fakta",
+"why": "På avu tager voksne enkeltfag som dansk, engelsk og matematik. Højeste niveau (D) passer til hf."
+},
+{
+"id": "2:n0",
+"q": "Hvad kaldes uddannelse, der er rettet mod voksne over 25 år i erhvervsuddannelserne?",
+"a": "euv",
+"w": [
+"eud",
+"eux"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Erhvervsuddannelserne har tre spor: eud for unge, euv for voksne over 25 år og eux som kombination med gymnasial eksamen."
+},
+{
+"id": "2:n1",
+"q": "Hvilket område hører til erhvervsuddannelserne?",
+"a": "Sundhed, omsorg og pædagogik",
+"w": [
+"Jura og økonomi",
+"Humanistisk videnskab"
+],
+"p": 13,
+"lvl": "U",
+"type": "fakta",
+"why": "Et af de fire hovedområder er sundhed, omsorg og pædagogik. Jura og humaniora læses på universitet."
+},
+{
+"id": "2:n2",
+"q": "Hvilket sted er en videregående uddannelsesinstitution?",
+"a": "Professionshøjskole",
+"w": [
+"Gymnasium",
+"Efterskole"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Videregående uddannelser tages bl.a. på erhvervsakademier, professionshøjskoler og universiteter."
+},
+{
+"id": "2:n3",
+"q": "Hvor lang tid tager en bacheloruddannelse på universitetet typisk?",
+"a": "Omkring tre år",
+"w": [
+"Omkring ét år",
+"Omkring fem år"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "En bachelor tager typisk omkring tre år. Derefter kan man tage en kandidatuddannelse på cirka to år."
+},
+{
+"id": "2:n4",
+"q": "Hvor tager man en kandidatuddannelse?",
+"a": "På et universitet",
+"w": [
+"På en professionshøjskole",
+"På et erhvervsakademi"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "Universiteter udbyder lange videregående uddannelser: bachelor og kandidat."
+},
+{
+"id": "2:n5",
+"q": "Er undervisningen gratis på de offentlige gymnasier?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 12,
+"lvl": "K",
+"type": "fakta",
+"why": "På de offentlige gymnasier er undervisningen gratis. Uddannelse er som regel gratis i Danmark."
+},
+{
+"id": "2:n6",
+"q": "Hvorfor er uddannelse vigtig på det danske arbejdsmarked?",
+"a": "De fleste job kræver en uddannelse",
+"w": [
+"De fleste job er i landbruget",
+"Uddannelse er dyr"
+],
+"p": 12,
+"lvl": "K",
+"type": "forståelse",
+"why": "De fleste job på det danske arbejdsmarked kræver en uddannelse. Derfor spiller uddannelse en afgørende rolle for unge og voksne."
+},
+{
+"id": "2:n7",
+"q": "Du vil være elektriker. Hvilken slags uddannelse skal du tage?",
+"a": "En erhvervsuddannelse",
+"w": [
+"En gymnasial uddannelse",
+"En professionsbacheloruddannelse"
+],
+"p": 14,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Erhvervsuddannelser fører til job som faglært, fx elektriker, mekaniker og murer. Gymnasiale uddannelser forbereder til videregående uddannelse."
+},
+{
+"id": "2:n8",
+"q": "En 19-årig har hverken job eller ungdomsuddannelse og har brug for en forberedende indsats. Hvad kan hun tage?",
+"a": "FGU",
+"w": [
+"AMU",
+"Diplomuddannelse"
+],
+"p": 12,
+"lvl": "U",
+"type": "anvendelse",
+"why": "FGU er for unge under 25 år uden uddannelse og job. Formålet er at gøre dem klar til en ungdomsuddannelse eller et job."
+},
+{
+"id": "2:n9",
+"q": "Hvad kan være et adgangskrav til en videregående uddannelse?",
+"a": "Bestemte fag på gymnasiet",
+"w": [
+"Mindst 30 års alder",
+"Medlemskab af en fagforening"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "De enkelte uddannelser har egne adgangskrav, fx bestemte fag fra gymnasiet eller et bestemt karaktergennemsnit."
+},
+{
+"id": "2:n10",
+"q": "Hvor foregår oplæringen i en erhvervsuddannelse som regel?",
+"a": "I en virksomhed",
+"w": [
+"På et universitet",
+"På et gymnasium"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "I hovedforløbet kombineres skoleundervisning med praktisk oplæring, som man som regel får i en virksomhed."
+},
+{
+"id": "2:n11",
+"q": "Hvor kan man få oplæring, hvis man ikke finder en læreplads?",
+"a": "På et skoleoplæringscenter",
+"w": [
+"På et universitet",
+"På et gymnasium"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis eleven ikke finder læreplads efter grundforløbet, kan oplæringen i de fleste tilfælde ske på et skoleoplæringscenter."
+},
+{
+"id": "2:n12",
+"q": "Hvem kan tage de fleste videregående uddannelser gratis?",
+"a": "Borgere i Danmark og EU",
+"w": [
+"Kun danske statsborgere",
+"Alle i hele verden"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste videregående uddannelser er gratis for borgere i Danmark og EU."
+},
+{
+"id": "2:n13",
+"q": "Kan man søge om SU, hvis man ikke er dansk statsborger?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "Er man ikke dansk statsborger, kan man søge Uddannelses- og Forskningsstyrelsen om samme økonomiske støtte som danske statsborgere."
+},
+{
+"id": "2:n14",
+"q": "Hvad betyder livslang læring?",
+"a": "Læring gennem hele livet",
+"w": [
+"Læring kun i folkeskolen",
+"Læring kun for unge"
+],
+"p": 16,
+"lvl": "U",
+"type": "forståelse",
+"why": "Livslang læring betyder, at man lærer hele livet. Derfor kan voksne med en uddannelse videreuddanne sig, fx med AMU eller diplomuddannelse."
+}
+]

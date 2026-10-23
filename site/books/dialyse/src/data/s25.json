@@ -1,0 +1,453 @@
+[
+{
+"id": "25:0",
+"q": "Hvad er nyretransplantation bedre end dialyse til?",
+"a": "Livskvalitet, mortalitet og restlevetid",
+"w": [
+"Kun pris og hastighed",
+"Kun komorbiditet"
+],
+"p": 243,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved terminal nyresygdom har transplantation flere fordele end dialyse for livskvalitet, mortalitet og forventet restlevetid, hos patienter i alle aldre."
+},
+{
+"id": "25:1",
+"q": "Hvorfor er der statistisk overdødelighed i månederne efter transplantation?",
+"a": "Operation og immunsuppression øger dødsrisikoen",
+"w": [
+"Dårlig kost efter operationen",
+"Manglende dialyse efter indgrebet"
+],
+"p": 243,
+"lvl": "K",
+"type": "forståelse",
+"why": "Især patienter med høj komorbiditet og høj alder risikerer at få skade af indgrebet og medicinen."
+},
+{
+"id": "25:n0",
+"q": "Hvilke patienter har ikke nødvendigvis gavn af nyretransplantation?",
+"a": "Patienter med høj komorbiditet og høj alder",
+"w": [
+"Unge uden komorbiditet",
+"Patienter med kort dialysetid"
+],
+"p": 243,
+"lvl": "K",
+"type": "forståelse",
+"why": "Operation og immunsuppression øger dødsrisikoen, så for dårlige patienter kan en udredning være urimelig."
+},
+{
+"id": "25:n1",
+"q": "Hvilke patienter bør vurderes med henblik på nyretransplantation?",
+"a": "Alle med forventet dialysekrævende nyresvigt",
+"w": [
+"Kun patienter under 60 år",
+"Kun patienter uden komorbiditet"
+],
+"p": 243,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle patienter, der forventes at ende i dialyse, bør vurderes. Alder er ikke i sig selv en absolut kontraindikation."
+},
+{
+"id": "25:4",
+"q": "Ved hvilken GFR påbegyndes udredning til transplantation ofte?",
+"a": "GFR under 15 ml/min.",
+"w": [
+"GFR under 5 ml/min.",
+"GFR under 45 ml/min."
+],
+"p": 243,
+"lvl": "K",
+"type": "fakta",
+"why": "Udredningen startes, når GFR er under 15 ml/min. eller hurtigt nærmer sig det niveau."
+},
+{
+"id": "25:5",
+"q": "Hvilken tilstand er en absolut kontraindikation for nyretransplantation?",
+"a": "Ikke-radikalt behandlet cancer",
+"w": [
+"Høj alder over 75 år",
+"Kronisk hepatitis eller HIV"
+],
+"p": 244,
+"lvl": "K",
+"type": "fakta",
+"why": "Absolutte kontraindikationer er få: ikke-radikalt behandlet cancer, ikke-saneret infektion og informeret fravalg."
+},
+{
+"id": "25:6",
+"q": "Er høj alder i sig selv en absolut kontraindikation for nyretransplantation?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 244,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er ingen øvre aldersgrænse, men kontraindicerende komorbiditet er hyppigere hos ældre."
+},
+{
+"id": "25:7",
+"q": "Hvorfor er grundig information før transplantation vigtig?",
+"a": "Den mindsker risiko for non-compliance og grafttab",
+"w": [
+"Den forkorter ventetiden",
+"Den erstatter udredningen"
+],
+"p": 244,
+"lvl": "K",
+"type": "forståelse",
+"why": "Non-compliance medfører næsten altid grafttab. Information om risici, kontroller og bivirkninger forbedrer samarbejdet."
+},
+{
+"id": "25:8",
+"q": "Hvorfor skal tidligere cancer være recidivfri en tid før transplantation?",
+"a": "Immunsuppression kan fremme metastasering",
+"w": [
+"Immunsuppression helbreder cancer",
+"Cancer afstøder graften"
+],
+"p": 244,
+"lvl": "K",
+"type": "forståelse",
+"why": "Patienter med tidligere cancer kan oftest accepteres, når de har været recidivfri i en periode, der afhænger af cancertype og udbredelse."
+},
+{
+"id": "25:9",
+"q": "Hvilket screeningsprogram skal recipienten som minimum have fulgt?",
+"a": "Det nationale cancerscreeningsprogram",
+"w": [
+"Hjertescreening",
+"Knogletæthedsscreening"
+],
+"p": 244,
+"lvl": "U",
+"type": "fakta",
+"why": "Sammen med en nøje anamnese skal screeningen sikre, at skjult cancer ikke forværres af immunsuppression."
+},
+{
+"id": "25:10",
+"q": "En dialysepatient har kronisk hepatitis C. Er det i sig selv en kontraindikation for transplantation?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 244,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kroniske infektioner som hepatitis og HIV er ikke i sig selv kontraindikation, men sygdomsstatus skal udredes før transplantation."
+},
+{
+"id": "25:11",
+"q": "En patient med fokal segmental glomerulær sklerose skal transplanteres. Hvilken risiko er høj?",
+"a": "Recidiv i graften",
+"w": [
+"Primær afstødning",
+"Ureterstenose"
+],
+"p": 244,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Også hæmolytisk uræmisk syndrom kan recidivere i graften og give tidligt grafttab."
+},
+{
+"id": "25:12",
+"q": "Hvornår kan nativ nefrektomi være nødvendig før transplantation?",
+"a": "Ved store cystenyrer (ADPKD)",
+"w": [
+"Ved diabetes mellitus",
+"Ved svær hypertension"
+],
+"p": 244,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved ADPKD kan der af pladshensyn være brug for at fjerne de native nyrer før implantation af graften."
+},
+{
+"id": "25:14",
+"q": "Hvilke patienter er især i risiko for kardiovaskulær død efter transplantation?",
+"a": "Patienter med diabetes",
+"w": [
+"Patienter under 30 år",
+"Patienter med PD"
+],
+"p": 244,
+"lvl": "K",
+"type": "fakta",
+"why": "Omkring halvdelen af grafttab skyldes patientdød, overvejende kardiovaskulær sygdom."
+},
+{
+"id": "25:n2",
+"q": "Hvorfor vurderes recipientens hjerte og lunger nøje før transplantation?",
+"a": "Operation og væskebehandling belaster dem",
+"w": [
+"Donornyren skader hjertet",
+"Dialyse skader lungerne"
+],
+"p": 244,
+"lvl": "U",
+"type": "forståelse",
+"why": "Resultatet afgør, om patienten kan accepteres direkte eller efter behandling, fx koronar revaskularisering."
+},
+{
+"id": "25:15",
+"q": "Hvad undersøges klinisk for at vurdere aterosklerose før transplantation?",
+"a": "Pulsforhold i lysker og på fødder",
+"w": [
+"Lungelyde ved lytning",
+"Senereflekser"
+],
+"p": 244,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Aterosklerose i bækkenkarrene kan gøre isætning af graften umulig. Undersøgelsen kan udvides med ultralyd eller CT."
+},
+{
+"id": "25:16",
+"q": "Hvad kan ikke-erkendt blæredysfunktion kompromittere?",
+"a": "Nyregraftens funktion",
+"w": [
+"Hjertets funktion",
+"Lungernes funktion"
+],
+"p": 244,
+"lvl": "K",
+"type": "fakta",
+"why": "Blæredysfunktion og infravesikal obstruktion bør vurderes, helst inden urinproduktionen ophører, fx med flow- og residualurinmåling."
+},
+{
+"id": "25:17",
+"q": "Hvorfor er misbrug en risiko efter transplantation, selv om patienten klarer sig i dialyse?",
+"a": "Den sociale kontakt med dialysepersonalet forsvinder",
+"w": [
+"Immunsuppression forstærker rusmidler",
+"Dialyse behandler misbruget"
+],
+"p": 245,
+"lvl": "K",
+"type": "forståelse",
+"why": "Uden den regelmæssige kontakt kan misbruget accelerere og føre til helbredsmæssig deroute. Behandling af misbrug er en forudsætning."
+},
+{
+"id": "25:18",
+"q": "En potentiel recipient har BMI 33 og betydende intraabdominal fedme. Hvem bør vurdere ham?",
+"a": "Transplantationskirurg",
+"w": [
+"Kardiolog",
+"Psykiater ved første konsultation"
+],
+"p": 245,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Intraabdominal fedme kan gøre det teknisk vanskeligt at indsætte graften."
+},
+{
+"id": "25:19",
+"q": "Hvorfor vaccineres recipienten før transplantationen?",
+"a": "Immunsuppression nedsætter vaccinationssvaret",
+"w": [
+"Vacciner er billigere før",
+"Levende vacciner virker bedst efter"
+],
+"p": 245,
+"lvl": "K",
+"type": "forståelse",
+"why": "Efter start på immunsuppression er svaret på vaccination nedsat, og levende vacciner frarådes."
+},
+{
+"id": "25:n3",
+"q": "Hvilken vaccinetype frarådes under immunsuppression?",
+"a": "Levende, svækket vaccine",
+"w": [
+"Dødvaccine",
+"Alle vacciner"
+],
+"p": 245,
+"lvl": "U",
+"type": "fakta",
+"why": "Med nedsat immunforsvar kan levende vacciner give sygdom. Vaccinationsprogrammet bør derfor gennemføres før transplantationen."
+},
+{
+"id": "25:20",
+"q": "Hvor ofte revurderes patienter på ventelisten mindst?",
+"a": "Én gang årligt",
+"w": [
+"Hver måned",
+"Hvert 5. år"
+],
+"p": 245,
+"lvl": "U",
+"type": "fakta",
+"why": "Det skal vurderes, om de stadig er transplantable, og igen ved indlæggelsen til transplantation."
+},
+{
+"id": "25:21",
+"q": "Hvad er en afgørende forudsætning for donation fra en levende donor?",
+"a": "Frivillighed efter grundig information",
+"w": [
+"Slægtskab med recipienten",
+"Alder under 30 år"
+],
+"p": 245,
+"lvl": "K",
+"type": "fakta",
+"why": "Donor skal kende risici ved donation og beslutte frit. Donationen må ikke kompromittere donors helbred."
+},
+{
+"id": "25:22",
+"q": "Skal en levende donor være i familie med recipienten?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 245,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er intet krav om slægts- eller bekendtskab, og man kan melde sig som anonym donor."
+},
+{
+"id": "25:23",
+"q": "Hvad er mindstealderen for en levende nyredonor?",
+"a": "18 år",
+"w": [
+"16 år",
+"25 år"
+],
+"p": 245,
+"lvl": "K",
+"type": "fakta",
+"why": "Donor skal være fyldt 18 år."
+},
+{
+"id": "25:25",
+"q": "Hvor meget højere er risikoen for nyresvigt efter nyredonation?",
+"a": "Cirka 3 gange",
+"w": [
+"Cirka 10 gange",
+"Uændret"
+],
+"p": 247,
+"lvl": "U",
+"type": "fakta",
+"why": "Den tilbageværende nyre kompenserer delvist, og den absolutte livstidsrisiko er lav."
+},
+{
+"id": "25:26",
+"q": "Hvad er den absolutte livstidsrisiko for nyresvigt efter donation?",
+"a": "Lav, under 1 %",
+"w": [
+"Moderat, ca. 10 %",
+"Høj, ca. 30 %"
+],
+"p": 247,
+"lvl": "U",
+"type": "fakta",
+"why": "Risikoen er cirka tredoblet, men absolut lav, og det er et krav, at centret kan tilbyde livslang opfølgning."
+},
+{
+"id": "25:27",
+"q": "Er kommercielt drevet nyredonation tilladt?",
+"a": "Forbudt i næsten alle lande",
+"w": [
+"Tilladt i hele Europa",
+"Tilladt, hvis donor er frivillig"
+],
+"p": 247,
+"lvl": "U",
+"type": "fakta",
+"why": "Kommercielt drevet donation er forbudt i næsten alle verdens lande."
+},
+{
+"id": "25:28",
+"q": "Hvilken tilstand er eksklusionskriterium for en levende donor?",
+"a": "Diabetes mellitus",
+"w": [
+"Alder på 35 år",
+"Normalt blodtryk"
+],
+"p": 246,
+"lvl": "K",
+"type": "fakta",
+"why": "Andre kriterier er bl.a. nedsat GFR for alder, proteinuri, BMI over 30, svær infektion og hypertension, som ikke let kan behandles."
+},
+{
+"id": "25:n4",
+"q": "En potentiel levende donor har vedvarende proteinuri. Kan hun donere?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 246,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Proteinuri er et eksklusionskriterium for levende nyredonation (tabel 25.1). Donationen må ikke kompromittere donors helbred (s. 245)."
+},
+{
+"id": "25:30",
+"q": "Hvilken GFR-måling indgår i donorudredningen?",
+"a": "Målt GFR, fx Tc-99m-DTPA",
+"w": [
+"Kun eGFR fra kreatinin",
+"Kun urinstix og stix-albumin"
+],
+"p": 246,
+"lvl": "U",
+"type": "fakta",
+"why": "Donor skal have målt GFR, så nyrefunktionen er sikker, før en nyre afgives."
+},
+{
+"id": "25:32",
+"q": "Hvad kræves for nyredonation fra en afdød donor?",
+"a": "Donorregister-tilsagn eller pårørendes accept",
+"w": [
+"Politiets tilladelse",
+"Recipientens accept"
+],
+"p": 247,
+"lvl": "K",
+"type": "fakta",
+"why": "Uden tidligere tilsagn i donorregistret skal pårørende acceptere."
+},
+{
+"id": "25:33",
+"q": "Hvilken tilstand hos en afdød donor er absolut kontraindikation for nyredonation?",
+"a": "HIV-infektion",
+"w": [
+"eGFR under 60 ml/min.",
+"Hepatitis B-positiv donor"
+],
+"p": 247,
+"lvl": "K",
+"type": "fakta",
+"why": "Absolutte kontraindikationer er også negativ donortilkendegivelse, ukontrollabel septikæmi og pågående systemisk virusinfektion."
+},
+{
+"id": "25:34",
+"q": "Hvilket fund hos en afdød donor er kun en relativ kontraindikation?",
+"a": "eGFR under 60 ml/min.",
+"w": [
+"HIV-infektion",
+"Ukontrollabel septikæmi"
+],
+"p": 247,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved eGFR under 60 kan man i visse tilfælde overveje at transplantere begge nyrer til samme recipient. Hepatitis B/C-positiv donor til negativ recipient kræver behandling af recipienten."
+},
+{
+"id": "25:n5",
+"q": "Hvad kræves af donationscentret efter levende nyredonation?",
+"a": "At kunne sikre livslang opfølgning af donor",
+"w": [
+"Opfølgning i to år",
+"Tvungen opfølgning af donor"
+],
+"p": 247,
+"lvl": "U",
+"type": "fakta",
+"why": "Centret skal kunne tilbyde opfølgning, men donor behøver ikke tage imod tilbuddet."
+}
+]

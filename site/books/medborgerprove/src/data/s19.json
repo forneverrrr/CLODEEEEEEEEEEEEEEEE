@@ -1,0 +1,522 @@
+[
+{
+"id": "19:0",
+"q": "Hvor ligger Danmark?",
+"a": "I den nordlige del af Europa",
+"w": [
+"I den sydlige del af Europa",
+"I Østeuropa"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark ligger i den nordlige del af Europa."
+},
+{
+"id": "19:1",
+"q": "Hvilket land ligger nord for Danmark?",
+"a": "Norge",
+"w": [
+"Sverige",
+"Tyskland"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Norge ligger nord for Danmark, Sverige nordøst."
+},
+{
+"id": "19:2",
+"q": "Hvilket land ligger nordøst for Danmark?",
+"a": "Sverige",
+"w": [
+"Norge",
+"Polen"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Sverige ligger nordøst for Danmark, på den anden side af Øresund."
+},
+{
+"id": "19:3",
+"q": "Hvilke to lande ligger syd for Danmark?",
+"a": "Tyskland og Polen",
+"w": [
+"Sverige og Norge",
+"Frankrig og Spanien"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Syd for Danmark ligger Tyskland og Polen."
+},
+{
+"id": "19:4",
+"q": "Hvor stort er Danmarks areal uden Grønland og Færøerne?",
+"a": "Cirka 43.000 km²",
+"w": [
+"Cirka 4.300 km²",
+"Cirka 430.000 km²"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark er et lille land med lidt mere end 43.000 km²."
+},
+{
+"id": "19:5",
+"q": "Hvad består Danmark af?",
+"a": "Jylland og mange øer",
+"w": [
+"Kun øer",
+"Kun Jylland"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark består af halvøen Jylland og over 400 større og mindre øer."
+},
+{
+"id": "19:6",
+"q": "Hvad er Danmarks største ø?",
+"a": "Sjælland",
+"w": [
+"Fyn",
+"Bornholm"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Sjælland er den største ø. København ligger på Sjælland."
+},
+{
+"id": "19:7",
+"q": "Hvor lang er Danmarks kystlinje?",
+"a": "Omkring 7.300 km",
+"w": [
+"Omkring 1.500 km",
+"Omkring 20.000 km"
+],
+"p": 105,
+"lvl": "U",
+"type": "fakta",
+"why": "De mange øer giver Danmark en meget lang kystlinje, omkring 7.300 km."
+},
+{
+"id": "19:8",
+"q": "Hvad kalder man også Nordsøen i Danmark?",
+"a": "Vesterhavet",
+"w": [
+"Østersøen",
+"Kattegat"
+],
+"p": 105,
+"lvl": "U",
+"type": "fakta",
+"why": "Nordsøen kaldes Vesterhavet, fordi den ligger vest for Danmark."
+},
+{
+"id": "19:9",
+"q": "Hvad hedder farvandet mellem Jylland og Fyn?",
+"a": "Lillebælt",
+"w": [
+"Storebælt",
+"Øresund"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Lillebælt ligger mellem Jylland og Fyn. Storebælt ligger mellem Fyn og Sjælland."
+},
+{
+"id": "19:10",
+"q": "Hvad hedder farvandet mellem Fyn og Sjælland?",
+"a": "Storebælt",
+"w": [
+"Lillebælt",
+"Kattegat"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Storebælt skiller Fyn og Sjælland. Forveksl det ikke med Lillebælt."
+},
+{
+"id": "19:11",
+"q": "Hvad hedder farvandet mellem Sjælland og Sverige?",
+"a": "Øresund",
+"w": [
+"Storebælt",
+"Kattegat"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Øresund ligger mellem Sjælland og Sverige."
+},
+{
+"id": "19:12",
+"q": "Hvad hedder Danmarks nordligste punkt?",
+"a": "Grenen",
+"w": [
+"Gedser Odde",
+"Blåvands Huk"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Grenen ligger nordøst for Skagen, hvor Skagerrak og Kattegat mødes."
+},
+{
+"id": "19:13",
+"q": "Hvilke to farvande mødes ved Grenen?",
+"a": "Skagerrak og Kattegat",
+"w": [
+"Østersøen og Nordsøen",
+"Lillebælt og Storebælt"
+],
+"p": 105,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved Grenen, Danmarks nordligste punkt, mødes Skagerrak og Kattegat."
+},
+{
+"id": "19:14",
+"q": "Hvad hedder Danmarks sydligste punkt?",
+"a": "Gedser Odde",
+"w": [
+"Grenen",
+"Blåvands Huk"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Gedser Odde på Falster er Danmarks sydligste punkt."
+},
+{
+"id": "19:15",
+"q": "På hvilken ø ligger Gedser Odde?",
+"a": "Falster",
+"w": [
+"Lolland",
+"Bornholm"
+],
+"p": 105,
+"lvl": "D",
+"type": "fakta",
+"why": "Gedser Odde ligger på øen Falster."
+},
+{
+"id": "19:16",
+"q": "Hvad hedder Danmarks vestligste punkt?",
+"a": "Blåvands Huk",
+"w": [
+"Grenen",
+"Gedser Odde"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Blåvands Huk i Vestjylland ligger ud til Nordsøen."
+},
+{
+"id": "19:17",
+"q": "Hvad udgør Danmarks østligste punkt?",
+"a": "Ertholmene",
+"w": [
+"Bornholm",
+"Amager"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Øgruppen Ertholmene øst for Bornholm er Danmarks østligste punkt."
+},
+{
+"id": "19:18",
+"q": "Hvad hedder det højeste naturlige punkt i Danmark?",
+"a": "Møllehøj",
+"w": [
+"Himmelbjerget",
+"Skagen"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Møllehøj i Østjylland er det højeste naturlige punkt."
+},
+{
+"id": "19:19",
+"q": "Hvor højt er Danmarks højeste naturlige punkt?",
+"a": "Cirka 170 meter",
+"w": [
+"Cirka 70 meter",
+"Cirka 470 meter"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark er fladt uden bjerge. Det højeste punkt, Møllehøj, er cirka 170 meter."
+},
+{
+"id": "19:20",
+"q": "Hvilken dansk ø er et af de få steder i Danmark med klipper?",
+"a": "Bornholm",
+"w": [
+"Fyn",
+"Sjælland"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Bornholm er et af de få steder i Danmark med klipper."
+},
+{
+"id": "19:21",
+"q": "Hvor mange mennesker bor der cirka i Danmark?",
+"a": "Seks millioner",
+"w": [
+"Tre millioner",
+"Ti millioner"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Der bor cirka seks millioner mennesker i Danmark."
+},
+{
+"id": "19:22",
+"q": "Hvor mange indvandrere og efterkommere bor der cirka i Danmark?",
+"a": "Cirka en million",
+"w": [
+"Cirka 100.000",
+"Cirka tre millioner"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Cirka en million, eller 17 procent af befolkningen, er indvandrere eller efterkommere."
+},
+{
+"id": "19:23",
+"q": "Hvad er Danmarks største by?",
+"a": "København",
+"w": [
+"Aarhus",
+"Odense"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "København er hovedstad og største by og ligger på Sjælland."
+},
+{
+"id": "19:24",
+"q": "Hvor mange mennesker bor der cirka i hovedstadsområdet?",
+"a": "Cirka to millioner",
+"w": [
+"Cirka en million",
+"Cirka fem millioner"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Cirka to millioner, en tredjedel af befolkningen, bor i København og omegnen."
+},
+{
+"id": "19:25",
+"q": "Hvad er Danmarks næststørste by?",
+"a": "Aarhus",
+"w": [
+"Odense",
+"Aalborg"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Aarhus i Østjylland er den næststørste by."
+},
+{
+"id": "19:27",
+"q": "Hvad er Danmarks tredjestørste by?",
+"a": "Odense",
+"w": [
+"Aalborg",
+"Esbjerg"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Odense på Fyn er den tredjestørste by."
+},
+{
+"id": "19:29",
+"q": "Hvad er Danmarks fjerdestørste by?",
+"a": "Aalborg",
+"w": [
+"Esbjerg",
+"Odense"
+],
+"p": 106,
+"lvl": "U",
+"type": "fakta",
+"why": "Aalborg i Nordjylland er den fjerdestørste by."
+},
+{
+"id": "19:30",
+"q": "Hvilken by er Danmarks femtestørste?",
+"a": "Esbjerg",
+"w": [
+"Aalborg",
+"Odense"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Esbjerg i Vestjylland er den femtestørste by med ca. 75.000 indbyggere. Aalborg er fjerdestørste og Odense tredjestørste."
+},
+{
+"id": "19:31",
+"q": "Hvilke områder er med i det danske rigsfællesskab?",
+"a": "Færøerne og Grønland",
+"w": [
+"Island og Norge",
+"Åland og Finland"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Færøerne og Grønland er med i rigsfællesskabet og regulerer i høj grad selv deres samfund."
+},
+{
+"id": "19:32",
+"q": "Hvor mange medlemmer af Folketinget vælges på Færøerne?",
+"a": "To",
+"w": [
+"Fire",
+"Seks"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Færinger er danske statsborgere og vælger to medlemmer til Folketinget."
+},
+{
+"id": "19:n0",
+"q": "Hvor mange medlemmer af Folketinget vælges i Grønland?",
+"a": "To",
+"w": [
+"Fire",
+"Seks"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Grønlændere er danske statsborgere og vælger to medlemmer til Folketinget."
+},
+{
+"id": "19:n1",
+"q": "Hvilket statsborgerskab har færinger og grønlændere?",
+"a": "Dansk",
+"w": [
+"Færøsk eller grønlandsk",
+"Norsk"
+],
+"p": 105,
+"lvl": "U",
+"type": "forståelse",
+"why": "De er danske statsborgere og stemmer til Folketinget, selv om de har egne forsamlinger."
+},
+{
+"id": "19:n2",
+"q": "Hvilke landsdele forbinder Lillebæltsbroerne?",
+"a": "Jylland og Fyn",
+"w": [
+"Fyn og Sjælland",
+"Sjælland og Sverige"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Lillebæltsbroerne går over Lillebælt mellem Jylland og Fyn."
+},
+{
+"id": "19:n3",
+"q": "Hvilke to lande forbinder Øresundsforbindelsen?",
+"a": "Danmark og Sverige",
+"w": [
+"Danmark og Tyskland",
+"Danmark og Norge"
+],
+"p": 105,
+"lvl": "U",
+"type": "fakta",
+"why": "Øresundsforbindelsen går over Øresund mellem Sjælland og Sverige."
+},
+{
+"id": "19:n4",
+"q": "Ved hvilken by ligger Grenen?",
+"a": "Skagen",
+"w": [
+"Aalborg",
+"Esbjerg"
+],
+"p": 105,
+"lvl": "U",
+"type": "fakta",
+"why": "Grenen ligger nordøst for Skagen i Nordjylland."
+},
+{
+"id": "19:n5",
+"q": "Hvor i Danmark ligger Aarhus?",
+"a": "I Jylland",
+"w": [
+"På Sjælland",
+"På Fyn"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Aarhus ligger i Østjylland."
+},
+{
+"id": "19:n6",
+"q": "Hvor i Danmark ligger Odense?",
+"a": "På Fyn",
+"w": [
+"På Sjælland",
+"I Jylland"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Odense ligger på Fyn."
+},
+{
+"id": "19:n7",
+"q": "Hvordan er landskabet i Danmark?",
+"a": "Fladt, uden bjerge",
+"w": [
+"Bjergrigt",
+"Dækket af ørken"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark er et fladt land uden bjerge, med marker og nogle skove."
+},
+{
+"id": "19:n8",
+"q": "Hvorfor har Danmark en meget lang kystlinje?",
+"a": "Der er mange øer",
+"w": [
+"Landet er stort",
+"Der er mange bjerge"
+],
+"p": 105,
+"lvl": "U",
+"type": "forståelse",
+"why": "Danmark er et lille land, men de mange øer giver omkring 7.300 km kystlinje."
+}
+]

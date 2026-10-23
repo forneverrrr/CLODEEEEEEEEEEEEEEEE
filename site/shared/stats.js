@@ -4,6 +4,7 @@
 var NS=window.NS,t=NS.t,esc=NS.esc,S=NS.S,BOOKS=window.BOOKS||[];
 var top=document.getElementById("top"),main=document.getElementById("app");
 document.title=t("tabStats");
+var VAL={};BOOKS.forEach(function(b){var m={};(b.ids||[]).forEach(function(i){m[i]=1;});VAL[b.slug]=b.ids?m:null;});
 var qb=(location.search.match(/[?&]b=([\w-]+)/)||[])[1]||"";
 function title(slug){var b=BOOKS.filter(function(x){return x.slug===slug;})[0];return b?b.title:slug;}
 function render(BK){
@@ -25,7 +26,7 @@ function render(BK){
   h+='<section class="sec"><h2>'+t("perBook")+'</h2><div class="tw"><table class="tbl"><thead><tr><th>'+t("books")+'</th><th class="r">'+t("time")+'</th><th class="r">'+t("answered")+'</th><th class="r">'+t("accuracy")+'</th><th class="r">'+t("weak")+'</th></tr></thead><tbody>';
   slugs.forEach(function(s){
     var st=(S.books[s]||{}).stat||{},c=0,w=0,weak=0,n=0,bt=0;
-    Object.keys(st).forEach(function(id){c+=st[id].c;w+=st[id].w;n++;if(st[id].k)weak++;});
+    Object.keys(st).forEach(function(id){var x=st[id];if(x.o||(VAL[s]&&!VAL[s][id]))return;c+=x.c;w+=x.w;n++;if(x.k)weak++;});
     Object.keys(S.time).forEach(function(k){bt+=S.time[k][s]||0;});
     h+='<tr><td><a href="book.html?b='+s+'">'+esc(title(s))+'</a></td><td class="r">'+NS.fmtShort(bt)+'</td><td class="r">'+n+'</td><td class="r">'+(c+w?Math.round(c/(c+w)*100)+' %':'–')+'</td><td class="r">'+weak+'</td></tr>';
   });
@@ -34,7 +35,7 @@ function render(BK){
   if(BK){
     var rows=BK.sheets.map(function(sh){
       var c=0,w=0,weak=0,seen=0,st=NS.book(BK.meta.slug).stat;
-      sh.q.forEach(function(_,i){var s=st[sh.n+":"+i];if(s){seen++;c+=s.c;w+=s.w;if(s.k)weak++;}});
+      sh.q.forEach(function(r){var s=st[r.id];if(s){seen++;c+=s.c;w+=s.w;if(s.k)weak++;}});
       return {n:sh.n,title:sh.title,seen:seen,total:sh.q.length,acc:c+w?c/(c+w):null,weak:weak};
     }).sort(function(a,b){return (a.acc===null?2:a.acc)-(b.acc===null?2:b.acc);});
     h+='<section class="sec"><h2>'+esc(title(qb))+': '+t("weakest")+'</h2><div class="tw"><table class="tbl"><thead><tr><th>'+t("topic")+'</th><th class="r">'+t("answered")+'</th><th class="r">'+t("accuracy")+'</th><th class="r">'+t("weak")+'</th></tr></thead><tbody>';
@@ -43,7 +44,7 @@ function render(BK){
   }
   /* gentagelse */
   h+='<section class="sec"><h2>'+t("repeatQueue")+'</h2><div class="row">';
-  slugs.forEach(function(s){var n=NS.dueIds(s).length,w=NS.weakCount(s);h+='<a class="btn ghost" style="text-decoration:none'+(n?'':';opacity:.5;pointer-events:none')+'" href="book.html?b='+s+'&go=due">'+esc(title(s))+': '+t("dueNow",n)+' ('+t("weakN",w)+')</a>';});
+  slugs.forEach(function(s){var n=NS.dueIds(s,VAL[s]).length,w=NS.weakCount(s,VAL[s]);h+='<a class="btn ghost" style="text-decoration:none'+(n?'':';opacity:.5;pointer-events:none')+'" href="book.html?b='+s+'&go=due">'+esc(title(s))+': '+t("dueNow",n)+' ('+t("weakN",w)+')</a>';});
   h+='</div></section>';
   /* fejljournal */
   h+='<section class="sec"><div class="rib-h"><h2>'+t("journal")+'</h2><select class="sel" id="jf" aria-label="'+esc(t("books"))+'"><option value="">'+t("allBooks")+'</option>'+slugs.map(function(s){return '<option value="'+s+'"'+(s===qb?' selected':'')+'>'+esc(title(s))+'</option>';}).join('')+'</select></div><div class="jr" id="jr"></div></section>';

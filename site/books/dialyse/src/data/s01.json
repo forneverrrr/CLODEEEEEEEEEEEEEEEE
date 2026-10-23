@@ -1,0 +1,1405 @@
+[
+{
+"id": "1:0",
+"q": "Hvad står forkortelsen AKI for?",
+"a": "Acute Kidney Injury",
+"w": [
+"Acute Kidney Infection",
+"Advanced Kidney Insufficiency"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "AKI betyder akut nyreskade. Begrebet sætter fokus på selve skaden og ikke kun på nedsat funktion (insufficiens)."
+},
+{
+"id": "1:1",
+"q": "Hvad betegner forkortelsen D-AKI?",
+"a": "AKI med behov for akut dialyse",
+"w": [
+"AKI uden diurese",
+"AKI efter kontrastmiddel"
+],
+"p": 13,
+"lvl": "D",
+"type": "fakta",
+"why": "Nogle bruger D-AKI om akut nyresvigt, hvor akut dialyse er nødvendig."
+},
+{
+"id": "1:2",
+"q": "Hvilket kriteriesæt bruges siden 2012 til at definere og klassificere AKI?",
+"a": "KDIGO",
+"w": [
+"RIFLE",
+"CKD-EPI"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "KDIGO afløste de tidligere RIFLE-kriterier, som i mange træk hviler på de samme principper."
+},
+{
+"id": "1:5",
+"q": "Hvor stor en stigning i p-kreatinin inden for 48 timer definerer AKI?",
+"a": "26,5 µmol/l",
+"w": [
+"10 µmol/l",
+"100 µmol/l"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "En stigning på 26,5 µmol/l på 48 timer er et af KDIGO's tre kriterier for AKI."
+},
+{
+"id": "1:6",
+"q": "Hvilken stigning i p-kreatinin i forhold til baseline inden for 7 dage definerer AKI?",
+"a": "1,5 × baseline",
+"w": [
+"2,0 × baseline",
+"3,0 × baseline"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "1,5 × baseline inden for 7 dage er et af KDIGO's tre kriterier. Stadie 2 og 3 kræver højere stigning."
+},
+{
+"id": "1:7",
+"q": "Hvilken timediurese i 6 timer definerer AKI?",
+"a": "< 0,5 ml/kg/time",
+"w": [
+"< 0,3 ml/kg/time",
+"< 1,0 ml/kg/time"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Diurese under 0,5 ml/kg/time i 6 timer er det tredje KDIGO-kriterium. 0,3 ml/kg/t hører til stadie 3."
+},
+{
+"id": "1:8",
+"q": "Hvor mange af KDIGO's tre kriterier skal være opfyldt for at stille diagnosen AKI?",
+"a": "Ét",
+"w": [
+"To",
+"Alle tre"
+],
+"p": 13,
+"lvl": "K",
+"type": "fakta",
+"why": "Definitionen er bred, så AKI kan opdages tidligt: ét kriterium (kreatininstigning eller lav diurese) er nok."
+},
+{
+"id": "1:9",
+"q": "Hvilket begreb afløser »nyreinsufficiens« i KDIGO-definitionen?",
+"a": "Nyreskade (AKI)",
+"w": [
+"Nyresvigt",
+"Nyreatrofi"
+],
+"p": 13,
+"lvl": "U",
+"type": "fakta",
+"why": "Fokus flyttes til selve skaden. En skade kræver ikke nødvendigvis behandling."
+},
+{
+"id": "1:10",
+"q": "Hvad gælder for dødeligheden ved selv let, kortvarig AKI?",
+"a": "Den er øget",
+"w": [
+"Den er uændret",
+"Den er kun øget ved dialyse"
+],
+"p": 13,
+"lvl": "K",
+"type": "forståelse",
+"why": "AKI er en selvstændig risikofaktor for død, også ved kortvarig kreatininstigning og efter korrektion for anden alvorlig sygdom."
+},
+{
+"id": "1:14",
+"q": "Hvilke tre kategorier deles AKI traditionelt i efter årsag?",
+"a": "Prærenal, renal og postrenal",
+"w": [
+"Akut, subakut og kronisk",
+"Oligurisk, anurisk og polyurisk"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Inddelingen følger, om skaden sidder før nyren, i nyren eller i de afførende urinveje. Den hjælper især med udredningen."
+},
+{
+"id": "1:15",
+"q": "Hvad er mekanismen ved prærenal AKI?",
+"a": "Nedsat perfusion af nyrerne",
+"w": [
+"Direkte skade på selve nyrevævet",
+"Obstruktion af de fraførende urinveje"
+],
+"p": 14,
+"lvl": "K",
+"type": "forståelse",
+"why": "Årsagen sidder før nyren, fx væskemangel eller blodtab, så nyrerne får for lidt blod."
+},
+{
+"id": "1:16",
+"q": "Hvad er mekanismen ved renal AKI?",
+"a": "Direkte skade på nyreparenkymet",
+"w": [
+"Nedsat blodtilførsel før nyren",
+"Obstruktion af de fraførende urinveje"
+],
+"p": 14,
+"lvl": "K",
+"type": "forståelse",
+"why": "Renal AKI skyldes skade på selve nyrevævet, fx iskæmi, toksiner eller inflammation."
+},
+{
+"id": "1:17",
+"q": "Hvad er mekanismen ved postrenal AKI?",
+"a": "Obstruktion af de afførende urinveje",
+"w": [
+"Direkte skade på nyrens glomeruli",
+"Nedsat blodtilførsel til nyren"
+],
+"p": 14,
+"lvl": "K",
+"type": "forståelse",
+"why": "Urinen kan ikke løbe af, fx ved prostatahyperplasi, sten, tumorer eller retroperitoneal fibrose."
+},
+{
+"id": "1:18",
+"q": "Hvad gælder for dødeligheden ved præ- og postrenal AKI?",
+"a": "Øget, ligesom ved renal AKI",
+"w": [
+"Lavere, de er mere godartede",
+"Normal efter behandling"
+],
+"p": 14,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er ingen evidens for, at præ- og postrenal AKI er mere godartet. Inddelingen bruges mest som hjælp til udredningen."
+},
+{
+"id": "1:19",
+"q": "Hvilken døgndiurese har non-oligurisk AKI?",
+"a": "Over 400 ml",
+"w": [
+"Under 100 ml",
+"100-400 ml"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "Non-oligurisk AKI har bevaret diurese. Inddelingen viser, hvor hurtigt overhydrering, acidose og hyperkaliæmi udvikles."
+},
+{
+"id": "1:20",
+"q": "Hvilken døgndiurese har oligurisk AKI?",
+"a": "100-400 ml",
+"w": [
+"Under 100 ml",
+"Over 1.000 ml"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Oligurisk AKI ligger mellem anuri og non-oligurisk AKI."
+},
+{
+"id": "1:21",
+"q": "Hvilken døgndiurese har anurisk AKI?",
+"a": "Under 100 ml",
+"w": [
+"400-1.000 ml",
+"Over 400 ml"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved anuri udvikles overhydrering, acidose og elektrolytforstyrrelser hurtigt."
+},
+{
+"id": "1:23",
+"q": "Hvad står ATIN for?",
+"a": "Akut tubulo-interstiel nekrose/nefritis",
+"w": [
+"Akut transplantationsinduceret nefropati",
+"Arteriel tubulær infarktnekrose"
+],
+"p": 14,
+"lvl": "D",
+"type": "fakta",
+"why": "ATIN er egentlig en patoanatomisk diagnose, men bruges indimellem som slang for nedsat perfusion, kredsløbssvigt og nefrotoksiske lægemidler."
+},
+{
+"id": "1:24",
+"q": "Hvilken p-kreatininstigning svarer til AKI stadie 1 (KDIGO)?",
+"a": "1,5-1,9 × baseline",
+"w": [
+"2,0-2,9 × baseline",
+"3 × baseline eller mere"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Stadie 1 er den mildeste grad. Stadie 2 er 2,0-2,9 × baseline og stadie 3 er 3 × baseline eller start på dialyse."
+},
+{
+"id": "1:25",
+"q": "Hvilken p-kreatininstigning svarer til AKI stadie 2 (KDIGO)?",
+"a": "2,0-2,9 × baseline",
+"w": [
+"1,5-1,9 × baseline",
+"3 × baseline eller mere"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Stadie 2 ligger mellem stadie 1 (1,5-1,9 ×) og stadie 3 (3 × eller mere)."
+},
+{
+"id": "1:26",
+"q": "Hvilken p-kreatininændring svarer til AKI stadie 3 (KDIGO)?",
+"a": "3 × baseline eller dialysestart",
+"w": [
+"2,0-2,9 × baseline",
+"1,5-1,9 × baseline"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Stadie 3 er den sværeste grad. Behov for dialyse placerer altid patienten i stadie 3."
+},
+{
+"id": "1:27",
+"q": "Hvilken diurese hører til AKI stadie 3 (KDIGO)?",
+"a": "< 0,3 ml/kg/t i ≥ 24 timer",
+"w": [
+"< 0,5 ml/kg/t i 6-12 timer",
+"< 0,5 ml/kg/t i ≥ 12 timer"
+],
+"p": 14,
+"lvl": "U",
+"type": "fakta",
+"why": "Stadie 3 har den laveste diurese (eller anuri i 12 timer). Stadie 1 og 2 har < 0,5 ml/kg/t."
+},
+{
+"id": "1:30",
+"q": "Hvilke to lægemiddelgrupper kan give prærenal AKI ved at ændre nyrernes hæmodynamik?",
+"a": "NSAID og ACE-hæmmere",
+"w": [
+"Penicillin og paracetamol",
+"Statiner og metformin"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "NSAID og ACE-hæmmere (samt ciclosporin og tacrolimus) ændrer den intrarenale hæmodynamik og kan nedsætte nyrernes perfusion."
+},
+{
+"id": "1:34",
+"q": "Hvor ses akut obstruktiv nefropati hyppigst?",
+"a": "På akutafdelinger",
+"w": [
+"På nefrologiske afdelinger",
+"På intensivafdelinger"
+],
+"p": 15,
+"lvl": "D",
+"type": "fakta",
+"why": "Hyppigheden af årsager til AKI afhænger af, om patienterne ses i primærsektor, på akutafdelinger eller på højtspecialiserede enheder."
+},
+{
+"id": "1:35",
+"q": "Hvad præger patienten med AKI klinisk oftest mest?",
+"a": "Den tilgrundliggende sygdom",
+"w": [
+"Uræmisk koma og kramper",
+"Svære ødemer og hudkløe"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "Symptomerne på AKI er uspecifikke (ødemer, madlede, hudkløe), så fx sepsis eller blødning dominerer billedet."
+},
+{
+"id": "1:36",
+"q": "Hvilket symptom ses sjældent og tyder på svær uræmi ved AKI?",
+"a": "Konfusion og sløvhed",
+"w": [
+"Hudkløe og madlede",
+"Ødemer og hudkløe"
+],
+"p": 16,
+"lvl": "U",
+"type": "fakta",
+"why": "Muskeltrækninger, konfusion og sløvhed ses sjældnere. De ses ofte ved svær uræmi og oftest ved akut præsentation af kronisk nefropati."
+},
+{
+"id": "1:37",
+"q": "Hvilken måling er forudsætningen for at diagnosticere AKI hos akut syge?",
+"a": "P-kreatinin",
+"w": [
+"P-albumin",
+"P-urat"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "AKI findes kun, hvis man måler p-kreatinin hos alle akut syge."
+},
+{
+"id": "1:39",
+"q": "Inden for hvor lang tid bør ultralyd med Doppler gennemføres ved anuri eller oliguri?",
+"a": "Inden for 12 timer",
+"w": [
+"Inden for 48 timer",
+"Inden for 7 døgn"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Hurtig scanning kan afsløre afløbshindring og ændret perfusion, som kan behandles."
+},
+{
+"id": "1:40",
+"q": "Hvorfor skal en patient med anuri hurtigt have ultralydsscanning af nyrer og urinveje?",
+"a": "For at finde afløbshindring",
+"w": [
+"For at måle GFR",
+"For at vurdere hjertefunktionen"
+],
+"p": 17,
+"lvl": "K",
+"type": "forståelse",
+"why": "Scanningen afslører afløbshindring og ændret perfusion og karakteriserer nyrevævet."
+},
+{
+"id": "1:41",
+"q": "Hvad bør anlægges hos en patient med anurisk eller oliguri AKI?",
+"a": "Blærekateter",
+"w": [
+"Nefrostomi",
+"Dialysekateter"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved anurisk eller oligurisk AKI bør der anlægges blærekateter; ved postrenal AKI er første behandling aflastning af urinvejene med blærekateter."
+},
+{
+"id": "1:42",
+"q": "Hvilken simpel daglig måling er værdifuld ved væskebehandling af AKI?",
+"a": "Vejning",
+"w": [
+"Røntgen af thorax",
+"Måling af p-albumin"
+],
+"p": 17,
+"lvl": "U",
+"type": "fakta",
+"why": "Optimal væskebehandling kræver væskeskema med indgift og udgift. Daglig vejning og blodtryk er simple, værdifulde parametre."
+},
+{
+"id": "1:43",
+"q": "Hvilke forstyrrelser har patienter med AKI typisk?",
+"a": "Hyperkaliæmi og metabolisk acidose",
+"w": [
+"Hypokaliæmi og metabolisk alkalose",
+"Hypercalcæmi og hypofosfatæmi"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Typisk ses også hypocalcæmi og hyperfosfatæmi. Forstyrrelserne kan være livstruende."
+},
+{
+"id": "1:44",
+"q": "Hvad kræver korrektion af metabolisk acidose ofte, for at hypocalcæmi ikke forværres?",
+"a": "Ekstra calcium",
+"w": [
+"Ekstra kalium",
+"Ekstra magnesium"
+],
+"p": 17,
+"lvl": "U",
+"type": "fakta",
+"why": "Når acidosen korrigeres, ændres proteinbindingen, og ioniseret calcium falder. Derfor kan der være brug for calciumsubstitution."
+},
+{
+"id": "1:45",
+"q": "Hvordan kan hyperkaliæmi ved AKI behandles?",
+"a": "Glukose-insulininfusion",
+"w": [
+"Kaliumtilskud",
+"Kaliumbesparende diuretika"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Insulin flytter kalium ind i cellerne. Kaliumtilskud og kaliumbesparende diuretika pauseres ved hyperkaliæmi."
+},
+{
+"id": "1:46",
+"q": "En overhydreret AKI-patient med hyperkaliæmi skal have glukose-insulin. Hvilken glukose bruges?",
+"a": "Hypertonglukose",
+"w": [
+"Isoton glukose",
+"Fortyndet glukose"
+],
+"p": 17,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hypertonglukose giver mindre væsketilførsel end isoton eller fortyndet glukose og passer derfor til den overhydrerede patient."
+},
+{
+"id": "1:47",
+"q": "Hvorfor stoppes glukose-insulininfusion om muligt et par timer før akut dialyse?",
+"a": "Så kalium kan flytte tilbage til plasma",
+"w": [
+"For at undgå hypoglykæmi under dialysen",
+"For at forebygge ødemer under dialysen"
+],
+"p": 17,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kalium, der er flyttet ind i cellerne, kommer ud i plasma igen. Så fjerner dialysen mere kalium."
+},
+{
+"id": "1:48",
+"q": "Hvilken væskerestriktion ordineres typisk ved overhydrering?",
+"a": "750-1.500 ml/døgn",
+"w": [
+"2.500-3.000 ml/døgn",
+"100-300 ml/døgn"
+],
+"p": 17,
+"lvl": "U",
+"type": "fakta",
+"why": "Volumenet omfatter også ernæring og infusionsvæsker til medicinopblanding."
+},
+{
+"id": "1:51",
+"q": "Hvordan kan væskeindgift ordineres til en afebril voksen i neutral væskebalance?",
+"a": "Døgndiurese + 750 ml",
+"w": [
+"Døgndiurese × 2",
+"Døgndiurese - 500 ml"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Perspiratio (cirka 750-1.000 ml) minus forbrændingsvand (cirka 250 ml) giver et nettotab på 500-750 ml, som skal erstattes oven i diuresen."
+},
+{
+"id": "1:52",
+"q": "Hvor meget øges perspiratio cirka pr. grad over 38 °C?",
+"a": "Cirka 25 %",
+"w": [
+"Cirka 5 %",
+"Cirka 75 %"
+],
+"p": 17,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "1:53",
+"q": "En patient med blødningsshock og kendt hjertesvigt får hurtig volumenterapi. Hvor ofte bør tilstanden evalueres?",
+"a": "Efter hver 1.000 ml",
+"w": [
+"Efter hver 250 ml",
+"Efter hver 3 liter"
+],
+"p": 17,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Volumenbehandling er afgørende, men ved hjertesvigt er der risiko for overhydrering. Derfor evalueres hyppigt."
+},
+{
+"id": "1:54",
+"q": "Hvilken medicin bør undgås ved AKI?",
+"a": "NSAID",
+"w": [
+"Insulin",
+"Hypertonglukose"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Nefrotoksisk medicin seponeres for at undgå progression. Morfin og aminoglykosider undgås også."
+},
+{
+"id": "1:55",
+"q": "Hvilken medicin pauseres ved hyperkaliæmi?",
+"a": "Kaliumbesparende diuretika",
+"w": [
+"Glukose-insulininfusion",
+"Natriumbikarbonat"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Kaliumtilskud, kaliumbesparende diuretika og RAS-blokerende lægemidler pauseres, fordi de øger kaliumniveauet."
+},
+{
+"id": "1:56",
+"q": "En ældre patient med diarré og dehydrering tager ACE-hæmmer og NSAID. Hvilken risiko er høj?",
+"a": "Akut nyreskade",
+"w": [
+"Hypernatriæmi og hypertension",
+"Hypokaliæmi og alkalose"
+],
+"p": 18,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dehydrering, RAS-blokade og NSAID i kombination giver høj risiko for yderligere nyreskade."
+},
+{
+"id": "1:57",
+"q": "Hvad gælder for eGFR hos akut syge med skiftende nyrefunktion?",
+"a": "Den er upålidelig",
+"w": [
+"Den er mest pålidelig",
+"Den er kun upålidelig under dialyse"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "eGFR er ikke retvisende ved akutte ændringer i nyrefunktion, så dosering efter eGFR kan blive forkert."
+},
+{
+"id": "1:58",
+"q": "En patient er anurisk, men eGFR beregnes til 40 ml/min. Hvordan bør nyrefunktionen betragtes ved dosering?",
+"a": "Som ophørt",
+"w": [
+"Som 40 ml/min.",
+"Som normal"
+],
+"p": 18,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved oliguri/anuri betragtes nyrefunktionen som fysiologisk ophørt, uanset eGFR."
+},
+{
+"id": "1:59",
+"q": "Hvordan ser nyrerne oftest ud ved kronisk nyreinsufficiens?",
+"a": "Små med smal vævsbræmme",
+"w": [
+"Forstørrede med bred vævsbræmme",
+"Normale i størrelse og struktur"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Kronisk nyreinsufficiens præsenterer sig med længere tids symptomer, og nyrerne er oftest små med smal vævsbræmme. Undtagelser er diabetes og polycystisk nyresygdom."
+},
+{
+"id": "1:60",
+"q": "Hvilke to sygdomme kan give normalstore eller forstørrede nyrer trods kronisk nyresygdom?",
+"a": "Diabetes og polycystisk nyresygdom",
+"w": [
+"Hypertension og myelomatose",
+"Pyelonefritis og nyresten"
+],
+"p": 18,
+"lvl": "U",
+"type": "fakta",
+"why": "Små nyrer taler for kronisk sygdom, men diabetes og polycystisk nyresygdom er undtagelserne."
+},
+{
+"id": "1:61",
+"q": "Hvad skal altid mistænkes ved pludseligt opstået anuri?",
+"a": "Afløbshindring",
+"w": [
+"Hjertesvigt",
+"Dehydrering"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Akut afløbshindring giver ikke altid hydronefrose, men pludselig anuri skal altid give mistanke om obstruktion."
+},
+{
+"id": "1:62",
+"q": "Hvad er den vigtigste behandling af postrenal AKI med blæreretention og hydronefrose?",
+"a": "Aflastning af urinvejene",
+"w": [
+"Rigelig volumenterapi",
+"Behandling med steroid"
+],
+"p": 18,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Initialt anlægges blærekateter. Videre udredning sker sammen med urologer eller gynækologer."
+},
+{
+"id": "1:63",
+"q": "Hvilken undersøgelse bruges ved mistanke om trombotisk mikroangiopati (TTP, HUS)?",
+"a": "Blodudstryg for schistocytter",
+"w": [
+"P-kreatinkinase og myoglobin",
+"ANA- og ANCA-screening"
+],
+"p": 18,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Schistocytter i blodudstrygning tyder på trombotisk mikroangiopati."
+},
+{
+"id": "1:64",
+"q": "En patient med AKI har haft langvarig muskelskade. Hvilke prøver tages ved mistanke om rabdomyolyse?",
+"a": "P-kreatinkinase og myoglobin",
+"w": [
+"ANCA og ANA",
+"Blodudstryg for schistocytter"
+],
+"p": 18,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Rabdomyolyse kan give AKI via myoglobin."
+},
+{
+"id": "1:65",
+"q": "Hvornår bør en AKI-patient konfereres med nefrologisk afdeling?",
+"a": "Ved uklar årsag og manglende respons",
+"w": [
+"Ved enhver stigning i kreatinin",
+"Kun hvis patienten er under 18 år"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Hvis årsagen ikke åbenlyst er præ- eller postrenal og patienten ikke responderer hurtigt på volumen eller aflastning, bør man have råd og overveje overflytning."
+},
+{
+"id": "1:66",
+"q": "Hvornår kan akut dialyse være indiceret ved AKI?",
+"a": "Ved progression trods konservativ behandling",
+"w": [
+"Ved enhver kreatininstigning inden for 48 timer",
+"Ved alle patienter over 70 år med AKI"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialyse overvejes, hvis nyreinsufficiensen progredierer trods relevant konservativ terapi, og afhænger af almentilstand og komorbiditet."
+},
+{
+"id": "1:67",
+"q": "Hvilken tilstand er en accepteret indikation for akut dialyse?",
+"a": "Svær hyperkaliæmi",
+"w": [
+"Let hypertension og træthed",
+"Moderat forhøjet CRP"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Indikationer er svær hyperkaliæmi, overhydrering, svær metabolisk acidose, progredierende nyreinsufficiens og svære uræmiske symptomer."
+},
+{
+"id": "1:68",
+"q": "Hvilket p-karbamid-niveau er en indikation for akut dialyse?",
+"a": "> 40 mmol/l",
+"w": [
+"> 10 mmol/l",
+"> 100 mmol/l"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "Hyperosmolalitet med p-karbamid > 40 mmol/l er en indikation, bl.a. for at hindre komplikationer ved start af dialyse."
+},
+{
+"id": "1:69",
+"q": "Ved hvilken grad af acidose er der indikation for akut dialyse?",
+"a": "pH under 7,15-7,25",
+"w": [
+"pH under 7,30-7,35",
+"pH under 6,85-6,95"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "Grænsen afhænger af situationen."
+},
+{
+"id": "1:70",
+"q": "Hvilken p-kalium med EKG-forandringer er indikation for akut dialyse?",
+"a": "> 6 mmol/l",
+"w": [
+"> 4 mmol/l",
+"> 8 mmol/l"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Hyperkaliæmi med EKG-forandringer kan give livstruende arytmier."
+},
+{
+"id": "1:71",
+"q": "Hvilket svært uræmisk symptom er indikation for akut dialyse?",
+"a": "Kramper",
+"w": [
+"Hovedpine",
+"Muskelømhed"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Kramper og uræmisk pericarditis hører til de svære uræmiske følgetilstande."
+},
+{
+"id": "1:72",
+"q": "Hvad er princippet i al dialysebehandling?",
+"a": "Udveksling af stoffer over en membran",
+"w": [
+"Rent væsketræk uden stofudveksling",
+"Udskiftning af patientens plasma"
+],
+"p": 19,
+"lvl": "U",
+"type": "forståelse",
+"why": "Salte og små molekyler udveksles over en membran, så overskuddet kommer i en ekstrakorporal væskefase og bortskaffes."
+},
+{
+"id": "1:74",
+"q": "Hvad står CRRT for?",
+"a": "Continuous renal replacement therapy",
+"w": [
+"Continuous renal rehabilitation therapy",
+"Central renal replacement technique"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "CRRT dækker de kontinuerlige dialyse- og filtrationsformer, som bruges på intensivafdelinger."
+},
+{
+"id": "1:75",
+"q": "Hvornår kan akut peritonealdialyse ikke anvendes?",
+"a": "Efter nylig intraperitonealt indgreb",
+"w": [
+"Ved diabetes med neuropati",
+"Hos ældre over 80 år"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "PD forudsætter, at peritoneum er intakt."
+},
+{
+"id": "1:76",
+"q": "Hos hvilke patienter har akut PD en plads?",
+"a": "Små børn efter thoraxkirurgi",
+"w": [
+"Multitraumatiserede patienter",
+"Patienter med svær katabolisme"
+],
+"p": 20,
+"lvl": "U",
+"type": "fakta",
+"why": "Akut PD bruges hos neonatale og mindre børn efter thoraxkirurgiske indgreb."
+},
+{
+"id": "1:77",
+"q": "Ved hvilken tilstand er akut PD sjældent effektiv nok?",
+"a": "Livstruende hyperkaliæmi",
+"w": [
+"Små børn efter thoraxkirurgi",
+"Let forhøjet kreatinin"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "PD er sjældent tilstrækkelig effektiv ved livstruende hyperkaliæmi eller acidose, katabole tilstande, rabdomyolyse og akut betydelig overhydrering."
+},
+{
+"id": "1:78",
+"q": "Hvilken dialyseform er mest udbredt ved dialysekrævende AKI?",
+"a": "Hæmodialyse",
+"w": [
+"Peritonealdialyse",
+"Plasmaferese"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "Akut HD kan hurtigt fjerne store væskeoverskud og kalium."
+},
+{
+"id": "1:79",
+"q": "Hvorfor foretrækkes akut hæmodialyse ved dialysekrævende AKI?",
+"a": "Hurtig fjernelse af væske og kalium",
+"w": [
+"Intet behov for karkateter eller fistel",
+"Kræver intakt peritoneum"
+],
+"p": 20,
+"lvl": "K",
+"type": "forståelse",
+"why": "Det er mest effektivt ved overhydrering og hyperkaliæmi, som er de livstruende problemer."
+},
+{
+"id": "1:80",
+"q": "Hvor placeres HD-kateteret oftest ved akut hæmodialyse?",
+"a": "V. jugularis interna",
+"w": [
+"V. subclavia sinistra",
+"V. cephalica i overarmen"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "V. femoralis er alternativet."
+},
+{
+"id": "1:81",
+"q": "En patient med DIC og blødningstendens skal have akut HD. Hvilken kateteradgang vælges?",
+"a": "V. femoralis",
+"w": [
+"V. jugularis interna",
+"V. subclavia"
+],
+"p": 20,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Femoral adgang undgår blødning i halsområdet ved koagulationsforstyrrelser."
+},
+{
+"id": "1:82",
+"q": "Hvad må et akut HD-kateter bruges til udover dialyse?",
+"a": "Blodprøvetagning",
+"w": [
+"Parenteral ernæring",
+"Intravenøs medicininfusion"
+],
+"p": 20,
+"lvl": "U",
+"type": "fakta",
+"why": "Infusion bør så vidt muligt undgås for at holde adgangen funktionel."
+},
+{
+"id": "1:83",
+"q": "Hvad er målet med akut intermitterende HD?",
+"a": "Volumenkontrol og stabile elektrolytter",
+"w": [
+"At fjerne alt karbamid fra kroppen",
+"At normalisere blodtrykket helt"
+],
+"p": 20,
+"lvl": "U",
+"type": "fakta",
+"why": "Målet er at opnå volumenkontrol og passende niveauer af kalium, syre/base, calcium-ion og fosfat."
+},
+{
+"id": "1:84",
+"q": "Hvad kan et brat fald i blodets osmolalitet under HD føre til?",
+"a": "Hypotension og dysækvilibrering",
+"w": [
+"Hyperkaliæmi og hypertermi",
+"Anafylaksi og bronkospasme"
+],
+"p": 20,
+"lvl": "K",
+"type": "forståelse",
+"why": "Karbamid fjernes hurtigt fra blodet, mens ækvilibrering med kroppens øvrige væskerum tager tid."
+},
+{
+"id": "1:85",
+"q": "Hvilket billede ses ved dysækvilibreringssyndrom?",
+"a": "Hjerneødem og kramper",
+"w": [
+"Lungeødem og dyspnø",
+"Hjertestop og feber"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "Syndromet giver symptomer på hjerneødem: hypertension, cerebral uklarhed og evt. universelle kramper."
+},
+{
+"id": "1:86",
+"q": "En patient får hypertension, forvirring og kramper under første HD. Hvad gøres?",
+"a": "Reducer dialysen hurtigt",
+"w": [
+"Fortsæt uændret dialyse",
+"Giv diuretika straks"
+],
+"p": 20,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dysækvilibreringssyndrom behandles med hurtig reduktion af dialyseintensitet og hypertone natriumholdige væsker eller glukose."
+},
+{
+"id": "1:87",
+"q": "Hvornår er risikoen for dysækvilibreringssyndrom størst?",
+"a": "Ved højt karbamid før første HD",
+"w": [
+"Ved lavt karbamid før første HD",
+"Ved normalt karbamid før første HD"
+],
+"p": 20,
+"lvl": "K",
+"type": "forståelse",
+"why": "Jo højere karbamid i plasma, jo større fald i osmolalitet under dialysen."
+},
+{
+"id": "1:88",
+"q": "Hvor meget væske kan man cirka fjerne pr. times HD hos en voksen?",
+"a": "Cirka 1.000 ml",
+"w": [
+"Cirka 250 ml",
+"Cirka 3.000 ml"
+],
+"p": 20,
+"lvl": "U",
+"type": "fakta",
+"why": "Væsketrækket begrænses af blodtryksfald."
+},
+{
+"id": "1:89",
+"q": "Hvad begrænser væsketrækket under HD?",
+"a": "Blodtryksfald",
+"w": [
+"Stigende puls",
+"Dialysatets temperatur"
+],
+"p": 20,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man fjerner kun væske fra blodbanen. Væske fra vævet fylder langsomt op igen på grund af tid og gradienter."
+},
+{
+"id": "1:90",
+"q": "En kardiovaskulært ustabil patient med lungeødem har brug for stort væsketræk. Hvad kan ordineres?",
+"a": "Ultrafiltration (»tørdialyse«)",
+"w": [
+"Længere dialysetid med højt flow",
+"Højere dialysatflow"
+],
+"p": 21,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ren ultrafiltration adskiller væsketræk fra dialyse, så væske ikke flyttes fra blodbane til væv."
+},
+{
+"id": "1:91",
+"q": "Hvilken antikoagulation bruges oftest ved akut intermitterende HD?",
+"a": "Små doser ufraktioneret heparin",
+"w": [
+"Højdosis lavmolekylært heparin",
+"Warfarin ved dialysestart"
+],
+"p": 21,
+"lvl": "U",
+"type": "fakta",
+"why": "Virkningen er kortvarig, og den kan ophæves akut med protaminsulfat."
+},
+{
+"id": "1:92",
+"q": "Hvilken antidot ophæver heparin akut?",
+"a": "Protaminsulfat",
+"w": [
+"Vitamin K",
+"Naloxon"
+],
+"p": 21,
+"lvl": "U",
+"type": "fakta",
+"why": "Effekten af ufraktioneret heparin er kortvarig og kan ophæves akut med antidoten protaminsulfat, hvis patientens tilstand gør det nødvendigt."
+},
+{
+"id": "1:93",
+"q": "En patient med DIC skal have akut HD. Hvad kan man overveje?",
+"a": "Dialyse uden antikoagulans",
+"w": [
+"Højdosis heparin som standard",
+"Warfarin i stedet for heparin"
+],
+"p": 21,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Med nyere filtre kan man ofte dialysere uden antikoagulans, hvilket kan være indiceret ved blødningskomplikationer eller svære koagulationsforstyrrelser."
+},
+{
+"id": "1:95",
+"q": "Hvorfor sænkes dialysattemperaturen hos sederede, kardiovaskulært ustabile patienter?",
+"a": "For at hindre blodtryksfald",
+"w": [
+"For at øge dialysens clearance",
+"For at hindre filterkoagulation"
+],
+"p": 21,
+"lvl": "U",
+"type": "forståelse",
+"why": "Lavere temperatur giver perifer vasokonstriktion og dermed stabilt blodtryk."
+},
+{
+"id": "1:101",
+"q": "Hvilken flowretning mellem blod og dialysat øger HD's effektivitet?",
+"a": "Modstrøm",
+"w": [
+"Samme retning",
+"Tværstrøm"
+],
+"p": 21,
+"lvl": "D",
+"type": "fakta",
+"why": "Ved første dialyse kan man lade blod og dialysat løbe i samme retning for at mindske effektiviteten."
+},
+{
+"id": "1:102",
+"q": "Hvorfor giver kontinuerlige teknikker mere stabil dialyse på intensiv?",
+"a": "Væsketræk fordeles over døgnet",
+"w": [
+"De fjerner mere væske hurtigere",
+"De kræver ingen antikoagulation"
+],
+"p": 22,
+"lvl": "K",
+"type": "forståelse",
+"why": "Et stort væsketræk fordeles over hele døgnet, så patienten belastes mindre."
+},
+{
+"id": "1:103",
+"q": "Hvor meget dialysat bruges cirka pr. time ved kontinuerlig dialyse?",
+"a": "Cirka 2 liter",
+"w": [
+"Cirka 30 liter",
+"Cirka 10 liter"
+],
+"p": 22,
+"lvl": "U",
+"type": "fakta",
+"why": "Intermitterende teknikker bruger cirka 30 liter i timen. Ved kontinuerlig dialyse opnås dosis ved den lange behandlingstid."
+},
+{
+"id": "1:105",
+"q": "Hvad er den tekniske hovedudfordring ved kontinuerlige teknikker?",
+"a": "At undgå koagulation af filteret",
+"w": [
+"At skaffe sikker karadgang",
+"At holde dialysatet varmt hele døgnet"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Derfor er kontinuerlig antikoagulerende behandling oftest nødvendig."
+},
+{
+"id": "1:107",
+"q": "Hvordan fungerer regional citratantikoagulering?",
+"a": "Citrat før filteret, calcium efter",
+"w": [
+"Heparin før filteret og protamin efter",
+"Warfarin før filteret"
+],
+"p": 22,
+"lvl": "U",
+"type": "forståelse",
+"why": "Citrat på arteriesiden antikoagulerer kun det ekstrakorporale kredsløb. Calcium tilsættes på venesiden og ophæver effekten, før blodet returneres."
+},
+{
+"id": "1:108",
+"q": "Hvad er fordelen ved citratbaseret antikoagulering ved CRRT?",
+"a": "Ingen blødningsrisiko",
+"w": [
+"Højere dialysatflow end ved intermitterende teknikker",
+"Ingen calciumtilskud nødvendigt"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Kun det ekstrakorporale kredsløb antikoaguleres, så patienten ikke får øget blødningsrisiko."
+},
+{
+"id": "1:110",
+"q": "Hvor stor en andel af overlevende efter dialysekrævende AKI er stadig i dialyse efter tre måneder?",
+"a": "Under 5 %",
+"w": [
+"Cirka 25 %",
+"Cirka 50 %"
+],
+"p": 22,
+"lvl": "D",
+"type": "fakta",
+"why": "De fleste genvinder således tilstrækkelig nyrefunktion."
+},
+{
+"id": "1:111",
+"q": "Hvordan er udsigten til at genvinde nyrefunktionen hos overlevende efter AKI?",
+"a": "God",
+"w": [
+"Dårlig",
+"Kun mulig ved transplantation"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Dødeligheden er høj og betinget af grundsygdommen, men overlever patienten, genvindes nyrefunktionen oftest. Ikke alle opnår dog samme niveau som før."
+},
+{
+"id": "1:n0",
+"q": "En patient har udskilt 200 ml urin på 8 timer og vejer 80 kg. Hvad siger det om nyrerne?",
+"a": "Diuresekriteriet for AKI er opfyldt",
+"w": [
+"Urinmængden er normal",
+"Der kan først vurderes efter 24 timer"
+],
+"p": 13,
+"lvl": "K",
+"type": "anvendelse",
+"why": "200 ml på 8 timer er cirka 0,3 ml/kg/time, altså under 0,5 ml/kg/time i 6 timer, som er et KDIGO-kriterium for AKI."
+},
+{
+"id": "1:n1",
+"q": "En patients p-kreatinin er steget fra 80 til 170 µmol/l. Hvilket KDIGO-stadie svarer det til?",
+"a": "Stadie 2",
+"w": [
+"Stadie 1",
+"Stadie 3"
+],
+"p": 14,
+"lvl": "K",
+"type": "anvendelse",
+"why": "170 er cirka 2,1 × baseline, og 2,0-2,9 × baseline er stadie 2."
+},
+{
+"id": "1:n2",
+"q": "Hvad gælder for AKI og diurese?",
+"a": "AKI kan ses med bevaret diurese",
+"w": [
+"AKI giver altid oliguri",
+"AKI giver altid anuri"
+],
+"p": 14,
+"lvl": "K",
+"type": "fakta",
+"why": "Non-oligurisk AKI forekommer, så normal urinmængde udelukker ikke nyreskade."
+},
+{
+"id": "1:n3",
+"q": "Hvorfor udvikles overhydrering, acidose og hyperkaliæmi hurtigt ved anuri?",
+"a": "Nyrerne udskiller næsten intet",
+"w": [
+"Patienten drikker mere end før",
+"Dialysen er allerede startet"
+],
+"p": 14,
+"lvl": "U",
+"type": "forståelse",
+"why": "Nedsat vandudskillelse bestemmer, hvor hurtigt følgesymptomerne opstår."
+},
+{
+"id": "1:n4",
+"q": "En ældre patient har drukket for lidt under en hedebølge og har stigende kreatinin. Hvilken type AKI er mest sandsynlig?",
+"a": "Prærenal",
+"w": [
+"Postrenal",
+"Renal"
+],
+"p": 15,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Væskemangel nedsætter nyrernes perfusion før nyren. Prærenal AKI korrigeres typisk med væske."
+},
+{
+"id": "1:n5",
+"q": "En mand med prostatahyperplasi får pludselig anuri. Hvilken type AKI er mest sandsynlig?",
+"a": "Postrenal",
+"w": [
+"Prærenal",
+"Renal"
+],
+"p": 14,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Prostatahyperplasi kan give obstruktion af de fraførende urinveje. Pludselig anuri mistænkes at være afløbshindring."
+},
+{
+"id": "1:n6",
+"q": "Hvilket endogent stof skader nyrerne ved rabdomyolyse?",
+"a": "Myoglobin",
+"w": [
+"Frit hæmoglobin",
+"Myelomprotein"
+],
+"p": 15,
+"lvl": "U",
+"type": "fakta",
+"why": "Myoglobin fra muskelnedbrydning er en endogen nyretoksisk årsag til renal AKI."
+},
+{
+"id": "1:n7",
+"q": "Hvad genopretter oftest nyrefunktionen ved prærenal AKI?",
+"a": "Volumenterapi",
+"w": [
+"Akut nyrebiopsi",
+"Hurtig start på dialyse"
+],
+"p": 18,
+"lvl": "K",
+"type": "forståelse",
+"why": "Volumenterapi og behandling af grundsygdommen genetablerer oftest funktionen. Kun hvis den ikke kommer sig inden for få dage, kræves nefrologisk udredning."
+},
+{
+"id": "1:n8",
+"q": "En AKI-patient har p-kalium 7 mmol/l med EKG-forandringer, trods behandling. Hvad nu?",
+"a": "Akut dialyse",
+"w": [
+"Kaliumtilskud",
+"Observation til næste dag"
+],
+"p": 19,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hyperkaliæmi over 6 mmol/l med EKG-forandringer er en indikation for akut dialyse, fordi den kan give livstruende arytmier."
+},
+{
+"id": "1:n9",
+"q": "En AKI-patient har lungeødem trods diuretika. Hvad er næste skridt?",
+"a": "Akut dialyse med væsketræk",
+"w": [
+"Mere i.v. væske",
+"Kaliumtilskud"
+],
+"p": 19,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Diuretikaresistent overhydrering (med risiko for hjerte- og lungeinsufficiens) er en indikation for akut dialyse; ved svært hjertesvigt bør dialyse og ultrafiltration indledes tidligt."
+},
+{
+"id": "1:n10",
+"q": "En ustabil intensivpatient med AKI skal dialyseres. Hvilken form kan fordele væsketræk og stoffjernelse over hele døgnet og gør dermed dialysesituationen mere stabil?",
+"a": "Kontinuerlig dialyse (CRRT)",
+"w": [
+"Peritonealdialyse",
+"Intermitterende HD"
+],
+"p": 22,
+"lvl": "K",
+"type": "anvendelse",
+"why": "CRRT bruges i intensivterapi og fordeler væsketræk og stoffjernelse over døgnet."
+},
+{
+"id": "1:n11",
+"q": "Hvorfor er kropstemperaturen upålidelig under dialyse?",
+"a": "Dialysatet påvirker temperaturen",
+"w": [
+"Dialyse udløser altid feber",
+"Termometre virker ikke under dialyse"
+],
+"p": 21,
+"lvl": "U",
+"type": "forståelse",
+"why": "Dialysatets temperatur regulerer på maskinen og påvirker patientens temperatur. Det kan udnyttes terapeutisk."
+},
+{
+"id": "1:n12",
+"q": "Ved hvilken tilstand bør dialyse og ultrafiltration indledes tidligt?",
+"a": "Svær hjertesvigt",
+"w": [
+"Leversvigt",
+"Forhøjet intrakranielt tryk"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved leversvigt og forhøjet intrakranielt tryk er dialyse forbundet med høj risiko og bør ske med specialiseret bistand."
+},
+{
+"id": "1:n13",
+"q": "Hvilke fund tyder på overhydrering hos en AKI-patient?",
+"a": "Ødemer, forhøjet BT og åndenød",
+"w": [
+"Nedsat hudturgor og lavt BT",
+"Vægttab og tør hud uden åndenød"
+],
+"p": 16,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved dehydrering ses modsat lavt BT, nedsat hudturgor og tegn på karkontraktion."
+},
+{
+"id": "1:n14",
+"q": "Hvad gøres ved renalt eliminerede lægemidler ved AKI?",
+"a": "De pauseres eller dosisreduceres",
+"w": [
+"Dosis øges for at opnå effekt",
+"De gives uændret som sædvanligt"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Renalt udskilte lægemidler ophobes, når nyrerne svigter, og kan give forgiftning."
+},
+{
+"id": "1:n15",
+"q": "En afebril voksen med AKI har en diurese på 500 ml/døgn. Hvor meget væske kan ordineres for neutral balance?",
+"a": "Cirka 1.250 ml/døgn",
+"w": [
+"Cirka 500 ml/døgn",
+"Cirka 2.500 ml/døgn"
+],
+"p": 17,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Væskeindgift er døgndiurese + 750 ml, altså 500 + 750 ml."
+},
+{
+"id": "1:n16",
+"q": "Hvad er afgørende ved dehydrering eller blødningsshock?",
+"a": "Hurtig indledende volumenbehandling",
+"w": [
+"Streng væskerestriktion",
+"Akut dialyse med væsketræk"
+],
+"p": 17,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved shock er volumenrestitution det vigtigste. Ved kendt hjertesvigt evalueres tilstanden hyppigt."
+},
+{
+"id": "1:n17",
+"q": "En patient, der er indlagt akut med nyresvigt, har tidligere ukendt nyresygdom, små nyrer og længere tids symptomer. Hvad er sandsynligt?",
+"a": "Kronisk nyreinsufficiens",
+"w": [
+"Ren prærenal AKI med dehydrering",
+"Postrenal AKI med hydronefrose"
+],
+"p": 18,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kronisk nyreinsufficiens kan præsentere sig som AKI, når den ikke tidligere er erkendt. Akut forværring udgør en del af de akut diagnosticerede tilfælde."
+},
+{
+"id": "1:n18",
+"q": "Hvorfor ordineres første akutte HD med lav effektivitet (kort tid, lavt blodflow)?",
+"a": "For at undgå dysækvilibrering",
+"w": [
+"For at spare dialysat og tid",
+"For at undgå blødning fra kateter"
+],
+"p": 21,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højt karbamid før første dialyse giver størst risiko for brat osmolalitetsfald og hjerneødem."
+},
+{
+"id": "1:n19",
+"q": "Hvorfor kan femoral adgang vælges ved svær hyperkaliæmi?",
+"a": "Halsmanipulation kan udløse arytmier",
+"w": [
+"Femoral adgang giver mere blodflow",
+"Jugularis kan aldrig bruges til HD"
+],
+"p": 20,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved svær hyperkaliæmi er hjertet sårbart, og manipulation på halsen kan udløse kardielle arytmier."
+}
+]

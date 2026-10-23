@@ -3,213 +3,121 @@
  "sheets": [
   {
    "n": 1,
-   "title": "Akut nyreinsufficiens",
-   "files": [
-    "s01"
-   ]
+   "title": "Akut nyreinsufficiens"
   },
   {
    "n": 2,
-   "title": "Kronisk nyreinsufficiens",
-   "files": [
-    "s02"
-   ]
+   "title": "Kronisk nyreinsufficiens"
   },
   {
    "n": 3,
-   "title": "Valg af dialysebehandling",
-   "files": [
-    "s03"
-   ]
+   "title": "Valg af dialysebehandling"
   },
   {
    "n": 4,
-   "title": "Biofysik og dialyseprincipper",
-   "files": [
-    "s04"
-   ]
+   "title": "Biofysik og dialyseprincipper"
   },
   {
    "n": 5,
-   "title": "Peritonealdialyse",
-   "files": [
-    "s05a",
-    "s05b"
-   ]
+   "title": "Peritonealdialyse"
   },
   {
    "n": 6,
-   "title": "PD-katetre",
-   "files": [
-    "s06"
-   ]
+   "title": "PD-katetre"
   },
   {
    "n": 7,
-   "title": "Hæmodialyse",
-   "files": [
-    "s07a",
-    "s07b",
-    "s07c"
-   ]
+   "title": "Hæmodialyse"
   },
   {
    "n": 8,
-   "title": "Hjemmehæmodialyse",
-   "files": [
-    "s08"
-   ]
+   "title": "Hjemmehæmodialyse"
   },
   {
    "n": 9,
-   "title": "Vaskulære adgangsveje",
-   "files": [
-    "s09a",
-    "s09b"
-   ]
+   "title": "Vaskulære adgangsveje"
   },
   {
    "n": 10,
-   "title": "Dialysedosis",
-   "files": [
-    "s10"
-   ]
+   "title": "Dialysedosis"
   },
   {
    "n": 11,
-   "title": "Renal anæmi",
-   "files": [
-    "s11"
-   ]
+   "title": "Renal anæmi"
   },
   {
    "n": 12,
-   "title": "Knogle- og mineralmetabolisme",
-   "files": [
-    "s12"
-   ]
+   "title": "Knogle- og mineralmetabolisme"
   },
   {
    "n": 13,
-   "title": "Blodtryk",
-   "files": [
-    "s13"
-   ]
+   "title": "Blodtryk"
   },
   {
    "n": 14,
-   "title": "Hjerte-kar-sygdom",
-   "files": [
-    "s14"
-   ]
+   "title": "Hjerte-kar-sygdom"
   },
   {
    "n": 15,
-   "title": "Ernæring",
-   "files": [
-    "s15"
-   ]
+   "title": "Ernæring"
   },
   {
    "n": 16,
-   "title": "Hormoner og graviditet",
-   "files": [
-    "s16"
-   ]
+   "title": "Hormoner og graviditet"
   },
   {
    "n": 17,
-   "title": "Seksuel dysfunktion",
-   "files": [
-    "s17"
-   ]
+   "title": "Seksuel dysfunktion"
   },
   {
    "n": 18,
-   "title": "Fysisk træning",
-   "files": [
-    "s18"
-   ]
+   "title": "Fysisk træning"
   },
   {
    "n": 19,
-   "title": "Dosering af medicin",
-   "files": [
-    "s19"
-   ]
+   "title": "Dosering af medicin"
   },
   {
    "n": 20,
-   "title": "Dialyse ved diabetes",
-   "files": [
-    "s20"
-   ]
+   "title": "Dialyse ved diabetes"
   },
   {
    "n": 21,
-   "title": "Børn i peritonealdialyse",
-   "files": [
-    "s21"
-   ]
+   "title": "Børn i peritonealdialyse"
   },
   {
    "n": 22,
-   "title": "Børn i hæmodialyse",
-   "files": [
-    "s22"
-   ]
+   "title": "Børn i hæmodialyse"
   },
   {
    "n": 23,
-   "title": "Plasmaferese og aferese",
-   "files": [
-    "s23"
-   ]
+   "title": "Plasmaferese og aferese"
   },
   {
    "n": 24,
-   "title": "Forgiftninger",
-   "files": [
-    "s24"
-   ]
+   "title": "Forgiftninger"
   },
   {
    "n": 25,
-   "title": "Recipient- og donorudredning",
-   "files": [
-    "s25"
-   ]
+   "title": "Recipient- og donorudredning"
   },
   {
    "n": 26,
-   "title": "Nyretransplantation",
-   "files": [
-    "s26"
-   ]
+   "title": "Nyretransplantation"
   },
   {
    "n": 27,
-   "title": "Maksimal medicinsk uræmibehandling (MMU)",
-   "files": [
-    "s27"
-   ]
+   "title": "Maksimal medicinsk uræmibehandling (MMU)"
   },
   {
    "n": 28,
-   "title": "Palliation",
-   "files": [
-    "s28"
-   ]
+   "title": "Palliation"
   },
   {
    "n": 29,
-   "title": "Socialrådgivning",
-   "files": [
-    "s29"
-   ]
+   "title": "Socialrådgivning"
   }
  ],
- "patch": {},
  "sets": {
   "count": 12,
   "perSet": 25,
@@ -342,5 +250,6 @@
     ]
    }
   ]
- }
+ },
+ "setsVer": "2"
 }

@@ -1,0 +1,389 @@
+[
+{
+"id": "13:0",
+"q": "Hvad hedder Danmarks parlament?",
+"a": "Folketinget",
+"w": [
+"Rigsdagen",
+"Landstinget"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Folketinget er Danmarks parlament og udgør sammen med regeringen den lovgivende magt."
+},
+{
+"id": "13:1",
+"q": "Hvor arbejder Folketinget?",
+"a": "På Christiansborg",
+"w": [
+"På Amalienborg i København",
+"På Rosenborg i København"
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Folketinget holder til på Christiansborg i København."
+},
+{
+"id": "13:2",
+"q": "Hvor mange medlemmer har Folketinget?",
+"a": "179",
+"w": [
+"119",
+"200"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Folketinget har 179 medlemmer. 175 er valgt i Danmark, to på Færøerne og to i Grønland."
+},
+{
+"id": "13:3",
+"q": "Hvor mange medlemmer af Folketinget vælges på Færøerne?",
+"a": "2",
+"w": [
+"4",
+"6"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "To medlemmer vælges på Færøerne og to i Grønland. De øvrige 175 vælges i Danmark."
+},
+{
+"id": "13:6",
+"q": "Hvem bestemmer, hvem der skal danne regering efter et valg?",
+"a": "Folketinget",
+"w": [
+"Kongen alene",
+"Domstolene"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Folketinget afgør, hvem der får regeringsmagten. Kongen har ingen politisk magt."
+},
+{
+"id": "13:8",
+"q": "Hvilken form for demokrati er Danmark?",
+"a": "Parlamentarisk demokrati",
+"w": [
+"Direkte demokrati",
+"Præsidentielt demokrati"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "I et parlamentarisk demokrati bestemmer Folketinget, hvem der har regeringsmagten."
+},
+{
+"id": "13:9",
+"q": "Hvad sker der, hvis en regering får flertallet imod sig i en vigtig sag?",
+"a": "Den går af eller udskriver valg",
+"w": [
+"Kongen overtager sagen igen",
+"Domstolene afgør den vigtige sag"
+],
+"p": 72,
+"lvl": "K",
+"type": "forståelse",
+"why": "Får regeringen flertallet imod sig i en sag, den selv tillægger stor betydning, fx finansloven, kan den gå af eller vælge at udskrive valg."
+},
+{
+"id": "13:n0",
+"q": "Hvem kan normalt overvære møderne i Folketingssalen?",
+"a": "Almindelige borgere",
+"w": [
+"Kun politikere og ansatte",
+"Kun inviterede journalister"
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Møderne er normalt offentlige. Borgere kan sidde på tilhørerpladserne eller se tv fra Folketinget."
+},
+{
+"id": "13:n1",
+"q": "Er næsten alle folketingsmedlemmer medlem af et parti?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 72,
+"lvl": "D",
+"type": "fakta",
+"why": "Medlemmerne af Folketinget er næsten altid medlem af et politisk parti."
+},
+{
+"id": "13:10",
+"q": "Hvilken dag er der spørgetid i Folketinget?",
+"a": "Onsdag",
+"w": [
+"Mandag",
+"Fredag"
+],
+"p": 73,
+"lvl": "U",
+"type": "fakta",
+"why": "Hver onsdag svarer ministre på spørgsmål fra folketingsmedlemmerne."
+},
+{
+"id": "13:11",
+"q": "Hvad sker der i spørgetiden i Folketinget?",
+"a": "Ministre svarer på spørgsmål",
+"w": [
+"Der stemmes om nye love",
+"Kongen holder en tale"
+],
+"p": 73,
+"lvl": "K",
+"type": "fakta",
+"why": "Folketingsmedlemmerne stiller spørgsmål, og ministrene svarer og diskuterer svaret med dem."
+},
+{
+"id": "13:n2",
+"q": "Hvorfor har Folketinget spørgetid?",
+"a": "For at kontrollere ministrene",
+"w": [
+"For at vælge regeringen",
+"For at dømme i sager"
+],
+"p": 73,
+"lvl": "K",
+"type": "forståelse",
+"why": "Spørgetiden gør det muligt at kontrollere, at ministrene fører lovene ud i livet på den rigtige måde."
+},
+{
+"id": "13:12",
+"q": "Hvor mange behandlinger skal et lovforslag have i Folketinget?",
+"a": "Tre",
+"w": [
+"To",
+"Fem"
+],
+"p": 73,
+"lvl": "K",
+"type": "fakta",
+"why": "Et lovforslag skal behandles tre gange, før det kan vedtages. Imellem arbejder udvalgene med det."
+},
+{
+"id": "13:13",
+"q": "Hvad sker der i Folketingets udvalg?",
+"a": "Lovforslag gennemarbejdes",
+"w": [
+"Der afsiges domme i sager",
+"Der afholdes valg til udvalget"
+],
+"p": 73,
+"lvl": "U",
+"type": "fakta",
+"why": "Udvalgene behandler lovforslagene mellem de tre behandlinger og stiller spørgsmål til ministeren."
+},
+{
+"id": "13:14",
+"q": "Hvilket udvalg arbejder bl.a. med politi, domstole og straf?",
+"a": "Retsudvalget",
+"w": [
+"Europaudvalget",
+"Beskæftigelsesudvalget"
+],
+"p": 73,
+"lvl": "U",
+"type": "fakta",
+"why": "Udvalgene svarer nogenlunde til ministerierne. Retsudvalget dækker politi, domstole og straf."
+},
+{
+"id": "13:16",
+"q": "Du vil gøre en politiker opmærksom på et problem. Hvad kan du gøre?",
+"a": "Skrive til et folketingsmedlem",
+"w": [
+"Skrive til Højesteret",
+"Bede kongen om hjælp"
+],
+"p": 73,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Borgerne kan frit skrive til medlemmer af Folketinget. De får mange henvendelser."
+},
+{
+"id": "13:17",
+"q": "Hvem leder regeringen?",
+"a": "Statsministeren",
+"w": [
+"Kongen",
+"Folketingets formand"
+],
+"p": 74,
+"lvl": "K",
+"type": "fakta",
+"why": "Statsministeren leder regeringen, som normalt består af ca. 20 ministre."
+},
+{
+"id": "13:18",
+"q": "Hvor mange ministre er der normalt i en regering?",
+"a": "Cirka 20",
+"w": [
+"Cirka 5",
+"Cirka 50"
+],
+"p": 74,
+"lvl": "U",
+"type": "fakta",
+"why": "Regeringen består normalt af ca. 20 ministre."
+},
+{
+"id": "13:19",
+"q": "Hvem bestemmer, hvem der skal være minister?",
+"a": "Statsministeren",
+"w": [
+"Kongen og Folketinget",
+"Folketinget alene"
+],
+"p": 74,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er alene statsministeren, der bestemmer, hvem der er minister, og hvor mange der skal være."
+},
+{
+"id": "13:20",
+"q": "Skal ministre være medlemmer af Folketinget?",
+"a": "Nej",
+"w": [
+"Ja, altid"
+],
+"p": 74,
+"lvl": "U",
+"type": "fakta",
+"why": "Som regel er ministre medlemmer af Folketinget, men de behøver ikke at være det."
+},
+{
+"id": "13:21",
+"q": "Hvem er ansvarlig for det, der sker i et ministerium?",
+"a": "Ministeren",
+"w": [
+"Kongen",
+"Folketingets formand"
+],
+"p": 74,
+"lvl": "K",
+"type": "fakta",
+"why": "De enkelte ministre er ansvarlige for deres ministerium, hvor de har det øverste ansvar."
+},
+{
+"id": "13:n3",
+"q": "Hvem bestemmer, om to ministerier lægges sammen?",
+"a": "Statsministeren",
+"w": [
+"Kongen og Folketinget",
+"Folketinget alene"
+],
+"p": 74,
+"lvl": "D",
+"type": "fakta",
+"why": "Statsministeren bestemmer, om ministerier lægges sammen, oprettes eller får flyttet opgaver."
+},
+{
+"id": "13:22",
+"q": "Hvad kaldes det, når flere partier sammen har regeringsmagten?",
+"a": "Koalitionsregering",
+"w": [
+"Enevældig regering",
+"Støtteregering"
+],
+"p": 75,
+"lvl": "K",
+"type": "fakta",
+"why": "Når flere partier har regeringsmagten sammen, kaldes det en koalitionsregering."
+},
+{
+"id": "13:n4",
+"q": "Hvad kaldes en regering, hvor regeringspartierne har flertal i Folketinget?",
+"a": "Flertalsregering",
+"w": [
+"Mindretalsregering",
+"Koalitionsstøtte"
+],
+"p": 75,
+"lvl": "U",
+"type": "fakta",
+"why": "Har regeringspartierne sammen flertal i Folketinget, er det en flertalsregering."
+},
+{
+"id": "13:23",
+"q": "Hvad er en mindretalsregering?",
+"a": "Regering uden flertal i Folketinget",
+"w": [
+"Regering med flertal i Folketinget",
+"Regering uden statsminister"
+],
+"p": 75,
+"lvl": "K",
+"type": "fakta",
+"why": "Regeringspartierne har ikke flertal, så regeringen er afhængig af støtte fra andre partier for at få lovforslag vedtaget."
+},
+{
+"id": "13:24",
+"q": "Hvad kaldes partier uden for regeringen, der støtter en mindretalsregering?",
+"a": "Støttepartier",
+"w": [
+"Regeringspartier",
+"Løsgængere"
+],
+"p": 75,
+"lvl": "K",
+"type": "fakta",
+"why": "Støttepartier står uden for regeringen, men hjælper den med at få lovforslag vedtaget."
+},
+{
+"id": "13:25",
+"q": "Hvilken slags regeringer har Danmark haft flest af siden 1945?",
+"a": "Mindretalsregeringer",
+"w": [
+"Flertalsregeringer"
+],
+"p": 75,
+"lvl": "K",
+"type": "fakta",
+"why": "Langt de fleste regeringer siden 1945 har været mindretalsregeringer."
+},
+{
+"id": "13:n5",
+"q": "Hvorfor forhandler en dansk regering ofte med andre partier?",
+"a": "Den har ofte ikke flertal selv",
+"w": [
+"Kongen kræver det",
+"Domstolene kræver det"
+],
+"p": 75,
+"lvl": "K",
+"type": "forståelse",
+"why": "De fleste regeringer har ikke flertal. Derfor skal de forhandle med andre partier for at få lovforslag vedtaget."
+},
+{
+"id": "13:31",
+"q": "Hvad betyder repræsentativt demokrati?",
+"a": "Folket vælger politikere til at lave love",
+"w": [
+"Folket stemmer om alle love",
+"Kongen vælger politikerne"
+],
+"p": 75,
+"lvl": "K",
+"type": "forståelse",
+"why": "Politikerne er folkets repræsentanter og tager sig af lovgivningen. Lovforslag sendes sjældent til folkeafstemning."
+},
+{
+"id": "13:33",
+"q": "Hvad har flest folkeafstemninger siden 1953 handlet om?",
+"a": "Forholdet til EU",
+"w": [
+"Skattesystemet",
+"Skolesystemet"
+],
+"p": 75,
+"lvl": "U",
+"type": "fakta",
+"why": "Siden 1953 har der været 16 folkeafstemninger. Ni af dem handlede om Danmarks forhold til EU."
+}
+]

@@ -1,0 +1,576 @@
+[
+ {
+  "n": 1,
+  "goals": [
+   "Efter kapitlet kan du definere AKI og klassificere det efter KDIGO-stadier og diurese.",
+   "Efter kapitlet kan du skelne prærenal, renal og postrenal AKI og vælge første udredning og behandling.",
+   "Efter kapitlet kan du angive indikationer for akut dialyse og forskellen på intermitterende HD, CRRT og PD.",
+   "Efter kapitlet kan du forklare risici ved akut dialyse, fx dysækvilibrering, og hvordan antikoagulation og kateteradgang vælges."
+  ],
+  "keypoints": [
+   "AKI defineres ved ét kriterium: kreatininstigning på 26,5 µmol/l på 48 timer, 1,5 × baseline på 7 dage eller diurese < 0,5 ml/kg/t i 6 timer",
+   "KDIGO-stadie 1-3 efter kreatinin og diurese; AKI er en selvstændig risikofaktor for død",
+   "Prærenal (nedsat perfusion), renal (parenkymskade) og postrenal (obstruktion) AKI; ingen af dem er godartede",
+   "Oligurisk 100-400 ml og anurisk < 100 ml diurese giver hurtig overhydrering, acidose og hyperkaliæmi",
+   "Måling af p-kreatinin hos alle akut syge, ultralyd inden for 12 timer ved anuri/oliguri og blærekateter",
+   "Behandlingen: væskebalance, korrektion af hyperkaliæmi og acidose, medicinjustering (undgå NSAID, nefrotoksika; eGFR ikke retvisende)",
+   "Afløbshindring mistænkes ved pludselig anuri; aflastning er første behandling af postrenal AKI",
+   "Indikationer for akut dialyse: svær hyperkaliæmi, overhydrering, svær acidose, svære uræmiske symptomer, progression trods behandling",
+   "Akut HD er mest udbredt; første dialyser har lav effektivitet for at undgå dysækvilibreringssyndrom; CRRT bruges på intensiv",
+   "Heparin i små doser eller ingen antikoagulans; citrat ved CRRT; femoral adgang ved blødningstendens eller svær hyperkaliæmi"
+  ]
+ },
+ {
+  "n": 2,
+  "goals": [
+   "Efter kapitlet kan du angive de hyppigste årsager til og det typiske forløb af kronisk nyreinsufficiens.",
+   "Efter kapitlet kan du klassificere kronisk nyresygdom efter GFR-stadie og albuminuri og vide, hvornår eGFR er upålidelig.",
+   "Efter kapitlet kan du beskrive tiltag, der hæmmer progression, og hvornår dialyse indiceres.",
+   "Efter kapitlet kan du forklare, hvornår man henviser, og hvornår dialyseadgang og transplantation forberedes."
+  ],
+  "keypoints": [
+   "Hyppigste årsager i Danmark: diabetisk nyresygdom, hypertensiv nefrosklerose, tubulointerstitiel nefropati, glomerulonefritis og polycystisk nyresygdom",
+   "Patoanatomi: sklerosering af glomeruli og fibrose giver skrumpenyrer; polycystisk nyresygdom giver forstørrede nyrer",
+   "Svigtende nyrefunktion giver acidose, hyperkaliæmi, overhydrering og hypertension, og mangel på EPO og D-vitamin giver anæmi og osteodystrofi",
+   "Stadier efter GFR (G1-G5) og albuminuri (A1-A3); nedsat GFR skal have varet mindst 3 måneder",
+   "eGFR bygger på kreatinin, køn og alder og er upålidelig ved afvigende muskelmasse, lavt kødindtag og hurtigt skiftende funktion",
+   "Uræmi: træthed først, siden kvalme, kløe, blødningstendens; terminalt dør patienten af bevidsthedssvækkelse eller arytmi",
+   "Hæmning af progression: blodtryk, RAS-blokade, SGLT2-hæmmer, finerenon, god glykæmisk kontrol, rygeophør, bikarbonat, moderat proteinrestriktion",
+   "Undgå nefrotoksika (NSAID, aminoglykosider), men nedsat nyrefunktion må ikke forhindre nødvendig kontrastundersøgelse",
+   "Dialyse startes ved uræmiske symptomer, ofte ved eGFR 6-10, eller ved svær acidose eller hyperkaliæmi; kontraindiceret fx ved svær demens",
+   "Forberedelse: henvis ved eGFR under 30; dialyseforberedelse ved eGFR under 20; PD-kateter 3-4 uger og AV-fistel 8-12 uger før; venteliste ved eGFR ≤ 15"
+  ]
+ },
+ {
+  "n": 3,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor valg af dialysemodalitet afhænger af patientens præferencer og ikke af evidens for en bedste modalitet.",
+   "Efter kapitlet kan du anvende de tre trin i three talk-modellen og bruge undervis tilbage og værdiafklaring i dialysevalgssamtalen.",
+   "Efter kapitlet kan du inddrage pårørende og tage højde for alder, skrøbelighed og komorbiditet, når patienten overvejer, om dialyse overhovedet er rette valg."
+  ],
+  "keypoints": [
+   "Der er ikke evidens for, at én dialysemodalitet er bedre end de andre; HD og PD giver samme overlevelse internationalt",
+   "Fælles beslutningstagning øger viden, mindsker tvivl og har ingen risici; flere inddragede vælger hjemmebehandling",
+   "Beslutningsstøtteredskaber og beslutningsdiagram gør valget og mulighederne tydelige",
+   "Three talk-modellen: samtale om samarbejde, om mulighederne og om beslutningen",
+   "Brug undervis tilbage med åbne spørgsmål og risikokommunikation, der respekterer patientens informationsbehov",
+   "Værdiafklaring: patienten vægter fordele og ulemper; der er intet bedste valg, så tal om plan A og B",
+   "Beslutningen kan ændres inden for 3 måneder efter start og bør genovervejes hvert halve år",
+   "Planlagt dialysestart har bedre udbytte end akut start, så vælg i god tid",
+   "Pårørende bør inddrages, men kan også presse patienten og have egne behov",
+   "Hos ældre, skrøbelige og patienter med komorbiditet er selve valget om dialyse en afvejning, da overlevelsesfordelen mindskes"
+  ]
+ },
+ {
+  "n": 4,
+  "goals": [
+   "Efter kapitlet kan du forklare forskellen på diffusion, konvektion, ultrafiltration og adsorption.",
+   "Efter kapitlet kan du forklare, hvorfor clearance af små molekyler er flowbegrænset og af store molekyler arealbegrænset.",
+   "Efter kapitlet kan du forklare, hvorfor PD og HD adskiller sig i ordinationsmuligheder, og hvorfor der opstår rebound."
+  ],
+  "keypoints": [
+   "Dialyse er stoftransport over en membran mellem blod og dialysat; biofysikken er fælles for PD og HD",
+   "Diffusion: tilfældige sammenstød giver nettotransport fra høj til lav koncentration; større molekyler er langsommere",
+   "Større blod- og dialysatflow øger koncentrationsforskellen og dermed rensningen op til en grænse",
+   "Ultrafiltration er væsketræk: osmotisk tryk ved PD, sug på dialysatsiden ved HD",
+   "Konvektion er rettet transport af opløste stoffer med vandet; HF og HDF renser store molekyler bedre",
+   "Adsorption til membranen fjerner bl.a. β-2-mikroglobulin",
+   "Clearance er det plasmavolumen, der renses for et stof pr. tid",
+   "Små molekylers clearance er flowbegrænset, store molekylers er arealbegrænset; lang dialysetid hjælper især store",
+   "Ved PD kan kun dialysetid, dialysatvolumen og antal skift ændres; blodflowet i peritoneum begrænser",
+   "Rebound opstår, fordi intracellulære og dårligt perfunderede væv udlignes langsomt"
+  ]
+ },
+ {
+  "n": 5,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvordan PD virker (diffusion, ultrafiltration, konvektion) og hvad PET fortæller om transporthastighed.",
+   "Efter kapitlet kan du vælge PD-form og væske ud fra patient, transporthastighed og overhydrering samt vurdere kontraindikationer og barrierer.",
+   "Efter kapitlet kan du genkende og håndtere komplikationer som peritonitis, hernier, hydrothorax, lækager og skleroserende peritonitis."
+  ],
+  "keypoints": [
+   "PD bruger peritoneum som membran; clearance ved diffusion, væskefjernelse ved osmotisk UF",
+   "Kapillærvæggen er den vigtigste barriere; PET måler transporthastighed",
+   "Lav transport: store volumina og få skift; høj transport: korte dwell og mange skift (APD)",
+   "CAPD er manuel posedialyse; APD foregår med natmaskine; aPD hjælper svage patienter",
+   "Glukose er standard-osmotisk stof; icodextrin til lange dwell, maks. én pose pr. døgn",
+   "Absolutte kontraindikationer: udbredte adhærencer, inoperable hernier, nedsat peritonealoverflade",
+   "Natrium fjernes ved konvektion; hypertension tyder på overhydrering; UF-svigt kan kræve HD",
+   "Peritonitis: mavesmerter og uklart udløb; to af tre kriterier; i.p. vancomycin og gentamycin",
+   "Refraktær peritonitis (uklart efter 5 dage), svampe og tarmperforation kræver kateterfjernelse",
+   "Hernier, hydrothorax, skrotalødem og lækager skyldes øget intraabdominalt tryk"
+  ]
+ },
+ {
+  "n": 6,
+  "goals": [
+   "Efter kapitlet kan du forklare kateterets opbygning (cuffs, tunnel, exit-site) og vælge anlæggelsesmetode ud fra patientens forhold.",
+   "Efter kapitlet kan du genkende og behandle de typiske kateterkomplikationer: lækage, flowproblemer og infektion.",
+   "Efter kapitlet kan du vurdere, hvornår et PD-kateter skal omlægges eller fjernes."
+  ],
+  "keypoints": [
+   "Infektion er den hyppigste kateterkomplikation; ISPDs mål er 80 % kateteroverlevelse efter ét år",
+   "Silikonekatetre dominerer; tungstenskateter er udviklet til at give færre displaceringer; spidsen skal ligge dybt i bækkenet",
+   "Cuffs fikserer katetret ved fibrose og giver barriere mod bakterier; mindst 2 cm fra yderste cuff til exit-site",
+   "Kirurgisk anlæggelse (generel anæstesi) ved komplicerende forhold; perkutan (lokalbedøvelse) har lidt større perforationsrisiko",
+   "Antibiotika peroperativt og anlæggelse mindst to uger før dialysestart; tidlig start med små volumina liggende",
+   "Exit-site lateralt på abdomen og nedadgående; præsternalt kateter hvis abdomen ikke egner sig",
+   "Lækage er hyppigst lige efter anlæggelsen og behandles med dialysepause i 2-4 uger",
+   "Flowproblemer: obstipation er hyppigst; derefter omentomlejring, displacering og fibrin",
+   "Displacering stilles med røntgengennemlysning; første behandling er motion og laksantia",
+   "Exit-site- og tunnelinfektion skyldes oftest stafylokokker; podning og peroralt antibiotikum; akut fjernelse ved sepsis eller Pseudomonas"
+  ]
+ },
+ {
+  "n": 7,
+  "goals": [
+   "Efter kapitlet kan du forklare HD-kredsløbets opbygning, alarmer og sikkerhedsfunktioner (luft, tryk, blodlækage, konduktivitet).",
+   "Efter kapitlet kan du vælge dialysat, filter og antikoagulation ud fra patientens situation og blødningsrisiko.",
+   "Efter kapitlet kan du vurdere tørvægt og håndtere akutte komplikationer som hypotension, kramper, dysækvilibrium, luftemboli og hæmolyse."
+  ],
+  "keypoints": [
+   "Diffusion dominerer ved HD; HDF kombinerer dialyse og konvektion med erstatningsvæske, og pyrogenfrit dialysevand er nødvendigt ved high-flux og HDF.",
+   "Blodflow mindst 200 ml/min., typisk 300-400; arterietrykket er negativt, og venenålen placeres proksimalt for at undgå recirkulation.",
+   "Luftdetektor og venekammer forebygger luftemboli; lavt venetryk kan betyde faldet venenål; blodlækagedetektor og konduktivitetsmåler beskytter mod blodtab, elektrolytfejl og hæmolyse.",
+   "Dialysatets natrium, kalium, calcium, bikarbonat og glukose vælges individuelt; køligere dialysat og højere natrium modvirker blodtryksfald.",
+   "Ultrafiltration cirka 1 liter pr. time; TMP bør være højst ca. 400 mmHg; tørdialyse er isoleret UF; tørvægt vurderes klinisk.",
+   "Antikoagulation er nødvendig på grund af membranaktivering; heparin er standard, ved blødningsrisiko lavdosis eller ingen, ved HIT citrat eller alternativer; protamin er antidot.",
+   "Første dialyse er skånsom (lille filter, lavt flow, 2 timer), især ved p-karbamid over 50 mmol/l pga. dysækvilibrium; standard er 4 timer tre gange ugentligt med Kt/V over 1,2.",
+   "Hypotension er hyppigst: Trendelenburg, pausér UF, NaCl/albumin, køligere dialysat; kramper behandles med hyperton NaCl eller glukose.",
+   "Ved luftemboli: stop dialysen og lejr på venstre side; ved hæmolyse gives blodet ikke tilbage, og dialysen genstartes på ny maskine."
+  ]
+ },
+ {
+  "n": 8,
+  "goals": [
+   "Efter kapitlet kan du forklare fordelene ved HHD og hvem der er egnet.",
+   "Efter kapitlet kan du beskrive oplæring, adgangsvej og alarmer ved HHD.",
+   "Efter kapitlet kan du forklare forskellen på konventionelle og low-dialysate-volume-maskiner og hvordan ordinationen tilpasses."
+  ],
+  "keypoints": [
+   "HHD udføres af patienten selv i hjemmet efter oplæring (typisk 4-12 uger).",
+   "Mange dialysetimer giver bedre blodtryk, fosfat, kalium, anæmi, ernæring og livskvalitet.",
+   "Rekruttering starter i prædialysestadiet; limited care-afsnit fastholder motivation.",
+   "Egnethed afhænger af fysisk, kognitiv og social formåen.",
+   "Knaphuller kan forkorte oplæring; lækagealarm bruges ved søvn; tunnelerede katetre kræver steril non-touch-teknik.",
+   "Konventionel maskine kræver vandanlæg; low-dialysate-volume er mindre, flytbar og simpel.",
+   "Hyppig dialyse giver mindre UF pr. session; meget korte sessioner kan give utilstrækkelig fosfatfjernelse.",
+   "Kvalitet vurderes ud fra blodprøver, blodtryk og symptomer; fjernmonitorering er muligt."
+  ]
+ },
+ {
+  "n": 9,
+  "goals": [
+   "Efter kapitlet kan du vælge adgangsvej efter princippet vene, graft, kateter og forklare hvorfor.",
+   "Efter kapitlet kan du vurdere en patient præoperativt og følge modning og funktion af en AV-fistel.",
+   "Efter kapitlet kan du genkende og håndtere komplikationer: stenose, trombose, steal, aneurisme, infektion og hjerteinsufficiens.",
+   "Efter kapitlet kan du beskrive stikketeknikker og valg, anlæggelse og komplikationer ved HD-CVK."
+  ],
+  "keypoints": [
+   "Adgang vælges: fistel først, derefter graft, dernæst kateter; fistel har lavest infektionsrisiko.",
+   "Akut dialysebehov: HD-CVK; henvis i god tid og undgå stik i perifere vener.",
+   "Præoperativt: anatomi, tidligere CVK/pacemaker, diabetes, hjerteinsufficiens, UL af arterier og vener, ikke-dominant arm.",
+   "Modning tager 6-8 uger; UL efter 3 uger; manglende modning skyldes næsten altid stenose.",
+   "Stikketeknik: rebstige og knaphul; arealteknik frarådes; grafter rebstige; venenål antegrad.",
+   "Stenose: lang hæmostase, højt venetryk, ansug og lavt flow; PTA er førstevalg; trombektomi helst inden 48 timer.",
+   "Steal giver kolde, blege fingre; hjerteinsufficiens ved højt flow kræver flowreduktion; aneurismer behandles kun ved komplikationer.",
+   "Monitorér med regelmæssig flowmåling; flow under 600 ml/min. eller fald over 25 % giver henvisning.",
+   "HD-CVK: højre v. jugularis interna, UL obligatorisk, røntgen thorax bagefter, spids ved højre atrium, akutkateter højst ca. fire uger.",
+   "Central stenose er ofte asymptomatisk og behandles kun ved symptomer; v. subclavia giver mest stenose."
+  ]
+ },
+ {
+  "n": 10,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor karbamid bruges til at måle dialysedosis, og hvorfor p-karbamid alene ikke er nok.",
+   "Efter kapitlet kan du forklare og vælge mellem Kt/V, URR, eKt/V og stdKt/V og kende målene for HD × 3/uge.",
+   "Efter kapitlet kan du vælge tiltag til at øge dosis og kende dosismål ved HDF, PD og graviditet."
+  ],
+  "keypoints": [
+   "Dialyse doseres ved tid, frekvens og effektivitet efter patientens behov",
+   "Karbamid er indikator, men p-karbamid alene kan ikke bruges til dosering pga. PCR",
+   "Kt/V = clearance × tid / fordelingsvolumen; URR er fraktionelt fald",
+   "UKM giver mest præcis Kt/V; slutprøven er mest afgørende (2-5 min. efter HD)",
+   "eKt/V måles 30 min. efter HD og er 10-15 % lavere end spKt/V",
+   "stdKt/V gør regimer sammenlignelige; sessionsværdier må ikke blot ganges",
+   "Mål ved HD × 3/uge: spKt/V 1,4 (minimum 1,2) og mindst 3½ time",
+   "HDF: konvektionsvolumen over 23 liter pr. session",
+   "PD: Kt/V og kreatininclearance, restnyrefunktion afgørende; fokus på symptomer og livskvalitet",
+   "Gravide dialyseres med højere dosis, 6-7 sessioner pr. uge"
+  ]
+ },
+ {
+  "n": 11,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvordan EPO dannes og reguleres, og hvorfor uræmiske patienter udvikler anæmi.",
+   "Efter kapitlet kan du forklare hepcidins rolle og vurdere jernstatus og funktionel jernmangel ved inflammation.",
+   "Efter kapitlet kan du starte, justere og monitorere ESA-behandling og kende mål, bivirkninger og årsager til EPO-resistens."
+  ],
+  "keypoints": [
+   "Renal anæmi er multifaktoriel og ses oftest ved eGFR under ca. 35",
+   "EPO dannes hovedsageligt i nyrerne og reguleres af ilt via HIF",
+   "Uræmiske patienter har for lav EPO i forhold til anæmien",
+   "ESA omfatter epoetin, darbepoetin, CERA og HIF-stabilisatorer",
+   "Hepcidin fra leveren hæmmer jernoptagelse og frigivelse; øges ved inflammation",
+   "Jernstatus er usikker ved inflammation; funktionel jernmangel er hyppig",
+   "I.v. jern foretrækkes ofte; kan ikke gives ved infektion",
+   "Behandlingsmål for Hgb er 6,2-7,1 mmol/l; normalisering frarådes",
+   "Dosis øges eller reduceres 25-50 %; Hgb kontrolleres hver 4.-6. uge",
+   "EPO-resistens kræver søgning efter årsag; PRCA er sjælden"
+  ]
+ },
+ {
+  "n": 12,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvordan PTH, FGF23 og D-vitamin regulerer calcium og fosfat, og hvordan sekundær hyperparathyroidisme udvikles ved CKD.",
+   "Efter kapitlet kan du beskrive manifestationer og diagnostik af CKD-MBD, herunder kalcifylaksi, biokemiske mål, DEXA og knoglebiopsi.",
+   "Efter kapitlet kan du vælge og begrunde behandling: fosfatkontrol, fosfatbindere, D-vitamin, calcimimetica og parathyroidektomi."
+  ],
+  "keypoints": [
+   "CKD-MBD omfatter forstyrret knogleomsætning, mineralmetabolisme og forkalkning af kar og bløddele",
+   "Hypocalcæmi stimulerer PTH; FGF23 regulerer fosfatudskillelsen og hæmmer calcitriolsyntese",
+   "Hyperfosfatæmi, hypocalcæmi og calcitriolmangel driver sekundær HPT; manifest hyperfosfatæmi ved GFR 20-30",
+   "Vaskulære kalcifikationer er hyppige; kalcifylaksi er sjælden, men har høj dødelighed",
+   "Renal osteodystrofi kan være high eller low turnover; klassificeres ved TMV i knoglebiopsi",
+   "Calcium, fosfat og PTH monitoreres; mål: Ca 1,15-1,35, fosfat 0,80-1,50 mmol/l",
+   "Fosfatkontrol: diæt, fosfatbindere (calciumfri ved hypercalcæmi/kalcifikationer), intensiv dialyse",
+   "Aktive D-analoger sænker PTH men kan give hyperfosfatæmi, hypercalcæmi og oversuppression",
+   "Calcimimetica hæmmer PTH via CaSR; parathyroidektomi ved tertiær HPT giver risiko for hungry bone syndrome"
+  ]
+ },
+ {
+  "n": 13,
+  "goals": [
+   "Efter kapitlet kan du angive blodtryksgrænser for hypertension og forskel på white coat- og maskeret hypertension.",
+   "Efter kapitlet kan du vælge antihypertensiv behandling og tørvægtsstrategi hos CKD-, dialyse- og transplanterede patienter.",
+   "Efter kapitlet kan du skelne hypertensive urgency fra emergency og vælge tempo for BT-sænkning."
+  ],
+  "keypoints": [
+   "Hypertension er både årsag til og følge af nyresygdom og medvirker til hjerte-kar-sygdom",
+   "Grænser: konsultation 140/90, hjemme 135/85, middeldøgn 130/80 mmHg",
+   "Hjemme- og døgnblodtryk er bedst til diagnose; white coat og maskeret hypertension",
+   "Salt- og væskeretention og RAS-overaktivitet er hovedmekanismer; tørvægt og natriumrestriktion er basis i HD",
+   "CKD-mål 130/80; ACEi/ARB førstevalg ved diabetes eller albuminuri; ikke dobbeltblokade",
+   "Dialyse: individuelt BT-mål; både lavt og højt BT er forbundet med øget dødelighed",
+   "Behandlingsresistent hypertension: udred måling, compliance, sekundære årsager, væske og medicin",
+   "Hypertension efter transplantation: immunsuppression og graftarteriestenose",
+   "Svær hypertension: urgency uden og emergency med organpåvirkning; tempo afhænger af organet"
+  ]
+ },
+ {
+  "n": 14,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor kardiovaskulær risiko stiger ved faldende nyrefunktion, og skelne traditionelle fra CKD-relaterede risikofaktorer.",
+   "Efter kapitlet kan du beskrive aterosklerose og intimal versus medial kalcifikation samt følger for hjerte og kar.",
+   "Efter kapitlet kan du angive risikofaktorbehandling i dialyse, fx statin, SGLT2-hæmmere og acetylsalicylsyre."
+  ],
+  "keypoints": [
+   "Risikoen for hjerte-kar-sygdom stiger eksponentielt med faldende nyrefunktion; CVD er største dødsårsag i dialyse",
+   "Pludselig hjertedød, muligvis pga. arytmier, er hyppig; dialysepatienter er underrepræsenteret i studier",
+   "Uræmispecifikke risikofaktorer (anæmi, inflammation, kalcifikationer) overskygger de traditionelle",
+   "Aterosklerose er intimal og inflammatorisk; medial kalcifikation er degenerativ og accelereret ved CKD og diabetes",
+   "Arteriestivhed giver højt systolisk og lavt diastolisk tryk med LVH og iskæmirisiko",
+   "LVH og diastolisk dysfunktion udvikles tidligt; kronisk atrieflimren er vigtigste risikofaktor for apopleksi",
+   "Dialysepatienter med kateter og klapkalcifikationer har høj risiko for endokarditis",
+   "Dyslipidæmi: højt triglycerid, lavt HDL; statin fortsættes, men primær profylakse startes ikke i dialyse",
+   "SGLT2-hæmmere udsætter dialysestart; RAS-blokade er ikke vist at forebygge CV-hændelser i dialyse",
+   "Behandling af iskæmisk hjertesygdom følger samme principper som hos nyreraske, men med flere komplikationer"
+  ]
+ },
+ {
+  "n": 15,
+  "goals": [
+   "Beregne energi- og proteinbehovet hos CKD- og dialysepatienter og forklare, hvorfor det ændrer sig ved dialysestart.",
+   "Opspore underernæring (PEW) med screening, BMI, vægttab og blodprøver og tolke markørernes begrænsninger.",
+   "Vælge ernæringstrin (diætist, drikke, sonde, IDPN) og rådgive om fosfat, kalium, natrium, jern og vitaminer."
+  ],
+  "keypoints": [
+   "Dialyse: 25-35 kcal/kg/dag og 1,0-1,2 g protein/kg/dag; før dialyse 0,55-0,6 g/kg/dag.",
+   "Proteinrestriktion kræver dækket energibehov og diætistvejledning.",
+   "Dialyse, inflammation og acidose øger proteinkatabolismen.",
+   "PEW: lave markører, lav kropsmasse og lav muskelmasse; forebyggelse har første prioritet.",
+   "Screening: NRS 2002 i Danmark; SGA internationalt; hyppigere ved alder over 50 eller dialyse over 5 år.",
+   "BMI under 23 er lavt ved nyresygdom; vægttab over 10 % er svært; albumin er ikke eneste markør.",
+   "Trin: diætist, ernæringsdrikke, sondeernæring (under 70 % af behovet), IDPN under HD.",
+   "Fosfat: undgå tilsat fosfat, fosfatbindere til måltider; kalium kun begrænset ved forhøjet p-kalium.",
+   "Natrium 2.300 mg/dag; væskebegrænsning kræver natriumreduktion.",
+   "Dialysevitaminer dækker ikke vitamin D, jern, zink og selen; vitamin A frarådes."
+  ]
+ },
+ {
+  "n": 16,
+  "goals": [
+   "Forklare de typiske thyreoidea-, insulin-, vækst- og kønshormonforandringer ved nyresvigt.",
+   "Vurdere graviditetsrisiko ud fra p-kreatinin, dialyse eller transplantation.",
+   "Vælge sikker immunsuppression og antihypertensiv behandling før og under graviditet."
+  ],
+  "keypoints": [
+   "Hormonforstyrrelser normaliseres for det meste efter transplantation.",
+   "Lavt frit T3 med normalt TSH; hypothyreose ved TSH over 10 mU/l og lavt T4-indeks.",
+   "Insulinclearance falder, så både hypo- og hyperglykæmi er risici; HbA1c er svær at tolke.",
+   "Anovulation pga. manglende LH-peak; prævention tilrådes, fertilitet vender tilbage efter transplantation.",
+   "Hyperprolaktinæmi giver hypogonadisme og galaktoré; behandles med cabergolin eller bromocriptin.",
+   "Graviditetsrisiko afhænger af nyrefunktion: p-kreatinin under 125, 125-220, over 220 µmol/l.",
+   "Magnyl fra uge 12-16 nedsætter risikoen for præeklampsi.",
+   "Dialyse og graviditet: over 36 timer pr. uge; helst vente til efter transplantation.",
+   "Transplantation: mindst ét år, p-kreatinin under 125, ingen nylig rejektion; stigende p-kreatinin giver mistanke om rejektion.",
+   "Mycophenolat, sirolimus, everolimus, rituximab og RAS-hæmmere undgås; labetalol, methyldopa og nifedipin er sikre."
+  ]
+ },
+ {
+  "n": 17,
+  "goals": [
+   "Efter kapitlet kan du beskrive de hyppigste seksuelle problemer hos mænd og kvinder med nyresygdom og deres risikofaktorer.",
+   "Efter kapitlet kan du bruge PLISSIT-modellen til at tage seksuelle emner op med en dialysepatient.",
+   "Efter kapitlet kan du redegøre for førstevalg og forholdsregler ved behandling af ED og kvindelige lyst-, lubrikations- og orgasmeproblemer."
+  ],
+  "keypoints": [
+   "SD er nedsat seksuel evne kombineret med at man er generet; opstår bio-psyko-socialt.",
+   "Kronisk nyresygdom giver hyppigere SD end hos nyreraske (træthed, kropsbillede, kateter/fistel, hormoner).",
+   "ED er den hyppigste SD hos mænd i dialyse; nedsat testosteron og forhøjet LH/prolaktin disponerer.",
+   "Nedsat seksuel lyst er den hyppigste SD hos kvinder; depression er en vigtig risikofaktor.",
+   "Der findes et tovejstabu; personalet skal selv bryde det og skabe rum for samtale.",
+   "PLISSIT: Permission, Limited Information, Specific Suggestions, Intensive Therapy.",
+   "Behandl årsager: anæmi, hormoner, optimér dialyse og ernæring, rygestop, fysisk aktivitet, depression.",
+   "ED: PDE-5-hæmmere; overvej testosteron; injektionsterapi på ikke-dialysedag; undgå ordet »impotens«.",
+   "Kvinder: ingen godkendt medicin mod nedsat lyst; vaginal østrogen og glidecreme ved smerter/tørhed.",
+   "Sexologisk parbehandling fokuserer på intimitet og nærhed frem for samleje."
+  ]
+ },
+ {
+  "n": 18,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor muskelstyrke og kondition er nedsat hos dialysepatienter.",
+   "Efter kapitlet kan du beskrive effekten af aerob træning og styrketræning, også under HD.",
+   "Efter kapitlet kan du give anbefalinger og tage forbehold ved fysisk træning (hjerte, neuropati, AV-fistel)."
+  ],
+  "keypoints": [
+   "Muskelstyrke og kondition er markant nedsat hos dialysepatienter; følgen er forringet fysisk funktion.",
+   "Årsager: proteinubalance, mangel/resistens over for anabole hormoner, insulinresistens, proteintab ved dialyse og inaktivitet.",
+   "Aerob træning forbedrer konditionen betydeligt; styrketræning forbedrer især neuromuskulær funktion.",
+   "Træning har gunstig effekt på hypertension, insulinresistens og inflammation; mere aktivitet er forbundet med lavere dødelighed.",
+   "Træning under HD forbedrer aerob kapacitet, funktion og livskvalitet; maskinalarmer er forventelige.",
+   "Anbefaling: mindst 30 min. moderat aktivitet dagligt og to gange 20 min. højintensiv træning ugentligt.",
+   "Nydiagnosticeret hjertesygdom: kardiologisk vurdering før højintensiv træning.",
+   "Neuropati: risiko for hypoglykæmi, fodsår og frakturer; træning af fistelarm er ikke kontraindiceret.",
+   "Prioritér store muskelgrupper (benene) og motivér til generel aktivitet."
+  ]
+ },
+ {
+  "n": 19,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvordan nedsat nyrefunktion påvirker lægemidlers absorption, fordeling, binding og elimination.",
+   "Efter kapitlet kan du justere dosis eller dosisinterval ved nedsat nyrefunktion og vide, hvornår koncentrationsmåling er nødvendig.",
+   "Efter kapitlet kan du vurdere, om et lægemiddel dialyseres, og hvordan det doseres ved HD og PD.",
+   "Efter kapitlet kan du angive, hvilke analgetika, antibiotika, diuretika og antikoagulantia der er farlige eller kræver justering ved nyresvigt."
+  ],
+  "keypoints": [
+   "Nyresvigt påvirker lægemidlers absorption, fordeling, binding og elimination; vigtigt om stoffet dialyseres.",
+   "Renalt udskilte lægemidler (og aktive metabolitter) doseres lavere; oftest lavere dosis med uændret interval.",
+   "Uændret dosering af renalt udskilt stof giver højere steady state og risiko for forgiftning, især ved snævert terapeutisk interval (digoxin, lithium, vancomycin, aminoglykosider: mål koncentration).",
+   "Halveringstid forlænges ved nyresvigt (nedsat clearance); steady state tager ca. fem halveringstider; mætningsdosis kan give hurtigt niveau (reduceres for digoxin).",
+   "Ødem øger Vd, dehydrering sænker Vd; lavt albumin: total koncentration misvisende, ubundet del afgørende.",
+   "eGFR kan være misvisende og er meningsløs i dialyse; ved AKI individuel dosering og seponér nefrotoksiske lægemidler.",
+   "Dialyserbare stoffer: små, vandopløselige, lav proteinbinding, lille Vd; ekstra dosis efter HD; PD fjerner få stoffer, dosér som GFR < 15.",
+   "Smertebehandling: paracetamol (let), tramadol (moderat), oxycodon/metadon/fentanyl/buprenorphin (stærk); undgå morfin, petidin, kodein; NSAID kun kortvarigt.",
+   "Antibiotika: aminoglykosider og vancomycin med dalværdi; sulfonamider undgås; intraperitonealt ved PD-peritonitis.",
+   "Diuretika: loop-diuretika førstevalg i høje doser; thiazider ineffektive ved eGFR < 30; kaliumbesparende undgås (hyperkaliæmi).; metformin frarådes ved moderat til svært nedsat nyrefunktion (laktatacidose); apixaban/rivaroxaban kontraindiceret ved eGFR < 15, dabigatran ved < 30."
+  ]
+ },
+ {
+  "n": 20,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor dialyse ved diabetes starter tidligere, og hvorfor patienterne har høj kardiovaskulær dødelighed.",
+   "Efter kapitlet kan du beskrive blodsukkerkontrol under HD og PD og håndtere hypoglykæmi og ketoacidose.",
+   "Efter kapitlet kan du vælge antidiabetika efter eGFR og redegøre for transplantationsvurderingen."
+  ],
+  "keypoints": [
+   "Ca. 25 % af dialysepatienterne har diabetes, og mortaliteten er næsten dobbelt så høj",
+   "Henvisning til nefrolog ved eGFR under 40, hurtigt eGFR-fald eller svær proteinuri",
+   "Dialyse kan starte ved højere eGFR; planlagt start er vigtig; HD og PD er ligeværdige",
+   "HbA1c-mål 48-58 mmol/mol; HD fjerner glukose, PD tilfører glukose, så insulin tilpasses",
+   "Metformin reduceres ved eGFR under 60 og seponeres under 30; SGLT2-hæmmere seponeres ved dialysestart",
+   "Ketoacidose er svær at erkende hos anuriske; væske og kalium gives forsigtigt",
+   "Hypoglykæmi skyldes oftest for lavt kalorieindtag; autonom neuropati giver gastroparese og hypotension",
+   "Overdødelighed skyldes hjerte-kar-sygdom: ACE-hæmmer/ARB, SGLT2-hæmmer, acetylsalicylsyre; statin ikke rutinemæssigt",
+   "Nyretransplantation er optimal behandling; fodsår er hyppig årsag til frameldelse"
+  ]
+ },
+ {
+  "n": 21,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvorfor PD ofte vælges til børn, og angive indikationer og kontraindikationer.",
+   "Efter kapitlet kan du genkende og håndtere mekaniske og infektiøse komplikationer ved PD hos børn.",
+   "Efter kapitlet kan du vurdere hydrering og ernæring hos børn i dialyse."
+  ],
+  "keypoints": [
+   "Terminal nyresygdom hos børn er sjælden; CAKUT er en hyppig årsag; transplantation er bedste behandling",
+   "PD foretrækkes ofte: undgår vaskulær adgang og bevarer restfunktion; hjemmebehandling anbefales",
+   "Absolutte kontraindikationer: omfalocele, gastroschisis, blæreektopi, svære peritoneale misdannelser",
+   "Dialysestart afgøres af trivsel og vækst, ikke kun GFR; stagnerende vækst giver anledning til start",
+   "Børn har høj transporthastighed; APD med tidal-dialyse foretrækkes; intraperitonealt tryk højst 18 cm vand",
+   "Trægt udløb: displacering, fibrin, oment, knæk eller obstipation; lækage ved kateter behandles med omlægning",
+   "Tarmperforation mistænkes ved svær peritonitis med fækulent udløb; fri luft alene kræver ikke laparotomi",
+   "Hydrering er vanskelig; ernæring og vækst kræver ofte PEG-sonde",
+   "Calciumfrie fosfatbindere; følsom over for alfacalcidol; akut PD foregår på intensivafdeling"
+  ]
+ },
+ {
+  "n": 22,
+  "goals": [
+   "Efter kapitlet kan du angive, hvornår børn får HD, og hvilken karadgang der foretrækkes.",
+   "Efter kapitlet kan du forklare særlige forhold ved HD hos børn: ekstrakorporalt volumen, blodflow, væsketræk og tørvægt.",
+   "Efter kapitlet kan du genkende og behandle akutte komplikationer under HD hos børn."
+  ],
+  "keypoints": [
+   "Børn vælger ofte PD; HD ved PD-svigt, tab af restfunktion, anatomi eller stort UF-behov",
+   "Små børn: dialysekateter i højre v. jugularis; over 10 år foretrækkes AV-fistel",
+   "Ekstrakorporalt volumen højst 10 % af blodvolumen (8 % af legemsvægten); prime med blod ved overskridelse",
+   "Blodflow øges gradvist til 7 ml/min./kg; væsketræk 3-5 % over 3-4 timer; mindst fire dialyser ugentligt",
+   "Overhydrering giver ofte skjult hypertension og kramper; tørvægt vurderes hyppigt",
+   "Blodtryksfald: afbryd væsketræk, læg ned, ilt og isotonisk NaCl",
+   "Dysækvilibrium: sænk blodflow, bypass dialysat, stop UF",
+   "Svær hyperkaliæmi er livstruende; feberkramper: sænk dialysattemperatur",
+   "Prognose afhænger af transplantation; risiko for lav vækst og kognitive problemer; sepsis og hjertesygdom er hyppige dødsårsager"
+  ]
+ },
+ {
+  "n": 23,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvad plasmaferese og plasmaudskiftning er, og hvilke stoffer de fjerner.",
+   "Efter kapitlet kan du beskrive de to adskillelsesmetoder og de erstatningsvæsker, der bruges.",
+   "Efter kapitlet kan du genkende de vigtigste indikationer, fx anti-GBM-sygdom, og de typiske bivirkninger.",
+   "Efter kapitlet kan du forklare immunadsorption og dens brug ved AB0-inkompatibel transplantation."
+  ],
+  "keypoints": [
+   "Aferese er ekstrakorporal fjernelse af specifikke blodbestanddele; plasmaferese fjerner højmolekylære plasmabestanddele (> 15 kDa) eller højt proteinbundne stoffer.",
+   "Plasmaudskiftning betyder, at det fjernede plasma erstattes med væske (albumin, Ringer med albumin eller FFP).",
+   "Formålet er at fjerne toksiner eller immunmodulere ved at fjerne antistoffer og immunkomplekser; gives oftest sammen med immunsuppression.",
+   "Højmolekylære stoffer ækvilibrerer langsomt, så behandlingen gentages typisk hver en-to dage.",
+   "Metoder: centrifugering (alle komponenter) og membranfiltration (kun plasma).",
+   "Veldokumenteret nefrologisk indikation er anti-GBM-sygdom (dagligt i 10-20 dage).",
+   "Bivirkninger er oftest milde (blodtryksfald, citrat-hypocalcæmi, allergi ved FFP); hypogammaglobulinæmi giver infektionsrisiko.",
+   "Immunadsorption binder specifikke antistoffer i en kolonne og bruges ved AB0-inkompatibel nyretransplantation."
+  ]
+ },
+ {
+  "n": 24,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvilke egenskaber ved et stof (lav molekylvægt, lav proteinbinding, lille Vd) der gør, at dialyse virker.",
+   "Efter kapitlet kan du angive primær behandling af den forgiftede patient: aktivt kul, antidot og eliminationsfremmende tiltag.",
+   "Efter kapitlet kan du genkende de centrale dialyseindikationer ved methanol, ethylenglykol, lithium, salicylat og metformin.",
+   "Efter kapitlet kan du forklare rebound og hvorfor antidotbehandling fortsætter efter dialyse."
+  ],
+  "keypoints": [
+   "Mistænk forgiftning ved metabolisk acidose med forhøjet anion gap, der ikke skyldes laktat, ketoner eller uræmi.",
+   "Primær behandling: vurdér bevidsthed og ABC, derefter aktivt kul (ikke rutinemæssig ventrikelskylning) og antidot, hvis den findes.",
+   "Antidot gives straks ved mistanke om methanol-, ethylenglykol- eller fluesvampforgiftning; aktivt kul virker ikke ved alkoholerne.",
+   "Dialyse virker på stoffer med lav molekylvægt (< 500 Da), lav proteinbinding (< 80 %) og lille Vd (< 1 l/kg); fedtopløselige stoffer som tricykliske antidepressiva kan ikke dialyseres.",
+   "HD bruges ved methanol, ethylenglykol, lithium og salicylat; paracetamol behandles med NAC.",
+   "Methanol og ethylenglykol metaboliseres af alkoholdehydrogenase til formaldehyd (blindhed) og glykoaldehyd (nyresvigt); fomepizol eller ethanol blokerer enzymet.",
+   "Rebound ses ved lithium, methanol og ethylenglykol, derfor fortsætter antidot og evt. kontinuerlig behandling efter HD.",
+   "Lithium: HD ved p-lithium over 4 mmol/l, eller over 2,5 mmol/l med alvorlige neurologiske symptomer eller nedsat nyrefunktion.",
+   "Amatoksin giver forsinkede symptomer og levernekrose; behandling med aktivt kul, silibinin og evt. NAC; Giftlinjen kan altid kontaktes."
+  ]
+ },
+ {
+  "n": 25,
+  "goals": [
+   "Efter kapitlet kan du angive, hvem der bør udredes til nyretransplantation, og hvilke tilstande der er absolutte kontraindikationer.",
+   "Efter kapitlet kan du forklare, hvorfor cancer, infektion, kardiovaskulær sygdom, misbrug og vaccination vurderes før transplantation.",
+   "Efter kapitlet kan du beskrive krav til og eksklusionskriterier for levende donorer.",
+   "Efter kapitlet kan du skelne mellem absolutte og relative kontraindikationer for afdøde donorer."
+  ],
+  "keypoints": [
+   "Nyretransplantation giver bedre livskvalitet, mortalitet og restlevetid end dialyse, men operation og immunsuppression giver overdødelighed de første måneder.",
+   "Alle med forventet terminal nyresvigt vurderes; udredning startes ofte ved GFR under 15 ml/min.",
+   "Absolutte kontraindikationer: ikke-radikalt behandlet cancer, ikke-saneret infektion og informeret fravalg; alder er ikke en kontraindikation.",
+   "Immunsuppression øger risikoen for cancerprogression; kroniske infektioner som hepatitis og HIV er ikke i sig selv kontraindikation.",
+   "Hjerte-kar-sygdom er hovedårsag til patientdød; vaskulære og urologiske forhold, misbrug og BMI over 30 vurderes.",
+   "Vaccinationsprogram gennemføres før transplantation; levende vacciner frarådes bagefter.",
+   "Levende donor: frivillig, over 18 år, kendt risiko; mortalitet er meget lav, og livslang opfølgning skal kunne tilbydes.",
+   "Afdød donor kræver tilsagn eller pårørendes accept; HIV og ukontrollabel septikæmi er absolutte kontraindikationer, eGFR under 60 er relativ."
+  ]
+ },
+ {
+  "n": 26,
+  "goals": [
+   "Efter kapitlet kan du forklare, hvordan nyren opbevares og indsættes ved transplantation.",
+   "Efter kapitlet kan du beskrive udfald, graftoverlevelse og den vigtigste årsag til grafttab.",
+   "Efter kapitlet kan du genkende vigtige komplikationer: afstødning, kronisk allograft nefropati, infektioner og cancer.",
+   "Efter kapitlet kan du forklare, hvorfor transplantation er bedre end dialyse, og hvad der er særligt hos børn."
+  ],
+  "keypoints": [
+   "Nyren opbevares kold (is eller perfusionsmaskine), og kold iskæmitid skal være så kort som muligt.",
+   "Nyrens kar forbindes til recipientens iliacakar, og ureter implanteres i blæren.",
+   "Cirka 75 % af transplantationer sker med nyre fra afdød donor og 25 % fra levende donor; levende donor giver længere graftoverlevelse.",
+   "Akut afstødning ses især de første måneder og behandles med intensiveret immunsuppression.",
+   "Kronisk allograft nefropati er langsom, irreversibel fibrose; medvirkende er antistofmedieret afstødning, nefrotoksicitet af ciclosporin og tacrolimus samt hypertension.",
+   "Død, især kardiovaskulær, er den hyppigste årsag til grafttab.",
+   "Immunsuppression øger risikoen for infektioner (fx CMV) og cancer, især hudcancer og lymfom; ved lymfommistanke reduceres immunsuppressionen.",
+   "Ved hurtigt aftagende graftfunktion eller proteinuri bruges Doppler-ultralyd og graftbiopsi.",
+   "Transplantation giver frihed fra dialyse og normaliserer calcium-fosfat og erytropoiese; dialyse svarer kun til ca. 10 % af normal GFR.",
+   "Børn kan få voksennyre fra 8-10 kg med lige så gode resultater som voksne."
+  ]
+ },
+ {
+  "n": 27,
+  "goals": [
+   "Efter kapitlet kan du definere MMU og forklare, hvorfor det i dag er et aktivt tilvalg frem for et fravalg af dialyse.",
+   "Efter kapitlet kan du redegøre for, hvilke patienter der kan være kandidater til MMU, og hvilke kriterier og redskaber der bruges.",
+   "Efter kapitlet kan du beskrive indholdet i et MMU-forløb: ACP-samtale, medicinsanering, symptomlindring og overgang til palliation."
+  ],
+  "keypoints": [
+   "MMU (maksimal medicinsk uræmibehandling) er aktiv behandling uden dialyse, tidligere kaldt konservativ behandling",
+   "MMU er i dag et fuldgyldigt alternativ og et aktivt tilvalg, ikke et fravalg",
+   "Målgruppen er primært ældre, skrøbelige patienter med komorbiditet og kort restlevetid",
+   "Dialyses overlevelsesfordel mindskes med alder og komorbiditet; over 80 år og tre eller flere komorbiditeter er forskellen ingen",
+   "Ved MMU er der større sandsynlighed for at dø hjemme eller på hospice og færre indlæggelsesdage",
+   "Patient og pårørende vælger på oplyst grundlag; dialogen starter oftest ved eGFR 15-20",
+   "Kriterier: alder over 75, CCI over 6, funktionsniveau, lavt p-albumin og surprise question (bedste test)",
+   "Alle med terminalt nyresvigt tilbydes ACP-samtale om ønsker til sidste tid og genoplivning",
+   "Medicinsanering: forebyggende medicin seponeres, symptomlindrende bevares og øges",
+   "MMU går med tiden over i palliation; basal palliation hos egen læge og hjemmesygepleje, specialiseret i palliativ enhed eller hospice"
+  ]
+ },
+ {
+  "n": 28,
+  "goals": [
+   "Efter kapitlet kan du definere palliativ indsats og skelne mellem basal og specialiseret palliation.",
+   "Efter kapitlet kan du forklare formålet med Advance Care Planning og hvornår planen bør tages op og revideres.",
+   "Efter kapitlet kan du redegøre for, hvad der skal til for at patienten kan dø hjemme eller på hospice, herunder terminalerklæring og symptomlindring."
+  ],
+  "keypoints": [
+   "Palliation fremmer livskvaliteten ved at forebygge og lindre lidelse (fysisk, psykisk, psykosocialt, åndeligt)",
+   "Palliation starter tidligt i forløbet ved livstruende sygdom, ikke kun i den sidste tid",
+   "Basal palliation: afgrænsede behov, ydes af fagfolk uden palliation som hovedopgave",
+   "Specialiseret palliation: høj sværhedsgrad og flere problemer, ydes af palliative teams, afdelinger og hospices",
+   "Behovsvurdering bygger på symptomscreening og samtaler, evt. med PRO-skema",
+   "ACP er en samtaleproces om værdier og præferencer, som kan revideres ved ændret helbred",
+   "Henvisning til specialiseret palliation forudsætter patientens ønske og stillingtagen til behandlingsbegrænsning",
+   "Terminalerklæring giver adgang til kommunale palliative ydelser; terminaltilskud dækker medicin til døende",
+   "Behovsmedicin i terminalfasen bør kunne gives subkutant",
+   "Pårørende er vigtige støtter men har selv behov; hospiceophold er gratis"
+  ]
+ },
+ {
+  "n": 29,
+  "goals": [
+   "Efter kapitlet kan du angive, hvilke typer støtte der findes ved arbejde, sygdom og pension for dialysepatienter.",
+   "Efter kapitlet kan du forklare, hvordan udgifter til medicin, psykolog og hjemmedialyse dækkes.",
+   "Efter kapitlet kan du rådgive om frit sygehusvalg, udlandsrejser samt rettigheder for børn i dialyse og nyredonorer."
+  ],
+  "keypoints": [
+   "Tal med en socialrådgiver, før du kontakter kommunen",
+   "Fastholdelse i arbejde: omlægning af arbejdsforhold, § 56-aftale (sygedagpengerefusion fra første dag)",
+   "Fleksjob er job med lønstilskud ved varigt nedsat arbejdsevne; kan oprettes i nuværende job",
+   "Førtidspension kræver varig og betydelig nedsat arbejdsevne",
+   "Sum ved kritisk sygdom: skattefri engangssum fra pensionsordning, ofte ved nyresvigt",
+   "Medicintilskud er automatisk; kronikertilskud ved høje udgifter, helbredstillæg for folkepensionister; merudgiftsydelse ved varig, alvorlig sygdom",
+   "Hjemmedialyse er sygehusbehandling, og sygehuset dækker udgifterne",
+   "Frit sygehusvalg gælder også dialyse, men ikke akut behandling; transport betaler patienten selv",
+   "Udlandsrejse: blåt sygesikringskort i EU, rejseforsikring dækker kun akut sygdom, søg medicinsk forhåndstilsagn",
+   "Forældre til dialysebørn og nyredonorer kan få dækket tabt arbejdsfortjeneste"
+  ]
+ }
+]

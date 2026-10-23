@@ -1,0 +1,314 @@
+[
+{
+"id": "3:0",
+"q": "Hvem har ret til en plads i et dagtilbud?",
+"a": "Alle børn",
+"w": [
+"Kun børn af enlige forsørgere",
+"Kun børn over tre år"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle børn har ret til en plads i et dagtilbud. Kommunerne er ansvarlige for tilbuddene."
+},
+{
+"id": "3:1",
+"q": "Hvem er ansvarlig for dagtilbuddene?",
+"a": "Kommunerne",
+"w": [
+"Staten",
+"Regionerne"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunerne har ansvaret for dagtilbud, og tilbuddene er forskellige fra kommune til kommune."
+},
+{
+"id": "3:2",
+"q": "Hvilket af disse er et almindeligt dagtilbud?",
+"a": "Dagpleje",
+"w": [
+"Efterskole",
+"Gymnasium"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "De mest almindelige dagtilbud er vuggestue, børnehave og dagpleje."
+},
+{
+"id": "3:3",
+"q": "Hvem betaler udgiften til et dagtilbud?",
+"a": "Kommunen og forældrene",
+"w": [
+"Kun staten",
+"Kun forældrene"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunen betaler en del, og forældrene betaler resten. Forældre med lav indkomst kan søge kommunen om ekstra tilskud."
+},
+{
+"id": "3:4",
+"q": "Siden hvornår har det været et politisk mål at give forældre mulighed for pasning uden for hjemmet?",
+"a": "Siden 1960'erne",
+"w": [
+"Siden 1920'erne",
+"Siden 1990'erne"
+],
+"p": 18,
+"lvl": "U",
+"type": "fakta",
+"why": "Siden 1960'erne har målet været vuggestuer og børnehaver, så kvinderne kunne komme ud på arbejdsmarkedet."
+},
+{
+"id": "3:5",
+"q": "Hvorfor ønskede man dagtilbud fra 1960'erne?",
+"a": "For at få kvinderne ud på arbejdsmarkedet",
+"w": [
+"For at børnene kunne lære engelsk",
+"For at få flere børn"
+],
+"p": 18,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man ønskede, at kvinderne kom ud på arbejdsmarkedet. I dag arbejder begge forældre normalt uden for hjemmet."
+},
+{
+"id": "3:6",
+"q": "Hvor gamle er børn i en vuggestue?",
+"a": "Fra cirka seks måneder til tre år",
+"w": [
+"Fra cirka tre til seks år",
+"Fra cirka seks til ti år"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Vuggestuen er for børn fra cirka seks måneder til tre år. Derefter kommer børnehaven."
+},
+{
+"id": "3:8",
+"q": "Hvor foregår dagpleje?",
+"a": "I dagplejerens private hjem",
+"w": [
+"I en offentlig institution",
+"På en skole"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "I dagplejen passes barnet af en dagplejer i dagplejerens eget hjem sammen med nogle få andre børn."
+},
+{
+"id": "3:9",
+"q": "Hvem godkender dagplejere?",
+"a": "Kommunen",
+"w": [
+"Regionen",
+"Staten"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "For at blive godkendt af kommunen skal dagplejeren overholde krav om fx mad, hygiejne og rengøring."
+},
+{
+"id": "3:10",
+"q": "Hvilken handling er forbudt i de dele af dagplejehjemmet, hvor børnene opholder sig?",
+"a": "At ryge",
+"w": [
+"At synge",
+"At læse højt"
+],
+"p": 18,
+"lvl": "U",
+"type": "fakta",
+"why": "Dagplejere skal overholde krav om sundhed og hygiejne. Derfor må man ikke ryge, hvor børnene opholder sig."
+},
+{
+"id": "3:11",
+"q": "Hvor gamle er børn i børnehave?",
+"a": "Fra cirka tre til seks år",
+"w": [
+"Fra seks måneder til tre år",
+"Fra seks til ti år"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "Børnehaven tager over efter vuggestuen og er for børn fra cirka tre år og op til seks år."
+},
+{
+"id": "3:12",
+"q": "Hvorfor er der typisk mindre personale i en børnehave end i en vuggestue?",
+"a": "Børnene er større og kan mere selv",
+"w": [
+"Børnehaver er billigere",
+"Forældrene hjælper til"
+],
+"p": 19,
+"lvl": "U",
+"type": "forståelse",
+"why": "Børn i børnehave er større og kan flere ting selv end vuggestuebørn. Derfor er der typisk mindre personale."
+},
+{
+"id": "3:13",
+"q": "Hvilke højtider fylder ofte i børnehaver?",
+"a": "Kristne højtider, fx jul og påske",
+"w": [
+"Kun muslimske højtider",
+"Ingen højtider"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "Traditionelle kristne højtider fylder ofte, men børnene lærer også om andre traditioner, fx Eid og kinesisk nytår."
+},
+{
+"id": "3:14",
+"q": "Hvad står SFO for?",
+"a": "SkoleFritidsOrdning",
+"w": [
+"SkoleForældreOrdning",
+"Selvstændig Fritids Organisation"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "SFO er en skolefritidsordning for børn i folkeskolen."
+},
+{
+"id": "3:15",
+"q": "Hvad er en SFO?",
+"a": "Pasning af skolebørn før og efter skoletid",
+"w": [
+"Et tilbud for børn under tre år",
+"En efterskole"
+],
+"p": 19,
+"lvl": "K",
+"type": "fakta",
+"why": "I en SFO passer pædagoger børn i folkeskolen før eller efter skoletid. Børnene deltager i aktiviteter som musik, sport og tegning."
+},
+{
+"id": "3:16",
+"q": "Hvad er målet med klubtilbud til større børn?",
+"a": "At lære dem samarbejde og fællesskab",
+"w": [
+"At undervise i matematik",
+"At forberede til eksamen"
+],
+"p": 19,
+"lvl": "U",
+"type": "fakta",
+"why": "Klubtilbud skal lære større børn at samarbejde med andre unge og give ideer til, hvordan de selv kan planlægge deres fritid."
+},
+{
+"id": "3:17",
+"q": "Hvad vælger forældrene repræsentanter til i et dagtilbud?",
+"a": "Forældrebestyrelsen",
+"w": [
+"Skolebestyrelsen",
+"Elevrådet"
+],
+"p": 20,
+"lvl": "K",
+"type": "fakta",
+"why": "Forældrebestyrelsen er forældrenes repræsentation i institutionen. Skolebestyrelse og elevråd hører til skolen."
+},
+{
+"id": "3:18",
+"q": "Hvad har forældrebestyrelsen indflydelse på i et dagtilbud?",
+"a": "Økonomi og aktiviteter for børnene",
+"w": [
+"Hvilke love der gælder for dagtilbud",
+"Kommunens skatter"
+],
+"p": 20,
+"lvl": "U",
+"type": "fakta",
+"why": "Forældrebestyrelsen har indflydelse på institutionens økonomiske dispositioner og på børnenes aktiviteter."
+},
+{
+"id": "3:n0",
+"q": "Hvad skal det pædagogiske arbejde i dagtilbud fremme?",
+"a": "Børns trivsel, udvikling og læring",
+"w": [
+"Kun børnenes sikkerhed",
+"Børnenes karakterer"
+],
+"p": 18,
+"lvl": "K",
+"type": "fakta",
+"why": "Fælles for alle pasningstilbud er, at det pædagogiske arbejde skal fremme børns trivsel, udvikling og læring."
+},
+{
+"id": "3:n1",
+"q": "Forældre har lav indkomst og vil søge tilskud til dagtilbud. Hvem søger de hos?",
+"a": "Kommunen",
+"w": [
+"Regionen",
+"Staten"
+],
+"p": 18,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Er forældrenes indkomst lav, eller er man enlig forsørger, kan man søge kommunen om yderligere økonomisk tilskud."
+},
+{
+"id": "3:n2",
+"q": "En 2-årig skal passes i et privat hjem sammen med få andre børn. Hvilket tilbud er det?",
+"a": "Dagpleje",
+"w": [
+"Børnehave",
+"SFO"
+],
+"p": 18,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dagpleje foregår hos en dagplejer i dagplejerens private hjem, typisk for børn fra seks måneder til tre år."
+},
+{
+"id": "3:n3",
+"q": "En 8-årig i folkeskolen skal passes efter skoletid. Hvilket tilbud kan det være?",
+"a": "SFO",
+"w": [
+"Vuggestue",
+"Børnehave"
+],
+"p": 19,
+"lvl": "K",
+"type": "anvendelse",
+"why": "SFO er et sted, hvor børn i folkeskolen kan blive passet før eller efter skoletid af pædagoger."
+},
+{
+"id": "3:n4",
+"q": "Hvorfor læser og synger pædagogerne i børnehaven?",
+"a": "For at udvikle børnenes sprog",
+"w": [
+"For at lære dem regning",
+"For at lære dem fremmedsprog"
+],
+"p": 19,
+"lvl": "U",
+"type": "forståelse",
+"why": "Historier og sange udvikler sprog og skaber samtidig et fællesskab blandt børnene."
+},
+{
+"id": "3:n5",
+"q": "Hvor kan forældre komme med forslag til forbedringer i institutionen?",
+"a": "På forældremøder",
+"w": [
+"I elevrådet",
+"Ved folketingsvalg"
+],
+"p": 20,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Mange institutioner holder forældremøder, hvor forældrene kan få mere at vide og komme med forslag til forbedringer."
+}
+]

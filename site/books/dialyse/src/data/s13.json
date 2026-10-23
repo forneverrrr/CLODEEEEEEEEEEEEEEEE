@@ -1,0 +1,676 @@
+[
+{
+"id": "13:0",
+"q": "Hvor stor en andel af voksne danskere har hypertension?",
+"a": "25-30 %",
+"w": [
+"5-10 %",
+"50-60 %"
+],
+"p": 149,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypertension er en af de hyppigst stillede diagnoser, og andelen afhænger af målemetode og definition."
+},
+{
+"id": "13:n0",
+"q": "Hvordan hænger hypertension og nyresygdom sammen?",
+"a": "Både årsag og følge",
+"w": [
+"Kun årsag til nyresygdom",
+"Kun følge af nyresygdom"
+],
+"p": 149,
+"lvl": "K",
+"type": "forståelse",
+"why": "Sammenhængen går begge veje, og hypertension er samtidig en betydelig risikofaktor for hjerte-kar-sygdom."
+},
+{
+"id": "13:1",
+"q": "Hvilken grænse for konsultationsblodtryk definerer klassisk forhøjet BT?",
+"a": "≥ 140/90 mmHg",
+"w": [
+"≥ 130/80 mmHg",
+"≥ 160/100 mmHg"
+],
+"p": 149,
+"lvl": "K",
+"type": "fakta",
+"why": "Grænsen for konsultation er højest. Hjemme- og døgnblodtryk har lavere grænser."
+},
+{
+"id": "13:2",
+"q": "Hvilken grænse for hjemmeblodtryk definerer forhøjet BT?",
+"a": "≥ 135/85 mmHg",
+"w": [
+"≥ 140/90 mmHg",
+"≥ 125/75 mmHg"
+],
+"p": 149,
+"lvl": "K",
+"type": "fakta",
+"why": "Hjemmeblodtryk har en lavere grænse end konsultationsblodtryk (140/90)."
+},
+{
+"id": "13:3",
+"q": "Hvilken grænse for middeldøgnblodtryk definerer forhøjet BT?",
+"a": "≥ 130/80 mmHg",
+"w": [
+"≥ 135/85 mmHg",
+"≥ 120/70 mmHg"
+],
+"p": 149,
+"lvl": "K",
+"type": "fakta",
+"why": "Døgnblodtryk har den laveste af de tre grænser (konsultation 140/90, hjemme 135/85)."
+},
+{
+"id": "13:4",
+"q": "Hvor stor en andel af patienter med eGFR under 30 ml/min. har forhøjet BT?",
+"a": "Over 90 %",
+"w": [
+"Ca. 30 %",
+"Ca. 60 %"
+],
+"p": 149,
+"lvl": "U",
+"type": "fakta",
+"why": "Forekomsten af hypertension stiger med aftagende nyrefunktion."
+},
+{
+"id": "13:6",
+"q": "Hvor stor en andel af patienter med terminalt nyresvigt har venstre ventrikelhypertrofi?",
+"a": "Op mod 90 %",
+"w": [
+"Ca. 10 %",
+"Ca. 50 %"
+],
+"p": 149,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "13:7",
+"q": "Hvilke tre effektorsystemer styrer blodtrykket?",
+"a": "Hjerteoutput, ekstracellulærvolumen, karmodstand",
+"w": [
+"Nyrefunktion, hæmatokrit og viskositet",
+"Natrium, kalium og calcium i serum"
+],
+"p": 149,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hjertets slagvolumen og frekvens samt ekstracellulærvolumen bestemmer cardiac output; den perifere karmodstand er det tredje system."
+},
+{
+"id": "13:8",
+"q": "Via hvilket system påvirker nyrerne den perifere karmodstand?",
+"a": "Renin-angiotensin-systemet (RAS)",
+"w": [
+"Det fibrinolytiske system",
+"Det komplementære system"
+],
+"p": 149,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nyrerne regulerer ekstracellulærvolumen og via RAS karmodstanden."
+},
+{
+"id": "13:9",
+"q": "Hvad kan hos mange HD-patienter kontrollere blodtrykket?",
+"a": "Ultrafiltration og saltrestriktion",
+"w": [
+"Højere dosis EPO og jern",
+"Mere væskeindtag mellem dialyser"
+],
+"p": 149,
+"lvl": "K",
+"type": "forståelse",
+"why": "Salt- og væskeretention er en hovedårsag til hypertension i dialyse. Ikke alle normaliserer dog ved lavere tørvægt."
+},
+{
+"id": "13:11",
+"q": "Hvilken følge har øget pulstryk og pulsbølgehastighed for hjertet?",
+"a": "Øget systolisk belastning, nedsat diastolisk flow",
+"w": [
+"Mindre systolisk belastning, bedre koronar flow",
+"Lavere afterload og lavere puls"
+],
+"p": 150,
+"lvl": "U",
+"type": "forståelse",
+"why": "Stive store arterier giver højere systolisk og lavere diastolisk tryk, som belaster hjertet og forringer koronar perfusion."
+},
+{
+"id": "13:12",
+"q": "Hvilken aterosklerotisk form for sekundær hypertension bør overvejes hos CKD-patienter?",
+"a": "Renovaskulær hypertension",
+"w": [
+"Essentiel hypertension",
+"Graviditetsbetinget hypertension"
+],
+"p": 150,
+"lvl": "U",
+"type": "fakta",
+"why": "Renovaskulær hypertension skal overvejes på lige fod med andre årsager, uanset tidligere nyrediagnose."
+},
+{
+"id": "13:13",
+"q": "Hvilke to endokrine tilstande kan give hypertension hos CKD-patienter?",
+"a": "Hyperaldosteronisme og fæokromocytom",
+"w": [
+"Hypothyreose og diabetes insipidus",
+"Addisons sygdom og hypoglykæmi"
+],
+"p": 150,
+"lvl": "U",
+"type": "fakta",
+"why": "Primær eller pseudohyperaldosteronisme og fæokromocytom kan forekomme hos nyresyge og udredes ved mistanke."
+},
+{
+"id": "13:14",
+"q": "Hvilken måling er bedst til at diagnosticere hypertension hos nyresyge?",
+"a": "Hjemme- eller døgnblodtryk",
+"w": [
+"Måling i konsultationen",
+"Måling før dialyse"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "Systematisk hjemme- eller døgnblodtryk hænger bedre sammen med organskade end enkeltmålinger i klinikken eller i dialysen."
+},
+{
+"id": "13:15",
+"q": "Hvad kaldes BT-forhøjelse, der kun ses i konsultationen?",
+"a": "White coat-hypertension",
+"w": [
+"Maskeret hypertension",
+"Behandlingsresistent hypertension"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Forhøjelse alene i klinikken er white coat; forhøjelse alene hjemme er maskeret."
+},
+{
+"id": "13:17",
+"q": "En patient har normalt BT i klinikken, men forhøjet BT ved hjemmemåling. Hvad kaldes det?",
+"a": "Maskeret hypertension",
+"w": [
+"White coat-hypertension",
+"Malign hypertension"
+],
+"p": 151,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Maskeret hypertension kan overses ved konsultationsmåling og har samme risiko som manifest hypertension."
+},
+{
+"id": "13:18",
+"q": "Hvilken risiko har maskeret hypertension sammenlignet med hypertension set i konsultationen?",
+"a": "Samme risiko",
+"w": [
+"Lavere risiko",
+"Ingen risiko"
+],
+"p": 151,
+"lvl": "K",
+"type": "forståelse",
+"why": "Maskeret hypertension bør derfor tages lige så alvorligt som den, der også ses i klinikken."
+},
+{
+"id": "13:n1",
+"q": "Hvorfor bør patienter med white coat-hypertension følges regelmæssigt?",
+"a": "Risikoen er højere end uden hypertension",
+"w": [
+"Risikoen er lavere end uden hypertension",
+"Tilstanden går altid over af sig selv"
+],
+"p": 151,
+"lvl": "U",
+"type": "forståelse",
+"why": "Risikoen er formodentlig lavere end ved manifest hypertension, men dog højere end uden hypertension."
+},
+{
+"id": "13:19",
+"q": "Hypertension er oftest symptomfri. Hvad er formålet med behandlingen hos nyresyge?",
+"a": "Bremse nyresygdom og forebygge hjerte-kar-sygdom",
+"w": [
+"Fjerne symptomer som hovedpine",
+"Øge urinproduktionen og diuresen"
+],
+"p": 151,
+"lvl": "K",
+"type": "forståelse",
+"why": "Formålet er at reducere progression i nyresygdommen og risikoen for hjerte-kar-sygdom og død, ikke symptomlindring."
+},
+{
+"id": "13:20",
+"q": "Hvilken modificerbar faktor er formodentlig vigtigst for progression til dialyse?",
+"a": "Blodtrykket",
+"w": [
+"Hæmoglobin",
+"Kolesterol"
+],
+"p": 151,
+"lvl": "U",
+"type": "fakta",
+"why": "Blodtryksbehandling forsinker tab af nyrefunktion, især ved samtidig proteinuri."
+},
+{
+"id": "13:21",
+"q": "Hvad er konsultationsblodtryksmålet ved CKD uden dialyse, også ved diabetes?",
+"a": "< 130/80 mmHg",
+"w": [
+"< 150/90 mmHg",
+"< 110/70 mmHg"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Målet stammer fra studier med både nyresygdomsprogression og hjerte-kar-sygdom som endepunkt."
+},
+{
+"id": "13:22",
+"q": "En CKD-patient med diabetes og albuminuri skal have blodtryksbehandling. Hvad er førstevalg?",
+"a": "ACE-hæmmer eller ARB",
+"w": [
+"Betablokker eller alfablokker",
+"Thiazid eller loop-diuretikum"
+],
+"p": 151,
+"lvl": "K",
+"type": "anvendelse",
+"why": "RAS-blokade er særligt effektiv til at forebygge sygdomsprogression ved diabetes og albuminuri."
+},
+{
+"id": "13:23",
+"q": "Hvilken albuminuri-grænse gør RAS-hæmmere til førstevalg?",
+"a": "> 30 mg/døgn",
+"w": [
+"> 3 mg/døgn",
+"> 300 mg/døgn"
+],
+"p": 151,
+"lvl": "U",
+"type": "fakta",
+"why": "Grænsen kan også angives som urin-albumin-kreatinin ratio over 30 mg/g."
+},
+{
+"id": "13:n2",
+"q": "Hvorfor er RAS-hæmmere særligt effektive ved albuminuri?",
+"a": "De mindsker hyperfiltration og proteinuri",
+"w": [
+"De fjerner salt og væske",
+"De hæver GFR og diurese"
+],
+"p": 151,
+"lvl": "U",
+"type": "forståelse",
+"why": "RAS-hæmmere påvirker den intrarenale hæmodynamik, hvilket mindsker hyperfiltration og mængden af filtreret protein."
+},
+{
+"id": "13:24",
+"q": "Hvorfor undgås kombination af ACEi og ARB som udgangspunkt?",
+"a": "Hyperkaliæmi og akut nyresvigt",
+"w": [
+"Dårligere effekt på blodtrykket",
+"Øget risiko for hypokaliæmi"
+],
+"p": 151,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dobbeltblokade reducerer albuminurien yderligere, men er forbundet med øget risiko for hyperkaliæmi og akut nyresvigt og anbefales som udgangspunkt ikke."
+},
+{
+"id": "13:25",
+"q": "En patient med eGFR 25 har utilstrækkelig effekt af thiazid. Hvad skiftes til?",
+"a": "Loop-diuretikum i høj dosis",
+"w": [
+"Betablokker i høj dosis",
+"Calciumantagonist i høj dosis"
+],
+"p": 151,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved utilstrækkelig effekt af thiazider, specielt ved eGFR under 30, bør man skifte til loop-diuretika, ofte i væsentligt højere doser end hos nyreraske."
+},
+{
+"id": "13:26",
+"q": "Hvorfor er diuretika centrale ved svær CKD?",
+"a": "Hyppig salt- og væskeretention",
+"w": [
+"Hyppig hypokaliæmi og alkalose",
+"Hyppig hypotension ved dialyse"
+],
+"p": 151,
+"lvl": "U",
+"type": "forståelse",
+"why": "Diuretika og begrænset natriumindtag modvirker salt- og væskeretention."
+},
+{
+"id": "13:27",
+"q": "Hvilken effekt har non-steroid MRA ved diabetisk nefropati?",
+"a": "Nedsætter progression",
+"w": [
+"Hæver GFR kraftigt",
+"Sænker blodsukkeret"
+],
+"p": 151,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "13:28",
+"q": "Hvilken elektrolytforstyrrelse kræver tæt kontrol efter opstart af MRA hos svært nyresyge?",
+"a": "Hyperkaliæmi",
+"w": [
+"Hypokaliæmi",
+"Hypernatriæmi"
+],
+"p": 151,
+"lvl": "K",
+"type": "anvendelse",
+"why": "MRA øger risikoen for hyperkaliæmi, så p-kalium og eGFR kontrolleres lige efter opstart."
+},
+{
+"id": "13:29",
+"q": "Hvordan hænger BT før dialyse sammen med dødelighed?",
+"a": "Både lavt og højt BT øger risikoen",
+"w": [
+"Kun højt BT øger risikoen",
+"Kun lavt BT øger risikoen"
+],
+"p": 151,
+"lvl": "K",
+"type": "forståelse",
+"why": "Sammenhængen er ikke nødvendigvis årsagsmæssig. Lavt BT kan skyldes hjertesvigt."
+},
+{
+"id": "13:30",
+"q": "En HD-patient, der tidligere var hypertensiv, har nu lavt-normalt BT. Hvad kan det dække over?",
+"a": "Hjertesvigt",
+"w": [
+"Kredsløbsrask patient",
+"Behandlingsresistent hypertension"
+],
+"p": 151,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lavt eller normalt BT betyder ikke nødvendigvis, at patienten er kredsløbsrask. Det kan være begyndende eller manifest hjertesvigt."
+},
+{
+"id": "13:31",
+"q": "Hvordan fastsættes BT-mål for patienter i dialyse?",
+"a": "Individuelt",
+"w": [
+"< 130/80 mmHg for alle",
+"< 140/90 mmHg for alle"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er ikke et generelt mål. Hensyn tages til intradialytiske BT-fald, væskestatus og at undgå alt for højt BT."
+},
+{
+"id": "13:32",
+"q": "Hvordan defineres behandlingsresistent hypertension?",
+"a": "Målet ikke nået trods tre midler inkl. diuretikum",
+"w": [
+"Målet ikke nået trods ét middel",
+"BT over 180/110 uden behandling"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "Før diagnosen stilles, sikres repræsentativ måling og compliance, og sekundære årsager og væskeretention udredes."
+},
+{
+"id": "13:34",
+"q": "En patient med behandlingsresistent hypertension tager dagligt NSAID. Hvad bør man gøre?",
+"a": "Reducere dosis eller stoppe",
+"w": [
+"Øge dosis af diuretika",
+"Starte en betablokker"
+],
+"p": 152,
+"lvl": "K",
+"type": "anvendelse",
+"why": "NSAID, glukokortikoider, calcineurinhæmmere, EPO, lakrids og kokain kan give højt BT. Dosis reduceres eller stoffet stoppes, hvis muligt."
+},
+{
+"id": "13:35",
+"q": "Hvor stor tørvægtsreduktion pr. HD-session anbefales ved langsom nedtrapning?",
+"a": "0,01 kg pr. kg legemsvægt",
+"w": [
+"0,1 kg pr. kg legemsvægt",
+"0,5 kg pr. kg legemsvægt"
+],
+"p": 152,
+"lvl": "U",
+"type": "fakta",
+"why": "Langsom reduktion undgår intradialytiske symptomer og kraftig interdialytisk vægtøgning."
+},
+{
+"id": "13:36",
+"q": "Tørvægten sænkes. Hvor lang tid kan der gå, før den fulde BT-effekt ses?",
+"a": "Op til en måned",
+"w": [
+"Få timer",
+"Et halvt år"
+],
+"p": 152,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Stabil BT-reduktion indtræder ofte langsomt, så effekten bør ikke afskrives for tidligt."
+},
+{
+"id": "13:n3",
+"q": "Hvilken behandling virker hos HD-patienter med høje renin-niveauer?",
+"a": "RAS-blokade",
+"w": [
+"Strengere væskerestriktion alene",
+"Højere dialysatnatrium"
+],
+"p": 150,
+"lvl": "U",
+"type": "forståelse",
+"why": "En del dialysepatienter har høj renin og responderer på RAS-blokade, mens andre først og fremmest har væskeoverskud."
+},
+{
+"id": "13:39",
+"q": "Hvad er den hyppigste årsag til kronisk hypotension ved nyresygdom?",
+"a": "Hjertesvigt",
+"w": [
+"Anæmi",
+"Dehydrering"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "Kronisk hypotension er hyppigere ved nyresygdom end hos nyreraske og er oftest følge af hjertesvigt."
+},
+{
+"id": "13:n4",
+"q": "En CKD-patient har kronisk hypotension. Hvilken undersøgelse indgår i udredningen?",
+"a": "Ekkokardiografi",
+"w": [
+"Nyrearteriografi",
+"Binyrescintigrafi"
+],
+"p": 153,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kronisk hypotension skal føre til udredning for hjertesvigt, først og fremmest i kardiologisk regi."
+},
+{
+"id": "13:40",
+"q": "Hvilken immunsuppression bidrager til hypertension efter nyretransplantation?",
+"a": "Glukokortikoid og calcineurinhæmmere",
+"w": [
+"Antibiotika og antivirale midler",
+"Diuretika og betablokkere"
+],
+"p": 153,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypertension efter transplantation skyldes bl.a. tidligere hypertension og binyrebarkhormon og calcineurinhæmmere."
+},
+{
+"id": "13:41",
+"q": "En nyretransplanteret får nyopstået hypertension, stigende kreatinin og mislyd over graftnyren. Hvad mistænkes?",
+"a": "Graftarteriestenose",
+"w": [
+"Akut afstødning",
+"Urinvejsinfektion"
+],
+"p": 153,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Graftarteriestenose giver hypertension og springende eller stigende kreatinin, evt. med ny mislyd. Den ses hyppigst inden for 2 år."
+},
+{
+"id": "13:42",
+"q": "Hvordan behandles graftarteriestenose sædvanligvis?",
+"a": "Perkutan ballonudvidelse",
+"w": [
+"Fjernelse af graftnyren",
+"Højere dosis ACE-hæmmer"
+],
+"p": 154,
+"lvl": "U",
+"type": "fakta",
+"why": "Stenosen udvides perkutant med ballon."
+},
+{
+"id": "13:43",
+"q": "Hvad er anbefalet maksimalt saltindtag (natriumklorid) pr. døgn ved CKD?",
+"a": "< 5 g",
+"w": [
+"< 10 g",
+"< 15 g"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "Svarer til under 1 teskefuld groft bordsalt i alt og er første led i alle tre behandlingsskemaer."
+},
+{
+"id": "13:45",
+"q": "Hvad er førstevalg ved hypertension ved CKD uden dialyse?",
+"a": "ACEi/ARB, diuretika, DHP-calciumkanalblokker",
+"w": [
+"Betablokker, minoxidil og alfablokker",
+"MRA, minoxidil og centralt virkende midler"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "ACEi/ARB er altid førstevalg ved diabetes eller albuminuri. De øvrige midler bruges, hvis førstevalg ikke tåles eller ikke er nok."
+},
+{
+"id": "13:46",
+"q": "Hvad er førstevalg ved hypertension i dialyse?",
+"a": "Diuretika (hvis diurese), DHP-blokker, ACEi/ARB",
+"w": [
+"Betablokker, minoxidil og alfablokker",
+"MRA, minoxidil og centralt virkende midler"
+],
+"p": 153,
+"lvl": "U",
+"type": "fakta",
+"why": "Dialyse kræver desuden væskerestriktion og tørvægtsreduktion. Diuretika giver kun mening, hvis patienten har restdiurese."
+},
+{
+"id": "13:47",
+"q": "Hvad er førstevalg ved hypertension hos nyretransplanterede?",
+"a": "DHP-calciumkanalblokker, diuretika, ARB",
+"w": [
+"Betablokker, minoxidil og alfablokker",
+"MRA, minoxidil og centralt virkende midler"
+],
+"p": 153,
+"lvl": "U",
+"type": "fakta",
+"why": "Hos transplanterede er der ikke dokumenteret særlig fordel ved ACEi."
+},
+{
+"id": "13:49",
+"q": "Hvornår kaldes hypertension svær?",
+"a": "Systolisk > 180 og/eller diastolisk > 110 mmHg",
+"w": [
+"Systolisk > 140 og/eller diastolisk > 90 mmHg",
+"Systolisk > 160 og/eller diastolisk > 100 mmHg"
+],
+"p": 154,
+"lvl": "K",
+"type": "fakta",
+"why": "Svær hypertension deles i asymptomatisk (urgency) og akut behandlingskrævende (emergency) efter organpåvirkning."
+},
+{
+"id": "13:50",
+"q": "En patient har BT 200/115 uden symptomer eller tegn på organpåvirkning. Hvad kaldes tilstanden?",
+"a": "Hypertensive urgency",
+"w": [
+"Hypertensive emergency",
+"Maskeret hypertension"
+],
+"p": 154,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Uden akut organpåvirkning er det asymptomatisk svær hypertension (urgency)."
+},
+{
+"id": "13:51",
+"q": "En patient har BT 220/120 med forvirring og kramper. Hvad er tilstanden?",
+"a": "Hypertensive emergency",
+"w": [
+"Hypertensive urgency",
+"White coat-hypertension"
+],
+"p": 154,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kramper og koma tyder på hypertensiv encefalopati, dvs. akut organpåvirkning. Det kræver indlæggelse og hurtig BT-reduktion."
+},
+{
+"id": "13:53",
+"q": "Hvad udløser ofte akut svær hypertension hos en kendt hypertensiker?",
+"a": "Stop af antihypertensiv behandling",
+"w": [
+"Saltrestriktion i kosten",
+"Fysisk aktivitet og vægttab"
+],
+"p": 154,
+"lvl": "U",
+"type": "fakta",
+"why": "Delvist eller fuldstændigt ophør af behandlingen er en hyppig udløser, ofte med højt renin."
+},
+{
+"id": "13:54",
+"q": "En patient har aortadissektion og svær hypertension. Hvor hurtigt skal BT sænkes?",
+"a": "Hurtigt og betydeligt",
+"w": [
+"Forsigtigt og langsomt",
+"Kun med peroral medicin"
+],
+"p": 154,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Aortadissektion, intracerebral blødning, akut koronart syndrom og lungeødem kræver hurtig, betydelig BT-reduktion."
+},
+{
+"id": "13:55",
+"q": "En patient har iskæmisk apopleksi og svær hypertension. Hvordan sænkes BT?",
+"a": "Forsigtigt",
+"w": [
+"Hurtigt og kraftigt",
+"Slet ikke"
+],
+"p": 154,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved iskæmisk apopleksi og hypertensiv encefalopati kan for hurtigt fald give hypoperfusion og forværret iskæmi."
+}
+]

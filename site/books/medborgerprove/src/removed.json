@@ -1,0 +1,1537 @@
+[
+ {
+  "id": "1:7",
+  "q": "Hvilke klassetrin dækker udskolingen?",
+  "reason": "dublet: udskolingen følger af indskoling/mellemtrin (1:5, 1:6)"
+ },
+ {
+  "id": "1:12",
+  "q": "Hvad hedder faget madlavning i folkeskolen?",
+  "reason": "detalje: navnet på faget madkundskab"
+ },
+ {
+  "id": "1:21",
+  "q": "Hvad er den højeste og laveste karakter på 7-trins-skalaen?",
+  "reason": "erstattet: to fakta i ét spørgsmål (nu to nye om højeste og laveste karakter)"
+ },
+ {
+  "id": "2:17",
+  "q": "Hvilke fire hovedområder har erhvervsuddannelserne?",
+  "reason": "erstattet: opremsning af fire hovedområder (nu ét område pr. spørgsmål)"
+ },
+ {
+  "id": "2:22",
+  "q": "Hvad står eud, euv og eux for?",
+  "reason": "erstattet: tre begreber i ét spørgsmål (eud/euv/eux); nu euv og eux hver for sig"
+ },
+ {
+  "id": "2:24",
+  "q": "Hvilke videregående uddannelsesinstitutioner nævnes?",
+  "reason": "erstattet: opremsning af fem institutionstyper (nu ét sted pr. spørgsmål)"
+ },
+ {
+  "id": "2:25",
+  "q": "Hvor mange erhvervsakademier er der i Danmark?",
+  "reason": "detalje: antal erhvervsakademier, let at forveksle med antal professionshøjskoler"
+ },
+ {
+  "id": "2:27",
+  "q": "Hvor mange professionshøjskoler er der i Danmark?",
+  "reason": "detalje: antal professionshøjskoler, let at forveksle med antal erhvervsakademier"
+ },
+ {
+  "id": "2:31",
+  "q": "Hvor lang tid tager en bacheloruddannelse og en efterfølgende kandidatuddannelse typisk?",
+  "reason": "erstattet: to fakta i ét spørgsmål (nu bachelorens varighed og kandidatuddannelsens sted)"
+ },
+ {
+  "id": "3:7",
+  "q": "Hvor mange børn passer en dagplejer typisk sammen med det barn, der er i dagpleje?",
+  "reason": "detalje: antal børn hos dagplejeren (lav værdi, svær at huske)"
+ },
+ {
+  "id": "4:17",
+  "q": "Hvilket år stoppede Folketinget sygeplejerskernes strejke ved lov, efter den havde varet over to måneder?",
+  "reason": "erstattet (årstal 2021 erstattet af spørgsmål om, at Folketinget kan stoppe strejker ved lov)"
+ },
+ {
+  "id": "4:20",
+  "q": "Hvor stor var andelen af fagforeningsmedlemmer omkring 1990?",
+  "reason": "detalje: andel i 1990, indgår i forklaringen til spørgsmålet om fagforeningsandelen"
+ },
+ {
+  "id": "4:42",
+  "q": "Hvor mange feriedage optjener man cirka for hver måned, man er ansat?",
+  "reason": "detalje: feriedage pr. måned, indgår i forklaringen til fem ugers ferie"
+ },
+ {
+  "id": "4:44",
+  "q": "I hvilken periode har man normalt ret til tre ugers sammenhængende ferie?",
+  "reason": "erstattet (datoer erstattet af spørgsmål om tre ugers sammenhængende ferie)"
+ },
+ {
+  "id": "5:0",
+  "q": "Hvor mange selvstændige landmænd var der frem til 1960?",
+  "reason": "detalje: antal landmænd før 1960 (statistik)"
+ },
+ {
+  "id": "5:1",
+  "q": "Hvor mange fuldtidslandmænd er der i dag cirka?",
+  "reason": "detalje: antal fuldtidslandmænd (statistik), indgår i forklaringen til udviklingen siden 1960"
+ },
+ {
+  "id": "5:2",
+  "q": "Hvor mange procent er antallet af landbrugsbedrifter faldet siden 1960?",
+  "reason": "erstattet af spørgsmål om udviklingen siden 1960 (procenttal er statistik)"
+ },
+ {
+  "id": "5:3",
+  "q": "Hvor stor en del af landbrugsarealet drives økologisk?",
+  "reason": "detalje: andel økologisk areal (statistik)"
+ },
+ {
+  "id": "5:5",
+  "q": "Fra hvilket årti oprettede landmændene talrige små mejerier og slagterier?",
+  "reason": "detalje: årti for de første andelsmejerier"
+ },
+ {
+  "id": "5:8",
+  "q": "Hvornår blev de danske og svenske mejerier lagt sammen i Arla?",
+  "reason": "detalje: årstal for sammenlægning af mejerier, indgår i forklaringen til Arla"
+ },
+ {
+  "id": "5:9",
+  "q": "Hvor mange lande kommer Arlas ejere fra?",
+  "reason": "erstattet (antal lande erstattet af spørgsmål om Arlas internationale ejere)"
+ },
+ {
+  "id": "5:10",
+  "q": "Hvilken placering havde Arla i 2024 blandt verdens mejerikoncerner?",
+  "reason": "detalje: Arlas placering i 2024 (forældes hurtigt)"
+ },
+ {
+  "id": "5:15",
+  "q": "Hvilke tre danske producenter er blandt verdens fem største høreapparatproducenter?",
+  "reason": "detalje: navne på høreapparatproducenter"
+ },
+ {
+  "id": "5:16",
+  "q": "Hvilket år er Gedser-møllen fra?",
+  "reason": "detalje: historisk årstal for Gedser-møllen"
+ },
+ {
+  "id": "5:17",
+  "q": "Hvornår blev Tvind-møllen bygget?",
+  "reason": "detalje: historisk årstal for Tvind-møllen"
+ },
+ {
+  "id": "5:21",
+  "q": "Hvilken virksomhed fremstiller termostater?",
+  "reason": "detalje: produkt for enkelt firma (Danfoss)"
+ },
+ {
+  "id": "5:22",
+  "q": "Hvilken virksomhed fremstiller vinduer?",
+  "reason": "detalje: produkt for enkelt firma (Velux)"
+ },
+ {
+  "id": "5:26",
+  "q": "Hvad var Tysklands andel af Danmarks udenrigshandel i 2025?",
+  "reason": "detalje: præcis procentandel (12,7) for et enkelt år"
+ },
+ {
+  "id": "5:27",
+  "q": "Hvilken rækkefølge har de syv største handelspartnere i 2025?",
+  "reason": "uegnet: rækkefølge af syv lande med procenttal for et enkelt år"
+ },
+ {
+  "id": "5:28",
+  "q": "Hvilket land er nummer syv på listen med 4,0 procent?",
+  "reason": "detalje: præcis placering og procentandel for et enkelt år"
+ },
+ {
+  "id": "5:31",
+  "q": "Hvornår lå Danmarks olieproduktion på sit højeste?",
+  "reason": "detalje: tidspunkt for olieproduktionens top"
+ },
+ {
+  "id": "5:32",
+  "q": "Hvad var Danmark i mange år det eneste EU-land til at gøre?",
+  "reason": "detalje: formuleret uden selvstændigt emne; dækket af spørgsmålet om olieplanen"
+ },
+ {
+  "id": "6:4",
+  "q": "Hvad er børnechecken også kaldet?",
+  "reason": "detalje: officielt navn for børnecheck"
+ },
+ {
+  "id": "6:6",
+  "q": "Hvem får en mindre ydelse eller ingen børnecheck?",
+  "reason": "dækket af spørgsmålet om børnecheck (høj indkomst nævnes i forklaringen)"
+ },
+ {
+  "id": "6:17",
+  "q": "Hvad får alle, der er tilmeldt CPR, af sundhedskort?",
+  "reason": "detalje: farve på sundhedskortet"
+ },
+ {
+  "id": "6:18",
+  "q": "Hvilken sikringsgruppe er næsten alle medlem af?",
+  "reason": "detalje: nummer på sikringsgruppe"
+ },
+ {
+  "id": "6:20",
+  "q": "Hvad hedder det, hvis man ikke bliver indlagt, men møder op på ambulatoriet?",
+  "reason": "uden for fakta-ark 6 (side 54, ikke i kilden for dette ark)"
+ },
+ {
+  "id": "6:24",
+  "q": "Hvad er gratis at køre på i Danmark?",
+  "reason": "detalje: dækket af forklaringen til spørgsmålet om transport"
+ },
+ {
+  "id": "6:25",
+  "q": "Hvilke to broer koster penge at køre over?",
+  "reason": "detalje: navne på de to betalingsbroer"
+ },
+ {
+  "id": "6:29",
+  "q": "Hvilke andre indtægter har velfærdsstaten?",
+  "reason": "detalje: opremsning af mindre indtægtskilder"
+ },
+ {
+  "id": "7:15",
+  "q": "Er besøget af sundhedsplejersken gratis?",
+  "reason": "overflødig; gratis besøg er indarbejdet i 7:14"
+ },
+ {
+  "id": "7:34",
+  "q": "Hvornår flytter mange unge hjemmefra?",
+  "reason": "løs oplysning (mange flytter hjemmefra som 18-20-årige); ikke værd at huske"
+ },
+ {
+  "id": "8:19",
+  "q": "Hvor lange er de korte højskolekurser?",
+  "reason": "detalje; uge-kurser indgår i forklaringen af 8:20"
+ },
+ {
+  "id": "8:11",
+  "q": "Hvad er der ikke på aftenskoler?",
+  "reason": "erstattet; negation. Nyt spørgsmål om aftenskolens mål"
+ },
+ {
+  "id": "8:16",
+  "q": "Hvilke år levede Grundtvig?",
+  "reason": "fødsels- og dødsår er ikke værd at huske"
+ },
+ {
+  "id": "8:18",
+  "q": "Hvor mange højskoler er der omkring i Danmark?",
+  "reason": "antal højskoler er en løs detalje"
+ },
+ {
+  "id": "9:5",
+  "q": "Hvad kaldes medicin, man kan købe uden recept?",
+  "reason": "dublet af 9:4 (samme begrebspar)"
+ },
+ {
+  "id": "9:18",
+  "q": "Fra hvilken alder skal man selv finde en privat tandlæge?",
+  "reason": "dublet af 9:17 (samme grænse set fra den anden side)"
+ },
+ {
+  "id": "9:19",
+  "q": "Hvor mange forebyggende børneundersøgelser kan et barn få mellem fem uger og fem år?",
+  "reason": "antal børneundersøgelser er en løs detalje; erstattet af spørgsmål om formålet"
+ },
+ {
+  "id": "9:23",
+  "q": "Hvor gammel skal man være for at købe øl?",
+  "reason": "dublet af 7:26 (alder for øl)"
+ },
+ {
+  "id": "9:24",
+  "q": "Hvor gammel skal man være for at købe alkohol over seks procent?",
+  "reason": "erstattet; tester nu alkoholgrænsen på seks procent"
+ },
+ {
+  "id": "10:3",
+  "q": "Hvilket forbud gælder på det danske arbejdsmarked?",
+  "reason": "for banalt; erstattet af spørgsmål om ulovlig forskelsbehandling"
+ },
+ {
+  "id": "10:4",
+  "q": "Hvilke grunde må man ikke forskelsbehandle på?",
+  "reason": "erstattet; lang opremsning, nu delt i konkrete spørgsmål"
+ },
+ {
+  "id": "10:10",
+  "q": "Hvilken ministerpost fik Nina Bang?",
+  "reason": "overflødig detalje (hvilken ministerpost)"
+ },
+ {
+  "id": "10:13",
+  "q": "Hvad var det første, der betød, at ikke alle fik stemmeret i 1849?",
+  "reason": "uklart og misvisende formuleret; erstattet af spørgsmål om kvinders stemmeret i 1849"
+ },
+ {
+  "id": "11:1",
+  "q": "Hvad hedder grundloven officielt?",
+  "reason": "dublet/detalje: det officielle navn er dækket af spørgsmålet om grundloven"
+ },
+ {
+  "id": "11:10",
+  "q": "Hvad var stemmerets- og valgbarhedsalderen i 1849 for mænd til Folketinget?",
+  "reason": "erstattet: svaret samlede to aldre; nyt spørgsmål om stemmeretsalderen i 1849"
+ },
+ {
+  "id": "11:18",
+  "q": "Hvad betyder personlig frihed for en anholdt?",
+  "reason": "erstattet: samme fakta (24 timer) er i 12:5; nyt spørgsmål om den personlige frihed"
+ },
+ {
+  "id": "11:27",
+  "q": "Hvem arvede Margrethe 2. tronen efter?",
+  "reason": "overflødig detalje (kongerækken)"
+ },
+ {
+  "id": "11:31",
+  "q": "Hvem afgør, hvilken regering der kan sidde?",
+  "reason": "dublet af 13:6"
+ },
+ {
+  "id": "11:32",
+  "q": "Hvilket år blev kong Frederik 10. gift med dronning Mary?",
+  "reason": "detalje uden læringsværdi (årstal for kongeparrets bryllup)"
+ },
+ {
+  "id": "11:33",
+  "q": "Hvilket land kommer dronning Mary oprindeligt fra?",
+  "reason": "detalje uden læringsværdi (dronningens hjemland)"
+ },
+ {
+  "id": "11:34",
+  "q": "Hvor mange børn har kongeparret?",
+  "reason": "detalje uden læringsværdi (antal børn)"
+ },
+ {
+  "id": "11:35",
+  "q": "Hvad hedder tvillingerne?",
+  "reason": "detalje uden læringsværdi (navne på prinser og prinsesser)"
+ },
+ {
+  "id": "11:40",
+  "q": "Hvornår blev Frederik 7. konge, og hvornår afgav han sin enevældige magt?",
+  "reason": "overflødig detalje; kernen er dækket af 11:39"
+ },
+ {
+  "id": "12:8",
+  "q": "Hvor mange byretter er der i Danmark?",
+  "reason": "erstattet: nyt spørgsmål om, hvor de fleste sager afgøres (antal byretter er en detalje)"
+ },
+ {
+  "id": "12:10",
+  "q": "Hvor mange landsretter er der i Danmark (ud over Grønland)?",
+  "reason": "detalje (antal landsretter); landsretterne er dækket af 12:12"
+ },
+ {
+  "id": "12:11",
+  "q": "Hvor ligger Østre Landsret?",
+  "reason": "detalje (placering af Østre Landsret)"
+ },
+ {
+  "id": "12:14",
+  "q": "Kan en sag, der er anket til landsretten og afgjort, som regel ankes til Højesteret?",
+  "reason": "uklar formulering i kilden om, hvornår Højesteret kan bruges; risiko for fejl"
+ },
+ {
+  "id": "13:4",
+  "q": "Hvor mange medlemmer vælges i Danmark selv?",
+  "reason": "detalje, kan regnes ud af 179 minus 4"
+ },
+ {
+  "id": "13:5",
+  "q": "Hvilken magt udgør Folketinget sammen med regeringen?",
+  "reason": "dublet af 11:43 (lovgivende magt)"
+ },
+ {
+  "id": "13:7",
+  "q": "Har Danmark et overhus?",
+  "reason": "begrebet overhus er ikke forklaret og har lav læringsværdi"
+ },
+ {
+  "id": "13:15",
+  "q": "Hvad arbejder Europaudvalget med?",
+  "reason": "detalje (symmetrisk med Retsudvalget)"
+ },
+ {
+  "id": "13:26",
+  "q": "Hvilke fire partier er i den nuværende regering ifølge teksten?",
+  "reason": "forældes hurtigt (nuværende regeringspartier)"
+ },
+ {
+  "id": "13:27",
+  "q": "Hvem er partiformand for Moderaterne ifølge teksten?",
+  "reason": "navn på nuværende partiformand, forældes hurtigt"
+ },
+ {
+  "id": "13:28",
+  "q": "Hvem er partiformand for SF ifølge teksten?",
+  "reason": "navn på nuværende partiformand, forældes hurtigt"
+ },
+ {
+  "id": "13:29",
+  "q": "Hvem er partiformand for Radikale Venstre ifølge teksten?",
+  "reason": "navn på nuværende partiformand, forældes hurtigt"
+ },
+ {
+  "id": "13:30",
+  "q": "Hvornår trådte den nye regering ud på Amalienborg Slotsplads?",
+  "reason": "præcis dato, ingen læringsværdi"
+ },
+ {
+  "id": "13:32",
+  "q": "Hvor mange folkeafstemninger har der været siden 1953?",
+  "reason": "detalje (præcist antal folkeafstemninger); kernen er dækket af 13:33"
+ },
+ {
+  "id": "14:3",
+  "q": "Hvilke år er eksempler på kommunalvalg?",
+  "reason": "Årstal-eksempel uden læringsværdi; reglen hvert fjerde år dækkes af 14:2"
+ },
+ {
+  "id": "14:17",
+  "q": "Hvad hedder de fem regioner?",
+  "reason": "Opremsning af fem regionsnavne (for lang); dækkes af placerings- og sammenlægningsspørgsmål"
+ },
+ {
+  "id": "14:27",
+  "q": "Hvor mange medlemmer er der i hvert regionsråd?",
+  "reason": "Kilden modsiger sig selv: side 80 siger 25-47 medlemmer pr. regionsråd, side 83 siger 41"
+ },
+ {
+  "id": "15:1",
+  "q": "Hvilke fire niveauer er der?",
+  "reason": "erstattet: opremsning af fire niveauer; erstattet af spørgsmål om EU-niveauet"
+ },
+ {
+  "id": "15:4",
+  "q": "Hvad kræves for at kunne stemme til folketingsvalg?",
+  "reason": "erstattet: tre betingelser i ét svar; delt i spørgsmål om alder og statsborgerskab"
+ },
+ {
+  "id": "15:7",
+  "q": "Hvor mange stemte ved kommunal- og regionsvalg i 2025?",
+  "reason": "procent fra ét bestemt valg (2025)"
+ },
+ {
+  "id": "15:8",
+  "q": "Hvor mange stemte til Europa-Parlamentsvalget i 2024?",
+  "reason": "procent fra ét bestemt valg (2024)"
+ },
+ {
+  "id": "15:10",
+  "q": "Hvor stor en andel af de valgte til Folketinget efter valget i 2026 er kvinder?",
+  "reason": "procent fra ét bestemt valg (2026) og forældes"
+ },
+ {
+  "id": "15:11",
+  "q": "Hvor stor en andel af de valgte til kommunalbestyrelserne er kvinder?",
+  "reason": "andel kvinder i kommunalbestyrelser: tal der forældes"
+ },
+ {
+  "id": "15:12",
+  "q": "Hvor stor en andel af de valgte til regionsrådene er kvinder?",
+  "reason": "andel kvinder i regionsråd: tal der forældes"
+ },
+ {
+  "id": "15:18",
+  "q": "Hvilke år er eksempler på valg til Europa-Parlamentet?",
+  "reason": "årstals-eksempler uden læringsværdi; hvert femte år dækkes af 15:17"
+ },
+ {
+  "id": "15:29",
+  "q": "Hvilken rækkefølge har de tre første partier efter stemmetal ved valget i 2026?",
+  "reason": "rækkefølge af partier efter stemmetal forældes hurtigt; dækkes delvist af 15:28"
+ },
+ {
+  "id": "15:30",
+  "q": "Hvor mange partier fra Danmark er repræsenteret i Folketinget efter valget i 2026?",
+  "reason": "antal partier i Folketinget forældes; detalje"
+ },
+ {
+  "id": "15:33",
+  "q": "Hvor mange er cirka medlem af et politisk parti?",
+  "reason": "antal partimedlemmer: tal der forældes"
+ },
+ {
+  "id": "15:36",
+  "q": "Hvad er eksempler på organisationer, der samler sig om en sag?",
+  "reason": "navne på enkelte organisationer; erstattet af spørgsmål om interesseorganisation"
+ },
+ {
+  "id": "16:12",
+  "q": "Hvad trækker alle til sidst?",
+  "reason": "erstattet: lodnummer-trækning; nyt spørgsmål om hvornår lodnummeret bruges"
+ },
+ {
+  "id": "16:17",
+  "q": "Hvor mange mænd aftjente værnepligt i Forsvaret i 2024?",
+  "reason": "tal fra ét bestemt år (2024)"
+ },
+ {
+  "id": "16:18",
+  "q": "Hvor mange kvinder gjorde frivillig tjeneste i Forsvaret i 2024?",
+  "reason": "tal fra ét bestemt år (2024)"
+ },
+ {
+  "id": "16:19",
+  "q": "Hvor mange værnepligtige var der i Forsvaret i 1970?",
+  "reason": "historisk tal (1970), detalje"
+ },
+ {
+  "id": "16:20",
+  "q": "Hvor mange værnepligtige var der i 1990?",
+  "reason": "historisk tal (1990), detalje"
+ },
+ {
+  "id": "16:21",
+  "q": "Hvor mange værnepligtige var der i 2015?",
+  "reason": "historisk tal (2015), detalje"
+ },
+ {
+  "id": "16:23",
+  "q": "Hvor mange værnepligtige og frivillige var der i alt i Beredskabet i 2024?",
+  "reason": "tal fra ét bestemt år (2024)"
+ },
+ {
+  "id": "17:16",
+  "q": "Hvor mange anerkendte trossamfund og menigheder findes der?",
+  "reason": "Antallet 435 anerkendte trossamfund er et detaljetal, der let forældes; erstattet af spørgsmål om hvilken religion de fleste har"
+ },
+ {
+  "id": "18:7",
+  "q": "Hvor mange procent stemte ja til EF-medlemskab ved folkeafstemningen?",
+  "reason": "Procenttallet 63,4 står ikke i fakta-ark 18 (kun på s. 118 i et andet fakta-ark) og er et detaljetal; slettet"
+ },
+ {
+  "id": "18:9",
+  "q": "Hvilket år var der folkeafstemning om Maastricht-traktaten?",
+  "reason": "Dublet af 18:10 (folkeafstemningen i 1992); årstallet indgår nu i forklaringen"
+ },
+ {
+  "id": "18:12",
+  "q": "Hvad betyder forbeholdet om den fælles valuta?",
+  "reason": "Dublet af 18:4 (Danmark beholder kronen)"
+ },
+ {
+  "id": "18:15",
+  "q": "Hvor mange procent stemte ja til at ophæve forsvarsforbeholdet?",
+  "reason": "Præcist afstemningsresultat (67 procent) er et detaljetal"
+ },
+ {
+  "id": "18:21",
+  "q": "Hvem er Danmarks EU-kommissær ifølge teksten?",
+  "reason": "Navn på nuværende politiker (Dan Jørgensen) forælder hurtigt"
+ },
+ {
+  "id": "18:23",
+  "q": "Hvor mange medlemmer har Europa-Parlamentet?",
+  "reason": "Antal medlemmer i Europa-Parlamentet (720) ændres og er ikke vigtigt"
+ },
+ {
+  "id": "18:25",
+  "q": "Hvor mange procent stemte i Danmark ved EP-valget i 2024?",
+  "reason": "Enkelt stemmeprocent (2024) er et detaljetal; erstattet af spørgsmål om lavere deltagelse"
+ },
+ {
+  "id": "18:26",
+  "q": "Hvor mange procent stemte ved folketingsvalget i 2026?",
+  "reason": "Enkelt stemmeprocent (2026) er et detaljetal; erstattet"
+ },
+ {
+  "id": "18:28",
+  "q": "Hvornår var sidste danske EU-formandskab?",
+  "reason": "Sidste danske EU-formandskab (2025) forældes hurtigt"
+ },
+ {
+  "id": "18:30",
+  "q": "Hvornår blev Danmark medlem af Europarådet?",
+  "reason": "Præcist årstal for Europarådsmedlemskab er et detaljetal"
+ },
+ {
+  "id": "18:33",
+  "q": "Hvor mange stater er medlem af FN?",
+  "reason": "Antal FN-medlemmer (193) er et detaljetal"
+ },
+ {
+  "id": "18:38",
+  "q": "Hvornår er Danmark medlem af Sikkerhedsrådet ifølge teksten?",
+  "reason": "Danmarks nuværende periode i Sikkerhedsrådet forældes hurtigt"
+ },
+ {
+  "id": "18:39",
+  "q": "Hvilke tidligere perioder har Danmark siddet i Sikkerhedsrådet?",
+  "reason": "Opremsning af årstal for tidligere perioder i Sikkerhedsrådet er en detalje"
+ },
+ {
+  "id": "18:45",
+  "q": "Hvor meget giver Danmark i udviklingsbistand i 2026?",
+  "reason": "Beløb i udviklingsbistand (23 mia.) forældes; erstattet af spørgsmål om bistand i forhold til befolkning"
+ },
+ {
+  "id": "18:47",
+  "q": "Hvor mange lande er der i Afrika?",
+  "reason": "Antal afrikanske lande (54) er et detaljetal"
+ },
+ {
+  "id": "18:48",
+  "q": "Hvilket år fremlagde regeringen en ny strategi for Afrika?",
+  "reason": "Årstal for en enkelt strategi (2024) er et detaljetal"
+ },
+ {
+  "id": "19:26",
+  "q": "Hvor mange indbyggere har Aarhus cirka?",
+  "reason": "Indbyggertal for Aarhus er et detaljetal, der ændres"
+ },
+ {
+  "id": "19:28",
+  "q": "Hvor mange indbyggere har Odense cirka?",
+  "reason": "Indbyggertal for Odense er et detaljetal, der ændres"
+ },
+ {
+  "id": "19:33",
+  "q": "Hvilke tre broforbindelser nævnes?",
+  "reason": "Spørgsmål om hvilke broer der »nævnes« er uklart; erstattet af to spørgsmål om Lillebælt og Øresund"
+ },
+ {
+  "id": "20:0",
+  "q": "Omkring hvornår begyndte der at komme mennesker til det område, hvor Danmark nu ligger?",
+  "reason": "detalje: årstal for første mennesker"
+ },
+ {
+  "id": "20:1",
+  "q": "Hvad levede de første mennesker af?",
+  "reason": "detalje (ikke nødvendig viden)"
+ },
+ {
+  "id": "20:2",
+  "q": "Hvornår gik man over til at dyrke jorden og holde husdyr?",
+  "reason": "detalje: årstal 4.000 f.Kr."
+ },
+ {
+  "id": "20:3",
+  "q": "Hvornår opstod rigtige byer som Ribe?",
+  "reason": "detalje: årstal for Ribe"
+ },
+ {
+  "id": "20:6",
+  "q": "Hvad hed gudernes konge i asatroen?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:7",
+  "q": "Hvilken gud var gud for torden og krig?",
+  "reason": "detalje: guder (Thor)"
+ },
+ {
+  "id": "20:8",
+  "q": "Hvilken gudinde var gudinde for frugtbarhed?",
+  "reason": "detalje: guder (Freja)"
+ },
+ {
+  "id": "20:10",
+  "q": "Hvornår døde Harald Blåtand?",
+  "reason": "præcist dødsår, detalje"
+ },
+ {
+  "id": "20:12",
+  "q": "Hvad står der på Jellingestenen?",
+  "reason": "erstattet (to fakta i ét; delt i nyt spørgsmål om kristendommen)"
+ },
+ {
+  "id": "20:13",
+  "q": "Hvornår blev Harald Blåtand døbt?",
+  "reason": "præcist årstal for dåb, detalje"
+ },
+ {
+  "id": "20:14",
+  "q": "Hvilket år erobrede Svend Tveskæg England?",
+  "reason": "erstattet af spørgsmål om hvilket land Svend Tveskæg erobrede"
+ },
+ {
+  "id": "20:15",
+  "q": "Hvor længe var England regeret af danske konger?",
+  "reason": "detalje: antal år/1042"
+ },
+ {
+  "id": "20:17",
+  "q": "Hvornår regerede Knud den Store?",
+  "reason": "detalje: præcise regeringsår"
+ },
+ {
+  "id": "20:18",
+  "q": "Nævn vikingeborge fra denne tid.",
+  "reason": "detalje: navne på borge"
+ },
+ {
+  "id": "20:19",
+  "q": "Hvilke byer opstod i vikingetiden?",
+  "reason": "detalje: byer"
+ },
+ {
+  "id": "20:20",
+  "q": "Hvilket år slog stormændene kong Knud den Hellige ihjel?",
+  "reason": "erstattet (præcist årstal 1086; flyttet til forklaring)"
+ },
+ {
+  "id": "20:23",
+  "q": "Hvor mange kirker var der omkring 1250 i Danmark?",
+  "reason": "detalje: antal kirker"
+ },
+ {
+  "id": "20:24",
+  "q": "Hvilke fire stænder opstod i middelalderen?",
+  "reason": "erstattet (opremsning af fire led; delt i to spørgsmål)"
+ },
+ {
+  "id": "20:29",
+  "q": "Hvem var afgørende for dannelsen af Kalmarunionen?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:30",
+  "q": "Hvornår døde Margrete 1.?",
+  "reason": "detalje: dødsår"
+ },
+ {
+  "id": "20:31",
+  "q": "Hvornår brød Sverige ud af Kalmarunionen?",
+  "reason": "kilden siger ikke, at Sverige 'brød ud' i 1523; kun at unionen varede til 1523"
+ },
+ {
+  "id": "20:36",
+  "q": "Hvilket sprog brugte kirken især i middelalderen?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:37",
+  "q": "Hvornår udkom den første Bibel på dansk?",
+  "reason": "detalje: årstal for Bibel"
+ },
+ {
+  "id": "20:38",
+  "q": "Hvor stor en del af landets dyrkede areal overtog kongen fra kirken?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:39",
+  "q": "Hvor længe var Christian 4. konge?",
+  "reason": "detalje: regeringsår"
+ },
+ {
+  "id": "20:43",
+  "q": "Hvilket år blev monarkiet arveligt?",
+  "reason": "næsten identisk med 1661, forvirrende; erstattet af spørgsmål om arveligt monarki"
+ },
+ {
+  "id": "20:50",
+  "q": "Hvornår afgav Frederik 7. sin enevældige magt?",
+  "reason": "erstattet (nyt spørgsmål om hvilken konge)"
+ },
+ {
+  "id": "20:58",
+  "q": "Hvad begyndte man at opdyrke efter 1864?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:60",
+  "q": "Hvornår begyndte man at bygge jernbaner i Danmark?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:61",
+  "q": "Hvornår begyndte industrialiseringen at gå hurtigere?",
+  "reason": "detalje: årstal"
+ },
+ {
+  "id": "20:64",
+  "q": "Hvornår blev Venstre dannet?",
+  "reason": "erstattet (nyt spørgsmål om bøndernes parti)"
+ },
+ {
+  "id": "20:66",
+  "q": "Hvornår blev Det Radikale Venstre dannet?",
+  "reason": "detalje: årstal"
+ },
+ {
+  "id": "20:67",
+  "q": "Hvem stemte især på Det Radikale Venstre?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:71",
+  "q": "Hvad skete der med den danske hær i august 1943?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "20:74",
+  "q": "Hvor længe varede besættelsen?",
+  "reason": "detalje/overflødigt"
+ },
+ {
+  "id": "21:2",
+  "q": "Hvilke lande bestod NATO af, da det startede?",
+  "reason": "detalje: NATO-medlemmer"
+ },
+ {
+  "id": "21:6",
+  "q": "Hvornår gav USA penge med Marshall-planen?",
+  "reason": "erstattet (nyt spørgsmål om hvilket land gav Marshall-hjælp)"
+ },
+ {
+  "id": "21:8",
+  "q": "Hvornår dannede medlemmer af DKP Socialistisk Folkeparti (SF)?",
+  "reason": "detalje: SF dannet 1958-59"
+ },
+ {
+  "id": "21:12",
+  "q": "Hvad havde mange råd til i De glade 60'ere?",
+  "reason": "for banalt; erstattet af spørgsmål om hvorfor"
+ },
+ {
+  "id": "21:21",
+  "q": "Hvornår blev p-pillen introduceret i Danmark?",
+  "reason": "detalje: årstal p-pille"
+ },
+ {
+  "id": "21:22",
+  "q": "Hvornår blev det forbudt at slå børn i skolen?",
+  "reason": "detalje: årstal for forbud i skolen"
+ },
+ {
+  "id": "21:24",
+  "q": "Hvornår vedtog Folketinget loven om ligeløn?",
+  "reason": "erstattet (nyt spørgsmål om ligelønsloven)"
+ },
+ {
+  "id": "21:28",
+  "q": "Hvor længe sad den borgerlige regering fra 1982?",
+  "reason": "detalje: årstal 1993"
+ },
+ {
+  "id": "21:30",
+  "q": "Hvor mange år har socialdemokratiske statsministre haft posten siden 1982?",
+  "reason": "statistik, forældes"
+ },
+ {
+  "id": "21:31",
+  "q": "Hvor mange år har borgerlige statsministre haft posten siden 1982?",
+  "reason": "statistik, forældes"
+ },
+ {
+  "id": "21:32",
+  "q": "Hvem var statsminister 1982-93?",
+  "reason": "navne på statsministre forældes og dækkes i fakta-ark 10"
+ },
+ {
+  "id": "21:33",
+  "q": "Hvem var statsminister 1993-2001?",
+  "reason": "navne på statsministre"
+ },
+ {
+  "id": "21:34",
+  "q": "Hvem var statsminister 2001-09?",
+  "reason": "navne på statsministre"
+ },
+ {
+  "id": "21:35",
+  "q": "Hvem var statsminister 2011-15?",
+  "reason": "navne på statsministre"
+ },
+ {
+  "id": "21:36",
+  "q": "Hvem var statsminister 2009-11 og 2015-19?",
+  "reason": "navne på statsministre"
+ },
+ {
+  "id": "21:38",
+  "q": "Hvilke bevægelser var stærke i 1980'erne?",
+  "reason": "erstattet (to spørgsmål, ét pr. bevægelse)"
+ },
+ {
+  "id": "21:42",
+  "q": "Hvor meget faldt Danmarks samlede produktion i 2008-09?",
+  "reason": "detalje: procent fra statistik"
+ },
+ {
+  "id": "21:43",
+  "q": "Hvornår er der igen overskud på statens budget?",
+  "reason": "detalje: årstal for overskud"
+ },
+ {
+  "id": "21:46",
+  "q": "Hvor længe kan kvinder forvente at leve i 2024-25?",
+  "reason": "statistik: levealder"
+ },
+ {
+  "id": "21:47",
+  "q": "Hvor længe kunne kvinder forvente at leve i 1973-74?",
+  "reason": "statistik: levealder"
+ },
+ {
+  "id": "21:48",
+  "q": "Hvor længe kan mænd forvente at leve i 2024-25?",
+  "reason": "statistik: levealder"
+ },
+ {
+  "id": "21:49",
+  "q": "Hvor længe kunne mænd forvente at leve i 1973-74?",
+  "reason": "statistik: levealder"
+ },
+ {
+  "id": "21:50",
+  "q": "Hvor mange børn fødte hver kvinde i gennemsnit i 2025?",
+  "reason": "statistik: fødselstal"
+ },
+ {
+  "id": "21:51",
+  "q": "Hvor mange børn fødte hver kvinde i 1973?",
+  "reason": "statistik: fødselstal"
+ },
+ {
+  "id": "21:54",
+  "q": "Hvornår blev covid-19 opdaget i Kina?",
+  "reason": "detalje: årstal"
+ },
+ {
+  "id": "21:55",
+  "q": "Hvornår blev det første tilfælde registreret i Danmark?",
+  "reason": "detalje: måned for første tilfælde"
+ },
+ {
+  "id": "21:56",
+  "q": "Hvornår blev den første dansker vaccineret mod corona?",
+  "reason": "detalje: dato for første vaccination"
+ },
+ {
+  "id": "21:57",
+  "q": "Hvor mange procent af befolkningen er vaccineret mod corona?",
+  "reason": "detalje: procent"
+ },
+ {
+  "id": "21:59",
+  "q": "Hvor lang tid tog det at udvikle vacciner mod corona?",
+  "reason": "detalje: varighed"
+ },
+ {
+  "id": "22:1",
+  "q": "Hvornår levede Ludvig Holberg?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:3",
+  "q": "Hvad var Holberg ved universitetet i København?",
+  "reason": "detalje: Holbergs stilling"
+ },
+ {
+  "id": "22:5",
+  "q": "Hvad hedder Holbergs roman fra 1741?",
+  "reason": "detalje: romantitel"
+ },
+ {
+  "id": "22:6",
+  "q": "Hvilke ideer handler Holbergs Epistler om?",
+  "reason": "detalje: Epistler"
+ },
+ {
+  "id": "22:10",
+  "q": "Hvad var H.C. Andersens far?",
+  "reason": "detalje: H.C. Andersens fars erhverv"
+ },
+ {
+  "id": "22:11",
+  "q": "Hvornår flyttede H.C. Andersen til København?",
+  "reason": "detalje: alder ved flytning"
+ },
+ {
+  "id": "22:12",
+  "q": "Til hvor mange sprog er H.C. Andersens eventyr oversat?",
+  "reason": "detalje: antal sprog"
+ },
+ {
+  "id": "22:13",
+  "q": "Hvilke eventyr nævnes af H.C. Andersen?",
+  "reason": "erstattet (omvendt spørgsmål: hvem skrev Den Grimme Ælling)"
+ },
+ {
+  "id": "22:14",
+  "q": "Hvornår levede P.S. Krøyer?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:18",
+  "q": "Hvornår levede Søren Kierkegaard?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:21",
+  "q": "Hvornår levede Carl Nielsen?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:23",
+  "q": "Hvad hedder Carl Nielsens symfoni fra 1916?",
+  "reason": "detalje: titel på symfoni"
+ },
+ {
+  "id": "22:24",
+  "q": "Hvilke sange nævnes af Carl Nielsen?",
+  "reason": "detalje: sangtitler"
+ },
+ {
+  "id": "22:25",
+  "q": "Hvornår levede Karen Blixen?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:28",
+  "q": "Hvad hedder Karen Blixens novellesamling fra 1935?",
+  "reason": "detalje: titel"
+ },
+ {
+  "id": "22:29",
+  "q": "Hvornår levede Tove Ditlevsen?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:31",
+  "q": "Hvad skrev Tove Ditlevsen i 1943?",
+  "reason": "detalje: værk og årstal"
+ },
+ {
+  "id": "22:32",
+  "q": "Hvornår udkom Gift af Tove Ditlevsen?",
+  "reason": "detalje: årstal"
+ },
+ {
+  "id": "22:33",
+  "q": "Hvornår levede Arne Jacobsen?",
+  "reason": "detalje: leveår"
+ },
+ {
+  "id": "22:36",
+  "q": "Hvad hedder Jacobsens eksklusive lænestol?",
+  "reason": "dublet af 7-eren (modsat spørgsmål)"
+ },
+ {
+  "id": "22:38",
+  "q": "Hvilken bygning har Arne Jacobsen tegnet i København?",
+  "reason": "detalje: bygning"
+ },
+ {
+  "id": "22:39",
+  "q": "Hvornår er Thomas Vinterberg født?",
+  "reason": "detalje: fødselsår"
+ },
+ {
+  "id": "22:43",
+  "q": "Hvilken film handler om falske beskyldninger?",
+  "reason": "overlap med Festen-spørgsmålet; detalje"
+ },
+ {
+  "id": "22:44",
+  "q": "Hvilken Vinterberg-film handler om bristede håb?",
+  "reason": "detalje: filmtitel (Kollektivet)"
+ },
+ {
+  "id": "22:46",
+  "q": "Hvornår er Susanne Bier født?",
+  "reason": "detalje: fødselsår"
+ },
+ {
+  "id": "22:48",
+  "q": "Hvornår vandt Danmark Eurovision første gang, og med hvilken sang?",
+  "reason": "detalje: Eurovision-år og sang"
+ },
+ {
+  "id": "22:49",
+  "q": "Hvem vandt i 1963?",
+  "reason": "detalje: vindere 1963"
+ },
+ {
+  "id": "22:50",
+  "q": "Hvem vandt i 2000 med 'Smuk som et stjerneskud'?",
+  "reason": "detalje: vindere 2000"
+ },
+ {
+  "id": "22:51",
+  "q": "Hvem vandt i 2013 med 'Only Teardrops'?",
+  "reason": "detalje: vindere 2013"
+ },
+ {
+  "id": "22:53",
+  "q": "Hvor mange cd'er har Aqua solgt?",
+  "reason": "detalje: salgstal"
+ },
+ {
+  "id": "22:56",
+  "q": "Hvor lang er gangbroen i Your rainbow panorama?",
+  "reason": "detalje: længde på værk"
+ },
+ {
+  "id": "22:58",
+  "q": "Hvor mange eksemplarer har Yahya Hassan solgt?",
+  "reason": "erstattet (salgstal, forældes; nyt spørgsmål om debatten)"
+ },
+ {
+  "id": "23:7",
+  "q": "Hvilke dage er påskedagene?",
+  "reason": "erstattet: opremsning af påskedage"
+ },
+ {
+  "id": "23:10",
+  "q": "Hvilket slags æg giver man i dag til påske?",
+  "reason": "overflødig detalje (chokoladeæg)"
+ },
+ {
+  "id": "23:13",
+  "q": "Hvilke dage omfatter pinsen?",
+  "reason": "detalje/dublet af pinse"
+ },
+ {
+  "id": "23:15",
+  "q": "Siden hvilket år har 1. maj været arbejdernes internationale demonstrations- og festdag?",
+  "reason": "erstattet: årstal 1889 (nyt K-spørgsmål om 1. maj)"
+ },
+ {
+  "id": "23:18",
+  "q": "Hvornår kom meddelelsen om den tyske kapitulation?",
+  "reason": "detaljeret dato (4. maj)"
+ },
+ {
+  "id": "23:27",
+  "q": "Hvad hedder de tre juledage?",
+  "reason": "opremsning af navne på juledage"
+ },
+ {
+  "id": "23:39",
+  "q": "Hvornår starter kinesisk nytår?",
+  "reason": "detalje om kinesisk kalender"
+ },
+ {
+  "id": "24:2",
+  "q": "Hvor længe deltog Danmark i FN's fredsbevarende missioner?",
+  "reason": "unøjagtigt: kilden siger ikke, at missionerne ophørte ca. 1990"
+ },
+ {
+  "id": "24:9",
+  "q": "Hvornår greb NATO ind i Kosovo?",
+  "reason": "dublet af Kosovo-spørgsmål (årstal)"
+ },
+ {
+  "id": "24:15",
+  "q": "Hvornår invaderede styrker Afghanistan?",
+  "reason": "præcis måned, detalje"
+ },
+ {
+  "id": "24:17",
+  "q": "Hvornår besluttede Folketinget at sende soldater til Afghanistan?",
+  "reason": "årstal for Folketingets beslutning, detalje"
+ },
+ {
+  "id": "24:18",
+  "q": "Hvilken provins blev danske soldater sendt til?",
+  "reason": "navn på provins, detalje (og forkert svarmulighed)"
+ },
+ {
+  "id": "24:24",
+  "q": "Hvornår besluttede man at deltage i Libyen-aktionen?",
+  "reason": "erstattet: årstal 2011 (nyt spørgsmål om Libyen)"
+ },
+ {
+  "id": "24:26",
+  "q": "Hvornår erobrede Islamisk Stat store dele af Irak og Syrien?",
+  "reason": "erstattet: årstal 2014 (nyt spørgsmål om Islamisk Stat)"
+ },
+ {
+  "id": "24:34",
+  "q": "Hvornår underskrev Danmark og USA en aftale om USA's militære aktiviteter i Grønland?",
+  "reason": "årstal 1951, detalje"
+ },
+ {
+  "id": "24:40",
+  "q": "Hvem har udtrykt ønske om, at Grønland skal blive en del af USA?",
+  "reason": "erstattet: navn på præsident (forældes), nyt spørgsmål om området"
+ },
+ {
+  "id": "24:42",
+  "q": "Hvad hedder det danske inspektionsskib ved Grønland ifølge teksten?",
+  "reason": "navn på skib, detalje"
+ },
+ {
+  "id": "25:5",
+  "q": "Hvor mange sager om hadforbrydelser registrerede politiet i 2022-24?",
+  "reason": "statistik (antal sager 2022-24)"
+ },
+ {
+  "id": "25:6",
+  "q": "Hvor mange var på grund af race eller etnicitet?",
+  "reason": "statistik, procenter"
+ },
+ {
+  "id": "25:7",
+  "q": "Hvor mange var på grund af religion?",
+  "reason": "statistik, procenter"
+ },
+ {
+  "id": "25:8",
+  "q": "Hvor mange var på grund af seksuel orientering?",
+  "reason": "statistik, procenter"
+ },
+ {
+  "id": "25:9",
+  "q": "Hvor stor en andel af ikke-vestlige indvandrere har oplevet diskrimination?",
+  "reason": "erstattet: statistik; nyt spørgsmål om studier af diskrimination"
+ },
+ {
+  "id": "25:11",
+  "q": "Hvor mange hadforbrydelser mod jøder registrerede politiet i 2022-24?",
+  "reason": "statistik (antal mod jøder)"
+ },
+ {
+  "id": "25:12",
+  "q": "Hvor mange jøder bor der i Danmark?",
+  "reason": "statistik (antal jøder)"
+ },
+ {
+  "id": "25:13",
+  "q": "Hvor stor en andel af hadforbrydelserne i Danmark er begået mod jøder?",
+  "reason": "statistik; erstattet af spørgsmål om udsat minoritet"
+ },
+ {
+  "id": "25:14",
+  "q": "Hvor mange hadforbrydelser blev anmeldt i gennemsnit om dagen?",
+  "reason": "statistik (702 sager/år)"
+ },
+ {
+  "id": "25:18",
+  "q": "Hvem blev dræbt ved Krudttønden?",
+  "reason": "detalje (Krudttønden)"
+ },
+ {
+  "id": "25:20",
+  "q": "Hvornår begyndte konflikten mellem Israel og Hamas?",
+  "reason": "erstattet: årstal; nyt spørgsmål om følger for jøder"
+ },
+ {
+  "id": "25:21",
+  "q": "Hvad skete i 2003 i Folketinget?",
+  "reason": "erstattet: nyt spørgsmål om hvorfor angrebet var alvorligt"
+ },
+ {
+  "id": "25:22",
+  "q": "Hvor lang fængselsstraf fik de to gerningsmænd fra 2003?",
+  "reason": "detalje (længde af straf)"
+ },
+ {
+  "id": "25:24",
+  "q": "Hvor lang straf fik gerningsmanden fra asylcentret?",
+  "reason": "detalje (længde af straf)"
+ },
+ {
+  "id": "26:4",
+  "q": "Hvor mange år er det siden, man opdagede at CO2 kunne give global opvarmning?",
+  "reason": "detalje (mere end 100 år siden)"
+ },
+ {
+  "id": "26:6",
+  "q": "Hvor meget varmere forudser FN klimaet i slutningen af århundredet?",
+  "reason": "tal fra FN's fremskrivning"
+ },
+ {
+  "id": "26:12",
+  "q": "Hvor stor en del dækkede den i 1990?",
+  "reason": "dublet/detalje (6 procent i 1990)"
+ },
+ {
+  "id": "26:13",
+  "q": "Hvornår blev Klimarådet oprettet?",
+  "reason": "årstal (2014); funktion dækkes af nyt spørgsmål"
+ },
+ {
+  "id": "26:15",
+  "q": "Hvornår blev klimaloven vedtaget?",
+  "reason": "årstal (2019); målet dækkes af andre spørgsmål"
+ },
+ {
+  "id": "26:20",
+  "q": "Hvor ligger Vindeby havmøllepark?",
+  "reason": "detalje (placering af Vindeby)"
+ },
+ {
+  "id": "26:23",
+  "q": "Hvor skal de to energiøer ligge?",
+  "reason": "detalje (placering af energiøer)"
+ },
+ {
+  "id": "26:24",
+  "q": "Hvornår skal energiøerne opføres?",
+  "reason": "årstal/detalje (2030'erne)"
+ },
+ {
+  "id": "26:28",
+  "q": "Hvornår faldt importen af olie og gas fra Rusland betydeligt?",
+  "reason": "erstattet: nyt forståelsesspørgsmål om uafhængighed af Rusland"
+ },
+ {
+  "id": "26:30",
+  "q": "Hvornår aftalte Den Grønne Trepart en plan?",
+  "reason": "årstal (2024)"
+ },
+ {
+  "id": "27:1",
+  "q": "Hvad betyder 'afgøre'?",
+  "reason": "for let/trivielt ord"
+ },
+ {
+  "id": "27:2",
+  "q": "Hvad betyder 'afhøre'?",
+  "reason": "ikke central ordforklaring"
+ },
+ {
+  "id": "27:5",
+  "q": "Hvad betyder 'anke'?",
+  "reason": "erstattet af mere centrale begreber; lav værdi"
+ },
+ {
+  "id": "27:6",
+  "q": "Hvad er et ansættelsesbevis?",
+  "reason": "lav værdi som læremiddel"
+ },
+ {
+  "id": "27:7",
+  "q": "Hvad betyder 'arbejdskraft'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:8",
+  "q": "Hvad betyder 'beruset'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:10",
+  "q": "Hvad betyder 'bidrage'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:11",
+  "q": "Hvad betyder 'bistand'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:12",
+  "q": "Hvad er en branche?",
+  "reason": "lav værdi; ikke central"
+ },
+ {
+  "id": "27:13",
+  "q": "Hvad betyder 'bøje sig'?",
+  "reason": "idiom uden betydning for faktaark"
+ },
+ {
+  "id": "27:15",
+  "q": "Hvad er drivhusgasser?",
+  "reason": "dækket af global opvarmning"
+ },
+ {
+  "id": "27:16",
+  "q": "Hvad betyder 'drøftelse'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:17",
+  "q": "Hvad er dyrevelfærd?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:18",
+  "q": "Hvad er en dåbsattest?",
+  "reason": "lav værdi; dåb dækket af nyt spørgsmål"
+ },
+ {
+  "id": "27:19",
+  "q": "Hvad betyder 'efterkommer'?",
+  "reason": "kilden er uklar; gammelt svar tilføjede ord uden for kilden"
+ },
+ {
+  "id": "27:20",
+  "q": "Hvad betyder 'eksportere'?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:21",
+  "q": "Hvad er euforiserende stoffer?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:22",
+  "q": "Hvad er Familieretshuset?",
+  "reason": "lav værdi; enkelt organisation"
+ },
+ {
+  "id": "27:23",
+  "q": "Hvad betyder 'farvand'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:24",
+  "q": "Hvad er fastetid?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:25",
+  "q": "Hvad betyder 'forbyde'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:26",
+  "q": "Hvad betyder 'forebygge'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:28",
+  "q": "Hvad betyder 'forfremme'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:30",
+  "q": "Hvad er et ghettokvarter ifølge ordlisten?",
+  "reason": "tvivlsomt og let forældet begreb; ikke centralt (og tal fra definitionen)"
+ },
+ {
+  "id": "27:31",
+  "q": "Hvad er en gigant?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:34",
+  "q": "Hvad er en gudstjeneste?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:37",
+  "q": "Hvad er en husmand?",
+  "reason": "historisk detalje, lav værdi"
+ },
+ {
+  "id": "27:38",
+  "q": "Hvad betyder 'håne'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:40",
+  "q": "Hvad er kapitulation?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:43",
+  "q": "Hvad betyder 'korsfæste'?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:44",
+  "q": "Hvad er en ledsager?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:47",
+  "q": "Hvad er masseødelæggelsesvåben?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:48",
+  "q": "Hvad er en mentor?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:51",
+  "q": "Hvad betyder 'nederlag'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:54",
+  "q": "Hvad er en niche?",
+  "reason": "lav værdi; fagterm uden brug"
+ },
+ {
+  "id": "27:57",
+  "q": "Hvad betyder 'ordblind'?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:61",
+  "q": "Hvad er professionsbachelor?",
+  "reason": "lav værdi; uddannelsesdetalje"
+ },
+ {
+  "id": "27:67",
+  "q": "Hvad er strafbart?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:68",
+  "q": "Hvad er at streame?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:71",
+  "q": "Hvad er et togt?",
+  "reason": "historisk detalje, lav værdi"
+ },
+ {
+  "id": "27:72",
+  "q": "Hvad betyder 'trivsel'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:73",
+  "q": "Hvad betyder 'tvinge'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:74",
+  "q": "Hvad betyder 'udgifter'?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:77",
+  "q": "Hvad betyder 'undertrykke'?",
+  "reason": "vagt ord"
+ },
+ {
+  "id": "27:78",
+  "q": "Hvad er en ungdomsårgang?",
+  "reason": "detalje, uklart for læserne"
+ },
+ {
+  "id": "27:79",
+  "q": "Hvad betyder 'varig'?",
+  "reason": "kilden er upræcis (varig = aldrig holder op)"
+ },
+ {
+  "id": "27:82",
+  "q": "Hvad er velstand?",
+  "reason": "trivielt ord"
+ },
+ {
+  "id": "27:85",
+  "q": "Hvad betyder økonomisk vækst?",
+  "reason": "lav værdi"
+ },
+ {
+  "id": "27:87",
+  "q": "Hvad er en årgang?",
+  "reason": "detalje, dublet af ungdomsårgang"
+ }
+]

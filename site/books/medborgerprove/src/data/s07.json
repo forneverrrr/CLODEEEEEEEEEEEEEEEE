@@ -1,0 +1,573 @@
+[
+{
+"id": "7:0",
+"q": "Hvem har først og fremmest ansvaret for, at livet i familien fungerer?",
+"a": "Familien selv",
+"w": [
+"Kommunalbestyrelsen",
+"Folketinget"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Familierne har ansvaret for et trygt hjem. Samfundet skaber kun rammerne, fx barselsorlov og børnepasning."
+},
+{
+"id": "7:1",
+"q": "Hvilken familieform er mest almindelig i Danmark?",
+"a": "Mor, far og fælles børn",
+"w": [
+"Enlig forælder med børn",
+"Flere generationer i samme hus"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er den mest almindelige form. Der findes også mange andre, fx enlige med børn og par af samme køn."
+},
+{
+"id": "7:2",
+"q": "Hvor gammel skal man mindst være for at blive gift?",
+"a": "18 år",
+"w": [
+"15 år",
+"21 år"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være fyldt 18 år for at indgå ægteskab, selv om mange først gifter sig senere."
+},
+{
+"id": "7:3",
+"q": "Hvor mange personer må man være gift med på samme tid?",
+"a": "Kun én",
+"w": [
+"To",
+"Flere, hvis alle ønsker det"
+],
+"p": 41,
+"lvl": "K",
+"type": "fakta",
+"why": "Man må ikke være gift med mere end én ad gangen. Derfor skriver man under på, at man ikke er gift i forvejen."
+},
+{
+"id": "7:4",
+"q": "Hvem skal ønske ægteskabet, før man må blive gift?",
+"a": "Begge parter",
+"w": [
+"Brudens forældre",
+"Brudgommens familie"
+],
+"p": 41,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man må ikke tvinge nogen til at gifte sig. Begge parter skal selv ønske ægteskabet."
+},
+{
+"id": "7:5",
+"q": "Hvor kan man blive gift i Danmark?",
+"a": "På rådhuset",
+"w": [
+"Hos politiet",
+"I Familieretshuset"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan blive gift på rådhuset, i folkekirken eller i anerkendte trossamfund."
+},
+{
+"id": "7:6",
+"q": "Hvad skal en præst have, for at en religiøs vielse er gyldig?",
+"a": "En bemyndigelse",
+"w": [
+"Dansk statsborgerskab",
+"Mange års erfaring"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Uden bemyndigelse (officiel tilladelse) er en religiøs vielse uden for folkekirken ikke borgerligt gyldig."
+},
+{
+"id": "7:7",
+"q": "Kan to personer af samme køn blive gift i Danmark?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Par af samme køn kan blive gift på lige fod med andre par og adoptere børn på samme vilkår."
+},
+{
+"id": "7:8",
+"q": "Hvad betyder fælles forældremyndighed?",
+"a": "Vigtige beslutninger tages sammen",
+"w": [
+"Barnet skal bo lige meget hos begge",
+"Kommunen bestemmer alt for barnet"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fælles forældremyndighed betyder, at forældrene skal tage vigtige beslutninger om barnet i fællesskab, fx barnets navn, skole og religion."
+},
+{
+"id": "7:n0",
+"q": "Hvem har forældremyndigheden over et fælles barn, når forældrene er gift?",
+"a": "Begge forældre",
+"w": [
+"Kun barnets mor",
+"Kun barnets far"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Gifte forældre har fælles forældremyndighed over børnene."
+},
+{
+"id": "7:n1",
+"q": "Hvad skal ugifte forældre gøre for at få fælles forældremyndighed?",
+"a": "Afgive en erklæring ved fødslen",
+"w": [
+"Blive gift inden barnet er et år",
+"Bo sammen i to år"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Ugifte forældre får fælles forældremyndighed, hvis de ved fødslen erklærer, at de sammen vil tage ansvar for barnet."
+},
+{
+"id": "7:9",
+"q": "Hvor mange procent af ægteskaberne i Danmark ender cirka med skilsmisse?",
+"a": "Cirka 40 procent",
+"w": [
+"Cirka 15 procent",
+"Cirka 70 procent"
+],
+"p": 42,
+"lvl": "U",
+"type": "fakta",
+"why": "Cirka 40 procent af ægteskaberne ender med skilsmisse."
+},
+{
+"id": "7:10",
+"q": "Hvad er separation?",
+"a": "Prøvetid, hvor man stadig er gift",
+"w": [
+"Det samme som skilsmisse",
+"Forlovelse inden bryllup"
+],
+"p": 42,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved separation er man stadig gift, men bor normalt hver for sig. Den er ikke det samme som skilsmisse."
+},
+{
+"id": "7:11",
+"q": "Efter hvor lang tids separation har man ret til skilsmisse?",
+"a": "Et halvt år",
+"w": [
+"Tre måneder",
+"To år"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter et halvt års separation har man ret til skilsmisse."
+},
+{
+"id": "7:12",
+"q": "Hvornår kan ægtefæller blive skilt uden først at være separeret?",
+"a": "Når begge er enige",
+"w": [
+"Når de har børn",
+"Efter to års ægteskab"
+],
+"p": 42,
+"lvl": "K",
+"type": "fakta",
+"why": "Er ægtefællerne enige, kan de blive skilt med det samme. Ellers skal man normalt først være separeret."
+},
+{
+"id": "7:n2",
+"q": "Hvornår kan man blive skilt med det samme, selv om ægtefællen er uenig?",
+"a": "Fx ved vold eller utroskab",
+"w": [
+"Efter ti års ægteskab",
+"Hvis man har børn sammen"
+],
+"p": 42,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ved uenighed kan man i visse situationer blive skilt med det samme, fx ved utroskab eller vold."
+},
+{
+"id": "7:13",
+"q": "Hvor kan skilte forældre få hjælp, når de er uenige om barnet?",
+"a": "I Familieretshuset",
+"w": [
+"På politistationen",
+"Hos sundhedsplejersken"
+],
+"p": 43,
+"lvl": "K",
+"type": "fakta",
+"why": "Familieretshuset giver hjælp og rådgivning til forældre, der ikke kan blive enige."
+},
+{
+"id": "7:n3",
+"q": "Hvem kan afgøre samvær og bopæl, hvis forældrene stadig er uenige?",
+"a": "Familieretshuset eller domstolene",
+"w": [
+"Sundhedsplejersken og skolen",
+"Politiet og kommunen"
+],
+"p": 43,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis forældrene fortsat er uenige, kan Familieretshuset eller domstolene træffe afgørelse. Det gælder også forældre, der aldrig har været gift."
+},
+{
+"id": "7:n4",
+"q": "Hvem aftaler normalt, hvordan skilte forældre deler ansvaret for børnene?",
+"a": "Forældrene selv",
+"w": [
+"Familieretshuset",
+"Kommunalbestyrelsen"
+],
+"p": 43,
+"lvl": "U",
+"type": "forståelse",
+"why": "Forældrene aftaler selv, hvem barnet bor hos, og hvor meget det er hos den anden. Først ved uenighed kommer andre ind."
+},
+{
+"id": "7:14",
+"q": "Hvem besøger nyfødte børn og deres forældre i hjemmet?",
+"a": "En sundhedsplejerske",
+"w": [
+"En praktiserende læge",
+"En socialrådgiver"
+],
+"p": 43,
+"lvl": "K",
+"type": "fakta",
+"why": "Sundhedsplejersken følger barnets udvikling og vejleder forældrene. Besøgene er gratis."
+},
+{
+"id": "7:n5",
+"q": "Hvem kan fortælle gravide om tilbud om fødselsforberedelse?",
+"a": "Jordemoderen",
+"w": [
+"Sundhedsplejersken",
+"Apotekeren"
+],
+"p": 43,
+"lvl": "U",
+"type": "fakta",
+"why": "Jordemoderen fortæller om fødselsforberedelse, hvor man lærer om graviditeten og om, hvordan fødslen kan blive lettere."
+},
+{
+"id": "7:16",
+"q": "Hvor føder de fleste i Danmark?",
+"a": "På et sygehus",
+"w": [
+"Hjemme",
+"Hos egen læge"
+],
+"p": 43,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste føder på sygehus, men man kan også føde hjemme."
+},
+{
+"id": "7:17",
+"q": "Inden slutningen af hvilken graviditetsuge har en kvinde ret til abort?",
+"a": "18. uge",
+"w": [
+"12. uge",
+"24. uge"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Retten til abort gælder frem til slutningen af 18. graviditetsuge. Husk 18, ikke en lavere uge."
+},
+{
+"id": "7:18",
+"q": "Hvem bestemmer, om en kvinde vil have abort?",
+"a": "Kvinden selv",
+"w": [
+"Barnets far",
+"Lægen på sygehuset"
+],
+"p": 44,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kvinden bestemmer selv og skal ikke have tilladelse fra barnets far. Er hun under 18 år, skal hun dog som udgangspunkt have forældrenes tilladelse."
+},
+{
+"id": "7:n6",
+"q": "En 16-årig vil have abort. Hvad skal hun normalt have?",
+"a": "Forældrenes tilladelse",
+"w": [
+"Barnefaderens tilladelse",
+"Kommunens tilladelse"
+],
+"p": 44,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Under 18 år skal kvinden normalt have tilladelse fra sine forældre. I særlige tilfælde kan hun søge uden."
+},
+{
+"id": "7:19",
+"q": "Hvad koster det at få foretaget en abort?",
+"a": "Det er gratis",
+"w": [
+"Man betaler et gebyr",
+"Man betaler halvdelen"
+],
+"p": 44,
+"lvl": "U",
+"type": "fakta",
+"why": "En abort koster ikke noget. Man kontakter sin læge, som henviser til sygehus eller klinik."
+},
+{
+"id": "7:20",
+"q": "Hvad kan man få under barsel i stedet for løn?",
+"a": "Barselsdagpenge",
+"w": [
+"Fuld løn fra kommunen",
+"Førtidspension"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Får man ikke løn under orloven, kan man normalt få barselsdagpenge, hvis man har optjent retten."
+},
+{
+"id": "7:n7",
+"q": "Hvordan optjener man ret til barselsdagpenge?",
+"a": "Ved arbejde eller a-kasse",
+"w": [
+"Ved at være gift i et år",
+"Ved at bo i Danmark i ti år"
+],
+"p": 44,
+"lvl": "U",
+"type": "fakta",
+"why": "Retten optjenes ved at arbejde eller som medlem af en a-kasse."
+},
+{
+"id": "7:21",
+"q": "Hvem har ret til at gå på barsel?",
+"a": "Både mor og far",
+"w": [
+"Kun barnets mor",
+"Kun barnets far"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinder har ret til fri før og efter fødslen. Barnets far har også ret til at gå på barsel."
+},
+{
+"id": "7:22",
+"q": "Hvad gælder om at slå børn i Danmark?",
+"a": "Det er forbudt",
+"w": [
+"Det er tilladt hjemme",
+"Det er tilladt med forældres samtykke"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er forbudt at slå børn, også hjemme."
+},
+{
+"id": "7:23",
+"q": "Fra hvilken alder må børn normalt have lønnet arbejde uden for hjemmet?",
+"a": "13 år",
+"w": [
+"10 år",
+"16 år"
+],
+"p": 44,
+"lvl": "U",
+"type": "fakta",
+"why": "Børn under 13 år må normalt ikke have lønnet arbejde uden for hjemmet."
+},
+{
+"id": "7:24",
+"q": "Under hvilken alder er det forbudt at have sex med unge?",
+"a": "Under 15 år",
+"w": [
+"Under 13 år",
+"Under 18 år"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er forbudt at have sex med unge under 15 år."
+},
+{
+"id": "7:25",
+"q": "Fra hvilken alder kan man straffes?",
+"a": "15 år",
+"w": [
+"12 år",
+"18 år"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Børn under 15 år kan ikke straffes."
+},
+{
+"id": "7:26",
+"q": "Hvor gammel skal man mindst være for at købe almindelig øl?",
+"a": "16 år",
+"w": [
+"14 år",
+"18 år"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Almindelig øl kan man købe fra 16 år. Meget stærk øl, vin og spiritus kræver 18 år."
+},
+{
+"id": "7:27",
+"q": "Hvor gammel skal man mindst være for at købe vin og spiritus?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Vin, spiritus og meget stærk øl kræver, at man er fyldt 18 år."
+},
+{
+"id": "7:28",
+"q": "Hvor gammel skal man mindst være for at få kørekort til bil?",
+"a": "17 år",
+"w": [
+"15 år",
+"19 år"
+],
+"p": 44,
+"lvl": "K",
+"type": "fakta",
+"why": "Man kan tage kørekort til almindelig bil som 17-årig, men med regler for ledsager om natten."
+},
+{
+"id": "7:29",
+"q": "Hvornår bliver man myndig i Danmark?",
+"a": "Når man fylder 18 år",
+"w": [
+"Når man fylder 15 år",
+"Når man fylder 21 år"
+],
+"p": 45,
+"lvl": "K",
+"type": "fakta",
+"why": "Unge er ifølge loven myndige, når de fylder 18 år."
+},
+{
+"id": "7:30",
+"q": "Hvad betyder det, at en ung er myndig?",
+"a": "Man har ansvar for sig selv",
+"w": [
+"Man får ret til folkepension",
+"Man får gratis bolig fra kommunen"
+],
+"p": 45,
+"lvl": "K",
+"type": "forståelse",
+"why": "Som myndig har man bl.a. stemmeret, kan låne penge i banken og har ansvar for sig selv."
+},
+{
+"id": "7:n8",
+"q": "Fra hvilken alder kan man begynde at få SU?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 45,
+"lvl": "K",
+"type": "fakta",
+"why": "Fra 18 år kan man få SU, hvis man går på en uddannelse med ret til SU."
+},
+{
+"id": "7:31",
+"q": "Hvornår må en 17-årig køre bil uden ledsager?",
+"a": "Mellem kl. 5 og kl. 20",
+"w": [
+"Mellem kl. 8 og kl. 22",
+"Hele døgnet"
+],
+"p": 45,
+"lvl": "U",
+"type": "fakta",
+"why": "Fra kl. 20 til kl. 5 skal en 17-årig have en ledsager. Fra 18 år må man køre uden ledsager hele døgnet."
+},
+{
+"id": "7:32",
+"q": "Hvor gammel skal en ledsager mindst være for en 17-årig bilist om natten?",
+"a": "Over 24 år",
+"w": [
+"Over 18 år",
+"Over 30 år"
+],
+"p": 45,
+"lvl": "D",
+"type": "fakta",
+"why": "Ledsageren skal være over 24 år og have haft kørekort i mindst fem år."
+},
+{
+"id": "7:33",
+"q": "Du ved, at et barn bliver slået derhjemme. Hvad har du pligt til?",
+"a": "At kontakte kommunen",
+"w": [
+"At tale med forældrene",
+"At ringe til skolen"
+],
+"p": 45,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man har pligt til at kontakte kommunen og anmelde vold eller overgreb mod børn under 18 år. Kommunen undersøger sagen og hjælper barnet."
+},
+{
+"id": "7:n9",
+"q": "Hvad har børn ret til, hvis deres forældre skal skilles?",
+"a": "At sige, hvor de vil bo",
+"w": [
+"At bestemme alene, hvor de bor",
+"At vælge forældrenes nye partner"
+],
+"p": 44,
+"lvl": "U",
+"type": "forståelse",
+"why": "Børn har ret til at sige deres mening om forhold, der handler om dem selv, fx om de vil bo hos far eller mor."
+},
+{
+"id": "7:n10",
+"q": "Hvorfor kan man miste visse ydelser, hvis ens ægtefælle tjener godt?",
+"a": "Gifte skal forsørge hinanden",
+"w": [
+"Kommunen har for få penge",
+"Kvinder får mindre hjælp end mænd"
+],
+"p": 42,
+"lvl": "U",
+"type": "forståelse",
+"why": "Som gift skal man som udgangspunkt forsørge hinanden. Derfor kan ægtefællens indtægt eller formue betyde, at man ikke får visse ydelser fra kommunen."
+}
+]

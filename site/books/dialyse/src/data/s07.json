@@ -1,0 +1,1978 @@
+[
+{
+"id": "7:0",
+"q": "Hvad hedder behandlingen, hvor dialyse og hæmofiltration udføres samtidigt?",
+"a": "Hæmodiafiltration (HDF)",
+"w": [
+"Hæmoperfusion",
+"Plasmaferese"
+],
+"p": 71,
+"lvl": "K",
+"type": "fakta",
+"why": "HDF kombinerer diffusion (dialyse) med konvektion (ultrafiltration og erstatningsvæske). Moderne maskiner kan udføre HD, HF og HDF."
+},
+{
+"id": "7:1",
+"q": "Hvilken transportmekanisme dominerer ved almindelig hæmodialyse?",
+"a": "Diffusion",
+"w": [
+"Konvektion",
+"Osmose"
+],
+"p": 71,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved HD diffunderer stoffer ned ad koncentrationsgradienten til dialysatet. Konvektion (ultrafiltration) dominerer først ved hæmofiltration."
+},
+{
+"id": "7:4",
+"q": "Hvad skal afklares, før kronisk HD påbegyndes?",
+"a": "Om der kan etableres karadgang",
+"w": [
+"Om patienten har restdiurese",
+"Om patienten er under 70 år"
+],
+"p": 71,
+"lvl": "K",
+"type": "fakta",
+"why": "Uden brugbar karadgang kan HD ikke gennemføres. Desuden skal patienten kunne medvirke, og behandlingen skal give rimelig livskvalitet."
+},
+{
+"id": "7:5",
+"q": "Hvorfor kan HD være uegnet til en svært dement patient?",
+"a": "Kan ikke ligge stille i flere timer",
+"w": [
+"Tåler ikke heparin",
+"Har for lavt blodtryk"
+],
+"p": 71,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienten skal kunne ligge eller sidde nogenlunde stille i timer med slanger tilkoblet. Svært psykotiske eller demente kan have svært ved det."
+},
+{
+"id": "7:n0",
+"q": "Hvorfor kan HD være svær at gennemføre ved svær hjerteinsufficiens?",
+"a": "Væsketræk giver blodtryksfald",
+"w": [
+"Dialysatet bliver for varmt",
+"Heparin virker ikke"
+],
+"p": 71,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved svær hjerteinsufficiens kan væsketræk ofte ikke gennemføres uden blodtryksfald. Det gælder også ved svær iskæmisk hjertesygdom som angina pectoris."
+},
+{
+"id": "7:n1",
+"q": "Hvorfor kan det være meningsløst at starte dialyse i slutstadiet af en malign sygdom?",
+"a": "Behandlingen forlænger blot lidelserne",
+"w": [
+"Karadgang kan ikke etableres",
+"Patienten tåler ikke heparin"
+],
+"p": 71,
+"lvl": "K",
+"type": "forståelse",
+"why": "Før kronisk HD skal man vurdere, om behandlingen giver rimelig livskvalitet eller blot forlænger patientens lidelser."
+},
+{
+"id": "7:6",
+"q": "Hvor udveksles stoffer og vand mellem blod og dialysat?",
+"a": "Over dialysemembranen",
+"w": [
+"I blodpumpen",
+"I venekammeret"
+],
+"p": 71,
+"lvl": "K",
+"type": "fakta",
+"why": "Membranen er dialysekredsløbets knudepunkt og en del af dialysatoren (\"filteret\"). Det er stedet for både diffusion og ultrafiltration."
+},
+{
+"id": "7:8",
+"q": "Hvilke to processer foregår over dialysemembranen?",
+"a": "Diffusion og ultrafiltration",
+"w": [
+"Osmose og adsorption",
+"Aktiv transport og diffusion"
+],
+"p": 71,
+"lvl": "K",
+"type": "fakta",
+"why": "Affaldsstoffer diffunderer til dialysatet, mens overskydende væske ultrafiltreres fra patienten."
+},
+{
+"id": "7:n2",
+"q": "Hvilken forudsætning skal være opfyldt for at kunne gennemføre HD?",
+"a": "Velfungerende adgang til karbanen",
+"w": [
+"Restdiurese over 1 liter",
+"Peritonealkateter"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Adgangen er AV-fistel, karprotese eller dialysekateter. Blodet skal kunne pumpes ud og ind i tilstrækkelig mængde."
+},
+{
+"id": "7:9",
+"q": "Hvad er det mindste blodflow for tilstrækkelig dialysekvalitet hos voksne?",
+"a": "200 ml/min.",
+"w": [
+"50 ml/min.",
+"500 ml/min."
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Under ca. 200 ml/min. bliver dialysen utilstrækkelig. Typisk anvendes dog 300-400 ml/min."
+},
+{
+"id": "7:10",
+"q": "Hvilket blodflow bruges typisk til voksne under HD?",
+"a": "300-400 ml/min.",
+"w": [
+"100-150 ml/min.",
+"600-700 ml/min."
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Højere flow end minimum (200 ml/min.) giver bedre rensning, så de fleste behandles med 300-400 ml/min."
+},
+{
+"id": "7:11",
+"q": "Hvilken farve har koblingerne før filteret (arteriesiden)?",
+"a": "Rød",
+"w": [
+"Blå",
+"Grøn"
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Arteriesiden (før filteret) markeres rød og veneside (efter filteret) blå, selvom blodet ikke længere hentes fra en arterie."
+},
+{
+"id": "7:13",
+"q": "Hvor går skillelinjen mellem arterie- og veneside i kredsløbet?",
+"a": "Ved filteret",
+"w": [
+"Ved blodpumpen",
+"Ved venekammeret"
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Arteriesiden er delen før filteret, venesiden delen efter. Navnene er bevaret, selvom blodet hentes fra en dilateret vene."
+},
+{
+"id": "7:14",
+"q": "Hvordan placeres nålene i en AV-fistelarm?",
+"a": "Venenålen længere proksimalt end arterienålen",
+"w": [
+"Venenålen distalt for arterienålen",
+"Begge nåle lige ved siden af hinanden"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Placeringen forhindrer, at renset og ikke-renset blod blandes (recirkulation)."
+},
+{
+"id": "7:15",
+"q": "Ved en AV-fistel sidder venenålen tæt ved eller distalt for arterienålen. Hvilket problem risikeres?",
+"a": "Recirkulation og nedsat dialyseeffekt",
+"w": [
+"Luftemboli",
+"Hæmolyse"
+],
+"p": 72,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Renset blod suges direkte tilbage i arterienålen, så dialysen bliver mindre effektiv."
+},
+{
+"id": "7:16",
+"q": "Hvilket tryk måler arterietrykmåleren lige før blodpumpen?",
+"a": "Undertryk (negativt)",
+"w": [
+"Overtryk (positivt)",
+"Tryk lig atmosfæretryk"
+],
+"p": 72,
+"lvl": "U",
+"type": "fakta",
+"why": "Blodpumpen suger blod frem og skaber undertryk. Arterietrykket er derfor altid negativt."
+},
+{
+"id": "7:17",
+"q": "Hvornår udløses arterietryksalarmen og blodpumpen standser sædvanligvis?",
+"a": "Ved tryk under ca. -200 mmHg",
+"w": [
+"Ved tryk over +200 mmHg",
+"Ved tryk under -20 mmHg"
+],
+"p": 72,
+"lvl": "K",
+"type": "fakta",
+"why": "Et meget negativt arterietryk viser, at pumpen kan suge for hårdt på adgangen, og blodpumpen standses."
+},
+{
+"id": "7:18",
+"q": "Arterietryksalarmen udløses gentagne gange. Hvad er den hyppigste årsag?",
+"a": "Ansug af nål eller kateter mod karvæggen",
+"w": [
+"Tom koncentratdunk",
+"Luft i venekammeret"
+],
+"p": 73,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kanylen eller kateterspidsen suges mod karvæggen, så blodflowet ikke kan leveres, og undertrykket bliver for stort."
+},
+{
+"id": "7:19",
+"q": "Hvad opfanger venekammeret efter dialysatoren?",
+"a": "Luft",
+"w": [
+"Fibrin",
+"Bakterier"
+],
+"p": 73,
+"lvl": "K",
+"type": "fakta",
+"why": "Venekammeret er udstyret med luftdetektor og beskytter patienten mod luftemboli."
+},
+{
+"id": "7:20",
+"q": "Blodstanden i venekammeret falder under et vist niveau. Hvad sker der?",
+"a": "Alarm, pumpestop og afklemning af veneslangen",
+"w": [
+"Kun en lysalarm, pumpen kører",
+"Dialysatflowet øges"
+],
+"p": 73,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Luftdetektoren standser blodpumpen og afklemmer slangen under venekammeret. Det forhindrer effektivt, at luft når patienten."
+},
+{
+"id": "7:22",
+"q": "Hvilken øvre grænse for venetryk anvendes i praksis?",
+"a": "200-250 mmHg",
+"w": [
+"100 mmHg",
+"400-450 mmHg"
+],
+"p": 74,
+"lvl": "K",
+"type": "fakta",
+"why": "Grænsen sættes primært for at undgå skader på blodlegemer og karadgang. Højt venetryk ses fx ved tynd venenål, stenose eller koagulation."
+},
+{
+"id": "7:24",
+"q": "Venetrykket falder pludseligt til et meget lavt niveau. Hvad mistænkes først?",
+"a": "Venenålen er faldet ud",
+"w": [
+"Filteret er koaguleret",
+"Dunken med koncentrat er tom"
+],
+"p": 74,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lavt venetryk kan betyde, at venenålen er ude. Standser pumpen ikke, mister patienten hurtigt store mængder blod."
+},
+{
+"id": "7:25",
+"q": "Venetrykket stiger gradvist under behandlingen. Hvilken årsag er mulig?",
+"a": "Stenose i karadgangen",
+"w": [
+"Venenålen er faldet ud",
+"Koncentratdunken er tom"
+],
+"p": 74,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højt venetryk ses ved tynd venenål, stenose i karadgangen og begyndende koagulation i slangerne."
+},
+{
+"id": "7:26",
+"q": "Hvornår kan single-needle-dialyse være relevant?",
+"a": "Ved stikvanskeligheder",
+"w": [
+"Ved hyperkaliæmi",
+"Ved lungeødem"
+],
+"p": 74,
+"lvl": "U",
+"type": "fakta",
+"why": "Blodet løber både ud og ind gennem samme nål i to faser. Det sker i særlige tilfælde, fx når to nåle ikke kan placeres."
+},
+{
+"id": "7:27",
+"q": "Hvorfor har slangesæt til single-needle ekspansionskamre?",
+"a": "De rummer ekstra blod i udtræksfasen",
+"w": [
+"De måler dialysattryk",
+"De opvarmer blodet"
+],
+"p": 74,
+"lvl": "U",
+"type": "forståelse",
+"why": "I første fase pumpes blod ud, og blodmængden i slangerne øges. Kamrene giver plads til dette. Blodflowet bliver i gennemsnit under 200 ml/min."
+},
+{
+"id": "7:29",
+"q": "Hvordan er dialysatets elektrolyt- og glukoseindhold i forhold til plasma?",
+"a": "Omtrent som i normalt plasma",
+"w": [
+"Meget højere end i plasma",
+"Meget lavere end i plasma"
+],
+"p": 75,
+"lvl": "U",
+"type": "fakta",
+"why": "Kun mindre afvigelser fra fysiologiske værdier bruges til at korrigere de uræmiske forstyrrelser i patientens biokemi."
+},
+{
+"id": "7:n3",
+"q": "Hvorfor stilles der store krav til renheden af dialysevandet?",
+"a": "Vandets indhold kan diffundere ind i patienten",
+"w": [
+"Vand fjerner heparin fra blodet",
+"Vandet skal være varmt"
+],
+"p": 75,
+"lvl": "K",
+"type": "forståelse",
+"why": "Patienten udsættes for store vandmængder under HD, og stoffer i vandet kan krydse membranen til blodet."
+},
+{
+"id": "7:n4",
+"q": "Hvilket er sidste trin i vandbehandlingen før dialysemaskinen?",
+"a": "Revers osmose",
+"w": [
+"Kulfilter",
+"Ionbytter"
+],
+"p": 76,
+"lvl": "U",
+"type": "fakta",
+"why": "Vandet passerer partikelfiltre, kulfilter og ionbytter, og til sidst revers osmose med en semipermeabel membran."
+},
+{
+"id": "7:37",
+"q": "Hvad fjerner kulfilteret i vandanlægget?",
+"a": "Organiske stoffer, fx kloramin",
+"w": [
+"Calcium og magnesium",
+"Partikler over 1 µm"
+],
+"p": 76,
+"lvl": "U",
+"type": "fakta",
+"why": "Kulfilteret virker ved adsorption og fjerner fx kloramin, som vandværket har tilsat mod bakterier."
+},
+{
+"id": "7:38",
+"q": "Hvad gør ionbytteren i vandanlægget?",
+"a": "Blødgør vandet",
+"w": [
+"Fjerner bakterier",
+"Fjerner organiske stoffer"
+],
+"p": 76,
+"lvl": "U",
+"type": "fakta",
+"why": "Calcium og magnesium udskiftes med natrium. Også aluminium og tungmetaller kan udskiftes."
+},
+{
+"id": "7:39",
+"q": "Hvor mange procent af selv små molekyler og ioner tilbageholder revers osmose?",
+"a": "Mere end 95 %",
+"w": [
+"Omkring 50 %",
+"Omkring 70 %"
+],
+"p": 76,
+"lvl": "U",
+"type": "fakta",
+"why": "RO presser vand gennem en semipermeabel membran med meget lille porestørrelse og er vandanlæggets sidste rensetrin."
+},
+{
+"id": "7:42",
+"q": "Hvad bruges til at afkalke dialysemaskinen efter hver behandling?",
+"a": "Citrat",
+"w": [
+"Eddikesyre",
+"Klor"
+],
+"p": 76,
+"lvl": "U",
+"type": "fakta",
+"why": "Maskinerne varmesteriliseres og afkalkes med citrat efter hver behandling, så de er hygiejnisk sikre til næste patient."
+},
+{
+"id": "7:44",
+"q": "En patient får gentagne blodtryksfald og kramper under HD. Hvilken dialysatændring kan hjælpe?",
+"a": "Højere natriumkoncentration",
+"w": [
+"Lavere natriumkoncentration",
+"Højere dialysattemperatur"
+],
+"p": 76,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Høj dialysat-natrium modvirker blodtryksfald og kramper, men giver tørst efter dialysen."
+},
+{
+"id": "7:45",
+"q": "En patient har stærk tørst efter dialyse, drikker meget og bliver hypertensiv. Hvilken indstilling kan være medvirkende?",
+"a": "For høj dialysat-natrium",
+"w": [
+"For høj dialysattemperatur",
+"For lav bikarbonat"
+],
+"p": 76,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højere natrium giver tørst og øget væskeindtagelse, dermed overhydrering og hypertension. Optimum findes for den enkelte patient."
+},
+{
+"id": "7:46",
+"q": "Hvorfor ser natriumprofil ud til at give færre bivirkninger end konstant natrium?",
+"a": "Gennemsnitlig natriumkoncentration er højere",
+"w": [
+"Natrium fjernes hurtigere",
+"Blodflowet er lavere"
+],
+"p": 77,
+"lvl": "U",
+"type": "forståelse",
+"why": "Den tilsyneladende fordel skyldes en højere gennemsnitlig koncentration, ikke selve profilen. Der er ingen større fordel ved profil."
+},
+{
+"id": "7:47",
+"q": "Hvorfor indeholder dialysatet mindre kalium end normalt plasma?",
+"a": "De fleste dialysepatienter har tendens til hyperkaliæmi",
+"w": [
+"Kalium er giftigt for membranen",
+"Kalium kan ikke tilsættes"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lavt dialysatkalium fjerner kalium fra patienten og modvirker hyperkaliæmi."
+},
+{
+"id": "7:48",
+"q": "Hvilken kaliumkoncentration i dialysat er mest almindelig?",
+"a": "Omkring 2,0 mmol/l",
+"w": [
+"Omkring 0,5 mmol/l",
+"Omkring 5,0 mmol/l"
+],
+"p": 77,
+"lvl": "U",
+"type": "fakta",
+"why": "Lavt kalium i dialysatet kan give let hypokaliæmi ved dialysens slutning, som normaliseres i løbet af få timer."
+},
+{
+"id": "7:49",
+"q": "Hvad kan lavt kalium i dialysat give ved slutningen af dialysen?",
+"a": "Let hypokaliæmi",
+"w": [
+"Hyperkaliæmi",
+"Hypocalcæmi"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Hypokaliæmien normaliseres i løbet af et par timer og har sjældent praktisk betydning."
+},
+{
+"id": "7:n5",
+"q": "Hvornår kan man vælge dialysat med kalium på 3-4 mmol/l?",
+"a": "Ved risiko for arytmier",
+"w": [
+"Ved hyperkaliæmi",
+"Ved hypertension"
+],
+"p": 77,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højere dialysatkalium eller peroralt kaliumtilskud kan mindske risikoen for arytmier fra for lavt kalium."
+},
+{
+"id": "7:50",
+"q": "Hvilken calciumfraktion passerer dialysemembranen?",
+"a": "Kun frit (ioniseret) calcium",
+"w": [
+"Total calcium",
+"Proteinbundet calcium"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Derfor sammenlignes calcium i dialysatet med ioniseret plasma-calcium og ikke med total calcium."
+},
+{
+"id": "7:51",
+"q": "Hvilken calciumkoncentration i dialysatet er standard i dag?",
+"a": "1,25 mmol/l",
+"w": [
+"0,5 mmol/l",
+"2,5 mmol/l"
+],
+"p": 77,
+"lvl": "K",
+"type": "fakta",
+"why": "Standarden skal begrænse patientens calciumbelastning."
+},
+{
+"id": "7:52",
+"q": "En patient har svær hypocalcæmi (ioniseret Ca under 1,05 mmol/l). Hvad kan ændres i dialysatet?",
+"a": "Højere calciumkoncentration",
+"w": [
+"Lavere calciumkoncentration",
+"Calciumfrit dialysat"
+],
+"p": 77,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højere calcium i dialysat bør kun bruges ved svær hypocalcæmi eller midlertidigt efter paratyreoidektomi."
+},
+{
+"id": "7:n6",
+"q": "Hvorfor er højt calcium i dialysatet risikabelt ved svær hyperfosfatæmi?",
+"a": "Calciumfosfat kan udfældes i væv",
+"w": [
+"Det hæmmer heparin",
+"Det giver hypoglykæmi"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højt calcium sammen med højt fosfat øger risikoen for udfældning af calciumfosfat i patientens væv."
+},
+{
+"id": "7:n7",
+"q": "Hvorfor tilføres bikarbonat med dialysatet?",
+"a": "Det modvirker metabolisk acidose",
+"w": [
+"Det hæver kalium",
+"Det sænker natrium"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Bikarbonat overføres fra dialysat til blod og korrigerer den uræmiske acidose."
+},
+{
+"id": "7:54",
+"q": "En patient bliver konfus og får kramper efter dialyse med for meget bikarbonat. Hvilken tilstand er det?",
+"a": "Akut metabolisk alkalose",
+"w": [
+"Metabolisk acidose",
+"Hypoglykæmi"
+],
+"p": 77,
+"lvl": "K",
+"type": "anvendelse",
+"why": "For meget bikarbonat giver akut alkalose med konfusion og kramper og kan hæmme respirationen. Målet er standardbikarbonat ved nedre normalgrænse ved start."
+},
+{
+"id": "7:55",
+"q": "Hvorfor bruger man glukoseholdigt dialysat (5-7 mmol/l)?",
+"a": "Det forebygger hypoglykæmi",
+"w": [
+"Det øger kaliumfjernelsen",
+"Det øger væsketrækket"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Glukose uddialyseres, så glukosefrit dialysat kan give hypoglykæmi. Glukose mindsker også træthed efter dialyse."
+},
+{
+"id": "7:56",
+"q": "Hvad er en ulempe ved glukose i dialysatet?",
+"a": "Mindre kaliumfjernelse",
+"w": [
+"Mere tørst",
+"Mere hypoglykæmi"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Glukosetilførsel skyder kalium ind i cellerne, så der fjernes mindre kalium."
+},
+{
+"id": "7:58",
+"q": "Patienten får langvarig natlig dialyse. Hvad kan blive nødvendigt at give?",
+"a": "Fosfattilskud",
+"w": [
+"Kaliumtilskud",
+"Calciumtilskud"
+],
+"p": 77,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Dialysatet er fosfatfrit, så ved langvarige dialyser fjernes så meget fosfat, at tablet-tilskud kan være nødvendigt."
+},
+{
+"id": "7:59",
+"q": "Hvad kontrollerer dialysemaskinens konduktivitetsmåler?",
+"a": "Dialysatets sammensætning",
+"w": [
+"Dialysatets temperatur",
+"Blodets hæmoglobin"
+],
+"p": 77,
+"lvl": "K",
+"type": "forståelse",
+"why": "Konduktivitet er opløsningens evne til at lede strøm. Ved overskridelse afbrydes dialysatflowet, ellers risikeres elektrolytforstyrrelser og hæmolyse."
+},
+{
+"id": "7:60",
+"q": "Konduktivitetsalarmen lyder under dialysen. Hvad er en hyppig årsag?",
+"a": "Koncentratdunken er tom",
+"w": [
+"Venenålen sidder løst",
+"Filteret er koaguleret"
+],
+"p": 77,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysatets ledeevne måles, og overskrides sikkerhedsgrænserne, afbrydes dialysatflowet. En hyppig årsag er, at koncentratdunken er tom."
+},
+{
+"id": "7:63",
+"q": "Hvad betyder autoflow på moderne dialysemaskiner?",
+"a": "Dialysatflowet tilpasses blodflowet",
+"w": [
+"Filteret skiftes automatisk",
+"Heparin doseres automatisk"
+],
+"p": 77,
+"lvl": "U",
+"type": "fakta",
+"why": "Maskinen optimerer dialysatflowet ift. det effektive blodflow, så vandforbruget reduceres."
+},
+{
+"id": "7:65",
+"q": "Hvorfor kan bikarbonat og calcium ikke blandes i koncentreret tilstand?",
+"a": "De ville udfælde som calciumkarbonat (kridt)",
+"w": [
+"Bikarbonat nedbrydes af varme",
+"Calcium binder natrium"
+],
+"p": 78,
+"lvl": "K",
+"type": "forståelse",
+"why": "Derfor opbevares bikarbonat for sig i pulver og opløses først af maskinen."
+},
+{
+"id": "7:67",
+"q": "Hvad opnås ved at blande dialysat af mindst to komponenter?",
+"a": "Natrium og bikarbonat kan justeres hver for sig",
+"w": [
+"Calcium kan ikke varieres",
+"Temperaturen er fast"
+],
+"p": 78,
+"lvl": "U",
+"type": "forståelse",
+"why": "Bikarbonat blandes separat i fortyndet tilstand med resten af dialysatet."
+},
+{
+"id": "7:68",
+"q": "Hvad er standard dialysattemperatur i dag?",
+"a": "36,5 °C",
+"w": [
+"34 °C",
+"38 °C"
+],
+"p": 78,
+"lvl": "K",
+"type": "fakta",
+"why": "Enkelte patienter kan have fordel af lavere temperatur, men der er ikke vist fordele ved at sænke temperaturen hos alle."
+},
+{
+"id": "7:69",
+"q": "Hvorfor behandles nogle patienter med køligere dialysat?",
+"a": "Det øger den hæmodynamiske stabilitet",
+"w": [
+"Det øger clearance af kalium",
+"Det mindsker tørst"
+],
+"p": 78,
+"lvl": "K",
+"type": "forståelse",
+"why": "Afkøling giver vasokonstriktion, der modvirker blodtryksfald."
+},
+{
+"id": "7:70",
+"q": "Hvad skal blodlækagedetektoren forhindre?",
+"a": "Ubemærket blodtab gennem et utæt filter",
+"w": [
+"Luftemboli",
+"Koagulation i filteret"
+],
+"p": 78,
+"lvl": "K",
+"type": "forståelse",
+"why": "Detektoren reagerer på hæmoglobin, selv når blod ikke kan ses med det blotte øje. Et utæt filter kan ellers give fatalt blodtab."
+},
+{
+"id": "7:72",
+"q": "Hvor meget kan man som tommelfingerregel ultrafiltrere pr. times HD?",
+"a": "Én liter",
+"w": [
+"200 ml",
+"3 liter"
+],
+"p": 78,
+"lvl": "K",
+"type": "fakta",
+"why": "Ultrafiltration er fjernelse af vand fra patienten under dialysen; som tommelfingerregel kan der ultrafiltreres én liter pr. times HD."
+},
+{
+"id": "7:73",
+"q": "Hvorfor opstår der overtryk på blodsiden af dialysemembranen?",
+"a": "Blodpumpen står før filteret",
+"w": [
+"Dialysatpumpen skubber blod ind",
+"Filteret er koaguleret"
+],
+"p": 78,
+"lvl": "U",
+"type": "forståelse",
+"why": "Overtrykket giver ultrafiltration gennem membranen. Undertryk på dialysatsiden øger trykforskellen og ultrafiltrationen yderligere."
+},
+{
+"id": "7:74",
+"q": "Hvad kaldes den samlede trykforskel mellem blod og dialysat?",
+"a": "Transmembrant tryk (TMP)",
+"w": [
+"Venetryk",
+"Kolloidosmotisk tryk"
+],
+"p": 78,
+"lvl": "K",
+"type": "fakta",
+"why": "TMP bruges til at regulere ultrafiltrationen. Nogle maskiner styrer UF via TMP, andre direkte med pumper."
+},
+{
+"id": "7:75",
+"q": "Hvad bør TMP højst være cirka?",
+"a": "400 mmHg",
+"w": [
+"100 mmHg",
+"1.000 mmHg"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "Filtrene er kun testet til et TMP på 500-600 mmHg, så 400 mmHg giver sikkerhedsmargin."
+},
+{
+"id": "7:77",
+"q": "TMP stiger gradvist under behandlingen. Hvad kan det tyde på?",
+"a": "Begyndende koagulation i systemet",
+"w": [
+"Venenålen er faldet ud",
+"Tom koncentratdunk"
+],
+"p": 79,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Koagler i filteret øger modstanden, så trykforskellen over membranen stiger."
+},
+{
+"id": "7:78",
+"q": "Hvad menes med tørdialyse?",
+"a": "Isoleret ultrafiltration",
+"w": [
+"Dialyse uden blodpumpe",
+"Dialyse med glukosefrit dialysat"
+],
+"p": 79,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialysatflowet er afbrudt, så der kun fjernes væske. Almindelig HD eller HDF udføres efterfølgende."
+},
+{
+"id": "7:79",
+"q": "Hvorfor giver tørdialyse færre bivirkninger ved væsketræk?",
+"a": "Plasmaosmolaliteten ændres ikke",
+"w": [
+"Blodet køles kraftigt",
+"Der gives ekstra natrium"
+],
+"p": 79,
+"lvl": "U",
+"type": "forståelse",
+"why": "Når dialysatflowet er afbrudt, undgås ændringer i plasmaosmolalitet og karbamidkoncentration."
+},
+{
+"id": "7:80",
+"q": "En patient har lavtrykslungeødem og skal hurtigt af med væske. Hvilken behandling er særlig egnet?",
+"a": "Tørdialyse",
+"w": [
+"Højere dialysat-natrium",
+"Køligere dialysat"
+],
+"p": 79,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hurtig elimination af overskydende væske er vigtigst. Der kan trækkes 1-1,5 liter i timen uden større risiko."
+},
+{
+"id": "7:82",
+"q": "Hvad er klassisk hæmofiltration (HF)?",
+"a": "Ren ultrafiltration med erstatningsvæske",
+"w": [
+"Ren diffusion mod dialysat",
+"Dialyse uden blodpumpe"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "Der trækkes store væskemængder, som erstattes intravenøst. Konvektionen fjerner også større molekyler."
+},
+{
+"id": "7:84",
+"q": "Hvor infunderes erstatningsvæsken ved prædilution?",
+"a": "Før filteret",
+"w": [
+"Efter filteret",
+"I bughulen"
+],
+"p": 79,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved postdilution infunderes erstatningsvæsken efter filteret."
+},
+{
+"id": "7:85",
+"q": "Hvorfor giver prædilution dårligere rensning end postdilution ved samme filtrerede mængde?",
+"a": "Blodet fortyndes, før det når filteret",
+"w": [
+"Erstatningsvæsken er kold",
+"Blodflowet er lavere"
+],
+"p": 79,
+"lvl": "K",
+"type": "forståelse",
+"why": "Blodet og dets indhold fortyndes før filteret, så koncentrationsgradienten og rensningen bliver mindre."
+},
+{
+"id": "7:86",
+"q": "Hvad begrænser ultrafiltrationen ved postdilution?",
+"a": "Risiko for at blodet koagulerer",
+"w": [
+"Risiko for luftemboli",
+"Risiko for hæmolyse"
+],
+"p": 79,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved prædilution er der ikke samme problem, så UF kan øges, så længe infusionen følger med."
+},
+{
+"id": "7:89",
+"q": "Hvilket større molekyle fjernes bedre ved HDF end ved HD?",
+"a": "Beta-2-mikroglobulin",
+"w": [
+"Karbamid",
+"Kalium"
+],
+"p": 80,
+"lvl": "U",
+"type": "fakta",
+"why": "Konvektionen ved HDF øger fjernelsen af større molekyler."
+},
+{
+"id": "7:90",
+"q": "Hvilken fordel har HDF vist i randomiserede undersøgelser under selve dialysen?",
+"a": "Bedre hæmodynamisk stabilitet",
+"w": [
+"Højere blodtryk",
+"Mindre væsketræk"
+],
+"p": 80,
+"lvl": "U",
+"type": "fakta",
+"why": "Forklaringen kan være, at HDF afkøler patienten mere eller tilfører mere natrium. Begge dele modvirker blodtryksfald."
+},
+{
+"id": "7:92",
+"q": "En patient har forhøjet p-fosfat og mistænkes for beta-2-mikroglobulin-amyloidose. Hvilken variant kan ordineres?",
+"a": "HDF",
+"w": [
+"Tørdialyse",
+"Single-needle-dialyse"
+],
+"p": 80,
+"lvl": "K",
+"type": "anvendelse",
+"why": "HDF fjerner større molekyler bedre. Den kan også ordineres ved kardiovaskulær instabilitet, og prædilution-HDF kan hjælpe antikoagulationen."
+},
+{
+"id": "7:96",
+"q": "Hvorfor er antikoagulation nødvendig under HD?",
+"a": "Membraner aktiverer koagulationssystemet",
+"w": [
+"Blodet fortyndes i kredsløbet",
+"Dialysatet tilfører fibrin"
+],
+"p": 81,
+"lvl": "K",
+"type": "forståelse",
+"why": "Alle dialysemembraner aktiverer koagulationssystem og trombocytter i større eller mindre grad, så trombedannelse i kredsløbet skal modvirkes."
+},
+{
+"id": "7:97",
+"q": "Hvornår når komplementaktiveringen maksimum under dialysen?",
+"a": "Cirka 15 min. efter start",
+"w": [
+"Efter 2 timer",
+"Ved dialysens slutning"
+],
+"p": 81,
+"lvl": "U",
+"type": "fakta",
+"why": "Reaktionen normaliseres mod slutningen af dialysen. Med moderne filtre er akutte symptomer ekstremt sjældne."
+},
+{
+"id": "7:98",
+"q": "Hvilken forbigående forandring kan komplementaktivering give?",
+"a": "Leukopeni",
+"w": [
+"Anæmi",
+"Trombocytose"
+],
+"p": 81,
+"lvl": "U",
+"type": "fakta",
+"why": "Komplementaktivering frisætter cytokiner og degranulerer leukocytter. Leukocytter kan sekvestreres i lungerne, nogle gange med hypoksi."
+},
+{
+"id": "7:103",
+"q": "Hvilken membrantype bruges i Danmark i dag?",
+"a": "Syntetiske, biokompatible",
+"w": [
+"Cuprophan",
+"Celluloseacetat"
+],
+"p": 81,
+"lvl": "K",
+"type": "fakta",
+"why": "Syntetiske plastikmembraner har helt overtaget markedet pga. bedre biokompatibilitet."
+},
+{
+"id": "7:104",
+"q": "Hvorfor aktiverer cellulosemembraner komplement?",
+"a": "Frie hydroxylgrupper på overfladen",
+"w": [
+"Membranen er for tyk",
+"Membranen binder proteiner"
+],
+"p": 81,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hydroxylgrupperne aktiverer komplement ved blodkontakt. Problemet er stort set løst med hydrofobe syntetiske membraner."
+},
+{
+"id": "7:n8",
+"q": "Hvad angiver ultrafiltrationskoefficienten (Kuf)?",
+"a": "Hvor mange ml vand der filtreres pr. time pr. mmHg",
+"w": [
+"Hvor meget blod filteret rummer",
+"Hvor mange mmol karbamid der fjernes"
+],
+"p": 82,
+"lvl": "U",
+"type": "fakta",
+"why": "Kuf angiver ml vand filtreret pr. time pr. mmHg trykforskel over membranen. Moderne high-flux-filtre har Kuf omkring 30-75 ml/time/mmHg."
+},
+{
+"id": "7:108",
+"q": "Hvorfor kræver high-flux-filtre pyrogenfrit dialysevand?",
+"a": "Større molekyler kan gå fra dialysat til blod",
+"w": [
+"Filtrene er ikke sterile",
+"Membranen er tyndere"
+],
+"p": 82,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den høje Kuf giver også tilbagetransport af større molekyler fra dialysat til blod, så forureninger skal være fraværende."
+},
+{
+"id": "7:109",
+"q": "Hvad angiver et filters priming-volumen?",
+"a": "Hvor meget af patientens blod filteret rummer",
+"w": [
+"Hvor meget dialysat der bruges",
+"Hvor meget heparin der gives"
+],
+"p": 82,
+"lvl": "U",
+"type": "fakta",
+"why": "Sammen med slangesættet er der ca. 300 ml blod ekstrakorporalt under dialyse af voksne."
+},
+{
+"id": "7:115",
+"q": "Hvad er en ulempe ved at give alle patienter stort filter?",
+"a": "Mere komplementaktivering og heparinforbrug",
+"w": [
+"Lavere clearance",
+"Lavere blodflow"
+],
+"p": 82,
+"lvl": "U",
+"type": "forståelse",
+"why": "Clearance af karbamid stiger kun få procent ved skift til et større filter, mens bivirkningerne øges."
+},
+{
+"id": "7:116",
+"q": "Hvilket filter vælges til et barn eller til de allerførste dialyser hos en voksen?",
+"a": "Lille filter (højst 1 m²)",
+"w": [
+"Stort filter (1,6 m² eller mere)",
+"Cellulosefilter"
+],
+"p": 83,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Skånsom start kræver lille filter. Normalt filter (1,2-1,4 m²) er standard."
+},
+{
+"id": "7:117",
+"q": "Hvornår er et stort filter (1,6 m² eller mere) relevant?",
+"a": "Ved blodflow på mindst 300 ml/min. eller HDF",
+"w": [
+"Ved første dialyse",
+"Til børn"
+],
+"p": 83,
+"lvl": "U",
+"type": "fakta",
+"why": "Stort filter giver kun lidt mere clearance af små molekyler og er derfor ikke standard."
+},
+{
+"id": "7:118",
+"q": "Hvad forstås ved tørvægt?",
+"a": "Vægt uden væskeoverskud (normohydreret)",
+"w": [
+"Vægt uden tøj",
+"Vægt efter et måltid"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Tørvægten er den vægt, hvor patienten hverken er overhydreret eller dehydreret."
+},
+{
+"id": "7:119",
+"q": "Hvordan skønnes tørvægten i praksis?",
+"a": "Ud fra anamnese og klinisk undersøgelse",
+"w": [
+"Ved en enkelt blodprøve",
+"Ved EKG"
+],
+"p": 83,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er ingen nem metode. Biokemi og ultralyd har ikke vundet indpas, og blodvolumenmonitorering kan hjælpe."
+},
+{
+"id": "7:120",
+"q": "Efter dialysen har en patient hypertension, perifere ødemer og halsvenestase. Hvad taler det for?",
+"a": "At tørvægten skal sænkes",
+"w": [
+"At tørvægten skal hæves",
+"At dialysetiden skal halveres"
+],
+"p": 83,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tegn på væskeoverskud taler for lavere tørvægt. Det samme gør natlig dyspnø, lungestase og flad blodvolumenkurve."
+},
+{
+"id": "7:121",
+"q": "En patient har lægkramper, ortostatisk svimmelhed og blodtryksfald under dialyse. Hvad taler det for?",
+"a": "At tørvægten skal hæves",
+"w": [
+"At tørvægten skal sænkes",
+"At ultrafiltrationen skal øges"
+],
+"p": 83,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tegn på dehydrering taler for højere tørvægt, og det gør også en stejl blodvolumenkurve."
+},
+{
+"id": "7:122",
+"q": "Blodvolumenkurven forbliver flad under væsketræk. Hvad tyder det på?",
+"a": "Fortsat væskeoverskud",
+"w": [
+"Dehydrering",
+"Koaguleret filter"
+],
+"p": 83,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Forudsat væsentlig ultrafiltration taler en flad kurve for, at plasma genopfyldes fra overskud i vævet."
+},
+{
+"id": "7:123",
+"q": "Blodvolumenkurven falder stejlt under væsketræk. Hvad tyder det på?",
+"a": "At patienten trækkes under tørvægten",
+"w": [
+"At patienten er overhydreret",
+"At filteret er stort"
+],
+"p": 83,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Stejlt fald viser, at ultrafiltrationen overstiger genopfyldning. Kan også skyldes dårlig perifer cirkulation med langsom mobilisering af ødemer."
+},
+{
+"id": "7:124",
+"q": "En overhydreret patient får blodtryksfald ved store UF-volumina. Hvad er løsningen?",
+"a": "Ekstra dialysesessioner",
+"w": [
+"Hæve tørvægten",
+"Sænke dialysat-natrium"
+],
+"p": 84,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tørvægten skal ikke øges, når der reelt er overskud. Man fjerner overskuddet med ekstra sessioner, midlertidigt eller permanent."
+},
+{
+"id": "7:125",
+"q": "Hvad menes med natriumprofilering?",
+"a": "Dialysatets natrium sænkes gradvist under behandlingen",
+"w": [
+"Dialysattemperaturen stiger gradvist",
+"Blodflowet øges gradvist"
+],
+"p": 84,
+"lvl": "U",
+"type": "fakta",
+"why": "Man starter med højt natrium. UF kan profileres tilsvarende, så mere trækkes i starten."
+},
+{
+"id": "7:126",
+"q": "Hvorfor kan højt natrium i starten af dialysen gavne væsketrækket?",
+"a": "Højere osmolalitet henter væske til blodbanen",
+"w": [
+"Det øger blodflowet",
+"Det sænker kalium"
+],
+"p": 84,
+"lvl": "U",
+"type": "forståelse",
+"why": "Plasmaosmolaliteten stiger og mobiliserer i teorien mere væske fra vævet, så UF kan ske uden hypovolæmi. Effekten er dog beskeden."
+},
+{
+"id": "7:127",
+"q": "Hvilket stof får de fleste patienter som antikoagulation under HD?",
+"a": "Heparin",
+"w": [
+"Warfarin",
+"Acetylsalicylsyre"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Der bruges enten ufraktioneret eller lavmolekylært heparin. Lokale rutiner kan afvige."
+},
+{
+"id": "7:128",
+"q": "Hvor meget ufraktioneret heparin gives typisk ved start af akut dialyse?",
+"a": "1.000 IE",
+"w": [
+"100 IE",
+"10.000 IE"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Dosis kan suppleres med ca. 500 IE/time. Ufraktioneret heparin bruges oftest ved første dialyser, især ved akut nyreinsufficiens."
+},
+{
+"id": "7:129",
+"q": "Hvilken heparintype bruges oftest ved stabil kronisk HD?",
+"a": "Lavmolekylært heparin",
+"w": [
+"Ufraktioneret heparin",
+"Warfarin"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "I Danmark oftest dalteparin eller tinzaparin. Ved skift fra ufraktioneret gives i udgangspunkt 50 % af dosis som bolus."
+},
+{
+"id": "7:133",
+"q": "Hvad måles for at vurdere effekten af lavmolekylært heparin?",
+"a": "Anti-Faktor Xa",
+"w": [
+"INR",
+"D-dimer"
+],
+"p": 84,
+"lvl": "U",
+"type": "fakta",
+"why": "Effekten af lavmolekylært heparin kan måles ved bestemmelse af anti-Faktor Xa, men i praksis justeres dosis ud fra kliniske observationer (koagulation eller blødning)."
+},
+{
+"id": "7:134",
+"q": "Hvilket lægemiddel er antidot ved heparinoverdosering?",
+"a": "Protaminsulfat",
+"w": [
+"Vitamin K",
+"Tranexamsyre"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Protamin virker mindre effektivt ved overdosering af lavmolekylært end af ufraktioneret heparin."
+},
+{
+"id": "7:135",
+"q": "En HD-patient har aktivt mavesår. Hvad gør man ved antikoagulationen?",
+"a": "Reducerer eller undlader den",
+"w": [
+"Fordobler heparindosis",
+"Ændrer intet"
+],
+"p": 84,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Blødningsrisiko ses fx ved kirurgi, ulcus og koagulationsforstyrrelser. Antikoagulationen ændres, selvom filteret lejlighedsvis koagulerer."
+},
+{
+"id": "7:136",
+"q": "Hvordan doseres lavdosis heparin ved let blødningsrisiko?",
+"a": "Halvdelen af den sædvanlige dosis",
+"w": [
+"Dobbelt sædvanlig dosis",
+"Ingen heparin"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "Bruges fx efter nylig mindre kirurgi. Protaminsulfat kan evt. gives ved dialysens afslutning."
+},
+{
+"id": "7:137",
+"q": "En patient har stor blødningsrisiko. Hvilken HD-form foretrækkes ofte?",
+"a": "Prædilution-HDF uden heparin",
+"w": [
+"HD med dobbelt heparin",
+"Tørdialyse med heparin"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Prædilution-HDF kræver færrest ressourcer af sygeplejersken ved dialyse uden antikoagulation."
+},
+{
+"id": "7:138",
+"q": "Hvordan mindsker man koagulation ved almindelig HD uden antikoagulation?",
+"a": "Skyller filteret med saltvand hver 15.-30. min.",
+"w": [
+"Bruger stort filter og lavt flow",
+"Øger TMP"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Skylning med 200-250 ml saltvand mindsker hæmokoncentrering og fjerner fibrintråde. Lille/medium filter og højt blodflow hjælper også."
+},
+{
+"id": "7:139",
+"q": "Hvad er HIT type 2?",
+"a": "Heparin-induceret trombocytopeni",
+"w": [
+"Hæmolytisk intravaskulær trombose",
+"Hypertensiv intravaskulær tromboemboli"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienten tåler ikke heparin og skal have alternativ antikoagulation, hvis der er behov."
+},
+{
+"id": "7:140",
+"q": "En patient med HIT type 2 skal dialyseres. Hvilket alternativ til heparin kan bruges?",
+"a": "Citratholdigt dialysat",
+"w": [
+"Lavmolekylært heparin",
+"Protaminsulfat"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Andre muligheder er regional citratantikoagulation, epoprostenol, fondaparinux og argatroban."
+},
+{
+"id": "7:141",
+"q": "Hvordan virker citrat som antikoagulans?",
+"a": "Binder calcium og hæmmer koagulationskaskaden",
+"w": [
+"Neutraliserer heparin",
+"Hæmmer trombocytter direkte"
+],
+"p": 85,
+"lvl": "K",
+"type": "forståelse",
+"why": "Citrat (fx i dialysat) binder calcium og påvirker dermed koagulationskaskaden; citrat er mange steder standard ved kontinuerlig dialyse (s. 85)."
+},
+{
+"id": "7:142",
+"q": "Hvad skal måles hyppigt ved citratholdigt dialysat?",
+"a": "P-calcium og p-magnesium",
+"w": [
+"P-natrium og p-kalium",
+"P-glukose"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Citrat binder calcium, så det er nødvendigt at kontrollere calcium og magnesium."
+},
+{
+"id": "7:143",
+"q": "Hvor gives calciumklorid ved regional citratantikoagulation?",
+"a": "På venesiden efter filteret",
+"w": [
+"På arteriesiden før filteret",
+"I dialysatet"
+],
+"p": 85,
+"lvl": "U",
+"type": "fakta",
+"why": "Citrat gives på arteriesiden, og calciumklorid på venesiden ophæver effekten, inden blodet når patienten."
+},
+{
+"id": "7:144",
+"q": "Hvad er den vigtigste bivirkning ved epoprostenol?",
+"a": "Hypotension",
+"w": [
+"Blødning",
+"Hyperkaliæmi"
+],
+"p": 85,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved regional antikoagulation med epoprostenol (Flolan) er hypotension den vigtigste bivirkning. Stoffet er let at styre grundet kort halveringstid."
+},
+{
+"id": "7:147",
+"q": "Hvor mange IE ufraktioneret heparin neutraliserer 1 mg protaminsulfat?",
+"a": "140 IE",
+"w": [
+"14 IE",
+"1.400 IE"
+],
+"p": 85,
+"lvl": "D",
+"type": "fakta",
+"why": "Protamin neutraliserer ca. 80 % af effekten af lavmolekylært heparin, og effekten kan ikke øges med mere protamin."
+},
+{
+"id": "7:150",
+"q": "Filteret er stribet af koagler efter dialysen. Hvad tyder det på?",
+"a": "For lidt antikoagulation",
+"w": [
+"For meget antikoagulation",
+"Luft i systemet"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Gentagne koagler i filteret viser underdosering."
+},
+{
+"id": "7:151",
+"q": "Fistlen kræver lang kompressionstid efter dialysen, og filteret er hvidt. Hvad tyder det på?",
+"a": "For meget antikoagulation",
+"w": [
+"For lidt antikoagulation",
+"Hæmolyse"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lang tid til hæmostase og hvidt filter tyder på overdosering."
+},
+{
+"id": "7:152",
+"q": "Hvordan ordineres typisk en patients allerførste dialyse?",
+"a": "Lille filter, lavt blodflow og kort tid",
+"w": [
+"Stort filter, højt flow og 6 timer",
+"Normalt filter og 4 timer"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fx ca. 1 m² filter, 150 ml/min. og 2 timer. Ultrafiltration undlades, medmindre patienten har symptomgivende overhydrering."
+},
+{
+"id": "7:n9",
+"q": "Hvorfor starter man HD forsigtigt hos nye patienter?",
+"a": "For at undgå bivirkninger og skræk for behandlingen",
+"w": [
+"For at spare på filtre",
+"For at undgå heparin"
+],
+"p": 86,
+"lvl": "U",
+"type": "forståelse",
+"why": "Bivirkninger under de første behandlinger giver negativt indtryk af HD og kan føre til dårlig compliance."
+},
+{
+"id": "7:153",
+"q": "En ny patient har p-karbamid på 60 mmol/l. Hvilken komplikation forebygger en skånsom første dialyse?",
+"a": "Dysækvilibriumsyndrom",
+"w": [
+"Luftemboli",
+"Hæmolyse"
+],
+"p": 85,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved p-karbamid over 50 mmol/l kan for hurtigt fald i karbamid give hjerneødem. Derfor små filtre, lavt flow og kort tid."
+},
+{
+"id": "7:155",
+"q": "Hvor længe og hvor ofte dialyseres de fleste voksne?",
+"a": "4 timer, 3 gange ugentligt",
+"w": [
+"2 timer, 2 gange ugentligt",
+"6 timer, dagligt"
+],
+"p": 86,
+"lvl": "K",
+"type": "fakta",
+"why": "Langt de fleste voksne dialyseres fire timer, tre gange ugentligt. Flere og længere sessioner er sandsynligvis bedre og leder ofte til hjemme-HD."
+},
+{
+"id": "7:156",
+"q": "Hvilken Kt/V bør opnås ved hver dialyse?",
+"a": "Over 1,2",
+"w": [
+"Over 0,5",
+"Over 3,0"
+],
+"p": 86,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialyseeffektiviteten måles med Kt/V eller URR. URR bør være over 65 % ved hver dialyse."
+},
+{
+"id": "7:157",
+"q": "Hvad er incremental dialysis?",
+"a": "Opstart med få ugentlige behandlinger, der øges trinvis",
+"w": [
+"Opstart med daglig dialyse, der aftrappes",
+"Ekstra UF i starten af hver behandling"
+],
+"p": 86,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis restnyrefunktionen tillader det, kan man starte med fx 3-4 timer to gange ugentligt og øge dosis, når restfunktionen aftager."
+},
+{
+"id": "7:n10",
+"q": "Hvad vurderes af sygeplejersken ved hver dialyse?",
+"a": "Vægt, blodtryk og almentilstand",
+"w": [
+"Røntgen af thorax og EKG",
+"Hepatitis- og HIV-status"
+],
+"p": 86,
+"lvl": "U",
+"type": "fakta",
+"why": "Laboratoriekontrol sker sjældnere, fx hver 1.-3. måned med hæmatologi, elektrolytter og calcium-fosfat-balance."
+},
+{
+"id": "7:159",
+"q": "Hvad kontrolleres regelmæssigt hos HD-patienter på transplantationslisten?",
+"a": "Virusstatus og HLA-antistoffer",
+"w": [
+"Kt/V og URR",
+"Tørvægt og blodtryk"
+],
+"p": 86,
+"lvl": "U",
+"type": "fakta",
+"why": "Patienter på transplantationslisten kontrolleres regelmæssigt med virusstatus og HLA-antistoffer."
+},
+{
+"id": "7:170",
+"q": "Hvad er den hyppigste akutte komplikation under HD?",
+"a": "Blodtryksfald",
+"w": [
+"Muskelkramper",
+"Hovedpine"
+],
+"p": 86,
+"lvl": "K",
+"type": "fakta",
+"why": "Blodtryksfald opstår ved utilstrækkeligt blodvolumen. Derefter følger kramper, kvalme/opkastning og hovedpine."
+},
+{
+"id": "7:165",
+"q": "Under første dialyse får en patient stigende blodtryk, faldende puls og hovedpine. Hvad mistænkes?",
+"a": "Dysækvilibriumsyndrom",
+"w": [
+"Luftemboli",
+"Hypoglykæmi"
+],
+"p": 86,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Syndromet skyldes hjerneødem og kan udvikle sig til konfusion, kramper og koma."
+},
+{
+"id": "7:166",
+"q": "Hvad udløser dysækvilibriumsyndrom?",
+"a": "For hurtigt fald i p-karbamid",
+"w": [
+"For hurtig væskefjernelse",
+"For højt dialysat-natrium"
+],
+"p": 86,
+"lvl": "K",
+"type": "forståelse",
+"why": "En høj osmotisk gradient mellem blod og hjernevæv giver hjerneødem. Syndromet opstår typisk, fordi et meget højt p-karbamid sænkes for hurtigt."
+},
+{
+"id": "7:167",
+"q": "Hvornår er risikoen for dysækvilibriumsyndrom størst?",
+"a": "Ved første dialyse og efter udeblivelser",
+"w": [
+"Ved lavt p-karbamid",
+"Sidst i hver dialyse"
+],
+"p": 86,
+"lvl": "K",
+"type": "anvendelse",
+"why": "I disse situationer er p-karbamid særlig højt."
+},
+{
+"id": "7:168",
+"q": "Hvor meget bør p-karbamid over 50 mmol/l højst sænkes ved risiko for dysækvilibrium?",
+"a": "30 %",
+"w": [
+"10 %",
+"60 %"
+],
+"p": 86,
+"lvl": "K",
+"type": "fakta",
+"why": "Det opnås med 2 timers dialyse, lille filter (ca. 1 m²) og blodflow 150 ml/min."
+},
+{
+"id": "7:169",
+"q": "En patient får symptomer på dysækvilibrium under dialysen. Hvad gives?",
+"a": "Hurtig infusion af hyperton NaCl",
+"w": [
+"Ekstra ultrafiltration",
+"Heparin"
+],
+"p": 86,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hyperton natriumklorid, 50 % glukose eller mannitol hæver osmolaliteten i blodet. Kramper og koma behandles på vanlig vis."
+},
+{
+"id": "7:171",
+"q": "En patient får symptomgivende blodtryksfald under ultrafiltration. Hvad gør man først?",
+"a": "Trendelenburg-lejring og pausér UF",
+"w": [
+"Øger ultrafiltrationen",
+"Hæver dialysattemperaturen"
+],
+"p": 86,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man kan også reducere blodflow, give erstatningsvæske, NaCl eller albumin og i værste fald afbryde dialysen."
+},
+{
+"id": "7:174",
+"q": "Hvilken dialysattemperatur kan mindske tendens til blodtryksfald?",
+"a": "35-36 °C",
+"w": [
+"37-38 °C",
+"32-33 °C"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Let afkøling giver vasokonstriktion."
+},
+{
+"id": "7:175",
+"q": "Hvorfor modvirker køligere dialysat blodtryksfald?",
+"a": "Det giver vasokonstriktion",
+"w": [
+"Det hæver natrium",
+"Det øger blodvolumen"
+],
+"p": 87,
+"lvl": "K",
+"type": "forståelse",
+"why": "Karsammentrækning stabiliserer blodtrykket. Koldt dialysat øger til gengæld hyppigheden af muskelkramper."
+},
+{
+"id": "7:176",
+"q": "Hvor meget bør relativt blodvolumen (RBV) højst mindskes pr. time?",
+"a": "5 %",
+"w": [
+"1 %",
+"20 %"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Blodvolumenmonitorering kan forebygge blodtryksfald ved tidlig registrering af for kraftig ultrafiltration."
+},
+{
+"id": "7:n11",
+"q": "Hvad kan blodvolumenmonitorering forebygge?",
+"a": "Blodtryksfald ved for kraftig UF",
+"w": [
+"Koagulation i filteret",
+"Luftemboli"
+],
+"p": 87,
+"lvl": "K",
+"type": "forståelse",
+"why": "Monitoren viser et hurtigt fald i relativt blodvolumen, så UF kan nedsættes tidligt."
+},
+{
+"id": "7:177",
+"q": "Hvorfor kan blodtrykket stige under dialysen?",
+"a": "Starling-effekten afslører overhydrering",
+"w": [
+"Heparin hæver hjertets slagvolumen",
+"Natrium trækkes ud af blodet"
+],
+"p": 87,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ultrafiltration bedrer myokardiets kontraktionsevne og demaskerer intravaskulær overhydrering. Uddialysering af antihypertensiva, hypernatriæmi og koldt dialysat kan bidrage."
+},
+{
+"id": "7:178",
+"q": "Hvad er den hyppigste dødsårsag hos kroniske dialysepatienter?",
+"a": "Pludselig hjertedød",
+"w": [
+"Infektion",
+"Cancer"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Hjertesygdom er hyppig hos dialysepatienter, og pludselig hjertedød er langt hyppigere end i baggrundsbefolkningen."
+},
+{
+"id": "7:179",
+"q": "Hvilket forhold ved dialysatet kan give blodtryksfald?",
+"a": "For varmt dialysat",
+"w": [
+"For koldt dialysat",
+"For højt natrium"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Varmt dialysat giver utilstrækkelig vasokonstriktion. Også for kraftig UF, for lav tørvægt og for lavt dialysat-natrium kan give blodtryksfald."
+},
+{
+"id": "7:n12",
+"q": "En patient får blodtryksfald, kort efter at hun har spist et stort måltid under dialysen. Hvorfor?",
+"a": "Splanknisk vasodilatation",
+"w": [
+"Hyperkaliæmi",
+"Luft i kredsløbet"
+],
+"p": 87,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fødeindtagelse giver karudvidelse i tarmområdet og kan udløse hypotension under dialyse."
+},
+{
+"id": "7:n13",
+"q": "En patient med diabetes får gentagne blodtryksfald under dialysen. Hvilken årsag er mulig?",
+"a": "Autonom neuropati",
+"w": [
+"For højt dialysat-natrium",
+"For lav dialysattemperatur"
+],
+"p": 87,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Autonom neuropati nedsætter vasokonstriktionen og er en almindelig årsag til blodtryksfald under HD."
+},
+{
+"id": "7:n14",
+"q": "En patient får tit blodtryksfald under dialysen. Hvornår kan antihypertensiva tages for at mindske risikoen?",
+"a": "Efter dialysen",
+"w": [
+"Før dialysen",
+"Under dialysen"
+],
+"p": 87,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Antihypertensiv medicin kan doseres, så indtagelse sker efter dialysen. Al hjertekarmedicin bør gennemgås kritisk."
+},
+{
+"id": "7:180",
+"q": "Hvilken sjælden årsag til blodtryksfald under HD bør overvejes, hvis hypotension kommer pludseligt og ikke har andre forklaringer?",
+"a": "Perikardietamponade",
+"w": [
+"Hyperfosfatæmi",
+"Hypertension"
+],
+"p": 87,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Sjældne årsager er okkult blødning, myokardieinfarkt, perikardietamponade, arytmi, sepsis, luftemboli og hæmolyse."
+},
+{
+"id": "7:181",
+"q": "En patient får svær arytmi eller tegn på iskæmi under HD. Hvad gør man med dialysen?",
+"a": "Standser den",
+"w": [
+"Øger ultrafiltrationen",
+"Øger blodflowet"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Angina behandles efter vanlige retningslinjer med ilt og pause i væsketræk. Ved sværere arytmier eller iskæmi standses dialysen."
+},
+{
+"id": "7:182",
+"q": "Hvor opstår muskelkramper typisk under HD?",
+"a": "I læggene",
+"w": [
+"I armene",
+"I ryggen"
+],
+"p": 88,
+"lvl": "K",
+"type": "fakta",
+"why": "Typisk i sidste halvdel af dialysen og især ved større ultrafiltration. Årsagen er sandsynligvis multifaktoriel."
+},
+{
+"id": "7:183",
+"q": "En patient får kraftige lægkramper sidst i dialysen. Hvad er den akutte behandling?",
+"a": "Hyperton NaCl eller 50 % glukose",
+"w": [
+"Øget ultrafiltration",
+"Koldere dialysat"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Begge øger osmolaliteten. Koldt dialysat øger frekvensen af kramper."
+},
+{
+"id": "7:184",
+"q": "En patient får gentagne kramper uden tendens til blodtryksfald. Hvad kan forebygge dem?",
+"a": "Hæve tørvægten med ca. 0,5 kg",
+"w": [
+"Sænke tørvægten",
+"Sænke dialysattemperaturen"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysattemperaturen kan også øges til 37 °C hos patienter uden tendens til blodtryksfald."
+},
+{
+"id": "7:185",
+"q": "Hvad kan mindske muskelkramper under dialyse uden medicin?",
+"a": "Sengecykel eller udstrækning",
+"w": [
+"Mere ultrafiltration",
+"Koldere dialysat"
+],
+"p": 88,
+"lvl": "U",
+"type": "fakta",
+"why": "Der findes ingen veldokumenteret medikamentel profylakse mod kramper."
+},
+{
+"id": "7:187",
+"q": "En patient får generaliseret krampeanfald under HD. Hvad er det første, man gør?",
+"a": "Stopper dialysen",
+"w": [
+"Øger ultrafiltrationen",
+"Giver heparin"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Derefter frie luftveje, ilt og diazepam 5-10 mg i.v. Ved blodtryksfald eller dysækvilibrium gives hypertone infusioner."
+},
+{
+"id": "7:n15",
+"q": "Hvilke metaboliske forstyrrelser skal afdækkes og behandles ved krampeanfald under dialyse?",
+"a": "Hypoglykæmi og hypocalcæmi",
+"w": [
+"Hyperglykæmi og hypercalcæmi",
+"Hypernatriæmi og alkalose"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Findes ingen forklaring, skal patienten udredes neurologisk efter sædvanlige retningslinjer."
+},
+{
+"id": "7:189",
+"q": "Hvad kan mindske hovedpine under dialyse?",
+"a": "Højere dialysat-natrium",
+"w": [
+"Lavere dialysat-natrium",
+"Glukosefrit dialysat"
+],
+"p": 88,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Hovedpine er en af de almindeligste bivirkninger og kan være en mild form for dysækvilibrium. Natriumprofil, glukoseholdigt dialysat eller skift til HDF kan hjælpe."
+},
+{
+"id": "7:190",
+"q": "Hvornår efter dialysestart opstår symptomer på membranallergi typisk?",
+"a": "Efter 5-20 minutter",
+"w": [
+"Efter 2-3 timer",
+"Efter dialysen"
+],
+"p": 88,
+"lvl": "K",
+"type": "fakta",
+"why": "Allergi mod dialysemembraner er sjælden og kan vise sig som astma, urticaria, kløe eller anafylaktisk shock."
+},
+{
+"id": "7:191",
+"q": "En patient får anafylaktisk shock under dialysen. Hvad gives i.m.?",
+"a": "Adrenalin",
+"w": [
+"Diazepam",
+"Protaminsulfat"
+],
+"p": 88,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysen stoppes straks. Antihistamin og glukokortikoid gives, og membrantypen undgås ved senere dialyser."
+},
+{
+"id": "7:192",
+"q": "Hvilke prøver kan dokumentere allergi over for membranen?",
+"a": "B-eosinofile og S-tryptase",
+"w": [
+"CRP og hæmoglobin",
+"P-kalium og p-calcium"
+],
+"p": 88,
+"lvl": "K",
+"type": "fakta",
+"why": "S-tryptase tages 15 min. til 3 timer efter episoden og gentages en anden dag som baseline."
+},
+{
+"id": "7:195",
+"q": "Patienten får luftemboli under dialyse. Hvordan lejres patienten?",
+"a": "Trendelenburg, venstre side",
+"w": [
+"Højre side, hovedet højt",
+"Siddende"
+],
+"p": 89,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysen stoppes straks. Ved luftemboli overvejes aspiration af luft fra højre atrium, først via evt. CVK."
+},
+{
+"id": "7:196",
+"q": "Efter en apparaturfejl: hvornår må blodet gives tilbage til patienten?",
+"a": "Kun ved simpelt blodtab",
+"w": [
+"Ved hæmolyse",
+"Ved luftemboli"
+],
+"p": 89,
+"lvl": "K",
+"type": "anvendelse",
+"why": "De andre fejl kan have medført hæmolyse."
+},
+{
+"id": "7:n16",
+"q": "Hvorfor må blodet ikke gives tilbage ved hæmolyse?",
+"a": "Hæmolyse frisætter kalium",
+"w": [
+"Blodet er for koldt",
+"Blodet indeholder luft"
+],
+"p": 89,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hæmolyseret blod kan give farlig hyperkaliæmi hos patienten."
+},
+{
+"id": "7:197",
+"q": "Patienten har fået hæmolyse efter dialysatfejl. Hvad gør man?",
+"a": "Stopper og genstarter på ny maskine",
+"w": [
+"Giver blodet tilbage og fortsætter",
+"Fortsætter på samme maskine"
+],
+"p": 89,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialysen genstartes straks på en ny maskine."
+},
+{
+"id": "7:198",
+"q": "Hvilken amyloidose er en senkomplikation til HD?",
+"a": "Beta-2-mikroglobulin-amyloidose",
+"w": [
+"AL-amyloidose",
+"AA-amyloidose"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Den giver fx karpaltunnelsyndrom eller aflejringer omkring led og i knogler."
+},
+{
+"id": "7:199",
+"q": "Hvor stor en del af HD-patienterne dør af kardiovaskulære komplikationer?",
+"a": "Omkring halvdelen",
+"w": [
+"Under 10 %",
+"Næsten alle"
+],
+"p": 89,
+"lvl": "U",
+"type": "fakta",
+"why": "Omkring halvdelen af patienterne i HD dør som følge af kardiovaskulære komplikationer."
+}
+]

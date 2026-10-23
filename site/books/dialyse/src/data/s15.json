@@ -1,0 +1,923 @@
+[
+{
+"id": "15:0",
+"q": "Hvilken energiindtagelse anbefales til dialysepatienter?",
+"a": "25-35 kcal/kg/dag",
+"w": [
+"10-15 kcal/kg/dag",
+"45-60 kcal/kg/dag"
+],
+"p": 165,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialysepatienter har brug for energi nok til at vedligeholde normal kropsvægt. Anbefalingen er 25-35 kcal/kg/dag; ældre og inaktive har et lavere behov."
+},
+{
+"id": "15:2",
+"q": "Hvordan beregnes energibehovet hos en svært overvægtig patient?",
+"a": "Ud fra vægten ved BMI 25",
+"w": [
+"Ud fra faktisk vægt",
+"Ud fra vægten ved BMI 30"
+],
+"p": 165,
+"lvl": "U",
+"type": "fakta",
+"why": "Hos svært overvægtige beregnes energibehovet på baggrund af vægten ved BMI 25. Klinisk diætist kan beregne et mere nøjagtigt behov."
+},
+{
+"id": "15:4",
+"q": "Hvilket proteinindtag anbefales til metabolisk stabile CKD 3-5-patienter før dialyse?",
+"a": "0,55-0,6 g/kg/dag",
+"w": [
+"1,0-1,2 g/kg/dag eller mere",
+"1,5-2,0 g/kg/dag eller mere"
+],
+"p": 165,
+"lvl": "K",
+"type": "fakta",
+"why": "Før dialyse begrænses protein for at undgå ophobning af nitrogenholdige affaldsstoffer. Anbefalingen er velunderbygget, men forudsætter sufficient energiindtag."
+},
+{
+"id": "15:5",
+"q": "Hvilket proteinindtag anbefales ved CKD 3-5 med diabetes før dialyse?",
+"a": "0,6-0,8 g/kg/dag",
+"w": [
+"0,3-0,4 g/kg/dag",
+"1,2-1,5 g/kg/dag"
+],
+"p": 165,
+"lvl": "D",
+"type": "fakta",
+"why": "Ved diabetes er anbefalingen lidt højere for at sikre bedre glykæmisk kontrol."
+},
+{
+"id": "15:6",
+"q": "Hvilket proteinmål er ofte realistisk i praksis ved proteinbegrænsning før dialyse?",
+"a": "0,8 g/kg/dag",
+"w": [
+"0,3 g/kg/dag",
+"1,2 g/kg/dag"
+],
+"p": 165,
+"lvl": "U",
+"type": "fakta",
+"why": "Det er svært at holde sig til 0,55-0,6 g/kg/dag, så målet bliver ofte en reduktion til 0,8 g/kg/dag."
+},
+{
+"id": "15:7",
+"q": "Hvorfor anbefales proteinbegrænsning før dialysestart?",
+"a": "Lavere karbamid og færre uræmiske symptomer",
+"w": [
+"Højere albumin og mere muskelmasse",
+"Bedre fosfatbinding og højere p-kalium"
+],
+"p": 165,
+"lvl": "K",
+"type": "forståelse",
+"why": "Mindre protein giver mindre ophobning af nitrogenholdige nedbrydningsprodukter. Karbamid falder, acidosen mindskes, og symptomer som nedsat appetit og hudkløe lindres."
+},
+{
+"id": "15:8",
+"q": "En CKD-patient skal begrænse protein. Hvad er afgørende for at undgå underernæring?",
+"a": "At energibehovet dækkes",
+"w": [
+"At fedtindtaget fjernes helt",
+"At motion øges betydeligt"
+],
+"p": 166,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Neutral proteinbalance kræver, at energibehovet er dækket. Proteinrestriktion under vejledning af klinisk diætist kan faktisk mindske madlede og acidose."
+},
+{
+"id": "15:9",
+"q": "Hvor meget aminosyre tabes cirka pr. HD-behandling?",
+"a": "Ca. 12 g",
+"w": [
+"Ca. 2 g",
+"Ca. 40 g"
+],
+"p": 166,
+"lvl": "D",
+"type": "fakta",
+"why": "Dialysebehandlingen fjerner aminosyrer og protein, hvilket øger proteinbehovet."
+},
+{
+"id": "15:11",
+"q": "Hvilket proteinindtag anbefales til metabolisk stabile patienter i kronisk dialyse?",
+"a": "1,0-1,2 g/kg/dag",
+"w": [
+"0,55-0,6 g/kg/dag",
+"1,5-2,0 g/kg/dag"
+],
+"p": 166,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter dialysestart stiger behovet pga. tab af aminosyrer og protein, inflammation og acidose. Ved akut sygdom kan behovet være endnu højere."
+},
+{
+"id": "15:n0",
+"q": "Hvorfor stiger proteinbehovet, når en patient starter i dialyse?",
+"a": "Dialysen fjerner aminosyrer og protein",
+"w": [
+"Nyrerne danner mere protein end før",
+"Patienten bliver langt mere aktiv"
+],
+"p": 166,
+"lvl": "K",
+"type": "forståelse",
+"why": "HD og PD giver tab af aminosyrer og protein. Inflammation og acidose øger desuden nedbrydningen, så den tidligere proteinbegrænsning ophører."
+},
+{
+"id": "15:n1",
+"q": "Hvordan påvirker metabolisk acidose proteinstofskiftet ved CKD?",
+"a": "Øger proteinnedbrydningen og muskeltabet",
+"w": [
+"Øger opbygningen af muskelprotein",
+"Sænker patientens proteinbehov"
+],
+"p": 166,
+"lvl": "U",
+"type": "forståelse",
+"why": "Acidose giver accelereret proteinkatabolisme, negativ nitrogenbalance og tab af muskelmasse. Sammen med inflammation bidrager det til negativ proteinbalance."
+},
+{
+"id": "15:12",
+"q": "Hvad kendetegner protein-energy wasting (PEW)?",
+"a": "Reduceret muskel- og fedtmasse",
+"w": [
+"Overhydrering med perifere ødemer",
+"Kun lavt hæmoglobin og anæmi"
+],
+"p": 166,
+"lvl": "K",
+"type": "fakta",
+"why": "Mangel på protein og energi giver en katabol tilstand, hvor kroppen nedbryder egne reserver. Cellernes metaboliske aktivitet nedreguleres også."
+},
+{
+"id": "15:13",
+"q": "Hvilken kombination definerer PEW (ISRNM)?",
+"a": "Lav s-albumin/transthyretin/kolesterol, reduceret kropsmasse og reduceret muskelmasse",
+"w": [
+"Lavt Hb, lavt BT og lav diurese",
+"Højt CRP, høj BMI og højt kolesterol"
+],
+"p": 166,
+"lvl": "K",
+"type": "fakta",
+"why": "PEW kræver tre karakteristika: lav s-albumin, transthyretin eller kolesterol, reduceret kropsmasse og reduceret muskelmasse. Opsporing og ernæringsterapi er vigtigst."
+},
+{
+"id": "15:14",
+"q": "Hvilke følger har PEW?",
+"a": "Nedsat sårheling og flere infektioner",
+"w": [
+"Bedre immunforsvar og sårheling",
+"Øget muskelstyrke og mobilitet"
+],
+"p": 166,
+"lvl": "K",
+"type": "fakta",
+"why": "PEW giver bl.a. nedsat sårheling, øget infektionstilbøjelighed, immobilitet, trombosetendens, anæmi og træthed samt øget morbiditet og mortalitet."
+},
+{
+"id": "15:n2",
+"q": "Hvorfor svækkes immunforsvaret ved PEW?",
+"a": "Cellernes metaboliske aktivitet nedreguleres",
+"w": [
+"Hvide blodlegemer fjernes i dialysatet",
+"Hæmoglobin og jern falder"
+],
+"p": 166,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved PEW nedregulerer kroppen cellernes aktivitet, hvilket svækker immunforsvaret og øger infektionstilbøjeligheden."
+},
+{
+"id": "15:n3",
+"q": "Hvorfor spiser mange CKD-patienter for lidt, før dialysen starter?",
+"a": "Uræmiske symptomer som kvalme og madlede",
+"w": [
+"Et for højt energibehov i kroppen",
+"Dialysen fjerner al sultfornemmelse hos patienten"
+],
+"p": 167,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kvalme, madlede, nedsat appetit og smagsforstyrrelser samt svære diætrestriktioner nedsætter indtaget. PEW udvikles derfor ofte før dialysestart."
+},
+{
+"id": "15:18",
+"q": "Hvilken screeningsmetode bruges i Danmark ved indlæggelse af alle patientgrupper?",
+"a": "NRS 2002",
+"w": [
+"SGA",
+"PEW-score"
+],
+"p": 167,
+"lvl": "K",
+"type": "fakta",
+"why": "NRS 2002 bruges også på de fleste dialyseafsnit. Ambulant følges vægt og vægtudvikling."
+},
+{
+"id": "15:19",
+"q": "Hvilken screeningsmetode bruges ofte internationalt til ernæringsscreening af dialysepatienter?",
+"a": "SGA",
+"w": [
+"NRS 2002",
+"KDOQI"
+],
+"p": 167,
+"lvl": "U",
+"type": "fakta",
+"why": "Internationalt anvendes ofte Subjective Global Assessment (SGA) til ernæringsscreening af dialysepatienter. I Danmark bruges NRS 2002 ved indlæggelse."
+},
+{
+"id": "15:20",
+"q": "Hvor ofte anbefales ernæringsscreening som udgangspunkt ved CKD 3-5D?",
+"a": "To gange årligt",
+"w": [
+"Hver måned hele året",
+"Kun ved dialysestart"
+],
+"p": 167,
+"lvl": "K",
+"type": "fakta",
+"why": "Flere guidelines anbefaler to gange årligt, og hyppigere (hver 3. måned) hvis patienten er over 50 år eller har været i dialyse i mere end fem år."
+},
+{
+"id": "15:21",
+"q": "En dialysepatient på 62 år skal ernæringsscreenes. Hvor hyppigt?",
+"a": "Hver tredje måned",
+"w": [
+"Én gang om året som standard",
+"Hvert andet år som standard"
+],
+"p": 167,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Over 50 år eller mere end fem års dialyse giver øget risiko, så screeningen intensiveres fra to gange årligt til hver tredje måned."
+},
+{
+"id": "15:22",
+"q": "Hvilken vægt bruges i BMI-formlen hos dialysepatienter?",
+"a": "Tørvægt",
+"w": [
+"Vægt før dialyse",
+"Vægt efter måltid"
+],
+"p": 167,
+"lvl": "K",
+"type": "fakta",
+"why": "BMI = tørvægt (kg) divideret med højde i meter i anden potens."
+},
+{
+"id": "15:24",
+"q": "Hvornår er BMI uhensigtsmæssigt lavt ved nyresygdom?",
+"a": "Under 23",
+"w": [
+"Under 18,5",
+"Under 25"
+],
+"p": 169,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved nyresygdom regnes BMI under 23 som uhensigtsmæssigt lav, højere end hos raske, hvor undervægt er under 18,5."
+},
+{
+"id": "15:n4",
+"q": "Hvorfor er BMI upålideligt hos mange dialysepatienter?",
+"a": "Overhydrering og lav muskelmasse",
+"w": [
+"Højden ændres under dialysen",
+"Tørvægten kan slet ikke måles"
+],
+"p": 169,
+"lvl": "K",
+"type": "forståelse",
+"why": "Overhydrering er hyppig, og CKD-patienter har ofte mindre muskelmasse. Vægt og BMI giver derfor ikke altid et retvisende billede."
+},
+{
+"id": "15:27",
+"q": "Hvordan klassificeres et utilsigtet vægttab på 5-10 %?",
+"a": "Moderat",
+"w": [
+"Let (under 5 %)",
+"Svært (over 10 %)"
+],
+"p": 169,
+"lvl": "K",
+"type": "fakta",
+"why": "Let er under 5 %, moderat 5-10 % og svært over 10 %. Hurtigt udviklet vægttab er specielt alarmerende."
+},
+{
+"id": "15:28",
+"q": "Hvor stort er et svært utilsigtet vægttab?",
+"a": "Over 10 %",
+"w": [
+"Under 5 %",
+"5-10 %"
+],
+"p": 169,
+"lvl": "K",
+"type": "fakta",
+"why": "Vægttab over 10 % er svært; under 5 % er let. Gentagne vejninger kan afsløre utilsigtet vægttab."
+},
+{
+"id": "15:n5",
+"q": "En HD-patient har tabt 8 % af sin vægt på to måneder. Hvordan vurderes det?",
+"a": "Moderat vægttab",
+"w": [
+"Let vægttab under 5 %",
+"Svært vægttab over 10 %"
+],
+"p": 169,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Vægttab på 5-10 % er moderat. Hastigheden bør også vurderes, og vægttab kan komme snigende, fordi tørvægten ikke vurderes ved hver behandling."
+},
+{
+"id": "15:29",
+"q": "Hvor store dag-til-dag-svingninger i vægten er normale?",
+"a": "± 1 kg",
+"w": [
+"± 3 kg",
+"± 5 kg"
+],
+"p": 169,
+"lvl": "U",
+"type": "fakta",
+"why": "Normale daglige udsving er ca. ± 1 kg og skal skelnes fra reelt vægttab."
+},
+{
+"id": "15:30",
+"q": "Hvordan hænger lavt p-albumin sammen med dødeligheden hos dialysepatienter?",
+"a": "Lavt albumin giver højere dødelighed",
+"w": [
+"Lavt albumin giver lavere dødelighed",
+"Ingen sammenhæng"
+],
+"p": 169,
+"lvl": "U",
+"type": "fakta",
+"why": "Albumin er stærkt og inverst korreleret til dødelighed. Et fald i albumin på 25 % er forbundet med en syvdoblet dødelighed."
+},
+{
+"id": "15:n6",
+"q": "Hvorfor kan p-albumin ikke bruges som eneste ernæringsmarkør?",
+"a": "Det er lavt ved akut sygdom som infektion",
+"w": [
+"Det påvirkes ikke af akut sygdom",
+"Det afspejler udelukkende jernstatus"
+],
+"p": 169,
+"lvl": "K",
+"type": "forståelse",
+"why": "Akut sygdom som infektion eller nylig operation giver lave værdier. Albumin skal derfor tolkes sammen med andre ernæringsparametre."
+},
+{
+"id": "15:32",
+"q": "Hvad afspejler p-kreatinin hos veldialyserede patienter?",
+"a": "Muskelmassen",
+"w": [
+"Proteinindtaget",
+"Fedtmassen"
+],
+"p": 169,
+"lvl": "U",
+"type": "fakta",
+"why": "Kreatinin afspejler muskelmassen og bruges ikke som ernæringsmarkør."
+},
+{
+"id": "15:33",
+"q": "Hvad er p-karbamid bl.a. et udtryk for?",
+"a": "Proteinindtag",
+"w": [
+"Muskelmasse og styrke",
+"Jernstatus i blodet"
+],
+"p": 169,
+"lvl": "U",
+"type": "fakta",
+"why": "Karbamid afspejler proteinindtag, men høje værdier kan også skyldes forværret nyrefunktion eller utilstrækkelig dialyse."
+},
+{
+"id": "15:n7",
+"q": "En dialysepatient har meget højt p-karbamid. Hvad bør man udover højt proteinindtag overveje?",
+"a": "Utilstrækkelig dialyse",
+"w": [
+"For lavt proteinindtag",
+"Jernmangel"
+],
+"p": 169,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højt karbamid kan skyldes højt proteinindtag, men også forværret nyrefunktion eller utilstrækkelig dialyse, så årsagen skal vurderes."
+},
+{
+"id": "15:34",
+"q": "Hvad måler hånd-gribe-styrke?",
+"a": "Muskelstyrke",
+"w": [
+"Hjertefunktion",
+"Lungekapacitet"
+],
+"p": 169,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "15:35",
+"q": "Hvad er klinisk diætists vigtigste arbejdsredskab?",
+"a": "Kostanamnese",
+"w": [
+"Bioimpedans",
+"Hånd-gribe-styrke"
+],
+"p": 169,
+"lvl": "K",
+"type": "fakta",
+"why": "Kostanamnesen er et interview om sædvanlig kost, væske og præferencer. Den giver overblik, men kan ikke bruges til beregning."
+},
+{
+"id": "15:36",
+"q": "Hvad har første prioritet i diætbehandling af CKD?",
+"a": "Forebyggelse af PEW",
+"w": [
+"Vægttab hos alle patienter",
+"Streng proteinrestriktion"
+],
+"p": 170,
+"lvl": "K",
+"type": "fakta",
+"why": "Det opnås ved tidlig monitorering af ernæringstilstand og kostindtag samt regelmæssige diætbehandlingssamtaler."
+},
+{
+"id": "15:37",
+"q": "Hvorfor bør diætrestriktioner ikke indføres før nødvendigt?",
+"a": "De øger risikoen for underernæring og PEW",
+"w": [
+"De er for dyre for patienten at følge",
+"De hæver altid p-kalium og p-fosfat"
+],
+"p": 170,
+"lvl": "K",
+"type": "forståelse",
+"why": "For tidlige restriktioner mindsker indtaget og kan give underernæring, PEW og ringere livskvalitet."
+},
+{
+"id": "15:38",
+"q": "Hvorfor anbefales tidlig henvisning til klinisk diætist?",
+"a": "Kan bremse progression og udsætte dialyse",
+"w": [
+"Fjerner behovet for al medicin",
+"Forbedrer hæmoglobinniveauet markant"
+],
+"p": 170,
+"lvl": "U",
+"type": "forståelse",
+"why": "To studier har vist, at diætbehandling ved klinisk diætist kan reducere progression af nyresygdom og udsætte dialysetidspunktet."
+},
+{
+"id": "15:39",
+"q": "En dialysepatient får for lidt energi og protein fra almindelig mad. Hvad er det næste skridt?",
+"a": "Ernæringsdrikke",
+"w": [
+"Sondeernæring",
+"Intradialytisk parenteral ernæring"
+],
+"p": 170,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ernæring per os foretrækkes altid. Ernæringsdrikke anbefales, hvis sufficient indtag ikke kan opnås med mad."
+},
+{
+"id": "15:40",
+"q": "Ved hvilket indtag anbefales sondeernæring?",
+"a": "Under 70 % af behovet",
+"w": [
+"Under 90 % af behovet",
+"Under 30 % af behovet"
+],
+"p": 171,
+"lvl": "K",
+"type": "fakta",
+"why": "Sondeernæring er indiceret, hvis indtaget er under 70 % af behovet, og ernæringsdrikke ikke dækker det."
+},
+{
+"id": "15:41",
+"q": "En svært underernæret patient skal starte ernæringsterapi. Hvad bør først vurderes?",
+"a": "Risiko for refeeding syndrom",
+"w": [
+"Risiko for fødevareallergi",
+"Risiko for udtalt hypertension"
+],
+"p": 171,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hos svært underernærede skal risikoen for refeeding syndrom vurderes før opstart af ernæringsterapi."
+},
+{
+"id": "15:42",
+"q": "Hvad er IDPN?",
+"a": "Parenteral ernæring under HD",
+"w": [
+"Ernæringsdrik til PD-patienter",
+"Sondeernæring under dialyse"
+],
+"p": 171,
+"lvl": "U",
+"type": "fakta",
+"why": "Intradialytisk parenteral ernæring gives intravenøst under HD som supplement, når peroral indtagelse ikke er tilstrækkelig."
+},
+{
+"id": "15:46",
+"q": "Hvad svarer IDPN-tilskuddet cirka til ved tre ugentlige HD?",
+"a": "Én ernæringsdrik pr. dag",
+"w": [
+"Et fuldt måltid",
+"Halvdelen af dagsbehovet"
+],
+"p": 171,
+"lvl": "U",
+"type": "fakta",
+"why": "IDPN gives kun under HD, så tilskuddet er begrænset til op til ca. 400 kcal og 20 g protein pr. dag."
+},
+{
+"id": "15:n8",
+"q": "Hvorfor kan IDPN kræve højere væsketræk?",
+"a": "Den tilfører ekstra væske",
+"w": [
+"Den hæmmer restdiuresen",
+"Den øger tørsten markant"
+],
+"p": 171,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved IDPN skal man være opmærksom på den ekstra væske og evt. behov for højere væsketræk."
+},
+{
+"id": "15:54",
+"q": "Hvor findes tilsat fosfat især?",
+"a": "Pålæg, smelteost og sodavand",
+"w": [
+"Frisk frugt og friske grøntsager",
+"Fersk fisk og skaldyr"
+],
+"p": 171,
+"lvl": "U",
+"type": "fakta",
+"why": "Tilsat fosfat optages i langt højere grad end naturligt fosfat, så reduktion heraf er relevant ved fosfatbegrænsning."
+},
+{
+"id": "15:n9",
+"q": "Hvilken type fosfat optages bedst?",
+"a": "Tilsat fosfat",
+"w": [
+"Fosfat fra planter",
+"Fosfat fra kød"
+],
+"p": 171,
+"lvl": "K",
+"type": "fakta",
+"why": "Tilsat fosfat optages i langt højere grad end naturligt fosfat. Fra animalske fødevarer optages 40-60 %, fra vegetabilske 20-50 %."
+},
+{
+"id": "15:n10",
+"q": "Hvorfor er proteinrestriktion uhensigtsmæssig hos dialysepatienter, selvom den sænker fosfat?",
+"a": "Øger risikoen for malnutrition og PEW",
+"w": [
+"Den øger fosfatoptagelsen",
+"Den hæver p-kalium kraftigt"
+],
+"p": 172,
+"lvl": "K",
+"type": "forståelse",
+"why": "Proteinrige fødevarer indeholder meget fosfat, så restriktion før dialyse hjælper. Hos dialysepatienter vejer risikoen for malnutrition og PEW tungere."
+},
+{
+"id": "15:n11",
+"q": "Hvornår bør fosfatrestriktion indledes?",
+"a": "Ved høj p-fosfat i flere målinger",
+"w": [
+"Ved én enkelt forhøjet måling",
+"Så snart eGFR er under 90"
+],
+"p": 172,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fosfatrestriktion indledes først, når p-fosfat er høj ved flere målinger. Målet er p-fosfat i normalområdet."
+},
+{
+"id": "15:n12",
+"q": "Hvornår skal fosfatbindere tages for bedst effekt?",
+"a": "Til måltider med højt fosfatindhold",
+"w": [
+"Fastende om morgenen",
+"Efter dialysebehandlingen"
+],
+"p": 172,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Perorale fosfatbindere supplerer diæten. Diætisten vejleder om timing, så de følger de fosfatrigeste måltider."
+},
+{
+"id": "15:n13",
+"q": "Hvorfor falder calciumindtaget, når fosfatindtaget begrænses?",
+"a": "Mejeriprodukter er hovedkilden til calcium",
+"w": [
+"Calcium findes primært i kød",
+"Fosfat udskiller calcium fra kroppen"
+],
+"p": 172,
+"lvl": "U",
+"type": "forståelse",
+"why": "Mejeriprodukter er både calcium- og fosfatrige. Fosfatbegrænsning giver derfor uvægerligt en markant reduktion i calciumindtaget."
+},
+{
+"id": "15:61",
+"q": "Hvilke fødevarer er primære kilder til kalium?",
+"a": "Kartofler, frugt, grønt og mælk",
+"w": [
+"Smør, olie og margarine alene",
+"Sukker, slik og sodavand alene"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Også nødder, chokolade, juice, kakao og kaffe indeholder meget kalium. Kød og fisk begrænses sjældent pga. proteinbehovet."
+},
+{
+"id": "15:62",
+"q": "Hvordan reduceres kaliumindholdet i grøntsager ved tilberedning?",
+"a": "Skrælle, snitte og koge i vand",
+"w": [
+"Stege dem hele i smør",
+"Bage dem hele med skrællen på"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Skrælning, små stykker og kogning i saltet vand kan sænke kaliumindholdet med 30-50 %."
+},
+{
+"id": "15:65",
+"q": "En patient med nedsat nyrefunktion har normalt p-kalium. Skal kaliumbegrænsning indledes?",
+"a": "Nej, kalium er normalt",
+"w": [
+"Ja, ved alle med CKD",
+"Ja, når eGFR er under 45"
+],
+"p": 172,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ikke alle med nedsat nyrefunktion har brug for kaliumbegrænset diæt. Så længe p-kalium er inden for referenceområdet, påbegyndes begrænsning ikke."
+},
+{
+"id": "15:64",
+"q": "Hvilken medicin kan sænke kalium ved hyperkaliæmi?",
+"a": "Loop-diuretika eller kationbytter",
+"w": [
+"Kaliumtilskud eller RAS-hæmmere",
+"Heparin eller jern"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Loop-diuretika virker kun ved bevaret diurese; kationbytter binder kalium i tarmen."
+},
+{
+"id": "15:n14",
+"q": "Hvilke lægemidler kan give hyperkaliæmi?",
+"a": "Kaliumtilskud og RAS-hæmmere",
+"w": [
+"Loop-diuretika og vand",
+"Kationbytter og insulin"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Hyperkaliæmi kan også skyldes acidose, hyperglykæmi, cellehenfald og obstipation. Loop-diuretika og kationbytter bruges derimod til behandling."
+},
+{
+"id": "15:63",
+"q": "Hvad virker lige så godt som natriumbikarbonat mod acidose ved CKD 3-5 før dialyse?",
+"a": "Frugt og grønt med proteinreduktion",
+"w": [
+"Mere kød og mejeriprodukter dagligt",
+"Højere saltindtag og væskeindtag"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Derfor kan kosten til CKD-patienter indeholde frugt og grønt, men det vurderes ofte individuelt."
+},
+{
+"id": "15:66",
+"q": "Hvornår kan hypokaliæmi forekomme?",
+"a": "Ved PD og diuretika",
+"w": [
+"Ved acidose og obstipation",
+"Ved kaliumtilskud"
+],
+"p": 172,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypokaliæmi kan ses ved PD og ved behandling med diuretika."
+},
+{
+"id": "15:67",
+"q": "Hvorfor er fuldkorn og kostfibre i dag tilladt ved CKD?",
+"a": "Vegetabilsk fosfat optages i mindre grad end animalsk",
+"w": [
+"De indeholder slet intet kalium",
+"De sænker p-albumin og Hb"
+],
+"p": 172,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tidligere frarådede man fuldkorn pga. kalium og fosfat. Vegetabilsk fosfat optages mindre end animalsk, og fibre har gavnlige sundhedseffekter."
+},
+{
+"id": "15:71",
+"q": "Hvilket natriumindtag anbefales allerede fra CKD 3?",
+"a": "2.300 mg/dag",
+"w": [
+"1.000 mg/dag",
+"4.000 mg/dag"
+],
+"p": 172,
+"lvl": "K",
+"type": "fakta",
+"why": "Det svarer til 5-6 g køkkensalt og mindsker væskeretention og hypertension samt forbedrer den kardiovaskulære risikoprofil."
+},
+{
+"id": "15:72",
+"q": "Hvorfra kommer størstedelen af danskernes natrium?",
+"a": "Forarbejdede fødevarer og tilsat salt",
+"w": [
+"Frisk frugt og grønt",
+"Drikkevand og kaffe"
+],
+"p": 173,
+"lvl": "K",
+"type": "fakta",
+"why": "Saltindtaget kan reduceres ved at vælge uforarbejdede fødevarer og undgå salt efter tilberedning."
+},
+{
+"id": "15:73",
+"q": "Hvad kræves, for at væskeindtaget kan begrænses?",
+"a": "Samtidig reduceret natriumindtag",
+"w": [
+"Øget proteinindtag samtidig",
+"Højere kaliumindtag samtidig"
+],
+"p": 173,
+"lvl": "K",
+"type": "forståelse",
+"why": "Natriumindtag og muligheden for at begrænse væske hænger sammen. Væskebegrænsning er kun muligt med samtidig natriumreduktion."
+},
+{
+"id": "15:n15",
+"q": "Hvorfor virker loop-diuretika mod overhydrering og hypertension?",
+"a": "De øger natriumudskillelsen i urinen",
+"w": [
+"De øger kaliumindtaget",
+"De mindsker tørsten og saltsmagen"
+],
+"p": 173,
+"lvl": "K",
+"type": "forståelse",
+"why": "Loop-diuretika har central plads i behandlingen, så længe diuresen er bevaret."
+},
+{
+"id": "15:n16",
+"q": "Hvorfor følges jernstatus regelmæssigt hos dialysepatienter?",
+"a": "Nedsat optagelse og øget jerntab",
+"w": [
+"For højt jernindtag fra kosten",
+"Jern udskilles ikke ved nyresvigt"
+],
+"p": 173,
+"lvl": "K",
+"type": "forståelse",
+"why": "Optagelsen i tarmen er nedsat, og jern tabes ved blodprøver og dialyse."
+},
+{
+"id": "15:n17",
+"q": "Peroralt jern er utilstrækkeligt hos en dialysepatient. Hvad kan være nødvendigt?",
+"a": "Parenteral jernbehandling",
+"w": [
+"Mere rødt kød i kosten",
+"En kost med mindre jern"
+],
+"p": 173,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Erfaringsmæssigt er peroralt tilskud ofte ikke nok hos dialysepatienter."
+},
+{
+"id": "15:76",
+"q": "Hvad kaldes den atypiske lipidprofil ved CKD med små, tætte LDL-partikler?",
+"a": "Aterogen lipoprotein-fænotype",
+"w": [
+"Metabolisk lipoprotein-fænotype",
+"Diabetisk lipoprotein-fænotype"
+],
+"p": 173,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "15:77",
+"q": "Hvilket fedt anbefales til ernæringstruede patienter?",
+"a": "Planteolier med monoumættede fedtsyrer",
+"w": [
+"Mættet fedt fra smør og fløde",
+"Transfedt fra industrielle produkter"
+],
+"p": 173,
+"lvl": "K",
+"type": "fakta",
+"why": "Rene planteolier er fosfat- og kaliumfri energikilder uden salt. Fedtbegrænset diæt er energifattig og øger risikoen for underernæring."
+},
+{
+"id": "15:79",
+"q": "Hvilke vitaminer kaldes dialysevitaminer?",
+"a": "B-kompleks, folinsyre og C-vitamin",
+"w": [
+"Vitamin A, D, E og K",
+"Calcium, magnesium og zink"
+],
+"p": 173,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er vandopløselige vitaminer, som almindeligvis ordineres til dialysepatienter, da kost med begrænsninger ofte giver mangel."
+},
+{
+"id": "15:n18",
+"q": "Hvilke mangler består trods dialysevitaminer?",
+"a": "Vitamin D, jern, zink og selen",
+"w": [
+"Folinsyre og C-vitamin",
+"Vitamin B6, B1 og niacin"
+],
+"p": 174,
+"lvl": "U",
+"type": "fakta",
+"why": "Dialysevitaminer dækker B-vitaminer og C med sikkerhedsmargin, men ikke forventelig underforsyning af vitamin D, jern, zink og selen."
+},
+{
+"id": "15:80",
+"q": "Hvorfor frarådes vitamin A-tilskud til dialysepatienter?",
+"a": "Risiko for overdosering",
+"w": [
+"Det nedsætter jernoptagelsen",
+"Det hæver p-kalium"
+],
+"p": 174,
+"lvl": "K",
+"type": "forståelse",
+"why": "Overdosering kan give anæmi, tør hud, hudkløe og leverdysfunktion."
+},
+{
+"id": "15:81",
+"q": "Hvordan hænger BMI sammen med overlevelse hos mennesker med CKD (ikke nyretransplanterede)?",
+"a": "Højere BMI giver bedre overlevelse",
+"w": [
+"Højere BMI giver dårligere overlevelse",
+"Ingen sammenhæng"
+],
+"p": 174,
+"lvl": "U",
+"type": "fakta",
+"why": "Overvægt er derfor ikke en risikofaktor for tidlig død i denne gruppe, og vægttab skal initieres på fagligt grundlag."
+},
+{
+"id": "15:82",
+"q": "Hvad kan vægttab reducere hos overvægtige CKD-patienter?",
+"a": "Albuminuri og hypertension",
+"w": [
+"Muskelmasse og knoglemasse",
+"Antallet af dialysebehandlinger"
+],
+"p": 174,
+"lvl": "U",
+"type": "fakta",
+"why": "Vægttab kan reducere albuminuri, proteinuri og hypertension. Overvægt kan ikke betragtes som risikofaktor for tidlig død i denne gruppe."
+},
+{
+"id": "15:83",
+"q": "Hvorfor er obstipation hyppig ved CKD?",
+"a": "Væskebegrænsning, lidt fibre og inaktivitet",
+"w": [
+"Højt kaliumindtag og meget væske",
+"For meget motion og fibre"
+],
+"p": 174,
+"lvl": "U",
+"type": "forståelse",
+"why": "Også uræmi bidrager. Obstipation kan medvirke til hyperkaliæmi."
+}
+]

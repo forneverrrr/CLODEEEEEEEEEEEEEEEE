@@ -1,0 +1,339 @@
+[
+{
+"id": "25:0",
+"q": "Hvad er diskrimination?",
+"a": "At behandle nogen dårligere på grund af fx religion eller køn",
+"w": [
+"At give alle de samme rettigheder",
+"At kritisere politikere"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Diskrimination er at gøre forskel på mennesker på grund af fx religion, hudfarve, køn, etnicitet, seksuel orientering eller alder."
+},
+{
+"id": "25:n0",
+"q": "Hvor står retten til at sige og skrive, hvad man vil?",
+"a": "I grundloven",
+"w": [
+"I straffeloven",
+"I skattelovene"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven giver ytringsfrihed, religionsfrihed, foreningsfrihed og forsamlingsfrihed."
+},
+{
+"id": "25:n1",
+"q": "Hvad kaldes retten til at sige og skrive, hvad man vil?",
+"a": "Ytringsfrihed",
+"w": [
+"Religionsfrihed",
+"Foreningsfrihed"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Ytringsfrihed betyder, at man kan sige og skrive, hvad man vil. Den kan dog begrænses, fx hvis man håner eller truer andre."
+},
+{
+"id": "25:n2",
+"q": "Hvad kaldes retten til at vælge sin egen religion?",
+"a": "Religionsfrihed",
+"w": [
+"Ytringsfrihed",
+"Forsamlingsfrihed"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven bestemmer, at man kan vælge den religion, man ønsker."
+},
+{
+"id": "25:n3",
+"q": "Hvad giver forsamlingsfriheden ret til?",
+"a": "At demonstrere sammen med andre",
+"w": [
+"At danne et parti i Folketinget",
+"At bestemme sin egen religion"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Forsamlingsfrihed er retten til at forsamle sig, fx til demonstrationer. Foreningsfrihed er retten til at danne foreninger."
+},
+{
+"id": "25:10",
+"q": "Hvad betyder, at frihed skal bruges under ansvar?",
+"a": "Staten kan begrænse friheden for at beskytte andre",
+"w": [
+"Man må gøre alt, hvad man vil",
+"Friheden er afskaffet i Danmark"
+],
+"p": 139,
+"lvl": "K",
+"type": "forståelse",
+"why": "Friheden må ikke misbruges til at skade andre, fx ved at diskriminere. Derfor kan staten begrænse den."
+},
+{
+"id": "25:1",
+"q": "Hvad siger loven om at nægte folk adgang til offentlige steder på grund af etnicitet?",
+"a": "Det er forbudt",
+"w": [
+"Det er tilladt",
+"Det er kun tilladt for butikker"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Loven forbyder at nægte folk adgang til offentlige steder på grund af deres etniske oprindelse."
+},
+{
+"id": "25:n4",
+"q": "En arbejdsgiver fravælger en ansøger på grund af hendes etnicitet. Hvad er det?",
+"a": "Ulovlig diskrimination",
+"w": [
+"Lovlig forskelsbehandling",
+"Ytringsfrihed"
+],
+"p": 139,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man må ikke fravælge jobansøgere på grund af etnisk oprindelse. Det er diskrimination."
+},
+{
+"id": "25:2",
+"q": "Hvad gælder for offentligt at håne eller true andre på grund af deres race?",
+"a": "Det er forbudt",
+"w": [
+"Det er tilladt som ytringsfrihed",
+"Det er kun tilladt på nettet"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Man må ikke offentligt håne eller true andre på grund af fx race, hudfarve, religion eller seksuel orientering. Ytringsfriheden har grænser."
+},
+{
+"id": "25:3",
+"q": "Må man offentligt støtte et begået terrorangreb?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er ulovligt offentligt at udtrykke tydelig støtte til et terrorangreb eller opfordre til vold mod en gruppe."
+},
+{
+"id": "25:n5",
+"q": "Hvorfor er der love mod diskrimination?",
+"a": "For at beskytte minoriteter",
+"w": [
+"For at begrænse ytringsfriheden helt",
+"For at spare penge"
+],
+"p": 139,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lovene beskytter religiøse, etniske og seksuelle minoriteter mod overgreb og usaglig forskelsbehandling."
+},
+{
+"id": "25:n6",
+"q": "Hvad viser studier om ansøgere med udenlandske navne?",
+"a": "De har sværere ved at få bolig eller jobsamtale",
+"w": [
+"De får lettere en lejebolig",
+"Der er ingen forskel på dem"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Selv om de er lige så kvalificerede som ansøgere med typisk danske navne, har de sværere ved at få lejebolig og jobsamtale."
+},
+{
+"id": "25:4",
+"q": "Hvad kaldes forbrydelser begået på grund af offerets etnicitet, religion eller seksuelle orientering?",
+"a": "Hadforbrydelser",
+"w": [
+"Bandekriminalitet",
+"Økonomisk kriminalitet"
+],
+"p": 139,
+"lvl": "K",
+"type": "fakta",
+"why": "Sådanne forbrydelser kaldes hadforbrydelser og kan straffes særlig hårdt."
+},
+{
+"id": "25:n7",
+"q": "Hvad sker der med straffen for en forbrydelse begået på grund af offerets religion?",
+"a": "Straffen kan være hårdere",
+"w": [
+"Straffen bliver mildere",
+"Der er ingen forskel i straf"
+],
+"p": 139,
+"lvl": "K",
+"type": "forståelse",
+"why": "Forbrydelser mod minoriteter kan straffes særlig hårdt, hvis de er begået på grund af ofrets etnicitet, religion eller seksuelle orientering."
+},
+{
+"id": "25:n8",
+"q": "Hvad er typiske hadforbrydelser?",
+"a": "Hadefulde ytringer, vold og trusler",
+"w": [
+"Skattesnyd og bedrageri",
+"Parkeringsbøder og fartbøder"
+],
+"p": 140,
+"lvl": "U",
+"type": "fakta",
+"why": "Hadforbrydelser er typisk hadefulde ytringer, vold, hærværk eller trusler. Mange bliver ikke anmeldt."
+},
+{
+"id": "25:n9",
+"q": "Hvilken minoritet er særligt udsat for hadforbrydelser i Danmark?",
+"a": "Jøder",
+"w": [
+"Svenskere",
+"Danske landmænd"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiet registrerer mange hadforbrydelser mod jøder i forhold til, hvor få jøder der bor i Danmark."
+},
+{
+"id": "25:15",
+"q": "Hvad skete på en jødisk gravplads i Randers i 2019?",
+"a": "Gravsten blev væltet og malet",
+"w": [
+"Der blev bygget en synagoge",
+"Gravpladsen blev åbnet igen"
+],
+"p": 140,
+"lvl": "D",
+"type": "fakta",
+"why": "Mænd fra en nynazistisk bevægelse væltede og malede over 80 gravsten."
+},
+{
+"id": "25:16",
+"q": "Hvad skete der den 9. november 1938 i Tyskland?",
+"a": "Krystalnatten: angreb på jøder",
+"w": [
+"Grundloven blev indført i Tyskland",
+"Krigen sluttede i Tyskland"
+],
+"p": 140,
+"lvl": "U",
+"type": "forståelse",
+"why": "Nazisterne ødelagde og brændte jødiske butikker, synagoger, boliger og skoler. Gerningsmændene i Randers valgte årsdagen."
+},
+{
+"id": "25:17",
+"q": "I hvilket år angreb en terrorist synagogen i København?",
+"a": "2015",
+"w": [
+"2005",
+"2019"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "I 2015 skød en terrorist en jødisk vagt uden for synagogen og angreb også Krudttønden."
+},
+{
+"id": "25:n10",
+"q": "Hvor skete der et terrorangreb i København i 2015?",
+"a": "Københavns Synagoge",
+"w": [
+"Københavns Lufthavn",
+"Christiansborg"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "En terrorist med sympati for Islamisk Stat forsøgte at komme ind i synagogen og dræbte en jødisk vagt."
+},
+{
+"id": "25:19",
+"q": "Hvem blev dræbt uden for synagogen i 2015?",
+"a": "En jødisk vagt",
+"w": [
+"En rabbiner",
+"En journalist"
+],
+"p": 140,
+"lvl": "U",
+"type": "fakta",
+"why": "Terroristen skød og dræbte en jødisk vagt og sårede to politibetjente."
+},
+{
+"id": "25:n11",
+"q": "Hvad oplevede jødiske borgere efter konflikten mellem Israel og Hamas i 2023?",
+"a": "Flere trusler og mere chikane",
+"w": [
+"Færre trusler end før",
+"Ingen ændringer i trusler"
+],
+"p": 140,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter konflikten begyndte i oktober 2023 oplevede jødiske borgere i Danmark flere trusler og mere chikane."
+},
+{
+"id": "25:n12",
+"q": "Hvorfor var angrebet på to ministre i Folketinget i 2003 ekstra alvorligt?",
+"a": "De angreb repræsentanter for folkestyret",
+"w": [
+"De brugte våben mod dem",
+"Det skete under et valg"
+],
+"p": 141,
+"lvl": "U",
+"type": "forståelse",
+"why": "To mænd angreb statsministeren og udenrigsministeren med maling. Domstolene så det som særligt alvorligt, fordi de angreb folkestyrets repræsentanter."
+},
+{
+"id": "25:23",
+"q": "Hvad skete på et asylcenter i 2015?",
+"a": "Nazistisk graffiti og brand i en bil",
+"w": [
+"En moske åbnede i byen",
+"Et valg til kommunen"
+],
+"p": 141,
+"lvl": "D",
+"type": "fakta",
+"why": "Gerningsmanden var modstander af flygtningepolitikken og fik halvandet års fængsel."
+},
+{
+"id": "25:25",
+"q": "Hvem beskytter politikere med livvagter?",
+"a": "PET",
+"w": [
+"Forsvaret",
+"Kommunerne"
+],
+"p": 141,
+"lvl": "U",
+"type": "fakta",
+"why": "Politiets Efterretningstjeneste beskytter flere og flere politikere, fordi den vurderer, at de er truet af angreb eller chikane."
+},
+{
+"id": "25:26",
+"q": "Hvad blev tre personer dømt for i 2025 i et eksempel på en hadforbrydelse mod seksuel orientering?",
+"a": "Grov vold mod to homoseksuelle mænd",
+"w": [
+"Hærværk mod en bil",
+"Tyveri fra en butik"
+],
+"p": 141,
+"lvl": "U",
+"type": "fakta",
+"why": "Eksemplet viser en hadforbrydelse på grund af ofrenes seksuelle orientering."
+}
+]

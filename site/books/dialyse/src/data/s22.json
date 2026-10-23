@@ -1,0 +1,509 @@
+[
+{
+"id": "22:0",
+"q": "Hvad kræver særlig opmærksomhed hos forældre til børn i dialyse?",
+"a": "Deres psykiske tilstand",
+"w": [
+"Deres økonomi og bolig",
+"Deres uddannelsesniveau"
+],
+"p": 223,
+"lvl": "K",
+"type": "fakta",
+"why": "Belastningen er stor, så personalet skal have særlig opmærksomhed på forældrenes ressourcer og psykiske tilstand."
+},
+{
+"id": "22:1",
+"q": "Hvorfor er forældrenes psykiske tilstand vigtig for behandlingen?",
+"a": "Det kan svække deres forståelse",
+"w": [
+"Forældrene vil ikke samarbejde",
+"Forældrene skal betale selv"
+],
+"p": 223,
+"lvl": "U",
+"type": "forståelse",
+"why": "Depression og afmagtsfølelse er hyppige og kan påvirke forståelsen af formålet med behandlingen."
+},
+{
+"id": "22:2",
+"q": "Hvilken dialyseform vælges ofte primært til små børn i Danmark?",
+"a": "Peritonealdialyse",
+"w": [
+"Hæmodialyse",
+"Hæmodiafiltration"
+],
+"p": 223,
+"lvl": "K",
+"type": "fakta",
+"why": "PD vælges ofte, så barnet kan være mest muligt i vante rammer hjemme."
+},
+{
+"id": "22:n0",
+"q": "Hvorfor vælges PD ofte frem for HD til børn?",
+"a": "Barnet kan være hjemme",
+"w": [
+"PD giver mere ultrafiltration",
+"HD kan ikke udføres hos børn"
+],
+"p": 223,
+"lvl": "K",
+"type": "forståelse",
+"why": "PD gør det muligt at holde barnet mest muligt i vante rammer i hjemmet."
+},
+{
+"id": "22:n1",
+"q": "Et barn i PD har mistet restnyrefunktion og har stort behov for ultrafiltration. Hvad er næste skridt?",
+"a": "Skift til hæmodialyse",
+"w": [
+"Dialysepause i en periode",
+"Kun ændring af kosten"
+],
+"p": 223,
+"lvl": "K",
+"type": "anvendelse",
+"why": "HD bruges sekundært ved komplikationer til PD, svigt af PD-effekt, tab af restnyrefunktion og stort behov for ultrafiltration."
+},
+{
+"id": "22:3",
+"q": "Ned til hvilken legemsvægt kan HD principielt udføres hos børn?",
+"a": "Cirka 1 kg",
+"w": [
+"Cirka 5 kg",
+"Cirka 10 kg"
+],
+"p": 223,
+"lvl": "D",
+"type": "fakta",
+"why": "Det er ekstremt; i praksis er børnene væsentligt større ved HD-start."
+},
+{
+"id": "22:4",
+"q": "Hvilken karadgang foretrækkes til HD hos børn under 8-10 år?",
+"a": "CVK i højre v. jugularis",
+"w": [
+"AV-fistel på venstre underarm",
+"AV-graft på overarmen"
+],
+"p": 223,
+"lvl": "K",
+"type": "fakta",
+"why": "Hos små børn kan det være vanskeligt at anlægge og kanylere en AV-fistel."
+},
+{
+"id": "22:5",
+"q": "Hvilken adgang foretrækkes til længerevarende HD hos børn over 10 år?",
+"a": "AV-fistel",
+"w": [
+"Dialysekateter",
+"Femoralkateter"
+],
+"p": 223,
+"lvl": "K",
+"type": "fakta",
+"why": "Kateterbaseret dialyse giver flere komplikationer og infektioner end AV-fistel."
+},
+{
+"id": "22:n2",
+"q": "Hvornår bruges dialysekateter især hos børn?",
+"a": "Ved kort ventetid på transplantation",
+"w": [
+"Ved forventet langvarig dialysebehandling",
+"Hos store børn over 10 år"
+],
+"p": 223,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Kateter anvendes særligt, når tiden til nyretransplantation forventes at være kort, trods flere komplikationer."
+},
+{
+"id": "22:6",
+"q": "Hvor stort må det ekstrakorporale volumen højst være hos børn i HD?",
+"a": "10 % af blodvolumen",
+"w": [
+"25 % af blodvolumen",
+"50 % af blodvolumen"
+],
+"p": 224,
+"lvl": "K",
+"type": "fakta",
+"why": "Små børn får børnefiltre og -slanger med mindre volumen for at holde sig under grænsen."
+},
+{
+"id": "22:7",
+"q": "Hvordan estimeres børns blodvolumen ud fra legemsvægt?",
+"a": "8 % af legemsvægten",
+"w": [
+"3 % af legemsvægten",
+"20 % af legemsvægten"
+],
+"p": 224,
+"lvl": "U",
+"type": "fakta",
+"why": "Blodvolumen bruges til at beregne grænsen for ekstrakorporalt volumen."
+},
+{
+"id": "22:8",
+"q": "Hvad kan filter og slanger primes med, hvis grænsen for ekstrakorporalt volumen overskrides?",
+"a": "Donorblod med albumin 5 %",
+"w": [
+"Isotonisk glukose 5 % i vand",
+"Albumin 20 % uden blod"
+],
+"p": 224,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Prime med donorblod og albumin 5 % bruges, når det ekstrakorporale volumen ellers ville overstige 10 % af blodvolumen."
+},
+{
+"id": "22:9",
+"q": "Hvilket blodflow sigtes gradvist mod hos børn i HD?",
+"a": "7 ml/min./kg",
+"w": [
+"2 ml/min./kg",
+"20 ml/min./kg"
+],
+"p": 224,
+"lvl": "K",
+"type": "fakta",
+"why": "Gradvis opstart sigter mod at undgå dysækvilibrering."
+},
+{
+"id": "22:10",
+"q": "Hvor stort væsketræk over 3-4 timer tåles oftest hos børn?",
+"a": "3-5 % af vægten",
+"w": [
+"0,5-1 % af vægten",
+"10-15 % af vægten"
+],
+"p": 224,
+"lvl": "K",
+"type": "fakta",
+"why": "Som hos voksne er der risiko for blodtryksfald ved for stort væsketræk pr. tidsenhed."
+},
+{
+"id": "22:12",
+"q": "Hvor mange gange om ugen dialyseres børn i HD oftest som minimum?",
+"a": "Fire",
+"w": [
+"Tre",
+"Seks"
+],
+"p": 224,
+"lvl": "K",
+"type": "fakta",
+"why": "Det afhænger af restnyrefunktion og diurese; små børn med flydende kost kan have brug for 4-7 dialyser ugentligt."
+},
+{
+"id": "22:n3",
+"q": "Hvorfor har små børn med flydende kost brug for hyppig dialyse?",
+"a": "Højt UF-behov",
+"w": [
+"Mere uræmi fra protein",
+"Lavere blodflow under HD"
+],
+"p": 224,
+"lvl": "K",
+"type": "forståelse",
+"why": "Meget af kosten er flydende, fx sondemad, så kravet til ultrafiltration er stort, især hos anuriske børn."
+},
+{
+"id": "22:13",
+"q": "Hvilke Kt/V-mål bruges til børn i HD?",
+"a": "Samme som til voksne",
+"w": [
+"Højere end til voksne",
+"Der findes ingen mål"
+],
+"p": 224,
+"lvl": "U",
+"type": "fakta",
+"why": "Det skyldes manglende evidens og registererfaring for børn; dosering som ved anuri kan være nødvendig."
+},
+{
+"id": "22:n4",
+"q": "Hvad gælder for HD kontra HDF hos børn?",
+"a": "Usikkert, om HDF er bedre",
+"w": [
+"HDF er klart bedre end HD",
+"HD er klart bedre end HDF"
+],
+"p": 224,
+"lvl": "U",
+"type": "fakta",
+"why": "Små studier har vist mulig gavn af HDF, men valget synes ikke afgørende, især ved kort dialysetid til transplantation."
+},
+{
+"id": "22:14",
+"q": "Hvad påvirker børns blodtryk især?",
+"a": "Hydrering",
+"w": [
+"Barnets køn",
+"Barnets højde"
+],
+"p": 224,
+"lvl": "K",
+"type": "forståelse",
+"why": "Derfor er vurdering af tørvægt vigtig og sker hyppigt, undertiden ved hver dialyse."
+},
+{
+"id": "22:15",
+"q": "Et barn i HD har markant hypertension, men ser ikke overhydreret ud. Hvad skal man mistænke?",
+"a": "Skjult overhydrering",
+"w": [
+"Dehydrering af barnet",
+"Anæmi hos barnet"
+],
+"p": 224,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Overhydrering sker ofte uden synlige tegn og kan i værste fald give generaliserede kramper."
+},
+{
+"id": "22:16",
+"q": "Hvad må prioriteres over ønsket om vægtøgning hos børn i HD?",
+"a": "Blodtrykskontrol",
+"w": [
+"Barnets kalorieindtag",
+"Barnets længdevækst"
+],
+"p": 224,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er ingen sikker målemetode for optimal hydrering, men blodtrykket er vejledende, så det må vægtes højest."
+},
+{
+"id": "22:n5",
+"q": "Hvad afgør primært langtidsprognosen hos børn i HD?",
+"a": "Nyretransplantation",
+"w": [
+"Valg af filtertype",
+"Antal ugentlige dialyser"
+],
+"p": 224,
+"lvl": "K",
+"type": "fakta",
+"why": "Prognosen afhænger overordnet af, om barnet nyretransplanteres."
+},
+{
+"id": "22:n6",
+"q": "Hvilke infektioner er hyppige ved dialysekateter hos børn i HD?",
+"a": "Infektioner i adgangsvejen",
+"w": [
+"Urinvejsinfektioner ved kateter",
+"Lungebetændelse efter dialyse"
+],
+"p": 224,
+"lvl": "U",
+"type": "fakta",
+"why": "Adgangsvejsrelaterede infektioner er hyppige ved dialysekateter og er en vigtig dødsårsag via sepsis."
+},
+{
+"id": "22:22",
+"q": "Hvad er de overvejende dødsårsager hos børn i HD?",
+"a": "Sepsis og hjertesygdom",
+"w": [
+"Cancer og blødning",
+"Hyperkaliæmi og kramper"
+],
+"p": 225,
+"lvl": "K",
+"type": "fakta",
+"why": "Prognosen er markant bedre uden alvorlige ledsagende sygdomme og hos ældre børn ved HD-start."
+},
+{
+"id": "22:23",
+"q": "Et barn på 1 år får hjertestop under HD. Hvor føles pulsen lettest?",
+"a": "A. brachialis",
+"w": [
+"A. carotis på halsen",
+"A. femoralis i lysken"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hos børn under 2 år føles pulsen lettest på overarmens inderside; hos større børn på halsen eller i lysken."
+},
+{
+"id": "22:n7",
+"q": "Et barn får under HD pludselig hoste og uro. Hvad skal man mistænke?",
+"a": "Fremmedlegeme i luftvejene",
+"w": [
+"Feberkramper under dialyse",
+"Blodtryksfald under dialyse"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Obstruerede luftveje skyldes oftest aspiration; man tilkalder hjælp og fjerner fremmedlegemet efter retningslinjer for aldersgruppen."
+},
+{
+"id": "22:24",
+"q": "Hvilken årsag kan give respirationsstop under HD hos børn?",
+"a": "Allergisk reaktion på albumin",
+"w": [
+"For lavt blodflow i kredsløbet",
+"Lavt natrium i dialysatet"
+],
+"p": 225,
+"lvl": "U",
+"type": "fakta",
+"why": "Respirationsstop kan også skyldes obstruktion, massivt blodtryksfald, hjertestop, forgiftning eller neurologisk skade."
+},
+{
+"id": "22:25",
+"q": "Et barn får blodtryksfald under HD pga. for stort væsketræk. Hvad gør man først?",
+"a": "Stopper væsketræk, lægger ned",
+"w": [
+"Øger blodflowet og væsketrækket",
+"Giver ekstra heparin"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Derefter løftes benene, blodflowet reduceres, og der gives ilt og isotonisk NaCl eller albumin 20 %."
+},
+{
+"id": "22:27",
+"q": "Hvad forårsager dysækvilibrium-syndrom under HD?",
+"a": "For hurtig karbamidfjernelse",
+"w": [
+"For lidt dialyse i ugen",
+"For meget heparin i kredsløbet"
+],
+"p": 225,
+"lvl": "K",
+"type": "forståelse",
+"why": "Årsagen er for hurtig clearance af karbamid, dvs. for effektiv dialyse. Gradvis opstart af blodflow sigter mod at undgå tilstanden."
+},
+{
+"id": "22:28",
+"q": "Et barn får under HD hovedpine, stigende blodtryk, faldende puls og uro. Hvad mistænkes?",
+"a": "Dysækvilibrium-syndrom",
+"w": [
+"Svær hyperkaliæmi ved HD",
+"Hypovolæmi ved for stort UF"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Typiske tegn er også kvalme, opkastning, muskelkramper og konfusion."
+},
+{
+"id": "22:29",
+"q": "Hvad gøres ved dysækvilibrium-syndrom hos et barn i HD?",
+"a": "Sænker blodflow, bypasser dialysat",
+"w": [
+"Øger både blodflow og væsketræk",
+"Øger ultrafiltrationen og blodflowet"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ultrafiltrationen stoppes, og dialysen afbrydes evt."
+},
+{
+"id": "22:30",
+"q": "Et barn i HD har muskelsvaghed og paralytisk ileus. Hvad mistænkes?",
+"a": "Svær hyperkaliæmi",
+"w": [
+"Dysækvilibrium-syndrom",
+"Hypovolæmi"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Svær hyperkaliæmi er livstruende med risiko for arytmier og hjertestop."
+},
+{
+"id": "22:31",
+"q": "Hvad er behandlingen af svær hyperkaliæmi hos børn?",
+"a": "Hæmodialyse, evt. calcium",
+"w": [
+"Albumin og isotont NaCl-infusion",
+"Heparin og kaliumklorid-infusion"
+],
+"p": 225,
+"lvl": "K",
+"type": "fakta",
+"why": "Natriumbikarbonat eller glukose-insulin kan også gives."
+},
+{
+"id": "22:33",
+"q": "Et barn får feberkramper under HD. Hvad gør man med dialysattemperaturen?",
+"a": "Sænker til 35 °C",
+"w": [
+"Hæver den til 39 °C",
+"Ændrer den ikke"
+],
+"p": 225,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Barnet afdækkes og beskyttes mod stød, og der gives krampestillende medicin under observation af respirationen."
+},
+{
+"id": "22:35",
+"q": "Hvilken risiko har børn i HD mht. vækst?",
+"a": "Lavere længdevækst",
+"w": [
+"Hurtigere længdevækst",
+"Overvægt og fedme"
+],
+"p": 226,
+"lvl": "U",
+"type": "fakta",
+"why": "Catch-up-vækst ses ved øget dosis og frekvens, men ofte kun til et niveau under gennemsnittet."
+},
+{
+"id": "22:36",
+"q": "Hvad kan ske med væksten efter øget dialysedosis hos børn?",
+"a": "Catch-up under gennemsnittet",
+"w": [
+"Fuld normalisering af væksten",
+"Vækststop efter HD-start"
+],
+"p": 226,
+"lvl": "U",
+"type": "fakta",
+"why": "Catch-up ses efter HD-start eller øgning af dosis og frekvens, men når ofte ikke det forventede niveau."
+},
+{
+"id": "22:37",
+"q": "Hvilken behandling kan bruges til at fremme væksten hos børn i HD?",
+"a": "Væksthormon",
+"w": [
+"Jerntilskud",
+"Insulin"
+],
+"p": 226,
+"lvl": "U",
+"type": "fakta",
+"why": "Væksthormon gives i pædiatrisk regi."
+},
+{
+"id": "22:38",
+"q": "Hvorfor kan børn i dialyse have kognitive problemer?",
+"a": "Uræmi hæmmer hjernens udvikling",
+"w": [
+"Hypotension under hver HD-behandling",
+"For meget heparin i dialysen"
+],
+"p": 226,
+"lvl": "U",
+"type": "forståelse",
+"why": "Forældre og pædagoger skal have oplysning om sammenhængen."
+},
+{
+"id": "22:n8",
+"q": "Hvordan doseres heparin under HD hos børn?",
+"a": "Efter legemsvægt",
+"w": [
+"Samme dosis som til voksne",
+"Efter alder"
+],
+"p": 223,
+"lvl": "U",
+"type": "fakta",
+"why": "Retningslinjerne er som hos voksne, men dosis af heparin eller heparinanaloger gives efter vægt."
+}
+]

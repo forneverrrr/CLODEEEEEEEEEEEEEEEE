@@ -1,0 +1,610 @@
+[
+{
+"id": "1:0",
+"q": "Hvor mange års undervisning skal alle børn i Danmark mindst have?",
+"a": "Ti år",
+"w": [
+"Seks år",
+"Tolv år"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er undervisningspligt: alle børn skal have mindst ti års undervisning. Det kan ske i folkeskolen eller på en anden skole."
+},
+{
+"id": "1:1",
+"q": "Hvad koster det at gå i folkeskolen?",
+"a": "Det er gratis",
+"w": [
+"Forældrene betaler en del",
+"Det er kun gratis til 6. klasse"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkeskolen er gratis for alle børn. Det er på friskoler og privatskoler, at forældrene betaler direkte til skolen."
+},
+{
+"id": "1:2",
+"q": "Hvor gamle er børn cirka, når de starter i børnehaveklassen?",
+"a": "Omkring seks år",
+"w": [
+"Omkring tre år",
+"Omkring otte år"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "Børnene starter i børnehaveklassen, når de er omkring seks år. Dér begynder de at lære bogstaver og tal."
+},
+{
+"id": "1:3",
+"q": "Hvor mange år varer folkeskolen?",
+"a": "10 år",
+"w": [
+"8 år",
+"12 år"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkeskolen varer 10 år: børnehaveklassen og derefter 1.-9. klasse."
+},
+{
+"id": "1:4",
+"q": "Hvad begynder børnene at lære i børnehaveklassen?",
+"a": "Bogstaver og tal",
+"w": [
+"Fysik og kemi",
+"Fremmedsprog"
+],
+"p": 6,
+"lvl": "U",
+"type": "fakta",
+"why": "I børnehaveklassen begynder børnene at lære bogstaver og tal. Det er starten på skolegangen."
+},
+{
+"id": "1:5",
+"q": "Hvilke klassetrin dækker indskolingen i folkeskolen?",
+"a": "Børnehaveklassen til 3. klasse",
+"w": [
+"4. til 6. klasse",
+"7. til 9. klasse"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkeskolen har tre trin. Indskolingen går fra børnehaveklassen til 3. klasse."
+},
+{
+"id": "1:6",
+"q": "Hvilke klassetrin dækker mellemtrinnet i folkeskolen?",
+"a": "4. til 6. klasse",
+"w": [
+"1. til 3. klasse",
+"7. til 9. klasse"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Mellemtrinnet kommer efter indskolingen og går fra 4. til 6. klasse. Derefter følger udskolingen (7.-9. klasse)."
+},
+{
+"id": "1:8",
+"q": "Hvor mange trin har en folkeskole som regel?",
+"a": "Tre",
+"w": [
+"To",
+"Fire"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "En folkeskole har som regel tre trin: indskoling, mellemtrin og udskoling."
+},
+{
+"id": "1:9",
+"q": "Hvad gælder for 10. klasse?",
+"a": "Den er frivillig",
+"w": [
+"Den er obligatorisk",
+"Den findes ikke i folkeskolen"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter 9. klasse kan man vælge 10. klasse, gå videre i uddannelsessystemet eller ud på arbejdsmarkedet. Cirka halvdelen vælger 10. klasse."
+},
+{
+"id": "1:10",
+"q": "Hvor stor en andel af eleverne tilmelder sig cirka 10. klasse?",
+"a": "Cirka halvdelen",
+"w": [
+"Cirka en tiendedel",
+"Næsten alle"
+],
+"p": 7,
+"lvl": "U",
+"type": "fakta",
+"why": "10. klasse er frivillig, men cirka halvdelen af eleverne vælger den."
+},
+{
+"id": "1:11",
+"q": "Hvilken lov fastlægger rammerne for folkeskolen?",
+"a": "Folkeskoleloven",
+"w": [
+"Grundloven",
+"Uddannelsesloven"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkeskoleloven fastlægger formål, fag og timetal i folkeskolen."
+},
+{
+"id": "1:13",
+"q": "I hvilke fag lærer eleverne ofte om frihed, folkestyre og demokrati?",
+"a": "Historie, dansk og samfundsfag",
+"w": [
+"Matematik, fysik og kemi",
+"Idræt, musik og madkundskab"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Skolen skal præges af åndsfrihed, ligeværd og demokrati. Eleverne undervises ofte i dette i historie, dansk og samfundsfag."
+},
+{
+"id": "1:14",
+"q": "Ved hvilke skoler har eleverne ret til et elevråd?",
+"a": "Skoler med 5. klasse og op",
+"w": [
+"Kun skoler med 10. klasse",
+"Kun efterskoler"
+],
+"p": 7,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved hver skole med fem eller højere klassetrin har eleverne ret til at danne et elevråd."
+},
+{
+"id": "1:15",
+"q": "Hvor mange elever består et elevråd af som minimum?",
+"a": "Én elev fra hver klasse",
+"w": [
+"To elever fra hver klasse",
+"Kun elever fra 9. klasse"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Et elevråd består af mindst en elev fra hver klasse, så alle klasser er repræsenteret."
+},
+{
+"id": "1:16",
+"q": "Hvad er elevrådet først og fremmest med til at bestemme?",
+"a": "Sager om elevernes egen skoledag",
+"w": [
+"Lærernes løn",
+"Skolens budget"
+],
+"p": 7,
+"lvl": "K",
+"type": "fakta",
+"why": "Elevrådet bestemmer først og fremmest sager om elevernes skoledag, fx maden i kantinen. Skolen kan også spørge om større beslutninger."
+},
+{
+"id": "1:17",
+"q": "Hvor mange elever sidder mindst i skolebestyrelsen?",
+"a": "To",
+"w": [
+"Én",
+"Fem"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "Mindst to elevrepræsentanter sidder i skolebestyrelsen sammen med forældre og personale."
+},
+{
+"id": "1:18",
+"q": "Hvem udgør flertallet i en skolebestyrelse?",
+"a": "Forældrene",
+"w": [
+"Lærerne",
+"Eleverne"
+],
+"p": 9,
+"lvl": "K",
+"type": "fakta",
+"why": "Skolebestyrelsen har forældre, personale og elever. Forældrene har flest pladser og udgør flertallet."
+},
+{
+"id": "1:19",
+"q": "Hvor mange lokale repræsentanter fra erhvervsliv eller foreninger kan sidde i en skolebestyrelse?",
+"a": "Op til to",
+"w": [
+"Op til fem",
+"Op til ti"
+],
+"p": 9,
+"lvl": "U",
+"type": "fakta",
+"why": "Ud over forældre, personale og elever kan en skolebestyrelse have op til to lokale repræsentanter."
+},
+{
+"id": "1:20",
+"q": "Hvad hedder den karakterskala, der bruges i Danmark?",
+"a": "7-trins-skalaen",
+"w": [
+"10-trins-skalaen",
+"5-trins-skalaen"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "7-trins-skalaen bruges overalt i det danske uddannelsessystem."
+},
+{
+"id": "1:22",
+"q": "Fra hvilken klasse får eleverne karakterer i folkeskolen?",
+"a": "8. klasse",
+"w": [
+"2. klasse",
+"4. klasse"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "Fra 0. til 7. klasse får børnene ikke karakterer. Fra 8. klasse får de karakterer mindst to gange om året."
+},
+{
+"id": "1:23",
+"q": "I hvilke klasser kan skolen i nogle tilfælde give standpunktskarakterer?",
+"a": "6. og 7. klasse",
+"w": [
+"2. og 3. klasse",
+"4. og 5. klasse"
+],
+"p": 8,
+"lvl": "U",
+"type": "fakta",
+"why": "Selv om karakterer starter i 8. klasse, kan skolen give standpunktskarakterer og feedback i 6. og 7. klasse."
+},
+{
+"id": "1:24",
+"q": "Hvornår aflægger eleverne prøve i mange fag?",
+"a": "Efter 9. klasse",
+"w": [
+"Efter 3. klasse",
+"Efter 6. klasse"
+],
+"p": 8,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter 9. klasse aflægger eleverne prøve i mange fag. Prøverne kan være mundtlige og skriftlige."
+},
+{
+"id": "1:25",
+"q": "Fra hvilken klasse har eleverne en meddelelsesbog?",
+"a": "Fra børnehaveklassen",
+"w": [
+"Fra 4. klasse",
+"Fra 8. klasse"
+],
+"p": 8,
+"lvl": "D",
+"type": "fakta",
+"why": "Meddelelsesbogen bruges fra børnehaveklassen til og med 9. klasse."
+},
+{
+"id": "1:26",
+"q": "Hvad er en meddelelsesbog?",
+"a": "Lærerens vurdering af elevens faglige niveau",
+"w": [
+"En liste over skolens regler",
+"Et skema over elevens fravær"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "I meddelelsesbogen vurderer læreren, hvordan eleven klarer sig fagligt. Klasselæreren kan også vurdere det sociale og skrive, hvad eleven skal fokusere på."
+},
+{
+"id": "1:27",
+"q": "Hvor meget støtte skal en elev have brug for, før skolen skal tilbyde specialundervisning?",
+"a": "Mindst ni timer om ugen",
+"w": [
+"Mindst tre timer om ugen",
+"Mindst femten timer om ugen"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "Hvis en elev har brug for støtte i mindst ni undervisningstimer om ugen, skal eleven have tilbudt specialundervisning."
+},
+{
+"id": "1:28",
+"q": "Hvor undervises elever som udgangspunkt i folkeskolen?",
+"a": "I en almindelig klasse",
+"w": [
+"I en specialklasse",
+"På en efterskole"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "Elever undervises som udgangspunkt i en almindelig klasse. De kommer kun i en specialklasse, hvis de har et særligt behov."
+},
+{
+"id": "1:29",
+"q": "Hvor ofte inviteres forældre på de fleste skoler til skole-hjem-samtale?",
+"a": "Mindst én gang om året",
+"w": [
+"Hver måned",
+"Hvert tredje år"
+],
+"p": 9,
+"lvl": "K",
+"type": "fakta",
+"why": "Skole-hjem-samtalen handler om barnets trivsel, faglige niveau og meddelelsesbogen. Den holdes på de fleste skoler mindst én gang om året."
+},
+{
+"id": "1:30",
+"q": "Hvor længe varer en skole-hjem-samtale som regel?",
+"a": "Omkring 15 minutter",
+"w": [
+"Omkring 5 minutter",
+"Omkring 60 minutter"
+],
+"p": 9,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "1:31",
+"q": "Hvad er skole-hjem-vejlederens opgave?",
+"a": "At styrke samarbejdet mellem skole og hjem",
+"w": [
+"At undervise i dansk",
+"At lede skolebestyrelsen"
+],
+"p": 9,
+"lvl": "U",
+"type": "fakta",
+"why": "Vejlederen skal styrke dialogen mellem skolen og hjemmet, så eleverne bliver stærkere fagligt og socialt."
+},
+{
+"id": "1:32",
+"q": "Hvor ofte holdes forældremøder i klassen på de fleste skoler?",
+"a": "En til to gange om året",
+"w": [
+"Hver uge",
+"Hver måned"
+],
+"p": 9,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "1:33",
+"q": "Hvad kan et klasseråd bl.a. arrangere?",
+"a": "Klassefester og lejrskoler",
+"w": [
+"Eksamener",
+"Valg til Folketinget"
+],
+"p": 9,
+"lvl": "K",
+"type": "fakta",
+"why": "Et klasseråd kan arrangere fester og lejrskoler, tage sig af sociale problemer og sende kritik videre til skolebestyrelsen."
+},
+{
+"id": "1:34",
+"q": "Skal forældre normalt betale for, at barnet går i en fri grundskole?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "På friskoler og privatskoler betaler forældrene direkte til skolen. I folkeskolen skal de ikke betale."
+},
+{
+"id": "1:35",
+"q": "Hvordan er de frie grundskoler organiseret?",
+"a": "De er selvejende",
+"w": [
+"De ejes af kommunen",
+"De ejes af staten"
+],
+"p": 10,
+"lvl": "U",
+"type": "fakta",
+"why": "Frie grundskoler er selvejende institutioner. De får dog som regel økonomisk støtte fra det offentlige."
+},
+{
+"id": "1:36",
+"q": "Hvad kræves af undervisningen på de frie grundskoler?",
+"a": "Den skal stå mål med folkeskolen",
+"w": [
+"Der er ingen krav",
+"Den skal kun handle om religion"
+],
+"p": 10,
+"lvl": "K",
+"type": "fakta",
+"why": "Undervisningen skal stå mål med, hvad der i almindelighed kræves i folkeskolen. Børnene skal altså lære det samme."
+},
+{
+"id": "1:37",
+"q": "I hvilke klasser kan unge vælge at gå på efterskole?",
+"a": "8., 9. eller 10. klasse",
+"w": [
+"Kun 10. klasse",
+"4. til 6. klasse"
+],
+"p": 10,
+"lvl": "K",
+"type": "fakta",
+"why": "Unge kan gå på efterskole i 8., 9. eller 10. klasse."
+},
+{
+"id": "1:38",
+"q": "Hvad er en efterskole?",
+"a": "En skole, hvor eleverne bor",
+"w": [
+"En skole, hvor eleverne bor hjemme",
+"En skole uden almindelige fag"
+],
+"p": 10,
+"lvl": "K",
+"type": "fakta",
+"why": "På en efterskole bor eleverne og får undervisning. De har almindelige fag som dansk og matematik samt valgfag."
+},
+{
+"id": "1:39",
+"q": "Hvad gælder om prisen på en efterskole?",
+"a": "Det koster penge",
+"w": [
+"Det er gratis",
+"Det er kun gratis for danske elever"
+],
+"p": 10,
+"lvl": "U",
+"type": "fakta",
+"why": "Det koster penge at gå på efterskole. Under særlige omstændigheder kan man få økonomisk støtte."
+},
+{
+"id": "1:n0",
+"q": "Hvad er den højeste karakter på 7-trins-skalaen?",
+"a": "12",
+"w": [
+"7",
+"10"
+],
+"p": 8,
+"lvl": "K",
+"type": "fakta",
+"why": "Den højeste karakter er 12. Skalaen bruges overalt i det danske uddannelsessystem."
+},
+{
+"id": "1:n1",
+"q": "Hvad er den laveste karakter på 7-trins-skalaen?",
+"a": "-3",
+"w": [
+"0",
+"-5"
+],
+"p": 8,
+"lvl": "U",
+"type": "fakta",
+"why": "Skalaen går fra 12 som højeste til -3 som laveste karakter."
+},
+{
+"id": "1:n2",
+"q": "Hvorfor lærer børn i folkeskolen at tænke kritisk og selvstændigt?",
+"a": "For at blive borgere i et demokrati",
+"w": [
+"For at få bedre karakterer",
+"For at kunne bo på efterskole"
+],
+"p": 6,
+"lvl": "K",
+"type": "forståelse",
+"why": "Folkeskolen skal forberede børnene til at være borgere i et demokratisk samfund. Derfor lærer de at give udtryk for deres mening."
+},
+{
+"id": "1:n3",
+"q": "Hvad kan forældre vælge i stedet for folkeskolen?",
+"a": "Friskole eller privatskole",
+"w": [
+"Ingen undervisning",
+"Kun efterskole"
+],
+"p": 6,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle børn skal have undervisning, men ikke nødvendigvis i folkeskolen. De fleste vælger dog folkeskolen."
+},
+{
+"id": "1:n4",
+"q": "Hvad betyder undervisningspligt?",
+"a": "Børn skal have undervisning",
+"w": [
+"Børn skal gå i folkeskole",
+"Børn skal gå i skole i 12 år"
+],
+"p": 6,
+"lvl": "K",
+"type": "forståelse",
+"why": "Undervisningspligt betyder, at børn skal undervises i mindst ti år. Forældrene kan selv vælge, hvor barnet får undervisningen."
+},
+{
+"id": "1:n5",
+"q": "Hvorfor er samarbejde mellem skole og hjem vigtigt?",
+"a": "Eleverne lærer bedre",
+"w": [
+"Det sparer skolen penge",
+"Forældrene skal rette lektier"
+],
+"p": 8,
+"lvl": "U",
+"type": "forståelse",
+"why": "Undersøgelser viser, at elever lærer bedre, når forældrene ved, hvad der foregår i skolen, og hjemme taler med barnet om det."
+},
+{
+"id": "1:n6",
+"q": "Forældre vil diskutere regler om madpakker i klassen. Hvor kan de gøre det?",
+"a": "På forældremødet",
+"w": [
+"I elevrådet",
+"Til skole-hjem-samtalen"
+],
+"p": 9,
+"lvl": "U",
+"type": "anvendelse",
+"why": "På forældremøder kan forældrene diskutere, hvilke regler der skal gælde i klassen, fx om madpakker og fødselsdage."
+},
+{
+"id": "1:n7",
+"q": "En elev ønsker bedre mad i skolens kantine. Hvem kan eleven gå til?",
+"a": "Elevrådet",
+"w": [
+"Klasserådet",
+"Kommunen"
+],
+"p": 7,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Elevrådet er først og fremmest med til at bestemme sager om elevernes skoledag, fx maden i kantinen."
+},
+{
+"id": "1:n8",
+"q": "Hvad skal folkeskolen være præget af?",
+"a": "Åndsfrihed, ligeværd og demokrati",
+"w": [
+"Religion og traditioner",
+"Konkurrence og karakterer"
+],
+"p": 7,
+"lvl": "U",
+"type": "fakta",
+"why": "Skolen skal være præget af åndsfrihed, ligeværd og demokrati, så eleverne forberedes til medansvar, rettigheder og pligter i et samfund med frihed og folkestyre."
+},
+{
+"id": "1:n9",
+"q": "Hvorfor vælger mange unge efterskole?",
+"a": "For at prøve noget nyt og flytte hjemmefra",
+"w": [
+"For at få gratis uddannelse",
+"For at få karakterer tidligere"
+],
+"p": 10,
+"lvl": "U",
+"type": "forståelse",
+"why": "Mange vælger efterskole for at prøve noget nyt, få nye kammerater og flytte hjemmefra. Det koster dog penge."
+}
+]

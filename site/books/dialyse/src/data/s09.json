@@ -1,0 +1,1600 @@
+[
+{
+"id": "9:0",
+"q": "Hvilke adgangsveje kræver kirurgi, for at perifere vener kan bruges til HD?",
+"a": "AV-fistel eller AV-graft",
+"w": [
+"HD-CVK i den centrale vene",
+"Midlertidigt kateter i v. femoralis"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "Perifere vener kan kun bruges efter anlæggelse af AV-fistel eller AV-graft (bridgegraft). Central adgang sker via HD-CVK uden denne operation."
+},
+{
+"id": "9:1",
+"q": "Hvorfor kan perifere vener ikke bruges til HD uden kirurgi?",
+"a": "Tåler ikke gentagen punktur og kollapser ved sug",
+"w": [
+"Venen er for lang til nåle",
+"Venen har for højt tryk"
+],
+"p": 97,
+"lvl": "K",
+"type": "forståelse",
+"why": "Venens størrelse og vægtykkelse tåler ikke gentagen punktur, og venen kollapser af dialyseapparatets indsugningstryk."
+},
+{
+"id": "9:2",
+"q": "Hvorfor forbindes en perifer vene til en arterie ved fistelanlæggelse?",
+"a": "Højt tryk får venen til at vokse",
+"w": [
+"Det mindsker blodets koagulation",
+"Det sænker patientens blodtryk"
+],
+"p": 97,
+"lvl": "K",
+"type": "forståelse",
+"why": "Arterien leverer højere tryk og flow. Over 6-8 uger øges venens størrelse og vægtykkelse, så den kan give sufficient flow og tåle punktur."
+},
+{
+"id": "9:4",
+"q": "Hvilket blodflow leverer en moden AV-fistel optimalt til dialysen?",
+"a": "600-1.000 ml/min.",
+"w": [
+"100-200 ml/min.",
+"2.000-3.000 ml/min."
+],
+"p": 97,
+"lvl": "U",
+"type": "fakta",
+"why": "Sufficient blodflow til dialysen kræver en moden vene med tilstrækkelig størrelse og vægtykkelse."
+},
+{
+"id": "9:5",
+"q": "Hvilken adgangsvej har lavest infektionsrisiko?",
+"a": "AV-fistel",
+"w": [
+"Bridgegraft",
+"HD-CVK"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "Infektionsrisikoen er lavest med anvendelse af en AV-fistel frem for bridgegraft eller HD-CVK."
+},
+{
+"id": "9:6",
+"q": "Hvilken rækkefølge følger valget af karadgang?",
+"a": "Vene, graft, derefter kateter",
+"w": [
+"Kateter, graft, derefter vene",
+"Graft, kateter, derefter vene"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "Strategien er vene først, derefter graft og dernæst kateter, hvis mulighederne er udtømte."
+},
+{
+"id": "9:n0",
+"q": "En patient har forventet kort restlevetid og hjerteinsufficiens. Hvilken adgang kan være bedre end fistel?",
+"a": "HD-CVK eller bridgegraft",
+"w": [
+"Altid en AV-fistel",
+"Femoral fistel på benet"
+],
+"p": 97,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Forventet restlevetid, hudkvalitet, vene-/arterieforhold og hjerteinsufficiens kan tale for HD-CVK eller bridgegraft."
+},
+{
+"id": "9:7",
+"q": "Hvilken skade kan gentagne HD-CVK-anlæggelser give i venerne?",
+"a": "Arvæv med stenose eller okklusion",
+"w": [
+"Aneurismer i de centrale vener",
+"Klapinsufficiens i armvenerne"
+],
+"p": 97,
+"lvl": "K",
+"type": "fakta",
+"why": "Stenose/okklusion kan hindre senere anlæggelse af nyt HD-CVK eller AV-fistel."
+},
+{
+"id": "9:n1",
+"q": "Hvorfor bør patienter med fremadskridende nyresvigt henvises i god tid før dialysestart?",
+"a": "For at undgå unødige HD-CVK",
+"w": [
+"For at få transplantation hurtigere",
+"For at spare dialysemaskiner"
+],
+"p": 97,
+"lvl": "K",
+"type": "forståelse",
+"why": "Med tid kan en fistel nå at modnes. Dermed undgås HD-CVK, som kan give stenoser og infektion."
+},
+{
+"id": "9:n2",
+"q": "Hvorfor bør man undgå stik i perifere vener hos patienter med fremadskridende nyresvigt?",
+"a": "For at bevare mulighed for fistelanlæggelse",
+"w": [
+"For at undgå infektion i venen",
+"For at undgå hæmatomer og smerter"
+],
+"p": 97,
+"lvl": "K",
+"type": "forståelse",
+"why": "Indstik i perifere vener kan ødelægge de vener, som skal bruges til en fistel."
+},
+{
+"id": "9:8",
+"q": "En patient har akut dialysebehov. Hvilken adgang anlægges primært?",
+"a": "HD-CVK",
+"w": [
+"AV-fistel",
+"AV-graft"
+],
+"p": 97,
+"lvl": "K",
+"type": "anvendelse",
+"why": "En fistel skal modnes i uger. Ved vedvarende behov etableres derefter en permanent adgang."
+},
+{
+"id": "9:9",
+"q": "En patient har tidligere haft CVK eller pacemaker. Hvad kan det give i venerne?",
+"a": "Stenoser i de centrale vener",
+"w": [
+"Arteriel forkalkning i armen",
+"Koagulationsforstyrrelser i blodet"
+],
+"p": 98,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tidligere CVK eller pacemaker kan give centrale stenoser og indgår derfor i vurderingen af egnethed til AV-fistel."
+},
+{
+"id": "9:10",
+"q": "Hvilken arm vælges helst til AV-fistel?",
+"a": "Den ikke-dominante arm",
+"w": [
+"Den dominante arm",
+"Altid armen på højre side"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Fistlen anlægges om muligt på den arm, patienten bruger mindst."
+},
+{
+"id": "9:11",
+"q": "Hvorfor er diabetes relevant ved planlægning af AV-fistel?",
+"a": "Giver forkalkede arterier",
+"w": [
+"Giver tynde vener",
+"Giver øget blødningstendens"
+],
+"p": 98,
+"lvl": "U",
+"type": "forståelse",
+"why": "Grundsygdom som diabetes kan give forkalkning i arterierne."
+},
+{
+"id": "9:12",
+"q": "En patient med svær hjerteinsufficiens skal have fistel. Hvad er risikoen?",
+"a": "Forværring ved højt fistelflow",
+"w": [
+"Svær blødning efter operationen",
+"Hurtig trombose af fistlen"
+],
+"p": 98,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højt fistelflow belaster hjertet, så svær hjerteinsufficiens er en vigtig faktor i vurderingen."
+},
+{
+"id": "9:n3",
+"q": "Hvorfor er koagulationsforstyrrelser relevante før fistelanlæggelse?",
+"a": "De kan give tromboser",
+"w": [
+"De giver infektioner",
+"De hæmmer venemodning"
+],
+"p": 98,
+"lvl": "U",
+"type": "forståelse",
+"why": "Koagulationsforstyrrelser kan give trombose i fistlen."
+},
+{
+"id": "9:13",
+"q": "Hvad vurderer Allen's test før fistelanlæggelse?",
+"a": "Underarmsarteriedominans",
+"w": [
+"Venens elasticitet og størrelse",
+"Håndledspulsens styrke og rytme"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Testen indgår i den objektive undersøgelse sammen med ultralyd af arterier og vener."
+},
+{
+"id": "9:15",
+"q": "Hvad siger opmåling af overfladiske vener med stase om fistlens udsigter?",
+"a": "Venens elasticitet og modningspotentiale",
+"w": [
+"Arteriens grad af forkalkning",
+"Fistlens risiko for steal-syndrom"
+],
+"p": 98,
+"lvl": "U",
+"type": "forståelse",
+"why": "Opmåling af vv. basilica og cephalica, evt. med stase, giver indtryk af elasticitet og dermed modningspotentialet."
+},
+{
+"id": "9:n4",
+"q": "Der ses kollaterale vener på overarm og forside af thorax. Hvad tyder det på?",
+"a": "Central stenose",
+"w": [
+"Arteriel okklusion",
+"Hjerteinsufficiens"
+],
+"p": 98,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Synlige kollateraler på overarm og thorax kan være tegn på stenosering i de centrale vener."
+},
+{
+"id": "9:16",
+"q": "Hvilken anæstesi foretrækkes ved fistelanlæggelse?",
+"a": "Regional anæstesi",
+"w": [
+"Generel anæstesi altid",
+"Ingen anæstesi overhovedet"
+],
+"p": 98,
+"lvl": "U",
+"type": "fakta",
+"why": "Operationen kan udføres i lokal, regional eller generel anæstesi, men regional foretrækkes."
+},
+{
+"id": "9:17",
+"q": "Hvilken anastomosetype anlægges mellem vene og arterie ved fistel?",
+"a": "End-to-side",
+"w": [
+"Side-to-side",
+"End-to-end"
+],
+"p": 98,
+"lvl": "K",
+"type": "fakta",
+"why": "Anastomosen anlægges end-to-side, helst vinkelret på arterien, uanset hvilke kar der forbindes."
+},
+{
+"id": "9:21",
+"q": "Hvilken AV-fistel er den hyppigste?",
+"a": "Radiocephal fistel",
+"w": [
+"Brachiocephal fistel",
+"Ulnarbasilar fistel"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "V. cephalica forbindes ved håndleddet med a. radialis."
+},
+{
+"id": "9:22",
+"q": "Hvilken overarmsfistel er den hyppigste?",
+"a": "Brachiocephal fistel",
+"w": [
+"Brachiobasilar fistel",
+"Femoral fistel"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Den forbinder v. cephalica og a. brachialis."
+},
+{
+"id": "9:23",
+"q": "Hvilke risici er der ved brachiocephal fistel?",
+"a": "Steal og high-flow-fistel",
+"w": [
+"Hyppig lokal infektion i såret",
+"Hyppig spontan ruptur af fistlen"
+],
+"p": 99,
+"lvl": "K",
+"type": "fakta",
+"why": "Det høje flow giver risiko for iskæmi i hånden og for udvikling af high-flow-fistel."
+},
+{
+"id": "9:n5",
+"q": "Hvad opnås ved superficialisering af en overarmsfistel?",
+"a": "Fistlen ligger lige under huden, tilgængelig for kanylering",
+"w": [
+"Fistlen får højere blodflow",
+"Fistlen bliver kortere og tykkere"
+],
+"p": 99,
+"lvl": "U",
+"type": "forståelse",
+"why": "Subcutis trækkes ned under fistlen, så den ligger under huden. En brachiobasilar fistel skal næsten altid transponeres eller superficialiseres."
+},
+{
+"id": "9:24",
+"q": "Hvordan placeres en bridgegraft på armen typisk?",
+"a": "Tunneleret loop lige under huden",
+"w": [
+"Dybt under overarmens muskler",
+"I en kanal i knoglen på armen"
+],
+"p": 99,
+"lvl": "U",
+"type": "fakta",
+"why": "Den anlægges som tunneleret loop på underarmen mellem a. brachialis og en egnet vene."
+},
+{
+"id": "9:25",
+"q": "Hvad er formålet med graftens dobbelte væglag?",
+"a": "At lette hæmostasen efter kanylering",
+"w": [
+"At øge flowet i graften",
+"At mindske risikoen for infektion"
+],
+"p": 99,
+"lvl": "U",
+"type": "forståelse",
+"why": "Det dobbelte væglag er konstrueret til at lette hæmostasen efter kanylering."
+},
+{
+"id": "9:32",
+"q": "Hvad kaldes den fornemmelse, der viser en fungerende fistel?",
+"a": "Thrill (svir)",
+"w": [
+"Pulsativt flow",
+"Krepitation"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Thrill kan føles eller høres med stetoskop eller UL-doppler."
+},
+{
+"id": "9:33",
+"q": "Hvorfor opstår thrill over en fistel?",
+"a": "Turbulens får venevæggen til at vibrere",
+"w": [
+"Klapperne i venen lukker brat",
+"Muskelspænding i underarmen"
+],
+"p": 100,
+"lvl": "K",
+"type": "forståelse",
+"why": "Blodet strømmer fra et højtrykssystem til et lavtrykssystem, hvilket giver turbulens."
+},
+{
+"id": "9:n6",
+"q": "En nylig anlagt fistel har ingen thrill, kun pulsativt flow. Hvad kan det skyldes?",
+"a": "Karspasme eller ikke-modnet vene",
+"w": [
+"Fistelinfektion med bakteriæmi",
+"Hjerteinsufficiens"
+],
+"p": 100,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Mange fistler har kun pulsativt flow lige efter anlæggelsen. Manglende thrill kan skyldes karspasme, eller at venen endnu ikke er vokset."
+},
+{
+"id": "9:n7",
+"q": "Hvad observeres postoperativt efter fistelanlæggelse, ud over blødning og thrill?",
+"a": "Iskæmi og nervepåvirkning",
+"w": [
+"Hjerterytme og temperatur",
+"Ødem i benene"
+],
+"p": 100,
+"lvl": "U",
+"type": "fakta",
+"why": "Nervepåvirkning kan først vurderes, når en evt. regional anæstesi er væk."
+},
+{
+"id": "9:34",
+"q": "Hvilken løftegrænse anbefales efter fistelanlæggelse (løft over ca. hvor meget undgås)?",
+"a": "Ca. 1-2 kg",
+"w": [
+"Ca. 10 kg",
+"Ca. 20 kg"
+],
+"p": 100,
+"lvl": "U",
+"type": "fakta",
+"why": "Armen aflastes efter operationsmetoden (løft over ca. 1-2 kg undgås). Tunge løft undgås, til såret er helet, op til 3 uger hos dialysepatienter."
+},
+{
+"id": "9:35",
+"q": "Hvorfor må armen ikke fikseres efter fistelanlæggelse?",
+"a": "Det giver mere ødem",
+"w": [
+"Det hæmmer venemodning",
+"Det giver trombose"
+],
+"p": 100,
+"lvl": "K",
+"type": "forståelse",
+"why": "Armen skal kun i en slynge, til anæstesien er aftaget."
+},
+{
+"id": "9:36",
+"q": "Hvornår anbefales kontrol af fistlen med UL?",
+"a": "Efter 3 uger",
+"w": [
+"Efter 1 uge",
+"Efter 3 måneder"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Her kan suturer evt. fjernes, og utilstrækkelig udvikling vurderes af karkirurg."
+},
+{
+"id": "9:37",
+"q": "Hvad er den normale gennemsnitlige modningstid for en fistel?",
+"a": "6-8 uger",
+"w": [
+"1-2 uger",
+"3-4 måneder"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Modningen vurderes løbende; manglende modning kan først endeligt bedømmes efter 6-8 uger."
+},
+{
+"id": "9:n8",
+"q": "Hvorfor vurderes fistlens udvikling med UL allerede efter 3 uger?",
+"a": "For at undgå unødig anlæggelse af HD-CVK",
+"w": [
+"For at fjerne fistlen så tidligt som muligt",
+"For at kunne starte dialyse tidligere"
+],
+"p": 103,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tidlig UL afslører stenose som årsag til manglende modning, som kan behandles, før et HD-CVK bliver nødvendigt."
+},
+{
+"id": "9:38",
+"q": "Ved hvilken diameter kan en fistel kanyleres?",
+"a": "6 mm",
+"w": [
+"2 mm",
+"12 mm"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Venen skal også være lige forløbende og ligge højst 6 mm under huden."
+},
+{
+"id": "9:39",
+"q": "Hvor dybt under huden bør fistelvenen højst ligge for kanylering?",
+"a": "6 mm",
+"w": [
+"12 mm",
+"15 mm"
+],
+"p": 100,
+"lvl": "U",
+"type": "fakta",
+"why": "Ligger venen dybere, er kanylering svær. Superficialisering kan være løsningen."
+},
+{
+"id": "9:n9",
+"q": "Hvorfor skal venevæggen være modnet før første stik?",
+"a": "Ellers risiko for blødning og pseudoaneurismer",
+"w": [
+"Ellers kollapser venen ved sug",
+"Ellers falder dialysens clearance"
+],
+"p": 100,
+"lvl": "K",
+"type": "forståelse",
+"why": "En umoden venevæg tåler ikke kanylering og kan give blødning og pseudoaneurismer."
+},
+{
+"id": "9:40",
+"q": "Hvornår bør en kunststofgraft helst først stikkes?",
+"a": "Når ødemet er væk (2-4 uger)",
+"w": [
+"Straks efter operationen",
+"Først efter 3 måneder"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Ødemet skal helst være væk, før der stikkes (2-4 uger). Ved presserende dialysebehov uden kateteradgang kan den kanyleres straks med større risiko for komplikationer."
+},
+{
+"id": "9:n10",
+"q": "En patient har presserende dialysebehov, og kateter kan ikke anlægges. Kan fistlen stikkes straks?",
+"a": "Ja, med større komplikationsrisiko",
+"w": [
+"Nej, aldrig før fistlen er moden",
+"Ja, uden øget risiko"
+],
+"p": 100,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ved presserende behov og manglende kateteradgang kan fistlen kanyleres straks, men risikoen for komplikationer er større."
+},
+{
+"id": "9:43",
+"q": "Hvordan skal venenålen ligge?",
+"a": "Antegradt",
+"w": [
+"Retrogradt",
+"Tværs"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Venenålen skal altid ligge antegradt."
+},
+{
+"id": "9:44",
+"q": "Hvor langt fra anastomosen anlægges arterienålen mindst?",
+"a": "2 cm",
+"w": [
+"0,5 cm",
+"1 cm"
+],
+"p": 100,
+"lvl": "K",
+"type": "fakta",
+"why": "Arterienålen anlægges mindst 2 cm fra anastomosen i den distale del af venen og ligger som regel også antegradt."
+},
+{
+"id": "9:n11",
+"q": "Hvilken risiko er der ved retrograd anlæggelse af arterienålen?",
+"a": "Aneurismedannelse",
+"w": [
+"Infektion",
+"Trombose"
+],
+"p": 101,
+"lvl": "U",
+"type": "forståelse",
+"why": "Retrograd arterienål giver større risiko for aneurismedannelse."
+},
+{
+"id": "9:45",
+"q": "Hvad kendetegner knaphulsteknik (buttonhole)?",
+"a": "Samme hul, retning og vinkel hver gang",
+"w": [
+"Stik fordelt langs hele fistlens længde",
+"Stik i samme område uden fast hul"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter 6-10 kanyleringer er der en fibrøs kanal. Teknikken giver nemmere selvkanylering."
+},
+{
+"id": "9:46",
+"q": "Hvor mange kanyleringer med skarpe kanyler, før stumpe kan bruges i et knaphul?",
+"a": "6-10",
+"w": [
+"1-2",
+"20-30"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "Skarpe kanyler etablerer en fibrøs kanal, hvorefter stumpe kanyler kan bruges."
+},
+{
+"id": "9:48",
+"q": "Hvad fjernes ved hver kanylering af et knaphul?",
+"a": "Sårskorpen",
+"w": [
+"Huden over venen",
+"Plastikkanylen"
+],
+"p": 101,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis skorpen ikke fjernes omhyggeligt, vokser knaphullet, og det begynder at sive."
+},
+{
+"id": "9:n12",
+"q": "Hvorfor er sårskorpen vigtig at fjerne omhyggeligt før kanylering i et knaphul?",
+"a": "Ellers vokser hullet og begynder at sive",
+"w": [
+"Ellers dannes der en trombe i hullet",
+"Ellers bliver nålen sløv"
+],
+"p": 101,
+"lvl": "U",
+"type": "forståelse",
+"why": "Et voksende knaphul giver sivning langs kanylen og hæmostaseproblemer. Ved gentagne problemer etableres et nyt knaphul."
+},
+{
+"id": "9:49",
+"q": "Hvad er en fordel ved knaphulsteknik?",
+"a": "Mindre smertefuld kanylering",
+"w": [
+"Lavere infektionsrisiko end andre teknikker",
+"Højere fistelflow"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "Knaphul giver også nemmere selvkanylering, hurtig hæmostase og mindre aneurismetendens. Infektionsrisikoen er derimod større med skarpe kanyler."
+},
+{
+"id": "9:n13",
+"q": "Hvilken ulempe har knaphulsteknik med skarpe kanyler?",
+"a": "Mere infektion i knaphullerne",
+"w": [
+"Kan ikke bruges til selvkanylering",
+"Mere smerte ved kanylering"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er beskrevet større forekomst af infektion i knaphuller, hvor skarpe kanyler bruges."
+},
+{
+"id": "9:50",
+"q": "Hvad er 'one-site-itis' ved knaphuller?",
+"a": "Kanylen rammer ikke altid samme hul",
+"w": [
+"Infektion i selve kanylestedet",
+"Trombose i hele fistlen"
+],
+"p": 101,
+"lvl": "U",
+"type": "forståelse",
+"why": "Skæret på kanylerne gør, at de ikke altid lægges i samme hul. Det øger risikoen for blødning og aneurismer."
+},
+{
+"id": "9:51",
+"q": "Hvad kendetegner rebstigeteknik?",
+"a": "Stik fordelt langs hele fistlen",
+"w": [
+"Altid samme hul",
+"Stik i samme område"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Stikstederne har ½-1 cm mellemrum og heler mellem kanyleringerne."
+},
+{
+"id": "9:52",
+"q": "Hvad er en ulempe ved rebstigeteknik?",
+"a": "Ardannelse og aneurismerisiko",
+"w": [
+"Højere infektionsrisiko i stikstederne",
+"Hyppig steal-syndrom i hånden"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Ardannelse giver længere hæmostasetid, og teknikken er sværere for patienten at bruge selv."
+},
+{
+"id": "9:54",
+"q": "Hvilken stikketeknik anbefales ikke til AV-fistler?",
+"a": "Arealteknik",
+"w": [
+"Knaphulsteknik",
+"Rebstigeteknik"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Arealteknik giver aneurismer, stenoser og skør hud med risiko for perforation."
+},
+{
+"id": "9:55",
+"q": "Hvilken stikketeknik anbefales til kunststofgrafter?",
+"a": "Rebstigeteknik",
+"w": [
+"Knaphulsteknik",
+"Arealteknik"
+],
+"p": 102,
+"lvl": "K",
+"type": "fakta",
+"why": "Stikstederne varieres i hele graftens længde."
+},
+{
+"id": "9:n14",
+"q": "Hvad kan ske ved arealpunktur i en kunststofgraft?",
+"a": "Graftmaterialet stikkes i stykker",
+"w": [
+"Graften bliver tykkere og stivere",
+"Graften tromboserer med det samme"
+],
+"p": 102,
+"lvl": "U",
+"type": "forståelse",
+"why": "Det giver hæmostaseproblemer og kan kræve kirurgisk revision med udskiftning af dele af eller hele protesen."
+},
+{
+"id": "9:56",
+"q": "Kan knaphuller anlægges i kunststofgrafter?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 102,
+"lvl": "U",
+"type": "fakta",
+"why": "Knaphuller kan ikke anlægges i kunststof, derfor bruges rebstigeteknik."
+},
+{
+"id": "9:57",
+"q": "Hvorfor kan patienter med svær nyresvigt bløde efter fistelanlæggelse?",
+"a": "Nedsat koagulationsevne",
+"w": [
+"For højt blodtryk under operationen",
+"Overaktiv koagulation"
+],
+"p": 102,
+"lvl": "U",
+"type": "forståelse",
+"why": "Medicinsk årsag til blødning er den nedsatte koagulationsevne. Større hæmatomer kan true huden og øge infektionsrisikoen."
+},
+{
+"id": "9:58",
+"q": "Fistlen er tromboseret lige efter operationen, og karrene var af god kvalitet. Hvad gøres?",
+"a": "Akut reoperation",
+"w": [
+"Observation i 6 uger",
+"Ny fistel et andet sted"
+],
+"p": 102,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Tidlig trombose har ofte en mekanisk forklaring. Var karkvaliteten dårlig, planlægges i stedet en ny fistel et andet sted."
+},
+{
+"id": "9:59",
+"q": "Hvorfor skal lavt blodtryk undgås lige efter fistelanlæggelse?",
+"a": "Vasokonstriktion kan give trombose",
+"w": [
+"Det giver blødning fra såret",
+"Det giver infektion i såret"
+],
+"p": 103,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lavt blodtryk kan give perifer vasokonstriktion og dermed trombose i fistlen."
+},
+{
+"id": "9:60",
+"q": "Rødme og ødem ses efter indsættelse af kunstgraft. Hvad skyldes det typisk?",
+"a": "Reaktion på tunnelering",
+"w": [
+"Graftinfektion med pus",
+"Trombose i graften"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Egentlig graftinfektion giver rødme, ømhed og pus."
+},
+{
+"id": "9:61",
+"q": "En graft er rød, øm og har pus. Hvad kan være nødvendigt?",
+"a": "I.v. antibiotika og ofte fjernelse af graften",
+"w": [
+"Peroral antibiotika alene",
+"Lokal mupirocinsalve på graften"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Antibiotika alene er ofte ikke nok. Fjernelse af en inficeret graft er et større indgreb."
+},
+{
+"id": "9:n15",
+"q": "Hvilken antibiotikabehandling er som regel tilstrækkelig ved infektion i en AV-fistel?",
+"a": "Peroral",
+"w": [
+"Intravenøs",
+"Lokal salve"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Infektion ses sjældent i AV-fistler, og peroral behandling er som regel nok."
+},
+{
+"id": "9:n16",
+"q": "Hvilke bakterier rettes antibiotika mod ved fistelinfektion?",
+"a": "Stafylokokker",
+"w": [
+"Pseudomonas",
+"Enterokokker"
+],
+"p": 104,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandlingen er rettet mod stafylokokker eller efter dyrkningssvar."
+},
+{
+"id": "9:n17",
+"q": "Hvad gives profylaktisk ved graftoperationer?",
+"a": "Antibiotika",
+"w": [
+"Heparin",
+"Actilyse"
+],
+"p": 103,
+"lvl": "U",
+"type": "fakta",
+"why": "Profylaktisk antibiotika anbefales ved graftoperationer og andre større fisteloperationer."
+},
+{
+"id": "9:85",
+"q": "Hvilken adgang har højere infektionsrate efter opheling: AV-fistel eller bridgegraft?",
+"a": "Bridgegraft",
+"w": [
+"AV-fistel",
+"Lige høj infektionsrate"
+],
+"p": 104,
+"lvl": "K",
+"type": "fakta",
+"why": "Infektion i fistler er sjælden (2-3 %), mens bridgegrafter har en rate på op til 30 %."
+},
+{
+"id": "9:86",
+"q": "En patient er nasal bærer af S. aureus. Hvad sænker fistelinfektionsrisikoen?",
+"a": "Lokal mupirocinsalve",
+"w": [
+"Peroral antibiotika i uger",
+"Steroidsalve på huden"
+],
+"p": 104,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Nasale S. aureus-bærere har øget risiko for bakteriæmi, og lokal mupirocin reducerer infektionsraten betydeligt."
+},
+{
+"id": "9:65",
+"q": "Fistlen modnes ikke, og UL viser stenose. Hvad kan gøres?",
+"a": "PTA",
+"w": [
+"Fjerne fistlen",
+"Vente et år"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Stenose er næsten altid årsag til manglende modning. Uden forklaring kan en ny anastomose proksimalt for den gamle forsøges."
+},
+{
+"id": "9:66",
+"q": "Hvad er proksimalisering af en fistel?",
+"a": "Ny anastomose proksimalt for den gamle",
+"w": [
+"Fjernelse af hele fistlen og venen",
+"Indlæggelse af en foret stent"
+],
+"p": 103,
+"lvl": "U",
+"type": "fakta",
+"why": "Det kan forsøges ved manglende modning uden påvist stenose."
+},
+{
+"id": "9:105",
+"q": "Hvad skyldes manglende fistelmodning næsten altid?",
+"a": "Stenose ved anastomosen eller afløbsvenen",
+"w": [
+"Hjerteinsufficiens hos patienten",
+"Infektion i operationssåret"
+],
+"p": 107,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stenose lige efter anastomosen er hyppigste årsag. Behandling med PTA eller flytning af anastomosen får ca. 80 % til at fungere."
+},
+{
+"id": "9:107",
+"q": "En fistel modnes ikke, fordi venen ligger for dybt. Hvad kan hjælpe?",
+"a": "Superficialisering",
+"w": [
+"PTA af afløbsvenen",
+"Proksimalisering af anastomosen"
+],
+"p": 107,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Superficialisering flytter venen op under huden, så den kan kanyleres."
+},
+{
+"id": "9:104",
+"q": "Hvor stor en del af fistlerne modnes ikke tilstrækkeligt?",
+"a": "En fjerdedel til en tredjedel",
+"w": [
+"Under 5 % af fistlerne",
+"Over 60 % af fistlerne"
+],
+"p": 107,
+"lvl": "U",
+"type": "fakta",
+"why": "Derfor skal en fistel, som ikke er modnet efter få uger, undersøges med UL."
+},
+{
+"id": "9:67",
+"q": "Hvilket tegn kan tyde på stenose i fistlen?",
+"a": "Lang hæmostasetid efter dialyse",
+"w": [
+"Øget fistelflow og lavt venetryk",
+"Sænket venetryk under dialysen"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Stenose giver nedsat fistelflow, ansug på kanylen, højt venetryk, lang hæmostasetid og recirkulation."
+},
+{
+"id": "9:n18",
+"q": "Under HD ses ansug på arterienålen og højt venetryk. Hvad mistænkes?",
+"a": "Stenose i fistlen",
+"w": [
+"Steal-syndrom",
+"Hjerteinsufficiens"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ansug, højt venetryk, lang hæmostasetid og recirkulation er typiske stenosetegn."
+},
+{
+"id": "9:68",
+"q": "Hvor sidder stenoser hyppigst i en AV-fistel?",
+"a": "I fistelvenen lige foran anastomosen",
+"w": [
+"I selve arterien tæt på hjertet",
+"I det torakale veneafløb"
+],
+"p": 104,
+"lvl": "K",
+"type": "fakta",
+"why": "Det første stykke af afløbsvenen kaldes svingstykket og rummer over halvdelen af stenoserne i en moden AV-fistel; ca. 25 % sidder i resten af afløbsvenen."
+},
+{
+"id": "9:69",
+"q": "Hvor stenoserer en kunststofgraft oftest?",
+"a": "Ved venenanastomosen",
+"w": [
+"Ved arterieanastomosen",
+"Midt i graften"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Stenoser i grafter findes overvejende ved graft-vene-anastomosen."
+},
+{
+"id": "9:70",
+"q": "Hvad kan behandle trombose i en AV-fistel?",
+"a": "Trombektomi eller actilyse",
+"w": [
+"Peroralt antikoagulans alene",
+"Observation"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Trombektomi kan ske åbent eller endovaskulært. Actilyse kan også blødgøre tromber."
+},
+{
+"id": "9:71",
+"q": "En fistel er tromboseret. Inden hvor lang tid bør trombektomi helst udføres?",
+"a": "Inden 48 timer",
+"w": [
+"Inden 7 dage efter trombosen",
+"Inden 1 måned efter trombosen"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Trombektomi udføres helst inden 48 timer med ballon- eller aspirationskateter."
+},
+{
+"id": "9:n19",
+"q": "Hvorfor kan dele af en fistelprop være hård og svær at fjerne?",
+"a": "Den opbygges over lang tid",
+"w": [
+"Den dannes på få timer",
+"Den sidder i arterien"
+],
+"p": 103,
+"lvl": "U",
+"type": "forståelse",
+"why": "Trombosen opbygges langsomt. Først når sidste del af lumen lukker, får patienten absolutte symptomer."
+},
+{
+"id": "9:72",
+"q": "Hvad er steal-syndrom?",
+"a": "Iskæmi i hånden, fordi blod shuntes gennem fistlen",
+"w": [
+"Venøs hypertension i hånden",
+"Infektion i selve fistlen"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Iltet blod ledes gennem fistlen uden om hånden, så hånden får for lidt."
+},
+{
+"id": "9:73",
+"q": "En patient med ny overarmsfistel har kolde, blege fingre og smerter. Hvad mistænkes?",
+"a": "Steal-syndrom",
+"w": [
+"Fistelinfektion",
+"Venøs hypertension"
+],
+"p": 103,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Symptomerne er kolde, blege fingre, paræstesier og smerter, ofte inden for 24 timer efter anlæggelsen."
+},
+{
+"id": "9:75",
+"q": "Hvem er særligt udsat for steal-syndrom?",
+"a": "Diabetikere med overarmsfistel",
+"w": [
+"Patienter med radiocephal fistel",
+"Børn med graft"
+],
+"p": 103,
+"lvl": "U",
+"type": "fakta",
+"why": "Steal ses hyppigst ved overarmsfistler og hos diabetikere med arteriosklerotiske perifere arterier."
+},
+{
+"id": "9:76",
+"q": "Hvordan behandles mild steal, så både fistel og hånd reddes?",
+"a": "Reduktionsplastik",
+"w": [
+"Lukning af fistlen",
+"Amputation"
+],
+"p": 103,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved mildere former kan fistlen reduceres."
+},
+{
+"id": "9:n20",
+"q": "Hvad kan svær steal-syndrom være indikation for?",
+"a": "Akut lukning af fistlen",
+"w": [
+"Reduktionsplastik af fistlen",
+"Anlæggelse af stentgraft"
+],
+"p": 103,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved symptomer som nekrotiske sår eller ophævet håndfunktion kan fistlen lukkes akut."
+},
+{
+"id": "9:77",
+"q": "Hvad kan give venøs hypertension i en fistelarm?",
+"a": "Stenose i vene, lokalt eller centralt",
+"w": [
+"Stenose eller okklusion i arterien",
+"Steal-syndrom med kolde fingre"
+],
+"p": 103,
+"lvl": "U",
+"type": "fakta",
+"why": "De store venestammer med stort flow giver uro og ubehag i hånden."
+},
+{
+"id": "9:80",
+"q": "En patient med overarmsfistel har hjerteinsufficiens pga. højt fistelflow. Hvad gøres?",
+"a": "Flowreducerende indgreb",
+"w": [
+"Hyppigere dialyse",
+"Mere væske til patienten"
+],
+"p": 104,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Banding eller kirurgisk reduktion af anastomosen sænker flowet. Nogle gange må fistlen nedlægges."
+},
+{
+"id": "9:n21",
+"q": "Hvorfor kan en overarmsfistel give hjerteinsufficiens?",
+"a": "Højt fistelflow belaster hjertet",
+"w": [
+"Fistlen sænker blodtrykket for meget",
+"Fistlen giver klapfejl i hjertet"
+],
+"p": 104,
+"lvl": "K",
+"type": "forståelse",
+"why": "Flowet stiger fra 600-700 ml/min. til 1-2 l/min. eller mere, og især patienter med nedsat pumpefunktion er udsatte."
+},
+{
+"id": "9:81",
+"q": "Hvad er et aneurisme på en fistel?",
+"a": "Udvidelse af karret ved øget tryk",
+"w": [
+"Blodprop inde i karret",
+"Fibrose i selve karvæggen"
+],
+"p": 104,
+"lvl": "K",
+"type": "fakta",
+"why": "Det ses oftest på venen ved langvarig HD og suboptimal kanyleringsteknik."
+},
+{
+"id": "9:82",
+"q": "Hvordan rumperer en AV-fistel typisk?",
+"a": "Traumatisk, fx ved kanylering",
+"w": [
+"Spontant uden nogen påvirkning",
+"Ved høj ultrafiltration"
+],
+"p": 104,
+"lvl": "K",
+"type": "fakta",
+"why": "Spontanruptur forekommer stort set aldrig; ruptur skyldes kanylering eller traume."
+},
+{
+"id": "9:83",
+"q": "Et fistelaneurisme giver ingen truet hud, infektion eller blødning, og det kosmetiske problem er ikke for stort. Hvad gøres?",
+"a": "Ingen behandling",
+"w": [
+"Operativ fjernelse",
+"Akut lukning af fistlen"
+],
+"p": 104,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Uden truet hud, infektion eller blødning og uden et for stort kosmetisk problem er tilstanden ikke behandlingskrævende. Blødning kræver operativ fjernelse."
+},
+{
+"id": "9:89",
+"q": "Hvilke undersøgelser kan påvise fistelstenose?",
+"a": "UL, fistulografi eller CT-angio",
+"w": [
+"Blodprøver og EKG alene",
+"Lungerøntgen og spirometri"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "Fistelstenose diagnosticeres ved UL, fistulografi eller CT-angio. Fistulografi viser afløbsforholdene helt ind til højre atrium."
+},
+{
+"id": "9:90",
+"q": "Hvilken undersøgelse bruges primært til centrale stenoser?",
+"a": "CT-angio",
+"w": [
+"UL",
+"Ekkokardiografi af hjertet"
+],
+"p": 105,
+"lvl": "K",
+"type": "fakta",
+"why": "CT-angio injiceres via en i.v.-adgang og viser centrale stenoser."
+},
+{
+"id": "9:n22",
+"q": "Hvornår vælges røntgen frem for UL ved stenosediagnostik?",
+"a": "Ved mistanke om central torakal stenose",
+"w": [
+"Ved mistanke om steal i hånden",
+"Ved mistanke om fistelinfektion"
+],
+"p": 105,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Røntgen reserveres til mistanke om centrale torakale stenoser eller når UL ikke giver overblik."
+},
+{
+"id": "9:91",
+"q": "Hvad er førstevalg ved stenose i afløbsvenen?",
+"a": "PTA",
+"w": [
+"Åben kirurgi",
+"Stentanlæggelse"
+],
+"p": 107,
+"lvl": "K",
+"type": "fakta",
+"why": "PTA er venebesparende i forhold til kirurgi, trods restenoseringsrisiko."
+},
+{
+"id": "9:92",
+"q": "Hvorfor bruges ofte højtryksballon eller cutting balloon ved fistelstenose?",
+"a": "Stenosen er fibrøs og modstandsdygtig",
+"w": [
+"Venen er for tynd til ballon",
+"Stenosen er infektiøs"
+],
+"p": 106,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fibrøs omdannelse gør, at almindelige balloner ofte ikke kan dilatere."
+},
+{
+"id": "9:95",
+"q": "Hvorfor lægges stents almindeligvis ikke i venen nær stikkestederne?",
+"a": "Stentskelettet kan kollapse ved punkturer",
+"w": [
+"Stenten giver infektion i venen",
+"Stenten hindrer blodflowet"
+],
+"p": 106,
+"lvl": "K",
+"type": "forståelse",
+"why": "Gentagne punkturer kan få stentskelettet til at kollapse."
+},
+{
+"id": "9:96",
+"q": "Hvornår anlægges stent ved PTA af fistelstenose?",
+"a": "Ved recoil eller karruptur",
+"w": [
+"Ved alle stenoser",
+"Ved smerter under ballonen"
+],
+"p": 106,
+"lvl": "K",
+"type": "fakta",
+"why": "Stent bruges kun hvis stenosen gendannes momentant, eller karret rumperer (foret stent)."
+},
+{
+"id": "9:100",
+"q": "Veneruptur under PTA. Hvad lukker ofte perforationen?",
+"a": "Fyldt ballon uden tryk i ca. 10 min.",
+"w": [
+"Akut åben kirurgi med suturer",
+"Stop af al dialyse i en uge"
+],
+"p": 107,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hvis det ikke lukker rupturen, anlægges en stentgraft."
+},
+{
+"id": "9:101",
+"q": "Hvorfor skal fistelstenoser behandles, før fistlen tromboserer?",
+"a": "Efter trombose er levetiden kraftigt nedsat",
+"w": [
+"Trombektomi kan ikke længere udføres",
+"Stenosen går væk af sig selv"
+],
+"p": 107,
+"lvl": "K",
+"type": "forståelse",
+"why": "Under en tredjedel af tromboserede fistler fungerer efter ét år, selv efter trombektomi."
+},
+{
+"id": "9:102",
+"q": "Hvad er den bedste metode til monitorering af fistler?",
+"a": "Regelmæssig måling af fistelflow",
+"w": [
+"Måling af venetryk alene",
+"Måling af recirkulation alene"
+],
+"p": 107,
+"lvl": "K",
+"type": "fakta",
+"why": "Flow måles fx hver 3. måned. Venetryk og recirkulation bruges, men overgår ikke den kliniske vurdering."
+},
+{
+"id": "9:103",
+"q": "Fistlens flow er faldet til 450 ml/min. Hvad bør ske?",
+"a": "Henvisning til undersøgelse for stenose",
+"w": [
+"Ingen handling nødvendig",
+"Straks lukning af fistlen"
+],
+"p": 107,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Henvisning anbefales ved flow under 600 ml/min. (700-800 for grafter) eller et fald på over 25 %. Flow alene afgør dog aldrig intervention."
+},
+{
+"id": "9:n23",
+"q": "Hvorfor kan fistelflow ikke måles med UL-doppler i selve fistlen?",
+"a": "Turbulent flow giver støj",
+"w": [
+"Fistlen er for tyk til måling",
+"Flowet i fistlen er for lavt"
+],
+"p": 107,
+"lvl": "U",
+"type": "forståelse",
+"why": "Flowet måles i den forsynende arterie (a. radialis/brachialis), hvor flowkurven er pæn."
+},
+{
+"id": "9:108",
+"q": "Hvilket kateterben suger blod ud til dialyseapparatet?",
+"a": "Arteriebenet",
+"w": [
+"Venebenet",
+"Begge ben samtidig"
+],
+"p": 107,
+"lvl": "K",
+"type": "fakta",
+"why": "Blodet suges ud via arteriebenet og returneres via venebenet. Benene har ofte rød og blå studs."
+},
+{
+"id": "9:109",
+"q": "Hvilket blodflow kræver effektiv dialyse via kateter?",
+"a": "200-250 ml/min.",
+"w": [
+"50-100 ml/min.",
+"500-600 ml/min."
+],
+"p": 107,
+"lvl": "K",
+"type": "fakta",
+"why": "Flowet skal opnås uden betydende recirkulation; derfor udformes spidsen, så recirkulation reduceres."
+},
+{
+"id": "9:111",
+"q": "Hvor skal spidsen af et dialysekateter ligge for tilstrækkeligt flow?",
+"a": "I niveau med højre atrium",
+"w": [
+"I venstre atrium eller ventrikel",
+"I v. cava inferior"
+],
+"p": 107,
+"lvl": "K",
+"type": "fakta",
+"why": "Spidsen kontrolleres med røntgen af thorax efter anlæggelsen."
+},
+{
+"id": "9:n24",
+"q": "Hvad er funktionen af cuffen på et tunneleret kateter?",
+"a": "Vokser fast subkutant og fikserer kateteret",
+"w": [
+"Måler blodflowet i kateteret",
+"Forhindrer luftemboli ved skift"
+],
+"p": 107,
+"lvl": "U",
+"type": "forståelse",
+"why": "Cuffen sidder subkutant ca. 2 cm fra exit-site og forankrer det tunnelerede kateter."
+},
+{
+"id": "9:113",
+"q": "Hvad er obligatorisk ved indstik i venesystemet til midlertidigt kateter?",
+"a": "Ultralyd",
+"w": [
+"Røntgengennemlysning",
+"CT"
+],
+"p": 108,
+"lvl": "K",
+"type": "fakta",
+"why": "Brug af UL har reduceret hyppigheden af alvorlige komplikationer."
+},
+{
+"id": "9:114",
+"q": "Hvorfor tages røntgen af thorax efter anlæggelse af dialysekateter?",
+"a": "Kontrollere spidsen og udelukke hæmo-/pneumothorax",
+"w": [
+"Måle hjertets størrelse og form",
+"Vurdere patientens lungefunktion"
+],
+"p": 108,
+"lvl": "K",
+"type": "forståelse",
+"why": "Røntgen af thorax udføres for at kontrollere placeringen af kateterspidsen og udelukke hæmo-/pneumothorax."
+},
+{
+"id": "9:115",
+"q": "Hvilken vene vælges oftest til dialysekateter?",
+"a": "Højre v. jugularis interna",
+"w": [
+"V. femoralis i lysken",
+"V. subclavia i skulderen"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Venen på højre side er mest fordelagtig."
+},
+{
+"id": "9:116",
+"q": "Hvorfor er højre v. jugularis interna bedst til dialysekateter?",
+"a": "Lige forløb og kort afstand til atriet",
+"w": [
+"Den er den dybest liggende vene",
+"Den har færrest klapper"
+],
+"p": 109,
+"lvl": "K",
+"type": "forståelse",
+"why": "Venstre side har et S-formet forløb mod atriet, så kateteret displaceres nemmere."
+},
+{
+"id": "9:117",
+"q": "En sengeliggende intensivpatient skal have dialysekateter. Hvilken vene er især anvendelig, når v. jugularis interna ikke bruges?",
+"a": "V. femoralis",
+"w": [
+"V. subclavia",
+"V. jugularis externa"
+],
+"p": 109,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hos sengeliggende patienter kan v. femoralis benyttes, men adgangen er ikke velegnet til mobiliserede patienter."
+},
+{
+"id": "9:118",
+"q": "Hvorfor bør v. subclavia aldrig være førstevalg til dialysekateter?",
+"a": "Hyppigere blødning og stenose",
+"w": [
+"Højere infektionsrate end andre vener",
+"Sværere anlæggelse for lægen"
+],
+"p": 109,
+"lvl": "K",
+"type": "forståelse",
+"why": "Det gælder også v. jugularis externa; de bruges kun, hvis v. jugularis interna og v. femoralis ikke kan bruges."
+},
+{
+"id": "9:120",
+"q": "Hvor længe tilstræbes akutkatetre højst at ligge?",
+"a": "Fire uger",
+"w": [
+"Fire dage",
+"Fire måneder"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Tunnelerede katetre kan holde i flere år, men skiftes ofte tidligere."
+},
+{
+"id": "9:n25",
+"q": "Hvorfor skiftes tunnelerede katetre ofte før tiden?",
+"a": "Dårligt flow eller infektion",
+"w": [
+"Cuffen opløses efter nogle uger",
+"Kateteret slides ned af dialysen"
+],
+"p": 109,
+"lvl": "U",
+"type": "forståelse",
+"why": "Et tunneleret kateter kan holde i flere år, men dårligt flow og infektion nødvendiggør ofte skift."
+},
+{
+"id": "9:121",
+"q": "Hvilke potentielt dødelige komplikationer kan opstå ved anlæggelse af HD-CVK?",
+"a": "Hæmo- og pneumothorax",
+"w": [
+"Kateterinfektion med bakteriæmi",
+"Central stenose af venerne"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Selv med UL ses stadig alvorlige komplikationer. Infektion og stenose er sene komplikationer."
+},
+{
+"id": "9:122",
+"q": "Et dialysekateter er fejlplaceret i en halsarterie. Hvad gøres?",
+"a": "Karkirurg konsulteres før fjernelse",
+"w": [
+"Det fjernes straks på afdelingen",
+"Det bruges alligevel til dialyse"
+],
+"p": 109,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kateteret må ikke seponeres uden konsultation af karkirurger. Arteriepunktur skal erkendes, inden der dilateres."
+},
+{
+"id": "9:n26",
+"q": "Hvilke komplikationer er sene ved HD-CVK?",
+"a": "Infektion, trombose og central stenose",
+"w": [
+"Pneumothorax og blødning ved indstik",
+"Hæmatom og venøs ruptur"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Sene komplikationer omfatter også displacering og kan nødvendiggøre kateterskift."
+},
+{
+"id": "9:123",
+"q": "Hvilken indstiksvene giver størst risiko for kateterrelateret central stenose?",
+"a": "V. subclavia",
+"w": [
+"Højre v. jugularis interna",
+"Risikoen er ens for alle indstiksvener"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Stenose er rapporteret hos op til 50 % ved v. subclavia mod ca. 10 % ved højre v. jugularis interna."
+},
+{
+"id": "9:125",
+"q": "Hvorfor er centrale stenoser ofte asymptomatiske?",
+"a": "Der udvikles kollaterale vener",
+"w": [
+"Stenoserne er altid meget små",
+"Kateteret presser ikke på venen"
+],
+"p": 110,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kollateraler udvikles, i takt med at afløbet kompromitteres. De ses ofte på thoraxforsiden."
+},
+{
+"id": "9:n27",
+"q": "Hvornår opdages centrale stenoser ofte først?",
+"a": "Ved fistelanlæggelse på samme arm",
+"w": [
+"Ved rutinemæssige blodprøver",
+"Ved dialysestart via kateter"
+],
+"p": 110,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Stenoserne erkendes ofte ved anlæggelse af AV-fistel på den ipsilaterale overekstremitet eller ved genanlæggelse af CVK."
+},
+{
+"id": "9:126",
+"q": "Hvorfor behandles asymptomatiske centrale stenoser ikke med PTA?",
+"a": "PTA er selv stenosefremkaldende med ringe holdbarhed",
+"w": [
+"Stenosen går væk spontant",
+"PTA er for smertefuld for patienten"
+],
+"p": 110,
+"lvl": "K",
+"type": "forståelse",
+"why": "PTA-behandlingen er i sig selv stenosefremkaldende og har ringe holdbarhed. Behandling gives kun ved symptomer som armødem eller v. cava superior-syndrom, eller hvis central adgang skal bevares."
+},
+{
+"id": "9:n28",
+"q": "Hvornår bør man ikke lægge ny fistel på en arm med central stenose?",
+"a": "Hvis armen allerede er hævet",
+"w": [
+"Hvis patienten er diabetiker",
+"Hvis stenosen er asymptomatisk"
+],
+"p": 112,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Central stenose er ikke i sig selv kontraindikation, medmindre armen allerede er hævet før anlæggelsen. I reglen undgås fistler på en sådan ekstremitet dog."
+},
+{
+"id": "9:130",
+"q": "Centrale vener er okkluderede. Hvilken adgang kan undertiden anlægges?",
+"a": "Hero-graft",
+"w": [
+"Femoral vene-transposition",
+"Endovaskulær AV-fistel (WavelinQ)"
+],
+"p": 112,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ved okklusion af de centrale vener kan man undertiden anlægge en Hero-graft, en lang silikoneslange med stentskelet, der forbindes til en dialysegraft."
+}
+]

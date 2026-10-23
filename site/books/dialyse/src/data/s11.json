@@ -1,0 +1,1039 @@
+[
+{
+"id": "11:0",
+"q": "Ved hvilken eGFR ses anæmi oftest ved kronisk nyresvigt?",
+"a": "Under ca. 35 ml/min.",
+"w": [
+"Under ca. 60 ml/min.",
+"Under ca. 15 ml/min."
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Tiltagende anæmi indtræder oftest først ved eGFR under ca. 35 ml/min./1,73 m², uanset nyresygdommens årsag. Årsagen er multifaktoriel."
+},
+{
+"id": "11:n0",
+"q": "Hvilken faktor bidrager til renal anæmi sammen med EPO-mangel?",
+"a": "Nedsat erythrocytlevetid",
+"w": [
+"Øget erythrocytlevetid i blodet",
+"Jernoverskud i depoterne"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Renal anæmi skyldes EPO-mangel, jernmangel, inflammation, nedsat erythrocytlevetid, blodtab og malnutrition i kombination."
+},
+{
+"id": "11:5",
+"q": "Hvor dannes EPO hovedsageligt?",
+"a": "I nyrerne",
+"w": [
+"I leveren",
+"I knoglemarven"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "EPO dannes mest i en iltfølsom interstitiel celle i nyren. Leveren bidrager kun lidt."
+},
+{
+"id": "11:6",
+"q": "Hvad stimulerer syntesen af EPO?",
+"a": "Anæmi og hypoksi",
+"w": [
+"Hyperoxi og høj iltspænding",
+"Jernoverskud i depoterne"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "Lav iltforsyning øger EPO, som øger røde blodlegemer og dermed ilt. Det er en negativ feedback."
+},
+{
+"id": "11:7",
+"q": "Hvad stimulerer EPO i knoglemarven?",
+"a": "Dannelse af røde blodlegemer",
+"w": [
+"Dannelse af hvide blodlegemer",
+"Dannelse af trombocytter"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "EPO virker på erythrocytforstadier, som deler sig, danner hæmoglobin og modnes."
+},
+{
+"id": "11:8",
+"q": "Hvad står HIF for?",
+"a": "Hypoxia Inducible Factor",
+"w": [
+"Hepcidin Inhibiting Factor",
+"High Iron Factor"
+],
+"p": 129,
+"lvl": "K",
+"type": "fakta",
+"why": "HIF aktiverer EPO-genet, når iltniveauet i cellen er lavt."
+},
+{
+"id": "11:10",
+"q": "Hvad sker der med HIF ved lav ilt i cellen?",
+"a": "Nedbrydningen hæmmes",
+"w": [
+"Nedbrydningen øges markant",
+"HIF ændres slet ikke"
+],
+"p": 129,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved normal ilt nedbrydes HIF hurtigt. Ved lav ilt ophobes det, aktiverer EPO-genet, og EPO-produktionen øges."
+},
+{
+"id": "11:n1",
+"q": "Hvorfor stiger EPO ikke tilstrækkeligt hos uræmiske patienter med anæmi?",
+"a": "Nyrens EPO-celler har mistet funktion",
+"w": [
+"Dialysen fjerner EPO fra blodet ved hver HD",
+"Leveren nedbryder EPO for hurtigt"
+],
+"p": 130,
+"lvl": "K",
+"type": "forståelse",
+"why": "De EPO-producerende celler i nyrerne kan være gået til grunde. Målbart EPO hos patienter uden nyrer kan stamme fra leveren."
+},
+{
+"id": "11:16",
+"q": "Hvordan er s-EPO typisk hos uræmiske patienter?",
+"a": "Normalt, men for lavt til anæmien",
+"w": [
+"Meget forhøjet som ved non-renal anæmi",
+"Umåleligt lavt hos alle"
+],
+"p": 130,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved non-renal anæmi stiger EPO kraftigt. Hos uræmiske patienter udebliver den tilsvarende stigning, hvilket forklarer anæmien."
+},
+{
+"id": "11:17",
+"q": "Hvad sker der med s-EPO efter nyretransplantation med god graftfunktion?",
+"a": "Det stiger fra første dag",
+"w": [
+"Det falder i den første uge",
+"Det er uændret i flere måneder"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "Feedbacksystemet genoprettes, og Hgb normaliseres typisk inden for ca. 3 måneder uden EPO-behandling."
+},
+{
+"id": "11:18",
+"q": "Hvad står ESA for?",
+"a": "Erythrocyte Stimulating Agents",
+"w": [
+"Erythrocyte Storage Agents",
+"Endogenous Serum Antigen Assay"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "ESA omfatter alle lægemidler, der øger produktionen af røde blodlegemer: EPO, midler der øger endogen EPO og andre."
+},
+{
+"id": "11:n2",
+"q": "Hvorfor kan darbepoetin og CERA doseres sjældnere end epoetin?",
+"a": "De har længere halveringstid",
+"w": [
+"De virker via HIF-systemet",
+"De gives oralt i tabletform"
+],
+"p": 131,
+"lvl": "K",
+"type": "forståelse",
+"why": "Analogerne har forlænget T½ og kan derfor vedligeholde Hgb med længere doseringsintervaller."
+},
+{
+"id": "11:n3",
+"q": "Ved hvilken indgiftsvej har EPO længst halveringstid?",
+"a": "Subkutant",
+"w": [
+"Intravenøst",
+"Ens ved begge"
+],
+"p": 130,
+"lvl": "U",
+"type": "fakta",
+"why": "T½ er ca. 18 timer efter s.c. og 5-8 timer efter i.v., men i.v. giver højere maksimumkoncentration."
+},
+{
+"id": "11:21",
+"q": "Hvordan påvirker HD og PD EPO i blodet?",
+"a": "De fjerner det ikke",
+"w": [
+"De fjerner det delvist",
+"De fjerner det helt"
+],
+"p": 130,
+"lvl": "K",
+"type": "fakta",
+"why": "EPO fjernes hverken ved hæmo- eller peritonealdialyse og udskilles ikke i urinen, så dosis skal ikke øges af hensyn til dialysen."
+},
+{
+"id": "11:25",
+"q": "Hvad gør HIF-stabilisatorer?",
+"a": "Hæmmer nedbrydningen af HIF",
+"w": [
+"Blokerer EPO-receptoren i marven",
+"Tilfører rekombinant EPO direkte"
+],
+"p": 131,
+"lvl": "K",
+"type": "forståelse",
+"why": "Derved efterlignes hypoksi i cellen, og kroppen danner mere eget EPO. Stofferne er prolylhydroxylase-inhibitorer."
+},
+{
+"id": "11:26",
+"q": "Hvilken endelse har HIF-stabilisatorerne?",
+"a": "-dustat",
+"w": [
+"-mab",
+"-pril"
+],
+"p": 131,
+"lvl": "U",
+"type": "fakta",
+"why": "Stofferne er prolylhydroxylase-inhibitorer og gives oralt."
+},
+{
+"id": "11:27",
+"q": "Hvordan gives HIF-stabilisatorer?",
+"a": "Oralt",
+"w": [
+"Intravenøst",
+"Subkutant"
+],
+"p": 131,
+"lvl": "K",
+"type": "fakta",
+"why": "Det adskiller dem fra EPO. De doseres efter vægt og justeres efter samme principper som EPO."
+},
+{
+"id": "11:29",
+"q": "Hvilken mulig fordel har HIF-stabilisatorer frem for EPO?",
+"a": "Mindre behov for i.v. jern",
+"w": [
+"Højere blodtryk hos patienten",
+"Mere hepcidin i blodet"
+],
+"p": 131,
+"lvl": "U",
+"type": "forståelse",
+"why": "HIF fremmer jernabsorption i duodenum og leverens dannelse af transferrin og kan muligvis sænke hepcidin."
+},
+{
+"id": "11:30",
+"q": "En stabil patient er velbehandlet med EPO. Bør man skifte til HIF-stabilisator?",
+"a": "Nej, ikke uden særlig grund",
+"w": [
+"Ja, altid når det er muligt",
+"Ja, ved al form for anæmi"
+],
+"p": 131,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Pladsen i anæmibehandlingen er ikke etableret, så man konverterer ikke fungerende EPO-behandling uden en klar årsag."
+},
+{
+"id": "11:n4",
+"q": "Hvilken grund kan retfærdiggøre skift fra EPO til HIF-stabilisator?",
+"a": "Nåleskræk",
+"w": [
+"Hypertension",
+"Høj ferritin"
+],
+"p": 131,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Skift kan overvejes ved EPO-intolerans, i.v. jernintolerans, kronisk inflammation, nåleskræk eller kort forventet behandlingsvarighed."
+},
+{
+"id": "11:33",
+"q": "Hvorfor kan Hgb holdes længere oppe ved polycystisk nyresygdom?",
+"a": "EPO dannes i relation til cysterne",
+"w": [
+"Cysterne danner jern til marven",
+"Patienterne dialyseres tidligere end andre"
+],
+"p": 132,
+"lvl": "U",
+"type": "forståelse",
+"why": "Det gælder især polycystisk nyresygdom, hvor Hgb kan opretholdes længere på trods af uræmi."
+},
+{
+"id": "11:34",
+"q": "Ved hvilken dialyseform synes EPO-behovet højest?",
+"a": "Hæmodialyse",
+"w": [
+"Peritonealdialyse",
+"Ens ved begge"
+],
+"p": 132,
+"lvl": "U",
+"type": "fakta",
+"why": "Lavere EPO-behov ses desuden ved øget HD-dosis."
+},
+{
+"id": "11:35",
+"q": "Hvor lang er erythrocytternes levetid hos nyreraske?",
+"a": "Ca. 120 dage",
+"w": [
+"Ca. 30 dage",
+"Ca. 360 dage"
+],
+"p": 132,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved uræmi er levetiden forkortet i varierende grad, hvilket bidrager til anæmi."
+},
+{
+"id": "11:36",
+"q": "Hvordan er erythrocytlevetiden ved uræmi sammenlignet med nyreraske?",
+"a": "Forkortet",
+"w": [
+"Forlænget",
+"Uændret"
+],
+"p": 132,
+"lvl": "K",
+"type": "fakta",
+"why": "Nedsat erythrocytlevetid er en af årsagerne til renal anæmi."
+},
+{
+"id": "11:37",
+"q": "Hvilket forhold spiller især en rolle for anæmi ved uræmi?",
+"a": "Inflammation",
+"w": [
+"Forlænget erythrocytlevetid",
+"Hypoksi i cellen"
+],
+"p": 132,
+"lvl": "K",
+"type": "forståelse",
+"why": "Malnutrition og især inflammation spiller en betydelig rolle for anæmi, delvis pga. hæmmet jernomsætning og cytokinmedieret hæmning af knoglemarven."
+},
+{
+"id": "11:n5",
+"q": "Hvorfor kan inflammation give funktionel jernmangel?",
+"a": "Cytokiner øger hepcidin",
+"w": [
+"Cytokiner øger jernoptagelsen",
+"Cytokiner øger transferrin"
+],
+"p": 133,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hepcidin hæmmer jernoptagelse og frigivelse fra depoter, så jern bliver utilgængeligt trods tilstrækkelige depoter."
+},
+{
+"id": "11:n6",
+"q": "Hvilken HD-relateret årsag giver jernmangel?",
+"a": "Blodtab i dialysesystemet",
+"w": [
+"Jernholdigt dialysat i maskinen",
+"Øget jernabsorption i tarmen"
+],
+"p": 132,
+"lvl": "U",
+"type": "fakta",
+"why": "Også mange blodprøver, okkult mave-tarm-blødning, jernfattig kost og nedsat absorption bidrager. Jerntabet ved HD er ca. 200 mg/måned."
+},
+{
+"id": "11:39",
+"q": "Hvilke lægemidler hæmmer jernabsorptionen hos dialysepatienter?",
+"a": "Perorale fosfatbindere",
+"w": [
+"Vitamin C-tilskud",
+"Tilskud af kød og fisk"
+],
+"p": 132,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Jernabsorptionen er nedsat ved uræmi og hæmmes yderligere af perorale fosfatbindere."
+},
+{
+"id": "11:40",
+"q": "Hvor stort er jerntabet hos HD-patienter cirka pr. måned?",
+"a": "Ca. 200 mg",
+"w": [
+"Ca. 20 mg",
+"Ca. 2 gram"
+],
+"p": 132,
+"lvl": "U",
+"type": "fakta",
+"why": "Det forklarer, at behovet for jern ved HD er ca. 200 mg/måned."
+},
+{
+"id": "11:41",
+"q": "Hvilket organ producerer hormonet hepcidin?",
+"a": "Leveren",
+"w": [
+"Nyrerne",
+"Knoglemarven"
+],
+"p": 132,
+"lvl": "K",
+"type": "fakta",
+"why": "Hepcidin er et peptidhormon fra leveren, som styrer jernomsætningen."
+},
+{
+"id": "11:42",
+"q": "Hvad gør hepcidin?",
+"a": "Hæmmer jernoptagelse og -frigivelse",
+"w": [
+"Øger jernoptagelsen",
+"Øger frigivelsen af jern fra depoter"
+],
+"p": 132,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hepcidin nedsætter antallet af ferroportinkanaler i cellemembraner og bremser dermed jernets tilgængelighed."
+},
+{
+"id": "11:43",
+"q": "Hvad øger hepcidinproduktionen?",
+"a": "Inflammation",
+"w": [
+"Jernmangel",
+"Hypoksi i cellen"
+],
+"p": 132,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hepcidin øges ved jernoverskud og inflammation og mindskes ved jernmangel."
+},
+{
+"id": "11:44",
+"q": "Hvordan elimineres hepcidin?",
+"a": "Via nyrerne",
+"w": [
+"Via leveren",
+"Via tarmen"
+],
+"p": 132,
+"lvl": "U",
+"type": "fakta",
+"why": "Hepcidin stiger derfor ved aftagende GFR og fjernes kun kortvarigt ved HD."
+},
+{
+"id": "11:45",
+"q": "Hvilket hormon fra aktiv rød marv dæmper hepcidinproduktionen?",
+"a": "Erythroferron",
+"w": [
+"Erythropoietin",
+"Transferrin"
+],
+"p": 132,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "11:46",
+"q": "Hvorfor er jerndepoter svære at bedømme ved uræmi?",
+"a": "Markørerne påvirkes af inflammation",
+"w": [
+"Markørerne er for dyre at måle",
+"Der findes slet ingen markører"
+],
+"p": 133,
+"lvl": "K",
+"type": "forståelse",
+"why": "P-jern, transferrin, TSAT og p-ferritin er usikre og kan ikke bruges som hos nyreraske. P-CRP kan måles samtidig."
+},
+{
+"id": "11:47",
+"q": "Hvad sker der med p-ferritin ved inflammation?",
+"a": "Det stiger",
+"w": [
+"Det falder",
+"Det ændres ikke"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved inflammation falder s-jern og s-transferrin, mens ferritin stiger. Ferritin kan derfor se normalt eller højt ud trods jernmangel."
+},
+{
+"id": "11:48",
+"q": "Hvad sker der med s-jern og s-transferrin ved inflammation?",
+"a": "De falder",
+"w": [
+"De stiger",
+"De ændres ikke"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "Samtidig stiger p-ferritin, så jernstatus er vanskelig at vurdere."
+},
+{
+"id": "11:52",
+"q": "Hvad kendetegner funktionel jernmangel?",
+"a": "Jern utilgængeligt trods depoter",
+"w": [
+"Jernoverskud i blodbanen",
+"Usædvanlig høj EPO-effekt"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Ses ved inflammation, nyreinsufficiens og hurtigt jernforbrug under ESA-behandling. Resultatet er nedsat effekt af EPO."
+},
+{
+"id": "11:n7",
+"q": "En dialysepatient med funktionel jernmangel responderer dårligt på EPO. Hvad kan hjælpe?",
+"a": "Øget i.v. jernbehandling",
+"w": [
+"Behandlingspause med EPO",
+"Mindre EPO-dosis"
+],
+"p": 133,
+"lvl": "K",
+"type": "anvendelse",
+"why": "En del patienter med funktionel jernmangel får Hgb-stigning på øget i.v. jern under uændret ESA-dosis."
+},
+{
+"id": "11:56",
+"q": "Hvordan gives peroralt jern bedst?",
+"a": "Hæmjern uden for måltider",
+"w": [
+"Sammen med måltider",
+"Sammen med fosfatbindere"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "Peroralt jern er ofte insufficient og giver gastrointestinale bivirkninger, så i.v. jern foretrækkes ofte."
+},
+{
+"id": "11:58",
+"q": "Hvordan påvirker HD i.v. jern?",
+"a": "HD fjerner det ikke",
+"w": [
+"HD fjerner halvdelen",
+"HD fjerner alt"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "I.v. jern kan derfor gives uafhængigt af dialysen. Frekvensen kan være dage, uger eller måneder med samme effekt."
+},
+{
+"id": "11:59",
+"q": "En dialysepatient har en pågående infektion. Hvad gælder for i.v. jern?",
+"a": "Det frarådes",
+"w": [
+"Dosis fordobles",
+"Det er førstevalg"
+],
+"p": 133,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Der er desuden mulig øget infektionsrisiko ved høje doser i.v. jern."
+},
+{
+"id": "11:n8",
+"q": "Hvorfor kræver i.v. jernbehandling overvågning?",
+"a": "Sjælden anafylaksi",
+"w": [
+"Risiko for hyperkaliæmi",
+"Risiko for hypoglykæmi"
+],
+"p": 133,
+"lvl": "U",
+"type": "forståelse",
+"why": "Der kræves også sikker i.v.-adgang, idet paravenøs lækage kan give vævsskade."
+},
+{
+"id": "11:60",
+"q": "Hvornår tidligst måles jernparametre efter sidste i.v. jerndosis?",
+"a": "Efter en uge",
+"w": [
+"Samme dag",
+"Efter 1 time"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "Jernparametre måles tidligst en uge efter sidste dosis og gentages ca. hver 3. måned."
+},
+{
+"id": "11:62",
+"q": "Jernbehovet hos en dialysepatient stiger. Hvad bør man mistænke?",
+"a": "Blødning",
+"w": [
+"Hyperfosfatæmi",
+"Hjertesvigt"
+],
+"p": 133,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Stigende jernbehov kan skyldes øget jerntab, og blødning skal mistænkes og eftersøges."
+},
+{
+"id": "11:63",
+"q": "Ved hvilken Hgb er der konsensus om indikation for behandling af nefrogen anæmi?",
+"a": "Under 6,2 mmol/l",
+"w": [
+"Under 4,5 mmol/l",
+"Under 9,0 mmol/l"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "6,2 mmol/l er også det minimale behandlingsmål, og de fleste CKD-5-patienter får behov for ESA."
+},
+{
+"id": "11:65",
+"q": "Hvad måles som minimum før start af EPO-behandling?",
+"a": "Hgb og jernstatus",
+"w": [
+"Hgb og kreatinin i serum",
+"Kun blodtryk og vægt"
+],
+"p": 133,
+"lvl": "K",
+"type": "fakta",
+"why": "Jerndeficit korrigeres før eller under behandling. Mulige konkurrerende årsager til anæmi undersøges."
+},
+{
+"id": "11:n9",
+"q": "Hvad bør korrigeres før eller under EPO-behandling?",
+"a": "Jerndeficit",
+"w": [
+"Kolesterol",
+"Kaliumniveau"
+],
+"p": 133,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Uden tilstrækkeligt jern kan EPO ikke give fuld effekt."
+},
+{
+"id": "11:66",
+"q": "En PD-patient skal starte EPO. Hvordan gives det oftest?",
+"a": "Subkutant",
+"w": [
+"Intravenøst",
+"Intramuskulært"
+],
+"p": 134,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Oftest som selvadministration."
+},
+{
+"id": "11:67",
+"q": "En HD-patient skal have EPO. Hvordan gives det oftest?",
+"a": "Intravenøst i veneslangen",
+"w": [
+"Subkutant på maven",
+"Intramuskulært i låret"
+],
+"p": 134,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved HD kan EPO gives s.c. eller oftest i.v. i veneslangen."
+},
+{
+"id": "11:n10",
+"q": "Hvilket ESA har længst startinterval?",
+"a": "CERA",
+"w": [
+"Epoetin",
+"Darbepoetin"
+],
+"p": 134,
+"lvl": "D",
+"type": "fakta"
+},
+{
+"id": "11:71",
+"q": "Hvornår forventes stigning i reticulocyttal efter EPO-start?",
+"a": "Inden for en uge",
+"w": [
+"Efter ca. 1 måned",
+"Efter ca. 6 måneder"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Stigning i Hgb kommer senere, ca. 0,5-1 mmol/l pr. måned."
+},
+{
+"id": "11:72",
+"q": "Hvor meget forventes Hgb at stige pr. måned under EPO?",
+"a": "Ca. 0,5-1 mmol/l",
+"w": [
+"Ca. 3-4 mmol/l",
+"Ca. 0,05 mmol/l"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Behandlingsmålet skal nås inden for 2-3 måneder."
+},
+{
+"id": "11:73",
+"q": "Inden for hvor lang tid skal behandlingsmålet for Hgb nås?",
+"a": "2-3 måneder",
+"w": [
+"2-3 uger",
+"Cirka 1 år"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Dosis justeres undervejs, oftest tilstrækkeligt hver måned."
+},
+{
+"id": "11:74",
+"q": "Hgb stiger ikke tilstrækkeligt under EPO-behandling. Hvad gør man?",
+"a": "Øger dosis med 25-50 %",
+"w": [
+"Fordobler dosis straks",
+"Stopper EPO i en måned"
+],
+"p": 134,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dosis eller frekvens øges 25-50 % under jævn optitrering, og månedlig dosisjustering er oftest tilstrækkelig."
+},
+{
+"id": "11:93",
+"q": "Hvilket Hgb-niveau er mål under EPO-behandling?",
+"a": "6,2-7,1 mmol/l",
+"w": [
+"4,5-5,5 mmol/l",
+"8,1-10 mmol/l"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "Svarer til hæmatokrit 33-38 %. Den øvre grænse tilpasses individuelt."
+},
+{
+"id": "11:76",
+"q": "Hvilket tilsigtet Hgb under EPO-behandling frarådes?",
+"a": "Over 8,1 mmol/l",
+"w": [
+"Over 6,2 mmol/l",
+"Over 7,1 mmol/l"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Normalisering af Hgb kræver markant større EPO-dosis og er forbundet med bivirkninger."
+},
+{
+"id": "11:77",
+"q": "Hvorfor undgås behandlingspauser ved højt Hgb under EPO?",
+"a": "Effekten er forsinket flere uger",
+"w": [
+"EPO ophobes i kroppen i uger",
+"Hgb falder aldrig igen af sig selv"
+],
+"p": 134,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man kan derfor komme for sent i gang igen. Dosis eller interval ændres i stedet."
+},
+{
+"id": "11:78",
+"q": "En patient har højt Hgb under EPO. Hvad er bedre end en pause?",
+"a": "Reducere dosis med 25-50 %",
+"w": [
+"Fordoble jerndosis straks",
+"Stoppe EPO helt i flere uger"
+],
+"p": 134,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Alternativt øges doseringsintervallet. Åreladning tilrådes kun ved tekniske problemer med HD."
+},
+{
+"id": "11:79",
+"q": "Hvor ofte monitoreres Hgb under EPO-behandling som udgangspunkt?",
+"a": "Hver 4.-6. uge",
+"w": [
+"Hver dag",
+"Hvert halve år"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Jernparametre kontrolleres hver 3. måned."
+},
+{
+"id": "11:80",
+"q": "Hvor ofte monitoreres jernparametre under EPO-behandling?",
+"a": "Hver 3. måned",
+"w": [
+"Hver uge",
+"Hvert halve år"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Hgb kontrolleres hver 4.-6. uge."
+},
+{
+"id": "11:81",
+"q": "Hvad kan EPO-behandling undgå?",
+"a": "Blodtransfusion",
+"w": [
+"Hypertension i hvile",
+"Behov for dialyse"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Det undgår transfusionsinfektioner og jernload, bedrer livskvalitet og kognitive funktioner og kan mindske LVH og angina."
+},
+{
+"id": "11:82",
+"q": "Hvorfor fastholder EPO-behandling muligheden for nyretransplantation?",
+"a": "Transfusion undgås, så immunisering undgås",
+"w": [
+"EPO øger nyrefunktionen hos modtageren",
+"EPO sænker blodtrykket før operation"
+],
+"p": 134,
+"lvl": "K",
+"type": "forståelse",
+"why": "Transfusion kan immunisere mod vævstypeantigener, hvilket kan hindre transplantation."
+},
+{
+"id": "11:83",
+"q": "Hvad er tilstræbt normalisering af Hgb hos HD-patienter med hjertesygdom forbundet med?",
+"a": "Øget mortalitet",
+"w": [
+"Lavere mortalitet",
+"Ingen forskel"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Tilstræbt normalisering har ikke vist klar forbedring af morbiditet og mortalitet, men tværtimod øget mortalitet."
+},
+{
+"id": "11:84",
+"q": "Hvad øges hos diabetikere i CKD 3-4, når Hgb over 8,1 opnås med EPO?",
+"a": "Incidens af stroke",
+"w": [
+"Overlevelse uden stroke",
+"Nyrefunktion over tid"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Derfor tilstræbes ikke normalt Hgb."
+},
+{
+"id": "11:85",
+"q": "Hvad øges risikoen for ved tilstræbt normalt Hgb?",
+"a": "Trombose af AV-fistel",
+"w": [
+"Infektion af adgangen",
+"Hypotension under HD"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Samtidig er gevinsten for fysisk formåen og livskvalitet beskeden."
+},
+{
+"id": "11:87",
+"q": "Hvad er EPO-resistens?",
+"a": "Manglende mål trods høj dosis i 3-6 mdr.",
+"w": [
+"Allergisk reaktion på EPO ved hver injektion",
+"Bivirkning ved for højt Hgb og blodtryk"
+],
+"p": 134,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx EPO 300 IU/kg/uge eller darbepoetin 1,5 µg/kg/uge. I de fleste tilfælde findes en årsag."
+},
+{
+"id": "11:n11",
+"q": "En patient responderer ikke på høje EPO-doser i flere måneder. Hvad bør man først gøre?",
+"a": "Lede efter en behandlelig årsag",
+"w": [
+"Fordoble dosis uden udredning først",
+"Stoppe EPO for altid"
+],
+"p": 134,
+"lvl": "K",
+"type": "anvendelse",
+"why": "I de fleste tilfælde findes en årsag, fx jernmangel, blodtab eller infektion."
+},
+{
+"id": "11:n12",
+"q": "Hvilken tilstand kan forårsage EPO-resistens?",
+"a": "Infektion",
+"w": [
+"Hypertension",
+"Hyperkaliæmi"
+],
+"p": 135,
+"lvl": "U",
+"type": "fakta",
+"why": "Andre årsager er jernmangel, blodtab, inflammation, sekundær hyperparathyroidisme, inadækvat dialyse, malnutrition og hæmolyse."
+},
+{
+"id": "11:89",
+"q": "Hvilken sjælden tilstand kan anti-EPO-antistoffer give?",
+"a": "Pure red cell aplasia (PRCA)",
+"w": [
+"Aplastisk anæmi efter kemoterapi",
+"Polycytæmi vera hos dialysepatienter"
+],
+"p": 135,
+"lvl": "K",
+"type": "fakta",
+"why": "PRCA ses hos under 1 pr. 10.000 patientår og skyldes antagelig denaturering af epoetin ved uhensigtsmæssig opbevaring og formulering."
+},
+{
+"id": "11:91",
+"q": "En patient på EPO har normalt reticulocyttal. Hvilken tilstand er derved udelukket?",
+"a": "PRCA",
+"w": [
+"Jernmangel",
+"Blødning"
+],
+"p": 135,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ved PRCA falder reticulocyttallet markant."
+},
+{
+"id": "11:92",
+"q": "Hvilken bivirkning ses hos ca. hver femte under EPO-behandling?",
+"a": "Blodtryksstigning",
+"w": [
+"Allergisk reaktion",
+"Hypotension"
+],
+"p": 136,
+"lvl": "U",
+"type": "fakta",
+"why": "Mekanismen er uklar, og blodtrykket behandles efter almindelige retningslinjer."
+},
+{
+"id": "11:n13",
+"q": "Hvilken risiko ses ved hurtig Hgb-korrektion under EPO?",
+"a": "Nedsat krampetærskel",
+"w": [
+"Hyperkaliæmi med arytmi",
+"Hypoglykæmi med bevidsthedstab"
+],
+"p": 136,
+"lvl": "U",
+"type": "fakta",
+"why": "EPO har få bivirkninger ved tilsigtet Hgb 6,2-7,1 mmol/l."
+},
+{
+"id": "11:94",
+"q": "Hvad er typisk startdosis for epoetin?",
+"a": "50-150 IE/kg/uge",
+"w": [
+"5-15 IE/kg/uge",
+"500-1500 IE/kg/uge"
+],
+"p": 135,
+"lvl": "U",
+"type": "fakta",
+"why": "Fordelt på 1-3 doser pr. uge afhængigt af indgiftsvej. Vedligeholdelse er individuel."
+},
+{
+"id": "11:95",
+"q": "Hvad er startdosis for darbepoetin?",
+"a": "0,45 µg/kg/uge",
+"w": [
+"0,045 µg/kg/uge",
+"4,5 µg/kg/uge"
+],
+"p": 135,
+"lvl": "U",
+"type": "fakta",
+"why": "Gives som én dosis ugentligt, i.v. eller s.c."
+},
+{
+"id": "11:96",
+"q": "Hvornår gives folat eller B12 til EPO-patienter?",
+"a": "Kun ved påvist mangel",
+"w": [
+"Altid fra start",
+"Ved alle med diabetes"
+],
+"p": 135,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er ingen rutinemæssig supplering. Mangel er dog en kendt årsag til EPO-resistens."
+},
+{
+"id": "11:97",
+"q": "Hvorfor er der tilbageholdenhed med EPO ved kræftsygdom?",
+"a": "Høje doser kan fremme cancervækst",
+"w": [
+"EPO er giftigt for knoglemarven",
+"EPO hæmmer kemoterapiens effekt"
+],
+"p": 136,
+"lvl": "K",
+"type": "forståelse",
+"why": "EPO i høje doser kan virke som vækstfaktor. Pragmatisk tilsigtes et lavere Hgb-mål med lavere dosis."
+},
+{
+"id": "11:99",
+"q": "Hvilket p-ferritin-niveau er mål under EPO-behandling?",
+"a": "200-700 ng/ml",
+"w": [
+"20-70 ng/ml",
+"1000-2000 ng/ml"
+],
+"p": 133,
+"lvl": "U",
+"type": "fakta",
+"why": "Målet bruges for at opretholde optimal ESA-effekt, men er forbundet med stor usikkerhed."
+},
+{
+"id": "11:n14",
+"q": "Hvordan påvirker EPO-behandling nyrefunktionstabet i CKD 3-4?",
+"a": "Det øges ikke",
+"w": [
+"Det øges tydeligt",
+"Det mindskes"
+],
+"p": 134,
+"lvl": "U",
+"type": "fakta",
+"why": "Hastigheden af nyrefunktionstabet øges ikke af EPO-behandling. Patienter i CKD 3-4 behandles efter samme retningslinjer som dialysepatienter."
+},
+{
+"id": "11:n15",
+"q": "Hvad gælder for EPO-behovet hos helt små børn?",
+"a": "Relativt højere",
+"w": [
+"Relativt lavere",
+"Ingen behandling"
+],
+"p": 134,
+"lvl": "D",
+"type": "fakta"
+}
+]

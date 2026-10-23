@@ -1,0 +1,418 @@
+[
+{
+"id": "8:0",
+"q": "Hvad kaldes hæmodialyse, som patienten selv udfører i eget hjem?",
+"a": "Hjemmehæmodialyse (HHD)",
+"w": [
+"Centerhæmodialyse (CHD)",
+"Peritonealdialyse (PD)"
+],
+"p": 91,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved HHD udfører patienten alle aspekter af behandlingen selv i hjemmet. Det er et alternativ til centerhæmodialyse og peritonealdialyse."
+},
+{
+"id": "8:8",
+"q": "Hvilken af disse er en klinisk fordel ved mange dialysetimer pr. uge?",
+"a": "Bedre fosfatkontrol",
+"w": [
+"Mere væskerestriktion",
+"Flere blodtryksfald"
+],
+"p": 91,
+"lvl": "K",
+"type": "fakta",
+"why": "Hyppig/lang dialyse giver bedre kontrol af blodtryk, fosfat, kalium og anæmi samt færre diætrestriktioner og blodtryksfald."
+},
+{
+"id": "8:n0",
+"q": "Hvorfor får HHD-patienter ofte færre blodtryksfald under dialysen?",
+"a": "Mindre ultrafiltration pr. session",
+"w": [
+"Højere dialysattemperatur under behandlingen",
+"Lavere blodflow under dialysen"
+],
+"p": 91,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hyppig dialyse giver mindre vægtøgning mellem behandlingerne, så der skal fjernes mindre væske pr. session. Det giver færre blodtryksfald."
+},
+{
+"id": "8:9",
+"q": "Hvor ofte kan EPO undværes ved HHD, selvom anæmien kontrolleres bedre?",
+"a": "Sjældent",
+"w": [
+"Som regel",
+"Altid"
+],
+"p": 91,
+"lvl": "U",
+"type": "fakta",
+"why": "Anæmikontrollen bliver bedre ved HHD, men EPO kan kun sjældent undværes."
+},
+{
+"id": "8:10",
+"q": "Hvilken fordel fremhæver patienterne selv ved HHD?",
+"a": "Øget fleksibilitet og selvbestemmelse",
+"w": [
+"Tættere kontakt til dialysepersonalet",
+"Kortere samlet dialysetid"
+],
+"p": 91,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienterne fremhæver fleksibilitet, at kunne passe arbejde, slippe for transport, længere dialysetid og mindre diæt- og væskerestriktion."
+},
+{
+"id": "8:11",
+"q": "Hvornår begynder rekruttering af patienter til HHD?",
+"a": "I prædialysestadiet",
+"w": [
+"Efter flere års centerdialyse",
+"Ved dialysestart"
+],
+"p": 91,
+"lvl": "K",
+"type": "fakta",
+"why": "Rekrutteringen starter, når patienter i prædialysestadiet præsenteres for dialyseformer (nyreskole, dialysevalgssamtale)."
+},
+{
+"id": "8:n1",
+"q": "En PD-patient har behandlingssvigt og vil gerne dialysere hjemme. Hvad bør man overveje?",
+"a": "Oplæring i HHD",
+"w": [
+"Kun centerhæmodialyse",
+"Kun transplantation"
+],
+"p": 92,
+"lvl": "K",
+"type": "anvendelse",
+"why": "PD-patienter med behandlingssvigt (og CHD-patienter) er egnede til HHD. Personalet skal vedvarende være opmærksomme på dem."
+},
+{
+"id": "8:12",
+"q": "Hvor bør interesserede patienter helst behandles i starten?",
+"a": "I limited care HD-afsnit",
+"w": [
+"I CHD-afsnit",
+"På intensivafsnit"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Her er patienten vedvarende involveret i egen behandling, hvilket øger compliance og motivation for at klare dialysen selv."
+},
+{
+"id": "8:n2",
+"q": "Hvorfor behandles interesserede patienter helst i limited care frem for CHD?",
+"a": "Patienten involveres i egen behandling",
+"w": [
+"Behandlingen er billigere for afdelingen",
+"Der er færre infektioner i afsnittet"
+],
+"p": 92,
+"lvl": "U",
+"type": "forståelse",
+"why": "Vedvarende involvering øger compliance og motivation for senere at kunne varetage dialysen i hjemmet."
+},
+{
+"id": "8:13",
+"q": "Hvem har ansvaret for hjemmebehandlingen efter grundig oplæring?",
+"a": "Patienten selv",
+"w": [
+"Dialysesygeplejersken",
+"Dialyseteknikeren"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter grundig oplæring er det patientens eget ansvar at varetage hjemmebehandlingen (Sundhedsloven)."
+},
+{
+"id": "8:14",
+"q": "Hvilke forhold afgør, om en patient er egnet til HHD?",
+"a": "Fysisk, kognitiv og social formåen",
+"w": [
+"Alder og køn alene",
+"Restnyrefunktion og urinmængde"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Både fysisk og kognitiv formåen samt sociale forhold indgår i vurderingen af, om patienten kan komme i betragtning til HHD."
+},
+{
+"id": "8:15",
+"q": "Hvor lang er oplæringstiden til HHD typisk?",
+"a": "4-12 uger",
+"w": [
+"1-2 uger",
+"6-8 måneder"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Oplæringen omfatter opsætning af maskinen, behandling, alarmer og uforudsete situationer samt vedligehold af maskine og vandanlæg."
+},
+{
+"id": "8:16",
+"q": "Hvorfor besøger en dialysetekniker og HHD-sygeplejerske hjemmet før oplæringen?",
+"a": "For at afklare el/VVS og ændringer",
+"w": [
+"For at vurdere patientens blodprøver",
+"For at udlevere medicin"
+],
+"p": 92,
+"lvl": "U",
+"type": "forståelse",
+"why": "De afklarer de praktiske forhold (installationer af el og VVS) og om der skal ændres i hjemmet."
+},
+{
+"id": "8:17",
+"q": "Hvem betaler for nødvendige el/VVS-ændringer i hjemmet til HHD?",
+"a": "Hospitalet",
+"w": [
+"Patienten selv",
+"Kommunen"
+],
+"p": 92,
+"lvl": "U",
+"type": "fakta",
+"why": "Udgifter til ændringer i hjemmet betales af hospitalet."
+},
+{
+"id": "8:18",
+"q": "Hvorfor kan knaphuller forkorte oplæringen til HHD?",
+"a": "Stumpe nåle er lettere at lære end skarpe",
+"w": [
+"Der skal ikke bruges sterile forholdsregler",
+"Færre infektioner"
+],
+"p": 92,
+"lvl": "K",
+"type": "forståelse",
+"why": "Patienter har ofte sværere ved at lære at stikke med skarpe nåle end at bruge stumpe nåle i et etableret knaphul."
+},
+{
+"id": "8:19",
+"q": "En HHD-patient sover under dialysen. Hvad opdager en kanyledisplacering med blødning?",
+"a": "Lækagealarm under kanyleringsstedet",
+"w": [
+"Videoovervågning af patienten",
+"Tryksensor i armlejet på maskinen"
+],
+"p": 92,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Et stofstykke med detektor under kanylerne alarmerer, når det bliver vådt, så patienten vækkes."
+},
+{
+"id": "8:n3",
+"q": "Hvad oplæres patienter med tunneleret kateter i ved HHD?",
+"a": "Steril og non-touch-teknik",
+"w": [
+"Knaphulsteknik og rebstigeteknik",
+"Hurtig fjernelse af kateteret"
+],
+"p": 92,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved tunnelerede katetre er aseptisk teknik afgørende; patienten oplæres i steril og non-touch-teknik."
+},
+{
+"id": "8:20",
+"q": "Hvilke to typer maskiner kan bruges til HHD?",
+"a": "Konventionel og low-dialysate-volume",
+"w": [
+"Single-needle og double-needle",
+"Manuel og helautomatisk maskine"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "De to principielt forskellige maskiner adskiller sig i dialysatforbrug, størrelse, mulighed for rejse og antal indstillinger."
+},
+{
+"id": "8:n4",
+"q": "Hvorfor kræver en konventionel HHD-maskine et supplerende vandanlæg?",
+"a": "Den bruger store mængder rent vand",
+"w": [
+"Maskinen producerer ikke selv dialysat",
+"Hjemmets vand er for koldt til maskinen"
+],
+"p": 92,
+"lvl": "U",
+"type": "forståelse",
+"why": "Maskinen har samme ordinationsmuligheder som ved CHD og bruger meget rent vand til dialysevæske og evt. HDF-substitution."
+},
+{
+"id": "8:23",
+"q": "Hvor meget dialysevæske bruger en low-dialysate-volume-maskine typisk pr. behandling?",
+"a": "20-30 liter",
+"w": [
+"100-150 liter",
+"300-500 liter"
+],
+"p": 92,
+"lvl": "U",
+"type": "fakta",
+"why": "Det lave forbrug giver færre krav til el- og VVS-installationer end ved konventionelle maskiner."
+},
+{
+"id": "8:24",
+"q": "Hvad er en fordel ved low-dialysate-volume-maskiner?",
+"a": "Flytbare med færre installationskrav",
+"w": [
+"Flere indstillingsmuligheder end CHD",
+"Højere clearance end konventionel maskine"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Maskinen er mindre og flytbar (poser kan leveres på rejsemål), stiller færre krav til el/VVS og opleves som nemmere at betjene, men har færre indstillinger."
+},
+{
+"id": "8:25",
+"q": "Hvorfor har patienter ved hyppig dialyse mindre behov for ultrafiltration pr. session?",
+"a": "Mindre vægtøgning mellem dialyserne",
+"w": [
+"De drikker mere mellem dialyserne",
+"De har bedre restfunktion i nyrerne"
+],
+"p": 92,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved hyppige dialyser samles der mindre væske mellem behandlingerne, så der skal fjernes mindre pr. session."
+},
+{
+"id": "8:26",
+"q": "Hvorfor giver hyppige, korte dialyser lavere karbamid og kalium mellem behandlingerne?",
+"a": "De fjernes mest i de første to timer",
+"w": [
+"De fjernes mest i de sidste timer",
+"Dialysatflowet er højere ved korte sessioner"
+],
+"p": 92,
+"lvl": "K",
+"type": "forståelse",
+"why": "Karbamid og kalium elimineres fortrinsvis i løbet af de første to timer, så korte, hyppige sessioner er effektive."
+},
+{
+"id": "8:27",
+"q": "Hvor ofte skal korte dialyser gives, for at større molekyler fjernes tilstrækkeligt?",
+"a": "5-6 gange om ugen",
+"w": [
+"2 gange om ugen",
+"3 gange om ugen"
+],
+"p": 92,
+"lvl": "K",
+"type": "fakta",
+"why": "Større molekyler fjernes også ved korte dialyser, hvis der dialyseres 5-6 gange om ugen."
+},
+{
+"id": "8:28",
+"q": "Hvad kan meget korte daglige dialyser give mht. fosfat?",
+"a": "Utilstrækkelig fosfatfjernelse",
+"w": [
+"Hypofosfatæmi",
+"Bedre fosfatkontrol end lange sessioner"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "Fosfat kontrolleres bedre ved HHD generelt, men meget korte daglige sessioner kan give for lav reduktion."
+},
+{
+"id": "8:n5",
+"q": "En HHD-patient dialyserer meget korte sessioner hver dag og har stadig højt fosfat. Hvad er nødvendigt?",
+"a": "Længere dialysesessioner",
+"w": [
+"Endnu kortere daglige sessioner",
+"Mindre dialysat pr. behandling"
+],
+"p": 93,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Meget korte daglige dialyser kan give utilstrækkelig fosfatreduktion. Længere sessioner er nødvendige."
+},
+{
+"id": "8:29",
+"q": "En HHD-patient indlægges og dialyseres midlertidigt på centret og får ubehag. Hvorfor?",
+"a": "Vant til hyppigere eller længere dialyse",
+"w": [
+"Centrets dialyse er mere risikabel",
+"Patienten har glemt proceduren"
+],
+"p": 93,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienterne vænner sig til hyppigere/længere behandling i så høj grad, at de kan føle ubehag ved fx ferie eller indlæggelse på CHD."
+},
+{
+"id": "8:30",
+"q": "Hvilke lægemidler oplæres HHD-patienter i selv at give?",
+"a": "Blodfortyndende medicin og EPO",
+"w": [
+"Antibiotika og insulin ved behov",
+"Smertestillende medicin og vitamin D"
+],
+"p": 93,
+"lvl": "U",
+"type": "fakta",
+"why": "Patienten oplæres i at administrere blodfortyndende medicin og EPO."
+},
+{
+"id": "8:31",
+"q": "Hvad gør elektronisk registrering af HHD-behandlinger muligt?",
+"a": "Fjernmonitorering fra dialysecentret",
+"w": [
+"Automatisk filterskift ved alarm",
+"Selvkanylering uden brug af nåle"
+],
+"p": 93,
+"lvl": "U",
+"type": "fakta",
+"why": "Registrering af blodtryk, vægt, blodflow, UF og dialyselængde kan følges fra centret."
+},
+{
+"id": "8:32",
+"q": "Hvordan vurderes dialysekvaliteten ved HHD primært?",
+"a": "Blodprøver, blodtryk og symptomer",
+"w": [
+"Kun dialysetid og kropsvægt",
+"Kun urinproduktion og diurese"
+],
+"p": 93,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvaliteten vurderes som ved CHD primært ud fra blodprøver, blodtryk og patientens symptomer."
+},
+{
+"id": "8:33",
+"q": "Hvad er en vigtig organisatorisk forudsætning for et HHD-afsnit?",
+"a": "Motiveret, tilgængeligt multidisciplinært personale",
+"w": [
+"Mange dialysemaskiner i afsnittet",
+"En stor og stabil patientgruppe"
+],
+"p": 93,
+"lvl": "U",
+"type": "fakta",
+"why": "Derudover kræves ledelsesmæssig forståelse og passende fysiske rammer, helst adskilt fra CHD, med plads til oplæring."
+},
+{
+"id": "8:n6",
+"q": "En HHD-patient rejser meget. Hvilken maskintype passer bedst?",
+"a": "Low-dialysate-volume-maskine",
+"w": [
+"Konventionel maskine med vandanlæg",
+"Maskine uden nogen indstillinger"
+],
+"p": 92,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Maskinen er mindre og flytbar, og der kan leveres væskeposer på de fleste feriedestinationer. Den konventionelle kan ikke tages med på rejse."
+}
+]

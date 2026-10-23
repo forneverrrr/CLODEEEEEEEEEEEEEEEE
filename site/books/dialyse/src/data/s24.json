@@ -1,0 +1,687 @@
+[
+{
+"id": "24:n0",
+"q": "Hvorfor er kroniske forgiftninger sværere at erkende end akutte?",
+"a": "Toksinet ophobes langsomt",
+"w": [
+"Patienten er altid bevidstløs",
+"Blodprøver er altid normale"
+],
+"p": 237,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kroniske forgiftninger skyldes langsom akkumulering af toksinet frem for en enkelt overdosis, så billedet er mindre tydeligt."
+},
+{
+"id": "24:4",
+"q": "Hvilket fund giver mistanke om forgiftning?",
+"a": "Metabolisk acidose med uforklaret højt anion gap",
+"w": [
+"Respiratorisk alkalose med lavt kalium",
+"Hyperkaliæmi med normalt anion gap"
+],
+"p": 237,
+"lvl": "K",
+"type": "fakta",
+"why": "Hvis acidosen og det høje anion gap ikke kan forklares af laktat, ketonstoffer eller uræmi, bør man mistænke forgiftning."
+},
+{
+"id": "24:n1",
+"q": "Hvad gør man først hos en forgiftet patient?",
+"a": "Vurderer bevidsthed og ABC",
+"w": [
+"Giver aktivt kul straks",
+"Starter dialyse straks"
+],
+"p": 237,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Behandlingen starter med klinisk vurdering af bevidsthed og ABC. Først når cirkulation og respiration er sikret, hæmmes optagelsen af giften."
+},
+{
+"id": "24:5",
+"q": "Hvad er førstevalg for at hæmme optagelsen af giften?",
+"a": "Aktivt kul",
+"w": [
+"Ventrikelskylning",
+"Fremkaldt opkastning"
+],
+"p": 237,
+"lvl": "K",
+"type": "fakta",
+"why": "Aktivt kul binder giften i tarmen og er førstevalg, når cirkulation og respiration er sikret."
+},
+{
+"id": "24:6",
+"q": "Hvorfor foretages ventrikelskylning ikke som standard?",
+"a": "Det kan fremskynde giftabsorptionen",
+"w": [
+"Det er for smertefuldt",
+"Aktivt kul virker ikke efter skylning"
+],
+"p": 237,
+"lvl": "K",
+"type": "forståelse",
+"why": "Skylning menes at kunne forcere ventrikelindhold ud i tyndtarmen, hvor giften optages hurtigere."
+},
+{
+"id": "24:7",
+"q": "En patient indbringes kort efter at have taget meget store mængder tabletter. Hvad kan forsøges?",
+"a": "Ventrikelaspiration",
+"w": [
+"Forceret diurese",
+"Peritonealdialyse"
+],
+"p": 237,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ventrikelaspiration kan forsøges kort tid efter indtagelse af meget store tabletmængder, selv om det ikke er standard."
+},
+{
+"id": "24:8",
+"q": "Ved hvilke forgiftninger gives antidot omgående alene ved mistanke?",
+"a": "Methanol og ethylenglykol",
+"w": [
+"Lithium og salicylat",
+"Metformin og dabigatran"
+],
+"p": 237,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Metabolitterne af methanol og ethylenglykol er ekstremt skadelige, så antidot gives straks ved mistanke, uden at vente på prøvesvar (det gælder også grøn og hvid fluesvamp)."
+},
+{
+"id": "24:10",
+"q": "Anvendes forceret diurese ved akutte forgiftninger?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 238,
+"lvl": "U",
+"type": "fakta",
+"why": "Ekstensiv væskebehandling er kun indiceret hos den dehydrerede, hypotensive patient og bruges ikke til at øge elimination ved akutte forgiftninger."
+},
+{
+"id": "24:11",
+"q": "Alkalinisering af urinen øger udskillelsen af hvilke stoffer?",
+"a": "Svage syrer, fx salicylat",
+"w": [
+"Svage baser",
+"Kun fedtopløselige stoffer"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Alkalinisering gælder bl.a. salicylat, phenobarbital, primidon og methotrexat og opnås med intravenøst natriumbikarbonat."
+},
+{
+"id": "24:n2",
+"q": "Hvorfor øger alkalinisering af urinen udskillelsen af svage syrer?",
+"a": "Hæmmer passiv reabsorption i distale tubuli",
+"w": [
+"Den øger den glomerulære filtration",
+"Den øger stoffets proteinbinding"
+],
+"p": 238,
+"lvl": "U",
+"type": "forståelse",
+"why": "Alkalinisering af urinen hæmmer den passive reabsorption af svage syrer i distale tubuli. For salicylsyre firedobles udskillelsen for hver stigning på 1 i urin-pH."
+},
+{
+"id": "24:n3",
+"q": "Hvad overvejes ved akut salicylatforgiftning ud over aktivt kul?",
+"a": "Alkalinisering af urinen",
+"w": [
+"Forceret diurese",
+"Ventrikelskylning"
+],
+"p": 240,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Akutte salicylatforgiftninger behandles med aktivt kul, og alkalinisering af urinen overvejes."
+},
+{
+"id": "24:15",
+"q": "Hvilken behandling er bedre end dialyse ved paracetamolforgiftning?",
+"a": "Intravenøs N-acetylcystein",
+"w": [
+"Forceret diurese",
+"Hæmoperfusion"
+],
+"p": 238,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Paracetamol er en hyppig forgiftning, men intravenøs NAC er dialyse overlegen."
+},
+{
+"id": "24:16",
+"q": "Hvorfor kan tricykliske antidepressiva ikke fjernes ved dialyse?",
+"a": "De er overvejende fedtopløselige",
+"w": [
+"De har for lav molekylvægt",
+"De er helt uden proteinbinding"
+],
+"p": 238,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fedtopløselige stoffer har stort Vd og ligger i vævet, så kun lidt er i blodbanen. Det gælder også korttidsvirkende barbiturater, stimulerende midler og designerdrugs."
+},
+{
+"id": "24:17",
+"q": "Hvilken molekylvægt fremmer fjernelse ved dialyse?",
+"a": "Lav, under 500 Da",
+"w": [
+"Høj, over 5.000 Da",
+"Ligegyldig"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Høj molekylvægt gør det svært for stoffet at passere dialysemembranen."
+},
+{
+"id": "24:18",
+"q": "Hvilken proteinbinding fremmer fjernelse ved dialyse?",
+"a": "Lav, under 80 %",
+"w": [
+"Høj, over 99 %",
+"Ligegyldig"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Høj proteinbindingsgrad gør, at stoffet har vanskeligt ved at passere dialysemembranen."
+},
+{
+"id": "24:19",
+"q": "Hvilket fordelingsvolumen (Vd) fremmer fjernelse ved dialyse?",
+"a": "Lille, under 1 l/kg",
+"w": [
+"Stort, over 10 l/kg",
+"Ligegyldigt"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved lille Vd findes en stor del af stoffet i blodbanen og er tilgængelig for dialyse."
+},
+{
+"id": "24:n4",
+"q": "Hvorfor er stoffer med stort fordelingsvolumen svære at fjerne ved dialyse?",
+"a": "Kun en lille del er i blodbanen",
+"w": [
+"De er for højmolekylære",
+"De er for vandopløselige"
+],
+"p": 238,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stort Vd ses ved vævsbundne eller fedtopløselige toksiner. Kun en lille fraktion er i blodet og dermed tilgængelig for dialyse."
+},
+{
+"id": "24:n5",
+"q": "Et stof har lav molekylvægt, lav proteinbinding og lille Vd. Hvad kan man sige om dialyse?",
+"a": "Stoffet er velegnet til dialyse",
+"w": [
+"Uegnet på grund af proteinbinding",
+"Uegnet på grund af stort Vd"
+],
+"p": 238,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Alle tre egenskaber fremmer fjernelse ved ekstrakorporal behandling, sammen med høj vandopløselighed og hurtig redistribution fra vævet."
+},
+{
+"id": "24:21",
+"q": "Hvornår er ekstrakorporal behandling af forgiftning indiceret?",
+"a": "Ved forværring trods behandling eller nyresvigt",
+"w": [
+"Ved alle forgiftninger uden undtagelse",
+"Kun hos børn under ti år"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialyse er også relevant, hvis patientens egen elimination er nedsat ved akut eller kronisk nyreinsufficiens."
+},
+{
+"id": "24:22",
+"q": "Hvilket stof kan fjernes ved hæmodialyse?",
+"a": "Lithium",
+"w": [
+"Tricykliske antidepressiva",
+"Amfetamin"
+],
+"p": 238,
+"lvl": "K",
+"type": "fakta",
+"why": "Hæmodialyse bruges ved methanol, ethylenglykol, lithium og salicylat. Fedtopløselige stoffer som tricykliske antidepressiva og stimulantia er ikke tilgængelige."
+},
+{
+"id": "24:n6",
+"q": "Hvorfor bruges high-flux-filter ved forgiftning?",
+"a": "Toksiner med højere molekylvægt kan passere",
+"w": [
+"Det giver lavere blodflow i filteret",
+"Det forebygger rebound af stoffet"
+],
+"p": 239,
+"lvl": "U",
+"type": "forståelse",
+"why": "High-flux-filtre øger clearance af toksiner med højere molekylvægt, og det er en egenskab, der fremmer ekstrakorporal fjernelse."
+},
+{
+"id": "24:26",
+"q": "Hvad er hæmoperfusion?",
+"a": "Blodet føres gennem et kulfilter",
+"w": [
+"Plasmaudskiftning med albumin",
+"Dialyse over bughinden"
+],
+"p": 239,
+"lvl": "U",
+"type": "fakta",
+"why": "Kulfiltret har høj affinitet for lipidopløselige stoffer, men er teknisk vanskeligt, og fordelene frem for HD med high-flux er yderst begrænsede."
+},
+{
+"id": "24:27",
+"q": "Hvorfor bruges kontinuerlig hæmodiafiltration efter initial HD ved fx lithiumforgiftning?",
+"a": "For at modvirke rebound",
+"w": [
+"For at øge dialysatflowet",
+"For at tilføre antidot"
+],
+"p": 239,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kontinuerlige former har lavere eliminationshastighed og bruges derfor ikke som primær behandling, men til opfølgning mod rebound."
+},
+{
+"id": "24:28",
+"q": "Har peritonealdialyse plads i behandlingen af akutte forgiftninger?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 239,
+"lvl": "U",
+"type": "fakta",
+"why": "Eliminationshastigheden er for lav, så peritonealdialyse har ingen plads ved akutte forgiftninger."
+},
+{
+"id": "24:29",
+"q": "Hvilken behandling er uvirksom ved methanolforgiftning?",
+"a": "Aktivt kul",
+"w": [
+"Fomepizol",
+"Hæmodialyse"
+],
+"p": 239,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Aktivt kul binder ikke methanol og ethylenglykol og skal ikke bruges. Antidot og HD er de virksomme tiltag."
+},
+{
+"id": "24:30",
+"q": "Hvilket enzym omdanner methanol og ethylenglykol til de toksiske metabolitter?",
+"a": "Alkoholdehydrogenase",
+"w": [
+"Cytochrom P450 3A4",
+"Pseudokolinesterase"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "Alkoholdehydrogenase danner formaldehyd (fra methanol) og glykoaldehyd (fra ethylenglykol). Det er metabolitterne, der skader."
+},
+{
+"id": "24:31",
+"q": "Hvilken skade kan formaldehyd fra methanol give?",
+"a": "Permanent blindhed",
+"w": [
+"Akut nyresvigt",
+"Leversvigt"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "Formaldehyd skader synet, mens glykoaldehyd fra ethylenglykol kan give akut nyresvigt."
+},
+{
+"id": "24:32",
+"q": "Hvilken skade kan glykoaldehyd fra ethylenglykol give?",
+"a": "Akut nyresvigt",
+"w": [
+"Blindhed",
+"Leversvigt"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "Ethylenglykol (kølervæske) giver nyreskade via glykoaldehyd, mens methanol giver blindhed."
+},
+{
+"id": "24:n7",
+"q": "En patient har svær metabolisk acidose med forhøjet anion gap og mistænkes for at have drukket kølervæske. Hvad gives straks?",
+"a": "Antidot (fomepizol eller ethanol)",
+"w": [
+"Aktivt kul i store doser",
+"Ventrikelskylning med saltvand"
+],
+"p": 239,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ethylenglykol må behandles med antidot straks ved mistanke. Antidoten blokerer alkoholdehydrogenase, så de toksiske metabolitter ikke dannes."
+},
+{
+"id": "24:33",
+"q": "Hvilke antidoter blokerer alkoholdehydrogenase ved methanol- eller ethylenglykolforgiftning?",
+"a": "Fomepizol eller ethanol",
+"w": [
+"Folinsyre eller tiamin",
+"Heparin eller NAC"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "Fomepizol er effektivt med få bivirkninger. Ethanol bruges, hvis fomepizol ikke er tilgængeligt."
+},
+{
+"id": "24:37",
+"q": "Bør fomepizol og ethanol gives samtidig?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 239,
+"lvl": "U",
+"type": "fakta",
+"why": "Kombinationen frarådes. Man vælger enten fomepizol eller ethanol som blokade af alkoholdehydrogenase."
+},
+{
+"id": "24:38",
+"q": "Hvilket supplement gives ved methanolforgiftning?",
+"a": "Folinsyre",
+"w": [
+"Tiamin",
+"Pyridoxin"
+],
+"p": 239,
+"lvl": "U",
+"type": "fakta",
+"why": "Folinsyre i.v. supplerer antidotbehandlingen ved methanol. Tiamin og pyridoxin er muligt supplement ved ethylenglykol."
+},
+{
+"id": "24:40",
+"q": "Ved hvilken methanolkoncentration i plasma er HD indiceret (medmindre arterie-pH er over 7,3)?",
+"a": "Over 15 mmol/l",
+"w": [
+"Over 5 mmol/l",
+"Over 50 mmol/l"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "HD fjerner methanol og metabolitter og supplerer antidotbehandlingen, når koncentrationen er høj eller der er acidose eller organskade."
+},
+{
+"id": "24:41",
+"q": "Ved hvilken ethylenglykolkoncentration i plasma er HD indiceret (medmindre arterie-pH er over 7,3)?",
+"a": "Over 8 mmol/l",
+"w": [
+"Over 2 mmol/l",
+"Over 20 mmol/l"
+],
+"p": 239,
+"lvl": "K",
+"type": "fakta",
+"why": "Kølervæske danner nyreskadelige metabolitter. HD fjerner stoffet og dets metabolitter og supplerer antidoten."
+},
+{
+"id": "24:n8",
+"q": "Hvilket fund er indikation for HD ved methanolforgiftning uanset plasmakoncentrationen?",
+"a": "Metabolisk acidose",
+"w": [
+"Hovedpine",
+"Opkastning"
+],
+"p": 239,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Metabolisk acidose, tegn på organskade (syn, nyrer) eller høj koncentration er indikation for HD sammen med antidot."
+},
+{
+"id": "24:42",
+"q": "Hvorfor bruges heparinfri HD ved methanolforgiftning?",
+"a": "Øget risiko for intracerebral blødning",
+"w": [
+"Heparin binder methanol",
+"Heparin hæmmer antidoten"
+],
+"p": 239,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved methanolforgiftning er der øget risiko for intracerebral hæmorrhagi, så antikoagulation undgås."
+},
+{
+"id": "24:43",
+"q": "Hvorfor fortsættes antidotbehandling efter HD ved methanol eller ethylenglykol?",
+"a": "Rebound, når stoffet frigives fra vævet",
+"w": [
+"Antidoten virker først efter 24 timer",
+"Metabolitterne er proteinbundne"
+],
+"p": 240,
+"lvl": "K",
+"type": "forståelse",
+"why": "Stofferne fjernes hurtigere fra blodbanen, end de frigøres fra vævet. Koncentrationen stiger igen efter HD."
+},
+{
+"id": "24:45",
+"q": "Hvorfor giver isopropylalkoholforgiftning ikke forhøjet anion gap?",
+"a": "Acetone er ikke en organisk syre",
+"w": [
+"Isopropylalkohol omdannes ikke",
+"Acetone udskilles straks"
+],
+"p": 240,
+"lvl": "U",
+"type": "forståelse",
+"why": "Anion gap stiger ved organiske syrer. Isopropylalkohol omdannes til acetone, som ikke er en organisk syre. Der er ingen antidot."
+},
+{
+"id": "24:48",
+"q": "Hvorfor er lithium velegnet til dialyse?",
+"a": "Lille molekyle (7 Da) med lille Vd",
+"w": [
+"Højt proteinbundet",
+"Binder aktivt kul"
+],
+"p": 240,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lithium er et meget lille molekyle med Vd 0,6-0,9 l/kg, som ikke er proteinbundet og ikke bindes til aktivt kul."
+},
+{
+"id": "24:51",
+"q": "Lithiumkoncentrationen stiger igen efter HD. Hvad forklarer det?",
+"a": "Rebound fra vævet",
+"w": [
+"Ny indtagelse",
+"Filtersvigt"
+],
+"p": 240,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lithium har en udtalt rebound-effekt. Derfor kan langvarig eller gentagne daglige dialyser være nødvendige."
+},
+{
+"id": "24:53",
+"q": "Ved hvilken p-lithium er der absolut indikation for HD?",
+"a": "Over 4 mmol/l",
+"w": [
+"Over 1 mmol/l",
+"Over 8 mmol/l"
+],
+"p": 240,
+"lvl": "K",
+"type": "fakta",
+"why": "Over 4 mmol/l er HD altid indiceret."
+},
+{
+"id": "24:54",
+"q": "En lithiumforgiftet patient har alvorlige neurologiske symptomer og p-lithium på 3 mmol/l. Er der dialyseindikation?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 240,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved alvorlige neurologiske symptomer eller nedsat nyrefunktion er der dialyseindikation allerede over 2,5 mmol/l."
+},
+{
+"id": "24:n9",
+"q": "Hvilket fund ved salicylatforgiftning er indikation for HD?",
+"a": "Intraktabel acidose eller lungeødem",
+"w": [
+"Let kvalme uden andre symptomer",
+"Normal mental tilstand og nyrefunktion"
+],
+"p": 240,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Påvirket mentaltilstand, kramper, pulmonalt eller cerebralt ødem, påvirket nyrefunktion og intraktabel acidose indicerer HD."
+},
+{
+"id": "24:57",
+"q": "Ved hvilken salicylatkoncentration i plasma er HD indiceret ved akut forgiftning?",
+"a": "Over 7,2 mmol/l",
+"w": [
+"Over 2,0 mmol/l",
+"Over 15 mmol/l"
+],
+"p": 240,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved kroniske forgiftninger og hos børn er grænsen lavere, og HD er også indiceret ved forværring trods behandling."
+},
+{
+"id": "24:60",
+"q": "Hvorfor gentages koncentrationsmåling ved salicylatforgiftning?",
+"a": "Ventrikelretention kan forsinke optagelsen",
+"w": [
+"Stoffet nedbrydes hurtigt i blodet",
+"Prøverne er upålidelige i starten"
+],
+"p": 240,
+"lvl": "K",
+"type": "forståelse",
+"why": "Salicylat kan give ventrikelretention, så koncentrationen kan stige senere, og første måling kan være misvisende."
+},
+{
+"id": "24:61",
+"q": "Hvilket stof binder aktivt kul?",
+"a": "Carbamazepin",
+"w": [
+"Lithium",
+"Methanol"
+],
+"p": 240,
+"lvl": "U",
+"type": "fakta",
+"why": "Aktivt kul binder carbamazepin og valproat. Ved meget svære forgiftninger kan HD eller hæmoperfusion overvejes."
+},
+{
+"id": "24:63",
+"q": "En metformin-forgiftet patient har pH 7,0 og bedres ikke af anden behandling. Hvad overvejes?",
+"a": "Hæmodialyse",
+"w": [
+"Forceret diurese",
+"Peritonealdialyse"
+],
+"p": 241,
+"lvl": "K",
+"type": "anvendelse",
+"why": "HD er effektivt ved svær laktacidose (pH < 7,1) og ved påvirket nyrefunktion."
+},
+{
+"id": "24:64",
+"q": "Hvilket direkte oralt antikoagulans er dialyserbart?",
+"a": "Dabigatran",
+"w": [
+"Apixaban",
+"Rivaroxaban"
+],
+"p": 241,
+"lvl": "U",
+"type": "fakta",
+"why": "Af de nyere antikoagulantia er kun dabigatran dialyserbart. Der findes en antidot."
+},
+{
+"id": "24:65",
+"q": "Hvad er amatoksin?",
+"a": "Levergift i fluesvampe",
+"w": [
+"Antidot mod svampeforgiftning",
+"Nyregift i kølervæske"
+],
+"p": 241,
+"lvl": "K",
+"type": "fakta",
+"why": "Amatoksin forårsager levernekrose efter indtagelse af grøn (Amanita phalloides) eller hvid fluesvamp."
+},
+{
+"id": "24:70",
+"q": "Hvorfor kan amatoksinforgiftning fejldiagnosticeres som gastroenteritis?",
+"a": "Symptomfri periode inden levernekrose",
+"w": [
+"Symptomerne kommer straks",
+"Blodprøver er normale"
+],
+"p": 241,
+"lvl": "K",
+"type": "forståelse",
+"why": "Efter de gastrointestinale symptomer kan der gå et-to døgn uden symptomer, før leveren svigter, og patienten kan fejlagtigt vurderes som banal gastroenteritis."
+},
+{
+"id": "24:71",
+"q": "Hvilken antidot bruges ved amatoksinforgiftning?",
+"a": "Silibinin",
+"w": [
+"Fomepizol",
+"Folinsyre"
+],
+"p": 241,
+"lvl": "K",
+"type": "fakta",
+"why": "Hvis silibinin ikke er tilgængeligt, bruges G-penicillin. NAC gives ved svær leverpåvirkning."
+},
+{
+"id": "24:72",
+"q": "Hvornår kan HD eller hæmoperfusion fjerne amatoksin?",
+"a": "Kun de første 1-1½ døgn",
+"w": [
+"Først efter tredje døgn",
+"Hele forløbet"
+],
+"p": 241,
+"lvl": "U",
+"type": "fakta",
+"why": "Toksinet kan fjernes de første 1-1½ døgn efter indtagelsen, men det er ikke indiceret efter 2. døgn."
+},
+{
+"id": "24:n10",
+"q": "Hvor kan sundhedspersonale få råd om behandling af en forgiftning?",
+"a": "Giftlinjen",
+"w": [
+"Apoteket",
+"Egen læge"
+],
+"p": 241,
+"lvl": "U",
+"type": "fakta",
+"why": "Giftlinjen kan kontaktes døgnet rundt og rådgiver også om fx fomepizol og dosering."
+}
+]

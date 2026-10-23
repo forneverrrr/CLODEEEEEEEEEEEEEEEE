@@ -1,0 +1,652 @@
+[
+{
+"id": "27:9",
+"q": "Hvad er en besættelse af et land?",
+"a": "Et andet land overtager det med soldater",
+"w": [
+"En aftale om handel mellem lande",
+"En folkeafstemning om selvstyre for landet"
+],
+"p": 148,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved en besættelse går et land ind i et andet med soldater og bestemmer over det. I 1940 besatte Tyskland Danmark."
+},
+{
+"id": "27:27",
+"q": "Hvad er en forfatning?",
+"a": "Grundlæggende regler for, hvordan en stat styres",
+"w": [
+"Regler for, hvordan en bank skal styres",
+"Regler for, hvordan en skole skal drives"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "En forfatning er statens basale regler for styring og organisering. Reglerne bliver normalt skrevet ned i en grundlov."
+},
+{
+"id": "27:29",
+"q": "Hvad betyder forældremyndighed?",
+"a": "Ret til at bestemme over et barn",
+"w": [
+"Ret til at få børnepenge af staten",
+"Ret til at adoptere et andet barn"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "Forældre med forældremyndighed har ret til at bestemme over barnet, indtil det fylder 18 år og bliver myndigt."
+},
+{
+"id": "27:n0",
+"q": "Hvornår holder forældremyndigheden op?",
+"a": "Når barnet fylder 18 år",
+"w": [
+"Når barnet fylder 15 år",
+"Når barnet fylder 21 år"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "Forældre bestemmer over barnet, indtil det bliver myndigt. Man bliver myndig den dag, man fylder 18 år."
+},
+{
+"id": "27:41",
+"q": "Hvad er forskellen på dåb og konfirmation?",
+"a": "Ved konfirmation siger man selv ja til kirken",
+"w": [
+"Ved konfirmation får barnet sit navn af præsten",
+"Konfirmation sker kort tid efter barnets fødsel"
+],
+"p": 151,
+"lvl": "K",
+"type": "forståelse",
+"why": "Døbte børn på ca. 14 år siger ved konfirmationen selv ja til at være medlem af folkekirken. Navnet får et lille barn ved dåben."
+},
+{
+"id": "27:n1",
+"q": "Hvad sker der ved en dåb?",
+"a": "Præsten hælder vand på hovedet",
+"w": [
+"Man bliver gift i kirken",
+"Man siger ja til kirken som 14-årig"
+],
+"p": 149,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved dåben hælder præsten lidt vand på hovedet af en person, der vil være medlem af et kristent trossamfund. Et lille barn får også sit navn."
+},
+{
+"id": "27:36",
+"q": "Hvad er Treenigheden i kristendommen?",
+"a": "Faderen, Sønnen og Helligånden",
+"w": [
+"Moses, Jesus og Muhammad",
+"Maria, Josef og Jesus Kristus"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Kristne mener, at Gud består af tre dele: Faderen (Gud), Sønnen (Jesus Kristus) og Helligånden. Det kaldes Treenigheden, altså tre i én."
+},
+{
+"id": "27:n2",
+"q": "Hvad er den danske folkekirke?",
+"a": "Det evangelisk-lutherske trossamfund",
+"w": [
+"Et muslimsk trossamfund i Danmark",
+"Den katolske kirke i Rom"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkekirken er det evangelisk-lutherske trossamfund i Danmark. Børn, der er døbt, kan blive konfirmeret som ca. 14-årige."
+},
+{
+"id": "27:n3",
+"q": "Hvad er et trossamfund?",
+"a": "Fællesskab, hvor alle har samme religion",
+"w": [
+"Et politisk parti i Folketinget",
+"En fagforening for lønmodtagere"
+],
+"p": 154,
+"lvl": "K",
+"type": "fakta",
+"why": "Et trossamfund er et organiseret fællesskab, hvor alle har den samme slags religion, fx folkekirken."
+},
+{
+"id": "27:45",
+"q": "Hvad betyder ligestilling?",
+"a": "Lige rettigheder og muligheder for alle",
+"w": [
+"At alle har præcis samme løn",
+"At alle tænker og mener ens"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Ligestilling betyder lige rettigheder og muligheder, uanset om man er mand, kvinde eller homoseksuel. Det betyder ikke, at alle er ens."
+},
+{
+"id": "27:n4",
+"q": "Hvad betyder ligeværd?",
+"a": "At alle er lige meget værd",
+"w": [
+"At alle tjener det samme",
+"At alle har det samme arbejde"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Ligeværd er det, at alle er lige meget værd."
+},
+{
+"id": "27:46",
+"q": "Hvad er en markedsøkonomi?",
+"a": "Private firmaer producerer og sælger frit",
+"w": [
+"Staten bestemmer, hvad der produceres",
+"Man bytter kun varer uden at bruge penge"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "I en markedsøkonomi produceres, købes og sælges varer og tjenester frit af private virksomheder."
+},
+{
+"id": "27:60",
+"q": "Hvad er en planøkonomi?",
+"a": "Staten bestemmer, hvad der produceres",
+"w": [
+"Private firmaer sælger helt frit",
+"Man bytter kun varer uden at bruge penge"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "I en planøkonomi planlægger og bestemmer staten, hvilke varer og tjenester der produceres."
+},
+{
+"id": "27:n5",
+"q": "I et land bestemmer staten, hvad fabrikkerne skal lave. Hvilken økonomi er det?",
+"a": "Planøkonomi",
+"w": [
+"Markedsøkonomi",
+"Velfærdsøkonomi"
+],
+"p": 153,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Når staten planlægger produktionen, er det planøkonomi. I markedsøkonomi bestemmer private virksomheder selv, hvad de producerer og sælger."
+},
+{
+"id": "27:49",
+"q": "Hvad betyder myndighederne?",
+"a": "Det offentlige: stat og kommune",
+"w": [
+"Private firmaer og butikker",
+"Foreninger og klubber"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "Myndighederne er det offentlige, altså stat og kommune."
+},
+{
+"id": "27:53",
+"q": "Hvad er neutralitetspolitik?",
+"a": "Landet vælger ikke side i andre landes krige",
+"w": [
+"Landet deltager i alle andre landes krige",
+"Landet støtter altid sin nabo i krig"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "Et land med neutralitetspolitik deltager ikke og vælger ikke side i andre landes krige og konflikter."
+},
+{
+"id": "27:56",
+"q": "Hvad er et opsigelsesvarsel?",
+"a": "Tiden, man får besked om fyring i forvejen",
+"w": [
+"Den ferie, man får efter en fyring",
+"Den løn, man får efter en fyring"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "Man bliver normalt ikke fyret fra dag til dag. Man skal have skriftlig besked et stykke tid før, fx tre måneder."
+},
+{
+"id": "27:58",
+"q": "Hvad er en overenskomst?",
+"a": "Skriftlig aftale mellem to parter",
+"w": [
+"En ny lov fra Folketinget",
+"En dom fra en domstol"
+],
+"p": 152,
+"lvl": "K",
+"type": "fakta",
+"why": "En overenskomst er en skriftlig aftale mellem to parter. Den er altså ikke en lov eller en dom."
+},
+{
+"id": "27:n6",
+"q": "Hvem laver kollektive overenskomster?",
+"a": "Fagforeninger og arbejdsgiverforeninger",
+"w": [
+"Kommuner og regioner i fællesskab",
+"Folketinget og regeringen"
+],
+"p": 23,
+"lvl": "K",
+"type": "fakta",
+"why": "Kollektive overenskomster er aftaler mellem fagforeningerne og arbejdsgivernes foreninger. De regulerer fx løn, arbejdstid og løn under sygdom."
+},
+{
+"id": "27:n7",
+"q": "Hvad aftales der i en kollektiv overenskomst?",
+"a": "Løn og arbejdstid",
+"w": [
+"Priser i butikker",
+"Skat og afgifter"
+],
+"p": 22,
+"lvl": "K",
+"type": "fakta",
+"why": "Overenskomsten aftaler regler for løn, arbejdstid m.m. Aftaleperioden varer oftest to eller tre år."
+},
+{
+"id": "27:62",
+"q": "Hvad forbyder racismeparagraffen?",
+"a": "At tale grimt om folk pga. race",
+"w": [
+"At køre alt for stærkt i byen om natten",
+"At bruge andres navn uden lov"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "Racismeparagraffen er en del af loven. Den siger, at man ikke offentligt må tale grimt om folk på grund af deres race."
+},
+{
+"id": "27:33",
+"q": "Hvad er hadforbrydelser?",
+"a": "Forbrydelser pga. religion eller hudfarve",
+"w": [
+"Forbrydelser for at få penge",
+"Forbrydelser begået af unge børn"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "Hadforbrydelser er fx vold, hærværk eller trusler, der skyldes had til personer pga. fx religion, hudfarve, køn eller alder."
+},
+{
+"id": "27:63",
+"q": "Hvilke lande er med i rigsfællesskabet?",
+"a": "Danmark, Færøerne og Grønland",
+"w": [
+"Danmark, Island og Norge",
+"Danmark, Norge og Sverige"
+],
+"p": 153,
+"lvl": "K",
+"type": "fakta",
+"why": "Rigsfællesskabet er Danmark, Færøerne og Grønland. De tre dele er fælles om fx kongehuset, men har hver deres flag."
+},
+{
+"id": "27:81",
+"q": "Hvad er en velfærdsydelse?",
+"a": "Hjælp fra samfundet, fx gratis skole",
+"w": [
+"Penge, man betaler i skat og afgift",
+"Løn fra en arbejdsgiver hver måned"
+],
+"p": 155,
+"lvl": "K",
+"type": "fakta",
+"why": "Borgere i velfærdssamfundet får penge, ting eller hjælp for at kunne have et godt liv, fx gratis skolegang, lægehjælp og pension."
+},
+{
+"id": "27:83",
+"q": "Hvad er værnepligt?",
+"a": "Pligten til at være soldat",
+"w": [
+"Pligten til at stemme",
+"Pligten til at forsørge sin familie"
+],
+"p": 155,
+"lvl": "K",
+"type": "fakta",
+"why": "Værnepligt er pligten til at være soldat og være med til at forsvare landet."
+},
+{
+"id": "27:84",
+"q": "Hvad er en ytring?",
+"a": "Det, man siger",
+"w": [
+"Det, man tænker",
+"Det, man køber"
+],
+"p": 155,
+"lvl": "K",
+"type": "fakta",
+"why": "En ytring er det, man siger højt. Det, man tænker og mener, hører under åndsfrihed."
+},
+{
+"id": "27:86",
+"q": "Hvad er åndsfrihed?",
+"a": "Frihed til selv at vælge, hvad man tror og mener",
+"w": [
+"Frihed til at undgå at betale skat",
+"Frihed til at vælge sit eget arbejde"
+],
+"p": 155,
+"lvl": "K",
+"type": "fakta",
+"why": "Åndsfrihed er retten til selv at bestemme, hvad man vil tro på, og hvad man vil mene."
+},
+{
+"id": "27:n8",
+"q": "Hvad betyder folkestyre?",
+"a": "Demokrati",
+"w": [
+"Diktatur",
+"Kongestyre"
+],
+"p": 150,
+"lvl": "K",
+"type": "fakta",
+"why": "Folkestyre er et andet ord for demokrati, hvor folket har indflydelse."
+},
+{
+"id": "27:n9",
+"q": "Hvad er et hemmeligt valg?",
+"a": "Ingen kan se, hvem man stemmer på",
+"w": [
+"Kun nogle må stille op",
+"Valgresultatet er helt hemmeligt"
+],
+"p": 151,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved frie og hemmelige valg kan alle stille op, og ingen kan se, hvilket parti man stemmer på."
+},
+{
+"id": "27:59",
+"q": "En virksomhed tjener 100 kr. og bruger 80 kr. Hvad har den?",
+"a": "Et overskud",
+"w": [
+"Et underskud",
+"En skat"
+],
+"p": 152,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Overskud betyder, at man har tjent flere penge, end man har brugt på sin virksomhed."
+},
+{
+"id": "27:75",
+"q": "En virksomhed tjener 80 kr. og bruger 100 kr. Hvad har den?",
+"a": "Et underskud",
+"w": [
+"Et overskud",
+"En afgift til staten"
+],
+"p": 154,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Underskud betyder, at man har tjent færre penge, end man har brugt på sin virksomhed."
+},
+{
+"id": "27:n10",
+"q": "Hvad er FN?",
+"a": "En verdensorganisation for næsten alle lande",
+"w": [
+"En militær alliance i Europa",
+"En dansk statslig myndighed"
+],
+"p": 101,
+"lvl": "K",
+"type": "fakta",
+"why": "FN blev dannet i 1945, efter 2. verdenskrig, og Danmark har været med fra begyndelsen. FN's formål er at skabe fred og udvikling."
+},
+{
+"id": "27:0",
+"q": "Hvad er en afgift?",
+"a": "Penge, man betaler til staten ved køb eller salg",
+"w": [
+"Penge, man får af staten som hjælp",
+"Penge, man betaler til sin chef hver måned"
+],
+"p": 148,
+"lvl": "U",
+"type": "fakta",
+"why": "En afgift er penge, man betaler til staten, når man køber eller sælger noget."
+},
+{
+"id": "27:3",
+"q": "Hvad er en afskedsbegæring?",
+"a": "Dokument, hvor en minister vil stoppe",
+"w": [
+"Dokument om en ny lov i Folketinget",
+"Dokument om en ny løn"
+],
+"p": 148,
+"lvl": "U",
+"type": "fakta",
+"why": "I en afskedsbegæring beder fx en minister om lov til at holde op med at være minister."
+},
+{
+"id": "27:4",
+"q": "Hvad er en aktie?",
+"a": "Andel af ejerskab i en virksomhed",
+"w": [
+"Et lån til en virksomhed",
+"En skat på alle virksomheder i landet"
+],
+"p": 148,
+"lvl": "U",
+"type": "fakta",
+"why": "Når man køber en aktie, bliver man medejer af virksomheden, men ejer kun en meget lille del, hvis virksomheden er stor."
+},
+{
+"id": "27:14",
+"q": "Hvad betyder det at arbejde på deltid?",
+"a": "At arbejde færre timer end på fuld tid",
+"w": [
+"At arbejde flere timer end på fuld tid",
+"At arbejde uden løn"
+],
+"p": 149,
+"lvl": "U",
+"type": "fakta",
+"why": "På deltid arbejder eller studerer man i færre timer per dag, uge, måned eller år end dem, der er på fuld tid."
+},
+{
+"id": "27:32",
+"q": "Hvad er global opvarmning?",
+"a": "Jordens klima ændres, fordi temperaturen stiger",
+"w": [
+"Opvarmning af huse med olie",
+"Varmt og tørt vejr i én sommer"
+],
+"p": 150,
+"lvl": "U",
+"type": "fakta",
+"why": "Global opvarmning er en ændring af jordens klima, fordi den gennemsnitlige temperatur stiger. Drivhusgasser som CO2 er med til at skabe den."
+},
+{
+"id": "27:35",
+"q": "Hvad betyder hedensk?",
+"a": "Ikke kristen, muslimsk eller jødisk",
+"w": [
+"Meget from i kirken",
+"Født og opvokset i Danmark"
+],
+"p": 150,
+"lvl": "U",
+"type": "fakta",
+"why": "Hedensk betyder at have ingen religion eller en anden religion end kristendom, islam eller jødedom."
+},
+{
+"id": "27:39",
+"q": "Hvad er injurier?",
+"a": "At sige noget forkert og negativt om andre",
+"w": [
+"At sige noget sandt og negativt om andre",
+"At true nogen på livet med vold"
+],
+"p": 151,
+"lvl": "U",
+"type": "fakta",
+"why": "Injurier er negative udtalelser om andre, som ikke er sande. Det er ikke injurier, hvis det, man siger, er sandt."
+},
+{
+"id": "27:42",
+"q": "Hvad er et kontingent?",
+"a": "Penge, man betaler for at være medlem",
+"w": [
+"Penge, man får i løn hver måned",
+"Penge, man betaler i skat"
+],
+"p": 151,
+"lvl": "U",
+"type": "fakta",
+"why": "Et kontingent betaler man fx til en forening for at være medlem."
+},
+{
+"id": "27:50",
+"q": "Hvorfor brugte man mørklægningsgardiner under 2. verdenskrig?",
+"a": "Fly kunne ikke se husene",
+"w": [
+"For at holde varmen inde",
+"For at få mere søvn"
+],
+"p": 152,
+"lvl": "U",
+"type": "forståelse",
+"why": "Under luftangreb kom der intet lys ud af vinduerne. Så kunne flyene ikke se, hvor der var huse og byer."
+},
+{
+"id": "27:52",
+"q": "Hvad er nedrustning?",
+"a": "Et land gør sit militær mindre",
+"w": [
+"Et land gør sit militær større",
+"Et land går i krig"
+],
+"p": 152,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved nedrustning reducerer et land størrelsen af sit militær. Oprustning er det modsatte."
+},
+{
+"id": "27:55",
+"q": "Hvad er oprustning?",
+"a": "Et land gør sit militær stærkere",
+"w": [
+"Et land gør sit militær mindre",
+"Et land giver op i en krig"
+],
+"p": 152,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved oprustning forbedrer et land sit militær, fx med flere soldater og bedre våben. Nedrustning er det modsatte."
+},
+{
+"id": "27:69",
+"q": "Hvad er et tilhold?",
+"a": "Forbud mod at kontakte eller følge en anden",
+"w": [
+"Forbud mod at forlade landet i et år",
+"Forbud mod at tage et nyt arbejde"
+],
+"p": 154,
+"lvl": "U",
+"type": "fakta",
+"why": "Med et tilhold forbydes en person at opsøge, kontakte eller følge efter en anden person."
+},
+{
+"id": "27:70",
+"q": "Hvad er et tilskud?",
+"a": "Penge fra det offentlige til en del af en udgift",
+"w": [
+"Penge, man betaler i skat af sin løn hvert år",
+"Penge, man låner af en bank til et hus"
+],
+"p": 154,
+"lvl": "U",
+"type": "fakta",
+"why": "Et tilskud er hjælp fra det offentlige og dækker normalt kun en del af udgiften."
+},
+{
+"id": "27:76",
+"q": "Hvad betyder umyndiggjort?",
+"a": "Har mistet voksnes rettigheder",
+"w": [
+"Har fået flere rettigheder",
+"Er først lige blevet myndig"
+],
+"p": 154,
+"lvl": "U",
+"type": "fakta",
+"why": "En umyndiggjort person har mistet de rettigheder, som myndige over 18 år har, fx fordi personen er meget alvorligt psykisk syg."
+},
+{
+"id": "27:80",
+"q": "Hvad betyder det at vedtage en lov?",
+"a": "At bestemme, at den skal gælde",
+"w": [
+"At foreslå en ny lov",
+"At afvise en ny lov"
+],
+"p": 155,
+"lvl": "U",
+"type": "forståelse",
+"why": "At vedtage er at bestemme, at noget skal gælde. At fremsætte et lovforslag er kun at foreslå en ny lov."
+},
+{
+"id": "27:65",
+"q": "Hvad er en saglig grund?",
+"a": "En grund, som andre også kan forstå",
+"w": [
+"En grund, man holder hemmelig for andre",
+"En grund, man ikke kan forklare"
+],
+"p": 153,
+"lvl": "U",
+"type": "fakta",
+"why": "En saglig grund handler om noget, som andre også kan se og forstå."
+},
+{
+"id": "27:66",
+"q": "Hvad vil det sige at spænde et sikkerhedsnet ud i samfundet?",
+"a": "Sørge for, at alle, der har brug for det, har bolig og mad",
+"w": [
+"Give alle et godt job",
+"Give alle en lang uddannelse"
+],
+"p": 153,
+"lvl": "U",
+"type": "forståelse",
+"why": "Samfundet sørger for, at alle, der har brug for det, fx har et sted at bo og mad at spise."
+},
+{
+"id": "27:64",
+"q": "Hvad kæmpede rødstrømpebevægelsen for?",
+"a": "Kvinders rettigheder",
+"w": [
+"Fred og nedrustning i verden",
+"Lavere skat til alle"
+],
+"p": 153,
+"lvl": "U",
+"type": "fakta",
+"why": "Rødstrømpebevægelsen var en socialistisk bevægelse i 70'erne, som kæmpede for kvinders rettigheder."
+}
+]

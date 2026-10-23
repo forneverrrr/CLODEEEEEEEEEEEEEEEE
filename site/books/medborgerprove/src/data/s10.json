@@ -1,0 +1,324 @@
+[
+{
+"id": "10:0",
+"q": "Hvad betyder ligebehandling?",
+"a": "Alle skal behandles lige",
+"w": [
+"Alle skal have samme løn",
+"Alle skal have samme job"
+],
+"p": 58,
+"lvl": "K",
+"type": "forståelse",
+"why": "Alle borgere skal behandles lige, uanset fx køn, etnisk oprindelse eller religion. Det betyder ikke, at alle får samme løn eller job."
+},
+{
+"id": "10:n0",
+"q": "En arbejdsgiver afviser en ansøger på grund af hendes etniske baggrund. Hvad er det?",
+"a": "Ulovlig forskelsbehandling",
+"w": [
+"En helt saglig grund",
+"Et lovligt krav om påklædning"
+],
+"p": 58,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Arbejdsgiveren må som udgangspunkt ikke afvise nogen på grund af fx køn, handicap eller etnisk baggrund. Man kan blive straffet."
+},
+{
+"id": "10:n1",
+"q": "Hvilken grund til at afvise en ansøger er ulovlig?",
+"a": "Seksuel orientering",
+"w": [
+"Manglende uddannelse",
+"Manglende erfaring"
+],
+"p": 58,
+"lvl": "U",
+"type": "fakta",
+"why": "Forbuddet gælder bl.a. køn, race, religion, politisk anskuelse, seksuel orientering, alder, handicap og national, social eller etnisk baggrund."
+},
+{
+"id": "10:5",
+"q": "Hvad siger loven om ligeløn?",
+"a": "Samme løn for samme arbejde",
+"w": [
+"Mænd skal tjene mere end kvinder",
+"Kvinder skal tjene mere end mænd"
+],
+"p": 58,
+"lvl": "K",
+"type": "fakta",
+"why": "Mænd og kvinder har krav på samme løn for samme arbejde. Arbejdsgiveren må ikke give mindre i løn på grund af køn."
+},
+{
+"id": "10:6",
+"q": "Hvorfor kan en arbejdsgiver kræve bestemt tøj?",
+"a": "Af hensyn til hygiejne og sikkerhed",
+"w": [
+"Fordi alle ansatte skal ligne hinanden",
+"Fordi kunderne ønsker det"
+],
+"p": 58,
+"lvl": "K",
+"type": "forståelse",
+"why": "I særlige tilfælde må arbejdsgiveren stille krav til påklædning, fx af hensyn til hygiejne og sikkerhed."
+},
+{
+"id": "10:n2",
+"q": "Hvad har man ret til, hvis man vil tage en uddannelse, uanset sin baggrund?",
+"a": "At søge om optagelse",
+"w": [
+"At få optagelse automatisk",
+"At få uddannelsen betalt af arbejdsgiveren"
+],
+"p": 58,
+"lvl": "U",
+"type": "fakta",
+"why": "Alle har lige adgang til uddannelsessystemet og ret til at søge optagelse på det studium, de ønsker."
+},
+{
+"id": "10:n3",
+"q": "Må en virksomhed nægte en elev praktikplads på grund af køn?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 59,
+"lvl": "U",
+"type": "anvendelse",
+"why": "En arbejdsplads må ikke nægte praktikplads på grund af køn, religion eller etnisk oprindelse."
+},
+{
+"id": "10:1",
+"q": "Hvor kan man klage over ulovlig forskelsbehandling?",
+"a": "Ligebehandlingsnævnet",
+"w": [
+"Familieretshuset",
+"Folketinget"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Oplever man forskelsbehandling i strid med loven, kan man klage til Ligebehandlingsnævnet."
+},
+{
+"id": "10:2",
+"q": "Hvad koster det at klage til Ligebehandlingsnævnet?",
+"a": "Det er gratis",
+"w": [
+"Man betaler et gebyr",
+"Kun udlændinge betaler"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er gratis at klage til Ligebehandlingsnævnet."
+},
+{
+"id": "10:7",
+"q": "I hvilket år fik Danmark sin første frie forfatning?",
+"a": "1849",
+"w": [
+"1789",
+"1915"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven blev underskrevet i 1849. Det betød ikke, at alle fik stemmeret."
+},
+{
+"id": "10:n4",
+"q": "Fik kvinder stemmeret med grundloven i 1849?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinder fik ikke stemmeret i 1849. Først i 1915 blev grundloven ændret."
+},
+{
+"id": "10:8",
+"q": "I hvilket år fik kvinder ret til at stemme til den lovgivende forsamling?",
+"a": "1915",
+"w": [
+"1849",
+"1945"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinders stemmeret til den lovgivende forsamling blev indført i 1915 ved en ændring af grundloven."
+},
+{
+"id": "10:n5",
+"q": "Hvad gælder for kvinders og mænds ret til at stille op til valg?",
+"a": "Samme ret på samme vilkår",
+"w": [
+"Mænd har fortrinsret",
+"Kvinder kan kun stille op i kommunen"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinder og mænd kan stemme og stille op til folketingsvalg og kommunalvalg på samme vilkår."
+},
+{
+"id": "10:9",
+"q": "Hvem var Danmarks første kvindelige minister?",
+"a": "Nina Bang",
+"w": [
+"Helle Thorning-Schmidt",
+"Pia Kjærsgaard"
+],
+"p": 59,
+"lvl": "D",
+"type": "fakta",
+"why": "Nina Bang blev undervisningsminister i 1924."
+},
+{
+"id": "10:11",
+"q": "Hvem var Danmarks første kvindelige statsminister?",
+"a": "Helle Thorning-Schmidt",
+"w": [
+"Mette Frederiksen",
+"Pia Kjærsgaard"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Helle Thorning-Schmidt blev første kvindelige statsminister i 2011."
+},
+{
+"id": "10:n6",
+"q": "Hvilket år fik Danmark sin første kvindelige statsminister?",
+"a": "2011",
+"w": [
+"1991",
+"2001"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark fik sin første kvindelige statsminister i 2011."
+},
+{
+"id": "10:12",
+"q": "Hvor stor en andel af Folketingets medlemmer er kvinder?",
+"a": "Cirka 48 procent",
+"w": [
+"Cirka 28 procent",
+"Cirka 68 procent"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "86 ud af 179 medlemmer, altså næsten halvdelen, er kvinder."
+},
+{
+"id": "10:19",
+"q": "Hvem bestemmer, hvem en kvinde eller mand skal giftes med?",
+"a": "Personen selv",
+"w": [
+"Forældrene og familien",
+"Ægtefællens familie"
+],
+"p": 60,
+"lvl": "K",
+"type": "forståelse",
+"why": "Uanset køn har man ret til selv at bestemme, hvem man vil giftes med."
+},
+{
+"id": "10:n7",
+"q": "Hvem bestemmer, hvem en gift kvinde mødes med?",
+"a": "Hun selv",
+"w": [
+"Hendes mand",
+"Hendes svigerforældre"
+],
+"p": 60,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Både mænd og kvinder bestemmer over sig selv, selv om de er gift, fx over tøj og hvem de mødes med."
+},
+{
+"id": "10:14",
+"q": "Hvad har begge ægtefæller pligt til?",
+"a": "At forsørge hinanden og børnene",
+"w": [
+"At bo i samme by hele livet",
+"At have samme arbejde"
+],
+"p": 60,
+"lvl": "K",
+"type": "fakta",
+"why": "Ægteskab er et ligeværdigt partnerskab, men begge har pligt til at forsørge hinanden og deres børn."
+},
+{
+"id": "10:15",
+"q": "Kan man blive skilt mod ægtefællens vilje?",
+"a": "Ja, både mænd og kvinder",
+"w": [
+"Nej, begge skal ønske det",
+"Kun mænd kan"
+],
+"p": 60,
+"lvl": "K",
+"type": "forståelse",
+"why": "Både kvinder og mænd har ret til at blive skilt, uanset om ægtefællen også ønsker det."
+},
+{
+"id": "10:16",
+"q": "Hvad sker der normalt med forældremyndigheden efter en skilsmisse?",
+"a": "Forældrene beholder den sammen",
+"w": [
+"Moren får den alene bagefter",
+"Kommunen overtager den fra dem"
+],
+"p": 60,
+"lvl": "U",
+"type": "fakta",
+"why": "Forældrene beholder normalt den fælles forældremyndighed og skal være enige om vigtige beslutninger, fx barnets navn, religion og skole."
+},
+{
+"id": "10:17",
+"q": "En gift kvinde tjener en løn. Hvem bestemmer over pengene?",
+"a": "Hun selv",
+"w": [
+"Hendes mand",
+"Hendes forældre"
+],
+"p": 60,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Alle over 18 år bestemmer over deres egne penge, og lønnen er ens egne penge, uanset om man er kvinde eller mand."
+},
+{
+"id": "10:n8",
+"q": "Må par af samme køn adoptere børn på samme vilkår som andre par?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 60,
+"lvl": "U",
+"type": "fakta",
+"why": "Par af samme køn har ret til at gifte sig og adoptere børn på samme vilkår som par af forskelligt køn."
+},
+{
+"id": "10:18",
+"q": "Hvad er regnbueflaget et symbol for?",
+"a": "LGBT+-personer",
+"w": [
+"Fred",
+"Miljøbevægelsen"
+],
+"p": 60,
+"lvl": "D",
+"type": "fakta",
+"why": "Regnbueflaget er et symbol for LGBT+-personer."
+}
+]

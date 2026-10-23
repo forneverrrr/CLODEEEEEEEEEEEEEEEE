@@ -1,0 +1,1055 @@
+[
+{
+"id": "2:0",
+"q": "Hvad tilbydes patienter med nyresvigt, der ikke ønsker dialyse?",
+"a": "Maksimal medicinsk uræmibehandling",
+"w": [
+"Peritonealdialyse",
+"Hæmodiafiltration"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle centre tilbyder understøttende og lindrende behandling (MMU) til patienter, der fravælger dialyse."
+},
+{
+"id": "2:1",
+"q": "Hvilke to tilstande er de hyppigste dødsårsager hos dialysepatienter?",
+"a": "Hjerte-kar-sygdom og infektioner",
+"w": [
+"Cancer og kronisk lungesygdom",
+"Leversvigt og gastrointestinal blødning"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Kardiovaskulære lidelser udgør cirka 30 % og infektionssygdomme cirka 20 % af dødsårsagerne."
+},
+{
+"id": "2:2",
+"q": "Hvorfor er dialysepatienters mortalitet ikke faldet trods tekniske forbedringer?",
+"a": "Patienterne er ældre med flere sygdomme",
+"w": [
+"Dialysen er blevet teknisk dårligere",
+"Der er blevet færre dialysecentre"
+],
+"p": 25,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dialysepopulationen har ændret sig mod højere alder og flere konkurrerende lidelser."
+},
+{
+"id": "2:6",
+"q": "Hvad begrænser omfanget af nyretransplantation?",
+"a": "Organmangel",
+"w": [
+"Mangel på kirurger",
+"Patienternes ønsker"
+],
+"p": 25,
+"lvl": "U",
+"type": "fakta",
+"why": "Resultaterne er generelt gode, men for få organer begrænser behandlingen."
+},
+{
+"id": "2:7",
+"q": "Hvilken sygdom er blandt de hyppigste årsager til kronisk nyreinsufficiens i Danmark?",
+"a": "Diabetisk nyresygdom",
+"w": [
+"Nyresten",
+"Akut blærebetændelse"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "De hyppigste årsager er diabetisk nyresygdom, hypertensiv nefrosklerose, tubulointerstitiel nefropati, glomerulonefritis og polycystisk nyresygdom."
+},
+{
+"id": "2:9",
+"q": "Hvor stor en andel af befolkningen har kronisk nyresygdom, inklusive meget tidlige stadier?",
+"a": "Cirka 10 %",
+"w": [
+"Cirka 1 %",
+"Cirka 30 %"
+],
+"p": 25,
+"lvl": "U",
+"type": "fakta",
+"why": "Kronisk nyresygdom ses hos ca. 10 % af befolkningen; kun ca. 700 personer om året får behov for kronisk dialyse (s. 25)."
+},
+{
+"id": "2:13",
+"q": "Hvad er den hyppigste årsag til kronisk nyresvigt blandt nye dialysepatienter?",
+"a": "Diabetes",
+"w": [
+"Hypertension",
+"Polycystisk nyresygdom"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Diabetes er den hyppigste årsag til kronisk nyresvigt blandt nye dialysepatienter."
+},
+{
+"id": "2:15",
+"q": "Hvorfor kan patienter med anden organtransplantation udvikle kronisk nefropati?",
+"a": "Bivirkning af immunsuppression",
+"w": [
+"Bivirkning af blodtransfusion",
+"Bivirkning af dialyse"
+],
+"p": 26,
+"lvl": "U",
+"type": "forståelse",
+"why": "Nogle får kronisk nefropati sekundært til behandlingen med immunsupprimerende lægemidler."
+},
+{
+"id": "2:16",
+"q": "Hvordan aftager nyrefunktionen typisk ved kronisk nyresygdom?",
+"a": "Gradvist i konstant tempo",
+"w": [
+"Pludseligt og uforudsigeligt",
+"Kun ved gentagne infektioner"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Tempoet er konstant for den enkelte patient og afhænger af grundsygdommen. En anden sygdom kan give akut forværring."
+},
+{
+"id": "2:17",
+"q": "Hvilket patoanatomisk træk er centralt ved kronisk nyresygdom?",
+"a": "Sklerosering af glomeruli og fibrose",
+"w": [
+"Voksende cyster i hele nyren",
+"Blodpropper i begge nyrearterier"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Glomeruli skleroserer, og det interstitielle væv fibroseres med tubulusatrofi. Det fører til skrumpenyrer."
+},
+{
+"id": "2:18",
+"q": "Hvad kaldes nyrer, der er skrumpet ved kronisk nyresygdom?",
+"a": "Skrumpenyrer",
+"w": [
+"Cystenyrer",
+"Hesteskonyre"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Reduktion af nyrestørrelse følger sklerosering og fibrose."
+},
+{
+"id": "2:19",
+"q": "Hvilke hæmodynamiske ændringer antages at drive fremadskridende nyreødelæggelse?",
+"a": "Hyperfiltration og proteinuri",
+"w": [
+"Nedsat filtration og hypotension",
+"Øget diurese og hypotension"
+],
+"p": 26,
+"lvl": "U",
+"type": "forståelse",
+"why": "Sammen med inflammation og fibrose i glomeruli og tubulointerstitium ødelægger hyperfiltration og proteinuri nyrevævet."
+},
+{
+"id": "2:20",
+"q": "Hvilken kronisk nyresygdom giver forstørrede nyrer i stedet for skrumpenyrer?",
+"a": "Polycystisk nyresygdom",
+"w": [
+"Glomerulonefritis",
+"Hypertensiv nefrosklerose"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Nyrestørrelsen øges, fordi cysterne vokser."
+},
+{
+"id": "2:21",
+"q": "Hvilke to hormoner mangler ved nyreinsufficiens, så anæmi og knoglesygdom opstår?",
+"a": "EPO og aktivt D-vitamin",
+"w": [
+"Insulin og glukagon",
+"Adrenalin og kortisol"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Nyrernes endokrine funktion svigter: for lidt erythropoietin giver anæmi og for lidt 1,25-dihydroxy-vitamin D giver renal osteodystrofi."
+},
+{
+"id": "2:22",
+"q": "Hvilke metoder bruges ofte til at bestemme nyrefunktion (GFR)?",
+"a": "Kreatinin-clearance og eGFR",
+"w": [
+"Nyrebiopsi og ultralydsscanning",
+"P-karbamid og urinstix-måling"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Kreatinin-clearance bygger på døgnurin, eGFR på p-kreatinin, køn og alder."
+},
+{
+"id": "2:23",
+"q": "En afkræftet patient med lav muskelmasse har lavt kreatinin og høj eGFR. Hvad gør eGFR?",
+"a": "Overestimerer nyrefunktionen",
+"w": [
+"Underestimerer nyrefunktionen",
+"Er særligt præcis"
+],
+"p": 26,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kreatininbaseret GFR overestimerer ved nedsat muskelmasse eller ringe kød- og fiskeindtag. Så bruges cystatin C eller isotopmetode."
+},
+{
+"id": "2:24",
+"q": "Hvilke målinger kan bruges i stedet for kreatinin til at bestemme GFR hos patienter med nedsat muskelmasse eller ringe kødindtag?",
+"a": "P-cystatin C eller isotopclearance",
+"w": [
+"P-karbamid og p-urat",
+"P-albumin og p-natrium"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Kreatininbaserede metoder overestimerer nyrefunktionen ved nedsat muskelmasse eller ringe indtag af kød og fisk; i stedet kan GFR baseres på p-cystatin C eller isotopundersøgelse."
+},
+{
+"id": "2:26",
+"q": "Hvad er kronisk nyresvigt?",
+"a": "Svært nedsat ekskretorisk funktion",
+"w": [
+"Let nedsat ekskretorisk funktion",
+"Akut tab af nyrefunktion"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Symptomerne skyldes ophobning af affaldsprodukter, som nyrerne ellers ville have udskilt."
+},
+{
+"id": "2:27",
+"q": "Ved hvilken eGFR opleves uræmiske symptomer oftest første gang?",
+"a": "Under 25 ml/min./1,73 m²",
+"w": [
+"Under 60 ml/min./1,73 m²",
+"Under 10 ml/min./1,73 m²"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Nyrefunktionen kan være betragteligt nedsat uden symptomer."
+},
+{
+"id": "2:28",
+"q": "Hvad er oftest det første symptom på uræmi?",
+"a": "Træthed",
+"w": [
+"Kløe",
+"Kramper"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "Træthed kommer først og er med tiden mest fremtrædende. Siden kommer kvalme, madlede, muskelsvaghed, øget blødningstendens og hudkløe."
+},
+{
+"id": "2:30",
+"q": "Hvad ses typisk ved terminal uræmi (eGFR under 15)?",
+"a": "Vægttab og ødemer",
+"w": [
+"Vægtøgning uden ødemer",
+"Hypotension og feber"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Ødemer indebærer risiko for lungestase."
+},
+{
+"id": "2:31",
+"q": "Hvilket tegn kan ses ved svær uræmi?",
+"a": "Perikarditis",
+"w": [
+"Isoleret hovedpine",
+"Muskelømhed"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Ved svær uræmi kan der ses gastrointestinal blødning, kramper og perikarditis."
+},
+{
+"id": "2:32",
+"q": "Hvad dør den terminalt uræmiske patient oftest af uden behandling?",
+"a": "Bevidsthedssvækkelse eller arytmi",
+"w": [
+"Leversvigt og blødning",
+"Lungeemboli og pneumoni"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Hyperkaliæmi kan give livstruende hjertearytmi."
+},
+{
+"id": "2:33",
+"q": "Hvad er hovedformålet med behandling af kronisk nyresygdom?",
+"a": "Bevare nyrefunktionen længst muligt",
+"w": [
+"Starte dialyse så tidligt som muligt",
+"Undgå al medicinsk behandling"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Behandlingen skal også mindske symptomer og forebygge komplikationer, så dialyse udskydes eller undgås."
+},
+{
+"id": "2:34",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G1?",
+"a": "≥ 90",
+"w": [
+"45-59",
+"15-29"
+],
+"p": 27,
+"lvl": "U",
+"type": "fakta",
+"why": "G1 er normal nyrefunktion."
+},
+{
+"id": "2:35",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G2?",
+"a": "60-90",
+"w": [
+"≥ 90",
+"30-44"
+],
+"p": 27,
+"lvl": "U",
+"type": "fakta",
+"why": "G2 er mildt nedsat nyrefunktion."
+},
+{
+"id": "2:36",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G3a?",
+"a": "45-59",
+"w": [
+"60-90",
+"30-44"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "G3a er mildt til moderat nedsat nyrefunktion."
+},
+{
+"id": "2:37",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G3b?",
+"a": "30-44",
+"w": [
+"45-59",
+"15-29"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "G3b er moderat til alvorligt nedsat nyrefunktion."
+},
+{
+"id": "2:38",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G4?",
+"a": "15-29",
+"w": [
+"30-44",
+"Under 15"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "G4 er alvorligt nedsat nyrefunktion."
+},
+{
+"id": "2:39",
+"q": "Hvilket GFR-interval (ml/min./1,73 m²) svarer til stadie G5?",
+"a": "Under 15",
+"w": [
+"15-29",
+"30-44"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "G5 betegnes nyresvigt."
+},
+{
+"id": "2:40",
+"q": "Hvilken albuminuri svarer til kategori A1?",
+"a": "Under 30 mg/g",
+"w": [
+"30-300 mg/g",
+"Over 300 mg/g"
+],
+"p": 27,
+"lvl": "U",
+"type": "fakta",
+"why": "A1 er normal albuminudskillelse."
+},
+{
+"id": "2:41",
+"q": "Hvilken albuminuri svarer til kategori A2?",
+"a": "30-300 mg/g",
+"w": [
+"Under 30 mg/g",
+"Over 300 mg/g"
+],
+"p": 27,
+"lvl": "U",
+"type": "fakta",
+"why": "A2 er moderat albuminuri."
+},
+{
+"id": "2:42",
+"q": "Hvilken albuminuri svarer til kategori A3?",
+"a": "Over 300 mg/g",
+"w": [
+"30-300 mg/g",
+"Under 30 mg/g"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "A3 er alvorlig albuminuri."
+},
+{
+"id": "2:43",
+"q": "Hvor længe skal nedsat GFR eller albuminuri have varet for at stille diagnosen kronisk nyresygdom?",
+"a": "Mindst 3 måneder",
+"w": [
+"Mindst 3 uger",
+"Mindst 12 måneder"
+],
+"p": 27,
+"lvl": "K",
+"type": "fakta",
+"why": "Varigheden adskiller kronisk fra akut nyresygdom."
+},
+{
+"id": "2:46",
+"q": "Hos hvilken patient er eGFR upålidelig?",
+"a": "En amputeret med lav muskelmasse",
+"w": [
+"En rask 40-årig med normal muskelmasse",
+"En patient med stabil nyrefunktion og normal BMI"
+],
+"p": 27,
+"lvl": "U",
+"type": "anvendelse",
+"why": "eGFR bygger på kreatinin og er upålidelig ved høj eller lav muskelmasse, fx amputerede, kørestolsbrugere og bodybuildere."
+},
+{
+"id": "2:48",
+"q": "Hvorfor kan eGFR være upålidelig hos en veganer?",
+"a": "Lavt kødindtag giver lavt kreatinin",
+"w": [
+"Veganere har større nyrer end andre",
+"Veganere har højere GFR end andre"
+],
+"p": 27,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kilden angiver, at eGFR overestimerer nyrefunktionen ved ringe indtag af kød og fisk. Kreatin som kosttilskud og graviditet er andre tilstande, hvor eGFR kan være upålidelig."
+},
+{
+"id": "2:49",
+"q": "Hvilken faktor fremmer progression af kronisk nyresygdom?",
+"a": "Albuminuri",
+"w": [
+"God glykæmisk kontrol",
+"Rygestop"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Albuminuri, hypertension, rygning, dyslipidæmi, overvægt og nefrotoksiske stoffer fremmer progression."
+},
+{
+"id": "2:50",
+"q": "Hvilken effekt har RAS-blokade hos diabetikere og ved albuminuri?",
+"a": "Beskytter uafhængigt af blodtrykket",
+"w": [
+"Ingen effekt ud over blodtrykket",
+"Forværrer albuminuri på sigt"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "Effekten er uafhængig af blodtryksreduktionen."
+},
+{
+"id": "2:51",
+"q": "Hvorfor kan RAS-blokade gavne nyren ved albuminuri?",
+"a": "Mindre hyperfiltration",
+"w": [
+"Øget diurese og vægttab",
+"Højere blodtryk i nyren"
+],
+"p": 28,
+"lvl": "U",
+"type": "forståelse",
+"why": "Påvirkning af den intrarenale hæmodynamik giver mindre hyperfiltration og dermed mindre filtreret albumin."
+},
+{
+"id": "2:52",
+"q": "Hvilke to lægemiddelgrupper har nyligt vist at kunne hæmme progression af nyresygdom?",
+"a": "SGLT2-hæmmere og finerenon",
+"w": [
+"Statiner og aspirin",
+"Loop-diuretika og thiazider"
+],
+"p": 28,
+"lvl": "K",
+"type": "fakta",
+"why": "SGLT2-hæmmere hæmmer forværring ved kronisk nyreinsufficiens. Finerenon er en selektiv mineralokortikoid-receptor-antagonist."
+},
+{
+"id": "2:54",
+"q": "En patient med eGFR 25 uden nefrotisk syndrom får kostrådgivning. Hvilket proteinindtag anbefales?",
+"a": "Moderat begrænset indtag",
+"w": [
+"Højt proteinindtag",
+"Helt proteinfri kost"
+],
+"p": 28,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Moderat proteinrestriktion hæmmer progression."
+},
+{
+"id": "2:55",
+"q": "Ved moderat proteinrestriktion ved CKD: hvilken type proteinindtag giver desuden effekt på hyperfosfatæmi og acidose?",
+"a": "Vegetabilsk protein",
+"w": [
+"Animalsk protein fra kød",
+"Protein fra fisk og æg"
+],
+"p": 28,
+"lvl": "U",
+"type": "fakta",
+"why": "Især hvis proteinindtaget primært er vegetabilsk, ses også effekt på hyperfosfatæmi og acidose."
+},
+{
+"id": "2:56",
+"q": "En diabetiker har begyndende nefropati og dårligt reguleret blodsukker. Hvad kan bremse progressionen?",
+"a": "God glykæmisk kontrol",
+"w": [
+"Mere proteinindtag",
+"Mere saltindtag"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Jo tidligere god glykæmisk kontrol sættes ind, desto bedre."
+},
+{
+"id": "2:57",
+"q": "Hvorfor behandles dyslipidæmi hos mange med kronisk nyresygdom?",
+"a": "Pga. øget kardiovaskulær risiko",
+"w": [
+"For at bremse nyresygdommen",
+"For at hæve nyrernes GFR"
+],
+"p": 29,
+"lvl": "K",
+"type": "forståelse",
+"why": "Behandling af dyslipidæmi er ikke vist at bremse udviklingen af nyresygdom."
+},
+{
+"id": "2:58",
+"q": "En patient med kronisk nyresygdom har metabolisk acidose. Hvad kan reducere progressionen?",
+"a": "Bikarbonattilskud",
+"w": [
+"Kaliumtilskud",
+"Proteinrig kost"
+],
+"p": 29,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Korrektion af acidose med bikarbonat reducerer progression, ligesom rygeophør."
+},
+{
+"id": "2:59",
+"q": "En patient med betydende kronisk nyresygdom skal have ny medicin. Hvilket middel bør kun gives efter grundig overvejelse?",
+"a": "NSAID",
+"w": [
+"Insulin",
+"Bikarbonat"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Også aminoglykosider og visse kemoterapeutika."
+},
+{
+"id": "2:60",
+"q": "En patient med kronisk nyresygdom mistænkes for kræft. Hvad gælder for CT med kontrast?",
+"a": "Nedsat nyrefunktion må ikke forhindre den",
+"w": [
+"Den skal udsættes til eGFR er normal",
+"Den erstattes altid af ultralyd"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kontrastens skadelige effekt er omdiskuteret. Nedsat nyrefunktion må ikke forhindre røntgenundersøgelser med kontrast ved mistanke om kræft, iskæmisk hjertesygdom eller andre alvorlige tilstande."
+},
+{
+"id": "2:61",
+"q": "En patient med kronisk nyresygdom får pludselig forværret nyrefunktion efter diarré. Hvad er sandsynlig årsag?",
+"a": "Dehydrering",
+"w": [
+"Skrumpenyrer",
+"Proteinrig kost"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Akut forværring skyldes ofte dehydrering, infektion, anden akut sygdom eller obstruktion af urinvejene."
+},
+{
+"id": "2:63",
+"q": "Hvornår er der indikation for at begynde kronisk dialyse?",
+"a": "Ved uræmiske symptomer",
+"w": [
+"Når eGFR er under 60",
+"Når patienten fylder 70"
+],
+"p": 29,
+"lvl": "K",
+"type": "fakta",
+"why": "Symptomer er udtalt træthed, kognitiv svækkelse, hudkløe, kvalme, vægttab og overhydrering uden effekt af diuretika. Der er ingen skarp eGFR-grænse."
+},
+{
+"id": "2:65",
+"q": "Ved hvilken eGFR starter man oftest kronisk dialyse?",
+"a": "6-10 ml/min./1,73 m²",
+"w": [
+"15-20 ml/min./1,73 m²",
+"30-40 ml/min./1,73 m²"
+],
+"p": 29,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er ikke en skarp grænse, og symptomerne afgør."
+},
+{
+"id": "2:66",
+"q": "Hvilken tilstand kan gøre kronisk dialyse kontraindiceret?",
+"a": "Svær demens",
+"w": [
+"Diabetes",
+"Høj alder alene"
+],
+"p": 29,
+"lvl": "K",
+"type": "fakta",
+"why": "Kontraindikation er sjælden: også dissemineret malign sygdom eller terminal sygdom med meget kort levetid."
+},
+{
+"id": "2:67",
+"q": "Hvorfor henvises mange med kronisk nyreinsufficiens til nyremedicinsk afdeling?",
+"a": "Til diagnostisk afklaring",
+"w": [
+"Til umiddelbar dialysestart",
+"Til nyretransplantation"
+],
+"p": 30,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienten skal så vidt muligt afklares diagnostisk."
+},
+{
+"id": "2:68",
+"q": "Hvor følges patienter med diabetisk nefropati typisk, til moderat nyreinsufficiens udvikles?",
+"a": "Diabetesambulatorium eller egen læge",
+"w": [
+"På nyremedicinsk afdeling",
+"I transplantationscentret"
+],
+"p": 30,
+"lvl": "U",
+"type": "fakta",
+"why": "De fleste følges hos diabetesambulatorier eller praktiserende læge, indtil moderat nyreinsufficiens udvikles."
+},
+{
+"id": "2:69",
+"q": "Ved hvilken eGFR har nyremedicinske afdelinger et formaliseret dialyseforberedelsesprogram?",
+"a": "Under 20 ml/min./1,73 m²",
+"w": [
+"Under 5 ml/min./1,73 m²",
+"Under 60 ml/min./1,73 m²"
+],
+"p": 30,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienterne henvises typisk også til patientundervisning, når eGFR er under 20."
+},
+{
+"id": "2:71",
+"q": "Hvornår før forventet dialysebehov anlægges et PD-kateter optimalt?",
+"a": "3-4 uger før",
+"w": [
+"2 dage før",
+"6 måneder før"
+],
+"p": 30,
+"lvl": "K",
+"type": "fakta",
+"why": "Rettidig adgang undgår akut start, som giver øget morbiditet og mortalitet."
+},
+{
+"id": "2:72",
+"q": "Hvornår før forventet dialysebehov anlægges en AV-fistel optimalt?",
+"a": "8-12 uger før",
+"w": [
+"1 uge før",
+"1 år før"
+],
+"p": 30,
+"lvl": "K",
+"type": "fakta",
+"why": "AV-fistel anlægges 8-12 uger før dialysebehov. Herefter kan dialysebehandlingen startes ambulant, og indlæggelse undgås."
+},
+{
+"id": "2:73",
+"q": "Hvorfor er akut start via nyt PD-kateter eller midlertidigt HD-CVK uønsket?",
+"a": "Længere indlæggelse og infektioner",
+"w": [
+"Dårligere dialyseeffekt over tid",
+"Højere pris pr. behandling"
+],
+"p": 30,
+"lvl": "K",
+"type": "forståelse",
+"why": "Akut start via nyanlagt PD-kateter eller midlertidigt HD-CVK medfører flere indlæggelsesdage og øget risiko for infektioner."
+},
+{
+"id": "2:74",
+"q": "Ved hvilken eGFR henvises patienten til nefrologisk afdeling?",
+"a": "Under 30 ml/min./1,73 m²",
+"w": [
+"Under 60 ml/min./1,73 m²",
+"Under 90 ml/min./1,73 m²"
+],
+"p": 30,
+"lvl": "K",
+"type": "fakta",
+"why": "Der henvises også ved signifikant proteinuri, hastigt aftagende eGFR, polycystisk nyresygdom og vanskeligt regulerbar hypertension."
+},
+{
+"id": "2:75",
+"q": "Hvilken tilstand giver henvisning til nefrologisk afdeling?",
+"a": "Hastigt aftagende eGFR",
+"w": [
+"Stabil eGFR over 60 i flere år",
+"Let velreguleret hypertension"
+],
+"p": 30,
+"lvl": "U",
+"type": "fakta",
+"why": "Hastigt aftagende eGFR eller pludselig forværring kræver nefrologisk vurdering."
+},
+{
+"id": "2:76",
+"q": "Ved hvilken eGFR kan transplantationsegnede patienter uden levende donor tilmeldes ventelisten?",
+"a": "≤ 15 ml/min./1,73 m²",
+"w": [
+"≤ 30 ml/min./1,73 m²",
+"≤ 60 ml/min./1,73 m²"
+],
+"p": 31,
+"lvl": "K",
+"type": "fakta",
+"why": "Enkelte transplanteres med levende donor, inden dialyse bliver nødvendig."
+},
+{
+"id": "2:77",
+"q": "Hvornår bør recipientudredning starte hos potentielle transplantationskandidater?",
+"a": "Samtidig med dialyseforberedelsen",
+"w": [
+"Efter fem års dialysebehandling",
+"Først når en donor er fundet"
+],
+"p": 31,
+"lvl": "K",
+"type": "fakta",
+"why": "Recipientudredning bør starte samtidig med forberedelse af dialysebehandlingen. Enkelte patienter transplanteres med en nyre fra en levende donor, inden dialyse bliver nødvendig."
+},
+{
+"id": "2:82",
+"q": "Hvad er et formål med forberedelsesprogrammer til dialyse og transplantation?",
+"a": "At undgå akut dialysestart",
+"w": [
+"At udskyde al aktiv behandling",
+"At undgå tilmelding til transplantation"
+],
+"p": 31,
+"lvl": "U",
+"type": "fakta",
+"why": "Programmerne sikrer rettidig dialyseadgang og rette dialyseform, reducerer indlæggelser og øger livskvalitet og overlevelse."
+},
+{
+"id": "2:n0",
+"q": "Hvem tilbydes kronisk dialyse i Danmark?",
+"a": "Næsten alle, der ønsker det",
+"w": [
+"Kun patienter under 70 år",
+"Kun patienter uden anden sygdom"
+],
+"p": 25,
+"lvl": "K",
+"type": "fakta",
+"why": "Kronisk dialyse tilbydes næsten alle med behandlingsønske, uanset alder og komorbiditet."
+},
+{
+"id": "2:n1",
+"q": "Hvorfor kan årsagen til kronisk nyreinsufficiens være ukendt?",
+"a": "Sygdommen opdages for sent",
+"w": [
+"Prøverne findes endnu ikke",
+"Sygdommen er meget sjælden"
+],
+"p": 25,
+"lvl": "U",
+"type": "forståelse",
+"why": "Hos 20-25 % er årsagen ukendt, fordi sygdommen påvises sent."
+},
+{
+"id": "2:n2",
+"q": "En patient med svær kronisk nyresvigt har anæmi. Hvilken nyrefunktion er svigtet?",
+"a": "Produktion af EPO",
+"w": [
+"Udskillelse af syre",
+"Udskillelse af kalium"
+],
+"p": 26,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Nyrerne danner erythropoietin, og mangel giver anæmi."
+},
+{
+"id": "2:n3",
+"q": "Hvad bygger eGFR på?",
+"a": "P-kreatinin, køn og alder",
+"w": [
+"Døgnurin, køn og vægt",
+"P-karbamid, køn og alder"
+],
+"p": 26,
+"lvl": "K",
+"type": "fakta",
+"why": "eGFR beregnes ud fra p-kreatinin, køn og alder, hvor kreatinin-clearance kræver døgnurin."
+},
+{
+"id": "2:n4",
+"q": "Hvad sker der, når nyrernes ekskretoriske funktion svigter?",
+"a": "Ophobning af affaldsstoffer",
+"w": [
+"Øget kaliumudskillelse",
+"Kraftig diurese"
+],
+"p": 26,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der er også risiko for overhydrering, hyperkaliæmi og hypertension."
+},
+{
+"id": "2:n5",
+"q": "Hvad gælder for symptomer ved betydeligt nedsat nyrefunktion?",
+"a": "De kan udeblive længe",
+"w": [
+"De ses altid tidligt",
+"De ses kun hos børn og unge"
+],
+"p": 26,
+"lvl": "U",
+"type": "fakta",
+"why": "Nyrefunktionen kan være betragteligt nedsat uden symptomer, så patienter kan være svært uræmiske, før de mærker noget."
+},
+{
+"id": "2:n6",
+"q": "En patient med eGFR 38 ml/min./1,73 m². Hvilket GFR-stadie er det?",
+"a": "G3b",
+"w": [
+"G3a",
+"G4"
+],
+"p": 27,
+"lvl": "K",
+"type": "anvendelse",
+"why": "G3b er 30-44, G3a er 45-59, G4 er 15-29."
+},
+{
+"id": "2:n7",
+"q": "En diabetespatient i RAS-blokade og SGLT2-hæmmer har fortsat forværring af nyresygdom. Hvilket præparat har vist effekt?",
+"a": "Finerenon",
+"w": [
+"Statin",
+"Kaliumtilskud"
+],
+"p": 28,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Finerenon har vist at hæmme forværring hos diabetikere, der allerede er i behandling med RAS-blokade og SGLT2-hæmmer."
+},
+{
+"id": "2:n8",
+"q": "Hvilket livsstilstiltag reducerer progression af nyresygdom?",
+"a": "Rygeophør",
+"w": [
+"Mere salt",
+"Mere protein"
+],
+"p": 29,
+"lvl": "U",
+"type": "fakta",
+"why": "Rygeophør reducerer progression. Reduceret saltindtag støttes også af data."
+},
+{
+"id": "2:n9",
+"q": "En patient med eGFR 12 har tiltagende hudkløe, kvalme og vægttab. Hvad er indiceret?",
+"a": "Opstart af kronisk dialyse",
+"w": [
+"Proteinrig kost",
+"Kontrol om et år"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Uræmiske symptomer er indikationen for dialysestart, som oftest sker ved eGFR 6-10."
+},
+{
+"id": "2:n10",
+"q": "Hvilken laboratoriefund kan alene udløse opstart af kronisk dialyse?",
+"a": "Svær hyperkaliæmi",
+"w": [
+"Let hypocalcæmi",
+"Moderat albuminuri"
+],
+"p": 29,
+"lvl": "U",
+"type": "fakta",
+"why": "Dialyse iværksættes også ved svær metabolisk acidose eller hyperkaliæmi."
+},
+{
+"id": "2:n11",
+"q": "En 75-årig diabetiker har eGFR 14 og ønsker ikke dialyse. Hvad tilbydes?",
+"a": "Maksimal medicinsk uræmibehandling",
+"w": [
+"Akut peritonealdialyse",
+"Nyretransplantation"
+],
+"p": 25,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Alle centre tilbyder understøttende og lindrende behandling (MMU) til patienter, der ikke ønsker dialyse."
+},
+{
+"id": "2:n12",
+"q": "En diabetiker med albuminuri har brug for blodtryksmedicin. Hvilken gruppe beskytter nyren udover blodtrykssænkningen?",
+"a": "RAS-blokade",
+"w": [
+"Loop-diuretika",
+"Kaliumtilskud"
+],
+"p": 28,
+"lvl": "K",
+"type": "anvendelse",
+"why": "RAS-blokade har gunstig effekt hos diabetikere og ved albuminuri, uafhængigt af blodtrykket."
+},
+{
+"id": "2:n13",
+"q": "En patient med kronisk nyresygdom har hastigt aftagende eGFR. Hvad gøres?",
+"a": "Henvisning til nefrologisk afdeling",
+"w": [
+"Kontrol om et år hos egen læge",
+"Straks dialysestart"
+],
+"p": 30,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hastigt aftagende eGFR eller pludselig forværring er blandt tilstandene, der giver henvisning."
+},
+{
+"id": "2:n14",
+"q": "Hvorfor skal man ved terminal uræmi frygte hyperkaliæmi?",
+"a": "Det kan give dødelig hjertearytmi",
+"w": [
+"Det giver nyresten",
+"Det giver anæmi"
+],
+"p": 28,
+"lvl": "K",
+"type": "forståelse",
+"why": "Uden behandling dør den terminalt uræmiske patient oftest af bevidsthedssvækkelse eller hjertearytmi pga. hyperkaliæmi."
+},
+{
+"id": "2:n15",
+"q": "En patient med svær demens og eGFR 8 vurderes til dialyse. Hvad gælder?",
+"a": "Dialyse kan være kontraindiceret",
+"w": [
+"Dialyse er altid obligatorisk",
+"Kun PD er mulig"
+],
+"p": 29,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Svær demens er en af de sjældne kontraindikationer. Også forventet restlevetid og livskvalitet indgår hos meget svækkede ældre."
+},
+{
+"id": "2:n16",
+"q": "En patient har albuminuri på 400 mg/g. Hvilken kategori er det?",
+"a": "A3",
+"w": [
+"A1",
+"A2"
+],
+"p": 27,
+"lvl": "K",
+"type": "anvendelse",
+"why": "A3 er over 300 mg/g, A2 er 30-300 mg/g og A1 er under 30 mg/g."
+},
+{
+"id": "2:n17",
+"q": "En 28-årig har nedsat eGFR uden kendt årsag. Hvad gøres?",
+"a": "Henvisning til nefrologisk afdeling",
+"w": [
+"Kontrol hos egen læge om et år",
+"Straks dialysestart"
+],
+"p": 30,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Nedsat eGFR hos yngre personer er blandt tilstandene, der giver henvisning."
+},
+{
+"id": "2:n18",
+"q": "En fuldt aktiv patient har eGFR 25 uden uræmiske symptomer, acidose eller hyperkaliæmi. Er dialyse indiceret?",
+"a": "Nej, endnu ikke",
+"w": [
+"Ja, eGFR er under 30",
+"Ja, straks via akut PD"
+],
+"p": 29,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Dialyse indiceres ved uræmiske symptomer, svær acidose eller hyperkaliæmi, oftest ved eGFR 6-10. Der er ingen skarp grænse."
+}
+]

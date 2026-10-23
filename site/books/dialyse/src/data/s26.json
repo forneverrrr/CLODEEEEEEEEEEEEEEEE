@@ -1,0 +1,377 @@
+[
+{
+"id": "26:3",
+"q": "Hvor stor en del af de transplanterede nyrer i Danmark kommer fra afdøde donorer?",
+"a": "Ca. 75 %",
+"w": [
+"Ca. 25 %",
+"Ca. 50 %"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Cirka tre fjerdedele kommer fra afdøde donorer og en fjerdedel fra levende donorer."
+},
+{
+"id": "26:n0",
+"q": "Hvilken behandling af terminal nyresvigt har flest patienter i Danmark?",
+"a": "Nyretransplantation",
+"w": [
+"Hæmodialyse",
+"Peritonealdialyse"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Siden 2015 har flere patienter et fungerende transplantat end er i kronisk dialyse."
+},
+{
+"id": "26:8",
+"q": "Hvordan opbevares nyren efter udtagelsen?",
+"a": "Afkølet på is eller i perfusionsmaskine",
+"w": [
+"Ved stuetemperatur i saltvand",
+"Nedfrosset ved minus 20 grader"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Nyren gennemskylles med organpræservationsvæske og opbevares herefter afkølet på is eller i en perfusionsmaskine."
+},
+{
+"id": "26:9",
+"q": "Hvor lang kold iskæmitid tilstræbes højst?",
+"a": "Helst under 24 timer",
+"w": [
+"Under 4 timer",
+"Under 72 timer"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Den kolde iskæmitid skal være så kort som muligt."
+},
+{
+"id": "26:10",
+"q": "Hvortil forbindes nyrens kar hos en voksen recipient?",
+"a": "Recipientens iliacakar",
+"w": [
+"Recipientens nyrekar",
+"Vena porta"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Graften placeres i bækkenet, og ureter implanteres i blæren. Native nyrer ligger normalt urørt."
+},
+{
+"id": "26:11",
+"q": "Hvor implanteres graftets ureter?",
+"a": "I blæren",
+"w": [
+"I tarmen",
+"I huden"
+],
+"p": 249,
+"lvl": "K",
+"type": "fakta",
+"why": "Ureter sys til recipientens blære."
+},
+{
+"id": "26:13",
+"q": "Hvornår kan recipienten typisk mobiliseres?",
+"a": "Samme dag eller dagen efter",
+"w": [
+"Efter en uge",
+"Efter en måned"
+],
+"p": 249,
+"lvl": "U",
+"type": "fakta",
+"why": "Mobilisering er tidlig, og udskrivelse til ambulant opfølgning sker typisk efter 4-10 dage."
+},
+{
+"id": "26:n1",
+"q": "Hvilken donortype giver længst graftoverlevelse?",
+"a": "Levende donor",
+"w": [
+"Afdød donor",
+"Donor over 60 år"
+],
+"p": 250,
+"lvl": "K",
+"type": "forståelse",
+"why": "Median graftoverlevelse er 16,5 år med levende donor mod 13,4 år med afdød donor. Vævstypeidentiske søskendenyrer har klart længere virkningstid end andre nyrer."
+},
+{
+"id": "26:18",
+"q": "Hvilke nyrer holder klart længst?",
+"a": "Vævstypeidentiske nyrer fra søskende",
+"w": [
+"Nyrer fra afdøde donorer",
+"Nyrer fra yngre børn"
+],
+"p": 250,
+"lvl": "U",
+"type": "fakta",
+"why": "Graftoverlevelsen afhænger af nyrens kvalitet, modtagerens helbred, immunologiske forhold og medicincompliance."
+},
+{
+"id": "26:n2",
+"q": "Graften er tabt, og ny transplantation er ikke mulig. Hvad sker der?",
+"a": "Dialyse genoptages",
+"w": [
+"Immunsuppression øges",
+"Patienten følges uden behandling"
+],
+"p": 250,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Mange kan transplanteres på ny, men ellers må patienten tilbage i dialysebehandling."
+},
+{
+"id": "26:20",
+"q": "Hvad kaldes den langsomt udviklede fibrose, der ødelægger nyregraften?",
+"a": "Kronisk allograft nefropati",
+"w": [
+"Akut afstødning",
+"Glomerulonefritis"
+],
+"p": 250,
+"lvl": "K",
+"type": "fakta",
+"why": "Tilstanden giver irreversibelt funktionstab og til sidst ophørt graftfunktion."
+},
+{
+"id": "26:21",
+"q": "Hvilke immunsuppressiva kan bidrage til kronisk allograft nefropati?",
+"a": "Ciclosporin og tacrolimus",
+"w": [
+"Heparin og warfarin",
+"Insulin og metformin"
+],
+"p": 250,
+"lvl": "K",
+"type": "forståelse",
+"why": "De effektive immunsuppressiva er nefrotoksiske. Kronisk antistofmedieret afstødning og hypertension bidrager også."
+},
+{
+"id": "26:n3",
+"q": "Hvorfor er en velfungerende graft bedre end dialyse for stofskiftet?",
+"a": "Calcium-fosfat og erytropoiese normaliseres",
+"w": [
+"Den kræver ingen medicin",
+"Den fjerner alle behov for kontrol"
+],
+"p": 251,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dialyse giver kun rensning svarende til ca. 10 % af normal GFR, mens en graft også giver mindre træthed og væskeophobning."
+},
+{
+"id": "26:23",
+"q": "Hvad er den hyppigste årsag til grafttab?",
+"a": "Patientens død, især kardiovaskulær",
+"w": [
+"Akut afstødning af graften",
+"Alvorlig infektion"
+],
+"p": 251,
+"lvl": "K",
+"type": "fakta",
+"why": "Trods fordelene ved transplantation dominerer kardiovaskulære dødsårsager."
+},
+{
+"id": "26:24",
+"q": "Hvilke risici øges af immunsuppression efter transplantation?",
+"a": "Infektioner og cancer",
+"w": [
+"Blødning",
+"Knoglebrud"
+],
+"p": 251,
+"lvl": "K",
+"type": "fakta",
+"why": "Den nødvendige immunsuppression øger forekomsten af infektioner og cancer."
+},
+{
+"id": "26:25",
+"q": "Hvordan kan CMV-infektion delvist forebygges efter transplantation?",
+"a": "Profylaktisk medicin og monitorering",
+"w": [
+"Vaccination før transplantation",
+"Daglig antibiotika hele livet"
+],
+"p": 251,
+"lvl": "K",
+"type": "fakta",
+"why": "Mikrobiologisk monitorering muliggør tidlig, præsymptomatisk behandling."
+},
+{
+"id": "26:26",
+"q": "Hvorfor frarådes en transplanteret at udsætte sig for meget sollys?",
+"a": "Markant øget risiko for hudcancer",
+"w": [
+"Øget risiko for afstødning",
+"Medicinen gør huden allergisk"
+],
+"p": 251,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Immunsuppression øger risikoen for hudcancer, så solbeskyttelse anbefales."
+},
+{
+"id": "26:27",
+"q": "Hvad gøres med immunsuppressionen ved mistanke om lymfom hos en transplanteret?",
+"a": "Den reduceres",
+"w": [
+"Den øges",
+"Den fortsættes uændret"
+],
+"p": 251,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Patienten udredes hurtigt, og immunsuppressionen reduceres."
+},
+{
+"id": "26:28",
+"q": "En transplanteret har hurtigt aftagende graftfunktion. Hvilke undersøgelser er typiske?",
+"a": "Ultralyd med Doppler og graftbiopsi",
+"w": [
+"Kun urinstix og stix-albumin",
+"Kun røntgen af thorax og hjerte"
+],
+"p": 251,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ultralyd med Doppler og graftbiopsi bruges også ved betydelig proteinuri. Biopsien viser fx afstødning eller glomerulonefritis."
+},
+{
+"id": "26:29",
+"q": "Hvornår forekommer akut afstødning især?",
+"a": "De første måneder efter",
+"w": [
+"Efter fem år",
+"Efter ti år"
+],
+"p": 251,
+"lvl": "K",
+"type": "fakta",
+"why": "Akut afstødning ses især tidligt efter transplantationen."
+},
+{
+"id": "26:n4",
+"q": "En transplanteret får akut afstødning. Hvordan behandles den?",
+"a": "Med intensiveret immunsuppression",
+"w": [
+"Med seponering af immunsuppression",
+"Med dialyse"
+],
+"p": 251,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Akut afstødning behandles med intensiveret immunsuppression."
+},
+{
+"id": "26:30",
+"q": "Hvor mange immunsuppressive stoffer bruges typisk i langtidsbehandling?",
+"a": "To eller tre",
+"w": [
+"Ét",
+"Fem"
+],
+"p": 251,
+"lvl": "U",
+"type": "fakta",
+"why": "Der er gode muligheder for at skifte stof ved bivirkninger."
+},
+{
+"id": "26:31",
+"q": "Et barn vejer 9 kg. Kan det få en voksennyre?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 251,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Resultaterne hos børn er lige så gode som hos voksne."
+},
+{
+"id": "26:n5",
+"q": "En nyretransplanteret patient får feber. Hvad bør ske?",
+"a": "Hurtig undersøgelse og evt. antibiotika",
+"w": [
+"Afvent hjemme i en uge",
+"Øg immunsuppressionen"
+],
+"p": 251,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Immunsuppression øger infektionsrisikoen, så feber undersøges hurtigt og antibiotika startes ved behov, i samarbejde med nefrolog."
+},
+{
+"id": "26:32",
+"q": "Hvortil forbindes karrene ved transplantation af små børn med voksennyre?",
+"a": "Aorta og vena cava inferior",
+"w": [
+"Iliacakar",
+"Vena porta"
+],
+"p": 251,
+"lvl": "U",
+"type": "fakta",
+"why": "Når barnet vejer 8-10 kg, kan det transplanteres med en voksennyre, hvor karanastomoserne udføres til aorta og v. cava inferior."
+},
+{
+"id": "26:34",
+"q": "Hvad er STEP?",
+"a": "Nordisk bytteprogram for levende nyredonation",
+"w": [
+"Dansk venteliste for afdøde donorer",
+"Efteruddannelse i transplantation"
+],
+"p": 252,
+"lvl": "U",
+"type": "fakta",
+"why": "STEP (ScandiaTransplant Kidney Exchange Program) lader uforligelige donor-recipient-par bytte donorer."
+},
+{
+"id": "26:n6",
+"q": "Hvilken udvikling kan på sigt gøre langtidsimmunsuppression overflødig?",
+"a": "Induktion af tolerance",
+"w": [
+"Højere dosis ciclosporin",
+"Flere dialysetimer"
+],
+"p": 252,
+"lvl": "U",
+"type": "fakta",
+"why": "Behandling givet kortvarigt ved transplantationen kan inducere tolerance over for det transplanterede organ."
+},
+{
+"id": "26:n7",
+"q": "Hvor sikker er fordelen ved transplantation hos ældre patienter?",
+"a": "Usikker, især med marginale donorer",
+"w": [
+"Altid større end hos yngre",
+"Dokumenteret ens for alle"
+],
+"p": 251,
+"lvl": "U",
+"type": "forståelse",
+"why": "Langtidsoverlevelsen er bedre hos yngre og midaldrende, men nyere studier sætter spørgsmålstegn ved fordelen for ældre."
+},
+{
+"id": "26:n8",
+"q": "Er resultaterne ved nyretransplantation af børn dårligere end hos voksne?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 251,
+"lvl": "U",
+"type": "fakta",
+"why": "Resultaterne er lige så gode som hos voksne, også hos helt små børn."
+}
+]

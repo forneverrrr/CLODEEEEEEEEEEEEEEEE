@@ -1,0 +1,3487 @@
+[
+ {
+  "id": "1:3",
+  "q": "Hvad stod KDIGO for?",
+  "reason": "trivia: KDIGO's fulde navn"
+ },
+ {
+  "id": "1:4",
+  "q": "Hvilke kriterier anvendte man tidligere i en årrække, inden KDIGO?",
+  "reason": "historisk detalje (RIFLE), indgår som svarmulighed"
+ },
+ {
+  "id": "1:11",
+  "q": "Er AKI en selvstændig risikofaktor for død?",
+  "reason": "dublet af 1:10"
+ },
+ {
+  "id": "1:12",
+  "q": "Hvor stor en andel af alle indlagte patienter kan have AKI?",
+  "reason": "tal fra enkelte materialer (18 % af indlagte)"
+ },
+ {
+  "id": "1:13",
+  "q": "Hvor stor en andel af indlagte patienter har dialysekrævende AKI?",
+  "reason": "tal fra enkelte materialer (ca. 1 %)"
+ },
+ {
+  "id": "1:22",
+  "q": "Hvor stor en andel af akut diagnosticerede tilfælde af nyreinsufficiens udgør akut forværring af kronisk nedsat nyrefunktion?",
+  "reason": "tal fra enkelte undersøgelser (10-15 %)"
+ },
+ {
+  "id": "1:28",
+  "q": "Hvilket urinvolumen svarer til AKI stadie 1?",
+  "reason": "detalje fra tabel (stadie 1 diurese), erstattet af 1:27"
+ },
+ {
+  "id": "1:29",
+  "q": "Hvilket fald i eGFR indgår i stadie 3 for patienter under 18 år?",
+  "reason": "detalje fra tabel (børn, eGFR < 35)"
+ },
+ {
+  "id": "1:31",
+  "q": "Hvilke tilstande hører til de systemiske nekrotiserende vaskulitter som årsag til renal AKI?",
+  "reason": "uklar kilde: bogens tekst siger »ANCA-associeret akut nyreinsufficiens«, ikke vaskulitis; lav klinisk værdi"
+ },
+ {
+  "id": "1:32",
+  "q": "Hvad er eksempler på endogene toksiner, der kan give renal AKI?",
+  "reason": "opremsning over 3 led; erstattet"
+ },
+ {
+  "id": "1:33",
+  "q": "Hvad er eksempler på eksogene toksiner, der kan give renal AKI?",
+  "reason": "opremsning over 3 led; erstattet"
+ },
+ {
+  "id": "1:38",
+  "q": "Hvilke tre forhold retter den diagnostiske og behandlingsmæssige strategi sig mod ved AKI?",
+  "reason": "opremsning af tre strategiområder; erstattet af mere konkrete spørgsmål"
+ },
+ {
+  "id": "1:49",
+  "q": "Hvor meget perspiratio kan anslås pr. døgn i praksis ved afebrile voksne?",
+  "reason": "tal; indgår i forklaring til 1:51"
+ },
+ {
+  "id": "1:50",
+  "q": "Hvor meget udgør forbrændingsvand skønsmæssigt pr. døgn?",
+  "reason": "tal; indgår i forklaring til 1:51"
+ },
+ {
+  "id": "1:73",
+  "q": "Hvilke former for akut dialyse findes?",
+  "reason": "opremsning af dialyseformer; dækket af 1:74, 1:78 og nye spørgsmål"
+ },
+ {
+  "id": "1:94",
+  "q": "Hvilken dialysattemperatur accepterer vågne patienter oftest ikke at gå under?",
+  "reason": "dialysattemperatur-tal (detalje)"
+ },
+ {
+  "id": "1:96",
+  "q": "Hvad er de tre CRRT-former?",
+  "reason": "forkortelser CVVHD/CVVHF/CVVHDF (rene navne)"
+ },
+ {
+  "id": "1:97",
+  "q": "Hvad er første akutte HD's dialysetid ifølge faktaboks 1.6?",
+  "reason": "tal fra faktaboks; erstattet af forståelsesspørgsmål om lav effektivitet"
+ },
+ {
+  "id": "1:98",
+  "q": "Hvad er blodflow ved første akutte HD?",
+  "reason": "tal fra faktaboks (blodflow 200 ml/min)"
+ },
+ {
+  "id": "1:99",
+  "q": "Hvor meget væsketræk anbefales ved første akutte dialyse?",
+  "reason": "tal fra faktaboks (væsketræk 0-3 l)"
+ },
+ {
+  "id": "1:100",
+  "q": "Hvilken standard dialysattemperatur nævnes i faktaboks 1.6?",
+  "reason": "tal fra faktaboks (dialysattemperatur)"
+ },
+ {
+  "id": "1:104",
+  "q": "Hvor meget dialysat anvendes cirka pr. time ved intermitterende teknikker?",
+  "reason": "dublet af 1:103 (dialysatmængde)"
+ },
+ {
+  "id": "1:106",
+  "q": "Hvad er gennemsnitlig filteroverlevelse ved vellykket antikoagulering ved CRRT?",
+  "reason": "tal (filteroverlevelse 48 timer)"
+ },
+ {
+  "id": "1:109",
+  "q": "Hvilke forstyrrelser optræder ofte ved længerevarende CRRT?",
+  "reason": "kilden anfører hypercalcæmi og hypofosfatæmi ved CRRT, men citrat/CRRT giver normalt hypocalcæmi; muligt kildefejl, slettet"
+ },
+ {
+  "id": "2:3",
+  "q": "Hvor mange nyretransplantationer blev udført i 2021 i Danmark?",
+  "reason": "år-specifikt tal (248 transplantationer i 2021)"
+ },
+ {
+  "id": "2:4",
+  "q": "Hvor mange af transplantationerne i 2021 var med nyredonation fra pårørende?",
+  "reason": "år-specifikt tal (68 transplantationer fra pårørende)"
+ },
+ {
+  "id": "2:5",
+  "q": "Hvor mange patienter lever cirka med en velfungerende transplanteret nyre?",
+  "reason": "tal om antal patienter (cirka 3.200)"
+ },
+ {
+  "id": "2:8",
+  "q": "Hos hvor mange procent af patienterne er årsagen til kronisk nyreinsufficiens ukendt?",
+  "reason": "erstattet: tal (20-25 %) hvor forståelsen er vigtigere"
+ },
+ {
+  "id": "2:10",
+  "q": "Hvor mange personer får årligt behov for kronisk dialyse i Danmark?",
+  "reason": "antal personer pr. år (cirka 700)"
+ },
+ {
+  "id": "2:11",
+  "q": "Hvor mange patienter er cirka i dialysebehandling i Danmark (stabilt antal)?",
+  "reason": "antal patienter et bestemt tidspunkt (cirka 2.500)"
+ },
+ {
+  "id": "2:12",
+  "q": "Hvor stor en andel af patienterne er 70 år eller ældre ved dialysestart?",
+  "reason": "tal fra registeret (45 % over 70 år)"
+ },
+ {
+  "id": "2:14",
+  "q": "Hvad var mortaliteten blandt dialysepatienter i 2021?",
+  "reason": "tal fra et bestemt år (mortalitet 17 pr. 100 patientår)"
+ },
+ {
+  "id": "2:25",
+  "q": "Hvad er andre markører for graden af uræmisk forgiftning?",
+  "reason": "opremsning; dublet af øvrige uræmi-spørgsmål"
+ },
+ {
+  "id": "2:29",
+  "q": "Hvilke symptomer kommer siden ved uræmi?",
+  "reason": "opremsning over 3 led; erstattet af anvendelsesspørgsmål"
+ },
+ {
+  "id": "2:44",
+  "q": "Hvilken formel bruges til eGFR i Danmark?",
+  "reason": "navn på beregningsformel (detalje), svarmuligheder ikke efterprøvbare i kilden"
+ },
+ {
+  "id": "2:45",
+  "q": "Korrigeres der rutinemæssigt for race i Danmark ved eGFR?",
+  "reason": "detalje (race-korrektion)"
+ },
+ {
+  "id": "2:47",
+  "q": "Ved hvilken BMI kan eGFR være upålidelig?",
+  "reason": "detalje (BMI-grænse), dækket af 2:46"
+ },
+ {
+  "id": "2:53",
+  "q": "Hvad er finerenon?",
+  "reason": "erstattet: præparatnavn uden klinisk pointe, nyt anvendelsesspørgsmål"
+ },
+ {
+  "id": "2:62",
+  "q": "Hvilke former for dialyse findes?",
+  "reason": "triviel opremsning (PD og HD)"
+ },
+ {
+  "id": "2:64",
+  "q": "Hvad kaldes det i daglig tale?",
+  "reason": "udtryk »dialysegrænsen« (detalje)"
+ },
+ {
+  "id": "2:70",
+  "q": "Hvad hedder patientskoler for nyrepatienter?",
+  "reason": "lokal organisationsdetalje (Nyreskole)"
+ },
+ {
+  "id": "2:78",
+  "q": "Hvad hedder det landsregister, nyremedicinske afdelinger indrapporterer til?",
+  "reason": "navn på register (DNSL)"
+ },
+ {
+  "id": "2:79",
+  "q": "Hvor stor var andelen af patienter med forberedt start af dialyse i 2021?",
+  "reason": "tal fra bestemt år (69 %)"
+ },
+ {
+  "id": "2:80",
+  "q": "Hvor stor var andelen af rettidigt henviste i 2021?",
+  "reason": "tal fra bestemt år (82 %)"
+ },
+ {
+  "id": "2:81",
+  "q": "Hvad menes at have øget andelen af rettidigt henviste?",
+  "reason": "gætværk om årsag til statistik"
+ },
+ {
+  "id": "3:24",
+  "q": "Hvad afhænger fordele og ulemper ved dialysemodalitet af?",
+  "reason": "dublet af 3:20 (hvad afgør valget: patientens præferencer)"
+ },
+ {
+  "id": "3:0",
+  "q": "Hvilke dialysemodaliteter kan patienten vælge imellem?",
+  "reason": "erstattet: opremsning af modaliteter, ikke et kernefakta"
+ },
+ {
+  "id": "3:3",
+  "q": "Hvad er overlevelsen i Danmark tilsyneladende for PD-patienter de første halvandet år, hvis de ikke har diabetes og er under 55 år?",
+  "reason": "erstattet af nyt spørgsmål om hvem der har fordel af PD"
+ },
+ {
+  "id": "3:8",
+  "q": "Er der risici forbundet med fælles beslutningstagning og beslutningsstøtteredskaber?",
+  "reason": "overflødig: ja/nej om risici, dækket af 3:7"
+ },
+ {
+  "id": "3:9",
+  "q": "Hvor foregår fælles beslutningstagning?",
+  "reason": "overflødig: sted for fælles beslutningstagning, lav læringsværdi"
+ },
+ {
+  "id": "3:12",
+  "q": "Hvor mange trin har the three talk-modellen?",
+  "reason": "overflødig: antal trin, dækket af 3:11"
+ },
+ {
+  "id": "3:16",
+  "q": "Hvilket spørgsmål hører til trin 1?",
+  "reason": "erstattet af case-spørgsmål om trin 1"
+ },
+ {
+  "id": "3:17",
+  "q": "Hvilket spørgsmål hører til trin 2?",
+  "reason": "erstattet af case-spørgsmål om trin 2"
+ },
+ {
+  "id": "3:18",
+  "q": "Hvilket spørgsmål hører til trin 3?",
+  "reason": "erstattet af case-spørgsmål om trin 3"
+ },
+ {
+  "id": "3:19",
+  "q": "Hvad er formålet med trin 1?",
+  "reason": "overflødig: for lang opremsning, dækket af 3:13"
+ },
+ {
+  "id": "3:27",
+  "q": "Hvad indebærer risikokommunikation?",
+  "reason": "overflødig: opremsning af risikokommunikation, erstattet af konkrete spørgsmål"
+ },
+ {
+  "id": "3:28",
+  "q": "Hvilke metoder bruges til at forklare risiko?",
+  "reason": "overflødig: detalje om fast nævner/relativ risiko"
+ },
+ {
+  "id": "4:5",
+  "q": "I hvilken retning foregår nettobevægelsen af molekyler?",
+  "reason": "overflødig: dækket af diffusion-spørgsmålene"
+ },
+ {
+  "id": "4:17",
+  "q": "Hvor meget ultrafiltreres der ved HD pr. behandling?",
+  "reason": "erstattet af forståelsesspørgsmål om væsketræk og vægtstigning"
+ },
+ {
+  "id": "4:22",
+  "q": "Hvilken enhed har Kuf?",
+  "reason": "overflødig: enhed for Kuf er formel-udenadslære"
+ },
+ {
+  "id": "4:23",
+  "q": "Hvor stor er Kuf for low-flux-filtre?",
+  "reason": "detalje: Kuf-værdier for low-flux"
+ },
+ {
+  "id": "4:24",
+  "q": "Hvor stor er Kuf for high-flux-filtre?",
+  "reason": "erstattet af spørgsmål om hvilke filtre der har høj Kuf"
+ },
+ {
+  "id": "4:31",
+  "q": "Hvordan beregnes renal clearance ved urinopsamling?",
+  "reason": "overflødig: beregning af renal clearance er formel-udenadslære"
+ },
+ {
+  "id": "4:33",
+  "q": "I hvilken enhed udtrykkes clearance oftest?",
+  "reason": "overflødig: enhed for clearance"
+ },
+ {
+  "id": "4:34",
+  "q": "Hvad er molekylvægten for karbamid?",
+  "reason": "detalje: molekylvægt for karbamid"
+ },
+ {
+  "id": "4:35",
+  "q": "Hvad er molekylvægten for kreatinin?",
+  "reason": "detalje: molekylvægt for kreatinin"
+ },
+ {
+  "id": "4:36",
+  "q": "Hvad er molekylvægten for B12-vitamin?",
+  "reason": "detalje: molekylvægt for vitamin B12"
+ },
+ {
+  "id": "4:37",
+  "q": "Hvad bruges inulin (3-5 kDa) som mål for?",
+  "reason": "detalje: molekylvægt for inulin"
+ },
+ {
+  "id": "5:100",
+  "q": "Hvorfor varmes dialysevæsken til kropstemperatur?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:101",
+  "q": "Hvilken Kt/V måles ved PD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:102",
+  "q": "Hvilken ugentlig Kt/V-grænse er der ikke evidens for giver bedre overlevelse?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:103",
+  "q": "Hvad er Kt/V < 1,7 associeret med i et enkelt studie?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:105",
+  "q": "Hvor meget natrium udskiller en anurisk patient højst pr. døgn ved UF på én liter?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:106",
+  "q": "Hvor meget natrium indeholder almindelig dansk kost pr. døgn?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:108",
+  "q": "Hvad kan overhydrering skyldes?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:11",
+  "q": "Hvad hedder den model, der beskriver kapillærvæggens porer?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:110",
+  "q": "Hvem ses ultrafiltrationssvigt hos?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:111",
+  "q": "Hvordan defineres ultrafiltrationssvigt?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:115",
+  "q": "Hvor mange procent af PD-patienter må ophøre med behandlingen pga. peritonitis?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:116",
+  "q": "Hvor stor er dødeligheden af peritonitis hos PD-patienter?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:117",
+  "q": "Hvordan angives peritonitisrater?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:118",
+  "q": "Hvad er standarden i Danmark fra 2023 for peritonitis?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:119",
+  "q": "Hvad var standarden før 2023?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:12",
+  "q": "Hvilke porer indgår i tre-pore-modellen?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:123",
+  "q": "Hvilket celletal i dialysatet stiller diagnosen peritonitis?",
+  "reason": "detalje"
+ },
+ {
+  "id": "5:125",
+  "q": "Hvilke bakterier er næsthyppigst?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:127",
+  "q": "Hvilke svampe giver ofte katetersepsis ved peritonitis?",
+  "reason": "detalje"
+ },
+ {
+  "id": "5:13",
+  "q": "Hvad transporterer de små porer?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:131",
+  "q": "Hvilken andel dyrkningsnegative bør få en central procedure revurderet?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:133",
+  "q": "Hvor ofte doseres vancomycin?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:134",
+  "q": "Hvor ofte doseres gentamycin?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:135",
+  "q": "Hvor lang er den samlede behandlingstid ved peritonitis?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:136",
+  "q": "Hvilke bakterier behandles længst?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:137",
+  "q": "Hvordan behandles dyrkningsnegativ peritonitis?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:138",
+  "q": "Anbefales rutinemæssig monitorering af antibiotikakoncentrationer i plasma?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:139",
+  "q": "Hvornår supplerer man med i.v.-terapi ved peritonitis?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "5:14",
+  "q": "Gennem hvilke porer kan større molekyler som albumin filtreres?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:140",
+  "q": "Hvornår skal symptomer og fund være bedret ved peritonitis?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:141",
+  "q": "Hvad kaldes peritonitis, der ikke bedres, og hvor dialysevæsken fortsat er uklar?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:144",
+  "q": "Hvad er dosis af vancomycin i.p. ved vægt < 60 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:145",
+  "q": "Hvad er dosis af vancomycin i.p. ved vægt 60-80 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:146",
+  "q": "Hvad er dosis af vancomycin i.p. ved vægt > 80 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:147",
+  "q": "Hvad er dosis af gentamicin i.p. ved vægt < 60 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:148",
+  "q": "Hvad er dosis af gentamicin i.p. ved vægt 60-80 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:149",
+  "q": "Hvad er dosis af gentamicin i.p. ved vægt > 80 kg?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:15",
+  "q": "Hvad er aquaporin-1-kanaler permeable for?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:150",
+  "q": "Hvornår ses klinisk bedring normalt efter opstart af peritonitisbehandling?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:152",
+  "q": "Hvilket intraabdominalt tryk er højest?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:153",
+  "q": "Hvilke hernier er de hyppigste hos PD-patienter?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:156",
+  "q": "Hvor lang pause holdes der efter herniekirurgi?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:157",
+  "q": "Hvordan sikrer man lavt intraabdominalt tryk efter herniekirurgi?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:158",
+  "q": "Hvad er hydrothorax ved PD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:159",
+  "q": "Hvilke symptomer har hydrothorax?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "5:16",
+  "q": "Hvad er aquaporinkanalerne ansvarlige for?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:160",
+  "q": "Hvordan behandles hydrothorax?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:161",
+  "q": "Hvordan bekræftes en kommunikation mellem bughule og pleurahule?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:162",
+  "q": "Hvordan kan jod bruges til at påvise icodextrin i pleuravæske?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:164",
+  "q": "Hvad er behandlingen af skrotalødem?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:165",
+  "q": "Hvad kan lækage i cikatricer efter tidligere operationer give?",
+  "reason": "detalje"
+ },
+ {
+  "id": "5:166",
+  "q": "Hvornår kan abdominalsmerter opstå mht. dialysevæske?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:169",
+  "q": "Hvornår ses blodtilblandet udløbsvæske hos kvinder?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:17",
+  "q": "Hvilke tre mekanismer sker transporten via?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:171",
+  "q": "Hvad medfører kateterdysfunktion?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:173",
+  "q": "Hvilke er tidlige symptomer på skleroserende peritonitis?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:19",
+  "q": "Hvad driver ultrafiltration af vand ved PD?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:20",
+  "q": "Hvad modvirker ultrafiltration ved PD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:22",
+  "q": "Hvad er distributionsmodellen?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:23",
+  "q": "Hvor stor en del af peritoneums kapillærnet anslås at være åbentstående under normale omstændigheder?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:25",
+  "q": "Hvad kan forklare, at patienten ændrer transportstatus over tid efter mange års PD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:27",
+  "q": "Hvornår udføres PET?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:28",
+  "q": "Hvor stort indløb og hvor lang ækvilibrering bruges ved PET?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:29",
+  "q": "Hvilke koncentrationer bestemmes ved PET?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:30",
+  "q": "Hvad beregnes ud fra koncentrationerne i PET?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:31",
+  "q": "Hvordan karakteriseres transporthastigheden ud fra PET?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:35",
+  "q": "Hvor mange skift foretager patienten højst i CAPD i løbet af et døgn?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:36",
+  "q": "Hvor stort er indløbsvolumen ved CAPD?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:37",
+  "q": "Hvem egner CAPD sig især til?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:39",
+  "q": "Hvor lang er den samlede dialysetid ved APD typisk?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:4",
+  "q": "Hvor stor en andel af verdens dialysepatienter er cirka i PD?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:41",
+  "q": "Hvad er tidal-dialyse?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:42",
+  "q": "Hvad er 'våd dag' ved APD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:43",
+  "q": "Hvad er 'tør dag' ved APD?",
+  "reason": "dublet af bevaret spørgsmål"
+ },
+ {
+  "id": "5:44",
+  "q": "Hvad betegner IPD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:46",
+  "q": "Hvilken hjælp kan patienten få ved aPD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:47",
+  "q": "Viser studier øget infektionsrisiko eller indlæggelser ved aPD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:49",
+  "q": "Hvad er et eksempel på incremental PD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:5",
+  "q": "Hvor stor en andel af patienterne er i PD i nogle asiatiske centre?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:50",
+  "q": "Hvilke fordele har incremental PD?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:52",
+  "q": "Hvor mange producenter leverer PD-væsker i Danmark?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:53",
+  "q": "Hvad afgør valget af dialysesystem ifølge bogen?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:54",
+  "q": "Hvad består alle PD-væsker af?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:55",
+  "q": "Hvor store poser anvendes til CAPD?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:56",
+  "q": "Hvor store poser anvendes til APD?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:58",
+  "q": "Hvilke tre glukosekoncentrationer findes PD-væsker i?",
+  "reason": "tal/detalje (glukosekoncentrationer)"
+ },
+ {
+  "id": "5:59",
+  "q": "Hvad svarer 1 % glukose til?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:6",
+  "q": "Hvor stor en andel af kroniske dialysepatienter behandles med PD i Skandinavien?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:60",
+  "q": "Hvad dannes ved varmesterilisation af PD-væsker?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:63",
+  "q": "Hvor meget glukose tilføres peritoneum cirka pr. år selv med overvejende svage væsker?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:65",
+  "q": "Hvilke alternativer til glukose findes?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:67",
+  "q": "Hvordan sker systemisk optagelse af icodextrin?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:7",
+  "q": "Hvor mange patienter er der cirka i PD i Danmark?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:71",
+  "q": "Hvilke bivirkninger er sjældne ved icodextrin?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:72",
+  "q": "Hvor stor en del af det daglige proteinbehov dækker aminosyrebaseret PD-væske (Nutrineal)?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:73",
+  "q": "Hvilke ulemper kan aminosyreholdig PD-væske have?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:75",
+  "q": "Hvilke buffere anvendes i PD-væsker?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:76",
+  "q": "Hvad giver hydrogencarbonat som buffer?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:77",
+  "q": "Hvor varierer pH i færdigblandede PD-væsker?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:79",
+  "q": "Hvorfor tilsættes heparin til PD-væske hos nogle patienter?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:8",
+  "q": "Hvor stort er peritoneums overfladeareal hos voksne?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:81",
+  "q": "Hvad er fysiske barrierer for PD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:82",
+  "q": "Hvad er kognitive barrierer for PD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:85",
+  "q": "Hvad forebygger heling af katetret?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:86",
+  "q": "Hvor lang tid tager PD-træning cirka?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:87",
+  "q": "Hvad leveres til patientens adresse hver eller hver anden uge?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:88",
+  "q": "Hvor meget plads fylder dialysematerialerne cirka?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:89",
+  "q": "Hvilke principper anbefalede tidligere guidelines for ordination af PD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:9",
+  "q": "Hvilke tre histologiske lag udgør barrieren mellem dialysevæsken og blodet?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:91",
+  "q": "Hvor ofte anbefales ambulante kontroller hos PD-patienter, når behandlingen varetages i hjemmet?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:92",
+  "q": "Hvad inspiceres ved hver ambulant PD-kontrol?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "5:96",
+  "q": "Hvor mange timer pr. døgn udvides den totale behandlingstid ofte til ved akut PD?",
+  "reason": "tal/statistik/detalje uden klinisk pointe"
+ },
+ {
+  "id": "5:98",
+  "q": "Hvem bruges akut PD især til uden forventet kronisk dialysebehov?",
+  "reason": "udvidet detalje, beskåret for at fokusere på kernen"
+ },
+ {
+  "id": "5:99",
+  "q": "Hvilke hjælpemidler behøver patienten til CAPD?",
+  "reason": "detalje/opremsning, dækket af andet spørgsmål"
+ },
+ {
+  "id": "6:29",
+  "q": "Hvor placeres den yderste cuff?",
+  "reason": "detalje: placering af yderste cuff"
+ },
+ {
+  "id": "6:34",
+  "q": "Hvor foretages indstik ved Seldinger-teknik?",
+  "reason": "detalje: indstiksted ved Seldinger"
+ },
+ {
+  "id": "6:80",
+  "q": "Skal hullet i fascien suturere ved fjernelse af katetret?",
+  "reason": "detalje: suturering af fascie"
+ },
+ {
+  "id": "6:1",
+  "q": "Hvad står ISPD for?",
+  "reason": "overflødig: forkortelse ISPD"
+ },
+ {
+  "id": "6:7",
+  "q": "Hvad er PD-katetrenes ydre diameter?",
+  "reason": "detalje: ydre diameter"
+ },
+ {
+  "id": "6:8",
+  "q": "Hvad er PD-katetrenes indre diameter?",
+  "reason": "detalje: indre diameter"
+ },
+ {
+  "id": "6:10",
+  "q": "Hvilke tre intraperitoneale katetertyper bruges i Danmark?",
+  "reason": "overflødig: opremsning, dækket af 6:11"
+ },
+ {
+  "id": "6:14",
+  "q": "Hvad synes tungstenskatetre at være associeret med sammenlignet med Tenckhoff?",
+  "reason": "hviler på enkeltstudier med usikker evidens"
+ },
+ {
+  "id": "6:15",
+  "q": "Er der forskel mellem lige og krøllede intraperitoneale designs?",
+  "reason": "overflødig: ja/nej om at der ingen forskel er"
+ },
+ {
+  "id": "6:16",
+  "q": "Hvor mange cuffs har katetre til kronisk PD?",
+  "reason": "detalje: antal cuffs"
+ },
+ {
+  "id": "6:17",
+  "q": "Hvilket materiale er cuffs oftest lavet af?",
+  "reason": "detalje: cuff-materiale"
+ },
+ {
+  "id": "6:23",
+  "q": "Hvem anlægger oftest med perkutan teknik?",
+  "reason": "lokal praksis: hvem anlægger perkutant"
+ },
+ {
+  "id": "6:24",
+  "q": "Hvem anlægger oftest med kirurgisk teknik?",
+  "reason": "lokal praksis: hvem anlægger kirurgisk"
+ },
+ {
+  "id": "6:30",
+  "q": "Hvor lang er incisionen ved laparotomi?",
+  "reason": "detalje: incisionslængde"
+ },
+ {
+  "id": "6:38",
+  "q": "Hvad er målet for tarmperforation ved kateteranlæggelse?",
+  "reason": "målværdi fra retningslinje, detalje"
+ },
+ {
+  "id": "6:39",
+  "q": "Hvad er målet for signifikant blødning?",
+  "reason": "målværdi fra retningslinje, detalje"
+ },
+ {
+  "id": "6:40",
+  "q": "Hvad er målet for exit-site-infektion inden for 2 uger efter anlæggelse?",
+  "reason": "målværdi fra retningslinje, detalje; kilden angiver samme tal for peritonitis"
+ },
+ {
+  "id": "6:41",
+  "q": "Hvad er målet for kateterteknikproblemer?",
+  "reason": "målværdi fra retningslinje, detalje"
+ },
+ {
+  "id": "6:44",
+  "q": "Hvilken tunnellængde er traditionel?",
+  "reason": "detalje: traditionel tunnellængde uden evidens"
+ },
+ {
+  "id": "6:49",
+  "q": "Anvendes præsternalt og begravet kateter rutinemæssigt i Danmark?",
+  "reason": "lokal praksis i Danmark, ja/nej"
+ },
+ {
+  "id": "6:57",
+  "q": "Hvordan påvises pseudolommedannelse?",
+  "reason": "detalje: radiologisk påvisning af pseudolomme"
+ },
+ {
+  "id": "6:65",
+  "q": "Hvilken præmedicinering bruges ved manipulation af katetret i røntgengennemlysning?",
+  "reason": "detalje: præmedicinering med morfikum"
+ },
+ {
+  "id": "6:67",
+  "q": "Hvilken heparindosis tilsættes dialysevæsken ved fibrin?",
+  "reason": "erstattet af spørgsmål om heparin uden dosis"
+ },
+ {
+  "id": "6:73",
+  "q": "Hvor ofte ses Pseudomonas aeruginosa ved tunnelinfektion?",
+  "reason": "erstattet af spørgsmål om Pseudomonas og biofilm"
+ },
+ {
+  "id": "6:81",
+  "q": "Hvilken bedøvelse er nok til fjernelse af PD-katetre i de fleste tilfælde?",
+  "reason": "overflødig: dækket af 6:79"
+ },
+ {
+  "id": "7:2",
+  "q": "Hvor mange patienter er cirka i HD i Danmark?",
+  "reason": "D-detalje/tal fra bogens epidemiologi, ikke klinisk nyttig"
+ },
+ {
+  "id": "7:3",
+  "q": "Hvorfor har antallet af HD-patienter været konstant eller svagt faldende siden 2010?",
+  "reason": "D-detalje/tal fra bogens epidemiologi, ikke klinisk nyttig"
+ },
+ {
+  "id": "7:7",
+  "q": "Hvad kaldes dialysatoren i daglig tale?",
+  "reason": "triviel betegnelse, ingen læring"
+ },
+ {
+  "id": "7:12",
+  "q": "Hvilken farve bruges efter filteret?",
+  "reason": "dublet af den komplementære farvespørgsmål (rød/blå)"
+ },
+ {
+  "id": "7:21",
+  "q": "Hvad forhindres ved luftdetektoren?",
+  "reason": "dublet af 7:20 (luftdetektor/luftemboli)"
+ },
+ {
+  "id": "7:23",
+  "q": "Hvilken nedre grænse for venetryk anvendes typisk?",
+  "reason": "D: tallet er dækket af 7:24 (lavt venetryk) og 7:22"
+ },
+ {
+  "id": "7:28",
+  "q": "Hvad er blodflowet i gennemsnit ved single-needle-dialyse?",
+  "reason": "D: gennemsnitligt flow ved single-needle, forklaret i 7:27"
+ },
+ {
+  "id": "7:30",
+  "q": "Hvad er natriumkoncentrationen i dialysat (tabel 7.1)?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:31",
+  "q": "Hvad er kaliumkoncentrationen i dialysat?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:32",
+  "q": "Hvad er calciumkoncentrationen i dialysat?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:33",
+  "q": "Hvad er bikarbonatkoncentrationen i dialysat?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:34",
+  "q": "Hvad er glukosekoncentrationen i dialysat?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:35",
+  "q": "Hvad er de vandbehandlingstrin før dialysemaskinen?",
+  "reason": "erstattet af spørgsmål om sidste trin i vandbehandling"
+ },
+ {
+  "id": "7:36",
+  "q": "Hvor små partikler fjerner partikelfiltre ned til?",
+  "reason": "D: partikelstørrelse"
+ },
+ {
+  "id": "7:40",
+  "q": "Hvor stor en del af vandet passerer gennem RO-filteret og bruges til dialyse?",
+  "reason": "D: organisatorisk/driftsdetalje om vandanlæg"
+ },
+ {
+  "id": "7:41",
+  "q": "Hvem varetager driften af vandanlægget?",
+  "reason": "D: organisatorisk/driftsdetalje om vandanlæg"
+ },
+ {
+  "id": "7:43",
+  "q": "Hvilken natriumkoncentration vælges typisk, hvis den holdes fast under dialysen?",
+  "reason": "D: tal modstrider tabellen (135-145 vs 138-145); fakta dækket af 7:44-7:46"
+ },
+ {
+  "id": "7:53",
+  "q": "Hvilket bikarbonatinterval kan bruges i dialysat?",
+  "reason": "tabelafhængige dialysatværdier (tabel 7.1), tal der ikke er grænseværdier der bruges individuelt"
+ },
+ {
+  "id": "7:57",
+  "q": "Er dialysat fosfatfrit?",
+  "reason": "dublet: fosfatfrit dialysat dækket af 7:58"
+ },
+ {
+  "id": "7:61",
+  "q": "Hvilket dialysatflow leverede ældre maskiner?",
+  "reason": "D: forældet fast dialysatflow/vandforbrug"
+ },
+ {
+  "id": "7:62",
+  "q": "Hvor mange liter dialysat bruges på 4 timer ved 500 ml/min.?",
+  "reason": "D: forældet fast dialysatflow/vandforbrug"
+ },
+ {
+  "id": "7:64",
+  "q": "Hvor mange gange fortyndes koncentrat typisk?",
+  "reason": "D: fortyndingsfaktor for koncentrat"
+ },
+ {
+  "id": "7:66",
+  "q": "Hvordan opbevares bikarbonat til dialysat?",
+  "reason": "dublet af 7:65"
+ },
+ {
+  "id": "7:71",
+  "q": "Hvad reagerer blodlækagedetektoren på?",
+  "reason": "D: enkeltdetalje, dækket af 7:70"
+ },
+ {
+  "id": "7:76",
+  "q": "Hvilket TMP er filtrene kun testede til?",
+  "reason": "D: TMP-testgrænse, dækket af 7:75"
+ },
+ {
+  "id": "7:81",
+  "q": "Hvor meget væske kan trækkes i timen ved tørdialyse uden større risiko?",
+  "reason": "D: tal for tørdialyse, dækket af 7:80"
+ },
+ {
+  "id": "7:83",
+  "q": "Hvad forudsætter HF?",
+  "reason": "dublet af 7:82/7:108 (pyrogenfrit vand)"
+ },
+ {
+  "id": "7:87",
+  "q": "Hvor meget ultrafiltreres typisk under en HDF-behandling?",
+  "reason": "D: tal fra HDF-behandling"
+ },
+ {
+  "id": "7:88",
+  "q": "Hvorfor bruges HDF hyppigere nu?",
+  "reason": "D: historisk/markedsmæssig forklaring"
+ },
+ {
+  "id": "7:91",
+  "q": "Hvilket konvektionsvolumen indikerer et nyt studie kan give bedre overlevelse end HD?",
+  "reason": "D: enkeltstudie"
+ },
+ {
+  "id": "7:93",
+  "q": "Hvordan er dialysefiltre opbygget?",
+  "reason": "D: filteropbygning/materialehistorie"
+ },
+ {
+  "id": "7:94",
+  "q": "Hvilket materiale dominerede de første 50 år af dialysens historie?",
+  "reason": "D: filteropbygning/materialehistorie"
+ },
+ {
+  "id": "7:95",
+  "q": "Hvilke tre reaktioner kan biokompatible membraner sjældent udløse?",
+  "reason": "opremsning dækket af 7:96/7:98/7:104"
+ },
+ {
+  "id": "7:99",
+  "q": "Hvilke subjektive symptomer er relateret til bioinkompatibilitet?",
+  "reason": "D: subjektive symptomer, sjældne med moderne filtre"
+ },
+ {
+  "id": "7:100",
+  "q": "Hvilket filterareal betragtes som 'normalt'?",
+  "reason": "D: arealdefinitioner, dækket af 7:116-7:117"
+ },
+ {
+  "id": "7:101",
+  "q": "Hvilket filterareal betragtes som 'stort'?",
+  "reason": "D: arealdefinitioner, dækket af 7:116-7:117"
+ },
+ {
+  "id": "7:102",
+  "q": "Hvilket molekyle bruges som repræsentant for mellemstore molekyler ved clearance?",
+  "reason": "D: laboratoriedetalje om clearance"
+ },
+ {
+  "id": "7:105",
+  "q": "Hvilket stof indgår i en syntetisk membran fra tabel 7.2?",
+  "reason": "D: materialenavn fra tabel 7.2"
+ },
+ {
+  "id": "7:106",
+  "q": "Hvad er in vitro-clearance målt med vandige opløsninger i forhold til blod?",
+  "reason": "D: laboratoriedetalje om clearance"
+ },
+ {
+  "id": "7:107",
+  "q": "Hvad er Kuf for moderne high-flux-filtre?",
+  "reason": "erstattet af spørgsmål om Kuf-definition"
+ },
+ {
+  "id": "7:110",
+  "q": "Hvor meget blod befinder sig ekstrakorporalt under dialyse af voksne?",
+  "reason": "D: blodvolumen ekstrakorporalt og sterilisation/indkøb"
+ },
+ {
+  "id": "7:111",
+  "q": "Hvordan steriliseres dialysefiltre?",
+  "reason": "D: blodvolumen ekstrakorporalt og sterilisation/indkøb"
+ },
+ {
+  "id": "7:112",
+  "q": "Hvordan indkøbes HD-filtre på danske afdelinger?",
+  "reason": "D: blodvolumen ekstrakorporalt og sterilisation/indkøb"
+ },
+ {
+  "id": "7:113",
+  "q": "Hvor meget stiger karbamid-clearance, hvis man skifter fra 'medium' til 'x-large' filter?",
+  "reason": "D: tal fra tabel 7.3"
+ },
+ {
+  "id": "7:114",
+  "q": "Hvor meget højere clearance giver x-large til mellemstore molekyler?",
+  "reason": "D: tal fra tabel 7.3"
+ },
+ {
+  "id": "7:130",
+  "q": "Hvilke to lavmolekylære hepariner bruges oftest i Danmark?",
+  "reason": "D: præparatnavne/bolus for Innohep"
+ },
+ {
+  "id": "7:131",
+  "q": "Hvad er startbolus af Innohep ved skift fra ufraktioneret heparin?",
+  "reason": "D: præparatnavne/bolus for Innohep"
+ },
+ {
+  "id": "7:132",
+  "q": "Hvilken dosis Innohep bruges ved første dialyse?",
+  "reason": "D: præparatnavne/bolus for Innohep"
+ },
+ {
+  "id": "7:145",
+  "q": "Hvad er fondaparinux?",
+  "reason": "D: præparatnavne uden klinisk pointe"
+ },
+ {
+  "id": "7:146",
+  "q": "Hvad er argatroban (Novastan)?",
+  "reason": "D: præparatnavne uden klinisk pointe"
+ },
+ {
+  "id": "7:148",
+  "q": "Hvor stor en del af effekten af 100 IE Innohep neutraliserer samme dosis protamin?",
+  "reason": "D: protamindetaljer"
+ },
+ {
+  "id": "7:149",
+  "q": "Hvad er en praktisk protamindosis?",
+  "reason": "D: protamindetaljer"
+ },
+ {
+  "id": "7:154",
+  "q": "Hvordan kan den fjerde dialyse ordineres?",
+  "reason": "D: dialyseordination dag 4, lokal rutine"
+ },
+ {
+  "id": "7:158",
+  "q": "Hvor ofte kontrolleres hæmatologi, elektrolytter og calcium-fosfat?",
+  "reason": "erstattet af spørgsmål om kontrol ved hver dialyse"
+ },
+ {
+  "id": "7:160",
+  "q": "Hvad udføres mindst en gang årligt?",
+  "reason": "D: lokal kontrolrutine"
+ },
+ {
+  "id": "7:161",
+  "q": "Hvor hyppigt er blodtryksfald som akut HD-komplikation?",
+  "reason": "D: procenter fra undersøgelser"
+ },
+ {
+  "id": "7:162",
+  "q": "Hvor hyppige er muskelkramper under HD?",
+  "reason": "D: procenter fra undersøgelser"
+ },
+ {
+  "id": "7:163",
+  "q": "Hvor hyppig er kvalme/opkastning under HD?",
+  "reason": "D: procenter fra undersøgelser"
+ },
+ {
+  "id": "7:164",
+  "q": "Hvor hyppig er hovedpine under HD?",
+  "reason": "D: procenter fra undersøgelser"
+ },
+ {
+  "id": "7:172",
+  "q": "Hvilken albuminkoncentration og mængde kan infunderes ved blodtryksfald?",
+  "reason": "D: doseringsdetaljer"
+ },
+ {
+  "id": "7:173",
+  "q": "Hvilket natriumklorid-indhold kan gives ved blodtryksfald?",
+  "reason": "D: doseringsdetaljer"
+ },
+ {
+  "id": "7:186",
+  "q": "Hvilket stof er udgået til krampeprofylakse?",
+  "reason": "D: forældet præparat"
+ },
+ {
+  "id": "7:188",
+  "q": "Hvad er en af de almindeligste bivirkninger under HD?",
+  "reason": "dublet af 7:44/7:189"
+ },
+ {
+  "id": "7:193",
+  "q": "Hvornår tages S-tryptase efter episoden?",
+  "reason": "D: laboratoriedetalje"
+ },
+ {
+  "id": "7:194",
+  "q": "Hvilke apparaturfejl nævnes?",
+  "reason": "opremsning, dækket af 7:195-7:197"
+ },
+ {
+  "id": "8:1",
+  "q": "Hvad forkortes centerhæmodialyse?",
+  "reason": "triviel forkortelse"
+ },
+ {
+  "id": "8:2",
+  "q": "Hvornår startede HD til kronisk nyresvigt i Danmark, og hvor?",
+  "reason": "historisk årstal/sted"
+ },
+ {
+  "id": "8:3",
+  "q": "Hvor mange HD-centre besluttede Sundhedsstyrelsen oprindeligt, at der måtte være i Danmark?",
+  "reason": "historisk detalje"
+ },
+ {
+  "id": "8:4",
+  "q": "Hvornår udvidedes antallet af dialysecentre i Danmark?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "8:5",
+  "q": "Hvornår var der dialysecentre i alle amter?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "8:6",
+  "q": "Hvor stor en andel af HD-patienter får HHD, op mod?",
+  "reason": "statistik der forældes"
+ },
+ {
+  "id": "8:7",
+  "q": "Hvor stor en andel udgjorde HHD-patienter af alle dialysepatienter i 2021?",
+  "reason": "statistik for ét år"
+ },
+ {
+  "id": "8:21",
+  "q": "Hvilket dialysatflow bruger konventionelle maskiner med supplerende vandanlæg?",
+  "reason": "detalje om vandforbrug (D)"
+ },
+ {
+  "id": "8:22",
+  "q": "Hvor meget substitutionsvolumen kan bruges ved HDF på konventionel maskine?",
+  "reason": "detalje om substitutionsvolumen (D)"
+ },
+ {
+  "id": "9:3",
+  "q": "Over hvor lang tid øges venens størrelse og vægtykkelse efter AV-forbindelse?",
+  "reason": "dublet af 9:37 (modningstid)"
+ },
+ {
+  "id": "9:14",
+  "q": "Hvilke arterier måles diameteren af ved ultralyd?",
+  "reason": "detalje (liste over arterier)"
+ },
+ {
+  "id": "9:18",
+  "q": "Hvor stor er anastomosen ('vinduet') i en fistel?",
+  "reason": "detalje (10 mm)"
+ },
+ {
+  "id": "9:19",
+  "q": "Hvor anlægges overarmsfistler (brachiobasilar)?",
+  "reason": "detalje (placering)"
+ },
+ {
+  "id": "9:20",
+  "q": "Hvad sker der oftest med brachiobasilar fistel?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "9:26",
+  "q": "Hvad kan v. saphena magna bruges som?",
+  "reason": "detalje"
+ },
+ {
+  "id": "9:27",
+  "q": "Hvad kaldes torakale grafter populært?",
+  "reason": "detalje (navngivning)"
+ },
+ {
+  "id": "9:28",
+  "q": "Hvad er den primære holdbarhed af endovaskulære fistler?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:29",
+  "q": "Hvad er den assisterede holdbarhed af WavelinQ og Ellipsys?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:30",
+  "q": "Hvilke endovaskulære metoder nævnes?",
+  "reason": "produktnavne"
+ },
+ {
+  "id": "9:31",
+  "q": "Hvor stor en andel af patienterne kan tilbydes endovaskulær fistel?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:41",
+  "q": "Hvilke tre typer kanyler findes til dialyse?",
+  "reason": "detalje (kanyletyper)"
+ },
+ {
+  "id": "9:42",
+  "q": "Hvilken kanyle er hyppigst anvendt?",
+  "reason": "detalje (kanylestørrelse)"
+ },
+ {
+  "id": "9:47",
+  "q": "Hvilke kanyler bruges, når knaphullet er etableret?",
+  "reason": "slået sammen med 9:46"
+ },
+ {
+  "id": "9:53",
+  "q": "Hvad er arealteknik?",
+  "reason": "lav værdi; arealteknik dækkes af 9:54"
+ },
+ {
+  "id": "9:62",
+  "q": "Hvad rekonstrueres arterien ofte med efter fjernelse af inficeret graft?",
+  "reason": "detalje"
+ },
+ {
+  "id": "9:63",
+  "q": "Hvornår kan manglende modning endeligt bedømmes?",
+  "reason": "dublet af 9:37"
+ },
+ {
+  "id": "9:64",
+  "q": "Hvornår bør udviklingen vurderes med UL?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "9:74",
+  "q": "Hvor ofte ses steal-syndrom ved overarmsfistler?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:78",
+  "q": "Hvilket flow opstår umiddelbart efter anlæggelse af en overarmsfistel?",
+  "reason": "detalje (flowtal)"
+ },
+ {
+  "id": "9:79",
+  "q": "Hvor højt kan flowet stige i en high-flow-fistel?",
+  "reason": "detalje (flowtal)"
+ },
+ {
+  "id": "9:84",
+  "q": "Hvor hyppige er infektioner i AV-fistler efter opheling?",
+  "reason": "slået sammen med 9:85"
+ },
+ {
+  "id": "9:87",
+  "q": "Hvor findes over halvdelen af stenoserne i en moden fistel?",
+  "reason": "dublet af 9:68"
+ },
+ {
+  "id": "9:88",
+  "q": "Hvor mange procent af stenoserne sidder i resten af afløbsvenen?",
+  "reason": "detalje (procent)"
+ },
+ {
+  "id": "9:93",
+  "q": "Hvad er en cutting balloon?",
+  "reason": "detalje (produkt)"
+ },
+ {
+  "id": "9:94",
+  "q": "Hvad er en scoring balloon?",
+  "reason": "detalje (produkt)"
+ },
+ {
+  "id": "9:97",
+  "q": "Hvor længe holder endovaskulær behandling i gennemsnit?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:98",
+  "q": "Hvor mange procent af AV-fistlerne kan holdes funktionsdygtige i mindst 3 år ved gentagne behandlinger?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:99",
+  "q": "Hvor hyppig er veneruptur ved PTA?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:106",
+  "q": "Hvor mange procent af umodne fistler kan bringes til at fungere?",
+  "reason": "studietal; dækket af 9:105"
+ },
+ {
+  "id": "9:110",
+  "q": "Hvad er diameteren af katetre til voksne?",
+  "reason": "detalje (kateterstørrelse)"
+ },
+ {
+  "id": "9:112",
+  "q": "Hvem anlægger oftest HD-CVK?",
+  "reason": "detalje (hvem anlægger)"
+ },
+ {
+  "id": "9:119",
+  "q": "Hvor placeres cuffen på et tunneleret kateter?",
+  "reason": "detalje; erstattet af cuff-spørgsmål"
+ },
+ {
+  "id": "9:124",
+  "q": "Hvor høje er incidenser i højre v. jugularis interna?",
+  "reason": "slået sammen med 9:123"
+ },
+ {
+  "id": "9:127",
+  "q": "Hvor høj er den tekniske succesrate ved PTA af centrale stenoser?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:128",
+  "q": "Hvor mange af behandlede centrale stenoser er stadig åbne efter ét år?",
+  "reason": "studietal"
+ },
+ {
+  "id": "9:129",
+  "q": "Hvad er den hyppigste komplikation til behandling af centrale stenoser?",
+  "reason": "detalje"
+ },
+ {
+  "id": "10:2",
+  "q": "Hvad er karbamids molekylvægt?",
+  "reason": "detalje uden klinisk pointe (molekylvægt)"
+ },
+ {
+  "id": "10:15",
+  "q": "Hvilken metode anvender producentens tabelopslag?",
+  "reason": "trivielt (metodebogstav)"
+ },
+ {
+  "id": "10:19",
+  "q": "Hvad er URR en måling af?",
+  "reason": "dublet af 10:18"
+ },
+ {
+  "id": "10:21",
+  "q": "Hvad er Kt/V udtrykt ved URR?",
+  "reason": "kilden angiver modstridende fortegn i Kt/V-formlerne (exp(Kt/V) vs. ln(C1/C0))"
+ },
+ {
+  "id": "10:26",
+  "q": "Hvad estimerer UKM bl.a.?",
+  "reason": "overlap med 10:25/10:27"
+ },
+ {
+  "id": "10:35",
+  "q": "Hvad er Tattersall-formlen?",
+  "reason": "formel; erstattet af forståelses- og anvendelsesspørgsmål"
+ },
+ {
+  "id": "10:41",
+  "q": "Kan man opnå stdKt/V = 2 med 2 ugentlige sessioner hos anurisk patient?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "10:49",
+  "q": "Hvad er den højeste spKt/V, man normalt kan nå ved anuri?",
+  "reason": "detalje"
+ },
+ {
+  "id": "10:53",
+  "q": "Hvordan kan lavere V fremkomme?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "10:54",
+  "q": "Hvilke intensiverede regimer findes?",
+  "reason": "opremsning; erstattet"
+ },
+ {
+  "id": "10:58",
+  "q": "Hvad er forholdet mellem Qs og Qb, under hvilket HDFpræ giver ingen gevinst?",
+  "reason": "detalje (forhold Qs/Qb)"
+ },
+ {
+  "id": "10:60",
+  "q": "Hvad er anbefalet indtag af fosfat pr. uge hos dialysepatienter?",
+  "reason": "tal fra beregning; erstattet"
+ },
+ {
+  "id": "10:61",
+  "q": "Hvad betyder det, at alle med sufficient kost har behov for?",
+  "reason": "uklar formulering; erstattet"
+ },
+ {
+  "id": "10:68",
+  "q": "Hvordan beregnes ugentlig Kt/V ved PD?",
+  "reason": "formel; detalje"
+ },
+ {
+  "id": "10:72",
+  "q": "Hvilken UF-anbefaling hviler på et enkelt observationelt studie for anuriske PD-patienter?",
+  "reason": "enkelt observationelt studie"
+ },
+ {
+  "id": "11:1",
+  "q": "Hvad er de vigtigste årsager til renal anæmi?",
+  "reason": "erstattet (opremsning af 6 årsager)"
+ },
+ {
+  "id": "11:2",
+  "q": "Hvornår blev erythropoietin erkendt som et hæmopoietisk hormon?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "11:3",
+  "q": "Hvornår blev EPO rekombinant fremstillet?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "11:4",
+  "q": "Siden hvornår er EPO anvendt til klinisk behandling af renal anæmi?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "11:9",
+  "q": "Hvornår blev HIF opdaget?",
+  "reason": "historisk årstal"
+ },
+ {
+  "id": "11:11",
+  "q": "Hvor mange aminosyrer har cirkulerende EPO?",
+  "reason": "detalje (antal aminosyrer)"
+ },
+ {
+  "id": "11:12",
+  "q": "Hvor stor en del af EPO's molekylvægt udgør kulhydrat?",
+  "reason": "detalje (kulhydratandel)"
+ },
+ {
+  "id": "11:13",
+  "q": "Hvad beskytter kulhydratdelen EPO mod?",
+  "reason": "detalje"
+ },
+ {
+  "id": "11:14",
+  "q": "Hvad er normal s-EPO-koncentration?",
+  "reason": "s-EPO har ingen praktisk relevans ifølge kilden; talværdi"
+ },
+ {
+  "id": "11:15",
+  "q": "Hvor højt kan s-EPO stige ved non-renal anæmi?",
+  "reason": "talværdi uden klinisk brug"
+ },
+ {
+  "id": "11:19",
+  "q": "Hvad er T½ for EPO ved i.v. indgift?",
+  "reason": "slået sammen med nyt spørgsmål om indgiftsvej"
+ },
+ {
+  "id": "11:20",
+  "q": "Hvad er T½ for EPO ved s.c. indgift?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "11:22",
+  "q": "Hvor mange µg darbepoetin svarer til ca. 200 IE epoetin?",
+  "reason": "detalje (omregning µg/IE)"
+ },
+ {
+  "id": "11:23",
+  "q": "Hvad er CERA?",
+  "reason": "erstattet (forkortelse); nyt spørgsmål om halveringstid"
+ },
+ {
+  "id": "11:24",
+  "q": "Hvor mange gange længere er halveringstiden for CERA ved i.v. administration sammenlignet med epoetin?",
+  "reason": "detalje (faktor 20)"
+ },
+ {
+  "id": "11:28",
+  "q": "Hvad er molekylvægten for HIF-stabilisatorer?",
+  "reason": "detalje (molekylvægt)"
+ },
+ {
+  "id": "11:31",
+  "q": "Er genterapi med EPO tilgængelig hos mennesker?",
+  "reason": "trivielt"
+ },
+ {
+  "id": "11:32",
+  "q": "Hvornår indtræder tiltagende anæmi oftest?",
+  "reason": "dublet af 11:0"
+ },
+ {
+  "id": "11:38",
+  "q": "Hvad er årsager til jernmangel ved uræmi?",
+  "reason": "erstattet (opremsning)"
+ },
+ {
+  "id": "11:49",
+  "q": "Hvad karakteriserer jernmangel hos patienter uden nyresygdom?",
+  "reason": "kilden selvmodsigende: ferritin-grænse for jernmangel (<30 i tekst, <15 i tabel 11.1)"
+ },
+ {
+  "id": "11:50",
+  "q": "Hvordan defineres jernmangel hos dialysepatienter?",
+  "reason": "kilden selvmodsigende: ferritin <200 i tekst vs <100 i tabel 11.1 for jernmangel ved nyreinsufficiens"
+ },
+ {
+  "id": "11:51",
+  "q": "Hvordan defineres funktionel jernmangel?",
+  "reason": "kilden selvmodsigende: ferritin >200 i tekst vs >100 i tabel 11.1 ved funktionel/relativ jernmangel"
+ },
+ {
+  "id": "11:53",
+  "q": "Hvilken indikator bruges som langtidsindikator for jernindlejring (2-3 mdr.)?",
+  "reason": "metode uden udbredt anvendelse"
+ },
+ {
+  "id": "11:54",
+  "q": "Hvilken indikator bruges som korttidsindikator (3-5 dage)?",
+  "reason": "metode uden udbredt anvendelse"
+ },
+ {
+  "id": "11:55",
+  "q": "Hvilket mål bruges under ESA-behandling for TSAT og p-ferritin?",
+  "reason": "kilden selvmodsigende: TSAT-mål >30 % i tekst vs 20-50 % i tabel 11.1"
+ },
+ {
+  "id": "11:98",
+  "q": "Hvilket mål for TSAT under EPO-behandling (tabel 11.1)?",
+  "reason": "kilden selvmodsigende: TSAT-mål 20-50 % i tabel vs >30 % i tekst"
+ },
+ {
+  "id": "11:57",
+  "q": "Hvor meget jern er behovet ved HD pr. måned?",
+  "reason": "dublet af 11:40"
+ },
+ {
+  "id": "11:61",
+  "q": "Hvor ofte gentages jernparametre?",
+  "reason": "dublet af 11:80"
+ },
+ {
+  "id": "11:64",
+  "q": "Hvor mange CKD-5-patienter får behov for ESA?",
+  "reason": "procent fra opgørelse"
+ },
+ {
+  "id": "11:68",
+  "q": "Hvilke doseringsintervaller bruges ved start med CERA?",
+  "reason": "erstattet"
+ },
+ {
+  "id": "11:69",
+  "q": "Hvad er interval for darbepoetin ved start?",
+  "reason": "detalje (interval)"
+ },
+ {
+  "id": "11:70",
+  "q": "Hvad er interval for epoetin ved start?",
+  "reason": "detalje (interval)"
+ },
+ {
+  "id": "11:75",
+  "q": "Hvilket Hgb-niveau er almindeligt anvendt som øvre mål?",
+  "reason": "dublet af 11:93/11:76"
+ },
+ {
+  "id": "11:86",
+  "q": "Hvor mange responderer på EPO efter retningslinjerne?",
+  "reason": "procent fra opgørelse"
+ },
+ {
+  "id": "11:88",
+  "q": "Hvad kan være årsager til EPO-resistens?",
+  "reason": "erstattet (opremsning)"
+ },
+ {
+  "id": "11:90",
+  "q": "Hvor sjælden er PRCA?",
+  "reason": "detalje (hyppighed, allerede nævnt i 11:89)"
+ },
+ {
+  "id": "12:1",
+  "q": "Hvad står CKD-MBD for?",
+  "reason": "Ren forkortelsesoversættelse; begrebet dækkes af andre spørgsmål"
+ },
+ {
+  "id": "12:10",
+  "q": "Hvor syntetiseres FGF23?",
+  "reason": "Detalje om syntesested"
+ },
+ {
+  "id": "12:18",
+  "q": "Hvor mange incidente patienter og CKD 4-5 har kalcifikationer?",
+  "reason": "Tal fra enkelt undersøgelse; dækket af 12:17"
+ },
+ {
+  "id": "12:20",
+  "q": "Hvilke andre kalcifikationsinhibitorer nævnes?",
+  "reason": "Detalje om mindre kalcifikationsinhibitorer"
+ },
+ {
+  "id": "12:24",
+  "q": "Hvad øger risikoen for lavt knogle-turnover?",
+  "reason": "Dækket af 12:22 og 12:23"
+ },
+ {
+  "id": "12:25",
+  "q": "Hvor mange gange højere er frakturrisikoen hos dialysepatienter?",
+  "reason": "Procenttal fra undersøgelser"
+ },
+ {
+  "id": "12:26",
+  "q": "Hvad ses hos børn med CKD-MBD?",
+  "reason": "Lav værdi; svarmuligheder uden pointe"
+ },
+ {
+  "id": "12:28",
+  "q": "Hvor høj er mortaliteten ved kalcifylaksi?",
+  "reason": "Tal fra undersøgelser"
+ },
+ {
+  "id": "12:31",
+  "q": "Hvor ofte måles plasma-PTH i stabile faser?",
+  "reason": "Rutinedetalje; lav læringsværdi"
+ },
+ {
+  "id": "12:36",
+  "q": "Hvad er ønsket PTH ved CKD 3-4?",
+  "reason": "Dublet i stil med 12:35; tabeltal"
+ },
+ {
+  "id": "12:37",
+  "q": "Hvilken form for calcium monitoreres?",
+  "reason": "Trivielt; ioniseret calcium nævnes i 12:33"
+ },
+ {
+  "id": "12:38",
+  "q": "Skal p-1,25(OH)2D3 rutinemæssigt måles?",
+  "reason": "Erstattet af spørgsmål om hvad der styrer D-vitaminbehandling"
+ },
+ {
+  "id": "12:39",
+  "q": "Anbefales basisk fosfatase som rutineparameter?",
+  "reason": "Ja/nej om rutineparameter; lav værdi"
+ },
+ {
+  "id": "12:40",
+  "q": "Anbefales rutinemæssig billeddiagnostik ved CKD-MBD?",
+  "reason": "Ja/nej; lav værdi"
+ },
+ {
+  "id": "12:43",
+  "q": "Hvor udtages en knoglebiopsi?",
+  "reason": "Procedureddetalje"
+ },
+ {
+  "id": "12:46",
+  "q": "Hvad tilstræbes ved low bone turnover?",
+  "reason": "Dækket af forståelsesspørgsmålet om high/low turnover"
+ },
+ {
+  "id": "12:48",
+  "q": "Hvornår opstår hyperfosfatæmi trods diæt?",
+  "reason": "Dublet af 12:14"
+ },
+ {
+  "id": "12:51",
+  "q": "Hvilke er calciumfri fosfatbindere?",
+  "reason": "Dublet af 12:50"
+ },
+ {
+  "id": "12:55",
+  "q": "Hvor dannes calcifediol (25(OH)D)?",
+  "reason": "Detalje om dannelsessted"
+ },
+ {
+  "id": "12:56",
+  "q": "Hvad er nativ vitamin D?",
+  "reason": "Præparat-/navneoplisning uden klinisk pointe"
+ },
+ {
+  "id": "12:57",
+  "q": "Hvilke aktive D-analoger nævnes?",
+  "reason": "Præparatnavne uden klinisk pointe"
+ },
+ {
+  "id": "12:62",
+  "q": "Hvilke calcimimetica nævnes?",
+  "reason": "Præparatnavne uden klinisk pointe"
+ },
+ {
+  "id": "12:65",
+  "q": "Hvilken form er hyppigst anvendt?",
+  "reason": "Uklart formuleret (mangler emne); detalje"
+ },
+ {
+  "id": "12:68",
+  "q": "Hvor ofte bestemmes calcium postoperativt?",
+  "reason": "Dækket af 12:69"
+ },
+ {
+  "id": "12:70",
+  "q": "Er traditionelle antiosteoporotiske lægemidler veldokumenterede ved CKD?",
+  "reason": "Erstattet af forståelsesspørgsmål om antiosteoporotika"
+ },
+ {
+  "id": "13:5",
+  "q": "Hvor mange gange højere er forekomsten af CKD blandt patienter med hypertension?",
+  "reason": "Retning let at forveksle; tal uden klinisk anvendelse"
+ },
+ {
+  "id": "13:10",
+  "q": "Hvad forstås ved pulstryk?",
+  "reason": "Dækket af 13:11"
+ },
+ {
+  "id": "13:16",
+  "q": "Hvor mange med hypertension har white coat-hypertension?",
+  "reason": "Procent fra undersøgelse"
+ },
+ {
+  "id": "13:33",
+  "q": "Hvad er mulige årsager til behandlingsresistent hypertension?",
+  "reason": "Erstattet af 13:34 (case om medicin og resistent hypertension)"
+ },
+ {
+  "id": "13:37",
+  "q": "Hvem ses hypotension oftest hos?",
+  "reason": "Trivielt; lav læringsværdi"
+ },
+ {
+  "id": "13:38",
+  "q": "Hvad kan hypotension udløses af?",
+  "reason": "Opremsning; lav klinisk pointe"
+ },
+ {
+  "id": "13:44",
+  "q": "Hvad svarer det til?",
+  "reason": "Indarbejdet i forklaringen til 13:43"
+ },
+ {
+  "id": "13:48",
+  "q": "Er der dokumentation for særlig fordel ved ACEi hos nyretransplanterede?",
+  "reason": "Ja/nej; dokumentation mangler, lav værdi"
+ },
+ {
+  "id": "13:52",
+  "q": "Hvad var den tidligere betegnelse for hypertensive emergency?",
+  "reason": "Historisk betegnelse"
+ },
+ {
+  "id": "13:56",
+  "q": "Hvilke præparater kan bruges ved akut svær hypertension?",
+  "reason": "Præparatnavne uden klinisk pointe"
+ },
+ {
+  "id": "14:0",
+  "q": "Hvilket år beskrev Richard Bright forestillingen om renal oprindelse til kardiovaskulær sygdom?",
+  "reason": "Historisk årstal"
+ },
+ {
+  "id": "14:1",
+  "q": "Hvad observerede Bright ved obduktioner?",
+  "reason": "Historisk detalje"
+ },
+ {
+  "id": "14:3",
+  "q": "Hvor mange dialysepatienter startede behandling i Danmark i 2016-2020?",
+  "reason": "Antal patienter i enkelt register"
+ },
+ {
+  "id": "14:4",
+  "q": "Hvor mange af dem havde tidligere AMI?",
+  "reason": "Procent fra enkelt register"
+ },
+ {
+  "id": "14:5",
+  "q": "Hvor mange havde en hjertesvigtsdiagnose?",
+  "reason": "Procent fra enkelt register"
+ },
+ {
+  "id": "14:6",
+  "q": "Hvor mange havde cerebrovaskulær sygdom?",
+  "reason": "Procent fra enkelt register"
+ },
+ {
+  "id": "14:11",
+  "q": "Hvor stor en andel dør af infektion?",
+  "reason": "Tal fra figur/register (dødsårsagsfordeling)"
+ },
+ {
+  "id": "14:12",
+  "q": "Hvor mange dør af pludselig hjertedød?",
+  "reason": "Tal fra figur/register (dødsårsagsfordeling)"
+ },
+ {
+  "id": "14:13",
+  "q": "Hvor mange dør efter ophør med dialyse?",
+  "reason": "Tal fra figur/register (dødsårsagsfordeling)"
+ },
+ {
+  "id": "14:14",
+  "q": "Hvor mange dør af malignitet?",
+  "reason": "Tal fra figur/register (dødsårsagsfordeling)"
+ },
+ {
+  "id": "14:17",
+  "q": "Hvad er forkalkning i tunica media?",
+  "reason": "Dublet af 14:39 (medial kalcifikation); akavet formulering"
+ },
+ {
+  "id": "14:19",
+  "q": "Hvad består plaques af?",
+  "reason": "Detalje om plaquesammensætning"
+ },
+ {
+  "id": "14:27",
+  "q": "Hvor mange af patienter med GFR 25-50 har venstre ventrikelhypertrofi?",
+  "reason": "Procent fra observationelle studier; erstattet af spørgsmål om tidlig LVH"
+ },
+ {
+  "id": "14:28",
+  "q": "Hvor mange har det ved dialysestart op til?",
+  "reason": "Procent fra observationelle studier; erstattet af spørgsmål om tidlig LVH"
+ },
+ {
+  "id": "14:29",
+  "q": "Hvor mange har dilatation af venstre ventrikel og systolisk dysfunktion ved dialysestart?",
+  "reason": "Procenter fra observationelle studier"
+ },
+ {
+  "id": "14:34",
+  "q": "Hvor mange kronisk dialysepatienter har klapkalcifikationer og sklerosering?",
+  "reason": "Procent fra undersøgelse"
+ },
+ {
+  "id": "14:36",
+  "q": "Hvad har dyreeksperimenter vist om kortvarig uræmi?",
+  "reason": "Dyreeksperiment; lav klinisk værdi"
+ },
+ {
+  "id": "14:37",
+  "q": "Hvad øger uræmi plasmakoncentrationen af?",
+  "reason": "Detalje"
+ },
+ {
+  "id": "14:41",
+  "q": "Hvor mange CKD-patienter har diabetes?",
+  "reason": "Procent fra undersøgelser"
+ },
+ {
+  "id": "14:47",
+  "q": "Hvad bør personer i dialyse opfordres til?",
+  "reason": "Trivielt/akavet; svarmuligheder uden pointe"
+ },
+ {
+  "id": "14:49",
+  "q": "Hvad er hyperfosfatæmi og hyperparathyroidisme associeret med?",
+  "reason": "Dækket af kap. 12; lav værdi"
+ },
+ {
+  "id": "14:50",
+  "q": "Hvad har antioxidanter vist hos nyreraske med høj CVD-risiko?",
+  "reason": "Negativt studiefund uden klinisk pointe"
+ },
+ {
+  "id": "14:51",
+  "q": "Hvilke inflammationsmarkører er forhøjede og prædikterer CV-hændelser?",
+  "reason": "Detalje om markører"
+ },
+ {
+  "id": "14:52",
+  "q": "Hvad stimulerer angiotensin II dannelsen af?",
+  "reason": "Biokemisk detalje uden klinisk pointe"
+ },
+ {
+  "id": "14:56",
+  "q": "Hvad er p-noradrenalin associeret med hos dialysepatienter?",
+  "reason": "Detalje om p-noradrenalin; erstattet af spørgsmål om sympatikusaktivering"
+ },
+ {
+  "id": "14:57",
+  "q": "Hvad er BT-mål ved forebyggelse af HKS ved dialyse?",
+  "reason": "Kilden modsiger sig selv: faktaboks 14.1 angiver BT < 130/80 i dialyse, mens kap. 13 angiver individuelt mål"
+ },
+ {
+  "id": "14:60",
+  "q": "Hvad er Hb-mål?",
+  "reason": "Kilden modsiger sig selv: Hb 6,2-7,5 i faktaboks 14.1 mod 6,2-7,1 i kap. 11"
+ },
+ {
+  "id": "14:61",
+  "q": "Hvad er PTH-mål ifølge faktaboks 14.1?",
+  "reason": "Kilden modsiger sig selv: PTH 16-32 pmol/l i faktaboks 14.1 mod 13,8-62,1 (2-9 gange øvre normalgrænse) i kap. 12"
+ },
+ {
+  "id": "15:1",
+  "q": "Hvad er energibehovet hos raske ved stillesiddende arbejde?",
+  "reason": "D: gennemsnitligt energibehov hos raske, uden klinisk pointe"
+ },
+ {
+  "id": "15:3",
+  "q": "Hvad anbefaler NNR hos raske mht. protein?",
+  "reason": "D: NNR-anbefaling til raske, uden klinisk pointe"
+ },
+ {
+  "id": "15:10",
+  "q": "Hvor mange gram aminosyrer tabes pr. dag ved PD?",
+  "reason": "D: enkelttal for aminosyretab ved PD; erstattet af forståelsesspørgsmål"
+ },
+ {
+  "id": "15:15",
+  "q": "Hvad er prævalensen af PEW ved CKD 3-5?",
+  "reason": "D: prævalenstal fra studier"
+ },
+ {
+  "id": "15:16",
+  "q": "Hvad er prævalensen af PEW ved kronisk HD?",
+  "reason": "D: prævalenstal fra studier"
+ },
+ {
+  "id": "15:17",
+  "q": "Hvad viste et dansk studie af dialysepatienter?",
+  "reason": "D: enkeltstudie"
+ },
+ {
+  "id": "15:23",
+  "q": "Hvad er normalvægt hos raske under 65 år?",
+  "reason": "D: BMI-grænser hos raske"
+ },
+ {
+  "id": "15:25",
+  "q": "Hvilken BMI anbefales hos raske over 65 år?",
+  "reason": "D: BMI-anbefaling hos raske over 65"
+ },
+ {
+  "id": "15:26",
+  "q": "Hvad er let utilsigtet vægttab?",
+  "reason": "dublet af 15:27/15:28 (vægttabsklasser)"
+ },
+ {
+  "id": "15:31",
+  "q": "Hvad er forbundet med fald i p-albumin på 25 % hos dialysepatienter?",
+  "reason": "D: enkeltstudie (syvdoblet dødelighed)"
+ },
+ {
+  "id": "15:43",
+  "q": "Hvornår kan IDPN anbefales?",
+  "reason": "D: IDPN-indikation, præcise tal"
+ },
+ {
+  "id": "15:44",
+  "q": "Hvad bør IDPN højst være pr. dialyse?",
+  "reason": "D: IDPN-doser"
+ },
+ {
+  "id": "15:45",
+  "q": "Hvad er maksimal hastighed ved IDPN?",
+  "reason": "D: IDPN-hastighed"
+ },
+ {
+  "id": "15:47",
+  "q": "Hvilken p-triglycerid-grænse er anbefalet inden IDPN-start?",
+  "reason": "D: IDPN-triglyceridgrænse"
+ },
+ {
+  "id": "15:48",
+  "q": "Hvornår startes IDPN?",
+  "reason": "D: IDPN-tidspunkt"
+ },
+ {
+  "id": "15:49",
+  "q": "Hvad er tilstrækkeligt indtag af fosfor ifølge NNR?",
+  "reason": "D: NNR-fosforindtag"
+ },
+ {
+  "id": "15:50",
+  "q": "Hvad indtager danskerne i gennemsnit af fosfor?",
+  "reason": "D: gennemsnitligt fosforindtag"
+ },
+ {
+  "id": "15:51",
+  "q": "Hvilke fødevarer bidrager med 75 % af fosfatindtagelsen?",
+  "reason": "erstattet: tal/opremsning, erstattet af spørgsmål om tilsat fosfat"
+ },
+ {
+  "id": "15:52",
+  "q": "Hvor meget fosfat optages fra animalske fødevarer?",
+  "reason": "erstattet: absorptionsprocenter, erstattet af spørgsmål om hvilken fosfat der optages bedst"
+ },
+ {
+  "id": "15:53",
+  "q": "Hvor meget fosfat optages fra vegetabilske?",
+  "reason": "erstattet: absorptionsprocenter"
+ },
+ {
+  "id": "15:55",
+  "q": "Hvornår ses hyperfosfatæmi oftest?",
+  "reason": "D: eGFR-grænse for hyperfosfatæmi; erstattet af spørgsmål om hvornår fosfatrestriktion indledes"
+ },
+ {
+  "id": "15:56",
+  "q": "Hvad er anbefalet indtag af calcium for raske?",
+  "reason": "D: calciumindtag hos raske"
+ },
+ {
+  "id": "15:57",
+  "q": "Hvad anbefaler KDOQI af elementært calcium ved CKD 3-4?",
+  "reason": "D: KDOQI calciumtal; erstattet af forståelsesspørgsmål"
+ },
+ {
+  "id": "15:58",
+  "q": "Hvad indtager danskerne i gennemsnit af kalium?",
+  "reason": "D: gennemsnitligt kaliumindtag"
+ },
+ {
+  "id": "15:59",
+  "q": "Hvilket indtag er tilstrækkeligt for raske?",
+  "reason": "D: tilstrækkeligt kaliumindtag hos raske"
+ },
+ {
+  "id": "15:60",
+  "q": "Hvad var tidligere anbefaling ved hyperkaliæmi?",
+  "reason": "forældet tidligere anbefaling"
+ },
+ {
+  "id": "15:68",
+  "q": "Hvad anbefaler de nyeste danske kostråd af bælgfrugter dagligt?",
+  "reason": "D: kostråd om bælgfrugter"
+ },
+ {
+  "id": "15:69",
+  "q": "Hvad indtager danske mænd i gennemsnit af natrium?",
+  "reason": "D: gennemsnitligt natriumindtag"
+ },
+ {
+  "id": "15:70",
+  "q": "Hvad indtager danske kvinder i gennemsnit af natrium?",
+  "reason": "D: gennemsnitligt natriumindtag"
+ },
+ {
+  "id": "15:74",
+  "q": "Hvad er de vigtigste kilder til jern i danskernes kost?",
+  "reason": "D: jernkilder med procenter"
+ },
+ {
+  "id": "15:75",
+  "q": "Hvor meget jern indeholder danskernes kost i gennemsnit?",
+  "reason": "D: gennemsnitligt jernindtag"
+ },
+ {
+  "id": "15:78",
+  "q": "Hvilke vitaminer kan proteinbegrænsning føre til lavere indtag af?",
+  "reason": "erstattet: opremsning af seks næringsstoffer, uklart rigtigt svar"
+ },
+ {
+  "id": "16:3",
+  "q": "Hvor høj er hyppigheden af hypothyreoidisme ved nyresvigt op til?",
+  "reason": "D: hyppighedstal for hypothyreoidisme"
+ },
+ {
+  "id": "16:12",
+  "q": "Hvor meget af den endogene insulin udskiller raske nyrer?",
+  "reason": "D: andel af insulin udskilt af nyrerne; erstattet af forståelsesspørgsmål"
+ },
+ {
+  "id": "16:18",
+  "q": "Hvad er et stort problem for kvinder med kronisk nyresvigt?",
+  "reason": "dublet af 16:19 og 16:20; uklart spørgsmål"
+ },
+ {
+  "id": "16:26",
+  "q": "Hvor mange mænd i dialyse har forhøjet prolaktin op til?",
+  "reason": "D: prolaktintal fra studier"
+ },
+ {
+  "id": "16:27",
+  "q": "Hvor mange kvinder i dialyse har forhøjet prolaktin?",
+  "reason": "D: prolaktintal fra studier"
+ },
+ {
+  "id": "16:31",
+  "q": "Hvilken nyrefunktion har nyredonorer efter donation?",
+  "reason": "D: donorers nyrefunktion i procent"
+ },
+ {
+  "id": "16:35",
+  "q": "Hvilket p-kreatinin definerer gruppe 2 (moderat nedsat)?",
+  "reason": "dublet af 16:34/16:36 (gruppegrænser)"
+ },
+ {
+  "id": "16:37",
+  "q": "Hvor mange udvikler præeklampsi i gruppe 2 og 3?",
+  "reason": "D: præeklampsiprocenter fra studier"
+ },
+ {
+  "id": "16:38",
+  "q": "Hvad er sandsynligheden for levende barn i gruppe 1?",
+  "reason": "D: sandsynlighed for levende barn fra studier"
+ },
+ {
+  "id": "16:41",
+  "q": "Ved hvilket BT reduceres antihypertensiva ofte?",
+  "reason": "D: detalje om BT-grænse ved dosisreduktion"
+ },
+ {
+  "id": "16:43",
+  "q": "Hvad er graviditetsraten lavest ved?",
+  "reason": "dublet af 16:44"
+ },
+ {
+  "id": "16:46",
+  "q": "Hvor høj er sandsynligheden for levende barn ved intensiveret dialyse?",
+  "reason": "D: tal fra studier"
+ },
+ {
+  "id": "16:51",
+  "q": "Hvor høj er risikoen for misdannelser hos immunosupprimerede kvinder?",
+  "reason": "D: malformationstal fra studier"
+ },
+ {
+  "id": "16:52",
+  "q": "Hvad er baggrundsbefolkningens risiko for malformationer?",
+  "reason": "D: baggrundsrisiko fra studier"
+ },
+ {
+  "id": "16:53",
+  "q": "Hvor mange gravide transplanterede har hypertension?",
+  "reason": "D: hyppighedstal fra studier"
+ },
+ {
+  "id": "16:54",
+  "q": "Hvor mange udvikler præeklampsi?",
+  "reason": "D: hyppighedstal fra studier"
+ },
+ {
+  "id": "16:55",
+  "q": "Hvad er gennemsnitlig gestationslængde hos transplanterede gravide?",
+  "reason": "D: gennemsnitlig gestationslængde fra studier"
+ },
+ {
+  "id": "16:56",
+  "q": "Hvor stor er risikoen for rejektion under normal graviditet?",
+  "reason": "D: rejektionsrisiko fra studier"
+ },
+ {
+  "id": "16:62",
+  "q": "Hvor mange procent risiko for malformationer og spontan abort ved mycophenolat?",
+  "reason": "D: procenttal for mycophenolat; indgår i forklaring"
+ },
+ {
+  "id": "16:64",
+  "q": "Hvor meget af binyrebarkhormon metaboliseres i placenta?",
+  "reason": "erstattet: tal (90 %), erstattet af forståelsesspørgsmål"
+ },
+ {
+  "id": "16:68",
+  "q": "Hvor høj er neonatal mortalitet ved RAS-hæmmere i 2.-3. trimester?",
+  "reason": "D: neonatal mortalitet fra studier"
+ },
+ {
+  "id": "17:3",
+  "q": "Hvor mange voksne danskere angav i Projekt Sexus, at et godt sexliv er vigtigt?",
+  "reason": "Tal fra enkelt befolkningsundersøgelse (Projekt Sexus)"
+ },
+ {
+  "id": "17:12",
+  "q": "Hvor mange mænd med nedsat nyrefunktion tilknyttet ambulatorier har ED?",
+  "reason": "Tal for ambulatoriepatienter; enkeltundersøgelse"
+ },
+ {
+  "id": "17:13",
+  "q": "Hvad er prævalensen af ED hos mænd under 50 år i dialyse?",
+  "reason": "Tal fra enkeltundersøgelse; erstattet af spørgsmål om aldersafhængighed"
+ },
+ {
+  "id": "17:14",
+  "q": "Hvad er prævalensen af ED hos mænd på 50 år og derover?",
+  "reason": "Tal fra enkeltundersøgelse; erstattet af spørgsmål om aldersafhængighed"
+ },
+ {
+  "id": "17:19",
+  "q": "Hvor mange kvinder i dialyse angiver SD?",
+  "reason": "Procent fra enkeltundersøgelse"
+ },
+ {
+  "id": "17:20",
+  "q": "Hvor mange kvinder i dialyse angiver at være seksuelt aktive?",
+  "reason": "Procent fra enkeltundersøgelse"
+ },
+ {
+  "id": "17:24",
+  "q": "Hvad står P for i PLISSIT?",
+  "reason": "Dublet af 28 (PLISSIT-trin)"
+ },
+ {
+  "id": "17:25",
+  "q": "Hvad står LI for?",
+  "reason": "Dublet af 29 (PLISSIT-trin)"
+ },
+ {
+  "id": "17:26",
+  "q": "Hvad står SS for?",
+  "reason": "Dublet af 30 (PLISSIT-trin)"
+ },
+ {
+  "id": "17:27",
+  "q": "Hvad står IT for?",
+  "reason": "Dublet af 31 (PLISSIT-trin)"
+ },
+ {
+  "id": "17:37",
+  "q": "Hvilket udtryk bør undgås ved samtale med mænd om ED?",
+  "reason": "Dublet af 38 (impotens/rejsningsproblem)"
+ },
+ {
+  "id": "17:43",
+  "q": "Hvad kan glidecreme anvendes til?",
+  "reason": "Overflødig detalje (glidecreme)"
+ },
+ {
+  "id": "18:6",
+  "q": "Hvilket spørgeskema er hyppigst anvendt til fysisk funktion?",
+  "reason": "Detalje: navn på spørgeskema (SF-36)"
+ },
+ {
+  "id": "18:17",
+  "q": "Hvordan er omkostninger ved et træningstilbud i forhold til dialyse?",
+  "reason": "Detalje (omkostninger uden klinisk pointe)"
+ },
+ {
+  "id": "19:2",
+  "q": "Hvilke databaser kan bruges til doseringsinformation?",
+  "reason": "Hjemmesider/databaser uden klinisk pointe"
+ },
+ {
+  "id": "19:3",
+  "q": "Hvilke doseringsprincipper bruges ved nyreinsufficiens?",
+  "reason": "Dublet af 35 (doseringsprincipper)"
+ },
+ {
+  "id": "19:19",
+  "q": "Hvilke lægemidler har Vd på 2-5 l?",
+  "reason": "Enkeltpræparat-detalje; erstattet af spørgsmål om lille Vd"
+ },
+ {
+  "id": "19:24",
+  "q": "Hvilket lægemiddel har nedsat plasmaproteinbinding og øget Vd ved nyreinsufficiens?",
+  "reason": "Enkeltpræparat-detalje (warfarin)"
+ },
+ {
+  "id": "19:27",
+  "q": "Hvilken formel gælder for T½?",
+  "reason": "Formel; erstattet af forståelsesspørgsmål om Vd og T½"
+ },
+ {
+  "id": "19:30",
+  "q": "Hvor mange halveringstider går der, før en enkelt dosis er næsten helt fjernet?",
+  "reason": "Detalje (antal halveringstider)"
+ },
+ {
+  "id": "19:33",
+  "q": "Hvad er van Rossums formel for steady state-koncentration?",
+  "reason": "Formel uden klinisk pointe"
+ },
+ {
+  "id": "19:39",
+  "q": "Hvad secernerer det proksimale tubulære system?",
+  "reason": "Opremsning/detalje (tubulær sekretion)"
+ },
+ {
+  "id": "19:41",
+  "q": "Hvad er fase I-reaktioner i leveren?",
+  "reason": "Detalje (fase I-reaktioner)"
+ },
+ {
+  "id": "19:42",
+  "q": "Hvad er fase II-reaktioner?",
+  "reason": "Detalje (fase II-reaktioner)"
+ },
+ {
+  "id": "19:49",
+  "q": "Hvad er mætningsdosis?",
+  "reason": "Formel; erstattet af spørgsmål om mætningsdosis"
+ },
+ {
+  "id": "19:50",
+  "q": "Hvilket lægemiddel skal mætningsdosis reduceres til 50-75 % ved svær nyreinsufficiens?",
+  "reason": "Erstattet af nyt spørgsmål om digoxins mætningsdosis"
+ },
+ {
+  "id": "19:51",
+  "q": "Hvad er modificeret dosis?",
+  "reason": "Formel; erstattet af case om halveret dosis"
+ },
+ {
+  "id": "19:54",
+  "q": "Hvad er Sd?",
+  "reason": "Detalje (Sd-begreb)"
+ },
+ {
+  "id": "19:80",
+  "q": "Hvilken betablokker kan anvendes uafhængigt af nyrefunktion?",
+  "reason": "Enkeltpræparat-detalje (carvedilol)"
+ },
+ {
+  "id": "19:83",
+  "q": "Hvor stor en del af apixaban/rivaroxaban udskilles renalt?",
+  "reason": "Procenttal fra enkeltpræparat"
+ },
+ {
+  "id": "19:85",
+  "q": "Hvor stor en del af dabigatran udskilles renalt?",
+  "reason": "Procenttal fra enkeltpræparat"
+ },
+ {
+  "id": "20:6",
+  "q": "Hvad er prævalensen af diabetisk nefropati hos patienter under 50 år?",
+  "reason": "detalje: prævalenstal fra opgørelse"
+ },
+ {
+  "id": "20:11",
+  "q": "Hvad er der ikke evidens for ved intensiv blodsukkerkontrol?",
+  "reason": "dublet af 20:10 (samme evidens, modsat formuleret)"
+ },
+ {
+  "id": "20:13",
+  "q": "Hvad har et dansk studie vist om HbA1c ved HD?",
+  "reason": "enkeltstudie; enheden mmol/l i kilden er åbenbart forkert"
+ },
+ {
+  "id": "20:16",
+  "q": "Hvad er glukosekoncentration i dialysat ved HD cirka?",
+  "reason": "selvmodsigelse i kilden (dialysat-glukose ca. 5 mmol/l s. 210 vs. 5-7 mmol/l s. 212); detalje"
+ },
+ {
+  "id": "20:19",
+  "q": "Hvad er CGM?",
+  "reason": "akronym-trivia; erstattet af spørgsmål om selvmåling"
+ },
+ {
+  "id": "20:22",
+  "q": "Hvor mange grupper af perorale antidiabetika nævnes?",
+  "reason": "trivia: antal grupper"
+ },
+ {
+  "id": "20:32",
+  "q": "Hvad er dapagliflozin startet ned til?",
+  "reason": "detalje: dapagliflozin-tærskel fra tabel"
+ },
+ {
+  "id": "20:44",
+  "q": "Hvilken undersøgelse bruges til udredning af DM før transplantation?",
+  "reason": "erstattet (spørgsmål om hvorfor der udredes, ikke undersøgelsesnavn)"
+ },
+ {
+  "id": "21:0",
+  "q": "Hvor ofte forekommer terminal nyresygdom hos børn (incidens)?",
+  "reason": "detalje: incidenstal"
+ },
+ {
+  "id": "21:3",
+  "q": "Hvilken størrelse bør barnet have, før transplantation?",
+  "reason": "selvmodsigelse i kilden: vægtgrænse > 10-12 kg (s. 215) vs. > 8-10 kg (kap. 22, s. 224)"
+ },
+ {
+  "id": "21:10",
+  "q": "Hvad er gastroschisis?",
+  "reason": "detalje: definition; dækket via 21:8"
+ },
+ {
+  "id": "21:11",
+  "q": "Hvad er blæreektopi?",
+  "reason": "detalje: definition; dækket via 21:8"
+ },
+ {
+  "id": "21:13",
+  "q": "Hvor foregår dialyse af børn?",
+  "reason": "lokal organisationsdetalje"
+ },
+ {
+  "id": "21:15",
+  "q": "Hvilket resultat fandt et stort amerikansk studie (1995-2005)?",
+  "reason": "enkeltstudie; erstattet"
+ },
+ {
+  "id": "21:17",
+  "q": "Hvilke katetre bruges oftest til børn?",
+  "reason": "detalje: katetertype"
+ },
+ {
+  "id": "21:22",
+  "q": "Hvad er maksimalt volumen ved APD i liggende stilling?",
+  "reason": "detalje: tal"
+ },
+ {
+  "id": "21:24",
+  "q": "Hvilken transporthastighed har de fleste børn?",
+  "reason": "dublet af 21:25"
+ },
+ {
+  "id": "21:32",
+  "q": "Hjælper suturer omkring kateteret ved lækage?",
+  "reason": "dublet af 21:31"
+ },
+ {
+  "id": "21:44",
+  "q": "Hvordan kan EPO administreres hos børn?",
+  "reason": "detalje: administrationsvej for EPO"
+ },
+ {
+  "id": "21:45",
+  "q": "Hvad er anbefalet i.v. jerndosis hos børn?",
+  "reason": "detalje: dosis"
+ },
+ {
+  "id": "21:48",
+  "q": "Hvilken temperatur opvarmes dialysatet til ved akut PD hos børn?",
+  "reason": "detalje: temperatur"
+ },
+ {
+  "id": "21:49",
+  "q": "Hvilken cyklus bruges initialt ved akut PD hos børn?",
+  "reason": "detalje: cyklustider"
+ },
+ {
+  "id": "21:50",
+  "q": "Hvor mange børn (11,5 %) opereret for medfødt hjertesygdom udviklede dialysekrævende nyresvigt i det danske studie?",
+  "reason": "enkeltstudie: tal"
+ },
+ {
+  "id": "21:51",
+  "q": "Hvad var PD-teknikoverlevelsen?",
+  "reason": "enkeltstudie: tal"
+ },
+ {
+  "id": "21:52",
+  "q": "Hvad var mortaliteten blandt børn med postoperativt nyresvigt vs. uden?",
+  "reason": "enkeltstudie: tal"
+ },
+ {
+  "id": "21:53",
+  "q": "Hvad er respirationsfrekvensen for børn under 3 mdr. (tabel 21.1)?",
+  "reason": "tabel: normalværdier"
+ },
+ {
+  "id": "21:54",
+  "q": "Hvad er normal systolisk BT for børn 3 mdr.-2 år?",
+  "reason": "tabel: normalværdier"
+ },
+ {
+  "id": "21:55",
+  "q": "Hvad er blodvolumen for børn under 3 mdr.?",
+  "reason": "tabel: normalværdier"
+ },
+ {
+  "id": "21:56",
+  "q": "Hvad er blodvolumen for børn over 12 år?",
+  "reason": "tabel: normalværdier"
+ },
+ {
+  "id": "21:57",
+  "q": "Hvad er hjertefrekvens (middel) for børn under 3 mdr.?",
+  "reason": "tabel: normalværdier"
+ },
+ {
+  "id": "22:11",
+  "q": "Hvor mange ugentlige dialyser er der behov for hos små børn med flydende kost?",
+  "reason": "dublet af 22:12"
+ },
+ {
+  "id": "22:17",
+  "q": "Hvilken legemsvægt kræves for nyretransplantation?",
+  "reason": "selvmodsigelse i kilden: vægtgrænse > 8-10 kg (s. 224) vs. > 10-12 kg (kap. 21, s. 215)"
+ },
+ {
+  "id": "22:18",
+  "q": "Hvor mange børn (Rigshospitalet 1991-2002) indgik i opgørelsen?",
+  "reason": "enkeltstudie: antal børn"
+ },
+ {
+  "id": "22:19",
+  "q": "Hvor mange havde HD-CVK som adgangsvej?",
+  "reason": "enkeltstudie: procent"
+ },
+ {
+  "id": "22:20",
+  "q": "Hvad var 5-årsdødeligheden?",
+  "reason": "enkeltstudie: procent"
+ },
+ {
+  "id": "22:21",
+  "q": "Hvad var 5-årsmortaliteten ved HD-start < 1 år i udenlandske opgørelser?",
+  "reason": "enkeltstudie: procent"
+ },
+ {
+  "id": "22:26",
+  "q": "Hvilket albuminpræparat nævnes?",
+  "reason": "detalje: albuminkoncentration"
+ },
+ {
+  "id": "22:32",
+  "q": "Hvor længe varer feberkramper?",
+  "reason": "detalje: varighed af feberkramper"
+ },
+ {
+  "id": "22:34",
+  "q": "Hvilken dosis diazepam gives i.v. ved feberkramper?",
+  "reason": "lægemiddelnavn uklart i kilden (\"apozepam\") og dosis; detalje"
+ },
+ {
+  "id": "23:1",
+  "q": "Hvad kan fjernes ved aferese?",
+  "reason": "dublet af 23:0, opremsning"
+ },
+ {
+  "id": "23:12",
+  "q": "Hvilken molekylvægt tillader membranen passage af?",
+  "reason": "enkelt tal (3.000 kDa), overflødig detalje"
+ },
+ {
+  "id": "23:21",
+  "q": "Hvor høj er forekomsten af bivirkninger ved > 50.000 procedurer?",
+  "reason": "tal fra stor gennemgang, overflødig detalje (erstattet af 23:25)"
+ },
+ {
+  "id": "23:30",
+  "q": "Hvilke sygdomme har kategori I/1A i tabel 23.3 (ASFA)?",
+  "reason": "forvirrende og afhænger af tabel 23.3 (ASFA-kategorier), som ikke kan ses"
+ },
+ {
+  "id": "24:0",
+  "q": "Hvor mange personer indlægges årligt i Danmark pga. forgiftning cirka?",
+  "reason": "statistik (antal indlagte), overflødig detalje"
+ },
+ {
+  "id": "24:1",
+  "q": "Hvor mange af de indlagte er børn, der ved uheld er forgiftet?",
+  "reason": "statistik, overflødig detalje"
+ },
+ {
+  "id": "24:2",
+  "q": "Hvad er den samlede mortalitet ved forgiftning?",
+  "reason": "statistik, overflødig detalje"
+ },
+ {
+  "id": "24:3",
+  "q": "Hvor stor en andel af forgiftningstilfælde skyldes lægemidler?",
+  "reason": "statistik, overflødig detalje"
+ },
+ {
+  "id": "24:9",
+  "q": "Hvor mange procent af salicylsyre er proteinbundet?",
+  "reason": "enkelt tal (proteinbinding 90 %), detalje"
+ },
+ {
+  "id": "24:12",
+  "q": "Hvordan opnås alkalinisering af urinen?",
+  "reason": "overflødig detalje (natriumbikarbonat dækket af 24:11)"
+ },
+ {
+  "id": "24:13",
+  "q": "Hvilken urin-pH er det teoretiske mål?",
+  "reason": "enkelt grænseværdi (urin-pH 8)"
+ },
+ {
+  "id": "24:14",
+  "q": "Hvor meget øges udskillelsen af salicylsyre ved stigning i urin-pH på 1?",
+  "reason": "enkelt tal (firedobling), detalje"
+ },
+ {
+  "id": "24:20",
+  "q": "Hvor meget skal ekstrakorporal behandling øge total clearance for at være relevant?",
+  "reason": "enkelt tal (30 % clearance), detalje"
+ },
+ {
+  "id": "24:23",
+  "q": "Hvor lang dialysetid er der oftest behov for ved forgiftninger?",
+  "reason": "enkelt tal (dialysetid), detalje"
+ },
+ {
+  "id": "24:24",
+  "q": "Hvilket dialysatflow bruges ved forgiftninger?",
+  "reason": "enkelt tal (dialysatflow), detalje"
+ },
+ {
+  "id": "24:25",
+  "q": "Hvilken calciumkoncentration kan bruges i dialysat?",
+  "reason": "enkelt tal (dialysat-calcium), detalje"
+ },
+ {
+  "id": "24:34",
+  "q": "Hvor findes fomepizol?",
+  "reason": "lokal organisationsdetalje (hvor fomepizol opbevares)"
+ },
+ {
+  "id": "24:35",
+  "q": "Hvad bruges, hvis fomepizol ikke er tilgængeligt?",
+  "reason": "erstattet af kortere formulering i 24:33 (ethanol som alternativ er dækket der)"
+ },
+ {
+  "id": "24:36",
+  "q": "Hvilken promille tilstræbes ved ethanolinfusion?",
+  "reason": "enkelt tal (promille), detalje"
+ },
+ {
+  "id": "24:39",
+  "q": "Hvad kan ethylenglykolforgiftning muligvis suppleres med?",
+  "reason": "muligt supplement uden sikker effekt, detalje (dækket i 24:38)"
+ },
+ {
+  "id": "24:44",
+  "q": "Hvad omdannes isopropylalkohol til?",
+  "reason": "overflødig detalje (dækket af 24:45)"
+ },
+ {
+  "id": "24:46",
+  "q": "Hvilken plasmakoncentration af isopropylalkohol overvejes HD ved?",
+  "reason": "enkelt grænseværdi (isopropylalkohol), ikke vigtig"
+ },
+ {
+  "id": "24:47",
+  "q": "Hvilken ethanolkoncentration er HD-indikation?",
+  "reason": "enkelt grænseværdi (ethanol), ikke vigtig"
+ },
+ {
+  "id": "24:49",
+  "q": "Hvad er Vd for lithium?",
+  "reason": "enkelt tal (Vd for lithium), samlet i 24:48"
+ },
+ {
+  "id": "24:50",
+  "q": "Binder aktivt kul lithium?",
+  "reason": "overflødig (lithium dækket af 24:48)"
+ },
+ {
+  "id": "24:52",
+  "q": "Hvornår kontrolleres lithium efter HD?",
+  "reason": "tidspunkt for kontrol, detalje"
+ },
+ {
+  "id": "24:55",
+  "q": "Hvad er letaldosis af salicylsyre hos voksne?",
+  "reason": "enkelt tal (letaldosis), detalje"
+ },
+ {
+  "id": "24:56",
+  "q": "Hvad er letaldosis hos børn < 10 kg?",
+  "reason": "enkelt tal (letaldosis børn), detalje"
+ },
+ {
+  "id": "24:58",
+  "q": "Hvilken koncentration ved kroniske forgiftninger?",
+  "reason": "enkelt grænseværdi (kronisk salicylat), samlet i 24:57"
+ },
+ {
+  "id": "24:59",
+  "q": "Hvilken koncentration hos børn?",
+  "reason": "enkelt grænseværdi (børn), samlet i 24:57"
+ },
+ {
+  "id": "24:62",
+  "q": "Hvad anbefales ved akutte metforminforgiftninger?",
+  "reason": "overlappende, aktivt kul ved akutte forgiftninger er dækket generelt"
+ },
+ {
+  "id": "24:66",
+  "q": "Hvad er mortaliteten efter amatoksinindtagelse?",
+  "reason": "enkelt tal (mortalitet), detalje"
+ },
+ {
+  "id": "24:67",
+  "q": "Hvad er letal dosis af amatoksin?",
+  "reason": "enkelt tal (letal dosis), detalje"
+ },
+ {
+  "id": "24:68",
+  "q": "Hvornår optræder symptomer ved amatoksinforgiftning oftest?",
+  "reason": "tidsangivelse, detalje (dækket af 24:70)"
+ },
+ {
+  "id": "24:69",
+  "q": "Hvornår forekommer levernekrose?",
+  "reason": "tidsangivelse, detalje (dækket i 24:68 og 24:70)"
+ },
+ {
+  "id": "24:73",
+  "q": "Hvad er Giftlinjens telefonnummer for sundhedspersonale?",
+  "reason": "telefonnummer, forældes"
+ },
+ {
+  "id": "24:74",
+  "q": "Hvad er Giftlinjens telefonnummer for offentligheden?",
+  "reason": "telefonnummer, forældes"
+ },
+ {
+  "id": "25:2",
+  "q": "Hvilke guidelines bygger udredningen på?",
+  "reason": "navne på guidelines og årstal, detalje"
+ },
+ {
+  "id": "25:3",
+  "q": "Hvor mange danske centre for nyretransplantation findes der?",
+  "reason": "antal og placering af centre, lokal organisationsdetalje"
+ },
+ {
+  "id": "25:13",
+  "q": "Hvor stor en del af grafttab skyldes patientdød?",
+  "reason": "dublet af 26:23 (patientdød som hyppigste årsag til grafttab)"
+ },
+ {
+  "id": "25:24",
+  "q": "Hvad er mortaliteten af nyredonorer?",
+  "reason": "erstattet af enkelt tal (mortalitet 0,03 %), detalje"
+ },
+ {
+  "id": "25:29",
+  "q": "Hvilket BMI er eksklusionskriterium for levende donor?",
+  "reason": "dublet af 25:28 (BMI er et af eksklusionskriterierne)"
+ },
+ {
+  "id": "25:31",
+  "q": "Hvilken scanning bruges i donorudredning?",
+  "reason": "overflødig detalje (CT i donorudredning)"
+ },
+ {
+  "id": "26:0",
+  "q": "Hvornår blev den første nyretransplantation i Danmark udført?",
+  "reason": "historisk årstal og sted, detalje"
+ },
+ {
+  "id": "26:1",
+  "q": "Hvor mange nyretransplantationer er foretaget i Danmark frem til 2023?",
+  "reason": "antal transplantationer, detalje"
+ },
+ {
+  "id": "26:2",
+  "q": "Hvor mange patienter nyretransplanteres årligt?",
+  "reason": "årligt antal patienter, detalje"
+ },
+ {
+  "id": "26:4",
+  "q": "Hvor mange får nyren fra en levende donor?",
+  "reason": "dublet af 26:3 (25 % levende donor)"
+ },
+ {
+  "id": "26:5",
+  "q": "Hvornår overhalede nyretransplantation dialyse som behandling af kronisk terminal nyreinsufficiens?",
+  "reason": "årstal, erstattet af spørgsmål om hvad der er mest udbredt"
+ },
+ {
+  "id": "26:6",
+  "q": "Hvor mange patienter levede med et fungerende nyretransplantat i 2021?",
+  "reason": "antal patienter i et bestemt år, detalje"
+ },
+ {
+  "id": "26:7",
+  "q": "Hvor mange patienter var i kronisk dialyse i 2021?",
+  "reason": "antal patienter i et bestemt år, detalje"
+ },
+ {
+  "id": "26:12",
+  "q": "Hvad er knivtiden for en gennemsnitlig nyretransplantation?",
+  "reason": "enkelt tal (knivtid), detalje"
+ },
+ {
+  "id": "26:14",
+  "q": "Hvor lang er indlæggelsestiden typisk?",
+  "reason": "enkelt tal (indlæggelsestid), detalje"
+ },
+ {
+  "id": "26:15",
+  "q": "Hvad er den mediane graftoverlevelse med afdød donor?",
+  "reason": "tal fra registerdata (13,4 år), erstattet af spørgsmål om donortype"
+ },
+ {
+  "id": "26:16",
+  "q": "Hvad er den mediane graftoverlevelse med levende donor?",
+  "reason": "tal fra registerdata (16,5 år), erstattet af spørgsmål om donortype"
+ },
+ {
+  "id": "26:17",
+  "q": "Hvor høj er frekvensen af akutte afstødningsepisoder i det første år?",
+  "reason": "procent fra undersøgelse, detalje"
+ },
+ {
+  "id": "26:19",
+  "q": "Hvor mange transplantationer har enkelte patienter modtaget op til?",
+  "reason": "enkelt tal (antal transplantationer), detalje"
+ },
+ {
+  "id": "26:22",
+  "q": "Hvor stor rensning svarer almindelig dialyse til af normal GFR?",
+  "reason": "erstattet af forståelsesspørgsmål om hvorfor graft er bedre end dialyse"
+ },
+ {
+  "id": "26:33",
+  "q": "Hvor foretages transplantation af børn under 16 år?",
+  "reason": "lokal organisationsdetalje (hvilke hospitaler)"
+ },
+ {
+  "id": "26:35",
+  "q": "Hvilke perspektiver nævnes?",
+  "reason": "vag opremsning af perspektiver, uegnet"
+ },
+ {
+  "id": "26:36",
+  "q": "Hvad forskes der i mht. grise?",
+  "reason": "forskningsperspektiv uden klinisk pointe"
+ },
+ {
+  "id": "27:2",
+  "q": "Hvad kaldes MMU i engelsksproget litteratur?",
+  "reason": "engelske betegnelser, ren oplistning (detalje)"
+ },
+ {
+  "id": "27:5",
+  "q": "Hvornår publicerede Sundhedsstyrelsen anbefalinger for palliativ indsats ved ikke-malign sygdom?",
+  "reason": "årstal for publikation"
+ },
+ {
+  "id": "27:6",
+  "q": "Hvornår udgav Dansk Nefrologisk Selskab sammen med FS Nefro et holdningspapir om MMU?",
+  "reason": "årstal for holdningspapir"
+ },
+ {
+  "id": "27:8",
+  "q": "Hvilke danske afdelinger tilbyder nu MMU til udvalgte patienter?",
+  "reason": "lokal organisationsdetalje"
+ },
+ {
+  "id": "27:9",
+  "q": "Hvor mange procent af dialysepatienterne i HD eller PD udgøres af aldersgruppen 71-80 år?",
+  "reason": "procent fra opgørelse (35,6 %)"
+ },
+ {
+  "id": "27:11",
+  "q": "Hvor mange procent af patienter i dialyse har mindst én anden sygdom ved dialysestart?",
+  "reason": "procent fra opgørelse (53 %)"
+ },
+ {
+  "id": "27:14",
+  "q": "Reducerer dialyse symptomerne fra patientens øvrige kroniske sygdomme?",
+  "reason": "ja/nej-spørgsmål, erstattet af forståelsesspørgsmål om dialysens tidsforbrug"
+ },
+ {
+  "id": "27:21",
+  "q": "Hvornår var livskvaliteten størst for MMU-patienter i et prospektivt kohortestudie?",
+  "reason": "enkeltstudie (kohortestudie)"
+ },
+ {
+  "id": "27:22",
+  "q": "Hvad var forskellen i livskvalitet ved starten i kohortestudiet?",
+  "reason": "enkeltstudie (kohortestudie)"
+ },
+ {
+  "id": "27:28",
+  "q": "Findes der et enkelt screeningsværktøj, der sikkert identificerer MMU-kandidater?",
+  "reason": "erstattet af forståelsesspørgsmål om hvorfor flere kriterier bruges"
+ },
+ {
+  "id": "27:31",
+  "q": "Hvad står CCI for?",
+  "reason": "forkortelsen CCI er samlet i spørgsmål om CCI-grænse (detalje)"
+ },
+ {
+  "id": "27:32",
+  "q": "Hvilket funktionsniveau indgår som udgangspunkt?",
+  "reason": "erstattet af case-spørgsmål med samlede kriterier"
+ },
+ {
+  "id": "27:33",
+  "q": "Hvilket p-albumin indgår som udgangspunkt?",
+  "reason": "erstattet af case-spørgsmål med samlede kriterier"
+ },
+ {
+  "id": "27:37",
+  "q": "I hvilken forbindelse kommer valget af MMU ofte?",
+  "reason": "detalje, dækket af spørgsmål om Fælles beslutningstagning"
+ },
+ {
+  "id": "27:42",
+  "q": "Hvor følges MMU-patienter?",
+  "reason": "uklar og uden klinisk pointe (opfølgningssted varierer)"
+ },
+ {
+  "id": "27:44",
+  "q": "Hvem inddrages i individuelle forløb?",
+  "reason": "uklar opremsning, lav værdi"
+ },
+ {
+  "id": "27:49",
+  "q": "Hvor lang tid kan et MMU-forløb vare?",
+  "reason": "vag varighed, gættespørgsmål"
+ },
+ {
+  "id": "27:50",
+  "q": "Hvad afhænger varigheden af MMU af?",
+  "reason": "opremsning uden klar pointe"
+ },
+ {
+  "id": "28:0",
+  "q": "Hvem definerer palliation (lindrende behandling) i bogen?",
+  "reason": "definerende kilde (detalje)"
+ },
+ {
+  "id": "28:6",
+  "q": "Fra hvilke patienter stammer litteraturen om palliation ved nyresvigt?",
+  "reason": "litteraturhenvisning, ingen klinisk pointe"
+ },
+ {
+  "id": "28:7",
+  "q": "Hvad viser en dansk undersøgelse om livskvalitet hos HD-patienter?",
+  "reason": "enkeltundersøgelse"
+ },
+ {
+  "id": "28:10",
+  "q": "Hvor ydes basal palliativ indsats?",
+  "reason": "dækket af spørgsmål om basal vs. specialiseret"
+ },
+ {
+  "id": "28:14",
+  "q": "Hvilket forbrug er højt hos disse patienter?",
+  "reason": "detalje (morfika/benzodiazepiner) samlet i symptomspørgsmålet"
+ },
+ {
+  "id": "28:16",
+  "q": "Hvilke PRO-skemaer kan anvendes?",
+  "reason": "navne på skemaer (detalje)"
+ },
+ {
+  "id": "28:18",
+  "q": "Hvad bruges skemaets svar som støtte til?",
+  "reason": "detalje, dækket af PRO-spørgsmål"
+ },
+ {
+  "id": "28:24",
+  "q": "Hvem er erfaringsmæssigt nogle af de vigtigste støttepersoner?",
+  "reason": "mindre vigtig opremsning"
+ },
+ {
+  "id": "28:26",
+  "q": "Hvor kan pårørende anbefales at søge hjælp?",
+  "reason": "opremsning af hjælpesteder, lav værdi"
+ },
+ {
+  "id": "28:30",
+  "q": "Hvor mange procent af danskere ønsker at dø på et hospital?",
+  "reason": "statistik fra undersøgelse (3 %)"
+ },
+ {
+  "id": "28:31",
+  "q": "Hvor mange døde i Danmark i 2018 (Sundhedsdatastyrelsen)?",
+  "reason": "antal døde i et bestemt år"
+ },
+ {
+  "id": "28:32",
+  "q": "Hvor mange procent døde hjemme eller på plejehjem i 2018?",
+  "reason": "statistik for dødssted et bestemt år"
+ },
+ {
+  "id": "28:33",
+  "q": "Hvor mange procent døde på hospice i 2018?",
+  "reason": "statistik for dødssted et bestemt år"
+ },
+ {
+  "id": "28:34",
+  "q": "Hvor mange procent døde på sygehus i 2018?",
+  "reason": "statistik for dødssted et bestemt år"
+ },
+ {
+  "id": "28:39",
+  "q": "Under hvilken paragraf leverer kommunen utensilier m.m. gratis?",
+  "reason": "lovparagraf (forældes)"
+ },
+ {
+  "id": "28:40",
+  "q": "Under hvilken paragraf kan pårørende søge plejevederlag?",
+  "reason": "lovparagraf; erstattet af spørgsmål om plejevederlag"
+ },
+ {
+  "id": "28:43",
+  "q": "Hvor søges terminaltilskud?",
+  "reason": "praktisk detalje (FMK-online)"
+ },
+ {
+  "id": "28:45",
+  "q": "Hvad er vigtigt at aftale ved hjemmedød?",
+  "reason": "dækket af øvrige spørgsmål om hjemmedød"
+ },
+ {
+  "id": "28:48",
+  "q": "Hvad kan morfin evt. erstattes med, hvis restlevetiden er uger?",
+  "reason": "præparatnavn uden klinisk pointe"
+ },
+ {
+  "id": "28:49",
+  "q": "Hvilken medicin nævnes til behovsmedicin i den sidste levetid?",
+  "reason": "opremsning af medicin i faktaboks"
+ },
+ {
+  "id": "28:50",
+  "q": "Hvilken styrke har morfin i faktaboks 28.4?",
+  "reason": "dosis/styrke i faktaboks"
+ },
+ {
+  "id": "28:51",
+  "q": "Hvilken styrke har midazolam i faktaboks 28.4?",
+  "reason": "dosis/styrke i faktaboks"
+ },
+ {
+  "id": "28:52",
+  "q": "Hvilken styrke har haloperidol i faktaboks 28.4?",
+  "reason": "dosis/styrke i faktaboks"
+ },
+ {
+  "id": "28:53",
+  "q": "Hvordan administreres behovsmedicinen?",
+  "reason": "dublet af spørgsmål om subkutan medicin"
+ },
+ {
+  "id": "28:55",
+  "q": "Hvad skal sendes ved henvisning til hospice?",
+  "reason": "dublet af terminalerklæring-spørgsmål"
+ },
+ {
+  "id": "28:59",
+  "q": "Hvor findes telefonnumre til de palliative vagttelefoner?",
+  "reason": "telefonnumre/hjemmeside"
+ },
+ {
+  "id": "28:60",
+  "q": "Hvad er faktaboks 28.3 et eksempel på?",
+  "reason": "afhænger af faktaboks med case"
+ },
+ {
+  "id": "28:61",
+  "q": "Hvilke symptomer havde manden i faktaboks 28.3?",
+  "reason": "afhænger af faktaboks med case"
+ },
+ {
+  "id": "29:2",
+  "q": "Under hvilken lov findes § 56-aftalen?",
+  "reason": "lovnavn/paragraf"
+ },
+ {
+  "id": "29:3",
+  "q": "Hvilken betingelse gælder for en § 56-aftale?",
+  "reason": "præcis betingelse (10 dage) forældes"
+ },
+ {
+  "id": "29:4",
+  "q": "Hvor ansøges en § 56-aftale?",
+  "reason": "mindre detalje"
+ },
+ {
+  "id": "29:6",
+  "q": "Hvornår bruges § 56-aftalen?",
+  "reason": "detalje (4 timer)"
+ },
+ {
+  "id": "29:7",
+  "q": "Hvilken ordning har selvstændige erhvervsdrivende?",
+  "reason": "lovparagraf"
+ },
+ {
+  "id": "29:8",
+  "q": "Hvor længe kan man som udgangspunkt være sygemeldt?",
+  "reason": "præcis varighed (22 uger/9 mdr.) forældes"
+ },
+ {
+  "id": "29:9",
+  "q": "Hvornår har kommunen senest pligt til at vurdere andre hjælpeforanstaltninger?",
+  "reason": "præcis frist (8 uger)"
+ },
+ {
+  "id": "29:12",
+  "q": "Kan selvstændige have fleksjob?",
+  "reason": "ja/nej, lav værdi"
+ },
+ {
+  "id": "29:17",
+  "q": "Fra hvilken alder kan førtidspension søges ved varig og betydelig nedsat arbejdsevne?",
+  "reason": "præcis aldersgrænse; erstattet af spørgsmål om hvem der kan få førtidspension"
+ },
+ {
+  "id": "29:18",
+  "q": "Hvem kan få førtidspension, hvis det er formålsløst at udvikle arbejdsevnen?",
+  "reason": "præcis aldersgrænse (18-39)"
+ },
+ {
+  "id": "29:19",
+  "q": "Hvornår kan der søges seniorpension?",
+  "reason": "præcise grænser for seniorpension forældes"
+ },
+ {
+  "id": "29:21",
+  "q": "Er kronisk nyresvigt ofte omfattet af ordningerne for kritisk sygdom?",
+  "reason": "ja/nej; erstattet af case-spørgsmål om pensionsordning"
+ },
+ {
+  "id": "29:23",
+  "q": "Hvem giver automatisk besked om kritisk sygdom?",
+  "reason": "administrativ detalje"
+ },
+ {
+  "id": "29:24",
+  "q": "Kan sum ved kritisk sygdom udbetales to gange?",
+  "reason": "detalje"
+ },
+ {
+  "id": "29:25",
+  "q": "Under hvilken paragraf dækkes merudgifter ved kronisk nyresygdom?",
+  "reason": "lovparagraf; erstattet af spørgsmål om merudgiftsydelse"
+ },
+ {
+  "id": "29:26",
+  "q": "Hvilken aldersgruppe omfatter merudgiftsydelsen?",
+  "reason": "præcis aldersgrænse (18-67)"
+ },
+ {
+  "id": "29:31",
+  "q": "Hvem kan ansøge Lægemiddelstyrelsen om tilskud til ikke-tilskudsberettiget medicin?",
+  "reason": "administrativ detalje"
+ },
+ {
+  "id": "29:34",
+  "q": "Hvor stor en del af udgiften dækkes til psykologbehandling?",
+  "reason": "præcis procent/antal konsultationer"
+ },
+ {
+  "id": "29:38",
+  "q": "Hvad skal sygehuset bevilge eller udlåne til hjemmedialyse?",
+  "reason": "detalje om udlån af møbler"
+ },
+ {
+  "id": "29:44",
+  "q": "Kan dialysepatienter rejse til udlandet på ferie?",
+  "reason": "vagt spørgsmål, lav værdi"
+ },
+ {
+  "id": "29:52",
+  "q": "Hvad er en fordel at medbringe?",
+  "reason": "detalje"
+ },
+ {
+  "id": "29:54",
+  "q": "Efter hvilke paragraffer dækkes forældres merudgifter?",
+  "reason": "lovparagraffer"
+ },
+ {
+  "id": "29:55",
+  "q": "Hvad kan forældres merudgifter fx være?",
+  "reason": "opremsning af udgiftstyper, lav værdi"
+ },
+ {
+  "id": "29:57",
+  "q": "Hvilke donorer er omfattet?",
+  "reason": "detalje"
+ },
+ {
+  "id": "29:58",
+  "q": "Hvem afholder alle udgifter for nyredonorer?",
+  "reason": "administrativ detalje"
+ },
+ {
+  "id": "29:59",
+  "q": "Hvem formidler refusionen til nyredonoren?",
+  "reason": "administrativ detalje"
+ },
+ {
+  "id": "29:61",
+  "q": "Hvilken erstatningsordning henvises til for donorer?",
+  "reason": "navn på erstatningsordning/dato"
+ },
+ {
+  "id": "29:62",
+  "q": "Hvilke hjemmesider har Nyreforeningen?",
+  "reason": "hjemmesider"
+ },
+ {
+  "id": "29:63",
+  "q": "Hvad kan nyreskole.dk bruges som?",
+  "reason": "hjemmesider"
+ },
+ {
+  "id": "29:64",
+  "q": "Hvad er hjemmesiden for Dansk Nefrologisk Selskab?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:65",
+  "q": "Hvad er hjemmesiden for Dansk Transplantationsselskab?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:66",
+  "q": "Hvad er hjemmesiden for Dansk Hypertensionsselskab?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:67",
+  "q": "Hvad er hjemmesiden for ERA-EDTA?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:68",
+  "q": "Hvad er hjemmesiden for International Society for Peritoneal Dialysis?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:69",
+  "q": "Hvad er hjemmesiden for KDIGO guidelines?",
+  "reason": "hjemmeside"
+ },
+ {
+  "id": "29:70",
+  "q": "Hvilke patientforeninger nævnes?",
+  "reason": "navne på patientforeninger"
+ }
+]

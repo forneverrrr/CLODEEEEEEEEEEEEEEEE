@@ -1,0 +1,314 @@
+[
+{
+"id": "16:0",
+"q": "Hvilke slags rettigheder har borgerne i Danmark?",
+"a": "Politiske, frihedsrettigheder og sociale",
+"w": [
+"Politiske, økonomiske og militære",
+"Juridiske, religiøse og sociale"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Borgerne har demokratiske rettigheder (politiske og frihedsrettigheder) og sociale rettigheder."
+},
+{
+"id": "16:1",
+"q": "Hvad er en politisk rettighed?",
+"a": "Retten til at stemme",
+"w": [
+"Retten til gratis læge",
+"Retten til religion"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiske rettigheder er bl.a. retten til at stemme og til at opstille som kandidat."
+},
+{
+"id": "16:2",
+"q": "Hvad er religionsfrihed?",
+"a": "Retten til selv at vælge religion",
+"w": [
+"Retten til at slippe for skat",
+"Retten til gratis kirke"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Religionsfrihed er en frihedsret: man vælger selv sin religion."
+},
+{
+"id": "16:3",
+"q": "Hvad er ytringsfrihed?",
+"a": "Retten til at sige og skrive, hvad man mener",
+"w": [
+"Retten til at stemme",
+"Retten til at mødes"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Man må sige og skrive sin mening uden først at have tilladelse fra myndighederne."
+},
+{
+"id": "16:4",
+"q": "Hvad er forsamlingsfrihed?",
+"a": "Retten til at mødes og demonstrere",
+"w": [
+"Retten til at danne foreninger",
+"Retten til at stemme"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Man må mødes, også offentligt, fx for at demonstrere, uden først at få tilladelse."
+},
+{
+"id": "16:5",
+"q": "Hvad er foreningsfrihed?",
+"a": "Retten til at danne foreninger",
+"w": [
+"Retten til at mødes",
+"Retten til at tale frit"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Man må danne foreninger med lovligt formål uden først at få tilladelse."
+},
+{
+"id": "16:n0",
+"q": "Du vil starte en idrætsforening. Hvilken frihed bruger du?",
+"a": "Foreningsfrihed",
+"w": [
+"Ytringsfrihed",
+"Religionsfrihed"
+],
+"p": 89,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Foreningsfrihed er retten til at danne foreninger med lovligt formål uden tilladelse."
+},
+{
+"id": "16:6",
+"q": "Hvad er sociale rettigheder?",
+"a": "Ret til ydelser og tilbud ved behov",
+"w": [
+"Retten til at stemme",
+"Retten til at vælge religion"
+],
+"p": 90,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx gratis lægehjælp, hvis man er syg, eller økonomisk støtte, hvis man ikke kan forsørge sig selv."
+},
+{
+"id": "16:n1",
+"q": "Du er syg og får gratis lægehjælp. Hvilken slags rettighed er det?",
+"a": "Social rettighed",
+"w": [
+"Politisk rettighed",
+"Frihedsrettighed"
+],
+"p": 90,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Gratis lægehjælp ved sygdom er et eksempel på en social rettighed."
+},
+{
+"id": "16:7",
+"q": "Hvilke pligter har borgerne bl.a.?",
+"a": "Skattepligt og værnepligt",
+"w": [
+"Stemmepligt og arbejdspligt",
+"Kirkepligt og tavshedspligt"
+],
+"p": 89,
+"lvl": "K",
+"type": "fakta",
+"why": "Skattepligt og værnepligt er de to pligter, der fremhæves."
+},
+{
+"id": "16:n2",
+"q": "Hvad er skattepligt?",
+"a": "Pligten til at betale skat",
+"w": [
+"Pligten til at stemme",
+"Pligten til at være soldat"
+],
+"p": 90,
+"lvl": "K",
+"type": "fakta",
+"why": "Man har pligt til at betale skat af sine indtægter."
+},
+{
+"id": "16:8",
+"q": "Hvad skal man betale skat af ud over løn?",
+"a": "Fx SU og renter",
+"w": [
+"Intet andet end løn",
+"Kun gaver"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "Der betales skat af mange sociale ydelser, SU, renter og aktiegevinster, ikke kun af løn."
+},
+{
+"id": "16:n3",
+"q": "Hvad er værnepligt?",
+"a": "Pligten til at forsvare landet",
+"w": [
+"Pligten til at betale skat",
+"Pligten til at stemme"
+],
+"p": 90,
+"lvl": "K",
+"type": "fakta",
+"why": "Værnepligt er pligten til at være med til at forsvare landet."
+},
+{
+"id": "16:9",
+"q": "Hvem har værnepligt i Danmark i dag?",
+"a": "Både mænd og kvinder",
+"w": [
+"Kun mænd",
+"Kun frivillige"
+],
+"p": 90,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle over 18 med dansk statsborgerskab har værnepligt. Indtil 1. juli 2025 gjaldt det kun mænd."
+},
+{
+"id": "16:10",
+"q": "Hvad hedder dagen, hvor unge testes og får en helbredsundersøgelse?",
+"a": "Forsvarets Dag",
+"w": [
+"Værnepligtens Dag",
+"Soldaterdagen"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "Alle indkaldes automatisk til Forsvarets Dag, hvor det vurderes, om de er egnede til militærtjeneste."
+},
+{
+"id": "16:11",
+"q": "Hvor mange af de unge erklæres normalt egnede til militærtjeneste?",
+"a": "Cirka halvdelen",
+"w": [
+"Næsten alle",
+"Cirka en tiendedel"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "Normalt erklæres cirka halvdelen egnede."
+},
+{
+"id": "16:n4",
+"q": "Hvornår bruges lodnummeret ved værnepligt?",
+"a": "Hvis der ikke er nok frivillige",
+"w": [
+"Ved folketingsvalg",
+"Når man betaler skat"
+],
+"p": 90,
+"lvl": "U",
+"type": "forståelse",
+"why": "Alle trækker et lodnummer på Forsvarets Dag. Det bruges kun, hvis der ikke er nok frivillige."
+},
+{
+"id": "16:n5",
+"q": "Hvilke to steder kan man vælge mellem, hvis man frivilligt aftjener værnepligt?",
+"a": "Forsvaret eller Beredskabsstyrelsen",
+"w": [
+"Politiet eller skolerne",
+"Kommunen eller regionen"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "Hvis man frivilligt aftjener sin værnepligt, kan man vælge mellem at være i Forsvaret eller i Beredskabsstyrelsen."
+},
+{
+"id": "16:13",
+"q": "Hvor længe varer værnepligten normalt i Forsvaret?",
+"a": "11 måneder",
+"w": [
+"6 måneder",
+"18 måneder"
+],
+"p": 90,
+"lvl": "K",
+"type": "fakta",
+"why": "Normalt 11 måneder i Forsvaret, men ni måneder i Beredskabsstyrelsen."
+},
+{
+"id": "16:14",
+"q": "Hvor længe varer værnepligten normalt i Beredskabsstyrelsen?",
+"a": "Ni måneder",
+"w": [
+"Fem måneder",
+"Femten måneder"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "I Beredskabsstyrelsen varer den ni måneder, to måneder kortere end i Forsvaret."
+},
+{
+"id": "16:15",
+"q": "Hvornår fik kvinder værnepligt?",
+"a": "I 2025",
+"w": [
+"I 1995",
+"I 2010"
+],
+"p": 90,
+"lvl": "U",
+"type": "fakta",
+"why": "Fra 1. juli 2025 gælder værnepligt både mænd og kvinder. Før kunne kvinder selv vælge."
+},
+{
+"id": "16:16",
+"q": "En værnepligtig vil ikke være soldat. Hvad kan han søge om?",
+"a": "Militærnægterordningen",
+"w": [
+"Fritagelse for al tjeneste",
+"Udsættelse i ti år"
+],
+"p": 90,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man kan aftjene værnepligten ved arbejde i offentlige institutioner eller nødhjælpsorganisationer i stedet."
+},
+{
+"id": "16:n6",
+"q": "Hvad er besluttet om antallet af værnepligtige soldater?",
+"a": "Der skal indkaldes flere",
+"w": [
+"Der skal indkaldes færre",
+"Antallet skal være uændret"
+],
+"p": 91,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er besluttet, at flere skal indkaldes. Antallet skal øges til 7.500, efter at det faldt fra 1970."
+},
+{
+"id": "16:22",
+"q": "Hvor højt skal antallet af værnepligtige soldater øges til?",
+"a": "7.500",
+"w": [
+"4.700",
+"12.000"
+],
+"p": 91,
+"lvl": "D",
+"type": "fakta",
+"why": "Antallet var 4.700 i 2024 og skal øges til 7.500."
+}
+]

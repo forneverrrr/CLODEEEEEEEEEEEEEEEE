@@ -1,0 +1,376 @@
+[
+{
+"id": "12:0",
+"q": "Hvem undersøger sager, hvor nogen mistænkes for noget strafbart?",
+"a": "Politiet",
+"w": [
+"Domstolene",
+"Kommunen"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiet efterforsker, afhører og indsamler beviser. Domstolene afgør bagefter, om personen skal straffes."
+},
+{
+"id": "12:1",
+"q": "Hvem afgør, om en person skal straffes?",
+"a": "Domstolene",
+"w": [
+"Politiet",
+"Regeringen"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiet undersøger sagen, men det er domstolene, der vurderer skyld og straf."
+},
+{
+"id": "12:2",
+"q": "Hvad er en af politiets opgaver?",
+"a": "Sikre ro og orden",
+"w": [
+"Lave love",
+"Dømme i retssager"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiet skal sikre ro og orden og forhindre, efterforske og opklare kriminalitet."
+},
+{
+"id": "12:n0",
+"q": "Du er udsat for en forbrydelse. Hvem kontakter du?",
+"a": "Politiet",
+"w": [
+"Kommunen",
+"Domstolen"
+],
+"p": 68,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Man kontakter politiet, hvis man bliver udsat for en forbrydelse. Man kan ringe, skrive eller møde op på en politistation."
+},
+{
+"id": "12:n1",
+"q": "Hvorfor har politiet regler for anholdelse og afhøring?",
+"a": "For at beskytte borgeren",
+"w": [
+"For at beskytte politiet",
+"For at gøre sagerne hurtigere"
+],
+"p": 68,
+"lvl": "K",
+"type": "forståelse",
+"why": "Reglerne er til for at beskytte borgeren. Fx må politiet ikke bruge vold eller true med vold under en afhøring."
+},
+{
+"id": "12:3",
+"q": "Må politiet bruge vold under en afhøring?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Politiet må hverken bruge vold eller true med vold under afhøring."
+},
+{
+"id": "12:4",
+"q": "Hvad skal politiet fortælle en anholdt?",
+"a": "Hvad han er mistænkt for",
+"w": [
+"Hvem der har anmeldt ham",
+"Hvilken straf han får"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Den anholdte har ret til at vide, hvad han eller hun er mistænkt for."
+},
+{
+"id": "12:5",
+"q": "Hvor længe kan politiet holde en anholdt, før personen skal for en dommer?",
+"a": "24 timer",
+"w": [
+"48 timer",
+"72 timer"
+],
+"p": 68,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter en anholdelse skal personen løslades eller stilles for en dommer inden for 24 timer."
+},
+{
+"id": "12:n2",
+"q": "Hvad beslutter dommeren, når en anholdt stilles for retten?",
+"a": "Om personen skal fængsles",
+"w": [
+"Om personen er skyldig",
+"Hvilken bøde der gives"
+],
+"p": 68,
+"lvl": "U",
+"type": "forståelse",
+"why": "Dommeren tager stilling til, om personen skal løslades eller fængsles, mens politiet efterforsker. Skyldsspørgsmålet afgøres senere."
+},
+{
+"id": "12:6",
+"q": "Hvad betyder det, at domstolene er uafhængige?",
+"a": "Politikere kan ikke styre deres domme",
+"w": [
+"De dømmer efter kongens ønske",
+"De arbejder for regeringen"
+],
+"p": 69,
+"lvl": "K",
+"type": "forståelse",
+"why": "Regeringen og Folketinget kan ikke bestemme, hvordan domstolene dømmer. Dommerne følger kun lovene."
+},
+{
+"id": "12:n3",
+"q": "Regeringen er utilfreds med en dom. Kan den afskedige dommeren?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 69,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Domstolene er uafhængige. Hverken regeringen eller Folketinget kan afskedige en dommer, fordi de er utilfredse med en dom."
+},
+{
+"id": "12:n4",
+"q": "Hvor gammel skal man være for at kunne blive straffet i Danmark?",
+"a": "15 år",
+"w": [
+"12 år",
+"18 år"
+],
+"p": 69,
+"lvl": "K",
+"type": "fakta",
+"why": "Børn under 15 år kan ikke straffes med bøde eller fængsel."
+},
+{
+"id": "12:7",
+"q": "Hvad kan myndighederne gøre ved en 14-årig, der har begået kriminalitet?",
+"a": "Anbringe ham uden for hjemmet",
+"w": [
+"Give ham en bøde",
+"Sende ham i fængsel"
+],
+"p": 69,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Børn under 15 år kan ikke straffes. Myndighederne kan dog anbringe dem uden for hjemmet eller pålægge dem aktiviteter."
+},
+{
+"id": "12:n5",
+"q": "Hvor afgøres de fleste straffesager først?",
+"a": "I byretten",
+"w": [
+"I landsretten",
+"I Højesteret"
+],
+"p": 69,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste sager afgøres i byretten. Der er 24 byretter fordelt over landet."
+},
+{
+"id": "12:n6",
+"q": "Hvad kan man gøre i en færdselssag i stedet for en retssag?",
+"a": "Acceptere en bøde",
+"w": [
+"Anke til Højesteret",
+"Gå til kommunen"
+],
+"p": 69,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Nogle sager, fx overtrædelser af færdselsloven, kommer ikke for en domstol, hvis den mistænkte selv accepterer en bøde."
+},
+{
+"id": "12:9",
+"q": "Hvortil kan man normalt anke en dom fra byretten?",
+"a": "Landsretten",
+"w": [
+"Højesteret",
+"Folketinget"
+],
+"p": 69,
+"lvl": "K",
+"type": "fakta",
+"why": "Er man uenig i byrettens dom, kan man normalt anke den til landsretten og få afgørelsen prøvet igen."
+},
+{
+"id": "12:12",
+"q": "Hvor ligger Vestre Landsret?",
+"a": "Viborg",
+"w": [
+"Aarhus",
+"Odense"
+],
+"p": 69,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark har to landsretter: Østre Landsret i København og Vestre Landsret i Viborg."
+},
+{
+"id": "12:13",
+"q": "Hvad hedder Danmarks øverste domstol?",
+"a": "Højesteret",
+"w": [
+"Landsretten",
+"Sø- og Handelsretten"
+],
+"p": 69,
+"lvl": "K",
+"type": "fakta",
+"why": "Højesteret er Danmarks øverste domstol. Under den ligger landsretterne og byretterne."
+},
+{
+"id": "12:15",
+"q": "Hvem har normalt adgang til retssalen under en retssag?",
+"a": "Alle borgere",
+"w": [
+"Kun pårørende",
+"Kun journalister"
+],
+"p": 69,
+"lvl": "K",
+"type": "fakta",
+"why": "Retssager er normalt åbne for offentligheden. Dog kan visse sager behandles for lukkede døre."
+},
+{
+"id": "12:16",
+"q": "Hvad er de almindelige straffe i Danmark?",
+"a": "Bøde eller fængsel",
+"w": [
+"Bøde eller dødsstraf",
+"Kun fængsel"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "De almindelige straffe er bøde og fængsel. Dødsstraf findes ikke."
+},
+{
+"id": "12:17",
+"q": "Hvad er den hårdeste straf i Danmark?",
+"a": "Fængsel på livstid",
+"w": [
+"Dødsstraf",
+"Fængsel i ti år"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Den hårdeste straf er fængsel på livstid. Der er ikke dødsstraf i Danmark."
+},
+{
+"id": "12:18",
+"q": "Findes der dødsstraf i Danmark?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Dødsstraf findes ikke. Den hårdeste straf er fængsel på livstid."
+},
+{
+"id": "12:19",
+"q": "Hvad betyder en ubetinget fængselsstraf?",
+"a": "Straffen skal afsones",
+"w": [
+"Straffen kan undgås",
+"Straffen er en bøde"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved ubetinget fængsel skal man afsone straffen i fængsel."
+},
+{
+"id": "12:20",
+"q": "Hvad betyder en betinget fængselsstraf?",
+"a": "Man undgår fængsel, hvis man opfylder krav",
+"w": [
+"Man skal straks i fængsel",
+"Man får en bøde i stedet"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Man slipper for at afsone, hvis man overholder betingelser i en periode. Man skal altså ikke direkte i fængsel."
+},
+{
+"id": "12:21",
+"q": "Hvad er en typisk betingelse for en betinget dom?",
+"a": "Ikke at begå ny kriminalitet",
+"w": [
+"At betale en bøde",
+"At flytte til en anden kommune"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Domstolene fastsætter betingelserne. Typisk må man i en periode ikke begå ny kriminalitet, eller man skal udføre ulønnet samfundstjeneste."
+},
+{
+"id": "12:22",
+"q": "Hvad viser en straffeattest?",
+"a": "Om man har været straffet",
+"w": [
+"Om man har gæld",
+"Om man har betalt skat"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "En straffeattest viser, om man har været straffet for visse forbrydelser, og hvad straffen var."
+},
+{
+"id": "12:23",
+"q": "Hvor længe står oplysninger på den private straffeattest?",
+"a": "To til fem år",
+"w": [
+"Hele livet",
+"Under et år"
+],
+"p": 70,
+"lvl": "K",
+"type": "fakta",
+"why": "Oplysningerne slettes igen efter to til fem år, afhængigt af straffen."
+},
+{
+"id": "12:24",
+"q": "Hvor kan man få sin straffeattest?",
+"a": "Hos politiet",
+"w": [
+"Hos kommunen",
+"Hos retten"
+],
+"p": 70,
+"lvl": "U",
+"type": "fakta",
+"why": "Man henvender sig til politiet for at få sin straffeattest."
+},
+{
+"id": "12:n7",
+"q": "En arbejdsgiver vil se din straffeattest. Hvad kan han gøre, hvis du ikke vil vise den?",
+"a": "Nægte at ansætte dig",
+"w": [
+"Intet",
+"Anmelde dig til politiet"
+],
+"p": 70,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Arbejdsgivere beder nogle gange om straffeattesten. I nogle tilfælde kan de nægte at ansætte folk, der ikke vil vise den."
+}
+]

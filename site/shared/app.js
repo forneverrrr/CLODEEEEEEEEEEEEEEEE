@@ -17,18 +17,23 @@ function spec(n){return (M.special||{})[n];}
 function sheetName(n){var s=spec(n);return s?s.name:M.sheetWord+" "+n;}
 function sheetShort(n){var s=spec(n);return s?s.short:String(n);}
 var ALL=[];
-SHEETS.forEach(function(sh){sh.q.forEach(function(r,i){
-  ALL.push({type:"mc",id:sh.n+":"+i,s:sh.n,q:r[0],right:r[1],wrongs:r.slice(2,r.length-1),p:r[r.length-1]});
+SHEETS.forEach(function(sh){sh.q.forEach(function(r){
+  ALL.push({type:"mc",id:r.id,s:sh.n,q:r.q,right:r.a,wrongs:r.w,p:r.p,l:r.l||"U",y:r.t||"fakta",why:r.x||""});
 });});
 var BYID={};ALL.forEach(function(x){BYID[x.id]=x;});
-function sheetItems(n){return ALL.filter(function(x){return x.s===n;});}
+/* fremgang for spørgsmål der er slettet i en revision beholdes i lageret, men tælles ikke med (s.o = forældreløs) */
+Object.keys(bs.stat).forEach(function(id){var s=bs.stat[id];if(!BYID[id]){if(!s.o){s.o=1;}}else if(s.o){delete s.o;}});
+NS.save();
+function sheetItems(n,withD){return ALL.filter(function(x){return x.s===n&&(withD||x.l!=="D");});}
+function coreItems(){return ALL.filter(function(x){return x.l!=="D";});}
 function srcOf(it){return it.src||(it.s?sheetName(it.s)+" · s. "+it.p:t("tlShort")+" · s. "+it.p);}
 function gcl(n){for(var i=0;i<M.groups.length;i++){if(M.groups[i].sheets.indexOf(n)>=0)return i+1;}return 1;}
 function mastered(){var n=0;ALL.forEach(function(x){var s=bs.stat[x.id];if(s&&s.l===1)n++;});return n;}
+function setKey(st){return st.kind==="official"?st.name:st.name+"#"+(M.setsVer||"1");}
 function wrongItems(){return ALL.filter(function(x){var s=bs.stat[x.id];return s&&s.l===0;});}
 function dueItems(){return NS.dueIds(SLUG).map(function(id){return BYID[id];}).filter(Boolean);}
 function icon(gi){var g=M.groups[gi];return '<svg class="gi" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+M.icons[g.icon]+'</svg>';}
-function numItems(){return ALL.filter(function(x){return /\d/.test(x.right)&&x.right.length<60;});}
+function numItems(){return coreItems().filter(function(x){return /\d/.test(x.right)&&x.right.length<60;});}
 
 /* ---------- tidslinje-opgaver ---------- */
 function distinctYears(n,gap){
@@ -126,6 +131,8 @@ function renderQuiz(){
       h+='<div class="fb '+(ok?'ok':'bad')+'" role="status">'+(ok?'<b>'+t("right")+'</b>':'<b>'+t("wrong")+'</b> '+t("rightAnswer")+': '+esc(it.right))+'</div>';
       if(it.dates)h+='<div class="fb">'+it.dates.map(function(d){return esc(d[1])+' – '+esc(d[2]);}).join('<br>')+'</div>';
     }else h+='<div class="fb '+(ok?'ok':'bad')+'" role="status">'+(ok?'<b>'+t("right")+'</b>':'<b>'+t("wrong")+'</b> '+t("orderHint"))+'</div>';
+    if(it.why)h+='<div class="fb why"><b>'+t("why")+'</b> '+esc(it.why)+'</div>';
+    if(it.note)h+='<div class="fb">'+esc(it.note)+'</div>';
     if(Q.uns[Q.i]||!ok)h+='<div class="fb warn">'+t("willReturn")+'</div>';
   }
   h+='</div><div class="nav">';
@@ -238,7 +245,7 @@ function finish(){
     wrong.forEach(function(w){
       var it=w.it,a=Q.ans[w.k];
       h+='<div class="revi"><div><b>'+esc(it.q)+'</b></div>';
-      if(it.type==="mc")h+='<div class="a">'+t("youAnswered")+': '+esc(givenText(it,a))+'<br>'+t("rightAnswer")+': <b>'+esc(it.right)+'</b></div><div class="src">'+esc(srcOf(it))+'</div>';
+      if(it.type==="mc")h+='<div class="a">'+t("youAnswered")+': '+esc(givenText(it,a))+'<br>'+t("rightAnswer")+': <b>'+esc(it.right)+'</b></div>'+(it.why?'<div class="a">'+esc(it.why)+'</div>':'')+(it.note?'<div class="a">'+esc(it.note)+'</div>':'')+'<div class="src">'+esc(srcOf(it))+'</div>';
       else h+='<div class="a">'+t("rightOrder")+':<br><b>'+it.events.map(function(e,j){return (j+1)+'. '+esc(e[2])+' ('+esc(e[1])+')';}).join('<br>')+'</b></div>';
       h+='</div>';
     });
@@ -276,7 +283,7 @@ function mapHtml(){
 function setsHtml(){
   var h='<section class="sec"><div class="sethead"><h1>'+t("sets")+'</h1><p>'+t("setsIntro",M.setCount||12)+'</p></div><div class="tiles">';
   B.sets.forEach(function(st,k){
-    var b=bs.sets[st.name];
+    var b=bs.sets[setKey(st)];
     h+='<div class="tile"><div class="top"><span class="no">'+(st.kind==="official"?'OFF':String(k+(B.sets[0].kind==="official"?0:1)).padStart(2,"0"))+'</span><span class="tt">'+esc(st.name)+'</span></div><div class="bar"><i style="width:'+(b||0)+'%"></i></div><div class="meta"><span>'+st.items.length+' '+t("questions")+'</span><span>'+(b===undefined?t("notTried"):t("best",b))+'</span></div><div class="acts"><button class="chip" data-set="'+k+'" data-x="1">'+t("asExam")+'</button><button class="chip" data-set="'+k+'" data-x="0">'+t("practice")+'</button></div></div>';
   });
   return h+'</div></section>';
@@ -341,13 +348,13 @@ function home(){
     var wb=document.getElementById("m-wr");if(!wb.disabled)wb.onclick=function(){startQuiz({title:t("myErrors"),items:shuffle(wrongItems()),rerun:home});};
     Array.prototype.forEach.call(document.querySelectorAll(".seg"),function(b){b.onclick=function(){
       var n=+b.getAttribute("data-ch");
-      startQuiz({title:sheetName(n),items:sheetItems(n),rerun:function(){b.onclick();}});
+      showIntro(n,function(){startQuiz({title:sheetName(n),items:sheetItems(n,bs.bset.d==="1"),rerun:function(){b.onclick();}});});
     };});
   }
   if(vw==="tid"){var g=document.getElementById("go");if(g)g.onclick=runDates;}
   if(vw==="prover")Array.prototype.forEach.call(document.querySelectorAll("[data-set]"),function(b){b.onclick=function(){
     var st=B.sets[+b.getAttribute("data-set")],ex=b.getAttribute("data-x")==="1";
-    startQuiz({title:st.name+(ex?"":" · "+t("practiceShort")),items:st.items.map(function(x){return Object.assign({type:"mc"},x);}),exam:ex,setName:st.name,rerun:function(){b.onclick();}});
+    startQuiz({title:st.name+(ex?"":" · "+t("practiceShort")),items:st.items.map(function(x){return Object.assign({type:"mc"},x);}),exam:ex,setName:setKey(st),rerun:function(){b.onclick();}});
   };});
   if(vw==="emner")bindBuilder();
 }
@@ -365,11 +372,11 @@ function builderHtml(){
   });
   var b=bs.bset;
   function pk(name,opts,cur){return '<div class="row"><span class="lbl">'+t("lbl_"+name)+'</span><div class="picker" data-p="'+name+'">'+opts.map(function(o){return '<button class="chip" data-v="'+o[0]+'" aria-pressed="'+(String(cur)===String(o[0])?'true':'false')+'">'+o[1]+'</button>';}).join("")+'</div></div>';}
-  h+='<div class="settings">'+pk("order",[["seq",t("inBook")],["shuf",t("mixed")]],b.order)+pk("n",[[10,"10"],[25,"25"],[50,"50"],[100,"100"],[0,t("allSelected")]],b.n)+pk("mode",[["practice",t("modePractice")],["exam",t("modeExam")]],b.mode)+'</div>';
+  h+='<div class="settings">'+pk("d",[["0",t("dOff")],["1",t("dOn")]],String(b.d||"0"))+pk("order",[["seq",t("inBook")],["shuf",t("mixed")]],b.order)+pk("n",[[10,"10"],[25,"25"],[50,"50"],[100,"100"],[0,t("allSelected")]],b.n)+pk("mode",[["practice",t("modePractice")],["exam",t("modeExam")]],b.mode)+'</div>';
   h+='</section><div class="startbar"><span id="sum" class="mono"></span><button class="btn red" id="go-sel">'+t("start")+'</button></div>';
   return h;
 }
-function selCount(){var c=0;bs.sel.forEach(function(n){c+=sheetItems(n).length;});return c;}
+function selCount(){var c=0,d=bs.bset.d==="1";bs.sel.forEach(function(n){c+=sheetItems(n,d).length;});return c;}
 function updSum(){
   var c=selCount(),n=bs.bset.n,use=n&&n<c?n:c,sm=document.getElementById("sum"),g=document.getElementById("go-sel");
   if(!sm)return;
@@ -393,7 +400,7 @@ function bindBuilder(){
   Array.prototype.forEach.call(document.querySelectorAll(".picker[data-p]"),function(p){
     var key=p.getAttribute("data-p");
     Array.prototype.forEach.call(p.querySelectorAll(".chip"),function(b){b.onclick=function(){
-      var v=b.getAttribute("data-v");bs.bset[key]=key==="n"?+v:v;
+      var v=b.getAttribute("data-v");bs.bset[key]=key==="n"?+v:v;if(key==="d"){var sm0=document.getElementById("sum");}
       Array.prototype.forEach.call(p.querySelectorAll(".chip"),function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});
       save();updSum();
     };});
@@ -404,16 +411,28 @@ function bindBuilder(){
 function startSel(){
   if(!bs.sel.length)return;
   var nums=bs.sel.slice().sort(function(a,b){return a-b;}),items=[];
-  nums.forEach(function(n){items=items.concat(sheetItems(n));});
+  var wd=bs.bset.d==="1";nums.forEach(function(n){items=items.concat(sheetItems(n,wd));});
   var b=bs.bset;
   if(b.order==="shuf")items=shuffle(items);
   if(b.n&&b.n<items.length)items=items.slice(0,b.n);
   var ex=b.mode==="exam";
-  startQuiz({title:nums.length===1?sheetName(nums[0]):t("ownTopics",nums.length),items:items,exam:ex,seconds:Math.max(60,items.length*72),rerun:startSel});
+  var go3=function(){startQuiz({title:nums.length===1?sheetName(nums[0]):t("ownTopics",nums.length),items:items,exam:ex,seconds:Math.max(60,items.length*72),rerun:startSel});};
+  if(nums.length===1&&!ex)showIntro(nums[0],go3);else go3();
+}
+function showIntro(n,go){
+  var sh=sheetBy(n);
+  if(!sh||(!(sh.goals&&sh.goals.length)&&!(sh.keys&&sh.keys.length))){go();return;}
+  var h='<div class="qtop"><button class="back" id="x">← '+t("end")+'</button><div class="qtitle">'+esc(sheetName(n))+'</div><span></span></div>';
+  h+='<section class="sec intro g'+gcl(n)+'"><h1 style="font-size:clamp(28px,6vw,40px)">'+esc(sh.title)+'</h1>';
+  if(sh.goals&&sh.goals.length)h+='<h2>'+t("goals")+'</h2><ul class="lst">'+sh.goals.map(function(g){return '<li>'+esc(g)+'</li>';}).join("")+'</ul>';
+  if(sh.keys&&sh.keys.length)h+='<h2>'+t("keypoints")+'</h2><ul class="lst">'+sh.keys.map(function(g){return '<li>'+esc(g)+'</li>';}).join("")+'</ul>';
+  h+='<p class="mapnote">'+t("introNote")+'</p><div class="row"><button class="btn red" id="gq">'+t("startQ")+'</button></div></section>';
+  main.innerHTML=h;window.scrollTo(0,0);
+  document.getElementById("x").onclick=home;document.getElementById("gq").onclick=go;
 }
 function runExam(){
   var skip=M.noExam||[],pool=shuffle(SHEETS.map(function(s){return s.n;}).filter(function(n){return skip.indexOf(n)<0;})),pick=[];
-  pool.slice(0,25).forEach(function(n){pick.push(shuffle(sheetItems(n))[0]);});
+  pool.slice(0,25).forEach(function(n){var its=sheetItems(n),k=its.filter(function(x){return x.l==="K";});pick.push(shuffle(k.length?k:its)[0]);});
   startQuiz({title:t("examShort"),items:shuffle(pick),exam:true,rerun:runExam});
 }
 function runShuffle(){

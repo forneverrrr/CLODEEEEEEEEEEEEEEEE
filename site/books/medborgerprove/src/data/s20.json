@@ -1,0 +1,781 @@
+[
+{
+"id": "20:4",
+"q": "Hvilken periode kaldes vikingetiden?",
+"a": "Ca. 750-1050",
+"w": [
+"Ca. 300-550",
+"Ca. 1050-1500"
+],
+"p": 108,
+"lvl": "K",
+"type": "fakta",
+"why": "Vikingetiden er navngivet efter vikingerne, krigere fra Skandinavien. Perioden efter, ca. 1050-1500, kaldes middelalderen."
+},
+{
+"id": "20:5",
+"q": "Hvad hed vikingernes religion?",
+"a": "Asatro",
+"w": [
+"Islam",
+"Jødedom"
+],
+"p": 108,
+"lvl": "U",
+"type": "fakta",
+"why": "Asatro er troen på aserne, der var guder. Kristendommen kom først under Harald Blåtand."
+},
+{
+"id": "20:9",
+"q": "Hvilken konge rejste runestenen i Jelling?",
+"a": "Harald Blåtand",
+"w": [
+"Svend Tveskæg",
+"Christian 4."
+],
+"p": 108,
+"lvl": "K",
+"type": "fakta",
+"why": "På stenen står, at Harald Blåtand samlede Danmark til ét rige. Svend Tveskæg erobrede England, og Christian 4. levede langt senere."
+},
+{
+"id": "20:11",
+"q": "Hvad kaldes Jellingestenen?",
+"a": "Danmarks dåbsattest",
+"w": [
+"Danmarks grundlov",
+"Danmarks pas"
+],
+"p": 108,
+"lvl": "K",
+"type": "fakta",
+"why": "Stenen kaldes dåbsattest, fordi der står, at Harald Blåtand gjorde danskerne kristne."
+},
+{
+"id": "20:n0",
+"q": "Hvad gjorde Harald Blåtand ved danskerne, ifølge Jellingestenen?",
+"a": "Gjorde dem kristne",
+"w": [
+"Gjorde dem til vikinger",
+"Gjorde dem til bønder"
+],
+"p": 108,
+"lvl": "K",
+"type": "fakta",
+"why": "Harald Blåtand blev døbt omkring 965. Kristendommen kom til Danmark under ham, og det står på Jellingestenen."
+},
+{
+"id": "20:16",
+"q": "Hvem var den mest betydningsfulde danske konge i England?",
+"a": "Knud den Store",
+"w": [
+"Svend Tveskæg",
+"Harald Blåtand"
+],
+"p": 109,
+"lvl": "U",
+"type": "fakta",
+"why": "Knud den Store regerede England 1018-1035. Svend Tveskæg erobrede England i 1013."
+},
+{
+"id": "20:n1",
+"q": "Hvilket land erobrede kong Svend Tveskæg i 1013?",
+"a": "England",
+"w": [
+"Norge",
+"Irland"
+],
+"p": 109,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter erobringen var England regeret af danske konger i cirka 30 år. Vikingerne sejlede også til Irland, Frankrig og Rusland på togter."
+},
+{
+"id": "20:n2",
+"q": "Hvorfor kunne vikingernes skibe sejle direkte op på stranden?",
+"a": "De havde flad bund",
+"w": [
+"De havde hjul",
+"De var meget små"
+],
+"p": 109,
+"lvl": "U",
+"type": "forståelse",
+"why": "Skibene var hurtige med sejl og årer. Den flade bund gjorde, at de kunne sejle direkte op på stranden."
+},
+{
+"id": "20:n3",
+"q": "Hvorfor var stormændene utilfredse i vikingetiden?",
+"a": "Kongen fik mere magt",
+"w": [
+"Kongen fik mindre magt",
+"Der kom pest"
+],
+"p": 109,
+"lvl": "U",
+"type": "forståelse",
+"why": "Kongen fik mere og mere magt, så der var tit konflikter mellem ham og stormændene. I 1086 slog de kong Knud den Hellige ihjel."
+},
+{
+"id": "20:21",
+"q": "Hvilken periode kaldes middelalderen?",
+"a": "Ca. 1050-1500",
+"w": [
+"Ca. 750-1050",
+"Ca. 1536-1660"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Middelalderen kom efter vikingetiden. Efter 1536 begyndte renæssancen."
+},
+{
+"id": "20:22",
+"q": "Hvilken kirke var den danske kirke en del af i middelalderen?",
+"a": "Den romersk-katolske",
+"w": [
+"Den ortodokse",
+"Den protestantiske kirke"
+],
+"p": 109,
+"lvl": "K",
+"type": "fakta",
+"why": "Efter kristendommens indførelse var kirken katolsk i 5-600 år. Først med reformationen i 1536 kom protestantismen."
+},
+{
+"id": "20:n4",
+"q": "Hvad kaldes præster og andre kirkelige personer som stand?",
+"a": "Gejstligheden",
+"w": [
+"Adelen som stand",
+"Borgerne i byerne"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Middelalderens fire stænder var gejstligheden, adelen, borgerne og bønderne."
+},
+{
+"id": "20:n5",
+"q": "Hvilken stand ejede jord og skulle yde krigstjeneste?",
+"a": "Adelen",
+"w": [
+"Gejstligheden",
+"Bønderne"
+],
+"p": 110,
+"lvl": "U",
+"type": "fakta",
+"why": "Adelen var stormænd, som ejede jord og havde pligt til at yde krigstjeneste. Borgerne var fx håndværkere og handelsfolk i byerne."
+},
+{
+"id": "20:25",
+"q": "Hvornår ramte pesten Danmark?",
+"a": "Omkring 1350",
+"w": [
+"Omkring 1150",
+"Omkring 1550"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Pesten omkring 1350 slog mange ihjel og ændrede samfundet økonomisk og socialt."
+},
+{
+"id": "20:26",
+"q": "Hvor stor en del af befolkningen døde af pest omkring 1350?",
+"a": "Cirka en tredjedel",
+"w": [
+"Cirka en tiendedel",
+"Cirka halvdelen"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Cirka en tredjedel af Danmarks befolkning døde, og det gav store økonomiske og sociale forandringer."
+},
+{
+"id": "20:n6",
+"q": "Hvorfor fik kongen mere magt efter pesten?",
+"a": "Han overtog de dødes jord",
+"w": [
+"Han fik flere soldater",
+"Kirken blev lukket ned"
+],
+"p": 110,
+"lvl": "U",
+"type": "forståelse",
+"why": "Mange døde, og kongen overtog ofte den jord, som tilhørte dem, der døde af pesten."
+},
+{
+"id": "20:27",
+"q": "Hvilket år blev Kalmarunionen indgået?",
+"a": "1397",
+"w": [
+"1297",
+"1497"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "I 1397 blev Danmark, Norge og Sverige samlet i en union. Den hedder Kalmarunionen efter den svenske by Kalmar."
+},
+{
+"id": "20:28",
+"q": "Hvilke tre lande var i Kalmarunionen?",
+"a": "Danmark, Norge og Sverige",
+"w": [
+"Danmark, Tyskland og Sverige",
+"Danmark, Island og Færøerne"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Unionen samlede de tre nordiske riger. Den varede til 1523."
+},
+{
+"id": "20:32",
+"q": "Hvornår sluttede unionen mellem Danmark og Norge?",
+"a": "1814",
+"w": [
+"1714",
+"1914"
+],
+"p": 110,
+"lvl": "U",
+"type": "fakta",
+"why": "Efter Kalmarunionen blev Danmark og Norge ved med at være i union helt frem til 1814."
+},
+{
+"id": "20:33",
+"q": "Hvornår var reformationen i Danmark?",
+"a": "1536",
+"w": [
+"1397",
+"1660"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "I 1536 brød den danske kirke med paven i Rom, og protestantismen blev indført. Det var i 1500-tallet."
+},
+{
+"id": "20:34",
+"q": "Hvad blev indført i Danmark med reformationen?",
+"a": "Protestantismen",
+"w": [
+"Katolicismen",
+"Asatro"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Reformationen betød brud med den katolske kirke og paven."
+},
+{
+"id": "20:35",
+"q": "Hvem blev kirkens overhoved efter reformationen?",
+"a": "Kongen",
+"w": [
+"Paven",
+"Biskopperne"
+],
+"p": 110,
+"lvl": "K",
+"type": "fakta",
+"why": "Kirken blev en statskirke med kongen som overhoved. Det styrkede kongens magt."
+},
+{
+"id": "20:n7",
+"q": "Hvorfor styrkede reformationen kongens magt?",
+"a": "Han overtog kirkens jord",
+"w": [
+"Paven gav ham penge",
+"Adelen mistede al sin jord"
+],
+"p": 110,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kongen overtog kirkens jord, cirka en tredjedel af landets dyrkede areal. Det gav ham mere magt, og adelen fik også mere indflydelse."
+},
+{
+"id": "20:40",
+"q": "Hvilken konge byggede Børsen, Rundetårn og Rosenborg?",
+"a": "Christian 4.",
+"w": [
+"Frederik 7.",
+"Knud den Store"
+],
+"p": 111,
+"lvl": "U",
+"type": "fakta",
+"why": "Christian 4. var konge i næsten 60 år og kendt for sin store byggelyst."
+},
+{
+"id": "20:41",
+"q": "Hvilket år tabte Danmark Skåne, Halland og Blekinge til Sverige?",
+"a": "1658",
+"w": [
+"1458",
+"1758"
+],
+"p": 111,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark var ofte i krig med Sverige og led store nederlag. Tabet i 1658 førte til en politisk krise og enevælde."
+},
+{
+"id": "20:42",
+"q": "Hvad var Danmark før 1660?",
+"a": "Et valgkongedømme",
+"w": [
+"Et demokrati",
+"En republik"
+],
+"p": 111,
+"lvl": "K",
+"type": "fakta",
+"why": "I et valgkongedømme blev kongen valgt af adelen. I 1660 blev monarkiet arveligt."
+},
+{
+"id": "20:n8",
+"q": "Hvordan får man kongemagten i et arveligt monarki?",
+"a": "Den går i arv i kongehuset",
+"w": [
+"Adelen vælger kongen",
+"Folket vælger kongen ved valg"
+],
+"p": 111,
+"lvl": "K",
+"type": "fakta",
+"why": "Fra 1660 gik kongemagten automatisk i arv, og kongens ældste søn blev konge. Før det blev kongen valgt af adelen."
+},
+{
+"id": "20:n9",
+"q": "Hvad betyder enevælde?",
+"a": "Kongen har hele magten",
+"w": [
+"Folket vælger kongen",
+"Adelen styrer landet"
+],
+"p": 111,
+"lvl": "K",
+"type": "forståelse",
+"why": "Under enevælden kunne kongen regere uafhængigt af adelen. Den varede fra 1661 til 1848."
+},
+{
+"id": "20:44",
+"q": "Hvilket år blev kongen enevældig?",
+"a": "1661",
+"w": [
+"1536",
+"1849"
+],
+"p": 111,
+"lvl": "U",
+"type": "fakta",
+"why": "Enevælden varede fra 1661 frem til 1848, hvor kongen afgav sin magt. Året 1660 var, da monarkiet blev arveligt."
+},
+{
+"id": "20:45",
+"q": "Hvilket år sluttede enevælden?",
+"a": "1848",
+"w": [
+"1788",
+"1915"
+],
+"p": 111,
+"lvl": "K",
+"type": "fakta",
+"why": "Frederik 7. gav efter for kravet om demokrati i 1848. Grundloven kom året efter, i 1849."
+},
+{
+"id": "20:46",
+"q": "Hvilket år blev stavnsbåndet afskaffet?",
+"a": "1788",
+"w": [
+"1688",
+"1849"
+],
+"p": 111,
+"lvl": "U",
+"type": "fakta",
+"why": "Afskaffelsen af stavnsbåndet var en del af landboreformerne i slutningen af 1700-tallet."
+},
+{
+"id": "20:47",
+"q": "Hvad var stavnsbåndet?",
+"a": "Bønder skulle blive hos godsejeren",
+"w": [
+"En skat til kongen hvert år",
+"En lov om skolepligt"
+],
+"p": 111,
+"lvl": "K",
+"type": "fakta",
+"why": "Stavnsbåndet tvang de fleste bønder til at arbejde for en bestemt godsejer og bo et bestemt sted."
+},
+{
+"id": "20:n10",
+"q": "En bonde må IKKE flytte fra godsejerens gård. Hvilke reformer ændrede det i 1700-tallet?",
+"a": "Landboreformerne",
+"w": [
+"Velfærdsreformerne",
+"Kommunalreformen"
+],
+"p": 111,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Landboreformerne gjorde, at bønderne selv kunne bestemme, hvor de ville bo og arbejde, og at de kunne eje jord."
+},
+{
+"id": "20:48",
+"q": "Hvilken ny gruppe opstod efter landboreformerne?",
+"a": "Selvstændige gårdmænd",
+"w": [
+"Arbejderklassen",
+"Adelen"
+],
+"p": 111,
+"lvl": "U",
+"type": "fakta",
+"why": "Bønderne kunne nu eje deres egen jord i stedet for at leje den af godsejeren. Arbejderklassen opstod først med industrialiseringen."
+},
+{
+"id": "20:49",
+"q": "Hvor flyttede mange gårde hen efter landboreformerne?",
+"a": "Ud på marken",
+"w": [
+"Ind til byerne",
+"Ned til havnen"
+],
+"p": 112,
+"lvl": "U",
+"type": "fakta",
+"why": "Før reformerne boede bønderne i landsbyer. Nu flyttede gårdene ofte ud på den mark, som bonden dyrkede, og det kan stadig ses."
+},
+{
+"id": "20:n11",
+"q": "Hvilken konge afgav sin enevældige magt i 1848?",
+"a": "Frederik 7.",
+"w": [
+"Christian 4.",
+"Knud den Store"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Frederik 7. gav efter for kravet om demokrati og blev konstitutionel konge. Det førte til grundloven i 1849."
+},
+{
+"id": "20:n12",
+"q": "Hvornår fik Danmark sin første grundlov?",
+"a": "1849",
+"w": [
+"1661",
+"1788"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmarks Riges Grundlov blev givet i 1849 og begrænsede kongens magt. Den var meget demokratisk for sin tid."
+},
+{
+"id": "20:51",
+"q": "Hvilken dato i 1849 har Danmarks Riges Grundlov?",
+"a": "5. juni",
+"w": [
+"5. maj",
+"5. april"
+],
+"p": 112,
+"lvl": "U",
+"type": "fakta",
+"why": "Grundloven er fra 5. juni 1849. Den 5. maj er derimod dagen for befrielsen i 1945."
+},
+{
+"id": "20:52",
+"q": "Hvad hed de to lovgivende forsamlinger efter 1849?",
+"a": "Folketinget og Landstinget",
+"w": [
+"Senatet og Kongerådet",
+"Landstinget og Senatet i København"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundloven gav to forsamlinger, som sammen hed Rigsdagen. Befolkningen kunne stemme om, hvem der skulle sidde der."
+},
+{
+"id": "20:53",
+"q": "Hvad kaldtes Folketinget og Landstinget tilsammen?",
+"a": "Rigsdagen",
+"w": [
+"Regeringen",
+"Statsrådet"
+],
+"p": 112,
+"lvl": "U",
+"type": "fakta",
+"why": "Grundloven gav to lovgivende forsamlinger, Folketinget og Landstinget, som sammen blev kaldt Rigsdagen. Befolkningen kunne stemme om, hvem der skulle sidde i Rigsdagen."
+},
+{
+"id": "20:54",
+"q": "Hvem kunne IKKE stemme til Rigsdagen i 1849?",
+"a": "Kvinder, fattige og unge mænd",
+"w": [
+"Alle mænd",
+"Kun bønder"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx kvinder, fattige og mænd under 30 år kunne ikke stemme. Grundloven gav altså ikke alle politisk indflydelse."
+},
+{
+"id": "20:n13",
+"q": "Fik kvinder stemmeret til Rigsdagen med grundloven af 1849?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Kvinder fik først mulighed for at stemme i 1915, da grundloven blev ændret."
+},
+{
+"id": "20:55",
+"q": "Hvilket år blev grundloven ændret, så kvinder fik stemmeret?",
+"a": "1915",
+"w": [
+"1864",
+"1945"
+],
+"p": 112,
+"lvl": "K",
+"type": "fakta",
+"why": "Grundlovsændringen i 1915 gav bl.a. kvinder, fattige og mænd under 30 år mulighed for at stemme."
+},
+{
+"id": "20:n14",
+"q": "Hvad ville grundloven gøre ved kongens magt?",
+"a": "Begrænse den",
+"w": [
+"Gøre den større",
+"Fjerne kongen helt"
+],
+"p": 112,
+"lvl": "U",
+"type": "forståelse",
+"why": "Man ønskede en demokratisk forfatning, der begrænsede kongens magt og gav befolkningen indflydelse på beslutningerne."
+},
+{
+"id": "20:56",
+"q": "Hvilket år tabte Danmark en krig til Det Tyske Forbund?",
+"a": "1864",
+"w": [
+"1814",
+"1914"
+],
+"p": 113,
+"lvl": "K",
+"type": "fakta",
+"why": "Krigen i 1864 gjorde Danmark meget mindre."
+},
+{
+"id": "20:57",
+"q": "Hvilke to hertugdømmer mistede Danmark i 1864?",
+"a": "Slesvig og Holsten",
+"w": [
+"Skåne og Halland",
+"Norge og Island"
+],
+"p": 113,
+"lvl": "K",
+"type": "fakta",
+"why": "Slesvig og Holsten havde længe været en del af det danske rige. Skåne og Halland blev tabt til Sverige i 1658."
+},
+{
+"id": "20:59",
+"q": "Hvad tjente landmænd flere penge på end på korn?",
+"a": "Smør, flæsk og æg",
+"w": [
+"Kartofler",
+"Frugt"
+],
+"p": 113,
+"lvl": "U",
+"type": "fakta",
+"why": "Mange landmænd begyndte at avle dyr i stedet for blot at dyrke korn."
+},
+{
+"id": "20:62",
+"q": "Hvilken ny befolkningsgruppe opstod, da fabrikkerne kom?",
+"a": "Arbejderklassen",
+"w": [
+"Selvstændige gårdmænd",
+"Adelen"
+],
+"p": 113,
+"lvl": "K",
+"type": "fakta",
+"why": "Fabrikkerne i byerne havde brug for meget arbejdskraft, så fattige landarbejdere flyttede til byerne."
+},
+{
+"id": "20:n15",
+"q": "Hvorfor flyttede fattige landarbejdere til byerne?",
+"a": "Fabrikkerne skulle bruge folk",
+"w": [
+"Kongen krævede det",
+"Der kom pest i landsbyerne"
+],
+"p": 113,
+"lvl": "U",
+"type": "forståelse",
+"why": "Efter 1870 gik industrialiseringen hurtigere, og de mange nye fabrikker lå normalt i byerne."
+},
+{
+"id": "20:63",
+"q": "Hvilket parti blev dannet for arbejderne i 1870'erne?",
+"a": "Socialdemokratiet",
+"w": [
+"Venstre",
+"Højre"
+],
+"p": 113,
+"lvl": "K",
+"type": "fakta",
+"why": "Socialdemokratiet var et politisk arbejderparti. Venstre blev dannet i 1870 af bønderne."
+},
+{
+"id": "20:n16",
+"q": "Hvilket parti samlede de fleste bønder sig om?",
+"a": "Venstre",
+"w": [
+"Højre",
+"Socialdemokratiet"
+],
+"p": 113,
+"lvl": "U",
+"type": "fakta",
+"why": "Bønderne samlede sig om Venstre. Godsejere og mere velstillede i byerne stemte typisk på Højre."
+},
+{
+"id": "20:65",
+"q": "Hvad blev partiet Højre til i 1915-16?",
+"a": "Det Konservative Folkeparti",
+"w": [
+"Venstre",
+"Det Radikale Venstre"
+],
+"p": 113,
+"lvl": "U",
+"type": "fakta",
+"why": "Højre blev i 1915-16 til Det Konservative Folkeparti, som stadig findes."
+},
+{
+"id": "20:68",
+"q": "Hvilken rolle havde Danmark i 1. Verdenskrig?",
+"a": "Danmark var neutralt",
+"w": [
+"Danmark kæmpede mod Tyskland",
+"Danmark blev besat"
+],
+"p": 114,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark var neutralt i 1914-1918. Først i 2. Verdenskrig blev landet besat."
+},
+{
+"id": "20:69",
+"q": "I hvilket år blev Danmark besat af Tyskland?",
+"a": "1940",
+"w": [
+"1914",
+"1943"
+],
+"p": 114,
+"lvl": "K",
+"type": "fakta",
+"why": "Tyske tropper besatte Danmark den 9. april 1940, under 2. Verdenskrig. Regeringen måtte samarbejde med besættelsesmagten."
+},
+{
+"id": "20:n17",
+"q": "Hvilket land besatte Danmark den 9. april 1940?",
+"a": "Tyskland",
+"w": [
+"England",
+"Sverige"
+],
+"p": 114,
+"lvl": "K",
+"type": "fakta",
+"why": "Tyske tropper besatte Danmark, og regeringen valgte at bøje sig og samarbejde med dem."
+},
+{
+"id": "20:70",
+"q": "Hvornår brød samarbejdet med Tyskland sammen?",
+"a": "I 1943",
+"w": [
+"I 1940",
+"I 1945"
+],
+"p": 114,
+"lvl": "K",
+"type": "fakta",
+"why": "I august 1943 afgik regeringen, og den danske hær blev opløst."
+},
+{
+"id": "20:n18",
+"q": "Hvorfor brød samarbejdet med Tyskland sammen i 1943?",
+"a": "Modstanden blev for stor",
+"w": [
+"Tyskland forlod Danmark",
+"Hæren angreb Tyskland i byerne"
+],
+"p": 114,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den folkelige modstand mod besættelsen blev efterhånden så stor, at samarbejdet brød sammen."
+},
+{
+"id": "20:72",
+"q": "Hvilket år blev Danmark befriet fra besættelsen?",
+"a": "1945",
+"w": [
+"1940",
+"1943"
+],
+"p": 114,
+"lvl": "K",
+"type": "fakta",
+"why": "Danmark blev officielt befriet den 5. maj 1945 efter fem års tysk besættelse."
+},
+{
+"id": "20:73",
+"q": "Hvem befriede Danmark officielt?",
+"a": "Britiske tropper",
+"w": [
+"Amerikanske tropper",
+"Sovjetiske tropper"
+],
+"p": 114,
+"lvl": "U",
+"type": "fakta",
+"why": "Britiske tropper befriede officielt Danmark den 5. maj 1945."
+},
+{
+"id": "20:75",
+"q": "Hvilke lande hørte til den danske konges rige for 400 år siden?",
+"a": "Bl.a. Norge og Island",
+"w": [
+"Kun Jylland og Fyn",
+"Finland og Rusland"
+],
+"p": 108,
+"lvl": "U",
+"type": "fakta",
+"why": "Riget var meget større end i dag og omfattede også dele af Tyskland og Sverige. Danmark var dengang en stormagt i Norden."
+}
+]

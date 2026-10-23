@@ -1,0 +1,859 @@
+[
+{
+"id": "16:0",
+"q": "Hvornår normaliseres de fleste hormonelle ændringer ved nyresvigt?",
+"a": "Efter vellykket nyretransplantation",
+"w": [
+"Ved starten af dialysebehandling",
+"Efter en ændring af diæten"
+],
+"p": 177,
+"lvl": "K",
+"type": "fakta",
+"why": "Hormonelle forstyrrelser udvikles tidligt og forværres med faldende nyrefunktion, men går for det meste væk efter en vellykket transplantation."
+},
+{
+"id": "16:1",
+"q": "Hvilket thyreoideahormon er ofte lavt ved nyresvigt?",
+"a": "Frit T3",
+"w": [
+"TSH",
+"Frit T4"
+],
+"p": 177,
+"lvl": "K",
+"type": "fakta",
+"why": "TSH og frit T4 er oftest normale, mens frit T3 ofte er nedsat. De fleste patienter forbliver euthyreoide."
+},
+{
+"id": "16:n0",
+"q": "Hvorfor er frit T3 lavt ved nyresvigt?",
+"a": "Nedsat perifer omdannelse af T4 til T3",
+"w": [
+"Nedsat produktion af TSH i hypofysen",
+"Øget udskillelse af T3 i urinen"
+],
+"p": 177,
+"lvl": "K",
+"type": "forståelse",
+"why": "Perifer omdannelse af T4 til T3 er nedsat, som ved non-thyreoidal sygdom. Frit T4 er normalt, og TSH er oftest normalt."
+},
+{
+"id": "16:2",
+"q": "Hvordan er TSH oftest ved nyresvigt?",
+"a": "Normalt",
+"w": [
+"Meget højt",
+"Supprimeret"
+],
+"p": 177,
+"lvl": "U",
+"type": "fakta",
+"why": "Hypofyseaksen er oftest intakt i målingerne; T3 er det hormon, der typisk afviger."
+},
+{
+"id": "16:4",
+"q": "Hvorfor kan der opstå struma ved faldende nyrefunktion?",
+"a": "Jod ophobes i skjoldbruskkirtlen",
+"w": [
+"Jod udskilles for hurtigt i urinen",
+"Calcium ophobes i skjoldbruskkirtlen"
+],
+"p": 177,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved faldende clearance akkumuleres jod i kirtlen, hvilket kan bidrage til struma og hypothyreoidisme."
+},
+{
+"id": "16:n1",
+"q": "Hvorfor er subklinisk hypothyreoidisme vigtig at finde ved nyresvigt?",
+"a": "Forbundet med højere dødelighed",
+"w": [
+"Giver altid struma og knuder",
+"Giver altid hyperkaliæmi"
+],
+"p": 177,
+"lvl": "U",
+"type": "forståelse",
+"why": "Flere studier finder højere mortalitet, og thyreoideahormon ser ud til at kunne mindske faldet i nyrefunktion."
+},
+{
+"id": "16:5",
+"q": "Hvorfor kan hypothyreose overses ved kronisk nyresvigt?",
+"a": "Symptomerne ligner nyresvigtens",
+"w": [
+"Der findes ingen blodprøve til diagnosen",
+"Hypothyreose er meget sjælden"
+],
+"p": 177,
+"lvl": "K",
+"type": "forståelse",
+"why": "Træthed, kuldskærhed, obstipation, periorbitalt ødem og tør, bleg hud ses ved begge tilstande, så diagnosen kræver blodprøver."
+},
+{
+"id": "16:6",
+"q": "Hvilken TSH-værdi stiller diagnosen hypothyreoidisme ved nyresvigt?",
+"a": "TSH over 10 mU/l",
+"w": [
+"TSH over 2 mU/l",
+"TSH over 30 mU/l"
+],
+"p": 178,
+"lvl": "K",
+"type": "fakta",
+"why": "Diagnosen kræver også lavt frit T4-indeks. TSH på 5-10 mU/l er kun marginalt forhøjet."
+},
+{
+"id": "16:7",
+"q": "En CKD-patient har TSH 7 mU/l. Hvordan tolkes det?",
+"a": "Marginalt forhøjet, diskret sygdom",
+"w": [
+"Klar og alvorlig hypothyreose",
+"Hyperthyreose med suppression"
+],
+"p": 178,
+"lvl": "K",
+"type": "anvendelse",
+"why": "TSH på 5-10 mU/l afspejler formentlig kun diskret thyreoideasygdom; diagnosen hypothyreose kræver TSH over 10 mU/l."
+},
+{
+"id": "16:8",
+"q": "Hvad understøtter forhøjede thyreoideaperoxidase-antistoffer?",
+"a": "Autoimmun hypothyreose",
+"w": [
+"Graves' sygdom (hyperthyreose)",
+"Jodmangel i kosten"
+],
+"p": 178,
+"lvl": "K",
+"type": "fakta",
+"why": "Antistofferne er udtryk for autoimmun thyreoideasygdom og understøtter diagnosen hypothyreose."
+},
+{
+"id": "16:9",
+"q": "Hvilken diagnose understøtter positive TSH-receptorantistoffer?",
+"a": "Graves' sygdom",
+"w": [
+"Autoimmun hypothyreose",
+"Subklinisk hypothyreose"
+],
+"p": 178,
+"lvl": "U",
+"type": "fakta",
+"why": "Hyperthyreose mistænkes ved supprimeret TSH og høj T4 og/eller T3; positive TSH-receptorantistoffer peger på Graves' sygdom."
+},
+{
+"id": "16:10",
+"q": "Hvad sker der ofte med levothyroxin-dosis efter vellykket nyretransplantation?",
+"a": "Dosis skal ofte reduceres",
+"w": [
+"Dosis skal ofte øges",
+"Behandlingen skal altid seponeres"
+],
+"p": 178,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Thyreoideaforstyrrelserne bedres efter transplantation, så behovet for levothyroxin falder ofte."
+},
+{
+"id": "16:n2",
+"q": "Hvad sker der med T4-dosis hos en gravid nyresyg patient i T4-behandling?",
+"a": "Skal øges betragteligt",
+"w": [
+"Skal reduceres betydeligt",
+"Er uændret under graviditeten"
+],
+"p": 180,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Moderens thyreoideafunktion er afgørende for fosterets neurocerebrale udvikling, så dosis skal øges og kontrolleres tæt."
+},
+{
+"id": "16:11",
+"q": "Hvad forårsager nedsat glukosetolerance ved nyresvigt uden diabetes?",
+"a": "Relativ insulinresistens",
+"w": [
+"Øget clearance af insulin",
+"Øget insulinfølsomhed i vævet"
+],
+"p": 178,
+"lvl": "K",
+"type": "forståelse",
+"why": "Insulinresistens og ændret sekretion og nedbrydning af insulin spiller sammen med uræmiske toksiner og acidose."
+},
+{
+"id": "16:n3",
+"q": "Hvorfor forlænges insulins halveringstid ved fremskreden nyresvigt?",
+"a": "Nyrerne udskiller mindre insulin",
+"w": [
+"Insulinproduktionen stiger kraftigt",
+"Leveren nedbryder mere insulin"
+],
+"p": 178,
+"lvl": "K",
+"type": "forståelse",
+"why": "Raske nyrer udskiller 25-40 % af insulinen. Nedsat nyrefunktion og hæmmet nedbrydning i lever og muskler forlænger halveringstiden."
+},
+{
+"id": "16:13",
+"q": "Ved hvilken eGFR falder insulinclearance betragteligt?",
+"a": "Under 15-20 ml/min.",
+"w": [
+"Under 60 ml/min.",
+"Under 90 ml/min."
+],
+"p": 178,
+"lvl": "U",
+"type": "fakta",
+"why": "Det er uafklaret, hvornår insulinclearance begynder at falde, men ved eGFR under 15-20 er faldet betragteligt."
+},
+{
+"id": "16:14",
+"q": "Hvilken risiko har diabetikere med nyresvigt?",
+"a": "Både hypo- og hyperglykæmi",
+"w": [
+"Kun hyperglykæmi uden hypoglykæmi",
+"Kun hypoglykæmi uden hyperglykæmi"
+],
+"p": 178,
+"lvl": "K",
+"type": "fakta",
+"why": "Nedsat insulinclearance, dårlig appetit og insulinresistens gør reguleringen vanskelig, især når dialyse eller transplantation ændrer behovet."
+},
+{
+"id": "16:15",
+"q": "Hvorfor er HbA1c svær at tolke ved nyresvigt?",
+"a": "Kortere levetid af erytrocytter",
+"w": [
+"HbA1c kan slet ikke måles",
+"Glukose udskilles ikke i urinen"
+],
+"p": 178,
+"lvl": "K",
+"type": "forståelse",
+"why": "Kortere erytrocytlevetid, anæmi og acidose forstyrrer HbA1c."
+},
+{
+"id": "16:16",
+"q": "Hvordan er plasma-væksthormon ofte ved kronisk nyresvigt?",
+"a": "Øget",
+"w": [
+"Nedsat",
+"Normalt"
+],
+"p": 178,
+"lvl": "U",
+"type": "fakta",
+"why": "Det skyldes nedsat renal clearance. Der er dog relativ resistens pga. væksthormonbindende protein."
+},
+{
+"id": "16:17",
+"q": "Et barn med CKD har nedsat længdevækst. Hvad kan hjælpe?",
+"a": "Væksthormonbehandling",
+"w": [
+"Insulinbehandling",
+"Tilskud af kalk og D-vitamin"
+],
+"p": 178,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Børn med kronisk nyreinsufficiens har nedsat længdevækst, som kan bedres med væksthormon trods relativ resistens."
+},
+{
+"id": "16:19",
+"q": "Hvilken cyklus dominerer hos fertile kvinder med nyresvigt?",
+"a": "Anovulatoriske cykli",
+"w": [
+"Normale cykli med ægløsning",
+"Meget korte cykli"
+],
+"p": 178,
+"lvl": "K",
+"type": "fakta",
+"why": "Det forklarer, hvorfor graviditet er en sjældenhed ved nyresvigt."
+},
+{
+"id": "16:20",
+"q": "Hvorfor opstår anovulation ved nyresvigt?",
+"a": "Manglende LH-peak før ægløsning",
+"w": [
+"For højt progesteronniveau",
+"For lavt FSH-niveau"
+],
+"p": 178,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den positive østrogen-feedback er forstyrret, så det præovulatoriske LH-peak udebliver. Det skyldes manglende cyklisk frigivelse af GnRH."
+},
+{
+"id": "16:21",
+"q": "Hvilken risiko giver amenoré med manglende progesteron?",
+"a": "Endometriecancer",
+"w": [
+"Brystcancer",
+"Svær osteoporose"
+],
+"p": 179,
+"lvl": "K",
+"type": "forståelse",
+"why": "Manglende progesteron prædisponerer til hyperplasi af endometriet og dermed øget risiko for endometriecancer."
+},
+{
+"id": "16:22",
+"q": "Hvad tilrådes fertile kvinder i dialyse, selvom graviditet er sjælden?",
+"a": "Prævention",
+"w": [
+"Ingen særlige tiltag",
+"At blive gravid før transplantation"
+],
+"p": 179,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Graviditet er sjælden, men forekommer, og er højrisiko. Man kan se bort fra prævention ved langvarig amenoré."
+},
+{
+"id": "16:23",
+"q": "Hvorfor skal man tale om prævention allerede før transplantation?",
+"a": "Fertiliteten vender hurtigt tilbage",
+"w": [
+"Immunosuppression virker som prævention",
+"Graviditet er forbudt"
+],
+"p": 179,
+"lvl": "K",
+"type": "forståelse",
+"why": "Efter vellykket transplantation (nær)normaliseres fertiliteten i løbet af få måneder."
+},
+{
+"id": "16:24",
+"q": "Hvorfor har mænd med nyresvigt nedsat fertilitet?",
+"a": "Svækket spermatogenese og lavt testosteron",
+"w": [
+"For højt testosteronniveau i plasma",
+"Overproduktion af sædceller"
+],
+"p": 179,
+"lvl": "K",
+"type": "forståelse",
+"why": "Forstyrrelser i hypothalamus-hypofyse-testikel-aksen ses allerede ved moderat nedsat nyrefunktion. Hypogonadisme øger også den kardiovaskulære risiko."
+},
+{
+"id": "16:25",
+"q": "Hvilken funktion hæmmer sirolimus hos mænd?",
+"a": "Spermatogenesen",
+"w": [
+"Nyrefunktionen",
+"Leverfunktionen"
+],
+"p": 179,
+"lvl": "U",
+"type": "fakta",
+"why": "Sirolimus ser ud til at hæmme sædcelledannelsen og dermed fertiliteten."
+},
+{
+"id": "16:n4",
+"q": "Hvad medvirker hyperprolaktinæmi til ved nyresvigt?",
+"a": "Hypogonadisme og seksuel dysfunktion",
+"w": [
+"Hypoglykæmi og svedeture",
+"Hypothyreose og struma"
+],
+"p": 179,
+"lvl": "K",
+"type": "fakta",
+"why": "Prolaktin er forhøjet pga. øget sekretion og nedsat renal clearance."
+},
+{
+"id": "16:28",
+"q": "En mand i dialyse har galaktoré. Hvilken behandling kan hjælpe?",
+"a": "Cabergolin eller bromocriptin",
+"w": [
+"Levothyroxin eller jod",
+"Insulin eller glukagon"
+],
+"p": 179,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højt prolaktin kan give galaktoré hos både kvinder og mænd, og stoffene sænker prolaktinniveauet."
+},
+{
+"id": "16:29",
+"q": "Hvornår udredes hyperprolaktinæmi for hypofyseadenom?",
+"a": "Ved prolaktin over 10 × normalgrænsen",
+"w": [
+"Ved prolaktin over 2 × normalgrænsen",
+"Ved alle tilfælde af galaktoré"
+],
+"p": 179,
+"lvl": "U",
+"type": "fakta",
+"why": "Prolaktin er ofte forhøjet ved nedsat nyrefunktion (øget sekretion og nedsat renal clearance); ved svært forhøjet niveau (> 10 gange øverste normalgrænse) udredes patienten for hypofyseadenom."
+},
+{
+"id": "16:30",
+"q": "Hvad er afgørende for chancen for en vellykket graviditet ved CKD?",
+"a": "Graden af nedsat nyrefunktion",
+"w": [
+"Patientens alder alene",
+"Hvilken dialyseform der bruges"
+],
+"p": 179,
+"lvl": "K",
+"type": "fakta",
+"why": "Hypertension, proteinuri, diabetes og SLE er yderligere risikofaktorer."
+},
+{
+"id": "16:32",
+"q": "Hvad har nyredonorer øget risiko for under graviditet?",
+"a": "Præeklampsi og gestationel hypertension",
+"w": [
+"Misdannelser hos barnet",
+"Ingen øget risiko overhovedet"
+],
+"p": 179,
+"lvl": "U",
+"type": "forståelse",
+"why": "Selv beskeden nedsat nyrefunktion eller manglende renal reservekapacitet har betydning ved graviditet."
+},
+{
+"id": "16:33",
+"q": "Hvad forventes p-kreatinin at gøre i 2. trimester hos en gravid?",
+"a": "Falde",
+"w": [
+"Stige",
+"Være uændret"
+],
+"p": 179,
+"lvl": "U",
+"type": "fakta",
+"why": "GFR stiger fysiologisk i graviditeten, så p-kreatinin falder."
+},
+{
+"id": "16:n5",
+"q": "Udebliver faldet i p-kreatinin i 2. trimester hos en gravid CKD-patient. Hvad tyder det på?",
+"a": "Manglende renal reservekapacitet",
+"w": [
+"Særligt god nyrefunktion",
+"Dehydrering hos moderen"
+],
+"p": 179,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Normalt falder p-kreatinin pga. øget GFR. Udebliver faldet, mangler nyren reserve, og forværring kan være svær at udelukke."
+},
+{
+"id": "16:34",
+"q": "Hvilken p-kreatinin-grænse gælder for let nedsat nyrefunktion i graviditet?",
+"a": "Under 125 µmol/l",
+"w": [
+"Under 80 µmol/l",
+"Under 250 µmol/l"
+],
+"p": 179,
+"lvl": "K",
+"type": "fakta",
+"why": "Under 125 er let nedsat, 125-220 moderat og over 220 svært nedsat funktion; risikoen stiger med gruppen."
+},
+{
+"id": "16:36",
+"q": "Hvilket p-kreatinin svarer til svært nedsat nyrefunktion i graviditet?",
+"a": "Over 220 µmol/l",
+"w": [
+"Over 125 µmol/l",
+"Over 400 µmol/l"
+],
+"p": 180,
+"lvl": "K",
+"type": "fakta",
+"why": "Her er chancen for graviditet meget lille, og risikoen for forværring af nyrefunktionen betydelig."
+},
+{
+"id": "16:n6",
+"q": "En kvinde har let nedsat nyrefunktion, normalt BT og lidt proteinuri. Hvordan forløber en graviditet?",
+"a": "Som hos nyreraske",
+"w": [
+"Den er kontraindiceret",
+"Hun skal i dialyse"
+],
+"p": 180,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Gruppe 1 har lille risiko for progression og fysiologisk GFR-stigning, så graviditeten forløber som udgangspunkt som hos nyreraske."
+},
+{
+"id": "16:n7",
+"q": "En gravid har p-kreatinin 250 µmol/l. Hvordan er risikoen for komplikationer?",
+"a": "Markant forhøjet",
+"w": [
+"Som hos nyreraske",
+"Let øget"
+],
+"p": 180,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Moderat til svært nedsat funktion giver betydeligt højere risiko for præeklampsi, for tidlig fødsel og væksthæmning. Det er en højrisikograviditet."
+},
+{
+"id": "16:39",
+"q": "Hvilken nyresygdom påvirker progressionen ved graviditet?",
+"a": "Lupus nefritis",
+"w": [
+"Polycystisk nyresygdom",
+"Diabetisk nefropati"
+],
+"p": 180,
+"lvl": "U",
+"type": "fakta",
+"why": "Bortset fra lupus nefritis er ætiologien ikke bestemmende for progression."
+},
+{
+"id": "16:n8",
+"q": "Hvorfor tilbydes præimplantationsdiagnostik fx ved polycystisk nyresygdom?",
+"a": "Nogle nyresygdomme er genetiske",
+"w": [
+"Graviditet forværrer arvelige sygdomme",
+"Barnet får altid dialyse"
+],
+"p": 180,
+"lvl": "U",
+"type": "forståelse",
+"why": "Ved arvelige sygdomme som ADPKD og Alports syndrom bør muligheden diskuteres, evt. efter genetisk udredning."
+},
+{
+"id": "16:40",
+"q": "Hvilket blodtryk anbefaler dansk guideline hos gravide med nyresvigt?",
+"a": "≤ 130/80 mmHg",
+"w": [
+"≤ 160/100 mmHg",
+"≤ 110/70 mmHg"
+],
+"p": 180,
+"lvl": "U",
+"type": "fakta",
+"why": "Ofte reduceres antihypertensiva ved BT ≤ 110/70, da for lavt tryk kan kompromittere fosterets kredsløb."
+},
+{
+"id": "16:n9",
+"q": "Hvorfor accepteres generelt højere blodtryk hos gravide?",
+"a": "For at undgå kompromitteret føtalt kredsløb",
+"w": [
+"Højt BT forebygger præeklampsi",
+"Nyrerne kræver et højt BT"
+],
+"p": 180,
+"lvl": "U",
+"type": "forståelse",
+"why": "Man minimerer risikoen for nedsat blodforsyning til fosteret ved ikke at sænke blodtrykket for kraftigt."
+},
+{
+"id": "16:42",
+"q": "Hvilken behandling nedsætter risikoen for præeklampsi?",
+"a": "Magnyl",
+"w": [
+"Furosemid",
+"Prednisolon"
+],
+"p": 180,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Magnyl gives om aftenen fra graviditetsuge 12-16 og seponeres i uge 37."
+},
+{
+"id": "16:44",
+"q": "Hvilken dialyseform giver højest graviditetsrate?",
+"a": "Natlig HD",
+"w": [
+"PD",
+"Konventionel HD"
+],
+"p": 180,
+"lvl": "U",
+"type": "fakta",
+"why": "Det kan skyldes højere dialysedosis. Graviditetsraten er lavest ved PD."
+},
+{
+"id": "16:45",
+"q": "Hvor meget dialyse pr. uge beskytter mor og barn bedst i graviditeten?",
+"a": "Over 36 timer",
+"w": [
+"Over 12 timer",
+"Over 60 timer"
+],
+"p": 180,
+"lvl": "K",
+"type": "fakta",
+"why": "Betydelig intensivering af dialysen nedsætter risikoen for perinatal død, præeklampsi og for tidlig fødsel."
+},
+{
+"id": "16:n10",
+"q": "En kvinde i dialyse ønsker graviditet. Hvad bør hun om muligt anbefales?",
+"a": "At vente til efter transplantation",
+"w": [
+"At blive gravid så hurtigt som muligt",
+"At skifte til PD-behandling"
+],
+"p": 180,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Graviditet i dialyse er en højrisikograviditet. Fastholdes ønsket, kræves intensiveret dialyse og tæt opfølgning."
+},
+{
+"id": "16:47",
+"q": "Hvor ofte ses for tidlig fødsel ved graviditet i dialyse?",
+"a": "Næsten altid",
+"w": [
+"Sjældent",
+"Hos hver fjerde"
+],
+"p": 180,
+"lvl": "U",
+"type": "fakta",
+"why": "For tidlig fødsel ses i 70-100 %, og stort set alle børn har for lav fødselsvægt pga. væksthæmning."
+},
+{
+"id": "16:48",
+"q": "Hvor længe efter transplantation bør man vente med graviditet?",
+"a": "Mindst ét år",
+"w": [
+"Mindst seks uger",
+"Mindst fem år"
+],
+"p": 181,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er et af de optimale kriterier sammen med stabil graftfunktion, ingen nylig rejektion og normalt blodtryk."
+},
+{
+"id": "16:49",
+"q": "Hvilket p-kreatinin kræves for stabil graftfunktion før graviditet?",
+"a": "Under 125 µmol/l",
+"w": [
+"Under 250 µmol/l",
+"Under 400 µmol/l"
+],
+"p": 181,
+"lvl": "K",
+"type": "fakta",
+"why": "God graftfunktion er tæt forbundet med et ukompliceret forløb for mor og barn."
+},
+{
+"id": "16:50",
+"q": "Hvilken proteinudskillelse accepteres før graviditet efter transplantation?",
+"a": "Under 0,5 g/døgn",
+"w": [
+"Under 2 g/døgn",
+"Under 5 g/døgn"
+],
+"p": 181,
+"lvl": "U",
+"type": "fakta",
+"why": "Det indgår i de optimale prækonceptionskriterier for nyretransplanterede."
+},
+{
+"id": "16:n11",
+"q": "Hvorfor er præeklampsi svær at diagnosticere hos nyretransplanterede?",
+"a": "Mange har i forvejen hypertension og proteinuri",
+"w": [
+"Graften skjuler alle symptomer",
+"Blodtrykket kan ikke måles"
+],
+"p": 181,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hypertension, let proteinuri og forhøjet urat ses ofte i forvejen, så diagnosen er vanskelig."
+},
+{
+"id": "16:n12",
+"q": "En gravid transplanteret har let stigende p-kreatinin. Hvad skal mistænkes?",
+"a": "Rejektion",
+"w": [
+"Normal graviditetsfysiologi",
+"Urinvejsinfektion"
+],
+"p": 181,
+"lvl": "K",
+"type": "anvendelse",
+"why": "GFR stiger normalt i graviditeten, så selv en lille stigning i p-kreatinin bør give mistanke om rejektion."
+},
+{
+"id": "16:57",
+"q": "Kontraindicerer en graft i bækkenet vaginal forløsning?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 181,
+"lvl": "U",
+"type": "fakta",
+"why": "Placeringen af nyregraften kontraindicerer ikke vaginal forløsning."
+},
+{
+"id": "16:58",
+"q": "Hvad tilrådes mht. amning ved behandling med tacrolimus, ciclosporin, azathioprin og prednisolon?",
+"a": "Amning er tilrådet",
+"w": [
+"Amning frarådes",
+"Amning kun de første uger"
+],
+"p": 181,
+"lvl": "K",
+"type": "fakta",
+"why": "Lægemiddelkoncentrationen i modermælk er så lav, at risikoen for bivirkninger vurderes minimal. Tidligere frarådede man amning."
+},
+{
+"id": "16:59",
+"q": "Hvilken immunsuppression anbefales som vedligeholdelse ved graviditet?",
+"a": "Calcineurinhæmmer, prednisolon, azathioprin",
+"w": [
+"Mycophenolat, sirolimus og rituximab",
+"Everolimus, mycophenolat og prednisolon"
+],
+"p": 182,
+"lvl": "K",
+"type": "fakta",
+"why": "Disse stoffer kan anvendes, mens fosteret udsættes mindst muligt for teratogene stoffer."
+},
+{
+"id": "16:n13",
+"q": "Hvilke immunsuppressiva frarådes ved graviditet?",
+"a": "Mycophenolat, sirolimus og rituximab",
+"w": [
+"Tacrolimus og ciclosporin begge",
+"Azathioprin og prednisolon begge"
+],
+"p": 182,
+"lvl": "K",
+"type": "fakta",
+"why": "Tacrolimus, ciclosporin, azathioprin og prednisolon kan anvendes ved både graviditet og amning."
+},
+{
+"id": "16:60",
+"q": "En transplanteret kvinde på mycophenolat planlægger graviditet. Hvad gøres?",
+"a": "Seponeres mindst seks uger før undfangelse",
+"w": [
+"Fortsættes uændret under graviditet",
+"Seponeres først ved positiv test"
+],
+"p": 182,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Mycophenolat er teratogent med op til 23 % malformationer og 50 % spontan abort."
+},
+{
+"id": "16:61",
+"q": "Hvor længe før undfangelse seponeres sirolimus/everolimus?",
+"a": "12 uger",
+"w": [
+"Seks uger",
+"Ét år"
+],
+"p": 182,
+"lvl": "U",
+"type": "fakta",
+"why": "Gælder både mænd og kvinder; sirolimus kan også hæmme spermatogenesen."
+},
+{
+"id": "16:63",
+"q": "Hvad sker der med calcineurinhæmmeres dosisbehov i graviditeten?",
+"a": "Dosis øges (25 % eller mere)",
+"w": [
+"Dosis sænkes med en fjerdedel",
+"Dosis er uændret hele graviditeten"
+],
+"p": 182,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Plasmakoncentrationerne falder i graviditeten, så dosis skal øges for at bevare graftfunktionen."
+},
+{
+"id": "16:n14",
+"q": "Hvorfor når prednisolon sjældent fosteret i aktiv form?",
+"a": "Det nedbrydes i moderkagen",
+"w": [
+"Det passerer ikke placenta",
+"Det udskilles via moderens nyrer"
+],
+"p": 182,
+"lvl": "U",
+"type": "forståelse",
+"why": "Binyrebarkhormon passerer placenta, men 90 % metaboliseres der. Dosis anbefales under 15 mg dagligt."
+},
+{
+"id": "16:65",
+"q": "Hvilken daglig prednisolondosis er øvre grænse i graviditeten?",
+"a": "15 mg",
+"w": [
+"5 mg",
+"40 mg"
+],
+"p": 182,
+"lvl": "U",
+"type": "fakta",
+"why": "Gravide har øget behov for binyrebarkhormon, så dosis øges ofte successivt, men holdes helst under 15 mg."
+},
+{
+"id": "16:66",
+"q": "Hvilket præparat er sikkert mod hypertension i graviditet?",
+"a": "Labetalol",
+"w": [
+"Enalapril",
+"Losartan"
+],
+"p": 183,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Methyldopa, labetalol og nifedipin er sikre og ligeværdige; valget afhænger af erfaring og bivirkninger."
+},
+{
+"id": "16:67",
+"q": "Hvorfor frarådes RAS-blokerende lægemidler i graviditet?",
+"a": "Risiko for misdannelser",
+"w": [
+"De giver hyperglykæmi",
+"De sænker ikke blodtrykket"
+],
+"p": 183,
+"lvl": "K",
+"type": "forståelse",
+"why": "Første trimester giver kardiovaskulære og CNS-malformationer; 2. og 3. trimester renale malformationer, oligohydramnion og væksthæmning."
+},
+{
+"id": "16:n15",
+"q": "Hvad ses ved RAS-hæmmere i 2. og 3. trimester?",
+"a": "Renale misdannelser og oligohydramnion",
+"w": [
+"Kun isolerede hjertefejl",
+"Øget fødselsvægt og stor placenta"
+],
+"p": 183,
+"lvl": "U",
+"type": "fakta",
+"why": "Data tyder også på øget neonatal mortalitet, og overlevende børn har øget risiko for nyresvigt og hypertension."
+},
+{
+"id": "16:69",
+"q": "Hvorfor undgås furosemid som hovedregel i graviditet?",
+"a": "Risiko for nedsat placentaperfusion",
+"w": [
+"Det er et stærkt teratogent stof",
+"Det hæver blodtrykket hos moderen"
+],
+"p": 183,
+"lvl": "U",
+"type": "forståelse",
+"why": "Det kan også give elektrolytforstyrrelser hos den nyfødte. I udvalgte tilfælde kan diuretika bruges, hvis væskemangel undgås."
+},
+{
+"id": "16:70",
+"q": "Hvor længe efter sidste rituximab-dosis bør graviditet afventes?",
+"a": "12 måneder",
+"w": [
+"Seks uger",
+"Fem år"
+],
+"p": 183,
+"lvl": "U",
+"type": "fakta",
+"why": "Rituximab kan krydse placenta, og der er ingen data hos transplanterede."
+}
+]

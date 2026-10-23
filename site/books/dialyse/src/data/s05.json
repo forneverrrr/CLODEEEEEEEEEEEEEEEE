@@ -1,0 +1,1003 @@
+[
+{
+"id": "5:0",
+"q": "Hvad er en central fordel ved peritonealdialyse (PD)?",
+"a": "Behandling i eget hjem",
+"w": [
+"Mere væskefjernelse end HD",
+"Intet kateter nødvendigt"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "PD foregår i patientens hjem, kan planlægges fleksibelt, og patienten kan rejse med behandlingen."
+},
+{
+"id": "5:1",
+"q": "Hvilken struktur er dialysemembran ved PD?",
+"a": "Peritoneum",
+"w": [
+"Pleura",
+"Perikardiet"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "Bughulen fyldes med dialysevæske, og peritoneum fungerer som membran mellem dialysat og blod."
+},
+{
+"id": "5:n0",
+"q": "Hvorfor egner peritoneum sig som dialysemembran?",
+"a": "Mange kapillærer og stor overflade",
+"w": [
+"Få kapillærer og lille overflade",
+"Tyk membran uden kapillærer"
+],
+"p": 47,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den store tæthed af kapillærer og den store overflade (1-2 m²) gør peritoneum velegnet."
+},
+{
+"id": "5:2",
+"q": "Hvordan opnås clearance ved PD?",
+"a": "Diffusion fra plasma til dialysat",
+"w": [
+"Konvektion af opløst stof alene",
+"Adsorption til membranen"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "Opløste stoffer som kreatinin diffunderer med koncentrationsgradienten fra plasma til dialysevæsken."
+},
+{
+"id": "5:3",
+"q": "Hvad driver væskefjernelse (ultrafiltration) ved PD?",
+"a": "Osmotisk gradient fra glukose",
+"w": [
+"Patientens blodtryk i kapillærerne",
+"Pumpetryk fra maskinen"
+],
+"p": 47,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den hyperosmolære dialysevæske, primært via glukose, trækker vand over membranen. Blodtrykket driver det ikke."
+},
+{
+"id": "5:10",
+"q": "Hvilket lag er den vigtigste barriere for molekyltransport over peritoneum?",
+"a": "Kapillærvæggen",
+"w": [
+"Mesotelet",
+"Interstitset"
+],
+"p": 47,
+"lvl": "K",
+"type": "fakta",
+"why": "Kapillærvæggen er den afgørende barriere; mesotelet og interstitset spiller en mindre rolle."
+},
+{
+"id": "5:18",
+"q": "Hvorfor er diffusionen højest i begyndelsen af en ækvilibrering?",
+"a": "Gradienten er størst",
+"w": [
+"Dialysatet er varmest",
+"Flest kapillærer er åbne"
+],
+"p": 48,
+"lvl": "K",
+"type": "forståelse",
+"why": "Diffusion følger koncentrationsgradienten, som udjævnes, efterhånden som dialysat og plasma ækvilibrerer."
+},
+{
+"id": "5:21",
+"q": "I hvilken kropsstilling er det intraperitoneale tryk lavest?",
+"a": "Liggende",
+"w": [
+"Siddende",
+"Stående"
+],
+"p": 48,
+"lvl": "K",
+"type": "forståelse",
+"why": "Lavt intraperitonealt tryk modvirker UF mindst, så stillingen påvirker væsketrækket."
+},
+{
+"id": "5:24",
+"q": "En PD-patient har inflammation i peritoneum. Hvad sker der med transporthastigheden?",
+"a": "Den øges",
+"w": [
+"Den falder",
+"Den er uændret"
+],
+"p": 48,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Kapillærerne dilaterer og bliver mere utætte, så transporten over membranen stiger."
+},
+{
+"id": "5:26",
+"q": "Hvilken test måler den enkelte PD-patients transportegenskaber?",
+"a": "Peritoneal ækvilibreringstest (PET)",
+"w": [
+"Kt/V-beregning over ugen",
+"Leukocytstix af dialysat"
+],
+"p": 48,
+"lvl": "K",
+"type": "fakta",
+"why": "PET bruges både til at optimere behandlingen og til at følge ændringer i transporthastighed over tid."
+},
+{
+"id": "5:32",
+"q": "En PD-patient har lav transporthastighed. Hvilket regime passer bedst?",
+"a": "Store volumina, lange ækvilibreringer, få skift",
+"w": [
+"Små volumina og mange skift",
+"Korte ækvilibreringer og mange skift natten over"
+],
+"p": 48,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved langsom transport skal væsken have tid i maven; derfor store indløb, lange dwell og få skift."
+},
+{
+"id": "5:33",
+"q": "En PD-patient har høj transporthastighed. Hvilket regime passer bedst?",
+"a": "Korte ækvilibreringer, mange skift",
+"w": [
+"Lange ækvilibreringer og få skift",
+"Store volumina og få skift"
+],
+"p": 49,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved hurtig transport ækvilibrerer stofferne hurtigt, så korte dwell og mange skift passer bedst."
+},
+{
+"id": "5:34",
+"q": "Hvad står CAPD for?",
+"a": "Continuous Ambulatory PD",
+"w": [
+"Chronic Automated PD",
+"Controlled Ambulatory PD"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "CAPD er posedialyse med manuelle poseskift gennem dagen."
+},
+{
+"id": "5:38",
+"q": "Hvad står APD for?",
+"a": "Automated PD",
+"w": [
+"Ambulatory PD",
+"Assisted PD"
+],
+"p": 49,
+"lvl": "K",
+"type": "fakta",
+"why": "Maskinen udfører skiftene, mens patienten sover (natmaskine)."
+},
+{
+"id": "5:40",
+"q": "Hvilken PD-form passer fortrinsvis til en patient med høj transporthastighed?",
+"a": "APD",
+"w": [
+"CAPD",
+"IPD"
+],
+"p": 50,
+"lvl": "K",
+"type": "anvendelse",
+"why": "APD tillader korte ækvilibreringstider og mange skift, hvilket passer til hurtig transport."
+},
+{
+"id": "5:45",
+"q": "Hvem tilbydes assisteret PD (aPD)?",
+"a": "Patienter, der ikke selv kan udføre PD",
+"w": [
+"Patienter med akut nyresvigt",
+"Patienter uden restnyrefunktion"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "aPD giver patienter med tabt funktionsniveau mulighed for dialyse i eget hjem, ofte med hjælp fra hjemmeplejen."
+},
+{
+"id": "5:48",
+"q": "Hvad er incremental PD?",
+"a": "Start med dosis tilpasset restnyrefunktionen",
+"w": [
+"Start med maksimal dosis fra dag ét",
+"Kun natlig PD i weekenden"
+],
+"p": 50,
+"lvl": "K",
+"type": "fakta",
+"why": "Dosis øges, efterhånden som restnyrefunktionen aftager."
+},
+{
+"id": "5:n1",
+"q": "Hvorfor skal restnyrefunktionen følges regelmæssigt ved incremental PD?",
+"a": "Dosis skal øges, når den aftager",
+"w": [
+"Restfunktion giver peritonitis",
+"Den bestemmer glukosekoncentrationen"
+],
+"p": 50,
+"lvl": "K",
+"type": "forståelse",
+"why": "Incremental PD starter lavt; når restnyrefunktionen falder, må PD-dosis øges."
+},
+{
+"id": "5:51",
+"q": "Hvad hjælper med at bevare restnyrefunktionen hos PD-patienter?",
+"a": "Velkontrolleret blodtryk og RAS-blokade",
+"w": [
+"Højt proteinindtag og saltrigt kost",
+"Hyppig brug af NSAID mod smerter"
+],
+"p": 51,
+"lvl": "K",
+"type": "fakta",
+"why": "Nefrotoksiske lægemidler som aminoglykosider og NSAID bør undgås mest muligt."
+},
+{
+"id": "5:57",
+"q": "Hvilket osmotisk stof bruges hyppigst i PD-væske?",
+"a": "Glukose",
+"w": [
+"Icodextrin",
+"Aminosyrer"
+],
+"p": 52,
+"lvl": "K",
+"type": "fakta",
+"why": "Glukose opfylder ikke alle ideelle krav, men er det mest brugte osmotiske stof."
+},
+{
+"id": "5:n2",
+"q": "Hvad sker der med UF, når glukosekoncentrationen i PD-væsken stiger?",
+"a": "Den øges",
+"w": [
+"Den falder",
+"Den er uændret"
+],
+"p": 52,
+"lvl": "K",
+"type": "forståelse",
+"why": "Højere glukosekoncentration giver større osmotisk gradient og dermed større ultrafiltration."
+},
+{
+"id": "5:61",
+"q": "Hvordan mindsker flerkammerposer dannelsen af GDP?",
+"a": "Lav pH i glukosekammeret",
+"w": [
+"Høj pH i glukosekammeret",
+"Ingen buffer i posen"
+],
+"p": 52,
+"lvl": "U",
+"type": "forståelse",
+"why": "GDP dannes mest ved neutral til høj pH. Kamrene blandes først lige før brug, så pH bliver neutral."
+},
+{
+"id": "5:62",
+"q": "Hvilke følger kan et højt glukosetilbud ved PD have?",
+"a": "Hyperglykæmi, hyperlipidæmi og overvægt",
+"w": [
+"Hypoglykæmi og vægttab",
+"Lavt blodtryk og dehydrering"
+],
+"p": 52,
+"lvl": "K",
+"type": "forståelse",
+"why": "Det bidrager til metabolisk syndrom og øger aterosklerose-risikoen; derfor bruges så svage koncentrationer som muligt."
+},
+{
+"id": "5:64",
+"q": "Hvornår bruges PD-væske med højeste glukosekoncentration primært?",
+"a": "Ved akut svær overhydrering",
+"w": [
+"Som daglig rutine for alle",
+"Ved mistanke om peritonitis"
+],
+"p": 52,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Den stærke væske giver kraftig UF, men er stor glukosebelastning og bruges kun, når behovet er stort."
+},
+{
+"id": "5:66",
+"q": "Hvad er icodextrin?",
+"a": "Glukosepolymerer",
+"w": [
+"Aminosyrer",
+"Natriumsalt"
+],
+"p": 52,
+"lvl": "K",
+"type": "fakta",
+"why": "Molekylerne er for store til at optages ved diffusion; de optages kun via lymfen."
+},
+{
+"id": "5:68",
+"q": "Hvor mange icodextrinposer anbefales højst pr. døgn?",
+"a": "Én",
+"w": [
+"Tre",
+"Fem"
+],
+"p": 52,
+"lvl": "K",
+"type": "fakta",
+"why": "Icodextrin giver øget maltose i plasma, derfor bruges kun én pose pr. døgn."
+},
+{
+"id": "5:69",
+"q": "En PD-patient bruger icodextrin. Hvilke blodsukkerapparater kan vise falsk højt?",
+"a": "GDH-PQQ-baserede",
+"w": [
+"Glukoseoxidase-baserede",
+"Alle apparater"
+],
+"p": 52,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Maltose og andre icodextrin-metabolitter måles med som glukose i GDH-PQQ-apparater."
+},
+{
+"id": "5:70",
+"q": "Hvornår er icodextrin især anvendeligt?",
+"a": "Ved lange ækvilibreringstider",
+"w": [
+"Ved korte ækvilibreringstider",
+"Ved svær hyperkaliæmi"
+],
+"p": 52,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fx den lange nat ved CAPD eller dagsskiftet ved APD med »våd dag«."
+},
+{
+"id": "5:n3",
+"q": "Hvorfor er icodextrin velegnet til lange ækvilibreringstider?",
+"a": "Sparsom absorption bevarer gradienten",
+"w": [
+"Det indeholder mere glukose",
+"Det opvarmes hurtigere"
+],
+"p": 52,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den kolloide osmotiske gradient holdes længe, fordi icodextrin næsten ikke absorberes."
+},
+{
+"id": "5:n4",
+"q": "En PD-patient får generaliseret udslæt i håndflader og fodsåler på icodextrin. Hvad gør man?",
+"a": "Seponerer icodextrin-væsken",
+"w": [
+"Fortsætter og giver antihistamin",
+"Skifter til HD med det samme"
+],
+"p": 52,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Allergi og aseptisk peritonitis er sjældne bivirkninger, som kræver seponering; allergien behandles symptomatisk."
+},
+{
+"id": "5:74",
+"q": "Hvilken kaliumforstyrrelse kan PD give, fordi væsken er kaliumfri?",
+"a": "Hypokaliæmi",
+"w": [
+"Hyperkaliæmi",
+"Hyperkalcæmi"
+],
+"p": 53,
+"lvl": "K",
+"type": "forståelse",
+"why": "PD-væske indeholder ikke kalium, så kalium kan fjernes uden at blive erstattet."
+},
+{
+"id": "5:78",
+"q": "Hvorfor tilsættes antibiotika direkte i PD-posen ved peritonitis?",
+"a": "Høje lokale koncentrationer",
+"w": [
+"Hurtigere opvarmning af posen",
+"Højere glukoseindhold i posen"
+],
+"p": 53,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man opnår høj koncentration i bughulen og minimerer den systemiske effekt."
+},
+{
+"id": "5:80",
+"q": "Hvilken tilstand er en absolut kontraindikation for PD?",
+"a": "Inoperable hernier",
+"w": [
+"Nedsat syn",
+"Demens"
+],
+"p": 53,
+"lvl": "K",
+"type": "fakta",
+"why": "Absolutte kontraindikationer er udbredte adhærencer, inoperable hernier og betydelig nedsat peritonealoverflade."
+},
+{
+"id": "5:n5",
+"q": "En patient har fået foretaget større tarmresektioner. Hvad betyder det for PD?",
+"a": "Kan være absolut kontraindikation",
+"w": [
+"Kun en barriere, som kan overvindes",
+"Har ingen betydning for PD"
+],
+"p": 53,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Betydelig nedsat peritonealoverflade, fx efter større tarmresektioner, er en absolut kontraindikation."
+},
+{
+"id": "5:83",
+"q": "Hvordan adskiller en barriere sig fra en kontraindikation for PD?",
+"a": "Barrieren kan overvindes",
+"w": [
+"Barrieren udelukker PD",
+"Barrieren er altid anatomisk"
+],
+"p": 54,
+"lvl": "K",
+"type": "forståelse",
+"why": "Barrierer er fysiske eller kognitive forhold, der kan klares med hjælpemidler eller aPD."
+},
+{
+"id": "5:n6",
+"q": "En PD-kandidat har nedsat syn og nedsat fingerfærdighed. Hvad kan gøre PD mulig?",
+"a": "Hjælpemidler eller assisteret PD",
+"w": [
+"Intet, PD er udelukket for ham",
+"Kun dialyse på sygehus er muligt"
+],
+"p": 54,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Nedsat syn og fingerfærdighed er fysiske barrierer, ikke kontraindikationer."
+},
+{
+"id": "5:84",
+"q": "Hvor længe bør kateterets tunnel hele før PD-træning?",
+"a": "2-3 uger",
+"w": [
+"2-3 dage",
+"2-3 måneder"
+],
+"p": 54,
+"lvl": "K",
+"type": "fakta",
+"why": "Planlagt kateteranlæggelse sker tids nok til, at tunnelen kan nå at hele."
+},
+{
+"id": "5:n7",
+"q": "Hvorfor lægges der stor vægt på hygiejne i PD-træningen?",
+"a": "Forebygger dialyserelaterede infektioner",
+"w": [
+"Øger ultrafiltrationen i posen",
+"Sparer dialysevæske"
+],
+"p": 54,
+"lvl": "K",
+"type": "forståelse",
+"why": "Patienten undervises i korrekt hygiejne og sterilteknik ved til- og frakobling, hvilket er af stor vigtighed for at forebygge dialyserelaterede infektioner."
+},
+{
+"id": "5:90",
+"q": "Hvad bør PD-ordinationen hvile på ifølge nyeste internationale guidelines?",
+"a": "Fælles beslutningstagning",
+"w": [
+"Faste Kt/V-mål for alle patienter",
+"Lægens beslutning alene uden patienten"
+],
+"p": 54,
+"lvl": "K",
+"type": "fakta",
+"why": "Målet er livskvalitet, færre symptomer og lav behandlingsbyrde sammen med patienten og PD-teamet."
+},
+{
+"id": "5:n8",
+"q": "Hvorfor hviler PD-ordination ikke længere primært på faste clearance-mål?",
+"a": "Evidensen for clearance-mål er beskeden",
+"w": [
+"Patienterne er yngre med mindre sygdom",
+"Clearance kan slet ikke måles"
+],
+"p": 54,
+"lvl": "K",
+"type": "forståelse",
+"why": "Evidensen for clearance-mål og livskvalitet, teknikoverlevelse og mortalitet er beskeden, og patienterne er ældre med mere komorbiditet."
+},
+{
+"id": "5:93",
+"q": "Hvad er dwelltid ved PD?",
+"a": "Tiden dialysevæsken er i maven",
+"w": [
+"Tiden for indløb",
+"Tiden for udløb"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Dwelltid er en af de parametre, der skal tages stilling til ved ordination, sammen med indløbsvolumen og antal skift."
+},
+{
+"id": "5:94",
+"q": "Hvilken PD-form bruges til akut opstart under indlæggelse?",
+"a": "APD i sengeleje (IPD)",
+"w": [
+"CAPD med fire skift dagligt",
+"APD med våd dag derhjemme"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienten kan dialyseres, så snart kateteret er anlagt."
+},
+{
+"id": "5:95",
+"q": "Hvorfor bruges reducerede indløbsvolumina ved akut PD-start?",
+"a": "Mindre risiko for lækage ved kateteret",
+"w": [
+"Højere UF på kort tid",
+"Mindre risiko for peritonitis"
+],
+"p": 55,
+"lvl": "K",
+"type": "forståelse",
+"why": "Det nyanlagte kateter er ikke helet, så lavt volumen mindsker lækage langs kateteret."
+},
+{
+"id": "5:97",
+"q": "Akut PD frarådes ved p-kalium over hvilken grænse?",
+"a": "7 mmol/l",
+"w": [
+"5 mmol/l",
+"10 mmol/l"
+],
+"p": 55,
+"lvl": "K",
+"type": "fakta",
+"why": "Clearance og UF er lavere end ved akut HD, så svær hyperkaliæmi kræver akut HD."
+},
+{
+"id": "5:n9",
+"q": "En nyhenvist patient med akut nyresvigt har svær overhydrering og risiko for lungeødem. Hvilken dialyse foretrækkes?",
+"a": "Akut HD",
+"w": [
+"Akut PD",
+"CAPD"
+],
+"p": 55,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Clearance og UF er lavere ved akut PD, som derfor ikke anbefales ved svær overhydrering, uræmisk perikarditis eller svær hyperkaliæmi."
+},
+{
+"id": "5:104",
+"q": "Hvordan fjernes natrium hovedsageligt ved PD?",
+"a": "Konvektion med ultrafiltrationen",
+"w": [
+"Diffusion ned ad gradienten",
+"Adsorption til membranen"
+],
+"p": 56,
+"lvl": "K",
+"type": "forståelse",
+"why": "Natriumindholdet er næsten ens i plasma og dialysevæske, så diffusion bidrager kun lidt."
+},
+{
+"id": "5:107",
+"q": "En PD-patient har hypertension, men ingen ødemer. Hvad mistænkes?",
+"a": "Overhydrering",
+"w": [
+"Dehydrering",
+"Anæmi med træthed"
+],
+"p": 56,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Næsten alle PD-patienter med hypertension er overhydrerede, også uden perifere ødemer."
+},
+{
+"id": "5:109",
+"q": "En overhydreret patient skal have optimeret dialyseordinationen. Hvad kan hjælpe?",
+"a": "Højere glukosekoncentration",
+"w": [
+"Længere ækvilibreringstid",
+"Lavere glukosekoncentration"
+],
+"p": 56,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Kortere ækvilibreringstid, højere glukose eller »våd dag« ved APD øger væsketrækket."
+},
+{
+"id": "5:112",
+"q": "En PD-patient har permanent overhydrering og UF-svigt. Hvad gør man?",
+"a": "Skifter til HD",
+"w": [
+"Øger blodtryksmedicin",
+"Opgiver væskerestriktion"
+],
+"p": 56,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved permanent overhydrering og UF-svigt kan PD ikke længere sikre væskebalance."
+},
+{
+"id": "5:113",
+"q": "Hvad er den hyppigste komplikation til PD?",
+"a": "Infektion",
+"w": [
+"Hernier i bugvæggen",
+"Anæmi med træthed"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Forebyggelse sker ved grundig oplæring i hygiejne og genoptræning efter infektioner."
+},
+{
+"id": "5:n10",
+"q": "En PD-patient har haft flere infektioner. Hvad kan hjælpe forebyggende?",
+"a": "Genoptræning i hygiejne og skifteprocedurer",
+"w": [
+"Højere glukosekoncentration",
+"Længere dwelltid"
+],
+"p": 57,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Genoptræning efter overståede infektioner indgår i forebyggelsen."
+},
+{
+"id": "5:114",
+"q": "Hvad er den vigtigste og mest alvorlige komplikation til PD?",
+"a": "Peritonitis",
+"w": [
+"Hernie",
+"Lækage"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Peritonitis er en væsentlig grund til, at patienter må ophøre med PD, og den mest almindelige indlæggelsesårsag."
+},
+{
+"id": "5:120",
+"q": "Hvad er den hyppigste årsag til peritonitis?",
+"a": "Forurening ved til- og frakobling",
+"w": [
+"Tarmperforation med lækage",
+"Spredning med blodet"
+],
+"p": 57,
+"lvl": "K",
+"type": "forståelse",
+"why": "Derfor er hygiejne og sterilteknik ved poseskift centralt i træningen."
+},
+{
+"id": "5:121",
+"q": "En PD-patient har mavesmerter og uklart udløb. Hvad mistænkes først?",
+"a": "Peritonitis",
+"w": [
+"Forstoppelse",
+"Hydrothorax"
+],
+"p": 57,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Peritonitis skal mistænkes ved mavesmerter og uklart udløb; behandling startes hurtigst muligt."
+},
+{
+"id": "5:n11",
+"q": "Hvorfor skal peritonitisbehandling startes hurtigst muligt?",
+"a": "Mindsker dødelighed og bevarer PD",
+"w": [
+"Så kateterfjernelse bliver unødvendig altid",
+"Så dyrkningen bliver negativ"
+],
+"p": 57,
+"lvl": "K",
+"type": "forståelse",
+"why": "Tidlig behandling mindsker dødelighed og indlæggelsesbehov og bevarer PD-behandlingen på langt sigt."
+},
+{
+"id": "5:122",
+"q": "Hvilke symptomer har peritonitis hos PD-patienter?",
+"a": "Feber, mavesmerter og uklart udløb",
+"w": [
+"Åndenød, hoste og brystsmerter",
+"Kløe og udslæt i huden"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Udløbet kan være kompromitteret og uklart."
+},
+{
+"id": "5:129",
+"q": "Hvor mange af tre diagnosekriterier skal være opfyldt for peritonitis?",
+"a": "To",
+"w": [
+"Alle tre",
+"Ét"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Kriterierne er mavesmerter/uklart dialysat, positiv leukocyttest og dyrkning positiv for bakterier."
+},
+{
+"id": "5:124",
+"q": "Hvilke bakterier giver oftest peritonitis ved PD?",
+"a": "Gram-positive kokker",
+"w": [
+"Gram-negative stave som E. coli",
+"Svampe som Candida"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Gram-negative stave, fx E. coli, er næsthyppigst."
+},
+{
+"id": "5:126",
+"q": "Hvorfor må kateteret ofte fjernes ved Pseudomonas-peritonitis?",
+"a": "Biofilm hindrer behandlingen",
+"w": [
+"Den giver tarmperforation hos alle",
+"Den spreder sig altid via blodet"
+],
+"p": 57,
+"lvl": "U",
+"type": "forståelse",
+"why": "Biofilm på kateteret gør sufficient antibiotisk behandling vanskelig."
+},
+{
+"id": "5:128",
+"q": "Dialysatdyrkning viser flere forskellige gram-negative bakterier. Hvad mistænkes?",
+"a": "Tarmperforation",
+"w": [
+"Hernie i bugvæggen",
+"Hydrothorax med pleuravæske"
+],
+"p": 57,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Det udløser undersøgelse som CT-abdomen, og kateteret skal fjernes."
+},
+{
+"id": "5:130",
+"q": "Hvad er dyrkningsnegativ peritonitis?",
+"a": "Klinisk peritonitis uden påvist mikroorganisme",
+"w": [
+"Peritonitis helt uden symptomer",
+"Peritonitis uden feber hos børn"
+],
+"p": 57,
+"lvl": "U",
+"type": "fakta",
+"why": "Det kan skyldes antibiotika givet før dyrkningsprøven."
+},
+{
+"id": "5:132",
+"q": "Hvilke antibiotika bruges oftest intraperitonealt ved peritonitis?",
+"a": "Vancomycin og gentamycin",
+"w": [
+"Penicillin og streptomycin",
+"Ciprofloxacin og azithromycin"
+],
+"p": 57,
+"lvl": "K",
+"type": "fakta",
+"why": "Begge doseres efter vægt og tilpasses dyrkningssvaret."
+},
+{
+"id": "5:n12",
+"q": "En PD-patient med peritonitis har høj feber, der tyder på sepsis. Hvad gøres ud over i.p.-behandling?",
+"a": "Tilføjer i.v.-antibiotika",
+"w": [
+"Starter hæmodialyse med det samme",
+"Skifter kateteret samme dag"
+],
+"p": 58,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Højfebrile patienter får suppleret den intraperitoneale behandling med i.v.-terapi, fx et cefalosporin."
+},
+{
+"id": "5:142",
+"q": "Hvornår kaldes peritonitis behandlingsrefraktær?",
+"a": "Uklart dialysat efter 5 dages behandling",
+"w": [
+"Uklart dialysat allerede efter 24 timer",
+"Uklart dialysat først efter 2 uger"
+],
+"p": 59,
+"lvl": "K",
+"type": "fakta",
+"why": "Symptomer og fund bør bedres i løbet af 4-5 døgn."
+},
+{
+"id": "5:143",
+"q": "En PD-patient har stadig uklart dialysat efter 5 dages peritonitisbehandling. Hvad anbefales?",
+"a": "Fjerne PD-kateteret",
+"w": [
+"Øge antibiotikadosis",
+"Skifte til CAPD"
+],
+"p": 59,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved refraktær peritonitis anbefales det i de fleste tilfælde at fjerne kateteret."
+},
+{
+"id": "5:151",
+"q": "Hvorfor er hernier hyppige hos PD-patienter?",
+"a": "Øget intraabdominalt tryk",
+"w": [
+"Lavt blodtryk i bughulen",
+"Antibiotika i dialysatet"
+],
+"p": 58,
+"lvl": "K",
+"type": "forståelse",
+"why": "Indløb af væske øger trykket, mest i stående og siddende stilling."
+},
+{
+"id": "5:154",
+"q": "En patient har en hernie, før PD påbegyndes. Hvad anbefales?",
+"a": "Operation før eller ved kateteranlæggelse",
+"w": [
+"Bandage og observation alene",
+"Venter med operation til PD kører"
+],
+"p": 58,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hernier, der er til stede før PD, bør opereres, evt. samtidig med kateteranlæggelsen."
+},
+{
+"id": "5:155",
+"q": "Hvad anbefales ved en hernie, der opstår under PD?",
+"a": "Operation med kunststofnet",
+"w": [
+"Permanent skift til HD",
+"Ingen behandling, da herniet ikke vokser"
+],
+"p": 58,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Herniet vil de fleste gange vokse med tiden, og ofte kan PD fortsættes uden skift til HD."
+},
+{
+"id": "5:n13",
+"q": "En PD-patient får åndenød og nedsat udløbsvolumen. Hvad mistænkes?",
+"a": "Hydrothorax",
+"w": [
+"Peritonitis",
+"Hernie"
+],
+"p": 58,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hydrothorax præsenterer sig med åndenød og nedsat udløbsvolumen."
+},
+{
+"id": "5:163",
+"q": "En mand i PD får skrotalødem. Hvad er oftest baggrunden?",
+"a": "Åbentstående processus vaginalis",
+"w": [
+"Hjertesvigt med generelle ødemer",
+"Peritonitis med feber og smerter"
+],
+"p": 59,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Dialysevæske og øget intraabdominalt tryk giver væskeansamling i skrotum gennem den åbne udposning."
+},
+{
+"id": "5:167",
+"q": "En PD-patient har nivende smerter i slutningen af udløbet. Hvad hjælper?",
+"a": "Efterlade lidt væske ved hvert udløb",
+"w": [
+"Øge indløbsvolumen ved næste skift",
+"Forlænge dwelltiden hos patienten"
+],
+"p": 59,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Smerterne opstår, når peritoneum suges ind mod kateteret, når bughulen er tømt."
+},
+{
+"id": "5:168",
+"q": "En PD-patient har smerter med udstråling til skulderen under indløb. Hvad tyder det på?",
+"a": "Luft i peritoneum",
+"w": [
+"Hydrothorax med åndenød",
+"Hernie i lysken"
+],
+"p": 59,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Patienten lukker luft ind ved poseskift; teknikken skal gennemgås igen."
+},
+{
+"id": "5:170",
+"q": "En patient har været i PD i mange år og får nyopstået blodtilblandet udløb. Hvad overvejes?",
+"a": "Skleroserende peritonitis",
+"w": [
+"Hernie i bugvæggen",
+"Hydrothorax med åndenød"
+],
+"p": 60,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Nyopstået blod hos langtidspatienter bør give mistanke om skleroserende peritonitis."
+},
+{
+"id": "5:n14",
+"q": "En APD-patient har mange maskinalarmer og forsinket udløb. Hvad mistænkes?",
+"a": "Kateterdysfunktion",
+"w": [
+"Peritonitis",
+"Hydrothorax"
+],
+"p": 60,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Ved APD giver dysfunktion af kateteret mange maskinalarmer under behandlingen."
+},
+{
+"id": "5:172",
+"q": "Hvad er skleroserende peritonitis?",
+"a": "Inflammation og fibrose med indkapslede tarmslynger",
+"w": [
+"Akut bakteriel infektion i bughulen",
+"Hernie i bugvæggen med tarmslyng"
+],
+"p": 60,
+"lvl": "K",
+"type": "fakta",
+"why": "Tilstanden er sjælden, men har høj morbiditet og mortalitet."
+},
+{
+"id": "5:174",
+"q": "Efter hvor lang tid i PD optræder skleroserende peritonitis næsten udelukkende?",
+"a": "Efter over 5 år",
+"w": [
+"Under 6 måneder",
+"Efter 1 år"
+],
+"p": 60,
+"lvl": "K",
+"type": "fakta",
+"why": "Risikoen knytter sig til lang PD-varighed."
+},
+{
+"id": "5:175",
+"q": "En PD-patient har skleroserende peritonitis. Hvad er behandlingen i de fleste tilfælde?",
+"a": "Stop PD og skift til HD",
+"w": [
+"Mere glukose i PD-væsken",
+"Kun længere antibiotikakur"
+],
+"p": 60,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Immunsuppression og kirurgi er forsøgt, men ikke sikkert effektive."
+}
+]

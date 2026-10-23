@@ -1,0 +1,274 @@
+[
+{
+"id": "18:0",
+"q": "Hvordan er muskelstyrke og kondition hos kroniske dialysepatienter i forhold til aldersmatchede raske?",
+"a": "Markant nedsat",
+"w": [
+"Let nedsat",
+"Normal eller bedre"
+],
+"p": 193,
+"lvl": "K",
+"type": "fakta",
+"why": "Både muskelstyrke og aerob kapacitet er markant nedsat, så patienterne får forringet fysisk funktion og ofte svært ved daglige gøremål."
+},
+{
+"id": "18:1",
+"q": "Hvilken faktor bidrager til nedsat muskelstyrke hos dialysepatienter?",
+"a": "Resistens over for anabole hormoner",
+"w": [
+"For højt proteinindtag i kosten",
+"For meget fysisk aktivitet"
+],
+"p": 193,
+"lvl": "U",
+"type": "forståelse",
+"why": "Mangel på eller resistens over for anabole hormoner (testosteron, GH, IGF-I) forrykker balancen mellem opbygning og nedbrydning af protein."
+},
+{
+"id": "18:2",
+"q": "Hvilket hormon er anabolt og kan bidrage til nedsat muskelstyrke, når det mangler?",
+"a": "Væksthormon",
+"w": [
+"Parathyroideahormon",
+"Thyroxin"
+],
+"p": 193,
+"lvl": "D",
+"type": "fakta",
+"why": "Testosteron, væksthormon og IGF-I er de anabole hormoner. Mangel eller resistens nedsætter muskelopbygningen."
+},
+{
+"id": "18:3",
+"q": "Hvad kan aerob træning give dialysepatienter?",
+"a": "Betydeligt bedre kondition",
+"w": [
+"Ingen mærkbar effekt på kondition",
+"Kun bedre muskelstyrke"
+],
+"p": 193,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er veldokumenteret, at aerob træning forbedrer konditionen betydeligt, hvilket er vigtigt for den fysiske kapacitet og hænger sammen med bedre hjertefunktion."
+},
+{
+"id": "18:4",
+"q": "Hvad giver styrketræning især hos dialysepatienter?",
+"a": "Bedre neuromuskulær funktion",
+"w": [
+"Markant større muskelmasse",
+"Bedre kondition alene"
+],
+"p": 193,
+"lvl": "U",
+"type": "forståelse",
+"why": "Styrketræning øger muskelstyrken, nok mest via forbedret neuromuskulær funktion og i mindre grad egentlig muskelhypertrofi."
+},
+{
+"id": "18:5",
+"q": "Hvilken objektiv test kan vise forbedret fysisk funktion efter træning?",
+"a": "Seks-minutters gangtest",
+"w": [
+"Blodtryksmåling i hvile",
+"Ekkokardiografi"
+],
+"p": 193,
+"lvl": "U",
+"type": "fakta",
+"why": "Seks-minutters gangtest og rejse-sætte-sig-test dokumenterer forbedret fysisk funktion efter træning."
+},
+{
+"id": "18:7",
+"q": "Hvilken komorbiditet påvirkes gunstigt af fysisk træning hos dialysepatienter?",
+"a": "Hypertension",
+"w": [
+"Hyperkaliæmi",
+"Anæmi"
+],
+"p": 193,
+"lvl": "K",
+"type": "fakta",
+"why": "Træning har gunstig effekt på hypertension, insulinresistens og inflammation hos dialysepatienter."
+},
+{
+"id": "18:8",
+"q": "Hvad er sammenhængen mellem generel fysisk aktivitet og dødelighed?",
+"a": "Mere aktivitet, lavere dødelighed",
+"w": [
+"Mere aktivitet, højere dødelighed",
+"Ingen sammenhæng"
+],
+"p": 193,
+"lvl": "K",
+"type": "fakta",
+"why": "Øget generel fysisk aktivitet er forbundet med nedsat dødelighed hos dialysepatienter."
+},
+{
+"id": "18:9",
+"q": "Hvad er en gavnlig effekt af træning under HD?",
+"a": "Bedre aerob kapacitet",
+"w": [
+"Færre alarmer fra maskinen",
+"Lavere ultrafiltration"
+],
+"p": 193,
+"lvl": "K",
+"type": "fakta",
+"why": "Træning under HD forbedrer aerob kapacitet, fysisk funktion og livskvalitet."
+},
+{
+"id": "18:10",
+"q": "En patient cykler under HD, og maskinens alarm lyder. Hvad gælder?",
+"a": "Det er forventeligt",
+"w": [
+"Træningen skal stoppes straks",
+"Det tyder på koagulation"
+],
+"p": 193,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Træning kan udløse dialysemaskinens alarmer. Patienterne skal informeres om, at det er forventeligt, da de ellers kan frygte at være til besvær."
+},
+{
+"id": "18:11",
+"q": "Hvilket udstyr kan bruges til træning under HD?",
+"a": "Sengecykel",
+"w": [
+"Løbebånd",
+"Romaskine med glideskinne"
+],
+"p": 194,
+"lvl": "U",
+"type": "fakta",
+"why": "Under HD kan man bruge sengecykler, træningselastikker og vægtmanchetter."
+},
+{
+"id": "18:12",
+"q": "Hvor mange minutters moderat fysisk aktivitet dagligt anbefales voksne, også dialysepatienter?",
+"a": "Mindst 30 minutter",
+"w": [
+"Mindst 10 minutter",
+"Mindst 90 minutter"
+],
+"p": 194,
+"lvl": "K",
+"type": "fakta",
+"why": "Anbefalingen følger Sundhedsstyrelsen: minimum 30 min. moderat aktivitet dagligt og to gange 20 min. højintensiv, muskelstyrkende træning om ugen."
+},
+{
+"id": "18:13",
+"q": "En patient med nydiagnosticeret hjertesygdom skal i gang med højintensiv konditionstræning. Hvad bør ske først?",
+"a": "Kardiologisk vurdering først",
+"w": [
+"Start uden forbehold",
+"Stop af al fysisk træning"
+],
+"p": 194,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Ved nydiagnosticeret hjertesygdom bør patienten henvises til kardiologisk afdeling for at vurdere behov for arbejdstest, før højere intensitet påbegyndes."
+},
+{
+"id": "18:14",
+"q": "Hvilken risiko skal man tænke på ved træning hos patient med neuropati?",
+"a": "Fodsår og frakturer i fødderne",
+"w": [
+"Hyperkaliæmi under træning",
+"Forhøjet blodtryk i hvile"
+],
+"p": 194,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Patienter med neuropati har risiko for hypoglykæmi, forulcerationer og frakturer i fødderne, så træningen skal vurderes individuelt."
+},
+{
+"id": "18:15",
+"q": "Er træning af armen med AV-fistel kontraindiceret?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 194,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er ikke kontraindiceret, men bør undlades, hvis patienten er utryg ved det."
+},
+{
+"id": "18:16",
+"q": "Hvorfor prioriteres ofte benene ved konditionstræning?",
+"a": "Store muskelgrupper giver bedst effekt",
+"w": [
+"Armene er altid skadet af fistlen",
+"Benene kan overvåges lettere"
+],
+"p": 194,
+"lvl": "K",
+"type": "forståelse",
+"why": "Konditionstræning har bedst effekt ved arbejde med store muskelgrupper, og benetræning giver samtidig mest gevinst i dagligdagens funktioner."
+},
+{
+"id": "18:18",
+"q": "Hvordan kan man fremme generel fysisk aktivitet ud over træningstilbud?",
+"a": "Individuelle motiverende samtaler",
+"w": [
+"Mere hvile mellem dialyserne",
+"Kun medicinsk behandling"
+],
+"p": 194,
+"lvl": "U",
+"type": "fakta",
+"why": "Man anbefaler at skabe motivation ved individuelle motiverende samtaler, fx om at tage trapperne frem for elevatoren."
+},
+{
+"id": "18:n0",
+"q": "Hvilken træning giver størst gavn ved begrænset hjerte-kredsløbskapacitet?",
+"a": "Øvelser for isolerede muskelgrupper",
+"w": [
+"Højintensivt løb på tid",
+"Maksimal cykling med hele kroppen"
+],
+"p": 194,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Her begrænses den relative belastning ikke af kardiovaskulære problemer, så styrketræning af isolerede muskelgrupper giver størst gavn."
+},
+{
+"id": "18:n1",
+"q": "Hvilke stoffer tabes ved HD og PD og kan bidrage til nedsat muskelstyrke?",
+"a": "Proteiner og aminosyrer",
+"w": [
+"Glukose og fedt",
+"Kolesterol"
+],
+"p": 193,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved HD og PD tabes proteiner og aminosyrer, og muskelprotein kan nedbrydes under HD, hvilket forrykker balancen mellem opbygning og nedbrydning."
+},
+{
+"id": "18:n2",
+"q": "Hvorfor kan nogle patienter tøve med at træne under HD?",
+"a": "Frygt for at være til besvær",
+"w": [
+"Træning er forbudt under HD",
+"Frygt for at miste dialysepladsen"
+],
+"p": 193,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienterne er positive, men kan være bekymrede for, at tiltaget er til besvær for personalet. Alarmer er forventelige og bør forklares."
+},
+{
+"id": "18:n3",
+"q": "Er der generelt noget til hinder for fysisk træning hos dialysepatienter?",
+"a": "Nej, men vurdér individuelt",
+"w": [
+"Ja, træning frarådes",
+"Kun ved højt blodtryk"
+],
+"p": 194,
+"lvl": "K",
+"type": "fakta",
+"why": "Generelt er der ikke noget til hinder, men individuelle vurderinger bør foretages, fx ved hjertesygdom og neuropati."
+}
+]

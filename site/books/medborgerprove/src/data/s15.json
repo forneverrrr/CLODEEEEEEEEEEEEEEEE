@@ -1,0 +1,596 @@
+[
+{
+"id": "15:0",
+"q": "Hvor mange politiske niveauer har man valg til i Danmark?",
+"a": "Fire",
+"w": [
+"Tre",
+"Seks"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er valg til kommunalbestyrelse, regionsråd, Folketing og Europa-Parlamentet."
+},
+{
+"id": "15:n0",
+"q": "Hvilket valg hører til EU-niveauet?",
+"a": "EU-valget",
+"w": [
+"Valg til Folketinget",
+"Valg til regionsråd"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Europa-Parlamentet er det fjerde niveau ud over kommune, region og Folketing."
+},
+{
+"id": "15:2",
+"q": "Hvem bestemmer, hvornår der skal udskrives folketingsvalg?",
+"a": "Statsministeren",
+"w": [
+"Kongen",
+"Folketingets formand"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er statsministeren, der udskriver valg. Der skal dog være valg mindst hvert fjerde år."
+},
+{
+"id": "15:3",
+"q": "Hvor ofte skal der som minimum være valg til Folketinget?",
+"a": "Hvert fjerde år",
+"w": [
+"Hvert tredje år",
+"Hvert femte år"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Der skal være folketingsvalg mindst hvert fjerde år, men det sker ofte tidligere."
+},
+{
+"id": "15:n1",
+"q": "Hvor gammel skal man være for at stemme til folketingsvalg?",
+"a": "18 år",
+"w": [
+"16 år",
+"21 år"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være fyldt 18 år, have dansk statsborgerskab og fast bopæl i Danmark, på Færøerne eller i Grønland."
+},
+{
+"id": "15:n2",
+"q": "Skal man være dansk statsborger for at stemme til folketingsvalg?",
+"a": "Ja",
+"w": [
+"Nej"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Til folketingsvalg kræves dansk statsborgerskab. Til kommunal- og regionalvalg kræves det ikke."
+},
+{
+"id": "15:5",
+"q": "Hvem har pligt til at stemme ved valg i Danmark?",
+"a": "Ingen",
+"w": [
+"Alle over 18 år",
+"Kun statsborgere"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Man har ikke pligt til at stemme, men mange gør det. Stemmeprocenten er høj i Danmark."
+},
+{
+"id": "15:6",
+"q": "Hvor mange af de stemmeberettigede stemmer normalt ved folketingsvalg?",
+"a": "Cirka 85 procent",
+"w": [
+"Cirka 45 procent",
+"Cirka 65 procent"
+],
+"p": 82,
+"lvl": "K",
+"type": "fakta",
+"why": "Normalt stemmer cirka 85 procent. Det er højt sammenlignet med mange andre lande."
+},
+{
+"id": "15:n3",
+"q": "Hvordan er stemmeprocenten ved EU-valg i forhold til folketingsvalg?",
+"a": "Lavere",
+"w": [
+"Højere",
+"Den samme"
+],
+"p": 82,
+"lvl": "K",
+"type": "forståelse",
+"why": "Færre stemmer til EU-valg og til kommunal- og regionsvalg end til folketingsvalg."
+},
+{
+"id": "15:9",
+"q": "Hvor mange medlemmer vælges i selve Danmark til Folketinget?",
+"a": "175",
+"w": [
+"155",
+"179"
+],
+"p": 83,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark vælger 175. Færøerne og Grønland vælger to hver, så i alt er der 179."
+},
+{
+"id": "15:n4",
+"q": "Hvor mange medlemmer af Folketinget vælger Grønland og Færøerne hver?",
+"a": "To",
+"w": [
+"Fire",
+"Seks"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Grønland og Færøerne vælger hver to medlemmer, så Folketinget har 175 + 4 = 179 medlemmer."
+},
+{
+"id": "15:n5",
+"q": "Hvor mange medlemmer har Folketinget i alt?",
+"a": "179",
+"w": [
+"119",
+"239"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "175 medlemmer vælges i Danmark, og Grønland og Færøerne vælger to hver."
+},
+{
+"id": "15:13",
+"q": "Skal man være dansk statsborger for at stemme til kommunalvalg?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal være 18 år og bo i kommunen, men ikke have dansk statsborgerskab."
+},
+{
+"id": "15:14",
+"q": "Hvem kan stemme til kommunalvalg uden dansk statsborgerskab?",
+"a": "EU-borgere med bopæl",
+"w": [
+"Turister i Danmark",
+"Ingen udlændinge"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Statsborgere i EU, Norge og Island med fast bopæl har stemmeret. Det samme gælder andre udlændinge efter fire års bopæl."
+},
+{
+"id": "15:15",
+"q": "Hvor mange år skal andre udlændinge have boet i Danmark for at stemme til kommunalvalg?",
+"a": "Fire år",
+"w": [
+"To år",
+"Otte år"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Udlændinge uden for EU, Norge og Island skal have boet fast i Danmark de sidste fire år før valgdagen."
+},
+{
+"id": "15:16",
+"q": "Hvad betyder det at være valgbar?",
+"a": "At man kan vælges",
+"w": [
+"At man kan stemme",
+"At man har et valgkort"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Valgbar betyder, at man kan blive valgt. Hvis man har stemmeret, er man som regel også valgbar."
+},
+{
+"id": "15:n6",
+"q": "Hvad hedder valget, der holdes samtidig med kommunalvalget?",
+"a": "Regionsvalget",
+"w": [
+"Folketingsvalget",
+"EU-valget"
+],
+"p": 83,
+"lvl": "U",
+"type": "fakta",
+"why": "Valg til regionsrådet foregår samtidig med valg til kommunalbestyrelsen."
+},
+{
+"id": "15:17",
+"q": "Hvor ofte er der valg til Europa-Parlamentet?",
+"a": "Hvert femte år",
+"w": [
+"Hvert tredje år",
+"Hvert fjerde år"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er EU-valg hvert femte år, fx 2024 og 2029, i alle EU-lande inden for samme periode."
+},
+{
+"id": "15:n7",
+"q": "Hvem har valgret til Europa-Parlamentet i Danmark?",
+"a": "EU-borgere over 18 år",
+"w": [
+"Kun danske statsborgere",
+"Alle over 16 år"
+],
+"p": 83,
+"lvl": "K",
+"type": "fakta",
+"why": "Alle EU-statsborgere over 18 kan stemme. De kan stemme i det land, hvor de bor, eller i det land, hvor de er statsborgere."
+},
+{
+"id": "15:19",
+"q": "Hvor mange medlemmer vælger Danmark til Europa-Parlamentet?",
+"a": "15",
+"w": [
+"10",
+"25"
+],
+"p": 83,
+"lvl": "U",
+"type": "fakta",
+"why": "Danmark vælger 15 medlemmer til Europa-Parlamentet."
+},
+{
+"id": "15:20",
+"q": "Hvad får man med posten før et valg?",
+"a": "Et valgkort",
+"w": [
+"En stemmeseddel",
+"Et pas"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Valgkortet kommer med posten. Stemmesedlen får man først på valgstedet."
+},
+{
+"id": "15:21",
+"q": "Hvad viser et valgkort?",
+"a": "At man må stemme",
+"w": [
+"At man har stemt",
+"At man er partimedlem"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Valgkortet er bevis på stemmeret og viser, hvor og hvornår man skal stemme."
+},
+{
+"id": "15:n8",
+"q": "Du har stemmeret, men har ikke fået valgkort. Hvem kontakter du?",
+"a": "Kommunen",
+"w": [
+"Politiet",
+"Folketinget"
+],
+"p": 84,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Hvis man har ret til at stemme og ikke har fået valgkort, kan man kontakte kommunen."
+},
+{
+"id": "15:22",
+"q": "Hvad skal man have med, hvis man har glemt sit valgkort?",
+"a": "Legitimation",
+"w": [
+"Ingenting",
+"En stemmeseddel"
+],
+"p": 84,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man kan godt stemme uden valgkort, men skal medbringe legitimation."
+},
+{
+"id": "15:23",
+"q": "Du er bortrejst på valgdagen. Hvad kan du gøre for at stemme?",
+"a": "Brevstemme",
+"w": [
+"Stemme blankt",
+"Bede kommunen om valgkort"
+],
+"p": 84,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man kan stemme før valgdagen. Det kaldes at brevstemme, og man kan gøre det i hele landet og på danske repræsentationer i udlandet."
+},
+{
+"id": "15:24",
+"q": "Hvad vil det sige at stemme blankt?",
+"a": "Man sætter ikke noget kryds",
+"w": [
+"Man stemmer på alle partier",
+"Man møder ikke op"
+],
+"p": 84,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved en blank stemme afleverer man sedlen uden kryds, ofte som protest. Man har altså mødt op."
+},
+{
+"id": "15:25",
+"q": "Hvad betyder det, at et valg er hemmeligt?",
+"a": "Ingen må se din stemme",
+"w": [
+"Resultatet er hemmeligt",
+"Man må ikke tale om valget"
+],
+"p": 84,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hemmelig afstemning betyder, at ingen andre må se, hvad eller hvem man stemmer på."
+},
+{
+"id": "15:26",
+"q": "Hvordan stemmer man ved et valg på stemmesedlen med partier og kandidater?",
+"a": "Med et kryds",
+"w": [
+"Med et ja eller nej",
+"Med sin underskrift"
+],
+"p": 84,
+"lvl": "U",
+"type": "fakta",
+"why": "Man sætter kryds ud for et parti eller en kandidat."
+},
+{
+"id": "15:27",
+"q": "Hvad er et politisk parti?",
+"a": "En forening med kandidater",
+"w": [
+"En offentlig myndighed",
+"En fagforening for ansatte"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "Et parti er en forening, der arbejder for et politisk program og opstiller kandidater."
+},
+{
+"id": "15:28",
+"q": "Hvilket parti fik flest stemmer ved folketingsvalget i 2026?",
+"a": "Socialdemokratiet",
+"w": [
+"Venstre",
+"SF"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "Partierne er opført efter stemmetal, og Socialdemokratiet står øverst."
+},
+{
+"id": "15:31",
+"q": "Hvad kaldes en folketingspolitiker uden for partierne?",
+"a": "Løsgænger",
+"w": [
+"Minister",
+"Partiformand"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "Melder en politiker sig ud af sit parti, kan vedkommende blive løsgænger, skifte parti eller starte et nyt og beholder sin plads i Folketinget."
+},
+{
+"id": "15:n9",
+"q": "Skal medlemmer af Folketinget være medlem af et parti?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 85,
+"lvl": "K",
+"type": "fakta",
+"why": "De fleste folketingsmedlemmer er partimedlemmer, men det er sket, at en person er blevet valgt uden at være medlem af et parti."
+},
+{
+"id": "15:32",
+"q": "Hvem kan melde sig ind i et politisk parti?",
+"a": "Enhver",
+"w": [
+"Kun statsborgere",
+"Kun personer over 25"
+],
+"p": 85,
+"lvl": "U",
+"type": "fakta",
+"why": "Enhver kan melde sig ind i et politisk parti."
+},
+{
+"id": "15:n10",
+"q": "Hvad betyder foreningsfriheden for medlemskab af et parti?",
+"a": "Staten må ikke blande sig",
+"w": [
+"Staten vælger medlemmerne",
+"Alle skal være medlem"
+],
+"p": 86,
+"lvl": "U",
+"type": "forståelse",
+"why": "Foreningsfriheden betyder, at ingen myndighed kan blande sig i, om og hvilket parti man melder sig ind i."
+},
+{
+"id": "15:n11",
+"q": "Hvem bestemmer, hvem der er partiets kandidater?",
+"a": "Partiets medlemmer",
+"w": [
+"Regeringen i landet",
+"Kommunalbestyrelsen"
+],
+"p": 86,
+"lvl": "U",
+"type": "forståelse",
+"why": "Partierne er foreninger med demokratisk opbygning, og medlemmerne bestemmer bl.a., hvem der skal være kandidater."
+},
+{
+"id": "15:34",
+"q": "Hvordan får partierne penge af staten?",
+"a": "Efter antal stemmer",
+"w": [
+"Efter antal medlemmer",
+"Alle får lige meget"
+],
+"p": 86,
+"lvl": "U",
+"type": "fakta",
+"why": "Staten giver penge i forhold til, hvor mange stemmer partiet får. Medlemmerne betaler desuden kontingent."
+},
+{
+"id": "15:35",
+"q": "Hvad er en interesseorganisation?",
+"a": "Personer med fælles interesse",
+"w": [
+"Et politisk parti ved valg",
+"Et ministerium i staten"
+],
+"p": 86,
+"lvl": "K",
+"type": "fakta",
+"why": "Det er en sammenslutning af personer med en fælles interesse, fx en fagforening. Den forsøger at påvirke politikken."
+},
+{
+"id": "15:n12",
+"q": "Rengøringspersonale danner en fagforening. Hvilken slags organisation er det?",
+"a": "En interesseorganisation",
+"w": [
+"Et politisk parti",
+"En græsrodsbevægelse"
+],
+"p": 86,
+"lvl": "U",
+"type": "anvendelse",
+"why": "En fagforening er et eksempel på en interesseorganisation: personer med en fælles interesse, som vil påvirke politikken."
+},
+{
+"id": "15:37",
+"q": "Hvad er en græsrodsbevægelse?",
+"a": "En mindre formelt organiseret bevægelse",
+"w": [
+"Et politisk parti",
+"En stor fagforening"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Græsrodsbevægelser er mindre formelt organiseret end interesseorganisationer. Det er først og fremmest deltagernes aktivitet, der giver bevægelsen dens kraft."
+},
+{
+"id": "15:39",
+"q": "Hvad er den mest almindelige protest for græsrodsbevægelser?",
+"a": "Underskriftsindsamling",
+"w": [
+"Strejke",
+"Demonstration"
+],
+"p": 87,
+"lvl": "U",
+"type": "fakta",
+"why": "Græsrodsbevægelser bruger ofte protester. Det mest almindelige er at indsamle underskrifter."
+},
+{
+"id": "15:38",
+"q": "Skal man have politiets tilladelse for at demonstrere?",
+"a": "Nej",
+"w": [
+"Ja"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Der kræves ingen tilladelse, men man skal give politiet besked, før man holder optog og møder på veje."
+},
+{
+"id": "15:n13",
+"q": "Hvad skal man gøre, før man holder optog på en vej?",
+"a": "Give politiet besked",
+"w": [
+"Søge om tilladelse",
+"Betale et gebyr"
+],
+"p": 87,
+"lvl": "K",
+"type": "fakta",
+"why": "Man skal give politiet besked, men der kræves ingen tilladelse."
+},
+{
+"id": "15:n14",
+"q": "Hvornår kan politiet forbyde en demonstration?",
+"a": "Kun i helt særlige tilfælde",
+"w": [
+"Når politiet har lyst",
+"Aldrig, under nogen omstændigheder"
+],
+"p": 87,
+"lvl": "U",
+"type": "forståelse",
+"why": "Der er frihed til at demonstrere. Politiet kan kræve et andet sted eller stille krav, men kun helt undtagelsesvis forbyde."
+},
+{
+"id": "15:40",
+"q": "Hvordan kan man påvirke politik via en avis?",
+"a": "Skrive et læserbrev",
+"w": [
+"Sende en stemmeseddel",
+"Møde op på rådhuset"
+],
+"p": 87,
+"lvl": "U",
+"type": "fakta",
+"why": "Man kan skrive et læserbrev eller kontakte aviser og TV, så de tager sagen op."
+},
+{
+"id": "15:n15",
+"q": "Hvad er Danmarks vigtigste eksempel på at afgive suverænitet?",
+"a": "Medlemskab af EU",
+"w": [
+"Medlemskab af NATO",
+"Medlemskab af FN"
+],
+"p": 82,
+"lvl": "U",
+"type": "forståelse",
+"why": "Afgivelse af suverænitet betyder at overlade dansk selvbestemmelse til et internationalt organ. EU-medlemskabet er det vigtigste eksempel."
+},
+{
+"id": "15:n16",
+"q": "Hvad er et lokalt parti?",
+"a": "Parti i kun én kommune",
+"w": [
+"Et parti uden medlemmer",
+"Et parti kun i Folketinget"
+],
+"p": 83,
+"lvl": "D",
+"type": "fakta",
+"why": "Lokale partier stiller ikke op til Folketinget, men kun i en bestemt kommune."
+}
+]

@@ -329,3 +329,9 @@ h2{font-size:19px;font-weight:700;letter-spacing:0;text-transform:none;color:var
 .tbl{min-width:0}
 .tbl th,.tbl td{padding:6px 6px}
 .wrap,.col,.sec{min-width:0}
+
+.fb.why{background:var(--soft);color:var(--ink)}
+.fb.why b{color:var(--accent)}
+.lst{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;max-width:70ch}
+.lst li{line-height:1.4}
+.intro{gap:14px}

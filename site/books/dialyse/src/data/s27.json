@@ -1,0 +1,587 @@
+[
+{
+"id": "27:0",
+"q": "Hvad står forkortelsen MMU for i nefrologien?",
+"a": "Maksimal medicinsk uræmibehandling",
+"w": [
+"Maksimal medicinsk understøttelse af nyrefunktion",
+"Minimal medicinsk uræmibehandling uden dialyse"
+],
+"p": 255,
+"lvl": "K",
+"type": "fakta",
+"why": "MMU er aktiv medicinsk behandling af uræmi uden dialyse. Tidligere blev den kaldt konservativ behandling."
+},
+{
+"id": "27:1",
+"q": "Hvad blev MMU tidligere kaldt i Danmark?",
+"a": "Konservativ behandling",
+"w": [
+"Palliativ dialyse",
+"Substitutionsbehandling"
+],
+"p": 255,
+"lvl": "K",
+"type": "fakta",
+"why": "MMU bruges i Danmark om det, der tidligere blev omtalt som konservativ behandling. Længe blev det opfattet som et fravalg af dialyse, men er nu et aktivt tilvalg."
+},
+{
+"id": "27:3",
+"q": "Hvordan blev MMU i lang tid opfattet i forhold til dialyse?",
+"a": "Som sundhedsfagligt fravalg af dialyse",
+"w": [
+"Som et aktivt tilvalg for patienterne",
+"Som standardbehandling til alle ældre"
+],
+"p": 255,
+"lvl": "U",
+"type": "fakta",
+"why": "Tidligere dialyserede man ikke alle terminale patienter. Først i de senere år er MMU blevet et aktivt tilvalg."
+},
+{
+"id": "27:4",
+"q": "Hvilke patienter blev tidligere typisk ikke dialyseret?",
+"a": "Gamle og multisyge",
+"w": [
+"Alle patienter med diabetes",
+"Alle patienter under 50 år"
+],
+"p": 255,
+"lvl": "U",
+"type": "fakta",
+"why": "Høj alder, dårlig livskvalitet/funktionsniveau og komorbiditet var de klassiske grunde til at undlade dialyse."
+},
+{
+"id": "27:7",
+"q": "Hvilken status har MMU i dag i forhold til dialyse?",
+"a": "Fuldgyldigt alternativ og aktivt tilvalg",
+"w": [
+"Nødløsning, når dialyse ikke kan gives i tide",
+"Forstadium, der altid går forud for dialyse"
+],
+"p": 255,
+"lvl": "K",
+"type": "forståelse",
+"why": "Siden holdningspapiret fra 2012 er MMU et fagligt, fuldgyldigt alternativ, som patienten aktivt kan vælge."
+},
+{
+"id": "27:10",
+"q": "Hvor stor en andel af dialysepatienter er kandidater til nyretransplantation?",
+"a": "Under 20 %",
+"w": [
+"Omkring 50 %",
+"Over 80 %"
+],
+"p": 255,
+"lvl": "U",
+"type": "fakta",
+"why": "Kun et mindretal kan transplanteres, og de fleste, der starter kronisk dialyse, er ældre end 65 år."
+},
+{
+"id": "27:n0",
+"q": "Hvor gamle er de fleste, der starter kronisk dialyse?",
+"a": "Ældre end 65 år",
+"w": [
+"Yngre end 40 år",
+"Mellem 40 og 55 år"
+],
+"p": 255,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialysepopulationen er overvejende ældre med komorbiditet. Netop for dem er MMU et relevant alternativ."
+},
+{
+"id": "27:12",
+"q": "Hvor mange over 70 år dør inden for første år efter dialysestart?",
+"a": "Ca. 30 %",
+"w": [
+"Ca. 5 %",
+"Ca. 60 %"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "Selv med veltilrettelagt dialyse har ældre dialysestartere kort restlevetid. Det taler for at overveje MMU."
+},
+{
+"id": "27:13",
+"q": "Hvad svarer dialysepatienters dødelighed og symptombyrde til?",
+"a": "Kræftpatienters",
+"w": [
+"Astmapatienters",
+"Hypertonipatienters"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Dødelighed og symptombyrde er høj og sammenlignelig med kræftpatienters, derfor er palliativ tankegang relevant."
+},
+{
+"id": "27:n1",
+"q": "Hvorfor kan dialyse forringe livskvaliteten hos nogle ældre?",
+"a": "Den er meget tidskrævende",
+"w": [
+"Den giver altid stærke smerter",
+"Den kræver daglig indlæggelse"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dialysens tidsforbrug påvirker hverdagen, og den lindrer ikke symptomerne fra patientens øvrige kroniske sygdomme."
+},
+{
+"id": "27:15",
+"q": "Hvem er MMU primært rettet mod?",
+"a": "Ældre, skrøbelige patienter",
+"w": [
+"Børn med kronisk nyresvigt",
+"Unge uden andre sygdomme"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "MMU tilbydes fortrinsvis ældre, men kan også tilbydes patienter med anden livstruende sygdom og kort restlevetid."
+},
+{
+"id": "27:16",
+"q": "Hvad bevares oftest bedst uden kronisk dialyse hos patienter med flere alvorlige sygdomme?",
+"a": "Livskvaliteten",
+"w": [
+"Restlevetiden",
+"Nyrefunktionen"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Hos multisyge kan fokus lægges på livskvalitet frem for restlevetid, så et reelt alternativ til dialyse er vigtigt."
+},
+{
+"id": "27:17",
+"q": "Hvordan adskiller MMU-patienter sig fra dialysepatienter?",
+"a": "Ældre og mere skrøbelige",
+"w": [
+"Yngre og med bedre funktion",
+"Næsten ens"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "MMU-patienter er ældre, har større komorbiditet og lavere funktionsniveau end dialysepatienter."
+},
+{
+"id": "27:18",
+"q": "Hvad viser metaanalysen om overlevelse ved dialyse versus MMU?",
+"a": "Længere ved dialyse",
+"w": [
+"Længere ved MMU-behandling",
+"Ingen forskel mellem dem"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "MMU-patienterne er dog ældre og mere syge, og fordelen ved dialyse mindskes med alder og komorbiditet."
+},
+{
+"id": "27:19",
+"q": "Hvornår mindskes overlevelsesfordelen ved dialyse?",
+"a": "Ved høj alder og mere komorbiditet",
+"w": [
+"Ved lav alder og få sygdomme",
+"Ved god funktion og få komorbiditeter"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ved samtidig kardiovaskulær sygdom eller anden komorbiditet og høj alder bliver forskellen mellem dialyse og MMU mindre."
+},
+{
+"id": "27:20",
+"q": "Hvem har ingen væsentlig overlevelsesforskel mellem dialyse og MMU?",
+"a": "Over 80 år og 3+ komorbiditeter",
+"w": [
+"Under 60 år uden andre sygdomme",
+"Patienter med kun én komorbiditet"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "Hos de ældste med mange komorbiditeter giver dialyse ikke en væsentlig overlevelsesgevinst."
+},
+{
+"id": "27:n2",
+"q": "En 84-årig med fire komorbiditeter spørger, om dialyse forlænger hendes liv. Hvad er rimeligt at sige?",
+"a": "Ingen væsentlig overlevelsesfordel",
+"w": [
+"Dialyse forlænger altid livet betydeligt",
+"MMU forlænger altid livet betydeligt"
+],
+"p": 256,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Over 80 år og tre eller flere komorbiditeter giver ingen væsentlig overlevelsesforskel mellem dialyse og MMU."
+},
+{
+"id": "27:n3",
+"q": "Hvorfor kan dialyse være uhensigtsmæssig for en skrøbelig 85-årig?",
+"a": "Komplikationer og kort restlevetid",
+"w": [
+"Dialyse har ingen effekt på ældre",
+"Nyrefunktionen kan ikke måles hos ældre"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Ældre multisyge har øget risiko for komplikationer som infektion og kort forventet restlevetid, så gevinsten ved dialyse bliver lille."
+},
+{
+"id": "27:n4",
+"q": "En skrøbelig 85-årig med hjertesvigt og terminalt nyresvigt vil ikke dialysere. Hvad kan tilbydes?",
+"a": "MMU som aktivt tilvalg",
+"w": [
+"Ingen behandling overhovedet",
+"Kun akut dialyse ved behov"
+],
+"p": 256,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Fravalg af dialyse er ikke fravalg af behandling. MMU er aktiv behandling med fokus på livskvalitet og symptomlindring."
+},
+{
+"id": "27:23",
+"q": "Hvilke patienter har generelt flest indlæggelsesdage: dialyse eller MMU?",
+"a": "Dialysepatienter",
+"w": [
+"Patienter i MMU-behandling",
+"Ingen forskel mellem grupperne"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "Generelt findes flere indlæggelsesdage hos dialysepatienter end ved MMU."
+},
+{
+"id": "27:24",
+"q": "Hvor ønsker mange nyresyge patienter at dø?",
+"a": "Hjemme eller på hospice",
+"w": [
+"På intensivafdeling på sygehus",
+"På sygehus med fuld behandling"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "Et stort ønske er at dø hjemme eller på hospice, og det er netop mere sandsynligt ved MMU."
+},
+{
+"id": "27:25",
+"q": "Hvilken behandling gør det mest sandsynligt at dø hjemme eller på hospice?",
+"a": "MMU",
+"w": [
+"Hæmodialyse",
+"Peritonealdialyse"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved MMU er der langt højere sandsynlighed for, at patientens ønske om at dø hjemme eller på hospice opfyldes."
+},
+{
+"id": "27:26",
+"q": "Hvem træffer beslutningen om behandlingsvalg, dialyse eller MMU?",
+"a": "Patient og pårørende efter information",
+"w": [
+"Nyrelægen alene",
+"Det tværfaglige team"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Beslutningen skal træffes af patient og pårørende på oplyst grundlag. Fagpersonerne informerer og rådgiver."
+},
+{
+"id": "27:27",
+"q": "Ved hvilken eGFR starter dialogen om behandlingsvalg oftest?",
+"a": "15-20 ml/min./1,73 m²",
+"w": [
+"5-8 ml/min./1,73 m²",
+"45-60 ml/min./1,73 m²"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialogen tages, når nyrefunktionen er betydeligt nedsat, så der er tid til afklaring før en eventuel dialysestart."
+},
+{
+"id": "27:29",
+"q": "Hvilken aldersgrænse bruger mange afdelinger som udgangspunkt for at overveje MMU?",
+"a": "Over 75 år",
+"w": [
+"Over 55 år",
+"Over 90 år"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "Alder er ét af flere kriterier sammen med komorbiditet, funktionsniveau, p-albumin og surprise question."
+},
+{
+"id": "27:30",
+"q": "Hvilken værdi af Charlson Comorbidity Index (CCI) bruges som udgangspunkt for at overveje MMU?",
+"a": "CCI over 6",
+"w": [
+"CCI over 2",
+"CCI over 12"
+],
+"p": 256,
+"lvl": "U",
+"type": "fakta",
+"why": "CCI måler komorbiditet. En høj værdi (over 6) er et af kriterierne for at overveje MMU."
+},
+{
+"id": "27:n5",
+"q": "En 80-årig har CCI 8, lavt p-albumin og kan ikke komme til hospitalet uden hjælp. Hvad bør især drøftes?",
+"a": "MMU",
+"w": [
+"Hjemmehæmodialyse",
+"Nyretransplantation"
+],
+"p": 256,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Høj alder, høj CCI, lavt p-albumin og behov for transporthjælp er kriterier, mange afdelinger bruger til at overveje MMU."
+},
+{
+"id": "27:34",
+"q": "Hvad lyder »surprise question« på?",
+"a": "Ville det overraske mig, hvis patienten døde inden for 6-12 måneder?",
+"w": [
+"Ville det overraske mig, hvis patienten startede dialyse inden for 6-12 måneder?",
+"Ville det overraske mig, hvis patienten overlevede de næste 5 år?"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Spørgsmålet bruges til at vurdere, om patienten har kort restlevetid og kan være kandidat til MMU."
+},
+{
+"id": "27:35",
+"q": "Hvilken test er bedst til at udpege MMU-kandidater?",
+"a": "Surprise question",
+"w": [
+"Charlson-indekset",
+"P-albumin"
+],
+"p": 256,
+"lvl": "K",
+"type": "fakta",
+"why": "Surprise question har vist sig at være den bedste test, men ingen enkelt test er sikker."
+},
+{
+"id": "27:n6",
+"q": "Nyrelægen ville ikke blive overrasket, hvis en patient døde inden for 6-12 måneder. Hvad peger det på?",
+"a": "Patienten kan være MMU-kandidat",
+"w": [
+"Patienten skal dialyseres akut",
+"Patienten skal transplanteres"
+],
+"p": 256,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Hvis svaret på surprise question er, at det ikke ville overraske, tyder det på kort restlevetid, og MMU bør overvejes."
+},
+{
+"id": "27:n7",
+"q": "Hvorfor bruger afdelinger flere kriterier til at finde MMU-kandidater?",
+"a": "Intet enkelt værktøj er sikkert",
+"w": [
+"Det er et lovkrav",
+"Dialyse er dyrere end MMU"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der findes endnu ikke ét screeningsværktøj, som med sikkerhed udpeger, hvem der får mest gavn af MMU eller dialyse."
+},
+{
+"id": "27:36",
+"q": "Hvorfor er det vigtigt at vurdere patientens forventede levetid?",
+"a": "Giver realistiske mål for behandlingen",
+"w": [
+"Bestemmer den billigste behandling",
+"Afgør dialysedosis"
+],
+"p": 256,
+"lvl": "K",
+"type": "forståelse",
+"why": "Levetid er svær at forudsige, men vurderingen hjælper patienten til realistiske mål for både dialyse og MMU."
+},
+{
+"id": "27:38",
+"q": "Hvilket dansk værktøj støtter patientens valg mellem dialyse og MMU?",
+"a": "Fælles beslutningstagning ved dialysevalg",
+"w": [
+"Surprise question",
+"Charlson-indekset"
+],
+"p": 257,
+"lvl": "U",
+"type": "fakta",
+"why": "Værktøjet sikrer god information og hjælper patienten til et mere oplyst valg, ofte i en behandlingsvalgssamtale."
+},
+{
+"id": "27:39",
+"q": "Hvem bør tilbydes en ACP-samtale?",
+"a": "Alle med terminalt nyresvigt og pårørende",
+"w": [
+"Kun patienter, der vælger MMU",
+"Kun patienter over 75 år"
+],
+"p": 257,
+"lvl": "K",
+"type": "fakta",
+"why": "Nyresvigt fører i sidste ende til døden, så alle bør kunne drøfte ønsker og forventninger, ikke kun MMU-patienter."
+},
+{
+"id": "27:40",
+"q": "Hvad står ACP for?",
+"a": "Advance Care Planning",
+"w": [
+"Acute Care Protocol",
+"Active Clinical Procedure"
+],
+"p": 257,
+"lvl": "U",
+"type": "fakta",
+"why": "ACP er en samtaleproces om patientens ønsker og forventninger til behandling og den sidste tid."
+},
+{
+"id": "27:41",
+"q": "Hvad afdækker en ACP-samtale bl.a.?",
+"a": "Ønsker til sidste tid og fravalg af genoplivning",
+"w": [
+"Kostvaner og motionsvaner",
+"Valg af dialyseadgang"
+],
+"p": 257,
+"lvl": "K",
+"type": "fakta",
+"why": "ACP afdækker ønsker og forventninger til behandlingen, herunder den sidste tid, evt. hospice og fravalg af genoplivning."
+},
+{
+"id": "27:n8",
+"q": "En patient med terminalt nyresvigt vil tale om hospice og genoplivning. Hvilken samtale passer?",
+"a": "ACP-samtale",
+"w": [
+"Behandlingsvalgssamtale om dialyse",
+"Kontrolsamtale i ambulatoriet"
+],
+"p": 257,
+"lvl": "K",
+"type": "anvendelse",
+"why": "ACP-samtalen er rammen for ønsker til den sidste tid, hospice og fravalg af genoplivning."
+},
+{
+"id": "27:43",
+"q": "Hvad er vigtigst ved, hvem der følger MMU-patienten?",
+"a": "At patienten oplever tryghed",
+"w": [
+"At forløbet er billigst",
+"At forløbet er kortest muligt"
+],
+"p": 257,
+"lvl": "U",
+"type": "forståelse",
+"why": "Patienter følges i ambulatorium, MMU-team eller hos kontaktlæge. Det afgørende er, at patienten føler sig tryg."
+},
+{
+"id": "27:45",
+"q": "Hvilken behandling opretholdes i den tidlige fase af MMU?",
+"a": "Progressionshæmmende behandling",
+"w": [
+"Dialyse",
+"Transplantationsudredning"
+],
+"p": 257,
+"lvl": "K",
+"type": "fakta",
+"why": "Man forsøger fortsat at bremse nyresygdommens udvikling tidligt i forløbet, før fokus skifter til symptomlindring."
+},
+{
+"id": "27:46",
+"q": "Hvad får øget fokus i MMU, når nyrefunktionen og restlevetiden falder?",
+"a": "Medicinsanering",
+"w": [
+"Flere forebyggende lægemidler",
+"Hyppigere kontrolprøver"
+],
+"p": 257,
+"lvl": "K",
+"type": "forståelse",
+"why": "Når restlevetiden er kort, har forebyggende medicin mindre værdi, og fokus flyttes til symptomlindring."
+},
+{
+"id": "27:47",
+"q": "En MMU-patient får et lægemiddel, som kun forebygger fremtidig sygdom. Hvad bør overvejes?",
+"a": "Seponering",
+"w": [
+"Højere dosis",
+"Skift til dialyse"
+],
+"p": 257,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lægemidler, hvis formål alene er forebyggende, bør seponeres, når restlevetiden falder."
+},
+{
+"id": "27:48",
+"q": "Hvad sker der oftest med symptomlindrende lægemidler i MMU?",
+"a": "De bibeholdes og øges ofte",
+"w": [
+"De seponeres",
+"De erstattes af forebyggende medicin"
+],
+"p": 257,
+"lvl": "K",
+"type": "forståelse",
+"why": "Symptomlindrende medicin bevares og øges ofte i dosis eller antal, fordi livskvalitet er målet."
+},
+{
+"id": "27:51",
+"q": "Hvad går MMU med tiden over i?",
+"a": "Palliation med fokus på symptomlindring",
+"w": [
+"Dialysebehandling",
+"Transplantationsudredning"
+],
+"p": 257,
+"lvl": "K",
+"type": "forståelse",
+"why": "Med tiden bliver MMU en mere palliativt orienteret behandling, hvor symptomlindring er i centrum."
+},
+{
+"id": "27:52",
+"q": "Hvem varetager den basale palliation i MMU?",
+"a": "Egen læge og hjemmesygeplejen",
+"w": [
+"Palliativ enhed",
+"Hospice"
+],
+"p": 257,
+"lvl": "K",
+"type": "fakta",
+"why": "Basal palliation ydes i samråd med egen læge og hjemmesygeplejen. Specialiserede enheder tages kun i brug ved behov."
+},
+{
+"id": "27:53",
+"q": "Hvor kan en MMU-patient henvises ved behov for specialiseret palliation?",
+"a": "Palliativ enhed eller hospice",
+"w": [
+"Dialyseafdeling",
+"Egen læge"
+],
+"p": 257,
+"lvl": "K",
+"type": "fakta",
+"why": "Ved komplekse behov henvises til specialiseret palliativ behandling i en palliativ enhed eller på hospice."
+}
+]

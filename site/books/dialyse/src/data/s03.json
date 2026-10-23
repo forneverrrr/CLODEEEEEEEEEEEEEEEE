@@ -1,0 +1,509 @@
+[
+{
+"id": "3:1",
+"q": "Hvad siger evidensen om, hvilken dialysemodalitet der er bedst?",
+"a": "Ingen er påvist bedre",
+"w": [
+"HD er påvist bedst",
+"PD er påvist bedst"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "Der er ikke evidens for, at én modalitet er bedre end de andre. Derfor afgøres valget af patientens præferencer."
+},
+{
+"id": "3:2",
+"q": "Hvordan er overlevelsen i HD og PD ifølge international litteratur?",
+"a": "Ens",
+"w": [
+"Bedre i HD",
+"Bedre i PD"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "International litteratur har vist samme overlevelse i HD og PD. I Danmark er overlevelsen dog tilsyneladende bedre i PD de første halvandet år hos patienter under 55 år uden diabetes."
+},
+{
+"id": "3:n0",
+"q": "Hvilke patienter har i Danmark tilsyneladende bedre overlevelse i PD de første 1½ år?",
+"a": "Under 55 år uden diabetes",
+"w": [
+"Over 75 år med diabetes",
+"Alle med hjertesvigt"
+],
+"p": 33,
+"lvl": "D",
+"type": "fakta",
+"why": "I Danmark ser PD ud til at give bedre overlevelse de første halvandet år hos patienter under 55 år uden diabetes."
+},
+{
+"id": "3:5",
+"q": "Hvorfor varierer fordelingen af dialysemodaliteter meget mellem danske centre?",
+"a": "Også personalets præferencer varierer",
+"w": [
+"Kun patienternes egne præferencer",
+"Kun forskellige lovkrav"
+],
+"p": 33,
+"lvl": "K",
+"type": "forståelse",
+"why": "Variationen skyldes ikke kun patientpræferencer, men også forskellige præferencer hos de sundhedsprofessionelle."
+},
+{
+"id": "3:4",
+"q": "Hvilke patienter ser ud til oftest at opleve, at de har været involveret i dialysevalget?",
+"a": "PD-patienter",
+"w": [
+"HD-patienter",
+"Transplanterede"
+],
+"p": 33,
+"lvl": "U",
+"type": "fakta",
+"why": "Det ser ud som om, patienter i PD i højere grad end HD-patienter oplever at have været involveret i beslutningsprocessen."
+},
+{
+"id": "3:6",
+"q": "Hvad vælger flere patienter, når de involveres i valget af dialyse?",
+"a": "Hjemmebehandling",
+"w": [
+"Hospitals-HD",
+"Ingen dialyse"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienter, der inddrages i dialysevalget, vælger oftere en hjemmebaseret behandling."
+},
+{
+"id": "3:7",
+"q": "Hvordan påvirker fælles beslutningstagning patientens viden og tvivl?",
+"a": "Mere viden og mindre tvivl",
+"w": [
+"Mere viden og mere tvivl",
+"Ingen effekt på tvivl"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "Fælles beslutningstagning øger viden og involvering og mindsker tvivl om, at valget er rigtigt. Der er ingen risici forbundet med det."
+},
+{
+"id": "3:n1",
+"q": "Hvad kendetegner fælles beslutningstagning?",
+"a": "Patient og fagperson vælger i samarbejde",
+"w": [
+"Lægen vælger, og patienten accepterer",
+"Patienten vælger helt alene uden hjælp"
+],
+"p": 33,
+"lvl": "K",
+"type": "fakta",
+"why": "Begge parter udveksler, hvordan de forstår mulighederne og begrunder præferencer, og de implementerer i fællesskab det valg, de er enige om."
+},
+{
+"id": "3:10",
+"q": "Hvad er formålet med et beslutningsstøtteredskab?",
+"a": "At gøre valg og muligheder tydelige",
+"w": [
+"At træffe selve valget for patienten",
+"At erstatte samtalen med lægen"
+],
+"p": 34,
+"lvl": "K",
+"type": "fakta",
+"why": "Redskabet understøtter beslutningsprocessen: det viser, hvilken beslutning der skal træffes, sammenligner mulighederne og hjælper patienten med at finde ud af, hvad der er vigtigt."
+},
+{
+"id": "3:11",
+"q": "Hvilken samtalemodel bruges til dialysevalg ved fælles beslutningstagning?",
+"a": "The three talk-modellen",
+"w": [
+"PICO-modellen",
+"SOAP-modellen"
+],
+"p": 34,
+"lvl": "K",
+"type": "fakta",
+"why": "Dialysevalg kan bygges op om three talk-modellen med tre trin, hvor man bevæger sig frem og tilbage efter patientens behov."
+},
+{
+"id": "3:13",
+"q": "Hvad handler første trin i three talk-modellen om?",
+"a": "Samarbejde",
+"w": [
+"Mulighederne",
+"Selve beslutningen"
+],
+"p": 34,
+"lvl": "K",
+"type": "fakta",
+"why": "Trin 1 afklarer patientens ønsker til samarbejde, hvilke valg der skal træffes, og hvilken hjælp patienten har brug for."
+},
+{
+"id": "3:14",
+"q": "Hvad handler andet trin i three talk-modellen om?",
+"a": "Mulighederne",
+"w": [
+"Samarbejde",
+"Selve beslutningen"
+],
+"p": 34,
+"lvl": "K",
+"type": "fakta",
+"why": "Trin 2 drøfter alternativerne og bruger principperne for risikokommunikation."
+},
+{
+"id": "3:15",
+"q": "Hvad handler tredje trin i three talk-modellen om?",
+"a": "Selve beslutningen",
+"w": [
+"Samarbejde",
+"Mulighederne"
+],
+"p": 34,
+"lvl": "K",
+"type": "fakta",
+"why": "Trin 3 hjælper patienten til at kende egne præferencer og træffe beslutning, bl.a. gennem værdiafklaring."
+},
+{
+"id": "3:n2",
+"q": "Sygeplejersken spørger: \"Hvilken støtte har du brug for for at træffe beslutningen?\" Hvilket trin er det?",
+"a": "Samtale om samarbejde",
+"w": [
+"Samtale om mulighederne",
+"Samtale om beslutningen"
+],
+"p": 34,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Spørgsmålet om støtte hører til trin 1, hvor man afklarer samarbejdet og patientens behov."
+},
+{
+"id": "3:n3",
+"q": "Sygeplejersken spørger: \"Hvad er vigtigt for dig ved mulighederne?\" Hvilket trin er det?",
+"a": "Samtale om beslutningen",
+"w": [
+"Samtale om samarbejde",
+"Samtale om mulighederne"
+],
+"p": 34,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Spørgsmål om, hvad patienten værdsætter, hører til trin 3, hvor præferencerne afklares og beslutningen træffes."
+},
+{
+"id": "3:20",
+"q": "Hvad afgør i sidste ende, hvilken dialyseform der er rigtig for patienten?",
+"a": "Patientens præferencer",
+"w": [
+"Lægens vurdering",
+"Blodprøvesvarene"
+],
+"p": 35,
+"lvl": "K",
+"type": "forståelse",
+"why": "Fordele og ulemper opleves forskelligt fra patient til patient. Fagpersoner kan derfor ikke afgøre valget, men kun hjælpe patienten med at træffe det."
+},
+{
+"id": "3:n4",
+"q": "En ældre patient siger: \"Bestem du, doktor.\" Hvad er den rette tilgang?",
+"a": "Hjælpe ham med at vælge efter hans værdier",
+"w": [
+"Vælge HD på hans vegne",
+"Lade de pårørende bestemme for ham"
+],
+"p": 35,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Man forklarer, at dialysevalget afhænger af patientens præferencer, og tilbyder hjælp til selv at træffe beslutningen, fx med et beslutningsdiagram."
+},
+{
+"id": "3:21",
+"q": "Hvad kan gøre det tydeligt, hvilken beslutning patienten står over for?",
+"a": "Et beslutningsdiagram",
+"w": [
+"Et blodprøvesvar",
+"Et samtykkeskema"
+],
+"p": 35,
+"lvl": "U",
+"type": "fakta",
+"why": "Et beslutningsdiagram viser mulighederne, fx dialyse, medicinsk lindrende behandling eller at stoppe, og hjælper patienten med at gå aktivt ind i processen."
+},
+{
+"id": "3:22",
+"q": "En patient oplever sig som rask og finder dialysevalget uaktuelt. Hvad kan øge hans indsigt?",
+"a": "Billeder af nyresvigtssymptomer",
+"w": [
+"Oversigt over blodprøvesvar",
+"Udsættelse af samtalen"
+],
+"p": 35,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Lav GFR ses kun i blodprøver, ikke på egen krop. Billeder af symptomer set fra patientens perspektiv øger indsigten og engagementet."
+},
+{
+"id": "3:23",
+"q": "Hvorfor bør dialysevalget træffes i god tid?",
+"a": "Planlagt start giver bedre udbytte end akut",
+"w": [
+"Akut start er forbudt ved lov",
+"Valget kan ikke ændres senere"
+],
+"p": 36,
+"lvl": "K",
+"type": "forståelse",
+"why": "Man kender ikke det præcise tidspunkt for dialysestart, men planlagt start har et væsentligt bedre udbytte end akut start."
+},
+{
+"id": "3:25",
+"q": "Hvad kaldes metoden, hvor patienten forklarer med egne ord, hvad man har sagt?",
+"a": "Undervis tilbage",
+"w": [
+"Motiverende samtale",
+"Værdiafklaring"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "Undervis tilbage (teach-back) kontrollerer, at patienten har forstået mulighederne, ved at patienten gentager dem med egne ord."
+},
+{
+"id": "3:26",
+"q": "Hvilke spørgsmål bør bruges ved undervis tilbage?",
+"a": "Åbne spørgsmål",
+"w": [
+"Ja/nej-spørgsmål",
+"Ledende spørgsmål"
+],
+"p": 37,
+"lvl": "K",
+"type": "forståelse",
+"why": "Et ja/nej-spørgsmål viser ikke, om patienten har forstået. Åbne spørgsmål får patienten til selv at forklare."
+},
+{
+"id": "3:n5",
+"q": "En patient afviser at høre om risici. Hvad gør man i risikokommunikation?",
+"a": "Undersøger patientens behov for information",
+"w": [
+"Fortæller alle tal alligevel",
+"Forklarer risikoen uden at undersøge, om patienten ønsker den"
+],
+"p": 37,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Første princip i risikokommunikation er at undersøge patientens behov for information, da ikke alle ønsker at kende risikoen."
+},
+{
+"id": "3:n6",
+"q": "Hvorfor kan man kun give usikre tal ved dialysevalg?",
+"a": "Evidensen er begrænset",
+"w": [
+"Tallene er fortrolige",
+"Patienterne vil ikke vide det"
+],
+"p": 37,
+"lvl": "U",
+"type": "forståelse",
+"why": "Der er begrænset evidens for dialysevalg, så man må anerkende den videnskabelige usikkerhed i stedet for at give eksakte tal."
+},
+{
+"id": "3:29",
+"q": "På hvilket område er der nogen evidens ved sammenligning af HD og PD?",
+"a": "Infektion",
+"w": [
+"Livskvalitet",
+"Hospitalsindlæggelser"
+],
+"p": 37,
+"lvl": "U",
+"type": "fakta",
+"why": "Infektion er det eneste område med nogen evidens, når HD og PD sammenlignes."
+},
+{
+"id": "3:30",
+"q": "Hvad er værdiafklaring i fælles beslutningstagning?",
+"a": "At undersøge og veje patientens præferencer",
+"w": [
+"At informere patienten om risici",
+"At indhente patientens skriftlige samtykke"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "Man støtter patienten i at undersøge egne præferencer og værdier og veje dem op mod hinanden, fx med et skema over fordele og ulemper."
+},
+{
+"id": "3:31",
+"q": "Hvordan undersøger man, hvor vigtige fordele og ulemper er for patienten?",
+"a": "Patienten scorer dem fra 1 til 5",
+"w": [
+"Lægen vurderer dem",
+"De pårørende scorer dem"
+],
+"p": 37,
+"lvl": "U",
+"type": "fakta",
+"why": "Når patienten scorer fordele og ulemper, ses det, hvor betydningsfulde de opleves af patienten selv."
+},
+{
+"id": "3:32",
+"q": "Hvorfor taler man om plan A og plan B ved dialysevalg?",
+"a": "De fleste vil prøve flere dialyseformer",
+"w": [
+"Første valg fejler næsten altid",
+"Lægen skifter ofte planen"
+],
+"p": 37,
+"lvl": "K",
+"type": "forståelse",
+"why": "Der findes ikke et bedste valg, da de fleste patienter oplever alle dialyseformer i løbet af deres sygdom."
+},
+{
+"id": "3:33",
+"q": "Hvornår anbefales det at ændre dialysevalget, hvis patienten ønsker det?",
+"a": "Inden for 3 måneder efter start",
+"w": [
+"Først efter 1 år",
+"Allerede efter få dage"
+],
+"p": 37,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienten kan ændre beslutning, men det anbefales at gøre det inden for de første tre måneder efter dialysestart."
+},
+{
+"id": "3:34",
+"q": "Hvor ofte bør patienten opfordres til at genoverveje sit valg?",
+"a": "Hvert halve år",
+"w": [
+"Hver måned",
+"Hvert femte år"
+],
+"p": 37,
+"lvl": "U",
+"type": "fakta",
+"why": "Der kan gå lang tid fra valget til dialysebehov, og store fysiske, psykiske eller sociale ændringer kalder på nyt overblik."
+},
+{
+"id": "3:35",
+"q": "Hvorfor bør pårørende inviteres til dialysevalgssamtaler?",
+"a": "Valget påvirker også dem",
+"w": [
+"De skal betale",
+"Det er et lovkrav"
+],
+"p": 37,
+"lvl": "K",
+"type": "forståelse",
+"why": "Dialysevalget har stor betydning også for de nære pårørende. Man bør desuden afklare, om og hvordan de påvirker patientens beslutning."
+},
+{
+"id": "3:36",
+"q": "Hvilken støtte kan pårørende selv have brug for?",
+"a": "Følelsesmæssig, informationsmæssig og fysisk",
+"w": [
+"Kun økonomisk støtte",
+"Kun hjælp til praktiske opgaver"
+],
+"p": 38,
+"lvl": "D",
+"type": "fakta",
+"why": "Pårørende kan have egne behov for støtte følelsesmæssigt, informationsmæssigt og fysisk."
+},
+{
+"id": "3:n7",
+"q": "En patient føler sig presset af sine pårørende til et bestemt valg. Hvad kan personalet gøre?",
+"a": "Afdække det ved at spørge ind",
+"w": [
+"Udelukke de pårørende fra samtalen",
+"Ændre de pårørendes holdning"
+],
+"p": 38,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Personalet kan ikke ændre presset, men kan afdække problemet ved at spørge ind til det."
+},
+{
+"id": "3:37",
+"q": "Hvilken beslutning kan gå forud for valg af dialyseform?",
+"a": "Om man overhovedet vil have dialyse",
+"w": [
+"Valg af type kateter",
+"Valg af dialysefilter"
+],
+"p": 38,
+"lvl": "K",
+"type": "fakta",
+"why": "For nogle er det første spørgsmål, om de vil modtage dialyse, før valget af form giver mening."
+},
+{
+"id": "3:38",
+"q": "Hvilke patienter har sværest ved at beslutte, om de vil have dialyse?",
+"a": "Ældre over 75, skrøbelige eller med anden sygdom",
+"w": [
+"Børn",
+"Unge uden anden sygdom"
+],
+"p": 39,
+"lvl": "K",
+"type": "fakta",
+"why": "Hos patienter over 75 år, med andre sygdomme eller skrøbelige er valget en afvejning mellem livslængde, livskvalitet og symptombyrde."
+},
+{
+"id": "3:n8",
+"q": "Hvorfor er dialysevalget vanskeligere for skrøbelige over 75 år?",
+"a": "Livsforlængelsen ved dialyse er mindre",
+"w": [
+"Dialyse virker ikke på ældre",
+"De kan ikke få kateter"
+],
+"p": 39,
+"lvl": "K",
+"type": "forståelse",
+"why": "Den øgede livslængde ved dialyse reduceres væsentligt hos ældre, syge og skrøbelige, så valget beror på en afvejning."
+},
+{
+"id": "3:39",
+"q": "Hvordan er overlevelsen generelt uden dialyse sammenlignet med dialyse?",
+"a": "Kortere",
+"w": [
+"Længere",
+"Lige så lang"
+],
+"p": 39,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienter, der vælger en strategi uden dialyse, lever generelt ikke så længe som dem, der vælger dialyse."
+},
+{
+"id": "3:40",
+"q": "Hvornår mindskes overlevelsesfordelen ved dialyse?",
+"a": "Ved alder på 80 år eller derover eller komorbiditet",
+"w": [
+"Ved alder under 40 år",
+"Ved god almentilstand"
+],
+"p": 39,
+"lvl": "U",
+"type": "fakta",
+"why": "Fordelen i overlevelse mindskes, hvis patienten er 80 år eller ældre eller har komorbiditet. Ved symptomer og indlæggelser kan en strategi uden dialyse have fordele."
+},
+{
+"id": "3:41",
+"q": "Hvilken egenskab er en stærk prædiktor for dødelighed hos nyrepatienter?",
+"a": "Skrøbelighed",
+"w": [
+"Højde",
+"Køn"
+],
+"p": 39,
+"lvl": "D",
+"type": "fakta",
+"why": "Et studie har vist, at skrøbelighed er en stærk prædiktor for dødelighed, og det skal medtænkes i dialysesamtalen."
+}
+]

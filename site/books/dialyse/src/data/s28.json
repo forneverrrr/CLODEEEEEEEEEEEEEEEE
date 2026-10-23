@@ -1,0 +1,509 @@
+[
+{
+"id": "28:1",
+"q": "Hvad er hovedformålet med palliativ indsats?",
+"a": "Fremme livskvalitet og lindre lidelse",
+"w": [
+"Helbrede den livstruende sygdom fuldstændigt",
+"Forlænge livet så længe som muligt"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Palliativ indsats har til formål at fremme livskvaliteten hos patienter og familier ved livstruende sygdom ved at forebygge og lindre lidelse."
+},
+{
+"id": "28:2",
+"q": "Palliation omfatter fysiske, psykiske og psykosociale problemer. Hvilket fjerde område hører med?",
+"a": "Åndelige (eksistentielle)",
+"w": [
+"Juridiske og administrative",
+"Økonomiske og praktiske"
+],
+"p": 261,
+"lvl": "U",
+"type": "fakta",
+"why": "Definitionen fra WHO og Sundhedsstyrelsen omfatter fysiske, psykiske, psykosociale og åndelige problemer."
+},
+{
+"id": "28:3",
+"q": "Hvordan opdeles palliativ indsats traditionelt?",
+"a": "Basal og specialiseret",
+"w": [
+"Akut og kronisk indsats",
+"Tidlig og sen indsats"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Opdelingen afspejler patientens behov og indsatsens intensitet."
+},
+{
+"id": "28:4",
+"q": "Hvad afgør, om en palliativ indsats er basal eller specialiseret?",
+"a": "Behov og indsatsens intensitet",
+"w": [
+"Patientens alder og køn",
+"Hvilken diagnose patienten har fået"
+],
+"p": 261,
+"lvl": "K",
+"type": "forståelse",
+"why": "Det er behovenes sværhedsgrad og kompleksitet, ikke alder eller diagnose, der afgør niveauet."
+},
+{
+"id": "28:5",
+"q": "Hvornår bør palliativ indsats startes ved livstruende sygdom?",
+"a": "Tidligt i sygdomsforløbet",
+"w": [
+"Når døden er nært forestående",
+"Efter dialysestart"
+],
+"p": 261,
+"lvl": "K",
+"type": "forståelse",
+"why": "Nyresyge kan opleve store fysiske, psykosociale og eksistentielle ændringer allerede tidligt, så palliation er ikke kun for den sidste tid."
+},
+{
+"id": "28:8",
+"q": "Hvem er basal palliativ indsats rettet mod?",
+"a": "Afgrænsede behov inden for få områder",
+"w": [
+"Høj sværhedsgrad inden for flere områder",
+"Kun døende patienter"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Basal indsats kan indgå integreret i den øvrige pleje og behandling."
+},
+{
+"id": "28:9",
+"q": "Hvem yder basal palliativ indsats?",
+"a": "Fagfolk uden palliation som hovedopgave",
+"w": [
+"Kun palliative teams og hospice",
+"Kun personale på hospice og palliative afdelinger"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx sygehusafdelinger, hjemmesygepleje, plejeboliger og almen praksis yder basal palliation ved siden af deres øvrige opgaver."
+},
+{
+"id": "28:11",
+"q": "Hvem er specialiseret palliativ indsats rettet mod?",
+"a": "Høj sværhedsgrad, flere problemer",
+"w": [
+"Afgrænsede behov inden for få områder",
+"Alle med kronisk sygdom"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Specialiseret indsats er til patienter med svære, sammenhængende problemer inden for flere områder."
+},
+{
+"id": "28:12",
+"q": "Hvem yder specialiseret palliativ indsats?",
+"a": "Fagfolk med palliation som hovedopgave",
+"w": [
+"Alle læger på sygehusets afdelinger",
+"Hjemmeplejen og praktiserende læger i kommunen"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Fx palliative teams, palliative afdelinger og hospices har palliation som hovedopgave."
+},
+{
+"id": "28:n0",
+"q": "Hvor ydes basal palliativ indsats typisk, i modsætning til specialiseret?",
+"a": "På de fleste kliniske sygehusafdelinger, i kommunerne og i almen praksis",
+"w": [
+"Kun i palliative afdelinger og hospices",
+"Kun i palliative teams"
+],
+"p": 261,
+"lvl": "K",
+"type": "fakta",
+"why": "Basal palliativ indsats ydes af fagpersoner, der ikke har palliation som hovedopgave. Specialiseret indsats ydes af palliative teams, palliative afdelinger og hospices."
+},
+{
+"id": "28:n1",
+"q": "En dialysepatient har smerter som eneste palliative problem. Hvilken indsats passer?",
+"a": "Basal palliativ indsats",
+"w": [
+"Specialiseret palliativ indsats",
+"Indlæggelse på hospice"
+],
+"p": 261,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Afgrænsede behov inden for få områder kan løses som basal indsats i den almindelige pleje og behandling."
+},
+{
+"id": "28:n2",
+"q": "En patient har svære smerter, træthed, søvnbesvær og social nød med få pårørende. Problemerne er komplekse og svære at håndtere i afdelingen. Hvad kan overvejes?",
+"a": "Specialiseret palliativ indsats",
+"w": [
+"Kun basal palliativ indsats i afdelingen",
+"Øget dialysedosis og mere kontrol"
+],
+"p": 262,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Komplekse, sammenhængende problemer (fysisk, psykisk, social, eksistentiel), som er svære at håndtere i afdelingen, kalder på specialiseret indsats."
+},
+{
+"id": "28:13",
+"q": "Hvilke symptomer er fremtrædende hos nyresyge med palliative behov?",
+"a": "Fatigue, angst og depression",
+"w": [
+"Hoste, feber og hovedpine",
+"Hovedpine, svimmelhed og hårtab"
+],
+"p": 262,
+"lvl": "K",
+"type": "fakta",
+"why": "Fatigue, angst og depression er fremtrædende, og forbruget af morfika og benzodiazepiner er højt."
+},
+{
+"id": "28:15",
+"q": "Hvad bygger en palliativ behovsvurdering på?",
+"a": "Symptomscreening og samtaler",
+"w": [
+"Blodprøver og billeddiagnostik",
+"Kun gennemgang af journalen"
+],
+"p": 262,
+"lvl": "K",
+"type": "fakta",
+"why": "Behovsvurdering er en samlet vurdering, der optimalt bygger på symptomscreening og samtaler. Et PRO-skema kan støtte samtalen."
+},
+{
+"id": "28:17",
+"q": "Hvad står PRO for i et PRO-skema?",
+"a": "Patientrapporteret outcome",
+"w": [
+"Primær renal observation",
+"Palliativ rehabilitering og omsorg"
+],
+"p": 262,
+"lvl": "U",
+"type": "fakta",
+"why": "PRO-skemaer giver patientens egne svar om symptomer og livskvalitet som støtte i samtalen."
+},
+{
+"id": "28:19",
+"q": "Hvornår er symptomscreening særligt relevant?",
+"a": "Ved overgange, fx dialysestart",
+"w": [
+"Kun i den allersidste døende fase",
+"Kun ved akutte indlæggelser"
+],
+"p": 262,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Gentaget screening ved overgange viser, hvordan symptomer og livskvalitet udvikler sig, fx fra diagnose til erkendt nyresvigt eller fra medicinsk behandling til dialyse."
+},
+{
+"id": "28:20",
+"q": "Hvad er Advance Care Planning (ACP)?",
+"a": "Samtaler om værdier og ønsker",
+"w": [
+"Juridisk fuldmagt til pårørende",
+"Skema til dosisberegning"
+],
+"p": 262,
+"lvl": "K",
+"type": "fakta",
+"why": "ACP er en proces over flere samtaler, ikke ét dokument. Patienten støttes i at forstå og dele værdier, livsmål og præferencer."
+},
+{
+"id": "28:21",
+"q": "Hvad er målet med ACP?",
+"a": "Behandling efter patientens værdier",
+"w": [
+"Længst mulig overlevelse for patienten",
+"Færrest mulige behandlinger i alt"
+],
+"p": 262,
+"lvl": "K",
+"type": "forståelse",
+"why": "Målet med ACP er at sikre, at patienten modtager behandling i overensstemmelse med egne værdier, mål og præferencer."
+},
+{
+"id": "28:22",
+"q": "Hvordan bør ACP gennemføres?",
+"a": "Proaktivt og integreret i den løbende pleje",
+"w": [
+"Kun når patienten er døende",
+"Én gang ved diagnosen"
+],
+"p": 262,
+"lvl": "U",
+"type": "fakta",
+"why": "ACP bør være proaktiv, passende timet og integreret i den aktuelle pleje og behandling."
+},
+{
+"id": "28:23",
+"q": "En patient med en ACP-plan får pludselig forværret helbred. Hvad bør ske med planen?",
+"a": "Den revideres",
+"w": [
+"Den ligger fast",
+"Den slettes"
+],
+"p": 262,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Planer kan revideres ved ændringer i helbredstilstand, eller hvis patienten ønsker det."
+},
+{
+"id": "28:n3",
+"q": "Hvornår er det en fordel at have drøftet fremtidig behandling og pleje?",
+"a": "Før behandlingsvalget skal træffes",
+"w": [
+"Først efter dialysestart",
+"Først når døden er nær"
+],
+"p": 261,
+"lvl": "K",
+"type": "forståelse",
+"why": "Når nyrefunktionen er så lav, at der skal vælges behandling, er det en fordel, at fremtidig behandling og pleje er drøftet tidligere."
+},
+{
+"id": "28:25",
+"q": "Hvilket behov kan pårørende til HD-patienter selv have?",
+"a": "Støtte, fx pga. udmattelse",
+"w": [
+"Intet eget behov",
+"Kun økonomisk støtte"
+],
+"p": 262,
+"lvl": "U",
+"type": "forståelse",
+"why": "Pårørende er vigtige støttepersoner, men bruger mange timer på pleje og kan selv blive udmattede."
+},
+{
+"id": "28:27",
+"q": "En dialysepatient har komplekse symptomer, som afdelingen ikke kan håndtere. Hvad overvejes?",
+"a": "Henvisning til specialiseret palliativ indsats",
+"w": [
+"Højere dialysedosis",
+"Seponering af al medicin"
+],
+"p": 262,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Er symptomer og behov komplekse og svære at håndtere i afdelingen, kan man henvise til specialiseret palliativ indsats på hospital eller hospice."
+},
+{
+"id": "28:28",
+"q": "Hvem skal ønske en henvisning til specialiseret palliativ indsats?",
+"a": "Patienten selv",
+"w": [
+"Nyrelægen",
+"De pårørende"
+],
+"p": 262,
+"lvl": "K",
+"type": "fakta",
+"why": "Patienten skal selv ønske at blive henvist."
+},
+{
+"id": "28:29",
+"q": "Hvad bør afklares, før man henviser til specialiseret palliation?",
+"a": "Behandlingsbegrænsning",
+"w": [
+"Boligforhold",
+"Arbejdssituation"
+],
+"p": 262,
+"lvl": "U",
+"type": "forståelse",
+"why": "Henvisningen beskriver patientens fysiske, psykiske, sociale og eksistentielle problemer, og der bør være taget stilling til behandlingsbegrænsning."
+},
+{
+"id": "28:35",
+"q": "Hvornår bør man tilbyde samtale om ønsker for den sidste tid?",
+"a": "Før døden er nært forestående",
+"w": [
+"Først i den døende fase",
+"Kun hvis pårørende beder om det"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Det er en god idé at tale om ønsker og muligheder i god tid, fx om dødssted."
+},
+{
+"id": "28:36",
+"q": "Hvem varetager pleje og behandling, når patienten dør hjemme?",
+"a": "Hjemmeplejen og egen læge",
+"w": [
+"Sygehuset",
+"Hospice"
+],
+"p": 263,
+"lvl": "K",
+"type": "fakta",
+"why": "Den kommunale hjemmepleje og den almenpraktiserende læge varetager plejen, evt. med støtte fra et specialiseret udkørende team."
+},
+{
+"id": "28:37",
+"q": "Hvad kræves for at få kommunale palliative ydelser?",
+"a": "En terminalerklæring",
+"w": [
+"En dødsattest",
+"Henvisning til hospice"
+],
+"p": 263,
+"lvl": "K",
+"type": "fakta",
+"why": "Kommunen kan først tildele palliative ydelser, når lægen har udstedt en terminalerklæring."
+},
+{
+"id": "28:38",
+"q": "Hvad er en terminalerklæring?",
+"a": "Lægens meddelelse til kommunen om kort levetid",
+"w": [
+"Patientens ønske om behandlingsbegrænsning",
+"Patientens testamente"
+],
+"p": 263,
+"lvl": "K",
+"type": "fakta",
+"why": "Lægen gør kommunen opmærksom på livstruende sygdom, hvor helbredelse ikke er mulig, og levetiden forventes at være kort."
+},
+{
+"id": "28:n4",
+"q": "Hvilken støtte kan en pårørende søge hos kommunen ved pleje af en døende i hjemmet?",
+"a": "Plejevederlag",
+"w": [
+"Boligstøtte",
+"Efterløn"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Pårørende, der plejer en døende hjemme, kan søge plejevederlag. Kommunen leverer også utensilier gratis."
+},
+{
+"id": "28:41",
+"q": "Hvor stor en del af lægeordineret medicin dækkes til døende?",
+"a": "100 %",
+"w": [
+"50 %",
+"75 %"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Døende (uger til måneders restlevetid) kan få fuldt tilskud til lægeordineret medicin."
+},
+{
+"id": "28:42",
+"q": "Hvad kaldes tilskuddet til medicin hos døende?",
+"a": "Terminaltilskud",
+"w": [
+"Kronikertilskud",
+"Helbredstillæg"
+],
+"p": 263,
+"lvl": "K",
+"type": "fakta",
+"why": "Terminaltilskud til medicin søges af lægen i FMK-online. Kronikertilskud udløses derimod automatisk, når medicinudgifterne overskrider en maksimal grænse."
+},
+{
+"id": "28:44",
+"q": "En døende patient hjemme har komplekse symptomer. Hvem kan støtte hjemmesygeplejen og lægen?",
+"a": "Specialiseret palliativt udkørende team",
+"w": [
+"Akutlægebil",
+"Hjemmehjælp"
+],
+"p": 263,
+"lvl": "K",
+"type": "anvendelse",
+"why": "Et udkørende team fra palliativ afdeling eller hospice kan samarbejde med hjemmesygeplejersker og praktiserende læge."
+},
+{
+"id": "28:46",
+"q": "En patient er i terminalfasen. Hvordan er det hensigtsmæssigt at ordinere behovsmedicin?",
+"a": "Så den kan gives subkutant",
+"w": [
+"Kun som tabletter",
+"Kun intravenøst"
+],
+"p": 263,
+"lvl": "K",
+"type": "anvendelse",
+"why": "I den terminale fase er det hensigtsmæssigt at ordinere medicin, der kan gives s.c., via subkutan nål."
+},
+{
+"id": "28:47",
+"q": "Hvilket lægemiddel er sjældent relevant for en dialysepatient i den sidste levetid?",
+"a": "Furosemid",
+"w": [
+"Morfin",
+"Haloperidol"
+],
+"p": 263,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Den ordinerende læge vurderer, hvad der er relevant for den enkelte. Furosemid er sjældent relevant til en dialysepatient."
+},
+{
+"id": "28:54",
+"q": "Hvad skal en henvisning til hospice bl.a. oplyse?",
+"a": "Patientens ønske og behandlingsbegrænsning",
+"w": [
+"Pårørendes ønsker",
+"Patientens vægt og blodtryk"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Henvisningen skal vise, at det er patientens eget ønske, om behandlingsbegrænsning er besluttet (inkl. om dialysen fortsætter), samt anamnese og symptomer."
+},
+{
+"id": "28:56",
+"q": "Hvad koster et hospiceophold for patienten?",
+"a": "Ingenting",
+"w": [
+"Halv pris",
+"Fuld pris"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Ophold på hospice er gratis."
+},
+{
+"id": "28:57",
+"q": "Hvad kan et optimerende hospiceophold føre til?",
+"a": "Udskrivelse til pleje i hjemmet",
+"w": [
+"Overgang til dialyse",
+"Overflytning til intensiv"
+],
+"p": 263,
+"lvl": "U",
+"type": "anvendelse",
+"why": "Et optimerende ophold er ikke kun til den sidste levetid. Patienten kan udskrives til pleje i hjemmet i en periode."
+},
+{
+"id": "28:58",
+"q": "Hvad kan en læge kontakte aften og weekend for palliativ rådgivning?",
+"a": "Regionens palliative vagttelefon",
+"w": [
+"Kommunens visitation",
+"Apoteket"
+],
+"p": 263,
+"lvl": "U",
+"type": "fakta",
+"why": "Hver region har en palliativ vagttelefon til læge-til-læge-rådgivning uden for dagtid."
+}
+]
