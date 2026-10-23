@@ -526,3 +526,85 @@
 - [RN: One-Stop-Shop brochure](https://rn.dk/-/media/Rn_dk/Om-Region-Nordjylland/Samarbejde-med-erhvervsliv/One-Stop-Shop/Brochure_210x210-4sider_finale-LOW.ashx?la=da)
 - [Applied Sciences 2022: OR ventilation setback](https://doaj.org/article/9b1bf03a68e3459ea520ef269dbaaf5e)
 - [Cleveland Clinic: lower air turnover in unoccupied ORs](https://consultqd.clevelandclinic.org/lower-air-turnover-in-unoccupied-ors-shows-safety-and-savings-potential)
+
+---
+
+## 15. Полная карта: B2C + B2B вокруг BoligCheck, с опорой на крупных партнёров
+
+**Принцип:** одно ядро (движок BoligCheck: документы + открытые данные + AI-отчёт)
+и много «упаковок» под разных клиентов. Продавать в одиночку тяжело, поэтому каждый
+сегмент заходим через крупного партнёра, программу или ассоциацию.
+
+**Красная линия независимости:** отчёт для покупателя никогда не оплачивает
+продавец или маклер продавца. Продукты для маклеров — отдельная линия
+(данные для объявления), с раскрытием, кто платит. Иначе теряется главное
+обещание «See What Others Miss» и нарушаются правила god skik.
+
+### A. B2C (оставляем и расширяем)
+| Продукт | Для кого |
+|---|---|
+| BoligCheck (как сейчас) | Покупатель частного дома или квартиры |
+| BoligCheck Grøn | Покупатель: план энергоремонта, субсидии, CO2 |
+| BoligCheck International (EN/RU/UA) | Экспаты и иммигранты |
+| Andelsbolig-check | Покупатель кооперативной квартиры: финансы ассоциации, долг, andelsværdi |
+| Sælger-check | Продавец до выставления: что найдёт покупатель, что исправить заранее |
+| Подписка «первый год в доме» | Новый владелец: план обслуживания, субсидии, сроки претензий |
+
+### B. B2B-сегменты
+| # | Клиент | Что продаём | Зачем им | Крупный канал или партнёр |
+|---|---|---|---|---|
+| 1 | **Boligadvokater** (адвокаты по жилью) | White-label предразбор документов: что проверить, вопросы продавцу, красные флаги | Экономит часы юриста на типовой проверке; адвокат остаётся ответственным | Сети вроде Advodan, Ret&Råd, BoligAdvokaten; Advokatsamfundet (проверить правила) |
+| 2 | **Købermæglere и køberrådgivere** | Движок отчёта как субподряд или white-label | Быстрее и глубже их собственный анализ | DE (Danske Ejendomsmæglere), Tryghedsmærke |
+| 3 | **Банки и ипотечные компании** | Риск-профиль дома + зелёный план к ипотечной заявке; «гид покупателя» для клиентов, покупающих впервые | Меньше риска, больше зелёных кредитов, лояльность клиента | **Nykredit / Spar Nord** (компетенц-центры в Aalborg); **Copenhagen Fintech**: Partnership Fast Track (у Danske Bank там программа «Housing», участие банка не подтверждено), бесплатный инкубатор, гранты до 100 000 kr на проект с партнёром; Mastercard Lighthouse (Danske Bank — банк-партнёр) |
+| 4 | **Страховые** (husforsikring, ejerskifteforsikring) | Данные о гео-рисках по адресу (наводнения, ливни, радон, грунт) и объяснение клиенту | Андеррайтинг и меньше споров по претензиям | Tryg, Alm. Brand, If, Codan, GF, LB; Forsikring & Pension (инновационные программы не проверены) |
+| 5 | **Bygningssagkyndige и energikonsulenter** | Софт: понятное резюме tilstandsrapport и energimærke; взаимные рекомендации | Добавочная ценность для их клиентов, больше заказов | Ассоциации отрасли; локальные фирмы в Aalborg |
+| 6 | **Установщики** (тепловые насосы, солнечные панели, утепление) | Квалифицированные заявки из BoligCheck Grøn (с раскрытием клиенту) | Готовые клиенты с планом и субсидией | Национальные установщики (1KOMMA5° и др.), дилеры производителей |
+| 7 | **Работодатели и relocation** | Пакет «жильё для нового сотрудника»: проверка, гид, перевод | Удержание иностранных специалистов | International House North Denmark, AAU, больница, крупные работодатели региона, relocation-фирмы |
+| 8 | **Коммуны (tilflytterservice)** | «Boligpakke for tilflyttere» — гид и проверка для переезжающих в коммуну | Коммуны в Nordjylland борются за новых жителей | Коммуны Nordjylland, Business Aalborg, Landdistriktspuljen |
+| 9 | **Коммуны и фьернварме (зелёное)** | Одно окно для перехода с газа / энергоремонта (раздел 13) | Цели CO2 и ЕС-рекомендация по one-stop shops | Aalborg Kommune, Aalborg Forsyning, LIFE CET |
+| 10 | **Andels- и ejerforeninger, администраторы** | Пакет для продажи: понятный обзор финансов ассоциации для покупателей | Быстрее продажи, меньше вопросов | Администраторские компании, ABF/ассоциации |
+| 11 | **Мелкие инвесторы и арендодатели** | Due diligence lite: доходность, риски, обслуживание | Дешевле полного аудита | Сообщества инвесторов, банки |
+| 12 | **Маклеры (сторона продавца)** — осторожно | Отдельная линия: данные о районе и рисках для объявления, без «покупательских» выводов | Объявления с ответами на вопросы покупателей | Сети nybolig, EDC, home, danbolig, Estate; DE |
+| 13 | **Платформы данных и медиа** | Партнёрство или контент: Resights (API, 2 500+ переменных из BBR, CVR, Tinglysning, EJF и др.) как поставщик данных; статьи и разборы для Bolius, Boligsiden, Boliga | Охват и бренд | Resights, Bolius (Realdania), порталы |
+| 14 | **Лицензирование движка** | API или white-label BoligCheck для консультантов в Норвегии и Швеции | Масштаб без своих продаж в каждой стране | SMV:Eksport, Interreg |
+| 15 | **Регион и больницы** | Раздел 14: климат в помещениях, вентиляция, солнечные панели | Цели CO2, текущие проблемы | Innovationsklinikken, SUND Innovation |
+
+### C. Программы, где крупные фирмы сами ищут стартапы
+| Программа | Что даёт | Статус |
+|---|---|---|
+| Copenhagen Fintech: инкубатор | Бесплатно, около 2 месяцев, 4 стартапа в потоке; нужен MVP | Срок осеннего потока — 1.09; следить за следующим |
+| Copenhagen Fintech: гранты на совместные проекты | До 100 000 kr, нужен партнёр (например, банк) | От 1 до 3 раундов в год в 2026–2028; последний закрылся 5.10.2026 |
+| Copenhagen Fintech: Partnership Fast Track | Банки ищут стартапы под пилоты (тема «Housing») | Платное для корпораций, для стартапов — входной билет к ним |
+| Mastercard Lighthouse (FINITIV) | Программа с северными банками, включая Danske Bank | Срок осеннего потока 2026 прошёл; ждать весеннего 2027 |
+| Accelerace | 5 месяцев без доли; возможна инвестиция до 500 000 kr | Проверить условия на сайте |
+| PropTech Denmark / BLOXHUB | Матчмейкинг с застройщиками, банками, маклерами | Членство |
+| DE Tryghedsmærke | Знак доверия для køberrådgivning | Требует образования и опыта, членство в DE |
+| Erhvervshus Nordjylland | Бесплатный матчмейкинг с компаниями региона | Сразу |
+
+### D. С чего начать (по соотношению усилий и шанса)
+1. **Адвокаты по жилью** (B1): white-label предразбор. Короткий цикл продажи, понятная экономия часов.
+2. **Bygningssagkyndige и energikonsulenter** (B5): взаимные рекомендации; бесплатно для обеих сторон.
+3. **Установщики** (B6) + BoligCheck Grøn: быстрые деньги с заявок.
+4. **Работодатели, International House, tilflytterservice** (B7–B8): ваша сильная ниша — иностранцы.
+5. **Банки** (B3) через Copenhagen Fintech и Nykredit/Spar Nord в Aalborg — крупный, но долгий канал; подавать на следующий раунд грантов на совместные проекты вместе с банком.
+6. Позже: страховые, лицензирование в Норвегии и Швеции, регион.
+
+### E. Что нужно подготовить для B2B
+- Демо-отчёт на 3–5 реальных объектах (из 15 тестовых).
+- Одностраничник для каждого сегмента: проблема → решение → цена → пилот.
+- Шаблон пилота: 1–3 месяца, фиксированная цена или бесплатно в обмен на отзыв и данные.
+- Договор об обработке данных (GDPR, databehandleraftale) и ansvarsforsikring.
+- Правила независимости в письменном виде: кто платит и что это значит для клиента.
+
+Источники к разделу:
+- [Copenhagen Fintech: incubation program](https://virksomhedsguiden.dk/content/ydelser/incubation-program-for-fintech-startups/be4aeb15-2843-41cc-b6ce-0a605c3c0a90/)
+- [Copenhagen Fintech: up to DKK 100,000](https://virksomhedsguiden.dk/content/ydelser/apply-for-up-to-dkk-100000-to-fund-fintech-related-development-and-testing/f917f788-8f94-4f95-88bf-0c9fca9458e5/)
+- [Copenhagen Fintech: SME collaboration projects](https://virksomhedsguiden.dk/content/ydelser/get-funding-for-fintech-sme-collaboration-projects/27eea242-6802-4917-b24f-c9be5c39ea07/)
+- [Copenhagen Fintech: Partnership Fast Track (agenda)](https://yespress.io/copenhagen-fintech)
+- [Mastercard Lighthouse 2026](https://www.mastercard.com/news/europe/en/newsroom/press-releases/en/2026/mastercard-lighthouse-2026-spring-program-welcomes-21-forward-looking-nordic-and-baltic-fintech-and-impact-companies/)
+- [Danske Bank partnerships](https://danskebank.com/about-us/partnerships)
+- [Accelerace (oversigt)](https://www.acceleratorapp.co/en/blogs/top-startup-accelerators-incubators-copenhagen-denmark)
+- [Lex.dk: Spar Nord – Nykredit](https://lex.dk/Spar_Nord_-_Nykredit)
+- [Spar Nord takeover FAQ (Aalborg)](https://media.sparnord.dk/com/investor/financial_communication/share/takeover-offer-faq.pdf)
+- [Resights API](https://intercom.help/resights-aps/da/articles/15373932-fa-adgang-til-ejendomsdata-via-resights-api)
+- [Bolius: rådgivere ved boligkøb](https://www.bolius.dk/her-er-raadgiverne-der-kan-hjaelpe-naar-i-skal-koebe-bolig-98731)
