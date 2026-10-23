@@ -233,3 +233,45 @@
 - [Fin.ai: startup credit programs 2026](https://fin.ai/learn/startup-credit-programs)
 - [Gupta: AWS vs Microsoft vs Google for Startups 2026](https://guptadeepak.com/aws-activate-vs-microsoft-for-startups-vs-google-for-startups-2026-who-each-one-is-actually-for/)
 - [Noworkr: funding for AI project in Denmark 2026](https://www.noworkr.com/en/blog/tilskud-til-ai-projekt)
+
+---
+
+## 11. Как переформатировать фирму, чтобы попадать под программы
+
+Принцип: гранты дают не за юридическую форму, а за **проект**, который совпадает с
+целью программы. Поэтому переформатировать нужно в основном позиционирование и
+состав проектов, а не только CVR. И всё описанное должно быть реальной работой,
+иначе это мошенничество с грантом.
+
+| # | Изменение | Что открывает | Цена и риски |
+|---|---|---|---|
+| 1 | **Enkeltmand → ApS** (капитал от 20 000 kr) | Инвесторы, EIFO Matchlån, серьёзнее для банков и партнёров. Нужна для статуса RSV (п. 7) | Бухгалтерия и годовой отчёт дороже. Убытки уже не вычитаются из личной зарплаты. Лучше сделать skattefri omdannelse, когда пойдёт прибыль |
+| 2 | **Технологическое ядро**: из «я делаю отчёты» в «у нас своя AI/данные-платформа оценки рисков жилья» (BBR, радон, наводнения, comps) | Innobooster, SMV:Digital, облачные кредиты, позже EIC/инвесторы | Нужен реальный продукт: прототип, описание метода, данные |
+| 3 | **Зелёный модуль**: энергоанализ дома + план энергоремонта для покупателя | SMV:Grøn (до 150 000 kr), зелёные пулы erhvervshus | Должен быть реальный продукт, а не слово «grøn» в заявке |
+| 4 | **Экспорт**: версия для Швеции или Норвегии | SMV:Eksport (до 150 000 kr на консультанта по выходу на рынок; в 2026 окно было в марте), Trade Council | Нужен реальный план выхода на рынок |
+| 5 | **Кофаундер с правильным профилем**: студент или выпускник AAU / профтехобразования (EUD) | Mikrolegat, Innofounder, AAU Startup Program + AAU Startup Grant (нужна фаза 3 программы и CVR), Entrepreneur in Residence | Только реальный партнёр с долей и ролью. «Номинальный» студент — подлог |
+| 6 | **Направление для международных покупателей** (экспаты и иммигранты в Nordjylland) | Партнёрства с International House North Denmark, коммуной, работодателями (relocation-пакеты). Интеграционные и коммунальные пулы | Хороший реальный рынок. Вы сами из этой аудитории |
+| 7 | **Социальная экономика**: ApS со статусом RSV (registreret socialøkonomisk virksomhed) | Фонды и коммуны, которые работают с соцэкономикой | Максимум 35 % прибыли можно вывести, остальное реинвестируется. **Правительство в декабре 2025 года собиралось отменить схему RSV**, проверить в Erhvervsstyrelsen. Скорее не для нас |
+| 8 | **Отдельная forening** (некоммерческое объединение) для бесплатного просвещения: «Школа покупателя жилья», вебинары на русском, украинском, английском | Местные фонды, коммунальные пулы на культуру и интеграцию, возможность бесплатных помещений | Фирма и forening должны быть реально разделены (деньги, решения). Forening не может быть скрытой рекламой фирмы |
+| 9 | **Сельский угол**: услуги для покупателей домов в сельской местности Nordjylland | Vækstlån EIFO на сельские районы, LAG и Landdistriktspuljen (для проектов на селе) | Подходит, только если работаете там реально |
+| 10 | **Исследовательский партнёр** (AAU, BUILD — строительный институт AAU) | Innobooster с поставщиком знаний (университет как partner), Innovationsfonden | Нужен конкретный исследовательский вопрос |
+
+### Что точно НЕ делать
+- Номинальный директор или «студент для галочки» ради гранта.
+- Несколько фирм под один проект, чтобы получить одну и ту же субсидию дважды.
+- Переписывать в заявке то, чего нет (выдуманные клиенты, сотрудники, оборот).
+
+### Рекомендуемая комбинация для NordIndsigt
+1. Сейчас: **enkeltmand**, позиционирование «AI-платформа BoligCheck» (п. 2) +
+   направление для международных покупателей (п. 6).
+2. За 6–12 месяцев: добавить энергомодуль (п. 3), найти партнёра в AAU (п. 5 или 10).
+3. При первом инвесторе или большом гранте: **ApS** (п. 1), затем Innobooster или
+   Matchlån, потом Швеция (п. 4).
+
+Источники к разделу:
+- [Erhvervsstyrelsen: RSV](https://erhvervsstyrelsen.dk/vejledning-registrering-som-registreret-socialoekonomisk-virksomhed)
+- [Lovguiden: спрос о RSV](https://www.lovguiden.dk/folketinget/sager/20-spoergsmaal/104050)
+- [AAU Startup Program](https://www.en.innovate.aau.dk/students/aau-startup-program)
+- [AAU Startup Grant](https://students.aau.dk/choices-along-the-way-and-jobs/entrepreneurship-and-innovation/aau-startup-program/aau-startup-grant)
+- [AAU Entrepreneurs in Residence](https://www.innovate.aau.dk/om-innovate/beboere/entrepreneurs-in-residence)
+- [DI: SMV-puljer 2026 (eksport)](https://www.danskindustri.dk/vi-radgiver-dig/ecommerce/nyhedsarkiv/nyheder/2026/02/fa-stotte-til-eksport-og-cybersikkerhed-med-forarets-smvpuljer/)
