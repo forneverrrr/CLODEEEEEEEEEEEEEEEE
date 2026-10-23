@@ -360,3 +360,105 @@
 - [UM: de minimis erklæring](https://um.dk/media/t5kbxln0/solemn-declaration-for-sme.pdf)
 - [virk.dk: tilbagebetaling af kompensation](https://virk.dk/vejledning/slutafregning/tilbagebetaling)
 - [FT: svar om manglende indberetning (2023)](https://ft.dk/samling/20222/almdel/ERU/bilag/226/2735676.pdf)
+
+---
+
+## 13. Зелёное направление: CO2, энергоремонт, отопление
+
+### Почему сейчас «хайп» и деньги
+- **EU EPBD:** страны ЕС обязаны ввести *renovation passport*, поэтапный план
+  глубокого энергоремонта дома, к **29.05.2026**. В датском проекте плана паспорт
+  добровольный, как дополнение к energimærke. Законопроект был в работе; принят ли
+  он, я не подтвердил.
+- **Рекомендация ЕС 2026/536 (10.03.2026)** про *one-stop shops*: одно окно для
+  владельца дома, где есть технический совет, финансы, подбор мастеров и контроль
+  качества.
+- **Газовые котлы в частных домах** должны уйти к 2035 году, но, по данным KL,
+  Дания отстаёт от графика. Новое правительство (S, M, SF, R) в июне 2026 года
+  объявило strakstilskud для домов с низкой стоимостью.
+- Субсидии для владельцев домов (2026):
+  - **Varmepumpepuljen**: до 27 000 kr на тепловой насос вместо масла или газа;
+    200 млн kr добавлено в июле; кто первый подал, тот и получил.
+  - **Energirenoveringspuljen**: утепление, окна, вентиляция; для helårsbolig с
+    energimærke D–G; около 51,5 млн kr на 2026 год; срок по Energistyrelsen —
+    30.11.2026.
+  - **Afkoblingsordningen**: покрывает плату за отключение газа (около 10 000 kr);
+    2026 — последний год.
+  - **Håndværkerfradrag** на зелёные работы (нельзя совмещать с Varmepumpepuljen).
+  - **Правило:** нельзя начинать работы и подписывать договор до *tilsagn*,
+    иначе субсидии не будет. Многие на этом теряют деньги, и в этом наша ценность.
+
+### Зарубежные образцы
+| Страна | Решение | Что берём |
+|---|---|---|
+| Германия | **iSFP** (individueller Sanierungsfahrplan): от 2 до 5 пакетов работ на временной шкале. Государство (BAFA) платит 50 % гонорара, но не больше 650 € за дом. План даёт +5 % к субсидиям на работы | Формат «дорожной карты» и привязка к субсидиям |
+| ЕС | **Renovation passport** (iBRoad, BPIE) | Будущий стандарт, на который можно встать первыми |
+| Великобритания | **Kestrix**: тепловизионные дроны + AI → карты теплопотерь → план ремонта. £740 000 seed и гранты, £240 000 от Innovate UK вместе с соцжильём (Peabody) | Тепловизор + AI-отчёт; идея «тепловая карта рядом с фото в объявлении» |
+| Франция | **Mon Accompagnateur Rénov'**: обязательный сопровождающий для крупной субсидии | Модель «сопровождающий по субсидиям» (детали не проверял) |
+
+### Что можем предложить мы
+1. **BoligCheck Grøn — зелёный план к покупке.** Покупатель ещё до сделки получает:
+   текущий energimærke и что за ним стоит, поэтапный план (как в iSFP: насос,
+   утепление, окна, солнечные панели), стоимость, экономию в kr в год и
+   **CO2 т/год**, доступные субсидии и как это меняет цену и ежемесячные расходы.
+   Момент покупки — лучший для ремонта: его можно включить в ипотеку и сделать
+   до въезда.
+2. **Tilskudsguide — сопровождение по субсидиям** под ключ: заявка до договора,
+   сроки, документы, выбор мастера. Плата за услугу; возможна партнёрская комиссия
+   от установщиков, но **только открыто для клиента** (иначе страдает
+   независимость и правила god skik).
+3. **Тепловизионная проверка зимой** как дополнение: камера к телефону, позже дрон
+   (нужен сертификат дрона от Trafikstyrelsen и соблюдение GDPR при съёмке соседей).
+4. **Подготовка к renovation passport.** Когда в Дании заработает паспорт, мы уже
+   умеем делать такие планы. Партнёрство с сертифицированным energikonsulent: сам
+   energimærke может делать только он, мы его не подменяем.
+5. **То же для иностранцев** на английском, русском и украинском. На этом рынке
+   почти никто не работает.
+6. **B2B и B2G:** одно окно (one-stop shop) для коммуны или фьернварме
+   (Aalborg Forsyning), банков и ипотечных компаний (зелёные кредиты), установщиков
+   тепловых насосов (готовые клиенты).
+
+### Кто может профинансировать нас
+| Источник | Подо что |
+|---|---|
+| **SMV:Grøn** (до 150 000 kr, до 300 000 kr в комбинации) | Консультант или инвестиции в зелёный продукт |
+| **Innobooster** | AI-движок плана энергоремонта по данным BBR / energimærke |
+| **Коммуна Aalborg / Aalborg Forsyning** | Пилот «одного окна» или кампания по переходу с газа; в бюджете 2026–2029 отдел Klima og Miljø расформирован, задачи переданы другим отделам — искать, кто теперь отвечает |
+| **EU LIFE Clean Energy Transition** | Проекты one-stop shop (нужен консорциум с коммуной; проверить ближайший конкурс) |
+| **Interreg Øresund-Kattegat-Skagerrak** | Совместный проект с Швецией или Норвегией (Nordjylland в зоне программы; проверить) |
+| **EUDP** (Energistyrelsen) | Только при серьёзной технологической разработке (позже) |
+| Банки и ипотечные компании | Партнёрская оплата за клиентов с зелёным кредитом (условия не проверены) |
+
+### Первые шаги
+1. Сделать пилот BoligCheck Grøn на 3 из 15 тестовых объектов.
+2. Таблица субсидий с актуальными сроками (Energistyrelsen, sparenergi.dk);
+   обновлять каждый месяц.
+3. Найти energikonsulent и установщика тепловых насосов в Aalborg для партнёрства.
+4. Встреча в Erhvervshus Nordjylland: проект под SMV:Grøn.
+5. Письмо в Aalborg Kommune и Aalborg Forsyning: предложить пилот «одного окна»
+   для покупателей домов с газом.
+
+Источники к разделу:
+- [Energistyrelsen: tilskud til energiforbedringer](https://www.statens-tilskudspuljer.dk/klima-energi-og-forsyningsministeriet/energistyrelsen/46)
+- [SparEnergi: Bygningspuljen lukket](https://sparenergi.dk/privat/soeg-tilskud/har-du-allerede-soegt-tilskud-bygningspuljen)
+- [Byggetjek: Energirenoveringspuljen 2026](https://byggetjek.dk/guide/energirenoveringspuljen/)
+- [Bygpas: tilskud 2026](https://bygpas.io/blog/energirenoveringer-tilskud-2026)
+- [Ritzau: Varmepumpepuljen 27 000 kr](https://via.ritzau.dk/pressemeddelelse/15029462/nu-er-der-aben-for-tilskud-til-en-varmepumpe-7400-boligejere-kan-fa-27000-kr?lang=da)
+- [Bolius: tilskud til at droppe olie- og gasfyr](https://www.bolius.dk/nye-tilskud-klar-til-at-droppe-olie-og-gasfyr-100314)
+- [Altinget: ny regering, strakstilskud (06.2026)](https://www.altinget.dk/forsyning/artikel/ny-regering-vil-give-tilskud-til-udskiftning-af-gas-og-oliefyr-i-aar)
+- [SN: Danmark misser gasfyr-mål](https://www.sn.dk/art6654699/koebenhavn-kommune/indland/danmark-er-paa-vej-til-at-misse-maal-om-stop-for-gasfyr)
+- [1komma5: afkoblingsordningen](https://1komma5.com/dk/varmepumpe/afkoblingsordningen/)
+- [FT: Draft National Building Renovation Plan DK (12.2025)](https://www.ft.dk/samling/20251/almdel/BOU/bilag/20/3108869.pdf)
+- [REHVA: EPBD i Danmark](https://www.rehva.eu/rehva-journal/chapter/implementing-energy-performance-of-buildings-directive-in-denmark)
+- [FT: høringsversion lovforslag (KEF bilag 99)](https://www.ft.dk/samling/20251/almdel/KEF/bilag/99/3108325.pdf)
+- [KL: høringssvar energimærkning 2026](https://www.kl.dk/hoeringssvar/teknik-og-miljoe/2026/hoeringssvar-bekendtgoerelse-om-energimaerkning-af-bygninger)
+- [EUR-Lex: Recommendation (EU) 2026/536 one-stop shops](https://eur-lex.europa.eu/eli/reco/2026/536)
+- [BPIE: renovation passports](https://www.bpie.eu/wp-content/uploads/2024/09/iBRoad2EPC-D5-5-EU-roadmap-for-uptake-of-iBRoad2EPC-schemes-2024-07-BPIE-1.pdf)
+- [DTU: One-Stop-Shop for parcelhuse](https://orbit.dtu.dk/en/publications/using-a-one-stop-shop-concept-to-guide-decisions-when-single-fami/)
+- [Verbraucherzentrale: iSFP](https://www.verbraucherzentrale.de/node/123940)
+- [42watt: iSFP Kosten](https://42watt.de/magazin/isfp-kosten)
+- [Reduco: iSFP 2026 Bonus](https://reduco.ai/blog/energieberatung/isfp-2026-lohnt-sich-bonus)
+- [Entrepreneur UK: Kestrix](https://uk.entrepreneur.com/entrepreneurs/entrepreneur-uks-london-100-kestrix/493232)
+- [News on the Block: Peabody + Kestrix](https://www.newsontheblock.com/news-opinion/peabody-and-partners-to-harness-thermal-imaging-tech-to-boost-retrofit-goals)
+- [Construction Management: Google Maps of heat loss](https://constructionmanagement.co.uk/can-the-google-maps-of-heat-loss-help-decarbonise-the-uk/)
+- [Aalborg budgetaftale 2026–2029](https://www.aalborg.dk/p/Filer%20-%20dispensation/%C3%98E%20Budget%20og%20regnskab/Budget%202026-2029/Budgetaftale-2026-2029.pdf)
