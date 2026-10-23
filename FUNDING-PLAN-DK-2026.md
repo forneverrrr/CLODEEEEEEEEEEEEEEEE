@@ -270,7 +270,7 @@
 
 Источники к разделу:
 - [Erhvervsstyrelsen: RSV](https://erhvervsstyrelsen.dk/vejledning-registrering-som-registreret-socialoekonomisk-virksomhed)
-- [Lovguiden: спрос о RSV](https://www.lovguiden.dk/folketinget/sager/20-spoergsmaal/104050)
+- [Lovguiden: вопрос в Folketinget о RSV](https://www.lovguiden.dk/folketinget/sager/20-spoergsmaal/104050)
 - [AAU Startup Program](https://www.en.innovate.aau.dk/students/aau-startup-program)
 - [AAU Startup Grant](https://students.aau.dk/choices-along-the-way-and-jobs/entrepreneurship-and-innovation/aau-startup-program/aau-startup-grant)
 - [AAU Entrepreneurs in Residence](https://www.innovate.aau.dk/om-innovate/beboere/entrepreneurs-in-residence)
