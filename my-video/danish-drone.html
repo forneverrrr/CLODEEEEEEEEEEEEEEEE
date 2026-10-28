@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root { --ground: #0a0807; --ink: #ffffff; --warm: #ffd9a0; --font-display: "Outfit", sans-serif; --font-mono: "Space Mono", monospace; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      .scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; }
+      .scene img { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; display: block; }
+      #vignette {
+        position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none;
+        background: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%);
+      }
+      #bloom {
+        position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; opacity: 0; pointer-events: none;
+        background: radial-gradient(ellipse at 50% 48%, rgba(255,226,170,0.95) 0%, rgba(255,200,130,0.55) 45%, rgba(255,190,110,0) 80%);
+      }
+      .hud { position: absolute; font-family: var(--font-mono); font-size: 28px; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,0.7); letter-spacing: 0.04em; }
+      #hudRec { left: 70px; top: 196px; }
+      #hudBat { right: 70px; top: 196px; text-align: right; }
+      #hudLoc { left: 70px; top: 1236px; }
+      #hudAlt { right: 70px; top: 1236px; text-align: right; }
+      .dot { display: inline-block; width: 16px; height: 16px; border-radius: 50%; background: #ff3b30; margin-right: 12px; vertical-align: -1px; }
+      .title {
+        position: absolute; left: 0; width: 1080px; text-align: center; color: var(--ink);
+        font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;
+        text-shadow: 0 4px 24px rgba(0,0,0,0.6);
+      }
+      #t1 { top: 330px; font-size: 84px; line-height: 1.04; }
+      #t1 small { display: block; margin-top: 18px; font-size: 32px; font-weight: 600; letter-spacing: 0.3em; color: var(--warm); }
+      #scrim2 { position: absolute; left: 0; top: 960px; width: 1080px; height: 420px; pointer-events: none; background: linear-gradient(180deg, rgba(30,18,8,0) 0%, rgba(30,18,8,0.55) 55%, rgba(30,18,8,0) 100%); }
+      #t2 { top: 1100px; font-size: 80px; }
+      #t2 small { display: block; margin-top: 14px; font-size: 30px; font-weight: 600; letter-spacing: 0.3em; color: var(--warm); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="danish" data-start="0" data-duration="14" data-width="1080" data-height="1920">
+
+      <div id="sceneA" class="clip scene" data-start="0" data-duration="6.0" data-track-index="1"><img id="imgA" src="assets/dk-street.png" alt="" /></div>
+      <div id="sceneB" class="clip scene" data-start="5.2" data-duration="4.3" data-track-index="2"><img id="imgB" src="assets/dk-door.png" alt="" /></div>
+      <div id="sceneC" class="clip scene" data-start="8.6" data-duration="5.4" data-track-index="3"><img id="imgC" src="assets/dk-living.png" alt="" /></div>
+
+      <div id="bloom" class="clip" data-start="8.0" data-duration="2.2" data-track-index="4"></div>
+      <div id="vignette" class="clip" data-start="0" data-duration="14" data-track-index="5"></div>
+
+      <div id="hudRec" class="clip hud" data-start="0" data-duration="14" data-track-index="6"><span class="dot" id="recdot"></span>REC 4K 30</div>
+      <div id="hudBat" class="clip hud" data-start="0" data-duration="14" data-track-index="6">BAT 87%</div>
+      <div id="hudLoc" class="clip hud" data-start="0" data-duration="14" data-track-index="6">DK 55.68N 12.57E</div>
+      <div id="hudAlt" class="clip hud" data-start="0" data-duration="14" data-track-index="6">ALT 3.2 m</div>
+
+      <div id="t1" class="clip title" data-start="0" data-duration="3.4" data-track-index="7">Et hjem<br />i Danmark<small>set fra en drone</small></div>
+      <div id="scrim2" class="clip" data-start="11.0" data-duration="3.0" data-track-index="7"></div>
+      <div id="t2" class="clip title" data-start="11.2" data-duration="2.8" data-track-index="7">Velkommen hjem<small>hygge starter her</small></div>
+
+      <audio id="pad" src="assets/future-pad.wav" data-start="0" data-duration="14" data-track-index="10" data-volume="0.3"></audio>
+      <audio id="hum" src="assets/dk-hum.wav" data-start="0" data-duration="14" data-track-index="11" data-volume="0.5"></audio>
+      <audio id="wind" src="assets/dk-wind.wav" data-start="0" data-duration="9.4" data-track-index="12" data-volume="0.6" data-fade-out="1.6"></audio>
+      <audio id="whoosh1" src="assets/dk-whoosh.wav" data-start="4.9" data-duration="1.4" data-track-index="13" data-volume="0.5"></audio>
+      <audio id="whoosh2" src="assets/dk-whoosh.wav" data-start="8.1" data-duration="1.4" data-track-index="13" data-volume="0.7"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const $ = (id) => document.getElementById(id);
+      const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+      const ease = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+      const easeIn = (x, p) => Math.pow(x, p);
+
+      // handheld / drone micro-motion: sum of sines, a pure function of time
+      function shake(t, amp) {
+        return {
+          x: amp * (3.0 * Math.sin(t * 7.1) + 1.6 * Math.sin(t * 13.3 + 1)),
+          y: amp * (2.4 * Math.sin(t * 5.7 + 2) + 1.4 * Math.sin(t * 11.9)),
+          r: amp * (0.12 * Math.sin(t * 3.1) + 0.05 * Math.sin(t * 8.7)),
+        };
+      }
+      function cam(img, ox, oy, s, tx, ty, rot, sh) {
+        img.style.transformOrigin = ox + "px " + oy + "px";
+        img.style.transform = "translate(" + (tx + sh.x) + "px," + (ty + sh.y) + "px) rotate(" + (rot + sh.r) + "deg) scale(" + s + ")";
+      }
+
+      const imgA = $("imgA"), imgB = $("imgB"), imgC = $("imgC");
+      const hudAlt = $("hudAlt"), hudLoc = $("hudLoc"), hudBat = $("hudBat"), recdot = $("recdot");
+
+      function renderAt(t) {
+        // A: forward flight down the street, vanishing point near (560, 800)
+        const ua = clamp(t / 6.0, 0, 1);
+        cam(imgA, 560, 820, 1 + 0.85 * ease(ua), -30 * ease(ua), 0, 2.2 * Math.sin(ua * 3.14159) - 1.0 * ua, shake(t, 1.0));
+
+        // B: close approach, then dive into the doorway (zoom mostly lands during the dissolve)
+        const ub = clamp((t - 5.2) / 4.3, 0, 1);
+        cam(imgB, 540, 930, 1 + 2.6 * easeIn(ub, 2.3), 0, 0, -1.2 * (1 - ub), shake(t, 0.8 + 1.4 * ub));
+
+        // C: slow glide through the living room
+        const uc = clamp((t - 8.6) / 5.4, 0, 1);
+        cam(imgC, 560, 1050, 1.08 + 0.42 * ease(uc), -70 * ease(uc), 20 * ease(uc), 0.8 - 1.6 * uc, shake(t, 0.7));
+
+        // HUD (outdoors vs indoors)
+        const indoor = t > 9.0;
+        const alt = indoor ? 1.6 + 0.1 * Math.sin(t * 2) : 3.2 + 0.5 * Math.sin(t * 1.3) + (t > 5 ? -0.6 * clamp((t - 5) / 3, 0, 1) : 0);
+        const spd = indoor ? 4 + 1 * Math.sin(t * 1.7) : 18 + 3 * Math.sin(t * 1.1);
+        hudAlt.textContent = "ALT " + alt.toFixed(1) + " m  " + Math.round(spd) + " km/h";
+        hudLoc.textContent = indoor ? "GPS SIGNAL LOST · INDOOR" : "DK 55.68N 12.57E";
+        hudBat.textContent = "BAT " + Math.round(87 - t * 0.35) + "%";
+        recdot.style.opacity = Math.sin(t * 5) > -0.2 ? 1 : 0.15;
+      }
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      renderAt(0);
+
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#imgB", { opacity: 0 }, { opacity: 1, duration: 0.8, ease: "power1.inOut" }, 5.2);
+      tl.fromTo("#imgC", { opacity: 0 }, { opacity: 1, duration: 0.9, ease: "power1.inOut" }, 8.6);
+      tl.fromTo("#bloom", { opacity: 0 }, { opacity: 0.85, duration: 0.7, ease: "power2.in" }, 8.0);
+      tl.fromTo("#bloom", { opacity: 0.85 }, { opacity: 0, duration: 0.9, ease: "power2.out", immediateRender: false }, 8.9);
+      tl.to("#t1", { opacity: 0, duration: 0.4, ease: "power2.in" }, 3.0);
+      tl.fromTo("#scrim2", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power2.out" }, 11.0);
+      tl.fromTo("#hudLoc", { opacity: 1 }, { opacity: 0, duration: 0.4 }, 10.8);
+      tl.fromTo("#hudAlt", { opacity: 1 }, { opacity: 0, duration: 0.4 }, 10.8);
+      tl.fromTo("#t2", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, 11.2);
+      window.__timelines["danish"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
