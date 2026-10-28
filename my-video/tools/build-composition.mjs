@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 const proj = new URL("..", import.meta.url).pathname.replace(/\/$/, "");
-const tr = JSON.parse(fs.readFileSync(`${proj}/assets/transcript.json`, "utf8"));
+const tr = JSON.parse(fs.readFileSync(`${proj}/assets/transcript-physics.json`, "utf8"));
 const raw = (Array.isArray(tr) ? tr : tr.words).map((w) => ({ text: w.text.trim(), start: w.start, end: w.end }));
 
 // merge "key" + "frames," into one caption word
