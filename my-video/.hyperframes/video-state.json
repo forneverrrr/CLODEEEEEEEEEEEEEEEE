@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "historyId": "38109ff9-a41c-4453-b318-a49129d46889",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "6a113838a27f17664b975753071997c5946b67f30c6d3d94c781d439c359f41a",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/6a/6a113838a27f17664b975753071997c5946b67f30c6d3d94c781d439c359f41a"
+    },
+    "meta.json": {
+      "hash": "a51009c54084236d8b2a17950d42ca2e931963f16f605266df77d5988420fda0",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/a5/a51009c54084236d8b2a17950d42ca2e931963f16f605266df77d5988420fda0"
+    },
+    "package.json": {
+      "hash": "a09a6d59eadca00adc554b67afac8c5ec5f904b55f6adc2315323dd8fd292116",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/a0/a09a6d59eadca00adc554b67afac8c5ec5f904b55f6adc2315323dd8fd292116"
+    },
+    "skills-lock.json": {
+      "hash": "2f8f1055a5409a60ee888bf539515bced8cfe39a56394319632b07200e82592b",
+      "content": "/root/.cache/hyperframes/history/38109ff9-a41c-4453-b318-a49129d46889/blobs/2f/2f8f1055a5409a60ee888bf539515bced8cfe39a56394319632b07200e82592b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a7718aaa-8207-43a2-b74e-d554ca7272f3",
+      "completedAt": 1793211712917,
+      "output": "/tmp/test.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}
