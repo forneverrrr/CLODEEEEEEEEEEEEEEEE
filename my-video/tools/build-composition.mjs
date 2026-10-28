@@ -1,0 +1,349 @@
+import fs from "node:fs";
+
+const proj = new URL("..", import.meta.url).pathname.replace(/\/$/, "");
+const tr = JSON.parse(fs.readFileSync(`${proj}/assets/transcript.json`, "utf8"));
+const raw = (Array.isArray(tr) ? tr : tr.words).map((w) => ({ text: w.text.trim(), start: w.start, end: w.end }));
+
+// merge "key" + "frames," into one caption word
+const words = [];
+for (let i = 0; i < raw.length; i++) {
+  if (raw[i].text.toLowerCase() === "key" && raw[i + 1]) {
+    words.push({ text: "keyframes,", start: raw[i].start, end: raw[i + 1].end });
+    i++;
+  } else words.push(raw[i]);
+}
+
+// groups: break at punctuation or 4 words
+const groups = [];
+let cur = [];
+for (const w of words) {
+  cur.push(w);
+  if (/[.,]$/.test(w.text) || cur.length >= 4) {
+    groups.push(cur);
+    cur = [];
+  }
+}
+if (cur.length) groups.push(cur);
+
+const r = (n) => Math.round(n * 1000) / 1000;
+let capHtml = "";
+let capJs = "";
+groups.forEach((g, gi) => {
+  const start = Math.max(0.1, g[0].start);
+  const next = groups[gi + 1] ? groups[gi + 1][0].start : null;
+  let end = g[g.length - 1].end + 0.12;
+  if (next !== null) end = Math.min(end, next);
+  const dur = r(end - start);
+  const spans = g
+    .map((w, wi) => `<span class="w" id="c${gi}w${wi}">${w.text.replace(/[.,]$/, "")}</span>`)
+    .join(" ");
+  capHtml += `      <div id="cap${gi}" class="clip cap" data-start="${r(start)}" data-duration="${dur}" data-track-index="5">${spans}</div>\n`;
+  capJs += `    tl.fromTo("#cap${gi}", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.12, ease: "power2.out" }, ${r(start)});\n`;
+  g.forEach((w, wi) => {
+    capJs += `    tl.fromTo("#c${gi}w${wi}", { color: "#ffffff" }, { color: "#b6ff5c", duration: 0.05 }, ${r(w.start)});\n`;
+  });
+  capJs += `    tl.to("#cap${gi}", { opacity: 0, duration: 0.1, ease: "power2.in" }, ${r(end - 0.1)});\n`;
+});
+
+const html = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ground: #0b1d17;
+        --ink: #ffffff;
+        --lime: #b6ff5c;
+        --font-display: "Archivo Black", sans-serif;
+        --font-mono: "Space Mono", monospace;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background-color: var(--ground);
+        background-image:
+          linear-gradient(rgba(182, 255, 92, 0.07) 2px, transparent 2px),
+          linear-gradient(90deg, rgba(182, 255, 92, 0.07) 2px, transparent 2px);
+        background-size: 90px 90px;
+      }
+      #stage { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+      .title {
+        position: absolute; left: 0; width: 1080px; top: 200px;
+        text-align: center; color: var(--ink);
+        font-family: var(--font-display); font-size: 100px; line-height: 1.02;
+        letter-spacing: -0.02em; text-transform: uppercase;
+      }
+      .title em { font-style: normal; color: var(--lime); }
+      #hud {
+        position: absolute; left: 0; width: 1080px; top: 1030px; text-align: center;
+        font-family: var(--font-mono); font-size: 32px; color: var(--lime); opacity: 0.85;
+      }
+      .chip {
+        position: absolute; left: 0; width: 1080px; top: 1098px; text-align: center;
+        font-family: var(--font-mono); font-weight: 700; font-size: 44px; color: #0b1d17;
+      }
+      .chip span {
+        display: inline-block; padding: 8px 26px; background: var(--lime); border-radius: 14px;
+      }
+      .cap {
+        position: absolute; left: 90px; width: 900px; top: 1190px; height: 140px;
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 54px; line-height: 1.05;
+        text-transform: uppercase; color: #fff; word-spacing: 0.15em;
+        text-shadow: 0 4px 0 rgba(0,0,0,0.55), 0 0 18px rgba(0,0,0,0.5);
+      }
+      .w { display: inline-block; margin: 0 0.14em; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="14.4" data-width="1080" data-height="1920">
+
+      <svg id="stage" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="bodyclip"><ellipse cx="520" cy="750" rx="240" ry="118" /></clipPath>
+        </defs>
+        <line x1="0" y1="1000" x2="1080" y2="1000" stroke="#b6ff5c" stroke-width="4" opacity="0.6" />
+        <g id="ticks"></g>
+        <g id="rig" transform="translate(540 1000) scale(1.3) translate(-607 -1000)">
+        <g id="cow">
+          <g id="legs-far"></g>
+          <g id="legs-near"></g>
+          <path id="tail-o" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+          <path id="tail" fill="none" stroke="#f6f3ec" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+          <ellipse id="tuft" rx="16" ry="26" fill="#111" />
+          <g id="headg">
+            <line x1="0" y1="0" x2="120" y2="50" stroke="#111" stroke-width="106" stroke-linecap="round" />
+            <line x1="0" y1="0" x2="120" y2="50" stroke="#f6f3ec" stroke-width="94" stroke-linecap="round" />
+            <ellipse cx="148" cy="64" rx="64" ry="50" transform="rotate(18 148 64)" fill="#f6f3ec" stroke="#111" stroke-width="6" />
+            <ellipse cx="200" cy="86" rx="40" ry="33" transform="rotate(18 200 86)" fill="#f2a9a0" stroke="#111" stroke-width="6" />
+            <circle cx="206" cy="80" r="5" fill="#111" /><circle cx="214" cy="96" r="5" fill="#111" />
+            <circle cx="140" cy="48" r="7" fill="#111" />
+            <path d="M118 18 q-6 -26 -26 -34 q8 22 12 40 z" fill="#efe6c8" stroke="#111" stroke-width="5" />
+            <g id="ear"><ellipse cx="96" cy="46" rx="38" ry="15" fill="#f6f3ec" stroke="#111" stroke-width="5" /><ellipse cx="96" cy="46" rx="26" ry="8" fill="#f2a9a0" /></g>
+          </g>
+          <g id="bodyg">
+            <ellipse cx="400" cy="873" rx="34" ry="22" fill="#f2a9a0" stroke="#111" stroke-width="5" />
+            <ellipse cx="520" cy="750" rx="240" ry="118" fill="#f6f3ec" />
+            <g clip-path="url(#bodyclip)" fill="#1a1a1a">
+              <ellipse cx="420" cy="700" rx="62" ry="42" transform="rotate(-18 420 700)" />
+              <ellipse cx="610" cy="780" rx="70" ry="46" transform="rotate(12 610 780)" />
+              <ellipse cx="500" cy="840" rx="44" ry="30" />
+              <ellipse cx="320" cy="790" rx="36" ry="48" />
+              <ellipse cx="690" cy="690" rx="38" ry="30" />
+            </g>
+            <ellipse cx="520" cy="750" rx="240" ry="118" fill="none" stroke="#111" stroke-width="6" />
+          </g>
+        </g>
+        <g id="skel" opacity="0"></g>
+        </g>
+      </svg>
+
+      <div id="title1" class="clip title" data-start="0" data-duration="10.4" data-track-index="1">THIS COW<br /><em>IS JUST MATH</em></div>
+      <div id="title2" class="clip title" data-start="10.4" data-duration="4" data-track-index="1" style="font-size:92px">0 KEYFRAMES.<br /><em>100% PHYSICS.</em></div>
+
+      <div id="hud" class="clip" data-start="0" data-duration="14.4" data-track-index="2">t = 0.00 s · keyframes: 0</div>
+
+      <div id="chip1" class="clip chip" data-start="4.5" data-duration="1.6" data-track-index="3"><span>F = −k·x − c·v</span></div>
+      <div id="chip2" class="clip chip" data-start="6.1" data-duration="1.75" data-track-index="3"><span>a = 9.81 m/s²</span></div>
+      <div id="chip3" class="clip chip" data-start="7.85" data-duration="2.5" data-track-index="3"><span>verlet · dt = 1/240 s</span></div>
+
+${capHtml}
+      <audio id="voice" src="assets/voice.wav" data-start="0" data-duration="12.18" data-track-index="8" data-volume="1"></audio>
+      <audio id="moo" src="assets/moo.wav" data-start="12.45" data-duration="1.5" data-track-index="9" data-volume="0.9"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const NS = "http://www.w3.org/2000/svg";
+      const DUR = 14.4;
+
+      // ---- gait + rig constants ----
+      const STRIDE = 1.1, W = (2 * Math.PI) / STRIDE, S = 70, LIFT = 40, GY = 1000, HIPY = 832, L1 = 95, L2 = 100;
+      const LEGS = [
+        { id: "rl", x: 335, ph: 0.0, bend: 1, far: true },
+        { id: "fl", x: 685, ph: 0.25, bend: -1, far: true },
+        { id: "rr", x: 365, ph: 0.5, bend: 1, far: false },
+        { id: "fr", x: 715, ph: 0.75, bend: -1, far: false },
+      ];
+      const bob = (t) => -7 * Math.cos(2 * W * t);
+      const bobAcc = (t) => 7 * 4 * W * W * Math.cos(2 * W * t);
+
+      // ---- deterministic physics, precomputed at 240 Hz ----
+      const DT = 1 / 240, STEPS = Math.ceil(DUR / DT) + 2, NT = 6, SEG = 30;
+      const headA = new Float32Array(STEPS), earA = new Float32Array(STEPS);
+      const tail = new Float32Array(STEPS * NT * 2);
+      (function simulate() {
+        let ha = 0, hv = 0, ea = 0, ev = 0;
+        const px = [], py = [], qx = [], qy = [];
+        for (let i = 0; i < NT; i++) { px.push(285 - i * 4); py.push(730 + i * SEG); qx.push(px[i]); qy.push(py[i]); }
+        const kicks = [1.9, 5.2, 8.5, 11.4];
+        let kickIdx = 0;
+        for (let s = 0; s < STEPS; s++) {
+          const t = s * DT;
+          const ay = bobAcc(t);
+          // head: spring-damper fed by body acceleration plus a slow sway
+          const target = 3 * Math.sin(W * t);
+          const acc = -180 * (ha - target) - 9 * hv - 0.5 * ay;
+          hv += acc * DT; ha += hv * DT;
+          // ear: stiffer spring, flicked at set moments
+          while (kickIdx < kicks.length && t >= kicks[kickIdx]) { ev += 900; kickIdx++; }
+          const eacc = -300 * ea - 8 * ev - 1.5 * ay;
+          ev += eacc * DT; ea += ev * DT;
+          headA[s] = ha; earA[s] = ea;
+          // tail: verlet chain pinned at the rump
+          const flick = t > 8.2 && t < 8.35 ? 9000 : 0;
+          for (let i = 1; i < NT; i++) {
+            const vx = (px[i] - qx[i]) * 0.992, vy = (py[i] - qy[i]) * 0.992;
+            qx[i] = px[i]; qy[i] = py[i];
+            const wind = 260 * Math.sin(2 * Math.PI * 0.7 * t + i) + (i > 2 ? flick : 0);
+            const rest = -90 * (px[i] - (285 - i * 4));
+            px[i] += vx + (wind + rest) * DT * DT;
+            py[i] += vy + 1400 * DT * DT;
+          }
+          px[0] = 285; py[0] = 730 + bob(t); qx[0] = px[0]; qy[0] = py[0];
+          for (let it = 0; it < 6; it++) {
+            for (let i = 0; i < NT - 1; i++) {
+              const dx = px[i + 1] - px[i], dy = py[i + 1] - py[i];
+              const d = Math.hypot(dx, dy) || 1e-6, diff = (d - SEG) / d;
+              if (i === 0) { px[1] -= dx * diff; py[1] -= dy * diff; }
+              else { px[i] += dx * diff * 0.5; py[i] += dy * diff * 0.5; px[i + 1] -= dx * diff * 0.5; py[i + 1] -= dy * diff * 0.5; }
+            }
+            px[0] = 285; py[0] = 730 + bob(t);
+          }
+          for (let i = 0; i < NT; i++) { tail[(s * NT + i) * 2] = px[i]; tail[(s * NT + i) * 2 + 1] = py[i]; }
+        }
+      })();
+
+      function samp(arr, stride, t, k) {
+        const f = Math.min(Math.max(t / DT, 0), STEPS - 2), i = Math.floor(f), a = f - i;
+        return arr[i * stride + k] * (1 - a) + arr[(i + 1) * stride + k] * a;
+      }
+
+      function foot(theta) {
+        const th = ((theta % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+        if (th < Math.PI) return { x: S - (2 * S * th) / Math.PI, y: 0 };
+        const s = (th - Math.PI) / Math.PI;
+        return { x: -S + 2 * S * (0.5 - 0.5 * Math.cos(Math.PI * s)), y: -LIFT * Math.sin(Math.PI * s) };
+      }
+
+      function ik(hx, hy, fx, fy, bend) {
+        let dx = fx - hx, dy = fy - hy, d = Math.hypot(dx, dy);
+        d = Math.min(Math.max(d, 20), L1 + L2 - 0.5);
+        const ux = dx / Math.hypot(dx, dy), uy = dy / Math.hypot(dx, dy);
+        const a = (L1 * L1 - L2 * L2 + d * d) / (2 * d), h = Math.sqrt(Math.max(L1 * L1 - a * a, 0));
+        return { kx: hx + ux * a - uy * h * bend, ky: hy + uy * a + ux * h * bend, fx: hx + ux * d, fy: hy + uy * d };
+      }
+
+      // ---- DOM for the rig ----
+      const mk = (parent, tag, attrs) => {
+        const el = document.createElementNS(NS, tag);
+        for (const k in attrs) el.setAttribute(k, attrs[k]);
+        parent.appendChild(el);
+        return el;
+      };
+      const legEls = LEGS.map((lg) => {
+        const g = document.getElementById(lg.far ? "legs-far" : "legs-near");
+        const col = lg.far ? "#cfd8d2" : "#f6f3ec";
+        return {
+          o: mk(g, "path", { fill: "none", stroke: "#111", "stroke-width": 50, "stroke-linecap": "round", "stroke-linejoin": "round" }),
+          p: mk(g, "path", { fill: "none", stroke: col, "stroke-width": 38, "stroke-linecap": "round", "stroke-linejoin": "round" }),
+          h: mk(g, "ellipse", { rx: 22, ry: 15, fill: "#2a1b12" }),
+        };
+      });
+      const ticks = document.getElementById("ticks");
+      const tickEls = [];
+      for (let i = 0; i < 14; i++) tickEls.push(mk(ticks, "line", { y1: 1000, y2: 1020, stroke: "#b6ff5c", "stroke-width": 4, opacity: 0.5 }));
+      const skel = document.getElementById("skel");
+      const skelLines = [], skelDots = [];
+      for (let i = 0; i < 9; i++) skelLines.push(mk(skel, "polyline", { fill: "none", stroke: "#b6ff5c", "stroke-width": 6, "stroke-linecap": "round", "stroke-linejoin": "round" }));
+      for (let i = 0; i < 22; i++) skelDots.push(mk(skel, "circle", { r: 11, fill: "#0b1d17", stroke: "#b6ff5c", "stroke-width": 5 }));
+      const hud = document.getElementById("hud");
+      const $ = (id) => document.getElementById(id);
+
+      function renderAt(t) {
+        const b = bob(t);
+        const dots = [];
+        LEGS.forEach((lg, i) => {
+          const f = foot(W * t + lg.ph * 2 * Math.PI);
+          const r = ik(lg.x, HIPY + b, lg.x + f.x, GY + f.y, lg.bend);
+          const d = "M" + lg.x + " " + (HIPY + b) + " L" + r.kx + " " + r.ky + " L" + r.fx + " " + r.fy;
+          legEls[i].o.setAttribute("d", d);
+          legEls[i].p.setAttribute("d", d);
+          legEls[i].h.setAttribute("cx", r.fx + 4);
+          legEls[i].h.setAttribute("cy", r.fy + 8);
+          skelLines[i].setAttribute("points", lg.x + "," + (HIPY + b) + " " + r.kx + "," + r.ky + " " + r.fx + "," + r.fy);
+          dots.push([lg.x, HIPY + b], [r.kx, r.ky], [r.fx, r.fy]);
+        });
+        $("bodyg").setAttribute("transform", "translate(0 " + b + ")");
+        const ha = samp(headA, 1, t, 0), ea = samp(earA, 1, t, 0);
+        $("headg").setAttribute("transform", "translate(690 " + (712 + b) + ") rotate(" + ha + ")");
+        $("ear").setAttribute("transform", "rotate(" + ea + " 112 46)");
+        let tp = "", tpts = [];
+        for (let i = 0; i < NT; i++) {
+          const x = samp(tail, NT * 2, t, i * 2), y = samp(tail, NT * 2, t, i * 2 + 1);
+          tp += (i ? " L" : "M") + x + " " + y;
+          tpts.push(x + "," + y);
+          if (i > 0) dots.push([x, y]);
+        }
+        $("tail").setAttribute("d", tp);
+        $("tail-o").setAttribute("d", tp);
+        const last = tpts[NT - 1].split(",");
+        $("tuft").setAttribute("cx", last[0]);
+        $("tuft").setAttribute("cy", +last[1] + 14);
+        // skeleton: spine, tail, neck
+        const hr = ha * Math.PI / 180, c = Math.cos(hr), s2 = Math.sin(hr);
+        const nx = 690, ny = 712 + b;
+        const head = [nx + c * 148 - s2 * 64, ny + s2 * 148 + c * 64];
+        skelLines[4].setAttribute("points", "285," + (730 + b) + " 520," + (750 + b) + " " + nx + "," + ny + " " + head[0] + "," + head[1]);
+        skelLines[5].setAttribute("points", tpts.join(" "));
+        dots.push([285, 730 + b], [520, 750 + b], [nx, ny], head);
+        skelDots.forEach((el, i) => {
+          const p = dots[i];
+          if (p) { el.setAttribute("cx", p[0]); el.setAttribute("cy", p[1]); el.setAttribute("opacity", 1); }
+          else el.setAttribute("opacity", 0);
+        });
+        for (let i = 6; i < 9; i++) skelLines[i].setAttribute("points", "");
+        // ground ticks scroll at the planted-foot speed
+        const v = (4 * S * 1.3) / STRIDE, sp = 90;
+        tickEls.forEach((el, i) => {
+          const x = (((i * sp - v * t) % (14 * sp)) + 14 * sp) % (14 * sp) - sp;
+          el.setAttribute("x1", x); el.setAttribute("x2", x);
+        });
+        hud.textContent = "t = " + t.toFixed(2).padStart(5, "0") + " s · keyframes: 0";
+      }
+
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      renderAt(0);
+
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#cow", { opacity: 1 }, { opacity: 0.3, duration: 0.4, ease: "power2.inOut" }, 4.3);
+      tl.fromTo("#cow", { opacity: 0.3 }, { opacity: 1, duration: 0.4, ease: "power2.inOut", immediateRender: false }, 9.6);
+      tl.fromTo("#skel", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.inOut" }, 4.3);
+      tl.fromTo("#skel", { opacity: 1 }, { opacity: 0, duration: 0.4, ease: "power2.inOut", immediateRender: false }, 9.6);
+      tl.fromTo("#title1", { scale: 1 }, { scale: 1.04, duration: 10.3, ease: "none" }, 0);
+      tl.fromTo("#title2", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 10.4);
+      [["#chip1", 4.5, 1.6], ["#chip2", 6.1, 1.75], ["#chip3", 7.85, 2.5]].forEach(([id, st, du]) => {
+        tl.fromTo(id, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2, ease: "power3.out" }, st);
+        tl.to(id, { opacity: 0, duration: 0.12, ease: "power2.in" }, st + du - 0.14);
+      });
+${capJs}
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
+`;
+fs.writeFileSync(`${proj}/index.html`, html);
+console.log("groups:", groups.map((g) => g.map((w) => w.text).join(" ")).join(" | "));
